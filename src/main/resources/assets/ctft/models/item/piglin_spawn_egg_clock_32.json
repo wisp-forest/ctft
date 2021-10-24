@@ -1,0 +1,9 @@
+
+{
+  "parent": "ctft:item/clock",
+  "textures": {
+    "0": "ctft:items/piglin_clock_32",
+    "1": "ctft:items/clock_32"
+  }
+}
+            

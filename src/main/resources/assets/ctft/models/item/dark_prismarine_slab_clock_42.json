@@ -1,0 +1,9 @@
+
+{
+  "parent": "ctft:item/clock",
+  "textures": {
+    "0": "ctft:items/dark_prismarine_clock_42",
+    "1": "ctft:items/clock_42"
+  }
+}
+            

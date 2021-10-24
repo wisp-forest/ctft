@@ -1,0 +1,8 @@
+
+{
+  "parent": "item/fishing_rod",
+  "textures": {
+    "layer0": "ctft:items/cyan_glazed_terracotta_fishing_rod"
+  }
+}
+        

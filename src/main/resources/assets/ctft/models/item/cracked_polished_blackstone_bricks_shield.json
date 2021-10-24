@@ -1,0 +1,8 @@
+
+    {
+      "parent": "ctft:item/shield",
+      "textures": {
+        "0": "ctft:items/cracked_polished_blackstone_bricks_shield_base"
+      }
+    }
+            

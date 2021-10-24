@@ -1,0 +1,8 @@
+
+{
+  "parent": "item/fishing_rod",
+  "textures": {
+    "layer0": "ctft:items/respawn_anchor_side3_fishing_rod"
+  }
+}
+        

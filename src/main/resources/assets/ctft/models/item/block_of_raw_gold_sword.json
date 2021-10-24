@@ -1,0 +1,8 @@
+
+    {
+      "parent": "item/handheld",
+      "textures": {
+        "layer0": "ctft:items/raw_gold_block_sword"
+      }
+    }
+            

@@ -1,0 +1,9 @@
+
+{
+  "parent": "ctft:item/clock",
+  "textures": {
+    "0": "ctft:items/writable_book_clock_59",
+    "1": "ctft:items/clock_59"
+  }
+}
+            

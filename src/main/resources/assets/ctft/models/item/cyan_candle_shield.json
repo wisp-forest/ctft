@@ -1,0 +1,8 @@
+
+    {
+      "parent": "ctft:item/shield",
+      "textures": {
+        "0": "ctft:items/cyan_candle_shield_base"
+      }
+    }
+            

@@ -1,0 +1,8 @@
+
+{
+  "parent": "item/fishing_rod",
+  "textures": {
+    "layer0": "ctft:items/quartz_block_bottom_fishing_rod"
+  }
+}
+        

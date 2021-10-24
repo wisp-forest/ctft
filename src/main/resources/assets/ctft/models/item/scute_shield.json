@@ -1,0 +1,8 @@
+
+    {
+      "parent": "ctft:item/shield",
+      "textures": {
+        "0": "ctft:items/scute_shield_base"
+      }
+    }
+            

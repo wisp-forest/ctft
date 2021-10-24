@@ -1,0 +1,8 @@
+
+{
+  "parent": "item/fishing_rod",
+  "textures": {
+    "layer0": "ctft:items/enchanted_book_fishing_rod"
+  }
+}
+        

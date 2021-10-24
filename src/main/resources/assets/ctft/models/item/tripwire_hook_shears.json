@@ -1,0 +1,8 @@
+
+    {
+      "parent": "item/handheld",
+      "textures": {
+        "layer0": "ctft:items/tripwire_hook_shears"
+      }
+    }
+            

@@ -1,0 +1,9 @@
+
+{
+  "parent": "ctft:item/clock",
+  "textures": {
+    "0": "ctft:items/snowball_clock_02",
+    "1": "ctft:items/clock_02"
+  }
+}
+            

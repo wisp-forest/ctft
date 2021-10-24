@@ -1,0 +1,8 @@
+
+    {
+      "parent": "item/handheld",
+      "textures": {
+        "layer0": "ctft:items/sculk_sensor_bottom_sword"
+      }
+    }
+            

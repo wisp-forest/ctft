@@ -1,0 +1,9 @@
+
+{
+  "parent": "ctft:item/clock",
+  "textures": {
+    "0": "ctft:items/respawn_anchor_side3_clock_30",
+    "1": "ctft:items/clock_30"
+  }
+}
+            

@@ -1,0 +1,8 @@
+
+    {
+      "parent": "ctft:item/shield",
+      "textures": {
+        "0": "ctft:items/flower_pot_shield_base"
+      }
+    }
+            

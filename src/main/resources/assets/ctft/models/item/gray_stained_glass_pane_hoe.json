@@ -1,0 +1,8 @@
+
+    {
+      "parent": "item/handheld",
+      "textures": {
+        "layer0": "ctft:items/gray_stained_glass_hoe"
+      }
+    }
+            

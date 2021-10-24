@@ -1,0 +1,9 @@
+
+{
+  "parent": "ctft:item/clock",
+  "textures": {
+    "0": "ctft:items/player_head_clock_60",
+    "1": "ctft:items/clock_60"
+  }
+}
+            

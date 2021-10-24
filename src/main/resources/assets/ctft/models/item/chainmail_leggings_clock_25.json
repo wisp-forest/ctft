@@ -1,0 +1,9 @@
+
+{
+  "parent": "ctft:item/clock",
+  "textures": {
+    "0": "ctft:items/chainmail_leggings_clock_25",
+    "1": "ctft:items/clock_25"
+  }
+}
+            

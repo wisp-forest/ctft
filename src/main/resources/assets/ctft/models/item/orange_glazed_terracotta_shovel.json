@@ -1,0 +1,8 @@
+
+    {
+      "parent": "item/handheld",
+      "textures": {
+        "layer0": "ctft:items/orange_glazed_terracotta_shovel"
+      }
+    }
+            

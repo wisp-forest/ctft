@@ -1,0 +1,8 @@
+
+{
+  "parent": "item/fishing_rod",
+  "textures": {
+    "layer0": "ctft:items/popped_chorus_fruit_fishing_rod"
+  }
+}
+        

@@ -1,0 +1,8 @@
+
+{
+  "parent": "item/fishing_rod",
+  "textures": {
+    "layer0": "ctft:items/ancient_debris_top_fishing_rod"
+  }
+}
+        

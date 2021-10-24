@@ -1,0 +1,8 @@
+
+{
+  "parent": "item/fishing_rod",
+  "textures": {
+    "layer0": "ctft:items/stripped_crimson_stem_top_fishing_rod"
+  }
+}
+        

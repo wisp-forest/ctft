@@ -1,0 +1,8 @@
+
+{
+  "parent": "item/fishing_rod",
+  "textures": {
+    "layer0": "ctft:items/powder_snow_bucket_fishing_rod"
+  }
+}
+        

@@ -1,0 +1,9 @@
+
+{
+  "parent": "ctft:item/clock",
+  "textures": {
+    "0": "ctft:items/soul_soil_clock_21",
+    "1": "ctft:items/clock_21"
+  }
+}
+            

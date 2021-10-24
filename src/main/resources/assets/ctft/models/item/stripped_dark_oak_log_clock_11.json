@@ -1,0 +1,9 @@
+
+{
+  "parent": "ctft:item/clock",
+  "textures": {
+    "0": "ctft:items/stripped_dark_oak_log_top_clock_11",
+    "1": "ctft:items/clock_11"
+  }
+}
+            

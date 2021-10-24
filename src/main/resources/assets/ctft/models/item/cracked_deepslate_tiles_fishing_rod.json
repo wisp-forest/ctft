@@ -1,0 +1,8 @@
+
+{
+  "parent": "item/fishing_rod",
+  "textures": {
+    "layer0": "ctft:items/cracked_deepslate_tiles_fishing_rod"
+  }
+}
+        

@@ -1,0 +1,9 @@
+
+{
+  "parent": "ctft:item/clock",
+  "textures": {
+    "0": "ctft:items/crying_obsidian_clock_50",
+    "1": "ctft:items/clock_50"
+  }
+}
+            

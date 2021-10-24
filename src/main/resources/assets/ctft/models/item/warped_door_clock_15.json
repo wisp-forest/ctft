@@ -1,0 +1,9 @@
+
+{
+  "parent": "ctft:item/clock",
+  "textures": {
+    "0": "ctft:items/warped_door_clock_15",
+    "1": "ctft:items/clock_15"
+  }
+}
+            

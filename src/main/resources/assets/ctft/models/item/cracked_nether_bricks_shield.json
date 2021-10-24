@@ -1,0 +1,8 @@
+
+    {
+      "parent": "ctft:item/shield",
+      "textures": {
+        "0": "ctft:items/cracked_nether_bricks_shield_base"
+      }
+    }
+            

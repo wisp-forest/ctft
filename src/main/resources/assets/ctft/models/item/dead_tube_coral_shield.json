@@ -1,0 +1,8 @@
+
+    {
+      "parent": "ctft:item/shield",
+      "textures": {
+        "0": "ctft:items/dead_tube_coral_shield_base"
+      }
+    }
+            

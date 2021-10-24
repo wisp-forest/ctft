@@ -1,0 +1,8 @@
+
+{
+  "parent": "item/fishing_rod",
+  "textures": {
+    "layer0": "ctft:items/cartography_table_side2_fishing_rod"
+  }
+}
+        

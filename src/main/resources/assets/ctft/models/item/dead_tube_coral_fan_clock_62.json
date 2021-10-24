@@ -1,0 +1,9 @@
+
+{
+  "parent": "ctft:item/clock",
+  "textures": {
+    "0": "ctft:items/dead_tube_coral_fan_clock_62",
+    "1": "ctft:items/clock_62"
+  }
+}
+            

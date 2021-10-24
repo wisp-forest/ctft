@@ -1,0 +1,8 @@
+
+{
+  "parent": "item/fishing_rod",
+  "textures": {
+    "layer0": "ctft:items/pink_stained_glass_fishing_rod"
+  }
+}
+        

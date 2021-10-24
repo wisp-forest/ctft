@@ -1,0 +1,9 @@
+
+{
+  "parent": "ctft:item/clock",
+  "textures": {
+    "0": "ctft:items/end_stone_bricks_clock_38",
+    "1": "ctft:items/clock_38"
+  }
+}
+            

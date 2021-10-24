@@ -1,0 +1,406 @@
+
+{
+  "parent": "ctft:item/clock",
+  "textures": {
+    "0": "ctft:items/vex_clock",
+	"1": "ctft:items/vex_clock_00"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "time": 0
+      },
+      "model": "ctft:items/vex_clock_00"
+    },
+    {
+      "predicate": {
+        "time": 1
+      },
+      "model": "ctft:items/vex_clock_01"
+    },
+    {
+      "predicate": {
+        "time": 2
+      },
+      "model": "ctft:items/vex_clock_02"
+    },
+    {
+      "predicate": {
+        "time": 3
+      },
+      "model": "ctft:items/vex_clock_03"
+    },
+    {
+      "predicate": {
+        "time": 4
+      },
+      "model": "ctft:items/vex_clock_04"
+    },
+    {
+      "predicate": {
+        "time": 5
+      },
+      "model": "ctft:items/vex_clock_05"
+    },
+    {
+      "predicate": {
+        "time": 6
+      },
+      "model": "ctft:items/vex_clock_06"
+    },
+    {
+      "predicate": {
+        "time": 7
+      },
+      "model": "ctft:items/vex_clock_07"
+    },
+    {
+      "predicate": {
+        "time": 8
+      },
+      "model": "ctft:items/vex_clock_08"
+    },
+    {
+      "predicate": {
+        "time": 9
+      },
+      "model": "ctft:items/vex_clock_09"
+    },
+    {
+      "predicate": {
+        "time": 10
+      },
+      "model": "ctft:items/vex_clock_10"
+    },
+    {
+      "predicate": {
+        "time": 11
+      },
+      "model": "ctft:items/vex_clock_11"
+    },
+    {
+      "predicate": {
+        "time": 12
+      },
+      "model": "ctft:items/vex_clock_12"
+    },
+    {
+      "predicate": {
+        "time": 13
+      },
+      "model": "ctft:items/vex_clock_13"
+    },
+    {
+      "predicate": {
+        "time": 14
+      },
+      "model": "ctft:items/vex_clock_14"
+    },
+    {
+      "predicate": {
+        "time": 15
+      },
+      "model": "ctft:items/vex_clock_15"
+    },
+    {
+      "predicate": {
+        "time": 16
+      },
+      "model": "ctft:items/vex_clock_16"
+    },
+    {
+      "predicate": {
+        "time": 17
+      },
+      "model": "ctft:items/vex_clock_17"
+    },
+    {
+      "predicate": {
+        "time": 18
+      },
+      "model": "ctft:items/vex_clock_18"
+    },
+    {
+      "predicate": {
+        "time": 19
+      },
+      "model": "ctft:items/vex_clock_19"
+    },
+    {
+      "predicate": {
+        "time": 20
+      },
+      "model": "ctft:items/vex_clock_20"
+    },
+    {
+      "predicate": {
+        "time": 21
+      },
+      "model": "ctft:items/vex_clock_21"
+    },
+    {
+      "predicate": {
+        "time": 22
+      },
+      "model": "ctft:items/vex_clock_22"
+    },
+    {
+      "predicate": {
+        "time": 23
+      },
+      "model": "ctft:items/vex_clock_23"
+    },
+    {
+      "predicate": {
+        "time": 24
+      },
+      "model": "ctft:items/vex_clock_24"
+    },
+    {
+      "predicate": {
+        "time": 25
+      },
+      "model": "ctft:items/vex_clock_25"
+    },
+    {
+      "predicate": {
+        "time": 26
+      },
+      "model": "ctft:items/vex_clock_26"
+    },
+    {
+      "predicate": {
+        "time": 27
+      },
+      "model": "ctft:items/vex_clock_27"
+    },
+    {
+      "predicate": {
+        "time": 28
+      },
+      "model": "ctft:items/vex_clock_28"
+    },
+    {
+      "predicate": {
+        "time": 29
+      },
+      "model": "ctft:items/vex_clock_29"
+    },
+    {
+      "predicate": {
+        "time": 30
+      },
+      "model": "ctft:items/vex_clock_30"
+    },
+    {
+      "predicate": {
+        "time": 31
+      },
+      "model": "ctft:items/vex_clock_31"
+    },
+    {
+      "predicate": {
+        "time": 32
+      },
+      "model": "ctft:items/vex_clock_32"
+    },
+    {
+      "predicate": {
+        "time": 33
+      },
+      "model": "ctft:items/vex_clock_33"
+    },
+    {
+      "predicate": {
+        "time": 34
+      },
+      "model": "ctft:items/vex_clock_32"
+    },
+    {
+      "predicate": {
+        "time": 35
+      },
+      "model": "ctft:items/vex_clock_33"
+    },
+    {
+      "predicate": {
+        "time": 36
+      },
+      "model": "ctft:items/vex_clock_34"
+    },
+    {
+      "predicate": {
+        "time": 37
+      },
+      "model": "ctft:items/vex_clock_35"
+    },
+    {
+      "predicate": {
+        "time": 36
+      },
+      "model": "ctft:items/vex_clock_36"
+    },
+    {
+      "predicate": {
+        "time": 37
+      },
+      "model": "ctft:items/vex_clock_37"
+    },
+    {
+      "predicate": {
+        "time": 38
+      },
+      "model": "ctft:items/vex_clock_38"
+    },
+    {
+      "predicate": {
+        "time": 39
+      },
+      "model": "ctft:items/vex_clock_39"
+    },
+    {
+      "predicate": {
+        "time": 40
+      },
+      "model": "ctft:items/vex_clock_40"
+    },
+    {
+      "predicate": {
+        "time": 41
+      },
+      "model": "ctft:items/vex_clock_41"
+    },
+    {
+      "predicate": {
+        "time": 42
+      },
+      "model": "ctft:items/vex_clock_42"
+    },
+    {
+      "predicate": {
+        "time": 43
+      },
+      "model": "ctft:items/vex_clock_43"
+    },
+    {
+      "predicate": {
+        "time": 44
+      },
+      "model": "ctft:items/vex_clock_44"
+    },
+    {
+      "predicate": {
+        "time": 45
+      },
+      "model": "ctft:items/vex_clock_45"
+    },
+    {
+      "predicate": {
+        "time": 46
+      },
+      "model": "ctft:items/vex_clock_46"
+    },
+    {
+      "predicate": {
+        "time": 47
+      },
+      "model": "ctft:items/vex_clock_47"
+    },
+    {
+      "predicate": {
+        "time": 48
+      },
+      "model": "ctft:items/vex_clock_48"
+    },
+    {
+      "predicate": {
+        "time": 49
+      },
+      "model": "ctft:items/vex_clock_49"
+    },
+    {
+      "predicate": {
+        "time": 50
+      },
+      "model": "ctft:items/vex_clock_50"
+    },
+    {
+      "predicate": {
+        "time": 51
+      },
+      "model": "ctft:items/vex_clock_51"
+    },
+    {
+      "predicate": {
+        "time": 52
+      },
+      "model": "ctft:items/vex_clock_52"
+    },
+    {
+      "predicate": {
+        "time": 53
+      },
+      "model": "ctft:items/vex_clock_53"
+    },
+    {
+      "predicate": {
+        "time": 54
+      },
+      "model": "ctft:items/vex_clock_54"
+    },
+    {
+      "predicate": {
+        "time": 55
+      },
+      "model": "ctft:items/vex_clock_55"
+    },
+    {
+      "predicate": {
+        "time": 56
+      },
+      "model": "ctft:items/vex_clock_56"
+    },
+    {
+      "predicate": {
+        "time": 57
+      },
+      "model": "ctft:items/vex_clock_57"
+    },
+    {
+      "predicate": {
+        "time": 58
+      },
+      "model": "ctft:items/vex_clock_58"
+    },
+    {
+      "predicate": {
+        "time": 59
+      },
+      "model": "ctft:items/vex_clock_59"
+    },
+    {
+      "predicate": {
+        "time": 60
+      },
+      "model": "ctft:items/vex_clock_60"
+    },
+    {
+      "predicate": {
+        "time": 61
+      },
+      "model": "ctft:items/vex_clock_61"
+    },
+    {
+      "predicate": {
+        "time": 62
+      },
+      "model": "ctft:items/vex_clock_62"
+    },
+    {
+      "predicate": {
+        "time": 63
+      },
+      "model": "ctft:items/vex_clock_63"
+    }
+}
+        

@@ -1,0 +1,8 @@
+
+{
+  "parent": "item/fishing_rod",
+  "textures": {
+    "layer0": "ctft:items/acacia_trapdoor_fishing_rod"
+  }
+}
+        

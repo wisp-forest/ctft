@@ -1,0 +1,9 @@
+
+{
+  "parent": "ctft:item/clock",
+  "textures": {
+    "0": "ctft:items/skull_banner_pattern_clock_27",
+    "1": "ctft:items/clock_27"
+  }
+}
+            

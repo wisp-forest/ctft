@@ -1,0 +1,8 @@
+
+    {
+      "parent": "item/handheld",
+      "textures": {
+        "layer0": "ctft:items/medium_amethyst_bud_shovel"
+      }
+    }
+            

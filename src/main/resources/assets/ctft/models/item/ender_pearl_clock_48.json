@@ -1,0 +1,9 @@
+
+{
+  "parent": "ctft:item/clock",
+  "textures": {
+    "0": "ctft:items/ender_pearl_clock_48",
+    "1": "ctft:items/clock_48"
+  }
+}
+            
