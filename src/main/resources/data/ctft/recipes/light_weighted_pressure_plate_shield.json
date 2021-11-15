@@ -1,0 +1,23 @@
+
+{
+  "group": "Light Weighted Pressure Plate Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:light_weighted_pressure_plate"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:light_weighted_pressure_plate_shield",
+    "count": 1
+  }
+}
+        

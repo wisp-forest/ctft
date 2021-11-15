@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:polar_bear_spawn_egg"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:polar_bear_spawn_egg_sword",
+			"ctft:polar_bear_spawn_egg_pickaxe",
+			"ctft:polar_bear_spawn_egg_axe",
+			"ctft:polar_bear_spawn_egg_shovel",
+			"ctft:polar_bear_spawn_egg_hoe",
+			"ctft:polar_bear_spawn_egg_shield",
+			"ctft:polar_bear_spawn_egg_fishing_rod",
+			"ctft:polar_bear_spawn_egg_compass",
+			"ctft:polar_bear_spawn_egg_clock",
+			"ctft:polar_bear_spawn_egg_helmet",
+			"ctft:polar_bear_spawn_egg_chestplate",
+			"ctft:polar_bear_spawn_egg_leggings",
+			"ctft:polar_bear_spawn_egg_boots",
+			"ctft:polar_bear_spawn_egg_shears",
+			"ctft:polar_bear_spawn_egg_horse_armor",
+			"ctft:polar_bear_spawn_egg_bow"
+		]
+	}
+}

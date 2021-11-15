@@ -1,0 +1,23 @@
+
+{
+  "group": "Debug Stick Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:debug_stick"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:debug_stick_bow",
+    "count": 1
+  }
+}
+        

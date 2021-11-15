@@ -1,0 +1,23 @@
+
+{
+  "group": "Waxed Weathered Cut Copper Slab Pickaxe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:waxed_weathered_cut_copper_slab"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:waxed_weathered_cut_copper_slab_pickaxe",
+    "count": 1
+  }
+}
+        

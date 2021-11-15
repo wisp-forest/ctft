@@ -1,0 +1,20 @@
+
+{
+  "group": "Red Tulip Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:red_tulip"
+    }
+  },
+  "result": {
+    "item": "ctft:red_tulip_chestplate",
+    "count": 1
+  }
+}
+        

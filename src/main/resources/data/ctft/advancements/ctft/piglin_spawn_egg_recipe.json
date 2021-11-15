@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:piglin_spawn_egg"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:piglin_spawn_egg_sword",
+			"ctft:piglin_spawn_egg_pickaxe",
+			"ctft:piglin_spawn_egg_axe",
+			"ctft:piglin_spawn_egg_shovel",
+			"ctft:piglin_spawn_egg_hoe",
+			"ctft:piglin_spawn_egg_shield",
+			"ctft:piglin_spawn_egg_fishing_rod",
+			"ctft:piglin_spawn_egg_compass",
+			"ctft:piglin_spawn_egg_clock",
+			"ctft:piglin_spawn_egg_helmet",
+			"ctft:piglin_spawn_egg_chestplate",
+			"ctft:piglin_spawn_egg_leggings",
+			"ctft:piglin_spawn_egg_boots",
+			"ctft:piglin_spawn_egg_shears",
+			"ctft:piglin_spawn_egg_horse_armor",
+			"ctft:piglin_spawn_egg_bow"
+		]
+	}
+}

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:beacon"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:beacon_sword",
+			"ctft:beacon_pickaxe",
+			"ctft:beacon_axe",
+			"ctft:beacon_shovel",
+			"ctft:beacon_hoe",
+			"ctft:beacon_shield",
+			"ctft:beacon_fishing_rod",
+			"ctft:beacon_compass",
+			"ctft:beacon_clock",
+			"ctft:beacon_helmet",
+			"ctft:beacon_chestplate",
+			"ctft:beacon_leggings",
+			"ctft:beacon_boots",
+			"ctft:beacon_shears",
+			"ctft:beacon_horse_armor",
+			"ctft:beacon_bow"
+		]
+	}
+}

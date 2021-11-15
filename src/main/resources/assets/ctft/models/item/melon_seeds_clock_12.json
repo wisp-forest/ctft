@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/melon_seeds_clock_12",
-    "1": "ctft:items/clock_12"
+    "0": "ctft:items/clock_12",
+    "1": "ctft:blocks/melon_seeds_block",
+    "particle": "ctft:blocks/melon_seeds_block"
   }
 }
             

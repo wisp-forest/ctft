@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:large_amethyst_bud"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:large_amethyst_bud_sword",
+			"ctft:large_amethyst_bud_pickaxe",
+			"ctft:large_amethyst_bud_axe",
+			"ctft:large_amethyst_bud_shovel",
+			"ctft:large_amethyst_bud_hoe",
+			"ctft:large_amethyst_bud_shield",
+			"ctft:large_amethyst_bud_fishing_rod",
+			"ctft:large_amethyst_bud_compass",
+			"ctft:large_amethyst_bud_clock",
+			"ctft:large_amethyst_bud_helmet",
+			"ctft:large_amethyst_bud_chestplate",
+			"ctft:large_amethyst_bud_leggings",
+			"ctft:large_amethyst_bud_boots",
+			"ctft:large_amethyst_bud_shears",
+			"ctft:large_amethyst_bud_horse_armor",
+			"ctft:large_amethyst_bud_bow"
+		]
+	}
+}

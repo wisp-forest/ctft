@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:flowering_azalea"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:flowering_azalea_sword",
+			"ctft:flowering_azalea_pickaxe",
+			"ctft:flowering_azalea_axe",
+			"ctft:flowering_azalea_shovel",
+			"ctft:flowering_azalea_hoe",
+			"ctft:flowering_azalea_shield",
+			"ctft:flowering_azalea_fishing_rod",
+			"ctft:flowering_azalea_compass",
+			"ctft:flowering_azalea_clock",
+			"ctft:flowering_azalea_helmet",
+			"ctft:flowering_azalea_chestplate",
+			"ctft:flowering_azalea_leggings",
+			"ctft:flowering_azalea_boots",
+			"ctft:flowering_azalea_shears",
+			"ctft:flowering_azalea_horse_armor",
+			"ctft:flowering_azalea_bow"
+		]
+	}
+}

@@ -1,0 +1,23 @@
+
+{
+  "group": "Elytra Pickaxe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:elytra"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:elytra_pickaxe",
+    "count": 1
+  }
+}
+        

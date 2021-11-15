@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/wither_rose_clock_46",
-    "1": "ctft:items/clock_46"
+    "0": "ctft:items/clock_46",
+    "1": "ctft:blocks/wither_rose_block",
+    "particle": "ctft:blocks/wither_rose_block"
   }
 }
             

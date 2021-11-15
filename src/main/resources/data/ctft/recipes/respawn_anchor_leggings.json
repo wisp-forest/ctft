@@ -1,0 +1,20 @@
+
+{
+  "group": "Respawn Anchor Leggings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:respawn_anchor"
+    }
+  },
+  "result": {
+    "item": "ctft:respawn_anchor_leggings",
+    "count": 1
+  }
+}
+        

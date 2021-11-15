@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/diorite_clock_55",
-    "1": "ctft:items/clock_55"
+    "0": "ctft:items/clock_55",
+    "1": "ctft:blocks/diorite_block",
+    "particle": "ctft:blocks/diorite_block"
   }
 }
             

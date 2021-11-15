@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:emerald_ore"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:emerald_ore_sword",
+			"ctft:emerald_ore_pickaxe",
+			"ctft:emerald_ore_axe",
+			"ctft:emerald_ore_shovel",
+			"ctft:emerald_ore_hoe",
+			"ctft:emerald_ore_shield",
+			"ctft:emerald_ore_fishing_rod",
+			"ctft:emerald_ore_compass",
+			"ctft:emerald_ore_clock",
+			"ctft:emerald_ore_helmet",
+			"ctft:emerald_ore_chestplate",
+			"ctft:emerald_ore_leggings",
+			"ctft:emerald_ore_boots",
+			"ctft:emerald_ore_shears",
+			"ctft:emerald_ore_horse_armor",
+			"ctft:emerald_ore_bow"
+		]
+	}
+}

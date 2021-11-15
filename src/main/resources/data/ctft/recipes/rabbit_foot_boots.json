@@ -1,0 +1,20 @@
+
+{
+  "group": "Rabbit Foot Boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:rabbit_foot"
+    }
+  },
+  "result": {
+    "item": "ctft:rabbit_foot_boots",
+    "count": 1
+  }
+}
+        

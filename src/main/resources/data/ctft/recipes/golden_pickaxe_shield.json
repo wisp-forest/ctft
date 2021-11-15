@@ -1,0 +1,23 @@
+
+{
+  "group": "Golden Pickaxe Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:golden_pickaxe"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:golden_pickaxe_shield",
+    "count": 1
+  }
+}
+        

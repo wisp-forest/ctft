@@ -1,0 +1,20 @@
+
+{
+  "group": "Green Dye Boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:green_dye"
+    }
+  },
+  "result": {
+    "item": "ctft:green_dye_boots",
+    "count": 1
+  }
+}
+        

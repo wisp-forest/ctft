@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:andesite"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:andesite_sword",
+			"ctft:andesite_pickaxe",
+			"ctft:andesite_axe",
+			"ctft:andesite_shovel",
+			"ctft:andesite_hoe",
+			"ctft:andesite_shield",
+			"ctft:andesite_fishing_rod",
+			"ctft:andesite_compass",
+			"ctft:andesite_clock",
+			"ctft:andesite_helmet",
+			"ctft:andesite_chestplate",
+			"ctft:andesite_leggings",
+			"ctft:andesite_boots",
+			"ctft:andesite_shears",
+			"ctft:andesite_horse_armor",
+			"ctft:andesite_bow"
+		]
+	}
+}

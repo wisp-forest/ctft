@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_helmet"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:netherite_helmet_sword",
+			"ctft:netherite_helmet_pickaxe",
+			"ctft:netherite_helmet_axe",
+			"ctft:netherite_helmet_shovel",
+			"ctft:netherite_helmet_hoe",
+			"ctft:netherite_helmet_shield",
+			"ctft:netherite_helmet_fishing_rod",
+			"ctft:netherite_helmet_compass",
+			"ctft:netherite_helmet_clock",
+			"ctft:netherite_helmet_helmet",
+			"ctft:netherite_helmet_chestplate",
+			"ctft:netherite_helmet_leggings",
+			"ctft:netherite_helmet_boots",
+			"ctft:netherite_helmet_shears",
+			"ctft:netherite_helmet_horse_armor",
+			"ctft:netherite_helmet_bow"
+		]
+	}
+}

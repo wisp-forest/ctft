@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/skull_banner_pattern_clock_26",
-    "1": "ctft:items/clock_26"
+    "0": "ctft:items/clock_26",
+    "1": "ctft:blocks/skull_banner_pattern_block",
+    "particle": "ctft:blocks/skull_banner_pattern_block"
   }
 }
             

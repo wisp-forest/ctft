@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:diamond_boots"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:diamond_boots_sword",
+			"ctft:diamond_boots_pickaxe",
+			"ctft:diamond_boots_axe",
+			"ctft:diamond_boots_shovel",
+			"ctft:diamond_boots_hoe",
+			"ctft:diamond_boots_shield",
+			"ctft:diamond_boots_fishing_rod",
+			"ctft:diamond_boots_compass",
+			"ctft:diamond_boots_clock",
+			"ctft:diamond_boots_helmet",
+			"ctft:diamond_boots_chestplate",
+			"ctft:diamond_boots_leggings",
+			"ctft:diamond_boots_boots",
+			"ctft:diamond_boots_shears",
+			"ctft:diamond_boots_horse_armor",
+			"ctft:diamond_boots_bow"
+		]
+	}
+}

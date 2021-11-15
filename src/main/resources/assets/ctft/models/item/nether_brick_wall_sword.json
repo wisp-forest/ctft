@@ -1,8 +1,10 @@
 
     {
-      "parent": "item/handheld",
+      "parent": "ctft:item/sword",
       "textures": {
-        "layer0": "ctft:items/nether_bricks_sword"
+        "0": "ctft:items/iron_sword",
+        "1": "ctft:blocks/nether_bricks_block",
+        "particle": "ctft:blocks/nether_bricks_block"
       }
     }
             

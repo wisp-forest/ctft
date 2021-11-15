@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:warped_sign"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:warped_sign_sword",
+			"ctft:warped_sign_pickaxe",
+			"ctft:warped_sign_axe",
+			"ctft:warped_sign_shovel",
+			"ctft:warped_sign_hoe",
+			"ctft:warped_sign_shield",
+			"ctft:warped_sign_fishing_rod",
+			"ctft:warped_sign_compass",
+			"ctft:warped_sign_clock",
+			"ctft:warped_sign_helmet",
+			"ctft:warped_sign_chestplate",
+			"ctft:warped_sign_leggings",
+			"ctft:warped_sign_boots",
+			"ctft:warped_sign_shears",
+			"ctft:warped_sign_horse_armor",
+			"ctft:warped_sign_bow"
+		]
+	}
+}

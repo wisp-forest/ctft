@@ -1,0 +1,20 @@
+
+{
+  "group": "Gray Glazed Terracotta Leggings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:gray_glazed_terracotta"
+    }
+  },
+  "result": {
+    "item": "ctft:gray_glazed_terracotta_leggings",
+    "count": 1
+  }
+}
+        

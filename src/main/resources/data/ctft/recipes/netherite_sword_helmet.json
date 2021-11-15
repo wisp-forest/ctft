@@ -1,0 +1,20 @@
+
+{
+  "group": "Netherite Sword Helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:netherite_sword"
+    }
+  },
+  "result": {
+    "item": "ctft:netherite_sword_helmet",
+    "count": 1
+  }
+}
+        

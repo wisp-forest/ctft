@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:obsidian"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:obsidian_sword",
+			"ctft:obsidian_pickaxe",
+			"ctft:obsidian_axe",
+			"ctft:obsidian_shovel",
+			"ctft:obsidian_hoe",
+			"ctft:obsidian_shield",
+			"ctft:obsidian_fishing_rod",
+			"ctft:obsidian_compass",
+			"ctft:obsidian_clock",
+			"ctft:obsidian_helmet",
+			"ctft:obsidian_chestplate",
+			"ctft:obsidian_leggings",
+			"ctft:obsidian_boots",
+			"ctft:obsidian_shears",
+			"ctft:obsidian_horse_armor",
+			"ctft:obsidian_bow"
+		]
+	}
+}

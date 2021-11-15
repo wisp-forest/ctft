@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:deepslate_bricks"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:deepslate_bricks_sword",
+			"ctft:deepslate_bricks_pickaxe",
+			"ctft:deepslate_bricks_axe",
+			"ctft:deepslate_bricks_shovel",
+			"ctft:deepslate_bricks_hoe",
+			"ctft:deepslate_bricks_shield",
+			"ctft:deepslate_bricks_fishing_rod",
+			"ctft:deepslate_bricks_compass",
+			"ctft:deepslate_bricks_clock",
+			"ctft:deepslate_bricks_helmet",
+			"ctft:deepslate_bricks_chestplate",
+			"ctft:deepslate_bricks_leggings",
+			"ctft:deepslate_bricks_boots",
+			"ctft:deepslate_bricks_shears",
+			"ctft:deepslate_bricks_horse_armor",
+			"ctft:deepslate_bricks_bow"
+		]
+	}
+}

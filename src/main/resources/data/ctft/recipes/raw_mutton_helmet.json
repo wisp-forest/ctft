@@ -1,0 +1,20 @@
+
+{
+  "group": "Raw Mutton Helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:mutton"
+    }
+  },
+  "result": {
+    "item": "ctft:raw_mutton_helmet",
+    "count": 1
+  }
+}
+        

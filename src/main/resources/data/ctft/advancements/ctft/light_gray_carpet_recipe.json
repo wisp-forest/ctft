@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:light_gray_carpet"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:light_gray_carpet_sword",
+			"ctft:light_gray_carpet_pickaxe",
+			"ctft:light_gray_carpet_axe",
+			"ctft:light_gray_carpet_shovel",
+			"ctft:light_gray_carpet_hoe",
+			"ctft:light_gray_carpet_shield",
+			"ctft:light_gray_carpet_fishing_rod",
+			"ctft:light_gray_carpet_compass",
+			"ctft:light_gray_carpet_clock",
+			"ctft:light_gray_carpet_helmet",
+			"ctft:light_gray_carpet_chestplate",
+			"ctft:light_gray_carpet_leggings",
+			"ctft:light_gray_carpet_boots",
+			"ctft:light_gray_carpet_shears",
+			"ctft:light_gray_carpet_horse_armor",
+			"ctft:light_gray_carpet_bow"
+		]
+	}
+}

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:white_carpet"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:white_carpet_sword",
+			"ctft:white_carpet_pickaxe",
+			"ctft:white_carpet_axe",
+			"ctft:white_carpet_shovel",
+			"ctft:white_carpet_hoe",
+			"ctft:white_carpet_shield",
+			"ctft:white_carpet_fishing_rod",
+			"ctft:white_carpet_compass",
+			"ctft:white_carpet_clock",
+			"ctft:white_carpet_helmet",
+			"ctft:white_carpet_chestplate",
+			"ctft:white_carpet_leggings",
+			"ctft:white_carpet_boots",
+			"ctft:white_carpet_shears",
+			"ctft:white_carpet_horse_armor",
+			"ctft:white_carpet_bow"
+		]
+	}
+}

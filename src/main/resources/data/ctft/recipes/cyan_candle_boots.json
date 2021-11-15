@@ -1,0 +1,20 @@
+
+{
+  "group": "Cyan Candle Boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:cyan_candle"
+    }
+  },
+  "result": {
+    "item": "ctft:cyan_candle_boots",
+    "count": 1
+  }
+}
+        

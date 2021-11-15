@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:fishing_rod"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:fishing_rod_sword",
+			"ctft:fishing_rod_pickaxe",
+			"ctft:fishing_rod_axe",
+			"ctft:fishing_rod_shovel",
+			"ctft:fishing_rod_hoe",
+			"ctft:fishing_rod_shield",
+			"ctft:fishing_rod_fishing_rod",
+			"ctft:fishing_rod_compass",
+			"ctft:fishing_rod_clock",
+			"ctft:fishing_rod_helmet",
+			"ctft:fishing_rod_chestplate",
+			"ctft:fishing_rod_leggings",
+			"ctft:fishing_rod_boots",
+			"ctft:fishing_rod_shears",
+			"ctft:fishing_rod_horse_armor",
+			"ctft:fishing_rod_bow"
+		]
+	}
+}

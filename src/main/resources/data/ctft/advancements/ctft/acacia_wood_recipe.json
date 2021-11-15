@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:acacia_wood"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:acacia_wood_sword",
+			"ctft:acacia_wood_pickaxe",
+			"ctft:acacia_wood_axe",
+			"ctft:acacia_wood_shovel",
+			"ctft:acacia_wood_hoe",
+			"ctft:acacia_wood_shield",
+			"ctft:acacia_wood_fishing_rod",
+			"ctft:acacia_wood_compass",
+			"ctft:acacia_wood_clock",
+			"ctft:acacia_wood_helmet",
+			"ctft:acacia_wood_chestplate",
+			"ctft:acacia_wood_leggings",
+			"ctft:acacia_wood_boots",
+			"ctft:acacia_wood_shears",
+			"ctft:acacia_wood_horse_armor",
+			"ctft:acacia_wood_bow"
+		]
+	}
+}

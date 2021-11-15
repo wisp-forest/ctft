@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:sand"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:sand_sword",
+			"ctft:sand_pickaxe",
+			"ctft:sand_axe",
+			"ctft:sand_shovel",
+			"ctft:sand_hoe",
+			"ctft:sand_shield",
+			"ctft:sand_fishing_rod",
+			"ctft:sand_compass",
+			"ctft:sand_clock",
+			"ctft:sand_helmet",
+			"ctft:sand_chestplate",
+			"ctft:sand_leggings",
+			"ctft:sand_boots",
+			"ctft:sand_shears",
+			"ctft:sand_horse_armor",
+			"ctft:sand_bow"
+		]
+	}
+}

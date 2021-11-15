@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:shulker_spawn_egg"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:shulker_spawn_egg_sword",
+			"ctft:shulker_spawn_egg_pickaxe",
+			"ctft:shulker_spawn_egg_axe",
+			"ctft:shulker_spawn_egg_shovel",
+			"ctft:shulker_spawn_egg_hoe",
+			"ctft:shulker_spawn_egg_shield",
+			"ctft:shulker_spawn_egg_fishing_rod",
+			"ctft:shulker_spawn_egg_compass",
+			"ctft:shulker_spawn_egg_clock",
+			"ctft:shulker_spawn_egg_helmet",
+			"ctft:shulker_spawn_egg_chestplate",
+			"ctft:shulker_spawn_egg_leggings",
+			"ctft:shulker_spawn_egg_boots",
+			"ctft:shulker_spawn_egg_shears",
+			"ctft:shulker_spawn_egg_horse_armor",
+			"ctft:shulker_spawn_egg_bow"
+		]
+	}
+}

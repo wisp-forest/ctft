@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cut_copper_stairs"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:cut_copper_stairs_sword",
+			"ctft:cut_copper_stairs_pickaxe",
+			"ctft:cut_copper_stairs_axe",
+			"ctft:cut_copper_stairs_shovel",
+			"ctft:cut_copper_stairs_hoe",
+			"ctft:cut_copper_stairs_shield",
+			"ctft:cut_copper_stairs_fishing_rod",
+			"ctft:cut_copper_stairs_compass",
+			"ctft:cut_copper_stairs_clock",
+			"ctft:cut_copper_stairs_helmet",
+			"ctft:cut_copper_stairs_chestplate",
+			"ctft:cut_copper_stairs_leggings",
+			"ctft:cut_copper_stairs_boots",
+			"ctft:cut_copper_stairs_shears",
+			"ctft:cut_copper_stairs_horse_armor",
+			"ctft:cut_copper_stairs_bow"
+		]
+	}
+}

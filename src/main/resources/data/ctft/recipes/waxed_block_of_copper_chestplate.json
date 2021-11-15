@@ -1,0 +1,20 @@
+
+{
+  "group": "Waxed Block of Copper Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:waxed_copper_block"
+    }
+  },
+  "result": {
+    "item": "ctft:waxed_block_of_copper_chestplate",
+    "count": 1
+  }
+}
+        

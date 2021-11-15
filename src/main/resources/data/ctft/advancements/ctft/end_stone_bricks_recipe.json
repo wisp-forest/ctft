@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:end_stone_bricks"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:end_stone_bricks_sword",
+			"ctft:end_stone_bricks_pickaxe",
+			"ctft:end_stone_bricks_axe",
+			"ctft:end_stone_bricks_shovel",
+			"ctft:end_stone_bricks_hoe",
+			"ctft:end_stone_bricks_shield",
+			"ctft:end_stone_bricks_fishing_rod",
+			"ctft:end_stone_bricks_compass",
+			"ctft:end_stone_bricks_clock",
+			"ctft:end_stone_bricks_helmet",
+			"ctft:end_stone_bricks_chestplate",
+			"ctft:end_stone_bricks_leggings",
+			"ctft:end_stone_bricks_boots",
+			"ctft:end_stone_bricks_shears",
+			"ctft:end_stone_bricks_horse_armor",
+			"ctft:end_stone_bricks_bow"
+		]
+	}
+}

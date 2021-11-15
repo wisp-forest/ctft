@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:trapped_chest"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:trapped_chest_sword",
+			"ctft:trapped_chest_pickaxe",
+			"ctft:trapped_chest_axe",
+			"ctft:trapped_chest_shovel",
+			"ctft:trapped_chest_hoe",
+			"ctft:trapped_chest_shield",
+			"ctft:trapped_chest_fishing_rod",
+			"ctft:trapped_chest_compass",
+			"ctft:trapped_chest_clock",
+			"ctft:trapped_chest_helmet",
+			"ctft:trapped_chest_chestplate",
+			"ctft:trapped_chest_leggings",
+			"ctft:trapped_chest_boots",
+			"ctft:trapped_chest_shears",
+			"ctft:trapped_chest_horse_armor",
+			"ctft:trapped_chest_bow"
+		]
+	}
+}

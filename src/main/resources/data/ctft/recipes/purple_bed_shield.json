@@ -1,0 +1,23 @@
+
+{
+  "group": "Purple Bed Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:purple_bed"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:purple_bed_shield",
+    "count": 1
+  }
+}
+        

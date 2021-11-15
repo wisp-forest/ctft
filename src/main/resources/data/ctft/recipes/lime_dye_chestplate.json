@@ -1,0 +1,20 @@
+
+{
+  "group": "Lime Dye Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:lime_dye"
+    }
+  },
+  "result": {
+    "item": "ctft:lime_dye_chestplate",
+    "count": 1
+  }
+}
+        

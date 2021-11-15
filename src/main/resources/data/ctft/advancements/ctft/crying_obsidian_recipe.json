@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:crying_obsidian"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:crying_obsidian_sword",
+			"ctft:crying_obsidian_pickaxe",
+			"ctft:crying_obsidian_axe",
+			"ctft:crying_obsidian_shovel",
+			"ctft:crying_obsidian_hoe",
+			"ctft:crying_obsidian_shield",
+			"ctft:crying_obsidian_fishing_rod",
+			"ctft:crying_obsidian_compass",
+			"ctft:crying_obsidian_clock",
+			"ctft:crying_obsidian_helmet",
+			"ctft:crying_obsidian_chestplate",
+			"ctft:crying_obsidian_leggings",
+			"ctft:crying_obsidian_boots",
+			"ctft:crying_obsidian_shears",
+			"ctft:crying_obsidian_horse_armor",
+			"ctft:crying_obsidian_bow"
+		]
+	}
+}

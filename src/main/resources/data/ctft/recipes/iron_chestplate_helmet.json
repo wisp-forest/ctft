@@ -1,0 +1,20 @@
+
+{
+  "group": "Iron Chestplate Helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:iron_chestplate"
+    }
+  },
+  "result": {
+    "item": "ctft:iron_chestplate_helmet",
+    "count": 1
+  }
+}
+        

@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/lime_stained_glass_clock_10",
-    "1": "ctft:items/clock_10"
+    "0": "ctft:items/clock_10",
+    "1": "ctft:blocks/lime_stained_glass_block",
+    "particle": "ctft:blocks/lime_stained_glass_block"
   }
 }
             

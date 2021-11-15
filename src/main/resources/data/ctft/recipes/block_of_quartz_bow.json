@@ -1,0 +1,23 @@
+
+{
+  "group": "Block of Quartz Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:quartz_block"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:block_of_quartz_bow",
+    "count": 1
+  }
+}
+        

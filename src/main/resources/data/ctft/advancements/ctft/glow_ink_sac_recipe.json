@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:glow_ink_sac"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:glow_ink_sac_sword",
+			"ctft:glow_ink_sac_pickaxe",
+			"ctft:glow_ink_sac_axe",
+			"ctft:glow_ink_sac_shovel",
+			"ctft:glow_ink_sac_hoe",
+			"ctft:glow_ink_sac_shield",
+			"ctft:glow_ink_sac_fishing_rod",
+			"ctft:glow_ink_sac_compass",
+			"ctft:glow_ink_sac_clock",
+			"ctft:glow_ink_sac_helmet",
+			"ctft:glow_ink_sac_chestplate",
+			"ctft:glow_ink_sac_leggings",
+			"ctft:glow_ink_sac_boots",
+			"ctft:glow_ink_sac_shears",
+			"ctft:glow_ink_sac_horse_armor",
+			"ctft:glow_ink_sac_bow"
+		]
+	}
+}

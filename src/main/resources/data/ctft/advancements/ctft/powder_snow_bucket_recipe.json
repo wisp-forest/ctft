@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:powder_snow_bucket"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:powder_snow_bucket_sword",
+			"ctft:powder_snow_bucket_pickaxe",
+			"ctft:powder_snow_bucket_axe",
+			"ctft:powder_snow_bucket_shovel",
+			"ctft:powder_snow_bucket_hoe",
+			"ctft:powder_snow_bucket_shield",
+			"ctft:powder_snow_bucket_fishing_rod",
+			"ctft:powder_snow_bucket_compass",
+			"ctft:powder_snow_bucket_clock",
+			"ctft:powder_snow_bucket_helmet",
+			"ctft:powder_snow_bucket_chestplate",
+			"ctft:powder_snow_bucket_leggings",
+			"ctft:powder_snow_bucket_boots",
+			"ctft:powder_snow_bucket_shears",
+			"ctft:powder_snow_bucket_horse_armor",
+			"ctft:powder_snow_bucket_bow"
+		]
+	}
+}

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:tropical_fish"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:tropical_fish_sword",
+			"ctft:tropical_fish_pickaxe",
+			"ctft:tropical_fish_axe",
+			"ctft:tropical_fish_shovel",
+			"ctft:tropical_fish_hoe",
+			"ctft:tropical_fish_shield",
+			"ctft:tropical_fish_fishing_rod",
+			"ctft:tropical_fish_compass",
+			"ctft:tropical_fish_clock",
+			"ctft:tropical_fish_helmet",
+			"ctft:tropical_fish_chestplate",
+			"ctft:tropical_fish_leggings",
+			"ctft:tropical_fish_boots",
+			"ctft:tropical_fish_shears",
+			"ctft:tropical_fish_horse_armor",
+			"ctft:tropical_fish_bow"
+		]
+	}
+}

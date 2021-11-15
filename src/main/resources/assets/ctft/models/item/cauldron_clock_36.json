@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/cauldron_clock_36",
-    "1": "ctft:items/clock_36"
+    "0": "ctft:items/clock_36",
+    "1": "ctft:blocks/cauldron_block",
+    "particle": "ctft:blocks/cauldron_block"
   }
 }
             

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:wet_sponge"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:wet_sponge_sword",
+			"ctft:wet_sponge_pickaxe",
+			"ctft:wet_sponge_axe",
+			"ctft:wet_sponge_shovel",
+			"ctft:wet_sponge_hoe",
+			"ctft:wet_sponge_shield",
+			"ctft:wet_sponge_fishing_rod",
+			"ctft:wet_sponge_compass",
+			"ctft:wet_sponge_clock",
+			"ctft:wet_sponge_helmet",
+			"ctft:wet_sponge_chestplate",
+			"ctft:wet_sponge_leggings",
+			"ctft:wet_sponge_boots",
+			"ctft:wet_sponge_shears",
+			"ctft:wet_sponge_horse_armor",
+			"ctft:wet_sponge_bow"
+		]
+	}
+}

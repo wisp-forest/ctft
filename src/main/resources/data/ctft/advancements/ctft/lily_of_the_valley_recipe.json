@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:lily_of_the_valley"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:lily_of_the_valley_sword",
+			"ctft:lily_of_the_valley_pickaxe",
+			"ctft:lily_of_the_valley_axe",
+			"ctft:lily_of_the_valley_shovel",
+			"ctft:lily_of_the_valley_hoe",
+			"ctft:lily_of_the_valley_shield",
+			"ctft:lily_of_the_valley_fishing_rod",
+			"ctft:lily_of_the_valley_compass",
+			"ctft:lily_of_the_valley_clock",
+			"ctft:lily_of_the_valley_helmet",
+			"ctft:lily_of_the_valley_chestplate",
+			"ctft:lily_of_the_valley_leggings",
+			"ctft:lily_of_the_valley_boots",
+			"ctft:lily_of_the_valley_shears",
+			"ctft:lily_of_the_valley_horse_armor",
+			"ctft:lily_of_the_valley_bow"
+		]
+	}
+}

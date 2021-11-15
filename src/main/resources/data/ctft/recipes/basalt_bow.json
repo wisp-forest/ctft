@@ -1,0 +1,23 @@
+
+{
+  "group": "Basalt Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:basalt"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:basalt_bow",
+    "count": 1
+  }
+}
+        

@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/deepslate_lapis_ore_clock_31",
-    "1": "ctft:items/clock_31"
+    "0": "ctft:items/clock_31",
+    "1": "ctft:blocks/deepslate_lapis_ore_block",
+    "particle": "ctft:blocks/deepslate_lapis_ore_block"
   }
 }
             

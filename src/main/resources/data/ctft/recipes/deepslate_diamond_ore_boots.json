@@ -1,0 +1,20 @@
+
+{
+  "group": "Deepslate Diamond Ore Boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:deepslate_diamond_ore"
+    }
+  },
+  "result": {
+    "item": "ctft:deepslate_diamond_ore_boots",
+    "count": 1
+  }
+}
+        

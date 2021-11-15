@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:iron_ingot_sword",
+			"ctft:iron_ingot_pickaxe",
+			"ctft:iron_ingot_axe",
+			"ctft:iron_ingot_shovel",
+			"ctft:iron_ingot_hoe",
+			"ctft:iron_ingot_shield",
+			"ctft:iron_ingot_fishing_rod",
+			"ctft:iron_ingot_compass",
+			"ctft:iron_ingot_clock",
+			"ctft:iron_ingot_helmet",
+			"ctft:iron_ingot_chestplate",
+			"ctft:iron_ingot_leggings",
+			"ctft:iron_ingot_boots",
+			"ctft:iron_ingot_shears",
+			"ctft:iron_ingot_horse_armor",
+			"ctft:iron_ingot_bow"
+		]
+	}
+}

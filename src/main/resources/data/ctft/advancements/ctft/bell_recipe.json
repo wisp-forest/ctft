@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bell"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:bell_sword",
+			"ctft:bell_pickaxe",
+			"ctft:bell_axe",
+			"ctft:bell_shovel",
+			"ctft:bell_hoe",
+			"ctft:bell_shield",
+			"ctft:bell_fishing_rod",
+			"ctft:bell_compass",
+			"ctft:bell_clock",
+			"ctft:bell_helmet",
+			"ctft:bell_chestplate",
+			"ctft:bell_leggings",
+			"ctft:bell_boots",
+			"ctft:bell_shears",
+			"ctft:bell_horse_armor",
+			"ctft:bell_bow"
+		]
+	}
+}

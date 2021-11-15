@@ -1,0 +1,23 @@
+
+{
+  "group": "Chorus Flower Sword",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    " 0 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:chorus_flower"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:chorus_flower_sword",
+    "count": 1
+  }
+}
+        

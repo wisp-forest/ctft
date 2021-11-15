@@ -1,0 +1,20 @@
+
+{
+  "group": "Glow Item Frame Shears",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 0 ",
+    "   "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:glow_item_frame"
+    }
+  },
+  "result": {
+    "item": "ctft:glow_item_frame_shears",
+    "count": 1
+  }
+}
+        

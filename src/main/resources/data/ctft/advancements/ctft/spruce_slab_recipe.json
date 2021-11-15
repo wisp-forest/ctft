@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:spruce_slab"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:spruce_slab_sword",
+			"ctft:spruce_slab_pickaxe",
+			"ctft:spruce_slab_axe",
+			"ctft:spruce_slab_shovel",
+			"ctft:spruce_slab_hoe",
+			"ctft:spruce_slab_shield",
+			"ctft:spruce_slab_fishing_rod",
+			"ctft:spruce_slab_compass",
+			"ctft:spruce_slab_clock",
+			"ctft:spruce_slab_helmet",
+			"ctft:spruce_slab_chestplate",
+			"ctft:spruce_slab_leggings",
+			"ctft:spruce_slab_boots",
+			"ctft:spruce_slab_shears",
+			"ctft:spruce_slab_horse_armor",
+			"ctft:spruce_slab_bow"
+		]
+	}
+}

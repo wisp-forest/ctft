@@ -1,0 +1,20 @@
+
+{
+  "group": "Brown Mushroom Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:brown_mushroom"
+    }
+  },
+  "result": {
+    "item": "ctft:brown_mushroom_chestplate",
+    "count": 1
+  }
+}
+        

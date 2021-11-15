@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:lingering_potion"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:lingering_potion_sword",
+			"ctft:lingering_potion_pickaxe",
+			"ctft:lingering_potion_axe",
+			"ctft:lingering_potion_shovel",
+			"ctft:lingering_potion_hoe",
+			"ctft:lingering_potion_shield",
+			"ctft:lingering_potion_fishing_rod",
+			"ctft:lingering_potion_compass",
+			"ctft:lingering_potion_clock",
+			"ctft:lingering_potion_helmet",
+			"ctft:lingering_potion_chestplate",
+			"ctft:lingering_potion_leggings",
+			"ctft:lingering_potion_boots",
+			"ctft:lingering_potion_shears",
+			"ctft:lingering_potion_horse_armor",
+			"ctft:lingering_potion_bow"
+		]
+	}
+}

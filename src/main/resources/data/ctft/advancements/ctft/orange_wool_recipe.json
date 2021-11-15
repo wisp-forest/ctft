@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:orange_wool"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:orange_wool_sword",
+			"ctft:orange_wool_pickaxe",
+			"ctft:orange_wool_axe",
+			"ctft:orange_wool_shovel",
+			"ctft:orange_wool_hoe",
+			"ctft:orange_wool_shield",
+			"ctft:orange_wool_fishing_rod",
+			"ctft:orange_wool_compass",
+			"ctft:orange_wool_clock",
+			"ctft:orange_wool_helmet",
+			"ctft:orange_wool_chestplate",
+			"ctft:orange_wool_leggings",
+			"ctft:orange_wool_boots",
+			"ctft:orange_wool_shears",
+			"ctft:orange_wool_horse_armor",
+			"ctft:orange_wool_bow"
+		]
+	}
+}

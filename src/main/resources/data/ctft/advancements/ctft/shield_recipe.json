@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:shield"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:shield_sword",
+			"ctft:shield_pickaxe",
+			"ctft:shield_axe",
+			"ctft:shield_shovel",
+			"ctft:shield_hoe",
+			"ctft:shield_shield",
+			"ctft:shield_fishing_rod",
+			"ctft:shield_compass",
+			"ctft:shield_clock",
+			"ctft:shield_helmet",
+			"ctft:shield_chestplate",
+			"ctft:shield_leggings",
+			"ctft:shield_boots",
+			"ctft:shield_shears",
+			"ctft:shield_horse_armor",
+			"ctft:shield_bow"
+		]
+	}
+}

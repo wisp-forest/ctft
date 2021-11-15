@@ -1,0 +1,23 @@
+
+{
+  "group": "Purpur Pillar Sword",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    " 0 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:purpur_pillar"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:purpur_pillar_sword",
+    "count": 1
+  }
+}
+        

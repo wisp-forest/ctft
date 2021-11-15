@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:chainmail_helmet"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:chainmail_helmet_sword",
+			"ctft:chainmail_helmet_pickaxe",
+			"ctft:chainmail_helmet_axe",
+			"ctft:chainmail_helmet_shovel",
+			"ctft:chainmail_helmet_hoe",
+			"ctft:chainmail_helmet_shield",
+			"ctft:chainmail_helmet_fishing_rod",
+			"ctft:chainmail_helmet_compass",
+			"ctft:chainmail_helmet_clock",
+			"ctft:chainmail_helmet_helmet",
+			"ctft:chainmail_helmet_chestplate",
+			"ctft:chainmail_helmet_leggings",
+			"ctft:chainmail_helmet_boots",
+			"ctft:chainmail_helmet_shears",
+			"ctft:chainmail_helmet_horse_armor",
+			"ctft:chainmail_helmet_bow"
+		]
+	}
+}

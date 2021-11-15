@@ -2,7 +2,13 @@
     {
       "parent": "ctft:item/shield",
       "textures": {
-        "0": "ctft:items/cobbled_deepslate_shield_base"
-      }
+        "0": "ctft:items/shield_base",
+        "1": "ctft:blocks/cobbled_deepslate_block",
+        "particle": "ctft:blocks/cobbled_deepslate_block"
+      },
+      "overrides": [
+        { "predicate": { "blocking": 0.0 }, "model": "ctft:item/cobbled_deepslate_wall_shield" },
+        { "predicate": { "blocking": 1.0 }, "model": "ctft:item/cobbled_deepslate_wall_shield_blocking" }
+        ]
     }
             

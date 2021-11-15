@@ -2,7 +2,13 @@
     {
       "parent": "ctft:item/shield",
       "textures": {
-        "0": "ctft:items/pink_concrete_shield_base"
-      }
+        "0": "ctft:items/shield_base",
+        "1": "ctft:blocks/pink_concrete_block",
+        "particle": "ctft:blocks/pink_concrete_block"
+      },
+      "overrides": [
+        { "predicate": { "blocking": 0.0 }, "model": "ctft:item/pink_concrete_shield" },
+        { "predicate": { "blocking": 1.0 }, "model": "ctft:item/pink_concrete_shield_blocking" }
+        ]
     }
             

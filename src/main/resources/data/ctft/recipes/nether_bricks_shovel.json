@@ -1,0 +1,23 @@
+
+{
+  "group": "Nether Bricks Shovel",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:nether_bricks"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:nether_bricks_shovel",
+    "count": 1
+  }
+}
+        

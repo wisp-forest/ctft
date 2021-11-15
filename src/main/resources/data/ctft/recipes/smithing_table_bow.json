@@ -1,0 +1,23 @@
+
+{
+  "group": "Smithing Table Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:smithing_table"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:smithing_table_bow",
+    "count": 1
+  }
+}
+        

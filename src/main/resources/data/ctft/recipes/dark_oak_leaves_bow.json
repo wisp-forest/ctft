@@ -1,0 +1,23 @@
+
+{
+  "group": "Dark Oak Leaves Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:dark_oak_leaves"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:dark_oak_leaves_bow",
+    "count": 1
+  }
+}
+        

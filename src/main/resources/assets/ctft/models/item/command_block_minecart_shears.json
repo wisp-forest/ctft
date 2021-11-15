@@ -1,8 +1,10 @@
 
     {
-      "parent": "item/handheld",
+      "parent": "ctft:item/shears",
       "textures": {
-        "layer0": "ctft:items/command_block_minecart_shears"
+        "0": "ctft:items/shears",
+        "1": "ctft:blocks/command_block_minecart_block",
+        "particle": "ctft:blocks/command_block_minecart_block"
       }
     }
             

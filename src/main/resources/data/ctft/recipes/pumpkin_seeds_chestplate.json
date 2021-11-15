@@ -1,0 +1,20 @@
+
+{
+  "group": "Pumpkin Seeds Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:pumpkin_seeds"
+    }
+  },
+  "result": {
+    "item": "ctft:pumpkin_seeds_chestplate",
+    "count": 1
+  }
+}
+        

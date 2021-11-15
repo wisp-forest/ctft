@@ -1,0 +1,23 @@
+
+{
+  "group": "Black Stained Glass Clock",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    "010",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:black_stained_glass"
+    },
+    "1": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:black_stained_glass_clock",
+    "count": 1
+  }
+}
+        

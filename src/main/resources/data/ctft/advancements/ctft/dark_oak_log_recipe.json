@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:dark_oak_log"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:dark_oak_log_sword",
+			"ctft:dark_oak_log_pickaxe",
+			"ctft:dark_oak_log_axe",
+			"ctft:dark_oak_log_shovel",
+			"ctft:dark_oak_log_hoe",
+			"ctft:dark_oak_log_shield",
+			"ctft:dark_oak_log_fishing_rod",
+			"ctft:dark_oak_log_compass",
+			"ctft:dark_oak_log_clock",
+			"ctft:dark_oak_log_helmet",
+			"ctft:dark_oak_log_chestplate",
+			"ctft:dark_oak_log_leggings",
+			"ctft:dark_oak_log_boots",
+			"ctft:dark_oak_log_shears",
+			"ctft:dark_oak_log_horse_armor",
+			"ctft:dark_oak_log_bow"
+		]
+	}
+}

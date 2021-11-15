@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_ward"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:music_disc_ward_sword",
+			"ctft:music_disc_ward_pickaxe",
+			"ctft:music_disc_ward_axe",
+			"ctft:music_disc_ward_shovel",
+			"ctft:music_disc_ward_hoe",
+			"ctft:music_disc_ward_shield",
+			"ctft:music_disc_ward_fishing_rod",
+			"ctft:music_disc_ward_compass",
+			"ctft:music_disc_ward_clock",
+			"ctft:music_disc_ward_helmet",
+			"ctft:music_disc_ward_chestplate",
+			"ctft:music_disc_ward_leggings",
+			"ctft:music_disc_ward_boots",
+			"ctft:music_disc_ward_shears",
+			"ctft:music_disc_ward_horse_armor",
+			"ctft:music_disc_ward_bow"
+		]
+	}
+}

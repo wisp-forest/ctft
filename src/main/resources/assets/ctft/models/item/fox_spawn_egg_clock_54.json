@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/fox_clock_54",
-    "1": "ctft:items/clock_54"
+    "0": "ctft:items/clock_54",
+    "1": "ctft:blocks/fox_block",
+    "particle": "ctft:blocks/fox_block"
   }
 }
             

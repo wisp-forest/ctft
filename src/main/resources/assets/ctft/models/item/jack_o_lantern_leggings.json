@@ -1,0 +1,10 @@
+
+    {
+      "parent": "ctft:item/leggings",
+      "textures": {
+        "0": "ctft:items/iron_leggings",
+        "1": "ctft:blocks/jack_o_lantern_block",
+        "particle": "ctft:blocks/jack_o_lantern_block"
+      }
+    }
+            

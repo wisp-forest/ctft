@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:birch_sign"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:birch_sign_sword",
+			"ctft:birch_sign_pickaxe",
+			"ctft:birch_sign_axe",
+			"ctft:birch_sign_shovel",
+			"ctft:birch_sign_hoe",
+			"ctft:birch_sign_shield",
+			"ctft:birch_sign_fishing_rod",
+			"ctft:birch_sign_compass",
+			"ctft:birch_sign_clock",
+			"ctft:birch_sign_helmet",
+			"ctft:birch_sign_chestplate",
+			"ctft:birch_sign_leggings",
+			"ctft:birch_sign_boots",
+			"ctft:birch_sign_shears",
+			"ctft:birch_sign_horse_armor",
+			"ctft:birch_sign_bow"
+		]
+	}
+}

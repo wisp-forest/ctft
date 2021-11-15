@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:andesite_stairs"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:andesite_stairs_sword",
+			"ctft:andesite_stairs_pickaxe",
+			"ctft:andesite_stairs_axe",
+			"ctft:andesite_stairs_shovel",
+			"ctft:andesite_stairs_hoe",
+			"ctft:andesite_stairs_shield",
+			"ctft:andesite_stairs_fishing_rod",
+			"ctft:andesite_stairs_compass",
+			"ctft:andesite_stairs_clock",
+			"ctft:andesite_stairs_helmet",
+			"ctft:andesite_stairs_chestplate",
+			"ctft:andesite_stairs_leggings",
+			"ctft:andesite_stairs_boots",
+			"ctft:andesite_stairs_shears",
+			"ctft:andesite_stairs_horse_armor",
+			"ctft:andesite_stairs_bow"
+		]
+	}
+}

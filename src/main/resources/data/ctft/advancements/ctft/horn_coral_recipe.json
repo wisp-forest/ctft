@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:horn_coral"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:horn_coral_sword",
+			"ctft:horn_coral_pickaxe",
+			"ctft:horn_coral_axe",
+			"ctft:horn_coral_shovel",
+			"ctft:horn_coral_hoe",
+			"ctft:horn_coral_shield",
+			"ctft:horn_coral_fishing_rod",
+			"ctft:horn_coral_compass",
+			"ctft:horn_coral_clock",
+			"ctft:horn_coral_helmet",
+			"ctft:horn_coral_chestplate",
+			"ctft:horn_coral_leggings",
+			"ctft:horn_coral_boots",
+			"ctft:horn_coral_shears",
+			"ctft:horn_coral_horse_armor",
+			"ctft:horn_coral_bow"
+		]
+	}
+}

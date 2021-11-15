@@ -1,0 +1,23 @@
+
+{
+  "group": "Cooked Cod Hoe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "00 ",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:cooked_cod"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:cooked_cod_hoe",
+    "count": 1
+  }
+}
+        

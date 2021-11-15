@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:granite"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:granite_sword",
+			"ctft:granite_pickaxe",
+			"ctft:granite_axe",
+			"ctft:granite_shovel",
+			"ctft:granite_hoe",
+			"ctft:granite_shield",
+			"ctft:granite_fishing_rod",
+			"ctft:granite_compass",
+			"ctft:granite_clock",
+			"ctft:granite_helmet",
+			"ctft:granite_chestplate",
+			"ctft:granite_leggings",
+			"ctft:granite_boots",
+			"ctft:granite_shears",
+			"ctft:granite_horse_armor",
+			"ctft:granite_bow"
+		]
+	}
+}

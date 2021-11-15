@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:spruce_leaves"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:spruce_leaves_sword",
+			"ctft:spruce_leaves_pickaxe",
+			"ctft:spruce_leaves_axe",
+			"ctft:spruce_leaves_shovel",
+			"ctft:spruce_leaves_hoe",
+			"ctft:spruce_leaves_shield",
+			"ctft:spruce_leaves_fishing_rod",
+			"ctft:spruce_leaves_compass",
+			"ctft:spruce_leaves_clock",
+			"ctft:spruce_leaves_helmet",
+			"ctft:spruce_leaves_chestplate",
+			"ctft:spruce_leaves_leggings",
+			"ctft:spruce_leaves_boots",
+			"ctft:spruce_leaves_shears",
+			"ctft:spruce_leaves_horse_armor",
+			"ctft:spruce_leaves_bow"
+		]
+	}
+}

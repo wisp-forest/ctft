@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:light_gray_stained_glass"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:light_gray_stained_glass_sword",
+			"ctft:light_gray_stained_glass_pickaxe",
+			"ctft:light_gray_stained_glass_axe",
+			"ctft:light_gray_stained_glass_shovel",
+			"ctft:light_gray_stained_glass_hoe",
+			"ctft:light_gray_stained_glass_shield",
+			"ctft:light_gray_stained_glass_fishing_rod",
+			"ctft:light_gray_stained_glass_compass",
+			"ctft:light_gray_stained_glass_clock",
+			"ctft:light_gray_stained_glass_helmet",
+			"ctft:light_gray_stained_glass_chestplate",
+			"ctft:light_gray_stained_glass_leggings",
+			"ctft:light_gray_stained_glass_boots",
+			"ctft:light_gray_stained_glass_shears",
+			"ctft:light_gray_stained_glass_horse_armor",
+			"ctft:light_gray_stained_glass_bow"
+		]
+	}
+}

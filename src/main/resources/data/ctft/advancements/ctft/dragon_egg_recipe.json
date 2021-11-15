@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:dragon_egg"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:dragon_egg_sword",
+			"ctft:dragon_egg_pickaxe",
+			"ctft:dragon_egg_axe",
+			"ctft:dragon_egg_shovel",
+			"ctft:dragon_egg_hoe",
+			"ctft:dragon_egg_shield",
+			"ctft:dragon_egg_fishing_rod",
+			"ctft:dragon_egg_compass",
+			"ctft:dragon_egg_clock",
+			"ctft:dragon_egg_helmet",
+			"ctft:dragon_egg_chestplate",
+			"ctft:dragon_egg_leggings",
+			"ctft:dragon_egg_boots",
+			"ctft:dragon_egg_shears",
+			"ctft:dragon_egg_horse_armor",
+			"ctft:dragon_egg_bow"
+		]
+	}
+}

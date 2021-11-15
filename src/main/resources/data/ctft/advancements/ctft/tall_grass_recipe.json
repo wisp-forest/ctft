@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:tall_grass"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:tall_grass_sword",
+			"ctft:tall_grass_pickaxe",
+			"ctft:tall_grass_axe",
+			"ctft:tall_grass_shovel",
+			"ctft:tall_grass_hoe",
+			"ctft:tall_grass_shield",
+			"ctft:tall_grass_fishing_rod",
+			"ctft:tall_grass_compass",
+			"ctft:tall_grass_clock",
+			"ctft:tall_grass_helmet",
+			"ctft:tall_grass_chestplate",
+			"ctft:tall_grass_leggings",
+			"ctft:tall_grass_boots",
+			"ctft:tall_grass_shears",
+			"ctft:tall_grass_horse_armor",
+			"ctft:tall_grass_bow"
+		]
+	}
+}

@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/powder_snow_bucket_clock_56",
-    "1": "ctft:items/clock_56"
+    "0": "ctft:items/clock_56",
+    "1": "ctft:blocks/powder_snow_bucket_block",
+    "particle": "ctft:blocks/powder_snow_bucket_block"
   }
 }
             

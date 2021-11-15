@@ -1,0 +1,20 @@
+
+{
+  "group": "Cake Helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:cake"
+    }
+  },
+  "result": {
+    "item": "ctft:cake_helmet",
+    "count": 1
+  }
+}
+        

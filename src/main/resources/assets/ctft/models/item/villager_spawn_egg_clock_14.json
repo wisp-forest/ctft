@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/villager_clock_14",
-    "1": "ctft:items/clock_14"
+    "0": "ctft:items/clock_14",
+    "1": "ctft:blocks/villager_block",
+    "particle": "ctft:blocks/villager_block"
   }
 }
             

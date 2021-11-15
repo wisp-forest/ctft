@@ -1,0 +1,23 @@
+
+{
+  "group": "Smithing Table Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:smithing_table"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:smithing_table_shield",
+    "count": 1
+  }
+}
+        

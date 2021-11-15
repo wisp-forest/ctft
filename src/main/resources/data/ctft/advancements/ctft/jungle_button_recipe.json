@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:jungle_button"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:jungle_button_sword",
+			"ctft:jungle_button_pickaxe",
+			"ctft:jungle_button_axe",
+			"ctft:jungle_button_shovel",
+			"ctft:jungle_button_hoe",
+			"ctft:jungle_button_shield",
+			"ctft:jungle_button_fishing_rod",
+			"ctft:jungle_button_compass",
+			"ctft:jungle_button_clock",
+			"ctft:jungle_button_helmet",
+			"ctft:jungle_button_chestplate",
+			"ctft:jungle_button_leggings",
+			"ctft:jungle_button_boots",
+			"ctft:jungle_button_shears",
+			"ctft:jungle_button_horse_armor",
+			"ctft:jungle_button_bow"
+		]
+	}
+}

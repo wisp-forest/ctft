@@ -1,0 +1,20 @@
+
+{
+  "group": "Lime Terracotta Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:lime_terracotta"
+    }
+  },
+  "result": {
+    "item": "ctft:lime_terracotta_chestplate",
+    "count": 1
+  }
+}
+        

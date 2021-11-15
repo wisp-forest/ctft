@@ -1,0 +1,23 @@
+
+{
+  "group": "Golden Helmet Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:golden_helmet"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:golden_helmet_shield",
+    "count": 1
+  }
+}
+        

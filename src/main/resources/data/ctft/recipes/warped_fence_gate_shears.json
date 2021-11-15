@@ -1,0 +1,20 @@
+
+{
+  "group": "Warped Fence Gate Shears",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 0 ",
+    "   "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:warped_fence_gate"
+    }
+  },
+  "result": {
+    "item": "ctft:warped_fence_gate_shears",
+    "count": 1
+  }
+}
+        

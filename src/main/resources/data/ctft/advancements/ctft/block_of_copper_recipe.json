@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:copper_block"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:copper_block_sword",
+			"ctft:copper_block_pickaxe",
+			"ctft:copper_block_axe",
+			"ctft:copper_block_shovel",
+			"ctft:copper_block_hoe",
+			"ctft:copper_block_shield",
+			"ctft:copper_block_fishing_rod",
+			"ctft:copper_block_compass",
+			"ctft:copper_block_clock",
+			"ctft:copper_block_helmet",
+			"ctft:copper_block_chestplate",
+			"ctft:copper_block_leggings",
+			"ctft:copper_block_boots",
+			"ctft:copper_block_shears",
+			"ctft:copper_block_horse_armor",
+			"ctft:copper_block_bow"
+		]
+	}
+}

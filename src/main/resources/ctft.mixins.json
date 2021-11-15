@@ -1,14 +1,10 @@
 {
   "required": true,
-  "minVersion": "0.8",
-  "package": "com.chyzman.ctft.mixin",
+  "package": "com.chyzman.mixin",
   "compatibilityLevel": "JAVA_8",
   "refmap": "ctft.refmap.json",
   "mixins": [
+    "CustomFishingItemFix"
   ],
-  "client": [
-  ],
-  "injectors": {
-    "defaultRequire": 1
-  }
+  "minVersion": "0.8"
 }

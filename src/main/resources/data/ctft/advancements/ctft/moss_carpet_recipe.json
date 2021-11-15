@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:moss_carpet"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:moss_carpet_sword",
+			"ctft:moss_carpet_pickaxe",
+			"ctft:moss_carpet_axe",
+			"ctft:moss_carpet_shovel",
+			"ctft:moss_carpet_hoe",
+			"ctft:moss_carpet_shield",
+			"ctft:moss_carpet_fishing_rod",
+			"ctft:moss_carpet_compass",
+			"ctft:moss_carpet_clock",
+			"ctft:moss_carpet_helmet",
+			"ctft:moss_carpet_chestplate",
+			"ctft:moss_carpet_leggings",
+			"ctft:moss_carpet_boots",
+			"ctft:moss_carpet_shears",
+			"ctft:moss_carpet_horse_armor",
+			"ctft:moss_carpet_bow"
+		]
+	}
+}

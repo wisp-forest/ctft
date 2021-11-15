@@ -1,0 +1,20 @@
+
+{
+  "group": "Stripped Crimson Stem Leggings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:stripped_crimson_stem"
+    }
+  },
+  "result": {
+    "item": "ctft:stripped_crimson_stem_leggings",
+    "count": 1
+  }
+}
+        

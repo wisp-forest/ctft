@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:gunpowder"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:gunpowder_sword",
+			"ctft:gunpowder_pickaxe",
+			"ctft:gunpowder_axe",
+			"ctft:gunpowder_shovel",
+			"ctft:gunpowder_hoe",
+			"ctft:gunpowder_shield",
+			"ctft:gunpowder_fishing_rod",
+			"ctft:gunpowder_compass",
+			"ctft:gunpowder_clock",
+			"ctft:gunpowder_helmet",
+			"ctft:gunpowder_chestplate",
+			"ctft:gunpowder_leggings",
+			"ctft:gunpowder_boots",
+			"ctft:gunpowder_shears",
+			"ctft:gunpowder_horse_armor",
+			"ctft:gunpowder_bow"
+		]
+	}
+}

@@ -1,0 +1,20 @@
+
+{
+  "group": "Fletching Table Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:fletching_table"
+    }
+  },
+  "result": {
+    "item": "ctft:fletching_table_chestplate",
+    "count": 1
+  }
+}
+        

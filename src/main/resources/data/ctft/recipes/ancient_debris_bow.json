@@ -1,0 +1,23 @@
+
+{
+  "group": "Ancient Debris Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:ancient_debris"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:ancient_debris_bow",
+    "count": 1
+  }
+}
+        

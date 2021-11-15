@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:beetroot_seeds"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:beetroot_seeds_sword",
+			"ctft:beetroot_seeds_pickaxe",
+			"ctft:beetroot_seeds_axe",
+			"ctft:beetroot_seeds_shovel",
+			"ctft:beetroot_seeds_hoe",
+			"ctft:beetroot_seeds_shield",
+			"ctft:beetroot_seeds_fishing_rod",
+			"ctft:beetroot_seeds_compass",
+			"ctft:beetroot_seeds_clock",
+			"ctft:beetroot_seeds_helmet",
+			"ctft:beetroot_seeds_chestplate",
+			"ctft:beetroot_seeds_leggings",
+			"ctft:beetroot_seeds_boots",
+			"ctft:beetroot_seeds_shears",
+			"ctft:beetroot_seeds_horse_armor",
+			"ctft:beetroot_seeds_bow"
+		]
+	}
+}

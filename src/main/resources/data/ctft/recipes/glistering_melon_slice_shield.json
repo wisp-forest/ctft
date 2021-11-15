@@ -1,0 +1,23 @@
+
+{
+  "group": "Glistering Melon Slice Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:glistering_melon_slice"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:glistering_melon_slice_shield",
+    "count": 1
+  }
+}
+        

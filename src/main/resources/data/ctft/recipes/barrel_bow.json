@@ -1,0 +1,23 @@
+
+{
+  "group": "Barrel Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:barrel"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:barrel_bow",
+    "count": 1
+  }
+}
+        

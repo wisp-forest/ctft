@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:red_banner"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:red_banner_sword",
+			"ctft:red_banner_pickaxe",
+			"ctft:red_banner_axe",
+			"ctft:red_banner_shovel",
+			"ctft:red_banner_hoe",
+			"ctft:red_banner_shield",
+			"ctft:red_banner_fishing_rod",
+			"ctft:red_banner_compass",
+			"ctft:red_banner_clock",
+			"ctft:red_banner_helmet",
+			"ctft:red_banner_chestplate",
+			"ctft:red_banner_leggings",
+			"ctft:red_banner_boots",
+			"ctft:red_banner_shears",
+			"ctft:red_banner_horse_armor",
+			"ctft:red_banner_bow"
+		]
+	}
+}

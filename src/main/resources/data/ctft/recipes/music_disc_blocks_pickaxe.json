@@ -1,0 +1,23 @@
+
+{
+  "group": "Music Disc Blocks Pickaxe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:music_disc_blocks"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:music_disc_blocks_pickaxe",
+    "count": 1
+  }
+}
+        

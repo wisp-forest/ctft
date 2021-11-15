@@ -1,0 +1,23 @@
+
+{
+  "group": "Polished Deepslate Stairs Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:polished_deepslate_stairs"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:polished_deepslate_stairs_bow",
+    "count": 1
+  }
+}
+        

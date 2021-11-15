@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:lapis_ore"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:lapis_ore_sword",
+			"ctft:lapis_ore_pickaxe",
+			"ctft:lapis_ore_axe",
+			"ctft:lapis_ore_shovel",
+			"ctft:lapis_ore_hoe",
+			"ctft:lapis_ore_shield",
+			"ctft:lapis_ore_fishing_rod",
+			"ctft:lapis_ore_compass",
+			"ctft:lapis_ore_clock",
+			"ctft:lapis_ore_helmet",
+			"ctft:lapis_ore_chestplate",
+			"ctft:lapis_ore_leggings",
+			"ctft:lapis_ore_boots",
+			"ctft:lapis_ore_shears",
+			"ctft:lapis_ore_horse_armor",
+			"ctft:lapis_ore_bow"
+		]
+	}
+}

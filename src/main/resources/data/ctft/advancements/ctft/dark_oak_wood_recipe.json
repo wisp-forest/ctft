@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:dark_oak_wood"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:dark_oak_wood_sword",
+			"ctft:dark_oak_wood_pickaxe",
+			"ctft:dark_oak_wood_axe",
+			"ctft:dark_oak_wood_shovel",
+			"ctft:dark_oak_wood_hoe",
+			"ctft:dark_oak_wood_shield",
+			"ctft:dark_oak_wood_fishing_rod",
+			"ctft:dark_oak_wood_compass",
+			"ctft:dark_oak_wood_clock",
+			"ctft:dark_oak_wood_helmet",
+			"ctft:dark_oak_wood_chestplate",
+			"ctft:dark_oak_wood_leggings",
+			"ctft:dark_oak_wood_boots",
+			"ctft:dark_oak_wood_shears",
+			"ctft:dark_oak_wood_horse_armor",
+			"ctft:dark_oak_wood_bow"
+		]
+	}
+}

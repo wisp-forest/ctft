@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/smoker_front_clock_51",
-    "1": "ctft:items/clock_51"
+    "0": "ctft:items/clock_51",
+    "1": "ctft:blocks/smoker_front_block",
+    "particle": "ctft:blocks/smoker_front_block"
   }
 }
             

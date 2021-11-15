@@ -1,0 +1,20 @@
+
+{
+  "group": "Blaze Powder Boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:blaze_powder"
+    }
+  },
+  "result": {
+    "item": "ctft:blaze_powder_boots",
+    "count": 1
+  }
+}
+        

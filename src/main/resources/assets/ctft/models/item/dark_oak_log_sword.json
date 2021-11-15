@@ -1,8 +1,10 @@
 
     {
-      "parent": "item/handheld",
+      "parent": "ctft:item/sword",
       "textures": {
-        "layer0": "ctft:items/dark_oak_log_sword"
+        "0": "ctft:items/iron_sword",
+        "1": "ctft:blocks/dark_oak_log_block",
+        "particle": "ctft:blocks/dark_oak_log_block"
       }
     }
             

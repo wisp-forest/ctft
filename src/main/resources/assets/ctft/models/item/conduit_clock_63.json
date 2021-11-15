@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/conduit_clock_63",
-    "1": "ctft:items/clock_63"
+    "0": "ctft:items/clock_63",
+    "1": "ctft:blocks/conduit_block",
+    "particle": "ctft:blocks/conduit_block"
   }
 }
             

@@ -1,0 +1,23 @@
+
+{
+  "group": "Magma Cream Sword",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    " 0 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:magma_cream"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:magma_cream_sword",
+    "count": 1
+  }
+}
+        

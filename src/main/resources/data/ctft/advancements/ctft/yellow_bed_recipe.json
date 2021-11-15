@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:yellow_bed"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:yellow_bed_sword",
+			"ctft:yellow_bed_pickaxe",
+			"ctft:yellow_bed_axe",
+			"ctft:yellow_bed_shovel",
+			"ctft:yellow_bed_hoe",
+			"ctft:yellow_bed_shield",
+			"ctft:yellow_bed_fishing_rod",
+			"ctft:yellow_bed_compass",
+			"ctft:yellow_bed_clock",
+			"ctft:yellow_bed_helmet",
+			"ctft:yellow_bed_chestplate",
+			"ctft:yellow_bed_leggings",
+			"ctft:yellow_bed_boots",
+			"ctft:yellow_bed_shears",
+			"ctft:yellow_bed_horse_armor",
+			"ctft:yellow_bed_bow"
+		]
+	}
+}

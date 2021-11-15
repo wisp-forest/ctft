@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:nautilus_shell"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:nautilus_shell_sword",
+			"ctft:nautilus_shell_pickaxe",
+			"ctft:nautilus_shell_axe",
+			"ctft:nautilus_shell_shovel",
+			"ctft:nautilus_shell_hoe",
+			"ctft:nautilus_shell_shield",
+			"ctft:nautilus_shell_fishing_rod",
+			"ctft:nautilus_shell_compass",
+			"ctft:nautilus_shell_clock",
+			"ctft:nautilus_shell_helmet",
+			"ctft:nautilus_shell_chestplate",
+			"ctft:nautilus_shell_leggings",
+			"ctft:nautilus_shell_boots",
+			"ctft:nautilus_shell_shears",
+			"ctft:nautilus_shell_horse_armor",
+			"ctft:nautilus_shell_bow"
+		]
+	}
+}

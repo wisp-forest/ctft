@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bubble_coral_block"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:bubble_coral_block_sword",
+			"ctft:bubble_coral_block_pickaxe",
+			"ctft:bubble_coral_block_axe",
+			"ctft:bubble_coral_block_shovel",
+			"ctft:bubble_coral_block_hoe",
+			"ctft:bubble_coral_block_shield",
+			"ctft:bubble_coral_block_fishing_rod",
+			"ctft:bubble_coral_block_compass",
+			"ctft:bubble_coral_block_clock",
+			"ctft:bubble_coral_block_helmet",
+			"ctft:bubble_coral_block_chestplate",
+			"ctft:bubble_coral_block_leggings",
+			"ctft:bubble_coral_block_boots",
+			"ctft:bubble_coral_block_shears",
+			"ctft:bubble_coral_block_horse_armor",
+			"ctft:bubble_coral_block_bow"
+		]
+	}
+}

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:red_dye"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:red_dye_sword",
+			"ctft:red_dye_pickaxe",
+			"ctft:red_dye_axe",
+			"ctft:red_dye_shovel",
+			"ctft:red_dye_hoe",
+			"ctft:red_dye_shield",
+			"ctft:red_dye_fishing_rod",
+			"ctft:red_dye_compass",
+			"ctft:red_dye_clock",
+			"ctft:red_dye_helmet",
+			"ctft:red_dye_chestplate",
+			"ctft:red_dye_leggings",
+			"ctft:red_dye_boots",
+			"ctft:red_dye_shears",
+			"ctft:red_dye_horse_armor",
+			"ctft:red_dye_bow"
+		]
+	}
+}

@@ -1,0 +1,20 @@
+
+{
+  "group": "Birch Fence Boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:birch_fence"
+    }
+  },
+  "result": {
+    "item": "ctft:birch_fence_boots",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,20 @@
+
+{
+  "group": "Lava Bucket Boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:lava_bucket"
+    }
+  },
+  "result": {
+    "item": "ctft:lava_bucket_boots",
+    "count": 1
+  }
+}
+        

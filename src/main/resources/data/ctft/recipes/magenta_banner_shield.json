@@ -1,0 +1,23 @@
+
+{
+  "group": "Magenta Banner Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:magenta_banner"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:magenta_banner_shield",
+    "count": 1
+  }
+}
+        

@@ -1,8 +1,10 @@
 
     {
-      "parent": "item/handheld",
+      "parent": "ctft:item/sword",
       "textures": {
-        "layer0": "ctft:items/spore_blossom_sword"
+        "0": "ctft:items/iron_sword",
+        "1": "ctft:blocks/spore_blossom_block",
+        "particle": "ctft:blocks/spore_blossom_block"
       }
     }
             

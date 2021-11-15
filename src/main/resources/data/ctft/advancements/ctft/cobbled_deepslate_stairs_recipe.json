@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cobbled_deepslate_stairs"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:cobbled_deepslate_stairs_sword",
+			"ctft:cobbled_deepslate_stairs_pickaxe",
+			"ctft:cobbled_deepslate_stairs_axe",
+			"ctft:cobbled_deepslate_stairs_shovel",
+			"ctft:cobbled_deepslate_stairs_hoe",
+			"ctft:cobbled_deepslate_stairs_shield",
+			"ctft:cobbled_deepslate_stairs_fishing_rod",
+			"ctft:cobbled_deepslate_stairs_compass",
+			"ctft:cobbled_deepslate_stairs_clock",
+			"ctft:cobbled_deepslate_stairs_helmet",
+			"ctft:cobbled_deepslate_stairs_chestplate",
+			"ctft:cobbled_deepslate_stairs_leggings",
+			"ctft:cobbled_deepslate_stairs_boots",
+			"ctft:cobbled_deepslate_stairs_shears",
+			"ctft:cobbled_deepslate_stairs_horse_armor",
+			"ctft:cobbled_deepslate_stairs_bow"
+		]
+	}
+}

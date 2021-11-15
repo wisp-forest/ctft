@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:acacia_sign"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:acacia_sign_sword",
+			"ctft:acacia_sign_pickaxe",
+			"ctft:acacia_sign_axe",
+			"ctft:acacia_sign_shovel",
+			"ctft:acacia_sign_hoe",
+			"ctft:acacia_sign_shield",
+			"ctft:acacia_sign_fishing_rod",
+			"ctft:acacia_sign_compass",
+			"ctft:acacia_sign_clock",
+			"ctft:acacia_sign_helmet",
+			"ctft:acacia_sign_chestplate",
+			"ctft:acacia_sign_leggings",
+			"ctft:acacia_sign_boots",
+			"ctft:acacia_sign_shears",
+			"ctft:acacia_sign_horse_armor",
+			"ctft:acacia_sign_bow"
+		]
+	}
+}

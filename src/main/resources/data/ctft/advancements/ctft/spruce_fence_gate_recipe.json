@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:spruce_fence_gate"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:spruce_fence_gate_sword",
+			"ctft:spruce_fence_gate_pickaxe",
+			"ctft:spruce_fence_gate_axe",
+			"ctft:spruce_fence_gate_shovel",
+			"ctft:spruce_fence_gate_hoe",
+			"ctft:spruce_fence_gate_shield",
+			"ctft:spruce_fence_gate_fishing_rod",
+			"ctft:spruce_fence_gate_compass",
+			"ctft:spruce_fence_gate_clock",
+			"ctft:spruce_fence_gate_helmet",
+			"ctft:spruce_fence_gate_chestplate",
+			"ctft:spruce_fence_gate_leggings",
+			"ctft:spruce_fence_gate_boots",
+			"ctft:spruce_fence_gate_shears",
+			"ctft:spruce_fence_gate_horse_armor",
+			"ctft:spruce_fence_gate_bow"
+		]
+	}
+}

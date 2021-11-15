@@ -2,7 +2,13 @@
     {
       "parent": "ctft:item/shield",
       "textures": {
-        "0": "ctft:items/dead_bubble_coral_fan_shield_base"
-      }
+        "0": "ctft:items/shield_base",
+        "1": "ctft:blocks/dead_bubble_coral_fan_block",
+        "particle": "ctft:blocks/dead_bubble_coral_fan_block"
+      },
+      "overrides": [
+        { "predicate": { "blocking": 0.0 }, "model": "ctft:item/dead_bubble_coral_fan_shield" },
+        { "predicate": { "blocking": 1.0 }, "model": "ctft:item/dead_bubble_coral_fan_shield_blocking" }
+        ]
     }
             

@@ -1,0 +1,20 @@
+
+{
+  "group": "White Dye Leggings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:white_dye"
+    }
+  },
+  "result": {
+    "item": "ctft:white_dye_leggings",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_ore"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:iron_ore_sword",
+			"ctft:iron_ore_pickaxe",
+			"ctft:iron_ore_axe",
+			"ctft:iron_ore_shovel",
+			"ctft:iron_ore_hoe",
+			"ctft:iron_ore_shield",
+			"ctft:iron_ore_fishing_rod",
+			"ctft:iron_ore_compass",
+			"ctft:iron_ore_clock",
+			"ctft:iron_ore_helmet",
+			"ctft:iron_ore_chestplate",
+			"ctft:iron_ore_leggings",
+			"ctft:iron_ore_boots",
+			"ctft:iron_ore_shears",
+			"ctft:iron_ore_horse_armor",
+			"ctft:iron_ore_bow"
+		]
+	}
+}

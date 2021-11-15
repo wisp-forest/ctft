@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cooked_chicken"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:cooked_chicken_sword",
+			"ctft:cooked_chicken_pickaxe",
+			"ctft:cooked_chicken_axe",
+			"ctft:cooked_chicken_shovel",
+			"ctft:cooked_chicken_hoe",
+			"ctft:cooked_chicken_shield",
+			"ctft:cooked_chicken_fishing_rod",
+			"ctft:cooked_chicken_compass",
+			"ctft:cooked_chicken_clock",
+			"ctft:cooked_chicken_helmet",
+			"ctft:cooked_chicken_chestplate",
+			"ctft:cooked_chicken_leggings",
+			"ctft:cooked_chicken_boots",
+			"ctft:cooked_chicken_shears",
+			"ctft:cooked_chicken_horse_armor",
+			"ctft:cooked_chicken_bow"
+		]
+	}
+}

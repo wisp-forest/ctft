@@ -1,0 +1,23 @@
+
+{
+  "group": "Ender Pearl Sword",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    " 0 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:ender_pearl"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:ender_pearl_sword",
+    "count": 1
+  }
+}
+        

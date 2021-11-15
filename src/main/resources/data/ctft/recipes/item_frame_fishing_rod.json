@@ -1,0 +1,23 @@
+
+{
+  "group": "Item Frame Fishing Rod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 01",
+    "0 1"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:item_frame"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:item_frame_fishing_rod",
+    "count": 1
+  }
+}
+        

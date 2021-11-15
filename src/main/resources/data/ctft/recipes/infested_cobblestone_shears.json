@@ -1,0 +1,20 @@
+
+{
+  "group": "Infested Cobblestone Shears",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 0 ",
+    "   "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:infested_cobblestone"
+    }
+  },
+  "result": {
+    "item": "ctft:infested_cobblestone_shears",
+    "count": 1
+  }
+}
+        

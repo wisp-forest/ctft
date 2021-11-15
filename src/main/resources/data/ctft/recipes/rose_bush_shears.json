@@ -1,0 +1,20 @@
+
+{
+  "group": "Rose Bush Shears",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 0 ",
+    "   "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:rose_bush"
+    }
+  },
+  "result": {
+    "item": "ctft:rose_bush_shears",
+    "count": 1
+  }
+}
+        

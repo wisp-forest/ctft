@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:spider_eye"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:spider_eye_sword",
+			"ctft:spider_eye_pickaxe",
+			"ctft:spider_eye_axe",
+			"ctft:spider_eye_shovel",
+			"ctft:spider_eye_hoe",
+			"ctft:spider_eye_shield",
+			"ctft:spider_eye_fishing_rod",
+			"ctft:spider_eye_compass",
+			"ctft:spider_eye_clock",
+			"ctft:spider_eye_helmet",
+			"ctft:spider_eye_chestplate",
+			"ctft:spider_eye_leggings",
+			"ctft:spider_eye_boots",
+			"ctft:spider_eye_shears",
+			"ctft:spider_eye_horse_armor",
+			"ctft:spider_eye_bow"
+		]
+	}
+}

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:magenta_terracotta"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:magenta_terracotta_sword",
+			"ctft:magenta_terracotta_pickaxe",
+			"ctft:magenta_terracotta_axe",
+			"ctft:magenta_terracotta_shovel",
+			"ctft:magenta_terracotta_hoe",
+			"ctft:magenta_terracotta_shield",
+			"ctft:magenta_terracotta_fishing_rod",
+			"ctft:magenta_terracotta_compass",
+			"ctft:magenta_terracotta_clock",
+			"ctft:magenta_terracotta_helmet",
+			"ctft:magenta_terracotta_chestplate",
+			"ctft:magenta_terracotta_leggings",
+			"ctft:magenta_terracotta_boots",
+			"ctft:magenta_terracotta_shears",
+			"ctft:magenta_terracotta_horse_armor",
+			"ctft:magenta_terracotta_bow"
+		]
+	}
+}

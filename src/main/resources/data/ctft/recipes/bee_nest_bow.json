@@ -1,0 +1,23 @@
+
+{
+  "group": "Bee Nest Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:bee_nest"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:bee_nest_bow",
+    "count": 1
+  }
+}
+        

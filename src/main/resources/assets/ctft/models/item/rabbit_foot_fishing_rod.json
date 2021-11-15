@@ -1,8 +1,14 @@
 
 {
-  "parent": "item/fishing_rod",
+  "parent": "ctft:item/fishing_rod",
   "textures": {
-    "layer0": "ctft:items/rabbit_foot_fishing_rod"
-  }
+    "0": "ctft:items/fishing_rod",
+    "1": "ctft:blocks/rabbit_foot_block",
+    "particle": "ctft:blocks/rabbit_foot_block"
+  },
+  "overrides": [
+        { "predicate": { "cast": 0.0 }, "model": "ctft:item/rabbit_foot_fishing_rod" },
+        { "predicate": { "cast": 1.0 }, "model": "ctft:item/rabbit_foot_fishing_rod_cast" }
+    ]
 }
         

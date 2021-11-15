@@ -1,0 +1,20 @@
+
+{
+  "group": "Magenta Candle Leggings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:magenta_candle"
+    }
+  },
+  "result": {
+    "item": "ctft:magenta_candle_leggings",
+    "count": 1
+  }
+}
+        

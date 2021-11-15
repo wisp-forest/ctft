@@ -1,0 +1,20 @@
+
+{
+  "group": "Beetroot Helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:beetroot"
+    }
+  },
+  "result": {
+    "item": "ctft:beetroot_helmet",
+    "count": 1
+  }
+}
+        

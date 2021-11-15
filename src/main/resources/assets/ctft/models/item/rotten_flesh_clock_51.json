@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/rotten_flesh_clock_51",
-    "1": "ctft:items/clock_51"
+    "0": "ctft:items/clock_51",
+    "1": "ctft:blocks/rotten_flesh_block",
+    "particle": "ctft:blocks/rotten_flesh_block"
   }
 }
             

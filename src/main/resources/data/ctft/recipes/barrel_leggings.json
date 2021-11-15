@@ -1,0 +1,20 @@
+
+{
+  "group": "Barrel Leggings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:barrel"
+    }
+  },
+  "result": {
+    "item": "ctft:barrel_leggings",
+    "count": 1
+  }
+}
+        

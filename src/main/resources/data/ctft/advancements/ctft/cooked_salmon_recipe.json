@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cooked_salmon"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:cooked_salmon_sword",
+			"ctft:cooked_salmon_pickaxe",
+			"ctft:cooked_salmon_axe",
+			"ctft:cooked_salmon_shovel",
+			"ctft:cooked_salmon_hoe",
+			"ctft:cooked_salmon_shield",
+			"ctft:cooked_salmon_fishing_rod",
+			"ctft:cooked_salmon_compass",
+			"ctft:cooked_salmon_clock",
+			"ctft:cooked_salmon_helmet",
+			"ctft:cooked_salmon_chestplate",
+			"ctft:cooked_salmon_leggings",
+			"ctft:cooked_salmon_boots",
+			"ctft:cooked_salmon_shears",
+			"ctft:cooked_salmon_horse_armor",
+			"ctft:cooked_salmon_bow"
+		]
+	}
+}

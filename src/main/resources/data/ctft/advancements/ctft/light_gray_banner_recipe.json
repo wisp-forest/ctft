@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:light_gray_banner"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:light_gray_banner_sword",
+			"ctft:light_gray_banner_pickaxe",
+			"ctft:light_gray_banner_axe",
+			"ctft:light_gray_banner_shovel",
+			"ctft:light_gray_banner_hoe",
+			"ctft:light_gray_banner_shield",
+			"ctft:light_gray_banner_fishing_rod",
+			"ctft:light_gray_banner_compass",
+			"ctft:light_gray_banner_clock",
+			"ctft:light_gray_banner_helmet",
+			"ctft:light_gray_banner_chestplate",
+			"ctft:light_gray_banner_leggings",
+			"ctft:light_gray_banner_boots",
+			"ctft:light_gray_banner_shears",
+			"ctft:light_gray_banner_horse_armor",
+			"ctft:light_gray_banner_bow"
+		]
+	}
+}

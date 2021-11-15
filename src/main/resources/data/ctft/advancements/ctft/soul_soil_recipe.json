@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:soul_soil"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:soul_soil_sword",
+			"ctft:soul_soil_pickaxe",
+			"ctft:soul_soil_axe",
+			"ctft:soul_soil_shovel",
+			"ctft:soul_soil_hoe",
+			"ctft:soul_soil_shield",
+			"ctft:soul_soil_fishing_rod",
+			"ctft:soul_soil_compass",
+			"ctft:soul_soil_clock",
+			"ctft:soul_soil_helmet",
+			"ctft:soul_soil_chestplate",
+			"ctft:soul_soil_leggings",
+			"ctft:soul_soil_boots",
+			"ctft:soul_soil_shears",
+			"ctft:soul_soil_horse_armor",
+			"ctft:soul_soil_bow"
+		]
+	}
+}

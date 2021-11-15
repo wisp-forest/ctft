@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/stripped_warped_stem_top_clock_09",
-    "1": "ctft:items/clock_09"
+    "0": "ctft:items/clock_09",
+    "1": "ctft:blocks/stripped_warped_stem_top_block",
+    "particle": "ctft:blocks/stripped_warped_stem_top_block"
   }
 }
             

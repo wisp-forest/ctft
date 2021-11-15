@@ -1,0 +1,23 @@
+
+{
+  "group": "Deepslate Gold Ore Shovel",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:deepslate_gold_ore"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:deepslate_gold_ore_shovel",
+    "count": 1
+  }
+}
+        

@@ -1,8 +1,10 @@
 
     {
-      "parent": "item/handheld",
+      "parent": "ctft:item/axe",
       "textures": {
-        "layer0": "ctft:items/blaze_powder_axe"
+        "0": "ctft:items/iron_axe",
+        "1": "ctft:blocks/blaze_powder_block",
+        "particle": "ctft:blocks/blaze_powder_block"
       }
     }
             

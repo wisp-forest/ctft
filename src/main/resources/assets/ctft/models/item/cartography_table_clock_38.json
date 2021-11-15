@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/cartography_table_side2_clock_38",
-    "1": "ctft:items/clock_38"
+    "0": "ctft:items/clock_38",
+    "1": "ctft:blocks/cartography_table_side2_block",
+    "particle": "ctft:blocks/cartography_table_side2_block"
   }
 }
             

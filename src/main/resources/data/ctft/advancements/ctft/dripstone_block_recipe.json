@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:dripstone_block"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:dripstone_block_sword",
+			"ctft:dripstone_block_pickaxe",
+			"ctft:dripstone_block_axe",
+			"ctft:dripstone_block_shovel",
+			"ctft:dripstone_block_hoe",
+			"ctft:dripstone_block_shield",
+			"ctft:dripstone_block_fishing_rod",
+			"ctft:dripstone_block_compass",
+			"ctft:dripstone_block_clock",
+			"ctft:dripstone_block_helmet",
+			"ctft:dripstone_block_chestplate",
+			"ctft:dripstone_block_leggings",
+			"ctft:dripstone_block_boots",
+			"ctft:dripstone_block_shears",
+			"ctft:dripstone_block_horse_armor",
+			"ctft:dripstone_block_bow"
+		]
+	}
+}

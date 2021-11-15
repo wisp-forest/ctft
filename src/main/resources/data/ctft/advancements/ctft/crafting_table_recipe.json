@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:crafting_table"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:crafting_table_sword",
+			"ctft:crafting_table_pickaxe",
+			"ctft:crafting_table_axe",
+			"ctft:crafting_table_shovel",
+			"ctft:crafting_table_hoe",
+			"ctft:crafting_table_shield",
+			"ctft:crafting_table_fishing_rod",
+			"ctft:crafting_table_compass",
+			"ctft:crafting_table_clock",
+			"ctft:crafting_table_helmet",
+			"ctft:crafting_table_chestplate",
+			"ctft:crafting_table_leggings",
+			"ctft:crafting_table_boots",
+			"ctft:crafting_table_shears",
+			"ctft:crafting_table_horse_armor",
+			"ctft:crafting_table_bow"
+		]
+	}
+}

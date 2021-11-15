@@ -1,0 +1,23 @@
+
+{
+  "group": "Black Stained Glass Pane Axe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "00 ",
+    "01 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:black_stained_glass_pane"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:black_stained_glass_pane_axe",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:lime_shulker_box"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:lime_shulker_box_sword",
+			"ctft:lime_shulker_box_pickaxe",
+			"ctft:lime_shulker_box_axe",
+			"ctft:lime_shulker_box_shovel",
+			"ctft:lime_shulker_box_hoe",
+			"ctft:lime_shulker_box_shield",
+			"ctft:lime_shulker_box_fishing_rod",
+			"ctft:lime_shulker_box_compass",
+			"ctft:lime_shulker_box_clock",
+			"ctft:lime_shulker_box_helmet",
+			"ctft:lime_shulker_box_chestplate",
+			"ctft:lime_shulker_box_leggings",
+			"ctft:lime_shulker_box_boots",
+			"ctft:lime_shulker_box_shears",
+			"ctft:lime_shulker_box_horse_armor",
+			"ctft:lime_shulker_box_bow"
+		]
+	}
+}

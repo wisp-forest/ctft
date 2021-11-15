@@ -1,0 +1,20 @@
+
+{
+  "group": "Wooden Shovel Boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:wooden_shovel"
+    }
+  },
+  "result": {
+    "item": "ctft:wooden_shovel_boots",
+    "count": 1
+  }
+}
+        

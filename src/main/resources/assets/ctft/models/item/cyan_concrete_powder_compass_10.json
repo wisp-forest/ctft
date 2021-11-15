@@ -1,0 +1,10 @@
+
+{
+  "parent": "ctft:item/compass",
+  "textures": {
+    "0": "ctft:items/compass_10",
+    "1": "ctft:blocks/cyan_concrete_powder_block",
+    "particle": "ctft:blocks/cyan_concrete_powder_block"
+  }
+}
+            

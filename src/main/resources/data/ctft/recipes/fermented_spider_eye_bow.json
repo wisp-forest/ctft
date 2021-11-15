@@ -1,0 +1,23 @@
+
+{
+  "group": "Fermented Spider Eye Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:fermented_spider_eye"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:fermented_spider_eye_bow",
+    "count": 1
+  }
+}
+        

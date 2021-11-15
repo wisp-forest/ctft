@@ -1,0 +1,23 @@
+
+{
+  "group": "Light Gray Stained Glass Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:light_gray_stained_glass"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:light_gray_stained_glass_bow",
+    "count": 1
+  }
+}
+        

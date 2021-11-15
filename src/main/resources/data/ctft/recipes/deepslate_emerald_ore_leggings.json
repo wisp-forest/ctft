@@ -1,0 +1,20 @@
+
+{
+  "group": "Deepslate Emerald Ore Leggings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:deepslate_emerald_ore"
+    }
+  },
+  "result": {
+    "item": "ctft:deepslate_emerald_ore_leggings",
+    "count": 1
+  }
+}
+        

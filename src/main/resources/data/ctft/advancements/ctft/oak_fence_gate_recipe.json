@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:oak_fence_gate"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:oak_fence_gate_sword",
+			"ctft:oak_fence_gate_pickaxe",
+			"ctft:oak_fence_gate_axe",
+			"ctft:oak_fence_gate_shovel",
+			"ctft:oak_fence_gate_hoe",
+			"ctft:oak_fence_gate_shield",
+			"ctft:oak_fence_gate_fishing_rod",
+			"ctft:oak_fence_gate_compass",
+			"ctft:oak_fence_gate_clock",
+			"ctft:oak_fence_gate_helmet",
+			"ctft:oak_fence_gate_chestplate",
+			"ctft:oak_fence_gate_leggings",
+			"ctft:oak_fence_gate_boots",
+			"ctft:oak_fence_gate_shears",
+			"ctft:oak_fence_gate_horse_armor",
+			"ctft:oak_fence_gate_bow"
+		]
+	}
+}

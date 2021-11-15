@@ -1,0 +1,20 @@
+
+{
+  "group": "Diamond Block Horse Armor",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:diamond_block"
+    }
+  },
+  "result": {
+    "item": "ctft:diamond_block_horse_armor",
+    "count": 1
+  }
+}
+        

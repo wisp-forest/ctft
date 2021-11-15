@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:light_gray_concrete_powder"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:light_gray_concrete_powder_sword",
+			"ctft:light_gray_concrete_powder_pickaxe",
+			"ctft:light_gray_concrete_powder_axe",
+			"ctft:light_gray_concrete_powder_shovel",
+			"ctft:light_gray_concrete_powder_hoe",
+			"ctft:light_gray_concrete_powder_shield",
+			"ctft:light_gray_concrete_powder_fishing_rod",
+			"ctft:light_gray_concrete_powder_compass",
+			"ctft:light_gray_concrete_powder_clock",
+			"ctft:light_gray_concrete_powder_helmet",
+			"ctft:light_gray_concrete_powder_chestplate",
+			"ctft:light_gray_concrete_powder_leggings",
+			"ctft:light_gray_concrete_powder_boots",
+			"ctft:light_gray_concrete_powder_shears",
+			"ctft:light_gray_concrete_powder_horse_armor",
+			"ctft:light_gray_concrete_powder_bow"
+		]
+	}
+}

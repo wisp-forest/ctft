@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:coal"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:coal_sword",
+			"ctft:coal_pickaxe",
+			"ctft:coal_axe",
+			"ctft:coal_shovel",
+			"ctft:coal_hoe",
+			"ctft:coal_shield",
+			"ctft:coal_fishing_rod",
+			"ctft:coal_compass",
+			"ctft:coal_clock",
+			"ctft:coal_helmet",
+			"ctft:coal_chestplate",
+			"ctft:coal_leggings",
+			"ctft:coal_boots",
+			"ctft:coal_shears",
+			"ctft:coal_horse_armor",
+			"ctft:coal_bow"
+		]
+	}
+}

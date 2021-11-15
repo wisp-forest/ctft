@@ -1,8 +1,10 @@
 
     {
-      "parent": "item/handheld",
+      "parent": "ctft:item/hoe",
       "textures": {
-        "layer0": "ctft:items/cartography_table_side2_hoe"
+        "0": "ctft:items/iron_hoe",
+        "1": "ctft:blocks/cartography_table_side2_block",
+        "particle": "ctft:blocks/cartography_table_side2_block"
       }
     }
             

@@ -1,0 +1,20 @@
+
+{
+  "group": "Music Disc Stal Boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:music_disc_stal"
+    }
+  },
+  "result": {
+    "item": "ctft:music_disc_stal_boots",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,23 @@
+
+{
+  "group": "Mushroom Stem Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:mushroom_stem"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:mushroom_stem_shield",
+    "count": 1
+  }
+}
+        

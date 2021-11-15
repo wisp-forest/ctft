@@ -1,0 +1,23 @@
+
+{
+  "group": "Spruce Slab Fishing Rod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 01",
+    "0 1"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:spruce_slab"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:spruce_slab_fishing_rod",
+    "count": 1
+  }
+}
+        

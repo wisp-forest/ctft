@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:purpur_pillar"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:purpur_pillar_sword",
+			"ctft:purpur_pillar_pickaxe",
+			"ctft:purpur_pillar_axe",
+			"ctft:purpur_pillar_shovel",
+			"ctft:purpur_pillar_hoe",
+			"ctft:purpur_pillar_shield",
+			"ctft:purpur_pillar_fishing_rod",
+			"ctft:purpur_pillar_compass",
+			"ctft:purpur_pillar_clock",
+			"ctft:purpur_pillar_helmet",
+			"ctft:purpur_pillar_chestplate",
+			"ctft:purpur_pillar_leggings",
+			"ctft:purpur_pillar_boots",
+			"ctft:purpur_pillar_shears",
+			"ctft:purpur_pillar_horse_armor",
+			"ctft:purpur_pillar_bow"
+		]
+	}
+}

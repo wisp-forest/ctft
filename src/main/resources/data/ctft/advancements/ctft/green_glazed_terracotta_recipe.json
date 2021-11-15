@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:green_glazed_terracotta"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:green_glazed_terracotta_sword",
+			"ctft:green_glazed_terracotta_pickaxe",
+			"ctft:green_glazed_terracotta_axe",
+			"ctft:green_glazed_terracotta_shovel",
+			"ctft:green_glazed_terracotta_hoe",
+			"ctft:green_glazed_terracotta_shield",
+			"ctft:green_glazed_terracotta_fishing_rod",
+			"ctft:green_glazed_terracotta_compass",
+			"ctft:green_glazed_terracotta_clock",
+			"ctft:green_glazed_terracotta_helmet",
+			"ctft:green_glazed_terracotta_chestplate",
+			"ctft:green_glazed_terracotta_leggings",
+			"ctft:green_glazed_terracotta_boots",
+			"ctft:green_glazed_terracotta_shears",
+			"ctft:green_glazed_terracotta_horse_armor",
+			"ctft:green_glazed_terracotta_bow"
+		]
+	}
+}

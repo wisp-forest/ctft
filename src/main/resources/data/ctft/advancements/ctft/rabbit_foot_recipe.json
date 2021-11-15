@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:rabbit_foot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:rabbit_foot_sword",
+			"ctft:rabbit_foot_pickaxe",
+			"ctft:rabbit_foot_axe",
+			"ctft:rabbit_foot_shovel",
+			"ctft:rabbit_foot_hoe",
+			"ctft:rabbit_foot_shield",
+			"ctft:rabbit_foot_fishing_rod",
+			"ctft:rabbit_foot_compass",
+			"ctft:rabbit_foot_clock",
+			"ctft:rabbit_foot_helmet",
+			"ctft:rabbit_foot_chestplate",
+			"ctft:rabbit_foot_leggings",
+			"ctft:rabbit_foot_boots",
+			"ctft:rabbit_foot_shears",
+			"ctft:rabbit_foot_horse_armor",
+			"ctft:rabbit_foot_bow"
+		]
+	}
+}

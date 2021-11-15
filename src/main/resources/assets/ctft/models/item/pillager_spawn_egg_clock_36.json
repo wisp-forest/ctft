@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/pillager_clock_36",
-    "1": "ctft:items/clock_36"
+    "0": "ctft:items/clock_36",
+    "1": "ctft:blocks/pillager_block",
+    "particle": "ctft:blocks/pillager_block"
   }
 }
             

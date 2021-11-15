@@ -1,0 +1,23 @@
+
+{
+  "group": "Jack O Lantern Sword",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    " 0 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:jack_o_lantern"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:jack_o_lantern_sword",
+    "count": 1
+  }
+}
+        

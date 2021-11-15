@@ -1,0 +1,20 @@
+
+{
+  "group": "Yellow Terracotta Boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:yellow_terracotta"
+    }
+  },
+  "result": {
+    "item": "ctft:yellow_terracotta_boots",
+    "count": 1
+  }
+}
+        

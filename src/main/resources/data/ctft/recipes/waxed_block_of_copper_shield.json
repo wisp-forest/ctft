@@ -1,0 +1,23 @@
+
+{
+  "group": "Waxed Block of Copper Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:waxed_copper_block"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:waxed_block_of_copper_shield",
+    "count": 1
+  }
+}
+        

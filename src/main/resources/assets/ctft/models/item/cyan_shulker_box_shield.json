@@ -2,7 +2,13 @@
     {
       "parent": "ctft:item/shield",
       "textures": {
-        "0": "ctft:items/cyan_shulker_box_shield_base"
-      }
+        "0": "ctft:items/shield_base",
+        "1": "ctft:blocks/cyan_shulker_box_block",
+        "particle": "ctft:blocks/cyan_shulker_box_block"
+      },
+      "overrides": [
+        { "predicate": { "blocking": 0.0 }, "model": "ctft:item/cyan_shulker_box_shield" },
+        { "predicate": { "blocking": 1.0 }, "model": "ctft:item/cyan_shulker_box_shield_blocking" }
+        ]
     }
             

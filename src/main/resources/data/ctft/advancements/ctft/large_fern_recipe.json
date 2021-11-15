@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:large_fern"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:large_fern_sword",
+			"ctft:large_fern_pickaxe",
+			"ctft:large_fern_axe",
+			"ctft:large_fern_shovel",
+			"ctft:large_fern_hoe",
+			"ctft:large_fern_shield",
+			"ctft:large_fern_fishing_rod",
+			"ctft:large_fern_compass",
+			"ctft:large_fern_clock",
+			"ctft:large_fern_helmet",
+			"ctft:large_fern_chestplate",
+			"ctft:large_fern_leggings",
+			"ctft:large_fern_boots",
+			"ctft:large_fern_shears",
+			"ctft:large_fern_horse_armor",
+			"ctft:large_fern_bow"
+		]
+	}
+}

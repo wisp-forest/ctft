@@ -1,0 +1,23 @@
+
+{
+  "group": "Block of Coal Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:coal_block"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:block_of_coal_shield",
+    "count": 1
+  }
+}
+        

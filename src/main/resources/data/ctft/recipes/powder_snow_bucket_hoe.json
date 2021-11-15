@@ -1,0 +1,23 @@
+
+{
+  "group": "Powder Snow Bucket Hoe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "00 ",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:powder_snow_bucket"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:powder_snow_bucket_hoe",
+    "count": 1
+  }
+}
+        

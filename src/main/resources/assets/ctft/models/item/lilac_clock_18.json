@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/lilac_top_clock_18",
-    "1": "ctft:items/clock_18"
+    "0": "ctft:items/clock_18",
+    "1": "ctft:blocks/lilac_top_block",
+    "particle": "ctft:blocks/lilac_top_block"
   }
 }
             

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:crimson_fence"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:crimson_fence_sword",
+			"ctft:crimson_fence_pickaxe",
+			"ctft:crimson_fence_axe",
+			"ctft:crimson_fence_shovel",
+			"ctft:crimson_fence_hoe",
+			"ctft:crimson_fence_shield",
+			"ctft:crimson_fence_fishing_rod",
+			"ctft:crimson_fence_compass",
+			"ctft:crimson_fence_clock",
+			"ctft:crimson_fence_helmet",
+			"ctft:crimson_fence_chestplate",
+			"ctft:crimson_fence_leggings",
+			"ctft:crimson_fence_boots",
+			"ctft:crimson_fence_shears",
+			"ctft:crimson_fence_horse_armor",
+			"ctft:crimson_fence_bow"
+		]
+	}
+}

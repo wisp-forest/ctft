@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:crimson_slab"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:crimson_slab_sword",
+			"ctft:crimson_slab_pickaxe",
+			"ctft:crimson_slab_axe",
+			"ctft:crimson_slab_shovel",
+			"ctft:crimson_slab_hoe",
+			"ctft:crimson_slab_shield",
+			"ctft:crimson_slab_fishing_rod",
+			"ctft:crimson_slab_compass",
+			"ctft:crimson_slab_clock",
+			"ctft:crimson_slab_helmet",
+			"ctft:crimson_slab_chestplate",
+			"ctft:crimson_slab_leggings",
+			"ctft:crimson_slab_boots",
+			"ctft:crimson_slab_shears",
+			"ctft:crimson_slab_horse_armor",
+			"ctft:crimson_slab_bow"
+		]
+	}
+}

@@ -1,0 +1,20 @@
+
+{
+  "group": "Cooked Beef Boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:cooked_beef"
+    }
+  },
+  "result": {
+    "item": "ctft:cooked_beef_boots",
+    "count": 1
+  }
+}
+        

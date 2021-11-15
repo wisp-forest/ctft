@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/baked_potato_clock_19",
-    "1": "ctft:items/clock_19"
+    "0": "ctft:items/clock_19",
+    "1": "ctft:blocks/baked_potato_block",
+    "particle": "ctft:blocks/baked_potato_block"
   }
 }
             

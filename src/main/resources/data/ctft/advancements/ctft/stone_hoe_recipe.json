@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:stone_hoe"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:stone_hoe_sword",
+			"ctft:stone_hoe_pickaxe",
+			"ctft:stone_hoe_axe",
+			"ctft:stone_hoe_shovel",
+			"ctft:stone_hoe_hoe",
+			"ctft:stone_hoe_shield",
+			"ctft:stone_hoe_fishing_rod",
+			"ctft:stone_hoe_compass",
+			"ctft:stone_hoe_clock",
+			"ctft:stone_hoe_helmet",
+			"ctft:stone_hoe_chestplate",
+			"ctft:stone_hoe_leggings",
+			"ctft:stone_hoe_boots",
+			"ctft:stone_hoe_shears",
+			"ctft:stone_hoe_horse_armor",
+			"ctft:stone_hoe_bow"
+		]
+	}
+}

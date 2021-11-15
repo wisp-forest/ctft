@@ -1,8 +1,10 @@
 
     {
-      "parent": "item/handheld",
+      "parent": "ctft:item/shears",
       "textures": {
-        "layer0": "ctft:items/weeping_vines_shears"
+        "0": "ctft:items/shears",
+        "1": "ctft:blocks/weeping_vines_block",
+        "particle": "ctft:blocks/weeping_vines_block"
       }
     }
             

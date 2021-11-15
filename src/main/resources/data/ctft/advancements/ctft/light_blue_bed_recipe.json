@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:light_blue_bed"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:light_blue_bed_sword",
+			"ctft:light_blue_bed_pickaxe",
+			"ctft:light_blue_bed_axe",
+			"ctft:light_blue_bed_shovel",
+			"ctft:light_blue_bed_hoe",
+			"ctft:light_blue_bed_shield",
+			"ctft:light_blue_bed_fishing_rod",
+			"ctft:light_blue_bed_compass",
+			"ctft:light_blue_bed_clock",
+			"ctft:light_blue_bed_helmet",
+			"ctft:light_blue_bed_chestplate",
+			"ctft:light_blue_bed_leggings",
+			"ctft:light_blue_bed_boots",
+			"ctft:light_blue_bed_shears",
+			"ctft:light_blue_bed_horse_armor",
+			"ctft:light_blue_bed_bow"
+		]
+	}
+}

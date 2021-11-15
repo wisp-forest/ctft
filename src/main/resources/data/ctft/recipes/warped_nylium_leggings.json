@@ -1,0 +1,20 @@
+
+{
+  "group": "Warped Nylium Leggings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:warped_nylium"
+    }
+  },
+  "result": {
+    "item": "ctft:warped_nylium_leggings",
+    "count": 1
+  }
+}
+        

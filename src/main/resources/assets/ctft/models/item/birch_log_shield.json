@@ -2,7 +2,13 @@
     {
       "parent": "ctft:item/shield",
       "textures": {
-        "0": "ctft:items/birch_log_shield_base"
-      }
+        "0": "ctft:items/shield_base",
+        "1": "ctft:blocks/birch_log_block",
+        "particle": "ctft:blocks/birch_log_block"
+      },
+      "overrides": [
+        { "predicate": { "blocking": 0.0 }, "model": "ctft:item/birch_log_shield" },
+        { "predicate": { "blocking": 1.0 }, "model": "ctft:item/birch_log_shield_blocking" }
+        ]
     }
             

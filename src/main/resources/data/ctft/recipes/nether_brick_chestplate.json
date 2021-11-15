@@ -1,0 +1,20 @@
+
+{
+  "group": "Nether Brick Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:nether_brick"
+    }
+  },
+  "result": {
+    "item": "ctft:nether_brick_chestplate",
+    "count": 1
+  }
+}
+        

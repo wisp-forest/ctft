@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:painting"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:painting_sword",
+			"ctft:painting_pickaxe",
+			"ctft:painting_axe",
+			"ctft:painting_shovel",
+			"ctft:painting_hoe",
+			"ctft:painting_shield",
+			"ctft:painting_fishing_rod",
+			"ctft:painting_compass",
+			"ctft:painting_clock",
+			"ctft:painting_helmet",
+			"ctft:painting_chestplate",
+			"ctft:painting_leggings",
+			"ctft:painting_boots",
+			"ctft:painting_shears",
+			"ctft:painting_horse_armor",
+			"ctft:painting_bow"
+		]
+	}
+}

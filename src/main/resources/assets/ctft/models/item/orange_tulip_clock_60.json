@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/orange_tulip_clock_60",
-    "1": "ctft:items/clock_60"
+    "0": "ctft:items/clock_60",
+    "1": "ctft:blocks/orange_tulip_block",
+    "particle": "ctft:blocks/orange_tulip_block"
   }
 }
             

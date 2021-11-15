@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:magenta_wool"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:magenta_wool_sword",
+			"ctft:magenta_wool_pickaxe",
+			"ctft:magenta_wool_axe",
+			"ctft:magenta_wool_shovel",
+			"ctft:magenta_wool_hoe",
+			"ctft:magenta_wool_shield",
+			"ctft:magenta_wool_fishing_rod",
+			"ctft:magenta_wool_compass",
+			"ctft:magenta_wool_clock",
+			"ctft:magenta_wool_helmet",
+			"ctft:magenta_wool_chestplate",
+			"ctft:magenta_wool_leggings",
+			"ctft:magenta_wool_boots",
+			"ctft:magenta_wool_shears",
+			"ctft:magenta_wool_horse_armor",
+			"ctft:magenta_wool_bow"
+		]
+	}
+}

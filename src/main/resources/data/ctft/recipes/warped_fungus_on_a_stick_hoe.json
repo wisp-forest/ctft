@@ -1,0 +1,23 @@
+
+{
+  "group": "Warped Fungus on a Stick Hoe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "00 ",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:warped_fungus_on_a_stick"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:warped_fungus_on_a_stick_hoe",
+    "count": 1
+  }
+}
+        

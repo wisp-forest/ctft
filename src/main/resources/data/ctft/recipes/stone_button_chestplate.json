@@ -1,0 +1,20 @@
+
+{
+  "group": "Stone Button Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:stone_button"
+    }
+  },
+  "result": {
+    "item": "ctft:stone_button_chestplate",
+    "count": 1
+  }
+}
+        

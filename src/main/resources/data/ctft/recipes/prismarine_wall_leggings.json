@@ -1,0 +1,20 @@
+
+{
+  "group": "Prismarine Wall Leggings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:prismarine_wall"
+    }
+  },
+  "result": {
+    "item": "ctft:prismarine_wall_leggings",
+    "count": 1
+  }
+}
+        

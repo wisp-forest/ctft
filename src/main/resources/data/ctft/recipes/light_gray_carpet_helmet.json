@@ -1,0 +1,20 @@
+
+{
+  "group": "Light Gray Carpet Helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:light_gray_carpet"
+    }
+  },
+  "result": {
+    "item": "ctft:light_gray_carpet_helmet",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,20 @@
+
+{
+  "group": "Chiseled Sandstone Leggings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:chiseled_sandstone"
+    }
+  },
+  "result": {
+    "item": "ctft:chiseled_sandstone_leggings",
+    "count": 1
+  }
+}
+        

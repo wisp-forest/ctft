@@ -1,0 +1,23 @@
+
+{
+  "group": "Crying Obsidian Fishing Rod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 01",
+    "0 1"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:crying_obsidian_fishing_rod",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,23 @@
+
+{
+  "group": "Cut Copper Slab Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:cut_copper_slab"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:cut_copper_slab_bow",
+    "count": 1
+  }
+}
+        

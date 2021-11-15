@@ -1,0 +1,23 @@
+
+{
+  "group": "Amethyst Shard Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:amethyst_shard_bow",
+    "count": 1
+  }
+}
+        

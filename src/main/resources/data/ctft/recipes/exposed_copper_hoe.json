@@ -1,0 +1,23 @@
+
+{
+  "group": "Exposed Copper Hoe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "00 ",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:exposed_copper"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:exposed_copper_hoe",
+    "count": 1
+  }
+}
+        

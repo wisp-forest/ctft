@@ -1,0 +1,10 @@
+
+    {
+      "parent": "ctft:item/bow_pulling_2",
+      "textures": {
+        "0": "ctft:items/bow_pulling_2",
+        "1": "ctft:blocks/deepslate_tiles_block",
+        "particle": "ctft:blocks/deepslate_tiles_block"
+      }
+    }
+            

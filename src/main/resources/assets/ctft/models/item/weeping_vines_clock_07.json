@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/weeping_vines_clock_07",
-    "1": "ctft:items/clock_07"
+    "0": "ctft:items/clock_07",
+    "1": "ctft:blocks/weeping_vines_block",
+    "particle": "ctft:blocks/weeping_vines_block"
   }
 }
             

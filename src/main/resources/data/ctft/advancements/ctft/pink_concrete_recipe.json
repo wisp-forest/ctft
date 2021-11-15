@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:pink_concrete"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:pink_concrete_sword",
+			"ctft:pink_concrete_pickaxe",
+			"ctft:pink_concrete_axe",
+			"ctft:pink_concrete_shovel",
+			"ctft:pink_concrete_hoe",
+			"ctft:pink_concrete_shield",
+			"ctft:pink_concrete_fishing_rod",
+			"ctft:pink_concrete_compass",
+			"ctft:pink_concrete_clock",
+			"ctft:pink_concrete_helmet",
+			"ctft:pink_concrete_chestplate",
+			"ctft:pink_concrete_leggings",
+			"ctft:pink_concrete_boots",
+			"ctft:pink_concrete_shears",
+			"ctft:pink_concrete_horse_armor",
+			"ctft:pink_concrete_bow"
+		]
+	}
+}

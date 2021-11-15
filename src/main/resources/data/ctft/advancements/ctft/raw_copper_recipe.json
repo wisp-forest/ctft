@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:raw_copper"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:raw_copper_sword",
+			"ctft:raw_copper_pickaxe",
+			"ctft:raw_copper_axe",
+			"ctft:raw_copper_shovel",
+			"ctft:raw_copper_hoe",
+			"ctft:raw_copper_shield",
+			"ctft:raw_copper_fishing_rod",
+			"ctft:raw_copper_compass",
+			"ctft:raw_copper_clock",
+			"ctft:raw_copper_helmet",
+			"ctft:raw_copper_chestplate",
+			"ctft:raw_copper_leggings",
+			"ctft:raw_copper_boots",
+			"ctft:raw_copper_shears",
+			"ctft:raw_copper_horse_armor",
+			"ctft:raw_copper_bow"
+		]
+	}
+}

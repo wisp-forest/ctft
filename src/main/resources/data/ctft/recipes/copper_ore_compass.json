@@ -1,0 +1,23 @@
+
+{
+  "group": "Copper Ore Compass",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    "010",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:copper_ore"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:copper_ore_compass",
+    "count": 1
+  }
+}
+        

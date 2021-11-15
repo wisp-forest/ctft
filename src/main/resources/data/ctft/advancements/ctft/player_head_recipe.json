@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:player_head"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:player_head_sword",
+			"ctft:player_head_pickaxe",
+			"ctft:player_head_axe",
+			"ctft:player_head_shovel",
+			"ctft:player_head_hoe",
+			"ctft:player_head_shield",
+			"ctft:player_head_fishing_rod",
+			"ctft:player_head_compass",
+			"ctft:player_head_clock",
+			"ctft:player_head_helmet",
+			"ctft:player_head_chestplate",
+			"ctft:player_head_leggings",
+			"ctft:player_head_boots",
+			"ctft:player_head_shears",
+			"ctft:player_head_horse_armor",
+			"ctft:player_head_bow"
+		]
+	}
+}

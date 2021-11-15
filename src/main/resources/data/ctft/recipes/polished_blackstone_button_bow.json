@@ -1,0 +1,23 @@
+
+{
+  "group": "Polished Blackstone Button Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:polished_blackstone_button"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:polished_blackstone_button_bow",
+    "count": 1
+  }
+}
+        

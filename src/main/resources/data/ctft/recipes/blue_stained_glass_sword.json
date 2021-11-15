@@ -1,0 +1,23 @@
+
+{
+  "group": "Blue Stained Glass Sword",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    " 0 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:blue_stained_glass"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:blue_stained_glass_sword",
+    "count": 1
+  }
+}
+        

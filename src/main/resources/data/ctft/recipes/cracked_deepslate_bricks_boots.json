@@ -1,0 +1,20 @@
+
+{
+  "group": "Cracked Deepslate Bricks Boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:cracked_deepslate_bricks"
+    }
+  },
+  "result": {
+    "item": "ctft:cracked_deepslate_bricks_boots",
+    "count": 1
+  }
+}
+        

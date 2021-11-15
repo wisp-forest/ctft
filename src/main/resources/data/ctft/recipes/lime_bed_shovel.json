@@ -1,0 +1,23 @@
+
+{
+  "group": "Lime Bed Shovel",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:lime_bed"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:lime_bed_shovel",
+    "count": 1
+  }
+}
+        

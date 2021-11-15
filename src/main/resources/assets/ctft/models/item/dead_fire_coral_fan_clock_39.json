@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/dead_fire_coral_fan_clock_39",
-    "1": "ctft:items/clock_39"
+    "0": "ctft:items/clock_39",
+    "1": "ctft:blocks/dead_fire_coral_fan_block",
+    "particle": "ctft:blocks/dead_fire_coral_fan_block"
   }
 }
             

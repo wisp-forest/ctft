@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/acacia_planks_clock_13",
-    "1": "ctft:items/clock_13"
+    "0": "ctft:items/clock_13",
+    "1": "ctft:blocks/acacia_planks_block",
+    "particle": "ctft:blocks/acacia_planks_block"
   }
 }
             

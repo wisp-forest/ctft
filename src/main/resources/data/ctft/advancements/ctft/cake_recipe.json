@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cake"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:cake_sword",
+			"ctft:cake_pickaxe",
+			"ctft:cake_axe",
+			"ctft:cake_shovel",
+			"ctft:cake_hoe",
+			"ctft:cake_shield",
+			"ctft:cake_fishing_rod",
+			"ctft:cake_compass",
+			"ctft:cake_clock",
+			"ctft:cake_helmet",
+			"ctft:cake_chestplate",
+			"ctft:cake_leggings",
+			"ctft:cake_boots",
+			"ctft:cake_shears",
+			"ctft:cake_horse_armor",
+			"ctft:cake_bow"
+		]
+	}
+}

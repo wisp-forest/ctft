@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_pickaxe"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:netherite_pickaxe_sword",
+			"ctft:netherite_pickaxe_pickaxe",
+			"ctft:netherite_pickaxe_axe",
+			"ctft:netherite_pickaxe_shovel",
+			"ctft:netherite_pickaxe_hoe",
+			"ctft:netherite_pickaxe_shield",
+			"ctft:netherite_pickaxe_fishing_rod",
+			"ctft:netherite_pickaxe_compass",
+			"ctft:netherite_pickaxe_clock",
+			"ctft:netherite_pickaxe_helmet",
+			"ctft:netherite_pickaxe_chestplate",
+			"ctft:netherite_pickaxe_leggings",
+			"ctft:netherite_pickaxe_boots",
+			"ctft:netherite_pickaxe_shears",
+			"ctft:netherite_pickaxe_horse_armor",
+			"ctft:netherite_pickaxe_bow"
+		]
+	}
+}

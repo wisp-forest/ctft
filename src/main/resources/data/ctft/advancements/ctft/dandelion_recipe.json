@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:dandelion"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:dandelion_sword",
+			"ctft:dandelion_pickaxe",
+			"ctft:dandelion_axe",
+			"ctft:dandelion_shovel",
+			"ctft:dandelion_hoe",
+			"ctft:dandelion_shield",
+			"ctft:dandelion_fishing_rod",
+			"ctft:dandelion_compass",
+			"ctft:dandelion_clock",
+			"ctft:dandelion_helmet",
+			"ctft:dandelion_chestplate",
+			"ctft:dandelion_leggings",
+			"ctft:dandelion_boots",
+			"ctft:dandelion_shears",
+			"ctft:dandelion_horse_armor",
+			"ctft:dandelion_bow"
+		]
+	}
+}

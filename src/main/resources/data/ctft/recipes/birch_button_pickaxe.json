@@ -1,0 +1,23 @@
+
+{
+  "group": "Birch Button Pickaxe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:birch_button"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:birch_button_pickaxe",
+    "count": 1
+  }
+}
+        

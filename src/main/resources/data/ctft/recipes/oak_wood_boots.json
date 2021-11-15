@@ -1,0 +1,20 @@
+
+{
+  "group": "Oak Wood Boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:oak_wood"
+    }
+  },
+  "result": {
+    "item": "ctft:oak_wood_boots",
+    "count": 1
+  }
+}
+        

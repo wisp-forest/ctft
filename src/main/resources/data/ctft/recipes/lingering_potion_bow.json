@@ -1,0 +1,23 @@
+
+{
+  "group": "Lingering Potion Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:lingering_potion"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:lingering_potion_bow",
+    "count": 1
+  }
+}
+        

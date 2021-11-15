@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:exposed_copper"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:exposed_copper_sword",
+			"ctft:exposed_copper_pickaxe",
+			"ctft:exposed_copper_axe",
+			"ctft:exposed_copper_shovel",
+			"ctft:exposed_copper_hoe",
+			"ctft:exposed_copper_shield",
+			"ctft:exposed_copper_fishing_rod",
+			"ctft:exposed_copper_compass",
+			"ctft:exposed_copper_clock",
+			"ctft:exposed_copper_helmet",
+			"ctft:exposed_copper_chestplate",
+			"ctft:exposed_copper_leggings",
+			"ctft:exposed_copper_boots",
+			"ctft:exposed_copper_shears",
+			"ctft:exposed_copper_horse_armor",
+			"ctft:exposed_copper_bow"
+		]
+	}
+}

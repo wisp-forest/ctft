@@ -1,0 +1,23 @@
+
+{
+  "group": "Infested Cobblestone Hoe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "00 ",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:infested_cobblestone"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:infested_cobblestone_hoe",
+    "count": 1
+  }
+}
+        

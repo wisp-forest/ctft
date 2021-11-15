@@ -1,0 +1,20 @@
+
+{
+  "group": "Green Bed Helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:green_bed"
+    }
+  },
+  "result": {
+    "item": "ctft:green_bed_helmet",
+    "count": 1
+  }
+}
+        

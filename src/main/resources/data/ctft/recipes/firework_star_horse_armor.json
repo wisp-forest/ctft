@@ -1,0 +1,20 @@
+
+{
+  "group": "Firework Star Horse Armor",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:firework_star"
+    }
+  },
+  "result": {
+    "item": "ctft:firework_star_horse_armor",
+    "count": 1
+  }
+}
+        

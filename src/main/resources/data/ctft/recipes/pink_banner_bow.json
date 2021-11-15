@@ -1,0 +1,23 @@
+
+{
+  "group": "Pink Banner Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:pink_banner"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:pink_banner_bow",
+    "count": 1
+  }
+}
+        

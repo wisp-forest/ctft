@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:blaze_powder"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:blaze_powder_sword",
+			"ctft:blaze_powder_pickaxe",
+			"ctft:blaze_powder_axe",
+			"ctft:blaze_powder_shovel",
+			"ctft:blaze_powder_hoe",
+			"ctft:blaze_powder_shield",
+			"ctft:blaze_powder_fishing_rod",
+			"ctft:blaze_powder_compass",
+			"ctft:blaze_powder_clock",
+			"ctft:blaze_powder_helmet",
+			"ctft:blaze_powder_chestplate",
+			"ctft:blaze_powder_leggings",
+			"ctft:blaze_powder_boots",
+			"ctft:blaze_powder_shears",
+			"ctft:blaze_powder_horse_armor",
+			"ctft:blaze_powder_bow"
+		]
+	}
+}

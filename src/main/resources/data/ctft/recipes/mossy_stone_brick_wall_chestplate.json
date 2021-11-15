@@ -1,0 +1,20 @@
+
+{
+  "group": "Mossy Stone Brick Wall Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:mossy_stone_brick_wall"
+    }
+  },
+  "result": {
+    "item": "ctft:mossy_stone_brick_wall_chestplate",
+    "count": 1
+  }
+}
+        

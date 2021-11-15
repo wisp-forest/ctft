@@ -1,0 +1,20 @@
+
+{
+  "group": "Skeleton Skull Leggings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:skeleton_skull"
+    }
+  },
+  "result": {
+    "item": "ctft:skeleton_skull_leggings",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,20 @@
+
+{
+  "group": "Waxed Exposed Copper Helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:waxed_exposed_copper"
+    }
+  },
+  "result": {
+    "item": "ctft:waxed_exposed_copper_helmet",
+    "count": 1
+  }
+}
+        

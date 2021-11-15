@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:glass_pane"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:glass_pane_sword",
+			"ctft:glass_pane_pickaxe",
+			"ctft:glass_pane_axe",
+			"ctft:glass_pane_shovel",
+			"ctft:glass_pane_hoe",
+			"ctft:glass_pane_shield",
+			"ctft:glass_pane_fishing_rod",
+			"ctft:glass_pane_compass",
+			"ctft:glass_pane_clock",
+			"ctft:glass_pane_helmet",
+			"ctft:glass_pane_chestplate",
+			"ctft:glass_pane_leggings",
+			"ctft:glass_pane_boots",
+			"ctft:glass_pane_shears",
+			"ctft:glass_pane_horse_armor",
+			"ctft:glass_pane_bow"
+		]
+	}
+}

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_boots"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:netherite_boots_sword",
+			"ctft:netherite_boots_pickaxe",
+			"ctft:netherite_boots_axe",
+			"ctft:netherite_boots_shovel",
+			"ctft:netherite_boots_hoe",
+			"ctft:netherite_boots_shield",
+			"ctft:netherite_boots_fishing_rod",
+			"ctft:netherite_boots_compass",
+			"ctft:netherite_boots_clock",
+			"ctft:netherite_boots_helmet",
+			"ctft:netherite_boots_chestplate",
+			"ctft:netherite_boots_leggings",
+			"ctft:netherite_boots_boots",
+			"ctft:netherite_boots_shears",
+			"ctft:netherite_boots_horse_armor",
+			"ctft:netherite_boots_bow"
+		]
+	}
+}

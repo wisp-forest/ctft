@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/enchanting_table_side_clock_13",
-    "1": "ctft:items/clock_13"
+    "0": "ctft:items/clock_13",
+    "1": "ctft:blocks/enchanting_table_side_block",
+    "particle": "ctft:blocks/enchanting_table_side_block"
   }
 }
             

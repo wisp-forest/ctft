@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cobblestone_slab"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:cobblestone_slab_sword",
+			"ctft:cobblestone_slab_pickaxe",
+			"ctft:cobblestone_slab_axe",
+			"ctft:cobblestone_slab_shovel",
+			"ctft:cobblestone_slab_hoe",
+			"ctft:cobblestone_slab_shield",
+			"ctft:cobblestone_slab_fishing_rod",
+			"ctft:cobblestone_slab_compass",
+			"ctft:cobblestone_slab_clock",
+			"ctft:cobblestone_slab_helmet",
+			"ctft:cobblestone_slab_chestplate",
+			"ctft:cobblestone_slab_leggings",
+			"ctft:cobblestone_slab_boots",
+			"ctft:cobblestone_slab_shears",
+			"ctft:cobblestone_slab_horse_armor",
+			"ctft:cobblestone_slab_bow"
+		]
+	}
+}

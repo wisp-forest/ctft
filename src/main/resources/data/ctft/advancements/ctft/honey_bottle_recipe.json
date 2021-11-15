@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:honey_bottle"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:honey_bottle_sword",
+			"ctft:honey_bottle_pickaxe",
+			"ctft:honey_bottle_axe",
+			"ctft:honey_bottle_shovel",
+			"ctft:honey_bottle_hoe",
+			"ctft:honey_bottle_shield",
+			"ctft:honey_bottle_fishing_rod",
+			"ctft:honey_bottle_compass",
+			"ctft:honey_bottle_clock",
+			"ctft:honey_bottle_helmet",
+			"ctft:honey_bottle_chestplate",
+			"ctft:honey_bottle_leggings",
+			"ctft:honey_bottle_boots",
+			"ctft:honey_bottle_shears",
+			"ctft:honey_bottle_horse_armor",
+			"ctft:honey_bottle_bow"
+		]
+	}
+}

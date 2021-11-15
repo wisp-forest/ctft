@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:blaze_rod"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:blaze_rod_sword",
+			"ctft:blaze_rod_pickaxe",
+			"ctft:blaze_rod_axe",
+			"ctft:blaze_rod_shovel",
+			"ctft:blaze_rod_hoe",
+			"ctft:blaze_rod_shield",
+			"ctft:blaze_rod_fishing_rod",
+			"ctft:blaze_rod_compass",
+			"ctft:blaze_rod_clock",
+			"ctft:blaze_rod_helmet",
+			"ctft:blaze_rod_chestplate",
+			"ctft:blaze_rod_leggings",
+			"ctft:blaze_rod_boots",
+			"ctft:blaze_rod_shears",
+			"ctft:blaze_rod_horse_armor",
+			"ctft:blaze_rod_bow"
+		]
+	}
+}

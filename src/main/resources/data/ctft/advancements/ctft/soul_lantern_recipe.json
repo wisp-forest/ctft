@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:soul_lantern"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:soul_lantern_sword",
+			"ctft:soul_lantern_pickaxe",
+			"ctft:soul_lantern_axe",
+			"ctft:soul_lantern_shovel",
+			"ctft:soul_lantern_hoe",
+			"ctft:soul_lantern_shield",
+			"ctft:soul_lantern_fishing_rod",
+			"ctft:soul_lantern_compass",
+			"ctft:soul_lantern_clock",
+			"ctft:soul_lantern_helmet",
+			"ctft:soul_lantern_chestplate",
+			"ctft:soul_lantern_leggings",
+			"ctft:soul_lantern_boots",
+			"ctft:soul_lantern_shears",
+			"ctft:soul_lantern_horse_armor",
+			"ctft:soul_lantern_bow"
+		]
+	}
+}

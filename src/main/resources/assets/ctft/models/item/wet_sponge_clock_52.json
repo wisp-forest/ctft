@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/wet_sponge_clock_52",
-    "1": "ctft:items/clock_52"
+    "0": "ctft:items/clock_52",
+    "1": "ctft:blocks/wet_sponge_block",
+    "particle": "ctft:blocks/wet_sponge_block"
   }
 }
             

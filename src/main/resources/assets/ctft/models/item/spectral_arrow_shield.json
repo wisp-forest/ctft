@@ -2,7 +2,13 @@
     {
       "parent": "ctft:item/shield",
       "textures": {
-        "0": "ctft:items/spectral_arrow_shield_base"
-      }
+        "0": "ctft:items/shield_base",
+        "1": "ctft:blocks/spectral_arrow_block",
+        "particle": "ctft:blocks/spectral_arrow_block"
+      },
+      "overrides": [
+        { "predicate": { "blocking": 0.0 }, "model": "ctft:item/spectral_arrow_shield" },
+        { "predicate": { "blocking": 1.0 }, "model": "ctft:item/spectral_arrow_shield_blocking" }
+        ]
     }
             

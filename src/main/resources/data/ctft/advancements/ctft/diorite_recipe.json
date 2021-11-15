@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:diorite"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:diorite_sword",
+			"ctft:diorite_pickaxe",
+			"ctft:diorite_axe",
+			"ctft:diorite_shovel",
+			"ctft:diorite_hoe",
+			"ctft:diorite_shield",
+			"ctft:diorite_fishing_rod",
+			"ctft:diorite_compass",
+			"ctft:diorite_clock",
+			"ctft:diorite_helmet",
+			"ctft:diorite_chestplate",
+			"ctft:diorite_leggings",
+			"ctft:diorite_boots",
+			"ctft:diorite_shears",
+			"ctft:diorite_horse_armor",
+			"ctft:diorite_bow"
+		]
+	}
+}

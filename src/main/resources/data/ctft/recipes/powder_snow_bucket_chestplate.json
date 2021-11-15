@@ -1,0 +1,20 @@
+
+{
+  "group": "Powder Snow Bucket Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:powder_snow_bucket"
+    }
+  },
+  "result": {
+    "item": "ctft:powder_snow_bucket_chestplate",
+    "count": 1
+  }
+}
+        

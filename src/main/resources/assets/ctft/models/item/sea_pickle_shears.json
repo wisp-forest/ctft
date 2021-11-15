@@ -1,8 +1,10 @@
 
     {
-      "parent": "item/handheld",
+      "parent": "ctft:item/shears",
       "textures": {
-        "layer0": "ctft:items/sea_pickle_shears"
+        "0": "ctft:items/shears",
+        "1": "ctft:blocks/sea_pickle_block",
+        "particle": "ctft:blocks/sea_pickle_block"
       }
     }
             

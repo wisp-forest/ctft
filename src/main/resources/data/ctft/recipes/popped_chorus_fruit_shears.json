@@ -1,0 +1,20 @@
+
+{
+  "group": "Popped Chorus Fruit Shears",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 0 ",
+    "   "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:popped_chorus_fruit"
+    }
+  },
+  "result": {
+    "item": "ctft:popped_chorus_fruit_shears",
+    "count": 1
+  }
+}
+        

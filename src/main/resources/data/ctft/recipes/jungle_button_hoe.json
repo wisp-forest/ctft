@@ -1,0 +1,23 @@
+
+{
+  "group": "Jungle Button Hoe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "00 ",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:jungle_button"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:jungle_button_hoe",
+    "count": 1
+  }
+}
+        

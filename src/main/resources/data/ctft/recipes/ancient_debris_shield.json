@@ -1,0 +1,23 @@
+
+{
+  "group": "Ancient Debris Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:ancient_debris"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:ancient_debris_shield",
+    "count": 1
+  }
+}
+        

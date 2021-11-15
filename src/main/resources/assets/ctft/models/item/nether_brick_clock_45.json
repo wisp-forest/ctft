@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/nether_brick_clock_45",
-    "1": "ctft:items/clock_45"
+    "0": "ctft:items/clock_45",
+    "1": "ctft:blocks/nether_bricks_block",
+    "particle": "ctft:blocks/nether_bricks_block"
   }
 }
             

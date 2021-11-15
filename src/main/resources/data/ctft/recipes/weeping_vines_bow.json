@@ -1,0 +1,23 @@
+
+{
+  "group": "Weeping Vines Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:weeping_vines"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:weeping_vines_bow",
+    "count": 1
+  }
+}
+        

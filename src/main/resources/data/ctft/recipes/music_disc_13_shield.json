@@ -1,0 +1,23 @@
+
+{
+  "group": "Music Disc 13 Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:music_disc_13"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:music_disc_13_shield",
+    "count": 1
+  }
+}
+        

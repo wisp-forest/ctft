@@ -1,0 +1,23 @@
+
+{
+  "group": "Warped Fungus on a Stick Clock",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    "010",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:warped_fungus_on_a_stick"
+    },
+    "1": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:warped_fungus_on_a_stick_clock",
+    "count": 1
+  }
+}
+        

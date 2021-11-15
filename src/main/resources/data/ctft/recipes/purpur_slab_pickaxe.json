@@ -1,0 +1,23 @@
+
+{
+  "group": "Purpur Slab Pickaxe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:purpur_slab"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:purpur_slab_pickaxe",
+    "count": 1
+  }
+}
+        

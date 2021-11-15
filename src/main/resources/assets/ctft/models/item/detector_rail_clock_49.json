@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/detector_rail_clock_49",
-    "1": "ctft:items/clock_49"
+    "0": "ctft:items/clock_49",
+    "1": "ctft:blocks/detector_rail_block",
+    "particle": "ctft:blocks/detector_rail_block"
   }
 }
             

@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/polarbear_clock_19",
-    "1": "ctft:items/clock_19"
+    "0": "ctft:items/clock_19",
+    "1": "ctft:blocks/polarbear_block",
+    "particle": "ctft:blocks/polarbear_block"
   }
 }
             

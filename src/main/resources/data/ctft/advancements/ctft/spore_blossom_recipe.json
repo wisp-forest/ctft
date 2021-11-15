@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:spore_blossom"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:spore_blossom_sword",
+			"ctft:spore_blossom_pickaxe",
+			"ctft:spore_blossom_axe",
+			"ctft:spore_blossom_shovel",
+			"ctft:spore_blossom_hoe",
+			"ctft:spore_blossom_shield",
+			"ctft:spore_blossom_fishing_rod",
+			"ctft:spore_blossom_compass",
+			"ctft:spore_blossom_clock",
+			"ctft:spore_blossom_helmet",
+			"ctft:spore_blossom_chestplate",
+			"ctft:spore_blossom_leggings",
+			"ctft:spore_blossom_boots",
+			"ctft:spore_blossom_shears",
+			"ctft:spore_blossom_horse_armor",
+			"ctft:spore_blossom_bow"
+		]
+	}
+}

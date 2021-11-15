@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/chainmail_leggings_clock_19",
-    "1": "ctft:items/clock_19"
+    "0": "ctft:items/clock_19",
+    "1": "ctft:blocks/chainmail_leggings_block",
+    "particle": "ctft:blocks/chainmail_leggings_block"
   }
 }
             

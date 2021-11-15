@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:jungle_trapdoor"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:jungle_trapdoor_sword",
+			"ctft:jungle_trapdoor_pickaxe",
+			"ctft:jungle_trapdoor_axe",
+			"ctft:jungle_trapdoor_shovel",
+			"ctft:jungle_trapdoor_hoe",
+			"ctft:jungle_trapdoor_shield",
+			"ctft:jungle_trapdoor_fishing_rod",
+			"ctft:jungle_trapdoor_compass",
+			"ctft:jungle_trapdoor_clock",
+			"ctft:jungle_trapdoor_helmet",
+			"ctft:jungle_trapdoor_chestplate",
+			"ctft:jungle_trapdoor_leggings",
+			"ctft:jungle_trapdoor_boots",
+			"ctft:jungle_trapdoor_shears",
+			"ctft:jungle_trapdoor_horse_armor",
+			"ctft:jungle_trapdoor_bow"
+		]
+	}
+}

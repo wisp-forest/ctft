@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:quartz_bricks"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:quartz_bricks_sword",
+			"ctft:quartz_bricks_pickaxe",
+			"ctft:quartz_bricks_axe",
+			"ctft:quartz_bricks_shovel",
+			"ctft:quartz_bricks_hoe",
+			"ctft:quartz_bricks_shield",
+			"ctft:quartz_bricks_fishing_rod",
+			"ctft:quartz_bricks_compass",
+			"ctft:quartz_bricks_clock",
+			"ctft:quartz_bricks_helmet",
+			"ctft:quartz_bricks_chestplate",
+			"ctft:quartz_bricks_leggings",
+			"ctft:quartz_bricks_boots",
+			"ctft:quartz_bricks_shears",
+			"ctft:quartz_bricks_horse_armor",
+			"ctft:quartz_bricks_bow"
+		]
+	}
+}

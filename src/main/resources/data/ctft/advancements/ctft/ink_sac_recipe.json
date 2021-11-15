@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:ink_sac"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:ink_sac_sword",
+			"ctft:ink_sac_pickaxe",
+			"ctft:ink_sac_axe",
+			"ctft:ink_sac_shovel",
+			"ctft:ink_sac_hoe",
+			"ctft:ink_sac_shield",
+			"ctft:ink_sac_fishing_rod",
+			"ctft:ink_sac_compass",
+			"ctft:ink_sac_clock",
+			"ctft:ink_sac_helmet",
+			"ctft:ink_sac_chestplate",
+			"ctft:ink_sac_leggings",
+			"ctft:ink_sac_boots",
+			"ctft:ink_sac_shears",
+			"ctft:ink_sac_horse_armor",
+			"ctft:ink_sac_bow"
+		]
+	}
+}

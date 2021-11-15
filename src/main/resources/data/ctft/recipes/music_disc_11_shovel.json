@@ -1,0 +1,23 @@
+
+{
+  "group": "Music Disc 11 Shovel",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:music_disc_11"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:music_disc_11_shovel",
+    "count": 1
+  }
+}
+        

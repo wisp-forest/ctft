@@ -2,7 +2,13 @@
     {
       "parent": "ctft:item/shield",
       "textures": {
-        "0": "ctft:items/structure_void_shield_base"
-      }
+        "0": "ctft:items/shield_base",
+        "1": "ctft:blocks/structure_void_block",
+        "particle": "ctft:blocks/structure_void_block"
+      },
+      "overrides": [
+        { "predicate": { "blocking": 0.0 }, "model": "ctft:item/structure_void_shield" },
+        { "predicate": { "blocking": 1.0 }, "model": "ctft:item/structure_void_shield_blocking" }
+        ]
     }
             

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:damaged_anvil"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:damaged_anvil_sword",
+			"ctft:damaged_anvil_pickaxe",
+			"ctft:damaged_anvil_axe",
+			"ctft:damaged_anvil_shovel",
+			"ctft:damaged_anvil_hoe",
+			"ctft:damaged_anvil_shield",
+			"ctft:damaged_anvil_fishing_rod",
+			"ctft:damaged_anvil_compass",
+			"ctft:damaged_anvil_clock",
+			"ctft:damaged_anvil_helmet",
+			"ctft:damaged_anvil_chestplate",
+			"ctft:damaged_anvil_leggings",
+			"ctft:damaged_anvil_boots",
+			"ctft:damaged_anvil_shears",
+			"ctft:damaged_anvil_horse_armor",
+			"ctft:damaged_anvil_bow"
+		]
+	}
+}

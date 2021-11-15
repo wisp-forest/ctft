@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/tripwire_hook_clock_51",
-    "1": "ctft:items/clock_51"
+    "0": "ctft:items/clock_51",
+    "1": "ctft:blocks/tripwire_hook_block",
+    "particle": "ctft:blocks/tripwire_hook_block"
   }
 }
             

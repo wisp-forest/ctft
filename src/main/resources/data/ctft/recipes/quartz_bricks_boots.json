@@ -1,0 +1,20 @@
+
+{
+  "group": "Quartz Bricks Boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:quartz_bricks"
+    }
+  },
+  "result": {
+    "item": "ctft:quartz_bricks_boots",
+    "count": 1
+  }
+}
+        

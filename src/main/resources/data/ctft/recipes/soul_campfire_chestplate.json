@@ -1,0 +1,20 @@
+
+{
+  "group": "Soul Campfire Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:soul_campfire"
+    }
+  },
+  "result": {
+    "item": "ctft:soul_campfire_chestplate",
+    "count": 1
+  }
+}
+        

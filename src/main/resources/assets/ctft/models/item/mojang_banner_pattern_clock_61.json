@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/mojang_banner_pattern_clock_61",
-    "1": "ctft:items/clock_61"
+    "0": "ctft:items/clock_61",
+    "1": "ctft:blocks/mojang_banner_pattern_block",
+    "particle": "ctft:blocks/mojang_banner_pattern_block"
   }
 }
             

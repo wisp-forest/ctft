@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/lead_clock_41",
-    "1": "ctft:items/clock_41"
+    "0": "ctft:items/clock_41",
+    "1": "ctft:blocks/lead_block",
+    "particle": "ctft:blocks/lead_block"
   }
 }
             

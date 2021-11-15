@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/salmon_bucket_clock_30",
-    "1": "ctft:items/clock_30"
+    "0": "ctft:items/clock_30",
+    "1": "ctft:blocks/salmon_bucket_block",
+    "particle": "ctft:blocks/salmon_bucket_block"
   }
 }
             

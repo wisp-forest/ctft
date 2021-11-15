@@ -1,8 +1,10 @@
 
     {
-      "parent": "item/handheld",
+      "parent": "ctft:item/axe",
       "textures": {
-        "layer0": "ctft:items/crafting_table_front_axe"
+        "0": "ctft:items/iron_axe",
+        "1": "ctft:blocks/crafting_table_front_block",
+        "particle": "ctft:blocks/crafting_table_front_block"
       }
     }
             

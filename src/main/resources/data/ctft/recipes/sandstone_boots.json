@@ -1,0 +1,20 @@
+
+{
+  "group": "Sandstone Boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:sandstone"
+    }
+  },
+  "result": {
+    "item": "ctft:sandstone_boots",
+    "count": 1
+  }
+}
+        

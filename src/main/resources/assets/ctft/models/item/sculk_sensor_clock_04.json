@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/sculk_sensor_bottom_clock_04",
-    "1": "ctft:items/clock_04"
+    "0": "ctft:items/clock_04",
+    "1": "ctft:blocks/sculk_sensor_bottom_block",
+    "particle": "ctft:blocks/sculk_sensor_bottom_block"
   }
 }
             

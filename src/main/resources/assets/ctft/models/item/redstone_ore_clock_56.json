@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/redstone_ore_clock_56",
-    "1": "ctft:items/clock_56"
+    "0": "ctft:items/clock_56",
+    "1": "ctft:blocks/redstone_ore_block",
+    "particle": "ctft:blocks/redstone_ore_block"
   }
 }
             

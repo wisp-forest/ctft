@@ -1,0 +1,23 @@
+
+{
+  "group": "Oak Door Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:oak_door"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:oak_door_shield",
+    "count": 1
+  }
+}
+        

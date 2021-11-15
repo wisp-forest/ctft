@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:pumpkin_pie"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:pumpkin_pie_sword",
+			"ctft:pumpkin_pie_pickaxe",
+			"ctft:pumpkin_pie_axe",
+			"ctft:pumpkin_pie_shovel",
+			"ctft:pumpkin_pie_hoe",
+			"ctft:pumpkin_pie_shield",
+			"ctft:pumpkin_pie_fishing_rod",
+			"ctft:pumpkin_pie_compass",
+			"ctft:pumpkin_pie_clock",
+			"ctft:pumpkin_pie_helmet",
+			"ctft:pumpkin_pie_chestplate",
+			"ctft:pumpkin_pie_leggings",
+			"ctft:pumpkin_pie_boots",
+			"ctft:pumpkin_pie_shears",
+			"ctft:pumpkin_pie_horse_armor",
+			"ctft:pumpkin_pie_bow"
+		]
+	}
+}

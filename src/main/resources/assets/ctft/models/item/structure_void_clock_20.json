@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/structure_void_clock_20",
-    "1": "ctft:items/clock_20"
+    "0": "ctft:items/clock_20",
+    "1": "ctft:blocks/structure_void_block",
+    "particle": "ctft:blocks/structure_void_block"
   }
 }
             

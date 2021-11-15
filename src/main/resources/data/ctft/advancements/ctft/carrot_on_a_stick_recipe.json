@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:carrot_on_a_stick"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:carrot_on_a_stick_sword",
+			"ctft:carrot_on_a_stick_pickaxe",
+			"ctft:carrot_on_a_stick_axe",
+			"ctft:carrot_on_a_stick_shovel",
+			"ctft:carrot_on_a_stick_hoe",
+			"ctft:carrot_on_a_stick_shield",
+			"ctft:carrot_on_a_stick_fishing_rod",
+			"ctft:carrot_on_a_stick_compass",
+			"ctft:carrot_on_a_stick_clock",
+			"ctft:carrot_on_a_stick_helmet",
+			"ctft:carrot_on_a_stick_chestplate",
+			"ctft:carrot_on_a_stick_leggings",
+			"ctft:carrot_on_a_stick_boots",
+			"ctft:carrot_on_a_stick_shears",
+			"ctft:carrot_on_a_stick_horse_armor",
+			"ctft:carrot_on_a_stick_bow"
+		]
+	}
+}

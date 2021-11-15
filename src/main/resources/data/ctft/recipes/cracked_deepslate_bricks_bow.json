@@ -1,0 +1,23 @@
+
+{
+  "group": "Cracked Deepslate Bricks Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:cracked_deepslate_bricks"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:cracked_deepslate_bricks_bow",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,20 @@
+
+{
+  "group": "Mossy Cobblestone Helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:mossy_cobblestone"
+    }
+  },
+  "result": {
+    "item": "ctft:mossy_cobblestone_helmet",
+    "count": 1
+  }
+}
+        

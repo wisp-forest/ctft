@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:oxeye_daisy"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:oxeye_daisy_sword",
+			"ctft:oxeye_daisy_pickaxe",
+			"ctft:oxeye_daisy_axe",
+			"ctft:oxeye_daisy_shovel",
+			"ctft:oxeye_daisy_hoe",
+			"ctft:oxeye_daisy_shield",
+			"ctft:oxeye_daisy_fishing_rod",
+			"ctft:oxeye_daisy_compass",
+			"ctft:oxeye_daisy_clock",
+			"ctft:oxeye_daisy_helmet",
+			"ctft:oxeye_daisy_chestplate",
+			"ctft:oxeye_daisy_leggings",
+			"ctft:oxeye_daisy_boots",
+			"ctft:oxeye_daisy_shears",
+			"ctft:oxeye_daisy_horse_armor",
+			"ctft:oxeye_daisy_bow"
+		]
+	}
+}

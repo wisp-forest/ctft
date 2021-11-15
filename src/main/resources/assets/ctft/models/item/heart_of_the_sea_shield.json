@@ -2,7 +2,13 @@
     {
       "parent": "ctft:item/shield",
       "textures": {
-        "0": "ctft:items/heart_of_the_sea_shield_base"
-      }
+        "0": "ctft:items/shield_base",
+        "1": "ctft:blocks/heart_of_the_sea_block",
+        "particle": "ctft:blocks/heart_of_the_sea_block"
+      },
+      "overrides": [
+        { "predicate": { "blocking": 0.0 }, "model": "ctft:item/heart_of_the_sea_shield" },
+        { "predicate": { "blocking": 1.0 }, "model": "ctft:item/heart_of_the_sea_shield_blocking" }
+        ]
     }
             

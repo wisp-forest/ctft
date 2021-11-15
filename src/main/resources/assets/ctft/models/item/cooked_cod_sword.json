@@ -1,8 +1,10 @@
 
     {
-      "parent": "item/handheld",
+      "parent": "ctft:item/sword",
       "textures": {
-        "layer0": "ctft:items/cooked_cod_sword"
+        "0": "ctft:items/iron_sword",
+        "1": "ctft:blocks/cooked_cod_block",
+        "particle": "ctft:blocks/cooked_cod_block"
       }
     }
             

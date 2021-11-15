@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/axolotl_bucket_clock_52",
-    "1": "ctft:items/clock_52"
+    "0": "ctft:items/clock_52",
+    "1": "ctft:blocks/axolotl_bucket_block",
+    "particle": "ctft:blocks/axolotl_bucket_block"
   }
 }
             

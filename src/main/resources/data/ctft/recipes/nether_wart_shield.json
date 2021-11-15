@@ -1,0 +1,23 @@
+
+{
+  "group": "Nether Wart Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:nether_wart"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:nether_wart_shield",
+    "count": 1
+  }
+}
+        

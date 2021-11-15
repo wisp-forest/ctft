@@ -1,0 +1,23 @@
+
+{
+  "group": "Enchanting Table Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:enchanting_table"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:enchanting_table_shield",
+    "count": 1
+  }
+}
+        

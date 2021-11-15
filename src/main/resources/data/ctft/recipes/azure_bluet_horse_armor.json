@@ -1,0 +1,20 @@
+
+{
+  "group": "Azure Bluet Horse Armor",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:azure_bluet"
+    }
+  },
+  "result": {
+    "item": "ctft:azure_bluet_horse_armor",
+    "count": 1
+  }
+}
+        

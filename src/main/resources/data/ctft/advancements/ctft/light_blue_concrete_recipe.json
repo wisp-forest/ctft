@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:light_blue_concrete"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:light_blue_concrete_sword",
+			"ctft:light_blue_concrete_pickaxe",
+			"ctft:light_blue_concrete_axe",
+			"ctft:light_blue_concrete_shovel",
+			"ctft:light_blue_concrete_hoe",
+			"ctft:light_blue_concrete_shield",
+			"ctft:light_blue_concrete_fishing_rod",
+			"ctft:light_blue_concrete_compass",
+			"ctft:light_blue_concrete_clock",
+			"ctft:light_blue_concrete_helmet",
+			"ctft:light_blue_concrete_chestplate",
+			"ctft:light_blue_concrete_leggings",
+			"ctft:light_blue_concrete_boots",
+			"ctft:light_blue_concrete_shears",
+			"ctft:light_blue_concrete_horse_armor",
+			"ctft:light_blue_concrete_bow"
+		]
+	}
+}

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:peony"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:peony_sword",
+			"ctft:peony_pickaxe",
+			"ctft:peony_axe",
+			"ctft:peony_shovel",
+			"ctft:peony_hoe",
+			"ctft:peony_shield",
+			"ctft:peony_fishing_rod",
+			"ctft:peony_compass",
+			"ctft:peony_clock",
+			"ctft:peony_helmet",
+			"ctft:peony_chestplate",
+			"ctft:peony_leggings",
+			"ctft:peony_boots",
+			"ctft:peony_shears",
+			"ctft:peony_horse_armor",
+			"ctft:peony_bow"
+		]
+	}
+}

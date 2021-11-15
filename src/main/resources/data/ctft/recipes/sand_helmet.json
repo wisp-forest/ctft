@@ -1,0 +1,20 @@
+
+{
+  "group": "Sand Helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:sand"
+    }
+  },
+  "result": {
+    "item": "ctft:sand_helmet",
+    "count": 1
+  }
+}
+        

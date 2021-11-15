@@ -2,7 +2,13 @@
     {
       "parent": "ctft:item/shield",
       "textures": {
-        "0": "ctft:items/pillager_shield_base"
-      }
+        "0": "ctft:items/shield_base",
+        "1": "ctft:blocks/pillager_block",
+        "particle": "ctft:blocks/pillager_block"
+      },
+      "overrides": [
+        { "predicate": { "blocking": 0.0 }, "model": "ctft:item/pillager_spawn_egg_shield" },
+        { "predicate": { "blocking": 1.0 }, "model": "ctft:item/pillager_spawn_egg_shield_blocking" }
+        ]
     }
             

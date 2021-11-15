@@ -1,0 +1,23 @@
+
+{
+  "group": "Shulker Box Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:shulker_box"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:shulker_box_bow",
+    "count": 1
+  }
+}
+        

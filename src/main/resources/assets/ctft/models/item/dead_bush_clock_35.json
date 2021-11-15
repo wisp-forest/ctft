@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/dead_bush_clock_35",
-    "1": "ctft:items/clock_35"
+    "0": "ctft:items/clock_35",
+    "1": "ctft:blocks/dead_bush_block",
+    "particle": "ctft:blocks/dead_bush_block"
   }
 }
             

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:dead_bubble_coral_fan"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:dead_bubble_coral_fan_sword",
+			"ctft:dead_bubble_coral_fan_pickaxe",
+			"ctft:dead_bubble_coral_fan_axe",
+			"ctft:dead_bubble_coral_fan_shovel",
+			"ctft:dead_bubble_coral_fan_hoe",
+			"ctft:dead_bubble_coral_fan_shield",
+			"ctft:dead_bubble_coral_fan_fishing_rod",
+			"ctft:dead_bubble_coral_fan_compass",
+			"ctft:dead_bubble_coral_fan_clock",
+			"ctft:dead_bubble_coral_fan_helmet",
+			"ctft:dead_bubble_coral_fan_chestplate",
+			"ctft:dead_bubble_coral_fan_leggings",
+			"ctft:dead_bubble_coral_fan_boots",
+			"ctft:dead_bubble_coral_fan_shears",
+			"ctft:dead_bubble_coral_fan_horse_armor",
+			"ctft:dead_bubble_coral_fan_bow"
+		]
+	}
+}

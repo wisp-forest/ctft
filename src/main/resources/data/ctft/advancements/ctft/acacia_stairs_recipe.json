@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:acacia_stairs"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:acacia_stairs_sword",
+			"ctft:acacia_stairs_pickaxe",
+			"ctft:acacia_stairs_axe",
+			"ctft:acacia_stairs_shovel",
+			"ctft:acacia_stairs_hoe",
+			"ctft:acacia_stairs_shield",
+			"ctft:acacia_stairs_fishing_rod",
+			"ctft:acacia_stairs_compass",
+			"ctft:acacia_stairs_clock",
+			"ctft:acacia_stairs_helmet",
+			"ctft:acacia_stairs_chestplate",
+			"ctft:acacia_stairs_leggings",
+			"ctft:acacia_stairs_boots",
+			"ctft:acacia_stairs_shears",
+			"ctft:acacia_stairs_horse_armor",
+			"ctft:acacia_stairs_bow"
+		]
+	}
+}

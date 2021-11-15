@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:light_blue_wool"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:light_blue_wool_sword",
+			"ctft:light_blue_wool_pickaxe",
+			"ctft:light_blue_wool_axe",
+			"ctft:light_blue_wool_shovel",
+			"ctft:light_blue_wool_hoe",
+			"ctft:light_blue_wool_shield",
+			"ctft:light_blue_wool_fishing_rod",
+			"ctft:light_blue_wool_compass",
+			"ctft:light_blue_wool_clock",
+			"ctft:light_blue_wool_helmet",
+			"ctft:light_blue_wool_chestplate",
+			"ctft:light_blue_wool_leggings",
+			"ctft:light_blue_wool_boots",
+			"ctft:light_blue_wool_shears",
+			"ctft:light_blue_wool_horse_armor",
+			"ctft:light_blue_wool_bow"
+		]
+	}
+}

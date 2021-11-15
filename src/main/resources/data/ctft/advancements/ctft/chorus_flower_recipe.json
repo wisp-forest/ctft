@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:chorus_flower"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:chorus_flower_sword",
+			"ctft:chorus_flower_pickaxe",
+			"ctft:chorus_flower_axe",
+			"ctft:chorus_flower_shovel",
+			"ctft:chorus_flower_hoe",
+			"ctft:chorus_flower_shield",
+			"ctft:chorus_flower_fishing_rod",
+			"ctft:chorus_flower_compass",
+			"ctft:chorus_flower_clock",
+			"ctft:chorus_flower_helmet",
+			"ctft:chorus_flower_chestplate",
+			"ctft:chorus_flower_leggings",
+			"ctft:chorus_flower_boots",
+			"ctft:chorus_flower_shears",
+			"ctft:chorus_flower_horse_armor",
+			"ctft:chorus_flower_bow"
+		]
+	}
+}

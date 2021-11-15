@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:pumpkin"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:pumpkin_sword",
+			"ctft:pumpkin_pickaxe",
+			"ctft:pumpkin_axe",
+			"ctft:pumpkin_shovel",
+			"ctft:pumpkin_hoe",
+			"ctft:pumpkin_shield",
+			"ctft:pumpkin_fishing_rod",
+			"ctft:pumpkin_compass",
+			"ctft:pumpkin_clock",
+			"ctft:pumpkin_helmet",
+			"ctft:pumpkin_chestplate",
+			"ctft:pumpkin_leggings",
+			"ctft:pumpkin_boots",
+			"ctft:pumpkin_shears",
+			"ctft:pumpkin_horse_armor",
+			"ctft:pumpkin_bow"
+		]
+	}
+}

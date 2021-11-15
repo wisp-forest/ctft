@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:acacia_log"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:acacia_log_sword",
+			"ctft:acacia_log_pickaxe",
+			"ctft:acacia_log_axe",
+			"ctft:acacia_log_shovel",
+			"ctft:acacia_log_hoe",
+			"ctft:acacia_log_shield",
+			"ctft:acacia_log_fishing_rod",
+			"ctft:acacia_log_compass",
+			"ctft:acacia_log_clock",
+			"ctft:acacia_log_helmet",
+			"ctft:acacia_log_chestplate",
+			"ctft:acacia_log_leggings",
+			"ctft:acacia_log_boots",
+			"ctft:acacia_log_shears",
+			"ctft:acacia_log_horse_armor",
+			"ctft:acacia_log_bow"
+		]
+	}
+}

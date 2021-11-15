@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/dolphin_clock_15",
-    "1": "ctft:items/clock_15"
+    "0": "ctft:items/clock_15",
+    "1": "ctft:blocks/dolphin_block",
+    "particle": "ctft:blocks/dolphin_block"
   }
 }
             

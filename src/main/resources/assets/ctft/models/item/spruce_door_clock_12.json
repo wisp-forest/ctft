@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/spruce_door_clock_12",
-    "1": "ctft:items/clock_12"
+    "0": "ctft:items/clock_12",
+    "1": "ctft:blocks/spruce_door_block",
+    "particle": "ctft:blocks/spruce_door_block"
   }
 }
             

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:lime_wool"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:lime_wool_sword",
+			"ctft:lime_wool_pickaxe",
+			"ctft:lime_wool_axe",
+			"ctft:lime_wool_shovel",
+			"ctft:lime_wool_hoe",
+			"ctft:lime_wool_shield",
+			"ctft:lime_wool_fishing_rod",
+			"ctft:lime_wool_compass",
+			"ctft:lime_wool_clock",
+			"ctft:lime_wool_helmet",
+			"ctft:lime_wool_chestplate",
+			"ctft:lime_wool_leggings",
+			"ctft:lime_wool_boots",
+			"ctft:lime_wool_shears",
+			"ctft:lime_wool_horse_armor",
+			"ctft:lime_wool_bow"
+		]
+	}
+}

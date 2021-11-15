@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:porkchop"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:porkchop_sword",
+			"ctft:porkchop_pickaxe",
+			"ctft:porkchop_axe",
+			"ctft:porkchop_shovel",
+			"ctft:porkchop_hoe",
+			"ctft:porkchop_shield",
+			"ctft:porkchop_fishing_rod",
+			"ctft:porkchop_compass",
+			"ctft:porkchop_clock",
+			"ctft:porkchop_helmet",
+			"ctft:porkchop_chestplate",
+			"ctft:porkchop_leggings",
+			"ctft:porkchop_boots",
+			"ctft:porkchop_shears",
+			"ctft:porkchop_horse_armor",
+			"ctft:porkchop_bow"
+		]
+	}
+}

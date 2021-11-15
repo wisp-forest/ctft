@@ -1,0 +1,20 @@
+
+{
+  "group": "Mushroom Stem Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:mushroom_stem"
+    }
+  },
+  "result": {
+    "item": "ctft:mushroom_stem_chestplate",
+    "count": 1
+  }
+}
+        

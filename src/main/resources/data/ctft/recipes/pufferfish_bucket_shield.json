@@ -1,0 +1,23 @@
+
+{
+  "group": "Pufferfish Bucket Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:pufferfish_bucket"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:pufferfish_bucket_shield",
+    "count": 1
+  }
+}
+        

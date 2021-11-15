@@ -1,0 +1,23 @@
+
+{
+  "group": "Soul Lantern Sword",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    " 0 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:soul_lantern"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:soul_lantern_sword",
+    "count": 1
+  }
+}
+        

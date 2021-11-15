@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/dark_oak_boat_clock_12",
-    "1": "ctft:items/clock_12"
+    "0": "ctft:items/clock_12",
+    "1": "ctft:blocks/dark_oak_boat_block",
+    "particle": "ctft:blocks/dark_oak_boat_block"
   }
 }
             

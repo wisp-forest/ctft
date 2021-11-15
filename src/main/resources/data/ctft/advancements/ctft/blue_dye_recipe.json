@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:blue_dye"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:blue_dye_sword",
+			"ctft:blue_dye_pickaxe",
+			"ctft:blue_dye_axe",
+			"ctft:blue_dye_shovel",
+			"ctft:blue_dye_hoe",
+			"ctft:blue_dye_shield",
+			"ctft:blue_dye_fishing_rod",
+			"ctft:blue_dye_compass",
+			"ctft:blue_dye_clock",
+			"ctft:blue_dye_helmet",
+			"ctft:blue_dye_chestplate",
+			"ctft:blue_dye_leggings",
+			"ctft:blue_dye_boots",
+			"ctft:blue_dye_shears",
+			"ctft:blue_dye_horse_armor",
+			"ctft:blue_dye_bow"
+		]
+	}
+}

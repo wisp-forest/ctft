@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:crimson_planks"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:crimson_planks_sword",
+			"ctft:crimson_planks_pickaxe",
+			"ctft:crimson_planks_axe",
+			"ctft:crimson_planks_shovel",
+			"ctft:crimson_planks_hoe",
+			"ctft:crimson_planks_shield",
+			"ctft:crimson_planks_fishing_rod",
+			"ctft:crimson_planks_compass",
+			"ctft:crimson_planks_clock",
+			"ctft:crimson_planks_helmet",
+			"ctft:crimson_planks_chestplate",
+			"ctft:crimson_planks_leggings",
+			"ctft:crimson_planks_boots",
+			"ctft:crimson_planks_shears",
+			"ctft:crimson_planks_horse_armor",
+			"ctft:crimson_planks_bow"
+		]
+	}
+}

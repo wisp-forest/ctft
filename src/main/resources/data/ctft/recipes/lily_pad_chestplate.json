@@ -1,0 +1,20 @@
+
+{
+  "group": "Lily Pad Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:lily_pad"
+    }
+  },
+  "result": {
+    "item": "ctft:lily_pad_chestplate",
+    "count": 1
+  }
+}
+        

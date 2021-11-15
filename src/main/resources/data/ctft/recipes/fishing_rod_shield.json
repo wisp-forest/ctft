@@ -1,0 +1,23 @@
+
+{
+  "group": "Fishing Rod Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:fishing_rod"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:fishing_rod_shield",
+    "count": 1
+  }
+}
+        

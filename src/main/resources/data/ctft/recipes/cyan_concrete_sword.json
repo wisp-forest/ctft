@@ -1,0 +1,23 @@
+
+{
+  "group": "Cyan Concrete Sword",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    " 0 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:cyan_concrete"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:cyan_concrete_sword",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,20 @@
+
+{
+  "group": "Iron Hoe Helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:iron_hoe"
+    }
+  },
+  "result": {
+    "item": "ctft:iron_hoe_helmet",
+    "count": 1
+  }
+}
+        

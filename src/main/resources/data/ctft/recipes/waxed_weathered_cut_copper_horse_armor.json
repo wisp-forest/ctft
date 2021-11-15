@@ -1,0 +1,20 @@
+
+{
+  "group": "Waxed Weathered Cut Copper Horse Armor",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:waxed_weathered_cut_copper"
+    }
+  },
+  "result": {
+    "item": "ctft:waxed_weathered_cut_copper_horse_armor",
+    "count": 1
+  }
+}
+        

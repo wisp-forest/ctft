@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:blue_shulker_box"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:blue_shulker_box_sword",
+			"ctft:blue_shulker_box_pickaxe",
+			"ctft:blue_shulker_box_axe",
+			"ctft:blue_shulker_box_shovel",
+			"ctft:blue_shulker_box_hoe",
+			"ctft:blue_shulker_box_shield",
+			"ctft:blue_shulker_box_fishing_rod",
+			"ctft:blue_shulker_box_compass",
+			"ctft:blue_shulker_box_clock",
+			"ctft:blue_shulker_box_helmet",
+			"ctft:blue_shulker_box_chestplate",
+			"ctft:blue_shulker_box_leggings",
+			"ctft:blue_shulker_box_boots",
+			"ctft:blue_shulker_box_shears",
+			"ctft:blue_shulker_box_horse_armor",
+			"ctft:blue_shulker_box_bow"
+		]
+	}
+}

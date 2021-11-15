@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/iron_ore_clock_31",
-    "1": "ctft:items/clock_31"
+    "0": "ctft:items/clock_31",
+    "1": "ctft:blocks/iron_ore_block",
+    "particle": "ctft:blocks/iron_ore_block"
   }
 }
             

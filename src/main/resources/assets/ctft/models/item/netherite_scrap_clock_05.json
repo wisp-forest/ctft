@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/netherite_scrap_clock_05",
-    "1": "ctft:items/clock_05"
+    "0": "ctft:items/clock_05",
+    "1": "ctft:blocks/netherite_scrap_block",
+    "particle": "ctft:blocks/netherite_scrap_block"
   }
 }
             

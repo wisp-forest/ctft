@@ -1,0 +1,23 @@
+
+{
+  "group": "Dragon Egg Sword",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    " 0 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:dragon_egg"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:dragon_egg_sword",
+    "count": 1
+  }
+}
+        

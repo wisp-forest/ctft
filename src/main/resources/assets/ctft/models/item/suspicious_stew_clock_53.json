@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/suspicious_stew_clock_53",
-    "1": "ctft:items/clock_53"
+    "0": "ctft:items/clock_53",
+    "1": "ctft:blocks/suspicious_stew_block",
+    "particle": "ctft:blocks/suspicious_stew_block"
   }
 }
             

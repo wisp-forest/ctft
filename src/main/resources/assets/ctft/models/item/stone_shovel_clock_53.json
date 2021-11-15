@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/stone_shovel_clock_53",
-    "1": "ctft:items/clock_53"
+    "0": "ctft:items/clock_53",
+    "1": "ctft:blocks/stone_shovel_block",
+    "particle": "ctft:blocks/stone_shovel_block"
   }
 }
             

@@ -1,0 +1,20 @@
+
+{
+  "group": "Written Book Shears",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 0 ",
+    "   "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:written_book"
+    }
+  },
+  "result": {
+    "item": "ctft:written_book_shears",
+    "count": 1
+  }
+}
+        

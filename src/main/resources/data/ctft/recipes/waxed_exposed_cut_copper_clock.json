@@ -1,0 +1,23 @@
+
+{
+  "group": "Waxed Exposed Cut Copper Clock",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    "010",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:waxed_exposed_cut_copper"
+    },
+    "1": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:waxed_exposed_cut_copper_clock",
+    "count": 1
+  }
+}
+        

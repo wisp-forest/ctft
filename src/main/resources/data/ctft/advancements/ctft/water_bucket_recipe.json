@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:water_bucket"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:water_bucket_sword",
+			"ctft:water_bucket_pickaxe",
+			"ctft:water_bucket_axe",
+			"ctft:water_bucket_shovel",
+			"ctft:water_bucket_hoe",
+			"ctft:water_bucket_shield",
+			"ctft:water_bucket_fishing_rod",
+			"ctft:water_bucket_compass",
+			"ctft:water_bucket_clock",
+			"ctft:water_bucket_helmet",
+			"ctft:water_bucket_chestplate",
+			"ctft:water_bucket_leggings",
+			"ctft:water_bucket_boots",
+			"ctft:water_bucket_shears",
+			"ctft:water_bucket_horse_armor",
+			"ctft:water_bucket_bow"
+		]
+	}
+}

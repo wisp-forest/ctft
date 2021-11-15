@@ -1,0 +1,23 @@
+
+{
+  "group": "Polished Deepslate Wall Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:polished_deepslate_wall"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:polished_deepslate_wall_bow",
+    "count": 1
+  }
+}
+        

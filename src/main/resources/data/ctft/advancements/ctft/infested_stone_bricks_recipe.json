@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:infested_stone_bricks"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:infested_stone_bricks_sword",
+			"ctft:infested_stone_bricks_pickaxe",
+			"ctft:infested_stone_bricks_axe",
+			"ctft:infested_stone_bricks_shovel",
+			"ctft:infested_stone_bricks_hoe",
+			"ctft:infested_stone_bricks_shield",
+			"ctft:infested_stone_bricks_fishing_rod",
+			"ctft:infested_stone_bricks_compass",
+			"ctft:infested_stone_bricks_clock",
+			"ctft:infested_stone_bricks_helmet",
+			"ctft:infested_stone_bricks_chestplate",
+			"ctft:infested_stone_bricks_leggings",
+			"ctft:infested_stone_bricks_boots",
+			"ctft:infested_stone_bricks_shears",
+			"ctft:infested_stone_bricks_horse_armor",
+			"ctft:infested_stone_bricks_bow"
+		]
+	}
+}

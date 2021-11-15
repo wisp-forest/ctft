@@ -1,0 +1,10 @@
+
+    {
+      "parent": "ctft:item/bow_pulling_0",
+      "textures": {
+        "0": "ctft:items/bow_pulling_0",
+        "1": "ctft:blocks/copper_ore_block",
+        "particle": "ctft:blocks/copper_ore_block"
+      }
+    }
+            

@@ -1,0 +1,23 @@
+
+{
+  "group": "Lectern Shovel",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:lectern"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:lectern_shovel",
+    "count": 1
+  }
+}
+        

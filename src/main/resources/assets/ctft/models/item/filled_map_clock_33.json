@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/filled_map_clock_33",
-    "1": "ctft:items/clock_33"
+    "0": "ctft:items/clock_33",
+    "1": "ctft:blocks/filled_map_block",
+    "particle": "ctft:blocks/filled_map_block"
   }
 }
             

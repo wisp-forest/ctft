@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:blackstone"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:blackstone_sword",
+			"ctft:blackstone_pickaxe",
+			"ctft:blackstone_axe",
+			"ctft:blackstone_shovel",
+			"ctft:blackstone_hoe",
+			"ctft:blackstone_shield",
+			"ctft:blackstone_fishing_rod",
+			"ctft:blackstone_compass",
+			"ctft:blackstone_clock",
+			"ctft:blackstone_helmet",
+			"ctft:blackstone_chestplate",
+			"ctft:blackstone_leggings",
+			"ctft:blackstone_boots",
+			"ctft:blackstone_shears",
+			"ctft:blackstone_horse_armor",
+			"ctft:blackstone_bow"
+		]
+	}
+}

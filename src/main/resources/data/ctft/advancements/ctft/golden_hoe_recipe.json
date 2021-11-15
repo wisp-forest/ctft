@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:golden_hoe"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:golden_hoe_sword",
+			"ctft:golden_hoe_pickaxe",
+			"ctft:golden_hoe_axe",
+			"ctft:golden_hoe_shovel",
+			"ctft:golden_hoe_hoe",
+			"ctft:golden_hoe_shield",
+			"ctft:golden_hoe_fishing_rod",
+			"ctft:golden_hoe_compass",
+			"ctft:golden_hoe_clock",
+			"ctft:golden_hoe_helmet",
+			"ctft:golden_hoe_chestplate",
+			"ctft:golden_hoe_leggings",
+			"ctft:golden_hoe_boots",
+			"ctft:golden_hoe_shears",
+			"ctft:golden_hoe_horse_armor",
+			"ctft:golden_hoe_bow"
+		]
+	}
+}

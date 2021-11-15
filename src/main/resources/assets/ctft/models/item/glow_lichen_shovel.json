@@ -1,8 +1,10 @@
 
     {
-      "parent": "item/handheld",
+      "parent": "ctft:item/shovel",
       "textures": {
-        "layer0": "ctft:items/glow_lichen_shovel"
+        "0": "ctft:items/iron_shovel",
+        "1": "ctft:blocks/glow_lichen_block",
+        "particle": "ctft:blocks/glow_lichen_block"
       }
     }
             

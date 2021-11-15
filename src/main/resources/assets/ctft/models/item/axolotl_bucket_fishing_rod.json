@@ -1,8 +1,0 @@
-
-{
-  "parent": "item/fishing_rod",
-  "textures": {
-    "layer0": "ctft:items/axolotl_bucket_fishing_rod"
-  }
-}
-        

@@ -1,8 +1,14 @@
 
 {
-  "parent": "item/fishing_rod",
+  "parent": "ctft:item/fishing_rod",
   "textures": {
-    "layer0": "ctft:items/target_side_fishing_rod"
-  }
+    "0": "ctft:items/fishing_rod",
+    "1": "ctft:blocks/target_side_block",
+    "particle": "ctft:blocks/target_side_block"
+  },
+  "overrides": [
+        { "predicate": { "cast": 0.0 }, "model": "ctft:item/target_fishing_rod" },
+        { "predicate": { "cast": 1.0 }, "model": "ctft:item/target_fishing_rod_cast" }
+    ]
 }
         

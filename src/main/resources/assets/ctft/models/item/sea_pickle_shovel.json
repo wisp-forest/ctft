@@ -1,8 +1,10 @@
 
     {
-      "parent": "item/handheld",
+      "parent": "ctft:item/shovel",
       "textures": {
-        "layer0": "ctft:items/sea_pickle_shovel"
+        "0": "ctft:items/iron_shovel",
+        "1": "ctft:blocks/sea_pickle_block",
+        "particle": "ctft:blocks/sea_pickle_block"
       }
     }
             

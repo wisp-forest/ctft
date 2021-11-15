@@ -1,8 +1,10 @@
 
     {
-      "parent": "item/handheld",
+      "parent": "ctft:item/sword",
       "textures": {
-        "layer0": "ctft:items/gray_glazed_terracotta_sword"
+        "0": "ctft:items/iron_sword",
+        "1": "ctft:blocks/gray_glazed_terracotta_block",
+        "particle": "ctft:blocks/gray_glazed_terracotta_block"
       }
     }
             

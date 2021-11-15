@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:poisonous_potato"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:poisonous_potato_sword",
+			"ctft:poisonous_potato_pickaxe",
+			"ctft:poisonous_potato_axe",
+			"ctft:poisonous_potato_shovel",
+			"ctft:poisonous_potato_hoe",
+			"ctft:poisonous_potato_shield",
+			"ctft:poisonous_potato_fishing_rod",
+			"ctft:poisonous_potato_compass",
+			"ctft:poisonous_potato_clock",
+			"ctft:poisonous_potato_helmet",
+			"ctft:poisonous_potato_chestplate",
+			"ctft:poisonous_potato_leggings",
+			"ctft:poisonous_potato_boots",
+			"ctft:poisonous_potato_shears",
+			"ctft:poisonous_potato_horse_armor",
+			"ctft:poisonous_potato_bow"
+		]
+	}
+}

@@ -1,8 +1,14 @@
 
 {
-  "parent": "item/fishing_rod",
+  "parent": "ctft:item/fishing_rod",
   "textures": {
-    "layer0": "ctft:items/stripped_dark_oak_log_top_fishing_rod"
-  }
+    "0": "ctft:items/fishing_rod",
+    "1": "ctft:blocks/stripped_dark_oak_log_top_block",
+    "particle": "ctft:blocks/stripped_dark_oak_log_top_block"
+  },
+  "overrides": [
+        { "predicate": { "cast": 0.0 }, "model": "ctft:item/stripped_dark_oak_log_fishing_rod" },
+        { "predicate": { "cast": 1.0 }, "model": "ctft:item/stripped_dark_oak_log_fishing_rod_cast" }
+    ]
 }
         

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:orange_tulip"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:orange_tulip_sword",
+			"ctft:orange_tulip_pickaxe",
+			"ctft:orange_tulip_axe",
+			"ctft:orange_tulip_shovel",
+			"ctft:orange_tulip_hoe",
+			"ctft:orange_tulip_shield",
+			"ctft:orange_tulip_fishing_rod",
+			"ctft:orange_tulip_compass",
+			"ctft:orange_tulip_clock",
+			"ctft:orange_tulip_helmet",
+			"ctft:orange_tulip_chestplate",
+			"ctft:orange_tulip_leggings",
+			"ctft:orange_tulip_boots",
+			"ctft:orange_tulip_shears",
+			"ctft:orange_tulip_horse_armor",
+			"ctft:orange_tulip_bow"
+		]
+	}
+}

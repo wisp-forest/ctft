@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:golden_apple"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:golden_apple_sword",
+			"ctft:golden_apple_pickaxe",
+			"ctft:golden_apple_axe",
+			"ctft:golden_apple_shovel",
+			"ctft:golden_apple_hoe",
+			"ctft:golden_apple_shield",
+			"ctft:golden_apple_fishing_rod",
+			"ctft:golden_apple_compass",
+			"ctft:golden_apple_clock",
+			"ctft:golden_apple_helmet",
+			"ctft:golden_apple_chestplate",
+			"ctft:golden_apple_leggings",
+			"ctft:golden_apple_boots",
+			"ctft:golden_apple_shears",
+			"ctft:golden_apple_horse_armor",
+			"ctft:golden_apple_bow"
+		]
+	}
+}

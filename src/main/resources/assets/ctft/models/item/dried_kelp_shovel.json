@@ -1,8 +1,10 @@
 
     {
-      "parent": "item/handheld",
+      "parent": "ctft:item/shovel",
       "textures": {
-        "layer0": "ctft:items/dried_kelp_shovel"
+        "0": "ctft:items/iron_shovel",
+        "1": "ctft:blocks/dried_kelp_block",
+        "particle": "ctft:blocks/dried_kelp_block"
       }
     }
             

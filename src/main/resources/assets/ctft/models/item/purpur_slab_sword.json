@@ -1,8 +1,10 @@
 
     {
-      "parent": "item/handheld",
+      "parent": "ctft:item/sword",
       "textures": {
-        "layer0": "ctft:items/purpur_block_sword"
+        "0": "ctft:items/iron_sword",
+        "1": "ctft:blocks/purpur_block_block",
+        "particle": "ctft:blocks/purpur_block_block"
       }
     }
             

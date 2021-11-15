@@ -1,0 +1,10 @@
+
+    {
+      "parent": "ctft:item/bow_pulling_1",
+      "textures": {
+        "0": "ctft:items/bow_pulling_1",
+        "1": "ctft:blocks/furnace_front_block",
+        "particle": "ctft:blocks/furnace_front_block"
+      }
+    }
+            

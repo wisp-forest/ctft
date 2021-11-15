@@ -1,0 +1,20 @@
+
+{
+  "group": "Medium Amethyst Bud Helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:medium_amethyst_bud"
+    }
+  },
+  "result": {
+    "item": "ctft:medium_amethyst_bud_helmet",
+    "count": 1
+  }
+}
+        

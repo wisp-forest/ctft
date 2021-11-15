@@ -1,0 +1,23 @@
+
+{
+  "group": "Brown Stained Glass Pane Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:brown_stained_glass_pane"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:brown_stained_glass_pane_shield",
+    "count": 1
+  }
+}
+        

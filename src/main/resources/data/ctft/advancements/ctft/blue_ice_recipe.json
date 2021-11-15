@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:blue_ice"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:blue_ice_sword",
+			"ctft:blue_ice_pickaxe",
+			"ctft:blue_ice_axe",
+			"ctft:blue_ice_shovel",
+			"ctft:blue_ice_hoe",
+			"ctft:blue_ice_shield",
+			"ctft:blue_ice_fishing_rod",
+			"ctft:blue_ice_compass",
+			"ctft:blue_ice_clock",
+			"ctft:blue_ice_helmet",
+			"ctft:blue_ice_chestplate",
+			"ctft:blue_ice_leggings",
+			"ctft:blue_ice_boots",
+			"ctft:blue_ice_shears",
+			"ctft:blue_ice_horse_armor",
+			"ctft:blue_ice_bow"
+		]
+	}
+}

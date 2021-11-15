@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/packed_ice_clock_12",
-    "1": "ctft:items/clock_12"
+    "0": "ctft:items/clock_12",
+    "1": "ctft:blocks/packed_ice_block",
+    "particle": "ctft:blocks/packed_ice_block"
   }
 }
             

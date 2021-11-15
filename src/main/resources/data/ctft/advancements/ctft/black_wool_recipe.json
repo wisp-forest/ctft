@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:black_wool"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:black_wool_sword",
+			"ctft:black_wool_pickaxe",
+			"ctft:black_wool_axe",
+			"ctft:black_wool_shovel",
+			"ctft:black_wool_hoe",
+			"ctft:black_wool_shield",
+			"ctft:black_wool_fishing_rod",
+			"ctft:black_wool_compass",
+			"ctft:black_wool_clock",
+			"ctft:black_wool_helmet",
+			"ctft:black_wool_chestplate",
+			"ctft:black_wool_leggings",
+			"ctft:black_wool_boots",
+			"ctft:black_wool_shears",
+			"ctft:black_wool_horse_armor",
+			"ctft:black_wool_bow"
+		]
+	}
+}

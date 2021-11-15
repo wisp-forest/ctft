@@ -1,0 +1,23 @@
+
+{
+  "group": "Baked Potato Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:baked_potato"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:baked_potato_bow",
+    "count": 1
+  }
+}
+        

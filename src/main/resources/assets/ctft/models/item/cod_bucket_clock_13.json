@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/cod_bucket_clock_13",
-    "1": "ctft:items/clock_13"
+    "0": "ctft:items/clock_13",
+    "1": "ctft:blocks/cod_bucket_block",
+    "particle": "ctft:blocks/cod_bucket_block"
   }
 }
             

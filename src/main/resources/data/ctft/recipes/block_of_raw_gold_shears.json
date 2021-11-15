@@ -1,0 +1,20 @@
+
+{
+  "group": "Block of Raw Gold Shears",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 0 ",
+    "   "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:raw_gold_block"
+    }
+  },
+  "result": {
+    "item": "ctft:block_of_raw_gold_shears",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,23 @@
+
+{
+  "group": "Pointed Dripstone Hoe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "00 ",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:pointed_dripstone"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:pointed_dripstone_hoe",
+    "count": 1
+  }
+}
+        

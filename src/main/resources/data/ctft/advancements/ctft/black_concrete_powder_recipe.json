@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:black_concrete_powder"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:black_concrete_powder_sword",
+			"ctft:black_concrete_powder_pickaxe",
+			"ctft:black_concrete_powder_axe",
+			"ctft:black_concrete_powder_shovel",
+			"ctft:black_concrete_powder_hoe",
+			"ctft:black_concrete_powder_shield",
+			"ctft:black_concrete_powder_fishing_rod",
+			"ctft:black_concrete_powder_compass",
+			"ctft:black_concrete_powder_clock",
+			"ctft:black_concrete_powder_helmet",
+			"ctft:black_concrete_powder_chestplate",
+			"ctft:black_concrete_powder_leggings",
+			"ctft:black_concrete_powder_boots",
+			"ctft:black_concrete_powder_shears",
+			"ctft:black_concrete_powder_horse_armor",
+			"ctft:black_concrete_powder_bow"
+		]
+	}
+}

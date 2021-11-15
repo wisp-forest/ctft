@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:enchanted_book"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:enchanted_book_sword",
+			"ctft:enchanted_book_pickaxe",
+			"ctft:enchanted_book_axe",
+			"ctft:enchanted_book_shovel",
+			"ctft:enchanted_book_hoe",
+			"ctft:enchanted_book_shield",
+			"ctft:enchanted_book_fishing_rod",
+			"ctft:enchanted_book_compass",
+			"ctft:enchanted_book_clock",
+			"ctft:enchanted_book_helmet",
+			"ctft:enchanted_book_chestplate",
+			"ctft:enchanted_book_leggings",
+			"ctft:enchanted_book_boots",
+			"ctft:enchanted_book_shears",
+			"ctft:enchanted_book_horse_armor",
+			"ctft:enchanted_book_bow"
+		]
+	}
+}

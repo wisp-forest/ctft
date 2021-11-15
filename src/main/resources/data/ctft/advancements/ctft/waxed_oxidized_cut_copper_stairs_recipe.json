@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:waxed_oxidized_cut_copper_stairs"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:waxed_oxidized_cut_copper_stairs_sword",
+			"ctft:waxed_oxidized_cut_copper_stairs_pickaxe",
+			"ctft:waxed_oxidized_cut_copper_stairs_axe",
+			"ctft:waxed_oxidized_cut_copper_stairs_shovel",
+			"ctft:waxed_oxidized_cut_copper_stairs_hoe",
+			"ctft:waxed_oxidized_cut_copper_stairs_shield",
+			"ctft:waxed_oxidized_cut_copper_stairs_fishing_rod",
+			"ctft:waxed_oxidized_cut_copper_stairs_compass",
+			"ctft:waxed_oxidized_cut_copper_stairs_clock",
+			"ctft:waxed_oxidized_cut_copper_stairs_helmet",
+			"ctft:waxed_oxidized_cut_copper_stairs_chestplate",
+			"ctft:waxed_oxidized_cut_copper_stairs_leggings",
+			"ctft:waxed_oxidized_cut_copper_stairs_boots",
+			"ctft:waxed_oxidized_cut_copper_stairs_shears",
+			"ctft:waxed_oxidized_cut_copper_stairs_horse_armor",
+			"ctft:waxed_oxidized_cut_copper_stairs_bow"
+		]
+	}
+}

@@ -1,0 +1,23 @@
+
+{
+  "group": "Gray Shulker Box Shovel",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:gray_shulker_box"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:gray_shulker_box_shovel",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,20 @@
+
+{
+  "group": "Melon Seeds Boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:melon_seeds"
+    }
+  },
+  "result": {
+    "item": "ctft:melon_seeds_boots",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:warped_button"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:warped_button_sword",
+			"ctft:warped_button_pickaxe",
+			"ctft:warped_button_axe",
+			"ctft:warped_button_shovel",
+			"ctft:warped_button_hoe",
+			"ctft:warped_button_shield",
+			"ctft:warped_button_fishing_rod",
+			"ctft:warped_button_compass",
+			"ctft:warped_button_clock",
+			"ctft:warped_button_helmet",
+			"ctft:warped_button_chestplate",
+			"ctft:warped_button_leggings",
+			"ctft:warped_button_boots",
+			"ctft:warped_button_shears",
+			"ctft:warped_button_horse_armor",
+			"ctft:warped_button_bow"
+		]
+	}
+}

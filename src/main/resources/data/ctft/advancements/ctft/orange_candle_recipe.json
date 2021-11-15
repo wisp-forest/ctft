@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:orange_candle"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:orange_candle_sword",
+			"ctft:orange_candle_pickaxe",
+			"ctft:orange_candle_axe",
+			"ctft:orange_candle_shovel",
+			"ctft:orange_candle_hoe",
+			"ctft:orange_candle_shield",
+			"ctft:orange_candle_fishing_rod",
+			"ctft:orange_candle_compass",
+			"ctft:orange_candle_clock",
+			"ctft:orange_candle_helmet",
+			"ctft:orange_candle_chestplate",
+			"ctft:orange_candle_leggings",
+			"ctft:orange_candle_boots",
+			"ctft:orange_candle_shears",
+			"ctft:orange_candle_horse_armor",
+			"ctft:orange_candle_bow"
+		]
+	}
+}

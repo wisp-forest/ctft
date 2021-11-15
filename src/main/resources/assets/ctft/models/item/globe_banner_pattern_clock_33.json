@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/globe_banner_pattern_clock_33",
-    "1": "ctft:items/clock_33"
+    "0": "ctft:items/clock_33",
+    "1": "ctft:blocks/globe_banner_pattern_block",
+    "particle": "ctft:blocks/globe_banner_pattern_block"
   }
 }
             

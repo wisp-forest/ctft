@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/tropical_fish_clock_53",
-    "1": "ctft:items/clock_53"
+    "0": "ctft:items/clock_53",
+    "1": "ctft:blocks/tropical_fish_block",
+    "particle": "ctft:blocks/tropical_fish_block"
   }
 }
             

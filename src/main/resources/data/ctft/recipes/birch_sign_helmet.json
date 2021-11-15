@@ -1,0 +1,20 @@
+
+{
+  "group": "Birch Sign Helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:birch_sign"
+    }
+  },
+  "result": {
+    "item": "ctft:birch_sign_helmet",
+    "count": 1
+  }
+}
+        

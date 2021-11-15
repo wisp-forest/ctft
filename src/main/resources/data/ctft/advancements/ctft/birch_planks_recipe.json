@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:birch_planks"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:birch_planks_sword",
+			"ctft:birch_planks_pickaxe",
+			"ctft:birch_planks_axe",
+			"ctft:birch_planks_shovel",
+			"ctft:birch_planks_hoe",
+			"ctft:birch_planks_shield",
+			"ctft:birch_planks_fishing_rod",
+			"ctft:birch_planks_compass",
+			"ctft:birch_planks_clock",
+			"ctft:birch_planks_helmet",
+			"ctft:birch_planks_chestplate",
+			"ctft:birch_planks_leggings",
+			"ctft:birch_planks_boots",
+			"ctft:birch_planks_shears",
+			"ctft:birch_planks_horse_armor",
+			"ctft:birch_planks_bow"
+		]
+	}
+}

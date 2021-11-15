@@ -1,0 +1,23 @@
+
+{
+  "group": "Jungle Sapling Compass",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    "010",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:jungle_sapling"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:jungle_sapling_compass",
+    "count": 1
+  }
+}
+        

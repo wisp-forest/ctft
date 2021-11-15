@@ -1,0 +1,23 @@
+
+{
+  "group": "Block of Quartz Compass",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    "010",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:quartz_block"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:block_of_quartz_compass",
+    "count": 1
+  }
+}
+        

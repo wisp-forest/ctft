@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/cracked_deepslate_tiles_clock_47",
-    "1": "ctft:items/clock_47"
+    "0": "ctft:items/clock_47",
+    "1": "ctft:blocks/cracked_deepslate_tiles_block",
+    "particle": "ctft:blocks/cracked_deepslate_tiles_block"
   }
 }
             

@@ -1,0 +1,23 @@
+
+{
+  "group": "Polished Blackstone Stairs Axe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "00 ",
+    "01 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:polished_blackstone_stairs"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:polished_blackstone_stairs_axe",
+    "count": 1
+  }
+}
+        

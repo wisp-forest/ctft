@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:heart_of_the_sea"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:heart_of_the_sea_sword",
+			"ctft:heart_of_the_sea_pickaxe",
+			"ctft:heart_of_the_sea_axe",
+			"ctft:heart_of_the_sea_shovel",
+			"ctft:heart_of_the_sea_hoe",
+			"ctft:heart_of_the_sea_shield",
+			"ctft:heart_of_the_sea_fishing_rod",
+			"ctft:heart_of_the_sea_compass",
+			"ctft:heart_of_the_sea_clock",
+			"ctft:heart_of_the_sea_helmet",
+			"ctft:heart_of_the_sea_chestplate",
+			"ctft:heart_of_the_sea_leggings",
+			"ctft:heart_of_the_sea_boots",
+			"ctft:heart_of_the_sea_shears",
+			"ctft:heart_of_the_sea_horse_armor",
+			"ctft:heart_of_the_sea_bow"
+		]
+	}
+}

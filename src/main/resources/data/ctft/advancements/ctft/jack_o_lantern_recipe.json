@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:jack_o_lantern"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:jack_o_lantern_sword",
+			"ctft:jack_o_lantern_pickaxe",
+			"ctft:jack_o_lantern_axe",
+			"ctft:jack_o_lantern_shovel",
+			"ctft:jack_o_lantern_hoe",
+			"ctft:jack_o_lantern_shield",
+			"ctft:jack_o_lantern_fishing_rod",
+			"ctft:jack_o_lantern_compass",
+			"ctft:jack_o_lantern_clock",
+			"ctft:jack_o_lantern_helmet",
+			"ctft:jack_o_lantern_chestplate",
+			"ctft:jack_o_lantern_leggings",
+			"ctft:jack_o_lantern_boots",
+			"ctft:jack_o_lantern_shears",
+			"ctft:jack_o_lantern_horse_armor",
+			"ctft:jack_o_lantern_bow"
+		]
+	}
+}

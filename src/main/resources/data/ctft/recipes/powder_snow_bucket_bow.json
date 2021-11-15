@@ -1,0 +1,23 @@
+
+{
+  "group": "Powder Snow Bucket Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:powder_snow_bucket"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:powder_snow_bucket_bow",
+    "count": 1
+  }
+}
+        

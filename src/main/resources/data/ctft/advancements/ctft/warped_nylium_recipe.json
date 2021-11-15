@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:warped_nylium"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:warped_nylium_sword",
+			"ctft:warped_nylium_pickaxe",
+			"ctft:warped_nylium_axe",
+			"ctft:warped_nylium_shovel",
+			"ctft:warped_nylium_hoe",
+			"ctft:warped_nylium_shield",
+			"ctft:warped_nylium_fishing_rod",
+			"ctft:warped_nylium_compass",
+			"ctft:warped_nylium_clock",
+			"ctft:warped_nylium_helmet",
+			"ctft:warped_nylium_chestplate",
+			"ctft:warped_nylium_leggings",
+			"ctft:warped_nylium_boots",
+			"ctft:warped_nylium_shears",
+			"ctft:warped_nylium_horse_armor",
+			"ctft:warped_nylium_bow"
+		]
+	}
+}

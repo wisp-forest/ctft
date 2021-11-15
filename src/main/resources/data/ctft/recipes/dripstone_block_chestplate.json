@@ -1,0 +1,20 @@
+
+{
+  "group": "Dripstone Block Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:dripstone_block"
+    }
+  },
+  "result": {
+    "item": "ctft:dripstone_block_chestplate",
+    "count": 1
+  }
+}
+        

@@ -1,8 +1,10 @@
 
     {
-      "parent": "item/handheld",
+      "parent": "ctft:item/hoe",
       "textures": {
-        "layer0": "ctft:items/flower_pot_hoe"
+        "0": "ctft:items/iron_hoe",
+        "1": "ctft:blocks/flower_pot_block",
+        "particle": "ctft:blocks/flower_pot_block"
       }
     }
             

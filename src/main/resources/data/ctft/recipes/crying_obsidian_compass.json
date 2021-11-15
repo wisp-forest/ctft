@@ -1,0 +1,23 @@
+
+{
+  "group": "Crying Obsidian Compass",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    "010",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:crying_obsidian_compass",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:granite_wall"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:granite_wall_sword",
+			"ctft:granite_wall_pickaxe",
+			"ctft:granite_wall_axe",
+			"ctft:granite_wall_shovel",
+			"ctft:granite_wall_hoe",
+			"ctft:granite_wall_shield",
+			"ctft:granite_wall_fishing_rod",
+			"ctft:granite_wall_compass",
+			"ctft:granite_wall_clock",
+			"ctft:granite_wall_helmet",
+			"ctft:granite_wall_chestplate",
+			"ctft:granite_wall_leggings",
+			"ctft:granite_wall_boots",
+			"ctft:granite_wall_shears",
+			"ctft:granite_wall_horse_armor",
+			"ctft:granite_wall_bow"
+		]
+	}
+}

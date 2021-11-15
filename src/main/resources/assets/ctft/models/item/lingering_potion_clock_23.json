@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/lingering_potion_clock_23",
-    "1": "ctft:items/clock_23"
+    "0": "ctft:items/clock_23",
+    "1": "ctft:blocks/lingering_potion_block",
+    "particle": "ctft:blocks/lingering_potion_block"
   }
 }
             

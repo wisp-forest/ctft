@@ -1,8 +1,10 @@
 
     {
-      "parent": "item/handheld",
+      "parent": "ctft:item/shovel",
       "textures": {
-        "layer0": "ctft:items/grass_block_side_shovel"
+        "0": "ctft:items/iron_shovel",
+        "1": "ctft:blocks/grass_block_side_block",
+        "particle": "ctft:blocks/grass_block_side_block"
       }
     }
             

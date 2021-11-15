@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:polished_andesite"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:polished_andesite_sword",
+			"ctft:polished_andesite_pickaxe",
+			"ctft:polished_andesite_axe",
+			"ctft:polished_andesite_shovel",
+			"ctft:polished_andesite_hoe",
+			"ctft:polished_andesite_shield",
+			"ctft:polished_andesite_fishing_rod",
+			"ctft:polished_andesite_compass",
+			"ctft:polished_andesite_clock",
+			"ctft:polished_andesite_helmet",
+			"ctft:polished_andesite_chestplate",
+			"ctft:polished_andesite_leggings",
+			"ctft:polished_andesite_boots",
+			"ctft:polished_andesite_shears",
+			"ctft:polished_andesite_horse_armor",
+			"ctft:polished_andesite_bow"
+		]
+	}
+}

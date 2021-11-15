@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:totem_of_undying"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:totem_of_undying_sword",
+			"ctft:totem_of_undying_pickaxe",
+			"ctft:totem_of_undying_axe",
+			"ctft:totem_of_undying_shovel",
+			"ctft:totem_of_undying_hoe",
+			"ctft:totem_of_undying_shield",
+			"ctft:totem_of_undying_fishing_rod",
+			"ctft:totem_of_undying_compass",
+			"ctft:totem_of_undying_clock",
+			"ctft:totem_of_undying_helmet",
+			"ctft:totem_of_undying_chestplate",
+			"ctft:totem_of_undying_leggings",
+			"ctft:totem_of_undying_boots",
+			"ctft:totem_of_undying_shears",
+			"ctft:totem_of_undying_horse_armor",
+			"ctft:totem_of_undying_bow"
+		]
+	}
+}

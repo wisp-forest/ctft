@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:polished_deepslate_wall"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:polished_deepslate_wall_sword",
+			"ctft:polished_deepslate_wall_pickaxe",
+			"ctft:polished_deepslate_wall_axe",
+			"ctft:polished_deepslate_wall_shovel",
+			"ctft:polished_deepslate_wall_hoe",
+			"ctft:polished_deepslate_wall_shield",
+			"ctft:polished_deepslate_wall_fishing_rod",
+			"ctft:polished_deepslate_wall_compass",
+			"ctft:polished_deepslate_wall_clock",
+			"ctft:polished_deepslate_wall_helmet",
+			"ctft:polished_deepslate_wall_chestplate",
+			"ctft:polished_deepslate_wall_leggings",
+			"ctft:polished_deepslate_wall_boots",
+			"ctft:polished_deepslate_wall_shears",
+			"ctft:polished_deepslate_wall_horse_armor",
+			"ctft:polished_deepslate_wall_bow"
+		]
+	}
+}

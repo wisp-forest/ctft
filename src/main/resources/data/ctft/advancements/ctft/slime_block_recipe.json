@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:slime_block"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:slime_block_sword",
+			"ctft:slime_block_pickaxe",
+			"ctft:slime_block_axe",
+			"ctft:slime_block_shovel",
+			"ctft:slime_block_hoe",
+			"ctft:slime_block_shield",
+			"ctft:slime_block_fishing_rod",
+			"ctft:slime_block_compass",
+			"ctft:slime_block_clock",
+			"ctft:slime_block_helmet",
+			"ctft:slime_block_chestplate",
+			"ctft:slime_block_leggings",
+			"ctft:slime_block_boots",
+			"ctft:slime_block_shears",
+			"ctft:slime_block_horse_armor",
+			"ctft:slime_block_bow"
+		]
+	}
+}

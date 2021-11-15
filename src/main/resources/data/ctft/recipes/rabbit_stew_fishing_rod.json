@@ -1,0 +1,23 @@
+
+{
+  "group": "Rabbit Stew Fishing Rod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 01",
+    "0 1"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:rabbit_stew"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:rabbit_stew_fishing_rod",
+    "count": 1
+  }
+}
+        

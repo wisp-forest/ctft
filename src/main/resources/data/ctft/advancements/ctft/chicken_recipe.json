@@ -1,0 +1,41 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:chicken"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:chicken_sword",
+			"ctft:chicken_pickaxe",
+			"ctft:chicken_axe",
+			"ctft:chicken_shovel",
+			"ctft:chicken_hoe",
+			"ctft:chicken_shield",
+			"ctft:chicken_fishing_rod",
+			"ctft:chicken_compass",
+			"ctft:chicken_clock",
+			"ctft:chicken_helmet",
+			"ctft:chicken_chestplate",
+			"ctft:chicken_leggings",
+			"ctft:chicken_boots",
+			"ctft:chicken_shears",
+			"ctft:chicken_horse_armor"
+		]
+	}
+}

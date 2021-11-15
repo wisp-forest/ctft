@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:dark_oak_button"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:dark_oak_button_sword",
+			"ctft:dark_oak_button_pickaxe",
+			"ctft:dark_oak_button_axe",
+			"ctft:dark_oak_button_shovel",
+			"ctft:dark_oak_button_hoe",
+			"ctft:dark_oak_button_shield",
+			"ctft:dark_oak_button_fishing_rod",
+			"ctft:dark_oak_button_compass",
+			"ctft:dark_oak_button_clock",
+			"ctft:dark_oak_button_helmet",
+			"ctft:dark_oak_button_chestplate",
+			"ctft:dark_oak_button_leggings",
+			"ctft:dark_oak_button_boots",
+			"ctft:dark_oak_button_shears",
+			"ctft:dark_oak_button_horse_armor",
+			"ctft:dark_oak_button_bow"
+		]
+	}
+}

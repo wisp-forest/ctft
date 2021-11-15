@@ -1,0 +1,20 @@
+
+{
+  "group": "Cooked Beef Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:cooked_beef"
+    }
+  },
+  "result": {
+    "item": "ctft:cooked_beef_chestplate",
+    "count": 1
+  }
+}
+        

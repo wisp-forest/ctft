@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/barrier_clock_26",
-    "1": "ctft:items/clock_26"
+    "0": "ctft:items/clock_26",
+    "1": "ctft:blocks/barrier_block",
+    "particle": "ctft:blocks/barrier_block"
   }
 }
             

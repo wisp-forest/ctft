@@ -1,0 +1,23 @@
+
+{
+  "group": "Wither Skeleton Skull Pickaxe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:wither_skeleton_skull"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:wither_skeleton_skull_pickaxe",
+    "count": 1
+  }
+}
+        

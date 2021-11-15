@@ -1,0 +1,10 @@
+
+    {
+      "parent": "ctft:item/boots",
+      "textures": {
+        "0": "ctft:items/iron_boots",
+        "1": "ctft:blocks/pointed_dripstone_block",
+        "particle": "ctft:blocks/pointed_dripstone_block"
+      }
+    }
+            

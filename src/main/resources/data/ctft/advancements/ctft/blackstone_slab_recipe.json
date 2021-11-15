@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:blackstone_slab"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:blackstone_slab_sword",
+			"ctft:blackstone_slab_pickaxe",
+			"ctft:blackstone_slab_axe",
+			"ctft:blackstone_slab_shovel",
+			"ctft:blackstone_slab_hoe",
+			"ctft:blackstone_slab_shield",
+			"ctft:blackstone_slab_fishing_rod",
+			"ctft:blackstone_slab_compass",
+			"ctft:blackstone_slab_clock",
+			"ctft:blackstone_slab_helmet",
+			"ctft:blackstone_slab_chestplate",
+			"ctft:blackstone_slab_leggings",
+			"ctft:blackstone_slab_boots",
+			"ctft:blackstone_slab_shears",
+			"ctft:blackstone_slab_horse_armor",
+			"ctft:blackstone_slab_bow"
+		]
+	}
+}

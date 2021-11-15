@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:enchanting_table"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:enchanting_table_sword",
+			"ctft:enchanting_table_pickaxe",
+			"ctft:enchanting_table_axe",
+			"ctft:enchanting_table_shovel",
+			"ctft:enchanting_table_hoe",
+			"ctft:enchanting_table_shield",
+			"ctft:enchanting_table_fishing_rod",
+			"ctft:enchanting_table_compass",
+			"ctft:enchanting_table_clock",
+			"ctft:enchanting_table_helmet",
+			"ctft:enchanting_table_chestplate",
+			"ctft:enchanting_table_leggings",
+			"ctft:enchanting_table_boots",
+			"ctft:enchanting_table_shears",
+			"ctft:enchanting_table_horse_armor",
+			"ctft:enchanting_table_bow"
+		]
+	}
+}

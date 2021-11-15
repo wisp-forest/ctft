@@ -1,0 +1,20 @@
+
+{
+  "group": "Dark Oak Sapling Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:dark_oak_sapling"
+    }
+  },
+  "result": {
+    "item": "ctft:dark_oak_sapling_chestplate",
+    "count": 1
+  }
+}
+        

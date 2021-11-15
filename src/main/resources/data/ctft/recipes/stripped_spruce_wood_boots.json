@@ -1,0 +1,20 @@
+
+{
+  "group": "Stripped Spruce Wood Boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:stripped_spruce_wood"
+    }
+  },
+  "result": {
+    "item": "ctft:stripped_spruce_wood_boots",
+    "count": 1
+  }
+}
+        

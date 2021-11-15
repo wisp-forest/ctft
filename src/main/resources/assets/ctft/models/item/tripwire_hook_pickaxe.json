@@ -1,8 +1,10 @@
 
     {
-      "parent": "item/handheld",
+      "parent": "ctft:item/pickaxe",
       "textures": {
-        "layer0": "ctft:items/tripwire_hook_pickaxe"
+        "0": "ctft:items/iron_pickaxe",
+        "1": "ctft:blocks/tripwire_hook_block",
+        "particle": "ctft:blocks/tripwire_hook_block"
       }
     }
             

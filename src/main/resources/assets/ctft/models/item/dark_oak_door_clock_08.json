@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/dark_oak_door_clock_08",
-    "1": "ctft:items/clock_08"
+    "0": "ctft:items/clock_08",
+    "1": "ctft:blocks/dark_oak_door_block",
+    "particle": "ctft:blocks/dark_oak_door_block"
   }
 }
             

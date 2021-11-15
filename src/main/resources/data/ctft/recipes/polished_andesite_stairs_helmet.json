@@ -1,0 +1,20 @@
+
+{
+  "group": "Polished Andesite Stairs Helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:polished_andesite_stairs"
+    }
+  },
+  "result": {
+    "item": "ctft:polished_andesite_stairs_helmet",
+    "count": 1
+  }
+}
+        

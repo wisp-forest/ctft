@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:chainmail_chestplate"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:chainmail_chestplate_sword",
+			"ctft:chainmail_chestplate_pickaxe",
+			"ctft:chainmail_chestplate_axe",
+			"ctft:chainmail_chestplate_shovel",
+			"ctft:chainmail_chestplate_hoe",
+			"ctft:chainmail_chestplate_shield",
+			"ctft:chainmail_chestplate_fishing_rod",
+			"ctft:chainmail_chestplate_compass",
+			"ctft:chainmail_chestplate_clock",
+			"ctft:chainmail_chestplate_helmet",
+			"ctft:chainmail_chestplate_chestplate",
+			"ctft:chainmail_chestplate_leggings",
+			"ctft:chainmail_chestplate_boots",
+			"ctft:chainmail_chestplate_shears",
+			"ctft:chainmail_chestplate_horse_armor",
+			"ctft:chainmail_chestplate_bow"
+		]
+	}
+}

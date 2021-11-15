@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:trident"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:trident_sword",
+			"ctft:trident_pickaxe",
+			"ctft:trident_axe",
+			"ctft:trident_shovel",
+			"ctft:trident_hoe",
+			"ctft:trident_shield",
+			"ctft:trident_fishing_rod",
+			"ctft:trident_compass",
+			"ctft:trident_clock",
+			"ctft:trident_helmet",
+			"ctft:trident_chestplate",
+			"ctft:trident_leggings",
+			"ctft:trident_boots",
+			"ctft:trident_shears",
+			"ctft:trident_horse_armor",
+			"ctft:trident_bow"
+		]
+	}
+}

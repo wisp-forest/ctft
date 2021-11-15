@@ -1,0 +1,23 @@
+
+{
+  "group": "Ender Pearl Clock",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    "010",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:ender_pearl"
+    },
+    "1": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:ender_pearl_clock",
+    "count": 1
+  }
+}
+        

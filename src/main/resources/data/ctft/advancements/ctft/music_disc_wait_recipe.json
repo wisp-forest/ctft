@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_wait"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:music_disc_wait_sword",
+			"ctft:music_disc_wait_pickaxe",
+			"ctft:music_disc_wait_axe",
+			"ctft:music_disc_wait_shovel",
+			"ctft:music_disc_wait_hoe",
+			"ctft:music_disc_wait_shield",
+			"ctft:music_disc_wait_fishing_rod",
+			"ctft:music_disc_wait_compass",
+			"ctft:music_disc_wait_clock",
+			"ctft:music_disc_wait_helmet",
+			"ctft:music_disc_wait_chestplate",
+			"ctft:music_disc_wait_leggings",
+			"ctft:music_disc_wait_boots",
+			"ctft:music_disc_wait_shears",
+			"ctft:music_disc_wait_horse_armor",
+			"ctft:music_disc_wait_bow"
+		]
+	}
+}

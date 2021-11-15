@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:smoker"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:smoker_sword",
+			"ctft:smoker_pickaxe",
+			"ctft:smoker_axe",
+			"ctft:smoker_shovel",
+			"ctft:smoker_hoe",
+			"ctft:smoker_shield",
+			"ctft:smoker_fishing_rod",
+			"ctft:smoker_compass",
+			"ctft:smoker_clock",
+			"ctft:smoker_helmet",
+			"ctft:smoker_chestplate",
+			"ctft:smoker_leggings",
+			"ctft:smoker_boots",
+			"ctft:smoker_shears",
+			"ctft:smoker_horse_armor",
+			"ctft:smoker_bow"
+		]
+	}
+}

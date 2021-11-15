@@ -1,0 +1,23 @@
+
+{
+  "group": "Flower Banner Pattern Sword",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    " 0 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:flower_banner_pattern"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:flower_banner_pattern_sword",
+    "count": 1
+  }
+}
+        

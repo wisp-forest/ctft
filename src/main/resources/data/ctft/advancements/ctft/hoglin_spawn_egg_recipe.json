@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:hoglin_spawn_egg"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:hoglin_spawn_egg_sword",
+			"ctft:hoglin_spawn_egg_pickaxe",
+			"ctft:hoglin_spawn_egg_axe",
+			"ctft:hoglin_spawn_egg_shovel",
+			"ctft:hoglin_spawn_egg_hoe",
+			"ctft:hoglin_spawn_egg_shield",
+			"ctft:hoglin_spawn_egg_fishing_rod",
+			"ctft:hoglin_spawn_egg_compass",
+			"ctft:hoglin_spawn_egg_clock",
+			"ctft:hoglin_spawn_egg_helmet",
+			"ctft:hoglin_spawn_egg_chestplate",
+			"ctft:hoglin_spawn_egg_leggings",
+			"ctft:hoglin_spawn_egg_boots",
+			"ctft:hoglin_spawn_egg_shears",
+			"ctft:hoglin_spawn_egg_horse_armor",
+			"ctft:hoglin_spawn_egg_bow"
+		]
+	}
+}

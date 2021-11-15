@@ -1,0 +1,23 @@
+
+{
+  "group": "Lime Dye Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:lime_dye"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:lime_dye_bow",
+    "count": 1
+  }
+}
+        

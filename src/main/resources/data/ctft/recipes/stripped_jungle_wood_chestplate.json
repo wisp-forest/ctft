@@ -1,0 +1,20 @@
+
+{
+  "group": "Stripped Jungle Wood Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:stripped_jungle_wood"
+    }
+  },
+  "result": {
+    "item": "ctft:stripped_jungle_wood_chestplate",
+    "count": 1
+  }
+}
+        

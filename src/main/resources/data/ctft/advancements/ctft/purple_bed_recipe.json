@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:purple_bed"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:purple_bed_sword",
+			"ctft:purple_bed_pickaxe",
+			"ctft:purple_bed_axe",
+			"ctft:purple_bed_shovel",
+			"ctft:purple_bed_hoe",
+			"ctft:purple_bed_shield",
+			"ctft:purple_bed_fishing_rod",
+			"ctft:purple_bed_compass",
+			"ctft:purple_bed_clock",
+			"ctft:purple_bed_helmet",
+			"ctft:purple_bed_chestplate",
+			"ctft:purple_bed_leggings",
+			"ctft:purple_bed_boots",
+			"ctft:purple_bed_shears",
+			"ctft:purple_bed_horse_armor",
+			"ctft:purple_bed_bow"
+		]
+	}
+}

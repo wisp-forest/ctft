@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_hoe"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:netherite_hoe_sword",
+			"ctft:netherite_hoe_pickaxe",
+			"ctft:netherite_hoe_axe",
+			"ctft:netherite_hoe_shovel",
+			"ctft:netherite_hoe_hoe",
+			"ctft:netherite_hoe_shield",
+			"ctft:netherite_hoe_fishing_rod",
+			"ctft:netherite_hoe_compass",
+			"ctft:netherite_hoe_clock",
+			"ctft:netherite_hoe_helmet",
+			"ctft:netherite_hoe_chestplate",
+			"ctft:netherite_hoe_leggings",
+			"ctft:netherite_hoe_boots",
+			"ctft:netherite_hoe_shears",
+			"ctft:netherite_hoe_horse_armor",
+			"ctft:netherite_hoe_bow"
+		]
+	}
+}

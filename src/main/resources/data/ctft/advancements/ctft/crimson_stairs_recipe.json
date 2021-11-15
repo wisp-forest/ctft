@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:crimson_stairs"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:crimson_stairs_sword",
+			"ctft:crimson_stairs_pickaxe",
+			"ctft:crimson_stairs_axe",
+			"ctft:crimson_stairs_shovel",
+			"ctft:crimson_stairs_hoe",
+			"ctft:crimson_stairs_shield",
+			"ctft:crimson_stairs_fishing_rod",
+			"ctft:crimson_stairs_compass",
+			"ctft:crimson_stairs_clock",
+			"ctft:crimson_stairs_helmet",
+			"ctft:crimson_stairs_chestplate",
+			"ctft:crimson_stairs_leggings",
+			"ctft:crimson_stairs_boots",
+			"ctft:crimson_stairs_shears",
+			"ctft:crimson_stairs_horse_armor",
+			"ctft:crimson_stairs_bow"
+		]
+	}
+}

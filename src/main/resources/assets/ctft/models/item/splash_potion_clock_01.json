@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/splash_potion_clock_01",
-    "1": "ctft:items/clock_01"
+    "0": "ctft:items/clock_01",
+    "1": "ctft:blocks/splash_potion_block",
+    "particle": "ctft:blocks/splash_potion_block"
   }
 }
             

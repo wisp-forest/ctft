@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:magenta_carpet"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:magenta_carpet_sword",
+			"ctft:magenta_carpet_pickaxe",
+			"ctft:magenta_carpet_axe",
+			"ctft:magenta_carpet_shovel",
+			"ctft:magenta_carpet_hoe",
+			"ctft:magenta_carpet_shield",
+			"ctft:magenta_carpet_fishing_rod",
+			"ctft:magenta_carpet_compass",
+			"ctft:magenta_carpet_clock",
+			"ctft:magenta_carpet_helmet",
+			"ctft:magenta_carpet_chestplate",
+			"ctft:magenta_carpet_leggings",
+			"ctft:magenta_carpet_boots",
+			"ctft:magenta_carpet_shears",
+			"ctft:magenta_carpet_horse_armor",
+			"ctft:magenta_carpet_bow"
+		]
+	}
+}

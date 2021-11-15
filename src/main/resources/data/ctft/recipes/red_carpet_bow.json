@@ -1,0 +1,23 @@
+
+{
+  "group": "Red Carpet Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:red_carpet"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:red_carpet_bow",
+    "count": 1
+  }
+}
+        

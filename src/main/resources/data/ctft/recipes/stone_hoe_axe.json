@@ -1,0 +1,23 @@
+
+{
+  "group": "Stone Hoe Axe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "00 ",
+    "01 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:stone_hoe"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:stone_hoe_axe",
+    "count": 1
+  }
+}
+        

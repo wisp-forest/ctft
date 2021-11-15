@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_pickaxe"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:iron_pickaxe_sword",
+			"ctft:iron_pickaxe_pickaxe",
+			"ctft:iron_pickaxe_axe",
+			"ctft:iron_pickaxe_shovel",
+			"ctft:iron_pickaxe_hoe",
+			"ctft:iron_pickaxe_shield",
+			"ctft:iron_pickaxe_fishing_rod",
+			"ctft:iron_pickaxe_compass",
+			"ctft:iron_pickaxe_clock",
+			"ctft:iron_pickaxe_helmet",
+			"ctft:iron_pickaxe_chestplate",
+			"ctft:iron_pickaxe_leggings",
+			"ctft:iron_pickaxe_boots",
+			"ctft:iron_pickaxe_shears",
+			"ctft:iron_pickaxe_horse_armor",
+			"ctft:iron_pickaxe_bow"
+		]
+	}
+}

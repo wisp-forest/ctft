@@ -1,0 +1,20 @@
+
+{
+  "group": "Pumpkin Pie Horse Armor",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:pumpkin_pie"
+    }
+  },
+  "result": {
+    "item": "ctft:pumpkin_pie_horse_armor",
+    "count": 1
+  }
+}
+        

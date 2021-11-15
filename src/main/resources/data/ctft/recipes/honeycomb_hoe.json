@@ -1,0 +1,23 @@
+
+{
+  "group": "Honeycomb Hoe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "00 ",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:honeycomb"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:honeycomb_hoe",
+    "count": 1
+  }
+}
+        

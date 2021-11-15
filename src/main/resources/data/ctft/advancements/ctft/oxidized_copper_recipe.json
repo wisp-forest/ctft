@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:oxidized_copper"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:oxidized_copper_sword",
+			"ctft:oxidized_copper_pickaxe",
+			"ctft:oxidized_copper_axe",
+			"ctft:oxidized_copper_shovel",
+			"ctft:oxidized_copper_hoe",
+			"ctft:oxidized_copper_shield",
+			"ctft:oxidized_copper_fishing_rod",
+			"ctft:oxidized_copper_compass",
+			"ctft:oxidized_copper_clock",
+			"ctft:oxidized_copper_helmet",
+			"ctft:oxidized_copper_chestplate",
+			"ctft:oxidized_copper_leggings",
+			"ctft:oxidized_copper_boots",
+			"ctft:oxidized_copper_shears",
+			"ctft:oxidized_copper_horse_armor",
+			"ctft:oxidized_copper_bow"
+		]
+	}
+}

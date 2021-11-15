@@ -1,0 +1,20 @@
+
+{
+  "group": "Grass Path Leggings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:dirt_path"
+    }
+  },
+  "result": {
+    "item": "ctft:grass_path_leggings",
+    "count": 1
+  }
+}
+        

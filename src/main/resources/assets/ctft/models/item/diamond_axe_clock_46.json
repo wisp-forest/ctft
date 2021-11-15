@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/diamond_axe_clock_46",
-    "1": "ctft:items/clock_46"
+    "0": "ctft:items/clock_46",
+    "1": "ctft:blocks/diamond_axe_block",
+    "particle": "ctft:blocks/diamond_axe_block"
   }
 }
             

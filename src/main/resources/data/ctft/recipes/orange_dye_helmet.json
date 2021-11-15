@@ -1,0 +1,20 @@
+
+{
+  "group": "Orange Dye Helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:orange_dye"
+    }
+  },
+  "result": {
+    "item": "ctft:orange_dye_helmet",
+    "count": 1
+  }
+}
+        

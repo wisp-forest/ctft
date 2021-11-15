@@ -1,0 +1,20 @@
+
+{
+  "group": "Chain Command Block Leggings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:chain_command_block"
+    }
+  },
+  "result": {
+    "item": "ctft:chain_command_block_leggings",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,20 @@
+
+{
+  "group": "Hanging Roots Helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:hanging_roots"
+    }
+  },
+  "result": {
+    "item": "ctft:hanging_roots_helmet",
+    "count": 1
+  }
+}
+        

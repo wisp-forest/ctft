@@ -1,8 +1,14 @@
 
 {
-  "parent": "item/fishing_rod",
+  "parent": "ctft:item/fishing_rod",
   "textures": {
-    "layer0": "ctft:items/polished_blackstone_fishing_rod"
-  }
+    "0": "ctft:items/fishing_rod",
+    "1": "ctft:blocks/polished_blackstone_block",
+    "particle": "ctft:blocks/polished_blackstone_block"
+  },
+  "overrides": [
+        { "predicate": { "cast": 0.0 }, "model": "ctft:item/polished_blackstone_stairs_fishing_rod" },
+        { "predicate": { "cast": 1.0 }, "model": "ctft:item/polished_blackstone_stairs_fishing_rod_cast" }
+    ]
 }
         

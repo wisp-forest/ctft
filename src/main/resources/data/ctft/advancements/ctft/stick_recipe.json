@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:stick"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:stick_sword",
+			"ctft:stick_pickaxe",
+			"ctft:stick_axe",
+			"ctft:stick_shovel",
+			"ctft:stick_hoe",
+			"ctft:stick_shield",
+			"ctft:stick_fishing_rod",
+			"ctft:stick_compass",
+			"ctft:stick_clock",
+			"ctft:stick_helmet",
+			"ctft:stick_chestplate",
+			"ctft:stick_leggings",
+			"ctft:stick_boots",
+			"ctft:stick_shears",
+			"ctft:stick_horse_armor",
+			"ctft:stick_bow"
+		]
+	}
+}

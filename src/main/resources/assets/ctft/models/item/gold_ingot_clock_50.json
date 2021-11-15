@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/gold_ingot_clock_50",
-    "1": "ctft:items/clock_50"
+    "0": "ctft:items/clock_50",
+    "1": "ctft:blocks/gold_ingot_block",
+    "particle": "ctft:blocks/gold_ingot_block"
   }
 }
             

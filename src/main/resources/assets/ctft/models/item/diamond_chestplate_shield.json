@@ -2,7 +2,13 @@
     {
       "parent": "ctft:item/shield",
       "textures": {
-        "0": "ctft:items/diamond_chestplate_shield_base"
-      }
+        "0": "ctft:items/shield_base",
+        "1": "ctft:blocks/diamond_chestplate_block",
+        "particle": "ctft:blocks/diamond_chestplate_block"
+      },
+      "overrides": [
+        { "predicate": { "blocking": 0.0 }, "model": "ctft:item/diamond_chestplate_shield" },
+        { "predicate": { "blocking": 1.0 }, "model": "ctft:item/diamond_chestplate_shield_blocking" }
+        ]
     }
             

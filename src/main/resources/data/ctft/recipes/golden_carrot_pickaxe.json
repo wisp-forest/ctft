@@ -1,0 +1,23 @@
+
+{
+  "group": "Golden Carrot Pickaxe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:golden_carrot"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:golden_carrot_pickaxe",
+    "count": 1
+  }
+}
+        

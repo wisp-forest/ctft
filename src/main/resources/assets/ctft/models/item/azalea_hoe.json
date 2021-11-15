@@ -1,8 +1,10 @@
 
     {
-      "parent": "item/handheld",
+      "parent": "ctft:item/hoe",
       "textures": {
-        "layer0": "ctft:items/azalea_top_hoe"
+        "0": "ctft:items/iron_hoe",
+        "1": "ctft:blocks/azalea_top_block",
+        "particle": "ctft:blocks/azalea_top_block"
       }
     }
             

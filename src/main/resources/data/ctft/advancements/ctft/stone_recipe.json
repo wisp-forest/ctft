@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:stone"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:stone_sword",
+			"ctft:stone_pickaxe",
+			"ctft:stone_axe",
+			"ctft:stone_shovel",
+			"ctft:stone_hoe",
+			"ctft:stone_shield",
+			"ctft:stone_fishing_rod",
+			"ctft:stone_compass",
+			"ctft:stone_clock",
+			"ctft:stone_helmet",
+			"ctft:stone_chestplate",
+			"ctft:stone_leggings",
+			"ctft:stone_boots",
+			"ctft:stone_shears",
+			"ctft:stone_horse_armor",
+			"ctft:stone_bow"
+		]
+	}
+}

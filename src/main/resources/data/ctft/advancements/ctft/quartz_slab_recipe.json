@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:quartz_slab"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:quartz_slab_sword",
+			"ctft:quartz_slab_pickaxe",
+			"ctft:quartz_slab_axe",
+			"ctft:quartz_slab_shovel",
+			"ctft:quartz_slab_hoe",
+			"ctft:quartz_slab_shield",
+			"ctft:quartz_slab_fishing_rod",
+			"ctft:quartz_slab_compass",
+			"ctft:quartz_slab_clock",
+			"ctft:quartz_slab_helmet",
+			"ctft:quartz_slab_chestplate",
+			"ctft:quartz_slab_leggings",
+			"ctft:quartz_slab_boots",
+			"ctft:quartz_slab_shears",
+			"ctft:quartz_slab_horse_armor",
+			"ctft:quartz_slab_bow"
+		]
+	}
+}

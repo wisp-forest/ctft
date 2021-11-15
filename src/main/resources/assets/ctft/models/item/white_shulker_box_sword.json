@@ -1,8 +1,10 @@
 
     {
-      "parent": "item/handheld",
+      "parent": "ctft:item/sword",
       "textures": {
-        "layer0": "ctft:items/white_shulker_box_sword"
+        "0": "ctft:items/iron_sword",
+        "1": "ctft:blocks/white_shulker_box_block",
+        "particle": "ctft:blocks/white_shulker_box_block"
       }
     }
             

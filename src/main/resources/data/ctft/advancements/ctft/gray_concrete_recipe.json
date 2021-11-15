@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:gray_concrete"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:gray_concrete_sword",
+			"ctft:gray_concrete_pickaxe",
+			"ctft:gray_concrete_axe",
+			"ctft:gray_concrete_shovel",
+			"ctft:gray_concrete_hoe",
+			"ctft:gray_concrete_shield",
+			"ctft:gray_concrete_fishing_rod",
+			"ctft:gray_concrete_compass",
+			"ctft:gray_concrete_clock",
+			"ctft:gray_concrete_helmet",
+			"ctft:gray_concrete_chestplate",
+			"ctft:gray_concrete_leggings",
+			"ctft:gray_concrete_boots",
+			"ctft:gray_concrete_shears",
+			"ctft:gray_concrete_horse_armor",
+			"ctft:gray_concrete_bow"
+		]
+	}
+}

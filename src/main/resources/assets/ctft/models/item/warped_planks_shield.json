@@ -2,7 +2,13 @@
     {
       "parent": "ctft:item/shield",
       "textures": {
-        "0": "ctft:items/warped_planks_shield_base"
-      }
+        "0": "ctft:items/shield_base",
+        "1": "ctft:blocks/warped_planks_block",
+        "particle": "ctft:blocks/warped_planks_block"
+      },
+      "overrides": [
+        { "predicate": { "blocking": 0.0 }, "model": "ctft:item/warped_planks_shield" },
+        { "predicate": { "blocking": 1.0 }, "model": "ctft:item/warped_planks_shield_blocking" }
+        ]
     }
             

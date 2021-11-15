@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:spruce_trapdoor"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:spruce_trapdoor_sword",
+			"ctft:spruce_trapdoor_pickaxe",
+			"ctft:spruce_trapdoor_axe",
+			"ctft:spruce_trapdoor_shovel",
+			"ctft:spruce_trapdoor_hoe",
+			"ctft:spruce_trapdoor_shield",
+			"ctft:spruce_trapdoor_fishing_rod",
+			"ctft:spruce_trapdoor_compass",
+			"ctft:spruce_trapdoor_clock",
+			"ctft:spruce_trapdoor_helmet",
+			"ctft:spruce_trapdoor_chestplate",
+			"ctft:spruce_trapdoor_leggings",
+			"ctft:spruce_trapdoor_boots",
+			"ctft:spruce_trapdoor_shears",
+			"ctft:spruce_trapdoor_horse_armor",
+			"ctft:spruce_trapdoor_bow"
+		]
+	}
+}

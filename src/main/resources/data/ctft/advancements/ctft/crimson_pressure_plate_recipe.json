@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:crimson_pressure_plate"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:crimson_pressure_plate_sword",
+			"ctft:crimson_pressure_plate_pickaxe",
+			"ctft:crimson_pressure_plate_axe",
+			"ctft:crimson_pressure_plate_shovel",
+			"ctft:crimson_pressure_plate_hoe",
+			"ctft:crimson_pressure_plate_shield",
+			"ctft:crimson_pressure_plate_fishing_rod",
+			"ctft:crimson_pressure_plate_compass",
+			"ctft:crimson_pressure_plate_clock",
+			"ctft:crimson_pressure_plate_helmet",
+			"ctft:crimson_pressure_plate_chestplate",
+			"ctft:crimson_pressure_plate_leggings",
+			"ctft:crimson_pressure_plate_boots",
+			"ctft:crimson_pressure_plate_shears",
+			"ctft:crimson_pressure_plate_horse_armor",
+			"ctft:crimson_pressure_plate_bow"
+		]
+	}
+}

@@ -1,0 +1,20 @@
+
+{
+  "group": "Villager Spawn Egg Shears",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 0 ",
+    "   "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:villager_spawn_egg"
+    }
+  },
+  "result": {
+    "item": "ctft:villager_spawn_egg_shears",
+    "count": 1
+  }
+}
+        

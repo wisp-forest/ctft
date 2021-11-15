@@ -1,0 +1,20 @@
+
+{
+  "group": "Tropical Fish Bucket Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:tropical_fish_bucket"
+    }
+  },
+  "result": {
+    "item": "ctft:tropical_fish_bucket_chestplate",
+    "count": 1
+  }
+}
+        

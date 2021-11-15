@@ -1,0 +1,10 @@
+
+{
+  "parent": "ctft:item/compass",
+  "textures": {
+    "0": "ctft:items/compass_17",
+    "1": "ctft:blocks/netherite_block_block",
+    "particle": "ctft:blocks/netherite_block_block"
+  }
+}
+            

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:sea_pickle"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:sea_pickle_sword",
+			"ctft:sea_pickle_pickaxe",
+			"ctft:sea_pickle_axe",
+			"ctft:sea_pickle_shovel",
+			"ctft:sea_pickle_hoe",
+			"ctft:sea_pickle_shield",
+			"ctft:sea_pickle_fishing_rod",
+			"ctft:sea_pickle_compass",
+			"ctft:sea_pickle_clock",
+			"ctft:sea_pickle_helmet",
+			"ctft:sea_pickle_chestplate",
+			"ctft:sea_pickle_leggings",
+			"ctft:sea_pickle_boots",
+			"ctft:sea_pickle_shears",
+			"ctft:sea_pickle_horse_armor",
+			"ctft:sea_pickle_bow"
+		]
+	}
+}

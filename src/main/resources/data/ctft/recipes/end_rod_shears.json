@@ -1,0 +1,20 @@
+
+{
+  "group": "End Rod Shears",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 0 ",
+    "   "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:end_rod"
+    }
+  },
+  "result": {
+    "item": "ctft:end_rod_shears",
+    "count": 1
+  }
+}
+        

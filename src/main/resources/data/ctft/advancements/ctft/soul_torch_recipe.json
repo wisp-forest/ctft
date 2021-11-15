@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:soul_torch"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:soul_torch_sword",
+			"ctft:soul_torch_pickaxe",
+			"ctft:soul_torch_axe",
+			"ctft:soul_torch_shovel",
+			"ctft:soul_torch_hoe",
+			"ctft:soul_torch_shield",
+			"ctft:soul_torch_fishing_rod",
+			"ctft:soul_torch_compass",
+			"ctft:soul_torch_clock",
+			"ctft:soul_torch_helmet",
+			"ctft:soul_torch_chestplate",
+			"ctft:soul_torch_leggings",
+			"ctft:soul_torch_boots",
+			"ctft:soul_torch_shears",
+			"ctft:soul_torch_horse_armor",
+			"ctft:soul_torch_bow"
+		]
+	}
+}

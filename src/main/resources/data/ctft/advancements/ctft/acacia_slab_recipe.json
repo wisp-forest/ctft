@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:acacia_slab"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:acacia_slab_sword",
+			"ctft:acacia_slab_pickaxe",
+			"ctft:acacia_slab_axe",
+			"ctft:acacia_slab_shovel",
+			"ctft:acacia_slab_hoe",
+			"ctft:acacia_slab_shield",
+			"ctft:acacia_slab_fishing_rod",
+			"ctft:acacia_slab_compass",
+			"ctft:acacia_slab_clock",
+			"ctft:acacia_slab_helmet",
+			"ctft:acacia_slab_chestplate",
+			"ctft:acacia_slab_leggings",
+			"ctft:acacia_slab_boots",
+			"ctft:acacia_slab_shears",
+			"ctft:acacia_slab_horse_armor",
+			"ctft:acacia_slab_bow"
+		]
+	}
+}

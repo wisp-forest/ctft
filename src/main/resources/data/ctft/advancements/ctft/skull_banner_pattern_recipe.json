@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:skull_banner_pattern"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:skull_banner_pattern_sword",
+			"ctft:skull_banner_pattern_pickaxe",
+			"ctft:skull_banner_pattern_axe",
+			"ctft:skull_banner_pattern_shovel",
+			"ctft:skull_banner_pattern_hoe",
+			"ctft:skull_banner_pattern_shield",
+			"ctft:skull_banner_pattern_fishing_rod",
+			"ctft:skull_banner_pattern_compass",
+			"ctft:skull_banner_pattern_clock",
+			"ctft:skull_banner_pattern_helmet",
+			"ctft:skull_banner_pattern_chestplate",
+			"ctft:skull_banner_pattern_leggings",
+			"ctft:skull_banner_pattern_boots",
+			"ctft:skull_banner_pattern_shears",
+			"ctft:skull_banner_pattern_horse_armor",
+			"ctft:skull_banner_pattern_bow"
+		]
+	}
+}

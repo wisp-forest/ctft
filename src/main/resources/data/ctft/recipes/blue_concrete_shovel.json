@@ -1,0 +1,23 @@
+
+{
+  "group": "Blue Concrete Shovel",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:blue_concrete"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:blue_concrete_shovel",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,20 @@
+
+{
+  "group": "Red Bed Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:red_bed"
+    }
+  },
+  "result": {
+    "item": "ctft:red_bed_chestplate",
+    "count": 1
+  }
+}
+        

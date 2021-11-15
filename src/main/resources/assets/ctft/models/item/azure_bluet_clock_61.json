@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/azure_bluet_clock_61",
-    "1": "ctft:items/clock_61"
+    "0": "ctft:items/clock_61",
+    "1": "ctft:blocks/azure_bluet_block",
+    "particle": "ctft:blocks/azure_bluet_block"
   }
 }
             

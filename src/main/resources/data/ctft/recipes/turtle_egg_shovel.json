@@ -1,0 +1,23 @@
+
+{
+  "group": "Turtle Egg Shovel",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:turtle_egg"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:turtle_egg_shovel",
+    "count": 1
+  }
+}
+        

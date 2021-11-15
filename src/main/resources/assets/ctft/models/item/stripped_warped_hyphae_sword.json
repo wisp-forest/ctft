@@ -1,8 +1,10 @@
 
     {
-      "parent": "item/handheld",
+      "parent": "ctft:item/sword",
       "textures": {
-        "layer0": "ctft:items/stripped_warped_stem_sword"
+        "0": "ctft:items/iron_sword",
+        "1": "ctft:blocks/stripped_warped_stem_block",
+        "particle": "ctft:blocks/stripped_warped_stem_block"
       }
     }
             

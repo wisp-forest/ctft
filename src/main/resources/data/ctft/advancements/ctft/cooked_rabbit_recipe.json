@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cooked_rabbit"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:cooked_rabbit_sword",
+			"ctft:cooked_rabbit_pickaxe",
+			"ctft:cooked_rabbit_axe",
+			"ctft:cooked_rabbit_shovel",
+			"ctft:cooked_rabbit_hoe",
+			"ctft:cooked_rabbit_shield",
+			"ctft:cooked_rabbit_fishing_rod",
+			"ctft:cooked_rabbit_compass",
+			"ctft:cooked_rabbit_clock",
+			"ctft:cooked_rabbit_helmet",
+			"ctft:cooked_rabbit_chestplate",
+			"ctft:cooked_rabbit_leggings",
+			"ctft:cooked_rabbit_boots",
+			"ctft:cooked_rabbit_shears",
+			"ctft:cooked_rabbit_horse_armor",
+			"ctft:cooked_rabbit_bow"
+		]
+	}
+}

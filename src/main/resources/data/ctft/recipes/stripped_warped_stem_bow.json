@@ -1,0 +1,23 @@
+
+{
+  "group": "Stripped Warped Stem Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:stripped_warped_stem"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:stripped_warped_stem_bow",
+    "count": 1
+  }
+}
+        

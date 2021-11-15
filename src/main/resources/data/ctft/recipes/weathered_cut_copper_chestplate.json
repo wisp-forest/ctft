@@ -1,0 +1,20 @@
+
+{
+  "group": "Weathered Cut Copper Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:weathered_cut_copper"
+    }
+  },
+  "result": {
+    "item": "ctft:weathered_cut_copper_chestplate",
+    "count": 1
+  }
+}
+        

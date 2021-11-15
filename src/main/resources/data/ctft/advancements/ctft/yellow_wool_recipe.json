@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:yellow_wool"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:yellow_wool_sword",
+			"ctft:yellow_wool_pickaxe",
+			"ctft:yellow_wool_axe",
+			"ctft:yellow_wool_shovel",
+			"ctft:yellow_wool_hoe",
+			"ctft:yellow_wool_shield",
+			"ctft:yellow_wool_fishing_rod",
+			"ctft:yellow_wool_compass",
+			"ctft:yellow_wool_clock",
+			"ctft:yellow_wool_helmet",
+			"ctft:yellow_wool_chestplate",
+			"ctft:yellow_wool_leggings",
+			"ctft:yellow_wool_boots",
+			"ctft:yellow_wool_shears",
+			"ctft:yellow_wool_horse_armor",
+			"ctft:yellow_wool_bow"
+		]
+	}
+}

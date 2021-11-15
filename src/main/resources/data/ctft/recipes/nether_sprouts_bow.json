@@ -1,0 +1,23 @@
+
+{
+  "group": "Nether Sprouts Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:nether_sprouts"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:nether_sprouts_bow",
+    "count": 1
+  }
+}
+        

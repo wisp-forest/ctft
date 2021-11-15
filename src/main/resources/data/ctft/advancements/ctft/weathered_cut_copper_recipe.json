@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:weathered_cut_copper"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:weathered_cut_copper_sword",
+			"ctft:weathered_cut_copper_pickaxe",
+			"ctft:weathered_cut_copper_axe",
+			"ctft:weathered_cut_copper_shovel",
+			"ctft:weathered_cut_copper_hoe",
+			"ctft:weathered_cut_copper_shield",
+			"ctft:weathered_cut_copper_fishing_rod",
+			"ctft:weathered_cut_copper_compass",
+			"ctft:weathered_cut_copper_clock",
+			"ctft:weathered_cut_copper_helmet",
+			"ctft:weathered_cut_copper_chestplate",
+			"ctft:weathered_cut_copper_leggings",
+			"ctft:weathered_cut_copper_boots",
+			"ctft:weathered_cut_copper_shears",
+			"ctft:weathered_cut_copper_horse_armor",
+			"ctft:weathered_cut_copper_bow"
+		]
+	}
+}

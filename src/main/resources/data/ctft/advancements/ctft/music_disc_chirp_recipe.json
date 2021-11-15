@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_chirp"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:music_disc_chirp_sword",
+			"ctft:music_disc_chirp_pickaxe",
+			"ctft:music_disc_chirp_axe",
+			"ctft:music_disc_chirp_shovel",
+			"ctft:music_disc_chirp_hoe",
+			"ctft:music_disc_chirp_shield",
+			"ctft:music_disc_chirp_fishing_rod",
+			"ctft:music_disc_chirp_compass",
+			"ctft:music_disc_chirp_clock",
+			"ctft:music_disc_chirp_helmet",
+			"ctft:music_disc_chirp_chestplate",
+			"ctft:music_disc_chirp_leggings",
+			"ctft:music_disc_chirp_boots",
+			"ctft:music_disc_chirp_shears",
+			"ctft:music_disc_chirp_horse_armor",
+			"ctft:music_disc_chirp_bow"
+		]
+	}
+}

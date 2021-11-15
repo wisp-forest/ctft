@@ -1,0 +1,20 @@
+
+{
+  "group": "Enchanted Golden Apple Helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:enchanted_golden_apple"
+    }
+  },
+  "result": {
+    "item": "ctft:enchanted_golden_apple_helmet",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,20 @@
+
+{
+  "group": "Smithing Table Horse Armor",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:smithing_table"
+    }
+  },
+  "result": {
+    "item": "ctft:smithing_table_horse_armor",
+    "count": 1
+  }
+}
+        

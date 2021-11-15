@@ -1,0 +1,23 @@
+
+{
+  "group": "Lime Carpet Sword",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    " 0 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:lime_carpet"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:lime_carpet_sword",
+    "count": 1
+  }
+}
+        

@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/jungle_door_clock_44",
-    "1": "ctft:items/clock_44"
+    "0": "ctft:items/clock_44",
+    "1": "ctft:blocks/jungle_door_block",
+    "particle": "ctft:blocks/jungle_door_block"
   }
 }
             

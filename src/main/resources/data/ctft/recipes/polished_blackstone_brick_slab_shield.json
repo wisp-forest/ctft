@@ -1,0 +1,23 @@
+
+{
+  "group": "Polished Blackstone Brick Slab Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:polished_blackstone_brick_slab"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:polished_blackstone_brick_slab_shield",
+    "count": 1
+  }
+}
+        

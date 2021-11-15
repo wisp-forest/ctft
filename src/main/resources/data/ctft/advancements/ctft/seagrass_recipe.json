@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:seagrass"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:seagrass_sword",
+			"ctft:seagrass_pickaxe",
+			"ctft:seagrass_axe",
+			"ctft:seagrass_shovel",
+			"ctft:seagrass_hoe",
+			"ctft:seagrass_shield",
+			"ctft:seagrass_fishing_rod",
+			"ctft:seagrass_compass",
+			"ctft:seagrass_clock",
+			"ctft:seagrass_helmet",
+			"ctft:seagrass_chestplate",
+			"ctft:seagrass_leggings",
+			"ctft:seagrass_boots",
+			"ctft:seagrass_shears",
+			"ctft:seagrass_horse_armor",
+			"ctft:seagrass_bow"
+		]
+	}
+}

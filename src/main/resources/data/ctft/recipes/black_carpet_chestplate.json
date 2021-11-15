@@ -1,0 +1,20 @@
+
+{
+  "group": "Black Carpet Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:black_carpet"
+    }
+  },
+  "result": {
+    "item": "ctft:black_carpet_chestplate",
+    "count": 1
+  }
+}
+        

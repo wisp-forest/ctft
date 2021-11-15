@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:wooden_shovel"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:wooden_shovel_sword",
+			"ctft:wooden_shovel_pickaxe",
+			"ctft:wooden_shovel_axe",
+			"ctft:wooden_shovel_shovel",
+			"ctft:wooden_shovel_hoe",
+			"ctft:wooden_shovel_shield",
+			"ctft:wooden_shovel_fishing_rod",
+			"ctft:wooden_shovel_compass",
+			"ctft:wooden_shovel_clock",
+			"ctft:wooden_shovel_helmet",
+			"ctft:wooden_shovel_chestplate",
+			"ctft:wooden_shovel_leggings",
+			"ctft:wooden_shovel_boots",
+			"ctft:wooden_shovel_shears",
+			"ctft:wooden_shovel_horse_armor",
+			"ctft:wooden_shovel_bow"
+		]
+	}
+}

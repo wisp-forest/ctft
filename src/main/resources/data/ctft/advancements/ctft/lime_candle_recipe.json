@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:lime_candle"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:lime_candle_sword",
+			"ctft:lime_candle_pickaxe",
+			"ctft:lime_candle_axe",
+			"ctft:lime_candle_shovel",
+			"ctft:lime_candle_hoe",
+			"ctft:lime_candle_shield",
+			"ctft:lime_candle_fishing_rod",
+			"ctft:lime_candle_compass",
+			"ctft:lime_candle_clock",
+			"ctft:lime_candle_helmet",
+			"ctft:lime_candle_chestplate",
+			"ctft:lime_candle_leggings",
+			"ctft:lime_candle_boots",
+			"ctft:lime_candle_shears",
+			"ctft:lime_candle_horse_armor",
+			"ctft:lime_candle_bow"
+		]
+	}
+}

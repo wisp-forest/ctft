@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:nether_wart"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:nether_wart_sword",
+			"ctft:nether_wart_pickaxe",
+			"ctft:nether_wart_axe",
+			"ctft:nether_wart_shovel",
+			"ctft:nether_wart_hoe",
+			"ctft:nether_wart_shield",
+			"ctft:nether_wart_fishing_rod",
+			"ctft:nether_wart_compass",
+			"ctft:nether_wart_clock",
+			"ctft:nether_wart_helmet",
+			"ctft:nether_wart_chestplate",
+			"ctft:nether_wart_leggings",
+			"ctft:nether_wart_boots",
+			"ctft:nether_wart_shears",
+			"ctft:nether_wart_horse_armor",
+			"ctft:nether_wart_bow"
+		]
+	}
+}

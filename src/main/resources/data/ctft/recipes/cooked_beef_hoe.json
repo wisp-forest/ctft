@@ -1,0 +1,23 @@
+
+{
+  "group": "Cooked Beef Hoe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "00 ",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:cooked_beef"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:cooked_beef_hoe",
+    "count": 1
+  }
+}
+        

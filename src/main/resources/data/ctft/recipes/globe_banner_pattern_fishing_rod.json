@@ -1,0 +1,23 @@
+
+{
+  "group": "Globe Banner Pattern Fishing Rod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 01",
+    "0 1"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:globe_banner_patter"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:globe_banner_pattern_fishing_rod",
+    "count": 1
+  }
+}
+        

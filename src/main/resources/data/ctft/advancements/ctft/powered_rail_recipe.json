@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:powered_rail"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:powered_rail_sword",
+			"ctft:powered_rail_pickaxe",
+			"ctft:powered_rail_axe",
+			"ctft:powered_rail_shovel",
+			"ctft:powered_rail_hoe",
+			"ctft:powered_rail_shield",
+			"ctft:powered_rail_fishing_rod",
+			"ctft:powered_rail_compass",
+			"ctft:powered_rail_clock",
+			"ctft:powered_rail_helmet",
+			"ctft:powered_rail_chestplate",
+			"ctft:powered_rail_leggings",
+			"ctft:powered_rail_boots",
+			"ctft:powered_rail_shears",
+			"ctft:powered_rail_horse_armor",
+			"ctft:powered_rail_bow"
+		]
+	}
+}

@@ -1,0 +1,23 @@
+
+{
+  "group": "Bee Nest Shovel",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:bee_nest"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:bee_nest_shovel",
+    "count": 1
+  }
+}
+        

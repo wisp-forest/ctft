@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/bamboo_large_leaves_clock_03",
-    "1": "ctft:items/clock_03"
+    "0": "ctft:items/clock_03",
+    "1": "ctft:blocks/fern_block",
+    "particle": "ctft:blocks/fern_block"
   }
 }
             

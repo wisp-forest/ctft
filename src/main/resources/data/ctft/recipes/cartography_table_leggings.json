@@ -1,0 +1,20 @@
+
+{
+  "group": "Cartography Table Leggings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:cartography_table"
+    }
+  },
+  "result": {
+    "item": "ctft:cartography_table_leggings",
+    "count": 1
+  }
+}
+        

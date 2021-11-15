@@ -1,0 +1,15 @@
+
+    {
+      "parent": "ctft:item/bow",
+      "textures": {
+        "0": "ctft:items/bow",
+        "1": "ctft:blocks/beetroot_seeds_block",
+        "particle": "ctft:blocks/beetroot_seeds_block"
+    },
+      "overrides": [
+    { "predicate": { "pulling": 1 }, "model": "ctft:item/beetroot_seeds_bow_pulling_0" },
+    { "predicate": { "pulling": 1, "pull": 0.65}, "model": "ctft:item/beetroot_seeds_bow_pulling_1"},
+    { "predicate": { "pulling": 1, "pull": 0.9}, "model": "ctft:item/beetroot_seeds_bow_pulling_2"}
+  ]
+    }
+            

@@ -1,0 +1,20 @@
+
+{
+  "group": "Orange Concrete Shears",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 0 ",
+    "   "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:orange_concrete"
+    }
+  },
+  "result": {
+    "item": "ctft:orange_concrete_shears",
+    "count": 1
+  }
+}
+        

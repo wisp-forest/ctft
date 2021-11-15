@@ -1,0 +1,23 @@
+
+{
+  "group": "End Portal Frame Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:end_portal_frame"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:end_portal_frame_bow",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:note_block"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:note_block_sword",
+			"ctft:note_block_pickaxe",
+			"ctft:note_block_axe",
+			"ctft:note_block_shovel",
+			"ctft:note_block_hoe",
+			"ctft:note_block_shield",
+			"ctft:note_block_fishing_rod",
+			"ctft:note_block_compass",
+			"ctft:note_block_clock",
+			"ctft:note_block_helmet",
+			"ctft:note_block_chestplate",
+			"ctft:note_block_leggings",
+			"ctft:note_block_boots",
+			"ctft:note_block_shears",
+			"ctft:note_block_horse_armor",
+			"ctft:note_block_bow"
+		]
+	}
+}

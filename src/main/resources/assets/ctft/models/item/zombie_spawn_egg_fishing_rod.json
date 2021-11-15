@@ -1,8 +1,14 @@
 
 {
-  "parent": "item/fishing_rod",
+  "parent": "ctft:item/fishing_rod",
   "textures": {
-    "layer0": "ctft:items/zombie_fishing_rod"
-  }
+    "0": "ctft:items/fishing_rod",
+    "1": "ctft:blocks/zombie_block",
+    "particle": "ctft:blocks/zombie_block"
+  },
+  "overrides": [
+        { "predicate": { "cast": 0.0 }, "model": "ctft:item/zombie_spawn_egg_fishing_rod" },
+        { "predicate": { "cast": 1.0 }, "model": "ctft:item/zombie_spawn_egg_fishing_rod_cast" }
+    ]
 }
         

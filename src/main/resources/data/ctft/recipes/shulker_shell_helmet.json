@@ -1,0 +1,20 @@
+
+{
+  "group": "Shulker Shell Helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:shulker_shell"
+    }
+  },
+  "result": {
+    "item": "ctft:shulker_shell_helmet",
+    "count": 1
+  }
+}
+        

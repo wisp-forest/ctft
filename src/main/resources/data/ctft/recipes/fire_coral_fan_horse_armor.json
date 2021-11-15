@@ -1,0 +1,20 @@
+
+{
+  "group": "Fire Coral Fan Horse Armor",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:fire_coral_fan"
+    }
+  },
+  "result": {
+    "item": "ctft:fire_coral_fan_horse_armor",
+    "count": 1
+  }
+}
+        

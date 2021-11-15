@@ -2,7 +2,13 @@
     {
       "parent": "ctft:item/shield",
       "textures": {
-        "0": "ctft:items/spider_eye_shield_base"
-      }
+        "0": "ctft:items/shield_base",
+        "1": "ctft:blocks/spider_eye_block",
+        "particle": "ctft:blocks/spider_eye_block"
+      },
+      "overrides": [
+        { "predicate": { "blocking": 0.0 }, "model": "ctft:item/spider_eye_shield" },
+        { "predicate": { "blocking": 1.0 }, "model": "ctft:item/spider_eye_shield_blocking" }
+        ]
     }
             

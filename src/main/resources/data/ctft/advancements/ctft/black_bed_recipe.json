@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:black_bed"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:black_bed_sword",
+			"ctft:black_bed_pickaxe",
+			"ctft:black_bed_axe",
+			"ctft:black_bed_shovel",
+			"ctft:black_bed_hoe",
+			"ctft:black_bed_shield",
+			"ctft:black_bed_fishing_rod",
+			"ctft:black_bed_compass",
+			"ctft:black_bed_clock",
+			"ctft:black_bed_helmet",
+			"ctft:black_bed_chestplate",
+			"ctft:black_bed_leggings",
+			"ctft:black_bed_boots",
+			"ctft:black_bed_shears",
+			"ctft:black_bed_horse_armor",
+			"ctft:black_bed_bow"
+		]
+	}
+}

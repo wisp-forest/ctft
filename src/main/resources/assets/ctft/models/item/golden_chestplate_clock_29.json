@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/golden_chestplate_clock_29",
-    "1": "ctft:items/clock_29"
+    "0": "ctft:items/clock_29",
+    "1": "ctft:blocks/golden_chestplate_block",
+    "particle": "ctft:blocks/golden_chestplate_block"
   }
 }
             

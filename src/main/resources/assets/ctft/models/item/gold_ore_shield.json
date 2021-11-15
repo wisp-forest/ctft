@@ -2,7 +2,13 @@
     {
       "parent": "ctft:item/shield",
       "textures": {
-        "0": "ctft:items/gold_ore_shield_base"
-      }
+        "0": "ctft:items/shield_base",
+        "1": "ctft:blocks/gold_ore_block",
+        "particle": "ctft:blocks/gold_ore_block"
+      },
+      "overrides": [
+        { "predicate": { "blocking": 0.0 }, "model": "ctft:item/gold_ore_shield" },
+        { "predicate": { "blocking": 1.0 }, "model": "ctft:item/gold_ore_shield_blocking" }
+        ]
     }
             

@@ -1,0 +1,20 @@
+
+{
+  "group": "Dropper Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:dropper"
+    }
+  },
+  "result": {
+    "item": "ctft:dropper_chestplate",
+    "count": 1
+  }
+}
+        

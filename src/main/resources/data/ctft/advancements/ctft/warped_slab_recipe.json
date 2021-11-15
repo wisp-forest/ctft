@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:warped_slab"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:warped_slab_sword",
+			"ctft:warped_slab_pickaxe",
+			"ctft:warped_slab_axe",
+			"ctft:warped_slab_shovel",
+			"ctft:warped_slab_hoe",
+			"ctft:warped_slab_shield",
+			"ctft:warped_slab_fishing_rod",
+			"ctft:warped_slab_compass",
+			"ctft:warped_slab_clock",
+			"ctft:warped_slab_helmet",
+			"ctft:warped_slab_chestplate",
+			"ctft:warped_slab_leggings",
+			"ctft:warped_slab_boots",
+			"ctft:warped_slab_shears",
+			"ctft:warped_slab_horse_armor",
+			"ctft:warped_slab_bow"
+		]
+	}
+}

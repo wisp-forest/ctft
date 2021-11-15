@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:red_bed"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:red_bed_sword",
+			"ctft:red_bed_pickaxe",
+			"ctft:red_bed_axe",
+			"ctft:red_bed_shovel",
+			"ctft:red_bed_hoe",
+			"ctft:red_bed_shield",
+			"ctft:red_bed_fishing_rod",
+			"ctft:red_bed_compass",
+			"ctft:red_bed_clock",
+			"ctft:red_bed_helmet",
+			"ctft:red_bed_chestplate",
+			"ctft:red_bed_leggings",
+			"ctft:red_bed_boots",
+			"ctft:red_bed_shears",
+			"ctft:red_bed_horse_armor",
+			"ctft:red_bed_bow"
+		]
+	}
+}

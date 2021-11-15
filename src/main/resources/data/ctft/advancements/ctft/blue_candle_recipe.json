@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:blue_candle"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:blue_candle_sword",
+			"ctft:blue_candle_pickaxe",
+			"ctft:blue_candle_axe",
+			"ctft:blue_candle_shovel",
+			"ctft:blue_candle_hoe",
+			"ctft:blue_candle_shield",
+			"ctft:blue_candle_fishing_rod",
+			"ctft:blue_candle_compass",
+			"ctft:blue_candle_clock",
+			"ctft:blue_candle_helmet",
+			"ctft:blue_candle_chestplate",
+			"ctft:blue_candle_leggings",
+			"ctft:blue_candle_boots",
+			"ctft:blue_candle_shears",
+			"ctft:blue_candle_horse_armor",
+			"ctft:blue_candle_bow"
+		]
+	}
+}

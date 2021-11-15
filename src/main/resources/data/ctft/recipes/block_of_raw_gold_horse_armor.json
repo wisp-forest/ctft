@@ -1,0 +1,20 @@
+
+{
+  "group": "Block of Raw Gold Horse Armor",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:raw_gold_block"
+    }
+  },
+  "result": {
+    "item": "ctft:block_of_raw_gold_horse_armor",
+    "count": 1
+  }
+}
+        

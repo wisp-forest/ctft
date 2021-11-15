@@ -1,0 +1,20 @@
+
+{
+  "group": "Heart Of The Sea Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:heart_of_the_sea"
+    }
+  },
+  "result": {
+    "item": "ctft:heart_of_the_sea_chestplate",
+    "count": 1
+  }
+}
+        

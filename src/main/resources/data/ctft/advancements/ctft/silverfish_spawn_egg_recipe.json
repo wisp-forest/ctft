@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:silverfish_spawn_egg"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:silverfish_spawn_egg_sword",
+			"ctft:silverfish_spawn_egg_pickaxe",
+			"ctft:silverfish_spawn_egg_axe",
+			"ctft:silverfish_spawn_egg_shovel",
+			"ctft:silverfish_spawn_egg_hoe",
+			"ctft:silverfish_spawn_egg_shield",
+			"ctft:silverfish_spawn_egg_fishing_rod",
+			"ctft:silverfish_spawn_egg_compass",
+			"ctft:silverfish_spawn_egg_clock",
+			"ctft:silverfish_spawn_egg_helmet",
+			"ctft:silverfish_spawn_egg_chestplate",
+			"ctft:silverfish_spawn_egg_leggings",
+			"ctft:silverfish_spawn_egg_boots",
+			"ctft:silverfish_spawn_egg_shears",
+			"ctft:silverfish_spawn_egg_horse_armor",
+			"ctft:silverfish_spawn_egg_bow"
+		]
+	}
+}

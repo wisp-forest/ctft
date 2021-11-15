@@ -1,8 +1,10 @@
 
     {
-      "parent": "item/handheld",
+      "parent": "ctft:item/pickaxe",
       "textures": {
-        "layer0": "ctft:items/chiseled_quartz_block_pickaxe"
+        "0": "ctft:items/iron_pickaxe",
+        "1": "ctft:blocks/chiseled_quartz_block_block",
+        "particle": "ctft:blocks/chiseled_quartz_block_block"
       }
     }
             

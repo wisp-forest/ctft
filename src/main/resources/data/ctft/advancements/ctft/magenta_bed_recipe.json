@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:magenta_bed"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:magenta_bed_sword",
+			"ctft:magenta_bed_pickaxe",
+			"ctft:magenta_bed_axe",
+			"ctft:magenta_bed_shovel",
+			"ctft:magenta_bed_hoe",
+			"ctft:magenta_bed_shield",
+			"ctft:magenta_bed_fishing_rod",
+			"ctft:magenta_bed_compass",
+			"ctft:magenta_bed_clock",
+			"ctft:magenta_bed_helmet",
+			"ctft:magenta_bed_chestplate",
+			"ctft:magenta_bed_leggings",
+			"ctft:magenta_bed_boots",
+			"ctft:magenta_bed_shears",
+			"ctft:magenta_bed_horse_armor",
+			"ctft:magenta_bed_bow"
+		]
+	}
+}

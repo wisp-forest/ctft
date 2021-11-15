@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/target_side_clock_20",
-    "1": "ctft:items/clock_20"
+    "0": "ctft:items/clock_20",
+    "1": "ctft:blocks/target_side_block",
+    "particle": "ctft:blocks/target_side_block"
   }
 }
             

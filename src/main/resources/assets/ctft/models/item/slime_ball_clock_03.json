@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/slime_ball_clock_03",
-    "1": "ctft:items/clock_03"
+    "0": "ctft:items/clock_03",
+    "1": "ctft:blocks/slime_ball_block",
+    "particle": "ctft:blocks/slime_ball_block"
   }
 }
             

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:map"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:map_sword",
+			"ctft:map_pickaxe",
+			"ctft:map_axe",
+			"ctft:map_shovel",
+			"ctft:map_hoe",
+			"ctft:map_shield",
+			"ctft:map_fishing_rod",
+			"ctft:map_compass",
+			"ctft:map_clock",
+			"ctft:map_helmet",
+			"ctft:map_chestplate",
+			"ctft:map_leggings",
+			"ctft:map_boots",
+			"ctft:map_shears",
+			"ctft:map_horse_armor",
+			"ctft:map_bow"
+		]
+	}
+}

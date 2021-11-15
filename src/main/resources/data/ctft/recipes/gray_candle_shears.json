@@ -1,0 +1,20 @@
+
+{
+  "group": "Gray Candle Shears",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 0 ",
+    "   "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:gray_candle"
+    }
+  },
+  "result": {
+    "item": "ctft:gray_candle_shears",
+    "count": 1
+  }
+}
+        

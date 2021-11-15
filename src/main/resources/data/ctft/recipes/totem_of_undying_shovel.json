@@ -1,0 +1,23 @@
+
+{
+  "group": "Totem Of Undying Shovel",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:totem_of_undying"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:totem_of_undying_shovel",
+    "count": 1
+  }
+}
+        

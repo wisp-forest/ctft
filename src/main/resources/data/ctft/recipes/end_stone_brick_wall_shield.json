@@ -1,0 +1,23 @@
+
+{
+  "group": "End Stone Brick Wall Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:end_stone_brick_wall"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:end_stone_brick_wall_shield",
+    "count": 1
+  }
+}
+        

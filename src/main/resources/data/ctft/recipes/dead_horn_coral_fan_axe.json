@@ -1,0 +1,23 @@
+
+{
+  "group": "Dead Horn Coral Fan Axe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "00 ",
+    "01 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:dead_horn_coral_fan"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:dead_horn_coral_fan_axe",
+    "count": 1
+  }
+}
+        

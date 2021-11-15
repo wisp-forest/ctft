@@ -1,0 +1,10 @@
+
+    {
+      "parent": "ctft:item/horse_armor",
+      "textures": {
+        "0": "ctft:items/horse_armor",
+        "1": "ctft:blocks/pufferfishface_block",
+        "particle": "ctft:blocks/pufferfishface_block"
+      }
+    }
+            

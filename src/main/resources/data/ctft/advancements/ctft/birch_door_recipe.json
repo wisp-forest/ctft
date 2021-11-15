@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:birch_door"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:birch_door_sword",
+			"ctft:birch_door_pickaxe",
+			"ctft:birch_door_axe",
+			"ctft:birch_door_shovel",
+			"ctft:birch_door_hoe",
+			"ctft:birch_door_shield",
+			"ctft:birch_door_fishing_rod",
+			"ctft:birch_door_compass",
+			"ctft:birch_door_clock",
+			"ctft:birch_door_helmet",
+			"ctft:birch_door_chestplate",
+			"ctft:birch_door_leggings",
+			"ctft:birch_door_boots",
+			"ctft:birch_door_shears",
+			"ctft:birch_door_horse_armor",
+			"ctft:birch_door_bow"
+		]
+	}
+}

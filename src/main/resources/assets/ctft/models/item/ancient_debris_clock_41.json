@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/ancient_debris_top_clock_41",
-    "1": "ctft:items/clock_41"
+    "0": "ctft:items/clock_41",
+    "1": "ctft:blocks/ancient_debris_top_block",
+    "particle": "ctft:blocks/ancient_debris_top_block"
   }
 }
             

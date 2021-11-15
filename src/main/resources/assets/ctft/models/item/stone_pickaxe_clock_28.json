@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/stone_pickaxe_clock_28",
-    "1": "ctft:items/clock_28"
+    "0": "ctft:items/clock_28",
+    "1": "ctft:blocks/stone_pickaxe_block",
+    "particle": "ctft:blocks/stone_pickaxe_block"
   }
 }
             

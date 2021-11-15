@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:zombie_head"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:zombie_head_sword",
+			"ctft:zombie_head_pickaxe",
+			"ctft:zombie_head_axe",
+			"ctft:zombie_head_shovel",
+			"ctft:zombie_head_hoe",
+			"ctft:zombie_head_shield",
+			"ctft:zombie_head_fishing_rod",
+			"ctft:zombie_head_compass",
+			"ctft:zombie_head_clock",
+			"ctft:zombie_head_helmet",
+			"ctft:zombie_head_chestplate",
+			"ctft:zombie_head_leggings",
+			"ctft:zombie_head_boots",
+			"ctft:zombie_head_shears",
+			"ctft:zombie_head_horse_armor",
+			"ctft:zombie_head_bow"
+		]
+	}
+}

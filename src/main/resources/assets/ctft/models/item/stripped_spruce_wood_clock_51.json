@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/stripped_birch_log_top_clock_51",
-    "1": "ctft:items/clock_51"
+    "0": "ctft:items/clock_51",
+    "1": "ctft:blocks/stripped_birch_log_top_block",
+    "particle": "ctft:blocks/stripped_birch_log_top_block"
   }
 }
             

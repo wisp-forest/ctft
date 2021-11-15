@@ -1,0 +1,20 @@
+
+{
+  "group": "Block of Emerald Shears",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 0 ",
+    "   "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:emerald_block"
+    }
+  },
+  "result": {
+    "item": "ctft:block_of_emerald_shears",
+    "count": 1
+  }
+}
+        

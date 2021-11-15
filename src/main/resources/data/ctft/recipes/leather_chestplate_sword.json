@@ -1,0 +1,23 @@
+
+{
+  "group": "Leather Chestplate Sword",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    " 0 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:leather_chestplate"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:leather_chestplate_sword",
+    "count": 1
+  }
+}
+        

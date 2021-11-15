@@ -2,7 +2,13 @@
     {
       "parent": "ctft:item/shield",
       "textures": {
-        "0": "ctft:items/name_tag_shield_base"
-      }
+        "0": "ctft:items/shield_base",
+        "1": "ctft:blocks/name_tag_block",
+        "particle": "ctft:blocks/name_tag_block"
+      },
+      "overrides": [
+        { "predicate": { "blocking": 0.0 }, "model": "ctft:item/name_tag_shield" },
+        { "predicate": { "blocking": 1.0 }, "model": "ctft:item/name_tag_shield_blocking" }
+        ]
     }
             

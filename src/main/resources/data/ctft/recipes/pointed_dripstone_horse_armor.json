@@ -1,0 +1,20 @@
+
+{
+  "group": "Pointed Dripstone Horse Armor",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:pointed_dripstone"
+    }
+  },
+  "result": {
+    "item": "ctft:pointed_dripstone_horse_armor",
+    "count": 1
+  }
+}
+        

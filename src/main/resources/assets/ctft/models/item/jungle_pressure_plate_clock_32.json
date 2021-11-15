@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/jungle_planks_clock_32",
-    "1": "ctft:items/clock_32"
+    "0": "ctft:items/clock_32",
+    "1": "ctft:blocks/jungle_planks_block",
+    "particle": "ctft:blocks/jungle_planks_block"
   }
 }
             

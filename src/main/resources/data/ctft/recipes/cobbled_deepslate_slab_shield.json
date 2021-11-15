@@ -1,0 +1,23 @@
+
+{
+  "group": "Cobbled Deepslate Slab Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:cobbled_deepslate_slab"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:cobbled_deepslate_slab_shield",
+    "count": 1
+  }
+}
+        

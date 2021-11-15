@@ -1,0 +1,20 @@
+
+{
+  "group": "Stonecutter Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:stonecutter"
+    }
+  },
+  "result": {
+    "item": "ctft:stonecutter_chestplate",
+    "count": 1
+  }
+}
+        

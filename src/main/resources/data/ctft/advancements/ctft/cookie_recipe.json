@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cookie"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:cookie_sword",
+			"ctft:cookie_pickaxe",
+			"ctft:cookie_axe",
+			"ctft:cookie_shovel",
+			"ctft:cookie_hoe",
+			"ctft:cookie_shield",
+			"ctft:cookie_fishing_rod",
+			"ctft:cookie_compass",
+			"ctft:cookie_clock",
+			"ctft:cookie_helmet",
+			"ctft:cookie_chestplate",
+			"ctft:cookie_leggings",
+			"ctft:cookie_boots",
+			"ctft:cookie_shears",
+			"ctft:cookie_horse_armor",
+			"ctft:cookie_bow"
+		]
+	}
+}

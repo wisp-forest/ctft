@@ -1,0 +1,23 @@
+
+{
+  "group": "Popped Chorus Fruit Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:popped_chorus_fruit"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:popped_chorus_fruit_bow",
+    "count": 1
+  }
+}
+        

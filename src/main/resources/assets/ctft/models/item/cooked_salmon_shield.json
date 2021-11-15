@@ -2,7 +2,13 @@
     {
       "parent": "ctft:item/shield",
       "textures": {
-        "0": "ctft:items/cooked_salmon_shield_base"
-      }
+        "0": "ctft:items/shield_base",
+        "1": "ctft:blocks/cooked_salmon_block",
+        "particle": "ctft:blocks/cooked_salmon_block"
+      },
+      "overrides": [
+        { "predicate": { "blocking": 0.0 }, "model": "ctft:item/cooked_salmon_shield" },
+        { "predicate": { "blocking": 1.0 }, "model": "ctft:item/cooked_salmon_shield_blocking" }
+        ]
     }
             

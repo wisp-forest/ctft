@@ -1,0 +1,20 @@
+
+{
+  "group": "Red Tulip Leggings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:red_tulip"
+    }
+  },
+  "result": {
+    "item": "ctft:red_tulip_leggings",
+    "count": 1
+  }
+}
+        

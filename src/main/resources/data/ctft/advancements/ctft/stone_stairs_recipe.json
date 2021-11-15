@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:stone_stairs"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:stone_stairs_sword",
+			"ctft:stone_stairs_pickaxe",
+			"ctft:stone_stairs_axe",
+			"ctft:stone_stairs_shovel",
+			"ctft:stone_stairs_hoe",
+			"ctft:stone_stairs_shield",
+			"ctft:stone_stairs_fishing_rod",
+			"ctft:stone_stairs_compass",
+			"ctft:stone_stairs_clock",
+			"ctft:stone_stairs_helmet",
+			"ctft:stone_stairs_chestplate",
+			"ctft:stone_stairs_leggings",
+			"ctft:stone_stairs_boots",
+			"ctft:stone_stairs_shears",
+			"ctft:stone_stairs_horse_armor",
+			"ctft:stone_stairs_bow"
+		]
+	}
+}

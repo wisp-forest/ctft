@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:stripped_birch_wood"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:stripped_birch_wood_sword",
+			"ctft:stripped_birch_wood_pickaxe",
+			"ctft:stripped_birch_wood_axe",
+			"ctft:stripped_birch_wood_shovel",
+			"ctft:stripped_birch_wood_hoe",
+			"ctft:stripped_birch_wood_shield",
+			"ctft:stripped_birch_wood_fishing_rod",
+			"ctft:stripped_birch_wood_compass",
+			"ctft:stripped_birch_wood_clock",
+			"ctft:stripped_birch_wood_helmet",
+			"ctft:stripped_birch_wood_chestplate",
+			"ctft:stripped_birch_wood_leggings",
+			"ctft:stripped_birch_wood_boots",
+			"ctft:stripped_birch_wood_shears",
+			"ctft:stripped_birch_wood_horse_armor",
+			"ctft:stripped_birch_wood_bow"
+		]
+	}
+}

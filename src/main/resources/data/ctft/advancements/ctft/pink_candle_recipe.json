@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:pink_candle"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:pink_candle_sword",
+			"ctft:pink_candle_pickaxe",
+			"ctft:pink_candle_axe",
+			"ctft:pink_candle_shovel",
+			"ctft:pink_candle_hoe",
+			"ctft:pink_candle_shield",
+			"ctft:pink_candle_fishing_rod",
+			"ctft:pink_candle_compass",
+			"ctft:pink_candle_clock",
+			"ctft:pink_candle_helmet",
+			"ctft:pink_candle_chestplate",
+			"ctft:pink_candle_leggings",
+			"ctft:pink_candle_boots",
+			"ctft:pink_candle_shears",
+			"ctft:pink_candle_horse_armor",
+			"ctft:pink_candle_bow"
+		]
+	}
+}

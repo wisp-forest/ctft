@@ -1,0 +1,23 @@
+
+{
+  "group": "Calcite Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:calcite"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:calcite_shield",
+    "count": 1
+  }
+}
+        

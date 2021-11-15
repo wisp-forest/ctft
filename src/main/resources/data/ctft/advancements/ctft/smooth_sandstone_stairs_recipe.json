@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:smooth_sandstone_stairs"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:smooth_sandstone_stairs_sword",
+			"ctft:smooth_sandstone_stairs_pickaxe",
+			"ctft:smooth_sandstone_stairs_axe",
+			"ctft:smooth_sandstone_stairs_shovel",
+			"ctft:smooth_sandstone_stairs_hoe",
+			"ctft:smooth_sandstone_stairs_shield",
+			"ctft:smooth_sandstone_stairs_fishing_rod",
+			"ctft:smooth_sandstone_stairs_compass",
+			"ctft:smooth_sandstone_stairs_clock",
+			"ctft:smooth_sandstone_stairs_helmet",
+			"ctft:smooth_sandstone_stairs_chestplate",
+			"ctft:smooth_sandstone_stairs_leggings",
+			"ctft:smooth_sandstone_stairs_boots",
+			"ctft:smooth_sandstone_stairs_shears",
+			"ctft:smooth_sandstone_stairs_horse_armor",
+			"ctft:smooth_sandstone_stairs_bow"
+		]
+	}
+}

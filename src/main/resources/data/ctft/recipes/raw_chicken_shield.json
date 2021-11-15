@@ -1,0 +1,23 @@
+
+{
+  "group": "Raw Chicken Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:chicken"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:raw_chicken_shield",
+    "count": 1
+  }
+}
+        

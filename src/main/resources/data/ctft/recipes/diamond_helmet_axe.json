@@ -1,0 +1,23 @@
+
+{
+  "group": "Diamond Helmet Axe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "00 ",
+    "01 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:diamond_helmet"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:diamond_helmet_axe",
+    "count": 1
+  }
+}
+        

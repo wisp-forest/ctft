@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:stone_button"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:stone_button_sword",
+			"ctft:stone_button_pickaxe",
+			"ctft:stone_button_axe",
+			"ctft:stone_button_shovel",
+			"ctft:stone_button_hoe",
+			"ctft:stone_button_shield",
+			"ctft:stone_button_fishing_rod",
+			"ctft:stone_button_compass",
+			"ctft:stone_button_clock",
+			"ctft:stone_button_helmet",
+			"ctft:stone_button_chestplate",
+			"ctft:stone_button_leggings",
+			"ctft:stone_button_boots",
+			"ctft:stone_button_shears",
+			"ctft:stone_button_horse_armor",
+			"ctft:stone_button_bow"
+		]
+	}
+}

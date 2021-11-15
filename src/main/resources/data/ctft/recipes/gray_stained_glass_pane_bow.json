@@ -1,0 +1,23 @@
+
+{
+  "group": "Gray Stained Glass Pane Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:gray_stained_glass_pane"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:gray_stained_glass_pane_bow",
+    "count": 1
+  }
+}
+        

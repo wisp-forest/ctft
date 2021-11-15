@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:husk_spawn_egg"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:husk_spawn_egg_sword",
+			"ctft:husk_spawn_egg_pickaxe",
+			"ctft:husk_spawn_egg_axe",
+			"ctft:husk_spawn_egg_shovel",
+			"ctft:husk_spawn_egg_hoe",
+			"ctft:husk_spawn_egg_shield",
+			"ctft:husk_spawn_egg_fishing_rod",
+			"ctft:husk_spawn_egg_compass",
+			"ctft:husk_spawn_egg_clock",
+			"ctft:husk_spawn_egg_helmet",
+			"ctft:husk_spawn_egg_chestplate",
+			"ctft:husk_spawn_egg_leggings",
+			"ctft:husk_spawn_egg_boots",
+			"ctft:husk_spawn_egg_shears",
+			"ctft:husk_spawn_egg_horse_armor",
+			"ctft:husk_spawn_egg_bow"
+		]
+	}
+}

@@ -1,0 +1,23 @@
+
+{
+  "group": "Oak Button Hoe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "00 ",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:oak_button"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:oak_button_hoe",
+    "count": 1
+  }
+}
+        

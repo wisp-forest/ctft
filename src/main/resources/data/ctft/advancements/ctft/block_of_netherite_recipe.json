@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_block"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:netherite_block_sword",
+			"ctft:netherite_block_pickaxe",
+			"ctft:netherite_block_axe",
+			"ctft:netherite_block_shovel",
+			"ctft:netherite_block_hoe",
+			"ctft:netherite_block_shield",
+			"ctft:netherite_block_fishing_rod",
+			"ctft:netherite_block_compass",
+			"ctft:netherite_block_clock",
+			"ctft:netherite_block_helmet",
+			"ctft:netherite_block_chestplate",
+			"ctft:netherite_block_leggings",
+			"ctft:netherite_block_boots",
+			"ctft:netherite_block_shears",
+			"ctft:netherite_block_horse_armor",
+			"ctft:netherite_block_bow"
+		]
+	}
+}

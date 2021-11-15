@@ -1,0 +1,20 @@
+
+{
+  "group": "Gray Glazed Terracotta Horse Armor",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:gray_glazed_terracotta"
+    }
+  },
+  "result": {
+    "item": "ctft:gray_glazed_terracotta_horse_armor",
+    "count": 1
+  }
+}
+        

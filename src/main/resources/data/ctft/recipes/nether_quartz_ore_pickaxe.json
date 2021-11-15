@@ -1,0 +1,23 @@
+
+{
+  "group": "Nether Quartz Ore Pickaxe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:nether_quartz_ore"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:nether_quartz_ore_pickaxe",
+    "count": 1
+  }
+}
+        

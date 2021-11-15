@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:podzol"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:podzol_sword",
+			"ctft:podzol_pickaxe",
+			"ctft:podzol_axe",
+			"ctft:podzol_shovel",
+			"ctft:podzol_hoe",
+			"ctft:podzol_shield",
+			"ctft:podzol_fishing_rod",
+			"ctft:podzol_compass",
+			"ctft:podzol_clock",
+			"ctft:podzol_helmet",
+			"ctft:podzol_chestplate",
+			"ctft:podzol_leggings",
+			"ctft:podzol_boots",
+			"ctft:podzol_shears",
+			"ctft:podzol_horse_armor",
+			"ctft:podzol_bow"
+		]
+	}
+}

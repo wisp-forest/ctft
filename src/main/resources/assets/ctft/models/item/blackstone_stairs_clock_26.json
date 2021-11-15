@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/blackstone_clock_26",
-    "1": "ctft:items/clock_26"
+    "0": "ctft:items/clock_26",
+    "1": "ctft:blocks/blackstone_block",
+    "particle": "ctft:blocks/blackstone_block"
   }
 }
             

@@ -2,7 +2,13 @@
     {
       "parent": "ctft:item/shield",
       "textures": {
-        "0": "ctft:items/oxidized_cut_copper_shield_base"
-      }
+        "0": "ctft:items/shield_base",
+        "1": "ctft:blocks/oxidized_cut_copper_block",
+        "particle": "ctft:blocks/oxidized_cut_copper_block"
+      },
+      "overrides": [
+        { "predicate": { "blocking": 0.0 }, "model": "ctft:item/oxidized_cut_copper_shield" },
+        { "predicate": { "blocking": 1.0 }, "model": "ctft:item/oxidized_cut_copper_shield_blocking" }
+        ]
     }
             

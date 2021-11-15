@@ -1,0 +1,23 @@
+
+{
+  "group": "Charcoal Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:charcoal"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:charcoal_bow",
+    "count": 1
+  }
+}
+        

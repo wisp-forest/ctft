@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:polished_diorite_stairs"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:polished_diorite_stairs_sword",
+			"ctft:polished_diorite_stairs_pickaxe",
+			"ctft:polished_diorite_stairs_axe",
+			"ctft:polished_diorite_stairs_shovel",
+			"ctft:polished_diorite_stairs_hoe",
+			"ctft:polished_diorite_stairs_shield",
+			"ctft:polished_diorite_stairs_fishing_rod",
+			"ctft:polished_diorite_stairs_compass",
+			"ctft:polished_diorite_stairs_clock",
+			"ctft:polished_diorite_stairs_helmet",
+			"ctft:polished_diorite_stairs_chestplate",
+			"ctft:polished_diorite_stairs_leggings",
+			"ctft:polished_diorite_stairs_boots",
+			"ctft:polished_diorite_stairs_shears",
+			"ctft:polished_diorite_stairs_horse_armor",
+			"ctft:polished_diorite_stairs_bow"
+		]
+	}
+}

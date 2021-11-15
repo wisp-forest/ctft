@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:birch_log"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:birch_log_sword",
+			"ctft:birch_log_pickaxe",
+			"ctft:birch_log_axe",
+			"ctft:birch_log_shovel",
+			"ctft:birch_log_hoe",
+			"ctft:birch_log_shield",
+			"ctft:birch_log_fishing_rod",
+			"ctft:birch_log_compass",
+			"ctft:birch_log_clock",
+			"ctft:birch_log_helmet",
+			"ctft:birch_log_chestplate",
+			"ctft:birch_log_leggings",
+			"ctft:birch_log_boots",
+			"ctft:birch_log_shears",
+			"ctft:birch_log_horse_armor",
+			"ctft:birch_log_bow"
+		]
+	}
+}

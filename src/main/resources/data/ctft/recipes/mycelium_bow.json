@@ -1,0 +1,23 @@
+
+{
+  "group": "Mycelium Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:mycelium"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:mycelium_bow",
+    "count": 1
+  }
+}
+        

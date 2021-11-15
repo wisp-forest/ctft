@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:lime_bed"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:lime_bed_sword",
+			"ctft:lime_bed_pickaxe",
+			"ctft:lime_bed_axe",
+			"ctft:lime_bed_shovel",
+			"ctft:lime_bed_hoe",
+			"ctft:lime_bed_shield",
+			"ctft:lime_bed_fishing_rod",
+			"ctft:lime_bed_compass",
+			"ctft:lime_bed_clock",
+			"ctft:lime_bed_helmet",
+			"ctft:lime_bed_chestplate",
+			"ctft:lime_bed_leggings",
+			"ctft:lime_bed_boots",
+			"ctft:lime_bed_shears",
+			"ctft:lime_bed_horse_armor",
+			"ctft:lime_bed_bow"
+		]
+	}
+}

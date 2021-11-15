@@ -1,0 +1,20 @@
+
+{
+  "group": "Suspicious Stew Boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:suspicious_stew"
+    }
+  },
+  "result": {
+    "item": "ctft:suspicious_stew_boots",
+    "count": 1
+  }
+}
+        

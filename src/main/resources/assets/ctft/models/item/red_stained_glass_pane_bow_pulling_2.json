@@ -1,0 +1,10 @@
+
+    {
+      "parent": "ctft:item/bow_pulling_2",
+      "textures": {
+        "0": "ctft:items/bow_pulling_2",
+        "1": "ctft:blocks/red_stained_glass_block",
+        "particle": "ctft:blocks/red_stained_glass_block"
+      }
+    }
+            

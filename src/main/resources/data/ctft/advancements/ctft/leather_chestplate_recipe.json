@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:leather_chestplate"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:leather_chestplate_sword",
+			"ctft:leather_chestplate_pickaxe",
+			"ctft:leather_chestplate_axe",
+			"ctft:leather_chestplate_shovel",
+			"ctft:leather_chestplate_hoe",
+			"ctft:leather_chestplate_shield",
+			"ctft:leather_chestplate_fishing_rod",
+			"ctft:leather_chestplate_compass",
+			"ctft:leather_chestplate_clock",
+			"ctft:leather_chestplate_helmet",
+			"ctft:leather_chestplate_chestplate",
+			"ctft:leather_chestplate_leggings",
+			"ctft:leather_chestplate_boots",
+			"ctft:leather_chestplate_shears",
+			"ctft:leather_chestplate_horse_armor",
+			"ctft:leather_chestplate_bow"
+		]
+	}
+}

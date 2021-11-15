@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/codface_clock_42",
-    "1": "ctft:items/clock_42"
+    "0": "ctft:items/clock_42",
+    "1": "ctft:blocks/codface_block",
+    "particle": "ctft:blocks/codface_block"
   }
 }
             

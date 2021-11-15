@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:birch_pressure_plate"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:birch_pressure_plate_sword",
+			"ctft:birch_pressure_plate_pickaxe",
+			"ctft:birch_pressure_plate_axe",
+			"ctft:birch_pressure_plate_shovel",
+			"ctft:birch_pressure_plate_hoe",
+			"ctft:birch_pressure_plate_shield",
+			"ctft:birch_pressure_plate_fishing_rod",
+			"ctft:birch_pressure_plate_compass",
+			"ctft:birch_pressure_plate_clock",
+			"ctft:birch_pressure_plate_helmet",
+			"ctft:birch_pressure_plate_chestplate",
+			"ctft:birch_pressure_plate_leggings",
+			"ctft:birch_pressure_plate_boots",
+			"ctft:birch_pressure_plate_shears",
+			"ctft:birch_pressure_plate_horse_armor",
+			"ctft:birch_pressure_plate_bow"
+		]
+	}
+}

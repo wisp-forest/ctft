@@ -1,0 +1,20 @@
+
+{
+  "group": "Cobblestone Slab Leggings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:cobblestone_slab"
+    }
+  },
+  "result": {
+    "item": "ctft:cobblestone_slab_leggings",
+    "count": 1
+  }
+}
+        

@@ -1,8 +1,10 @@
 
     {
-      "parent": "item/handheld",
+      "parent": "ctft:item/hoe",
       "textures": {
-        "layer0": "ctft:items/dark_oak_trapdoor_hoe"
+        "0": "ctft:items/iron_hoe",
+        "1": "ctft:blocks/dark_oak_trapdoor_block",
+        "particle": "ctft:blocks/dark_oak_trapdoor_block"
       }
     }
             

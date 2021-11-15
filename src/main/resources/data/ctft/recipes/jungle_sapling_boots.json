@@ -1,0 +1,20 @@
+
+{
+  "group": "Jungle Sapling Boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:jungle_sapling"
+    }
+  },
+  "result": {
+    "item": "ctft:jungle_sapling_boots",
+    "count": 1
+  }
+}
+        

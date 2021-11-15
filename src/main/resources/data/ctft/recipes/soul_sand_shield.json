@@ -1,0 +1,23 @@
+
+{
+  "group": "Soul Sand Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:soul_sand"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:soul_sand_shield",
+    "count": 1
+  }
+}
+        

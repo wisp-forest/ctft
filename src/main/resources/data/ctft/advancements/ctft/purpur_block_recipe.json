@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:purpur_block"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:purpur_block_sword",
+			"ctft:purpur_block_pickaxe",
+			"ctft:purpur_block_axe",
+			"ctft:purpur_block_shovel",
+			"ctft:purpur_block_hoe",
+			"ctft:purpur_block_shield",
+			"ctft:purpur_block_fishing_rod",
+			"ctft:purpur_block_compass",
+			"ctft:purpur_block_clock",
+			"ctft:purpur_block_helmet",
+			"ctft:purpur_block_chestplate",
+			"ctft:purpur_block_leggings",
+			"ctft:purpur_block_boots",
+			"ctft:purpur_block_shears",
+			"ctft:purpur_block_horse_armor",
+			"ctft:purpur_block_bow"
+		]
+	}
+}

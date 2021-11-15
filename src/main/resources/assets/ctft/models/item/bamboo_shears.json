@@ -1,8 +1,10 @@
 
     {
-      "parent": "item/handheld",
+      "parent": "ctft:item/shears",
       "textures": {
-        "layer0": "ctft:items/bamboo_shears"
+        "0": "ctft:items/shears",
+        "1": "ctft:blocks/bamboo_block",
+        "particle": "ctft:blocks/bamboo_block"
       }
     }
             

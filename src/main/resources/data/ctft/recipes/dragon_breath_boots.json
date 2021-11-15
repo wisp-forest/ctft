@@ -1,0 +1,20 @@
+
+{
+  "group": "Dragon Breath Boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:dragon_breath"
+    }
+  },
+  "result": {
+    "item": "ctft:dragon_breath_boots",
+    "count": 1
+  }
+}
+        

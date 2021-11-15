@@ -1,0 +1,20 @@
+
+{
+  "group": "Red Sandstone Shears",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 0 ",
+    "   "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:red_sandstone"
+    }
+  },
+  "result": {
+    "item": "ctft:red_sandstone_shears",
+    "count": 1
+  }
+}
+        

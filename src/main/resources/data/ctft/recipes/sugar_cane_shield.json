@@ -1,0 +1,23 @@
+
+{
+  "group": "Sugar Cane Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:sugar_cane"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:sugar_cane_shield",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,20 @@
+
+{
+  "group": "Magenta Concrete Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:magenta_concrete"
+    }
+  },
+  "result": {
+    "item": "ctft:magenta_concrete_chestplate",
+    "count": 1
+  }
+}
+        

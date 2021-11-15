@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/bone_meal_clock_37",
-    "1": "ctft:items/clock_37"
+    "0": "ctft:items/clock_37",
+    "1": "ctft:blocks/bone_meal_block",
+    "particle": "ctft:blocks/bone_meal_block"
   }
 }
             

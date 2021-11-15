@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:tripwire_hook"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:tripwire_hook_sword",
+			"ctft:tripwire_hook_pickaxe",
+			"ctft:tripwire_hook_axe",
+			"ctft:tripwire_hook_shovel",
+			"ctft:tripwire_hook_hoe",
+			"ctft:tripwire_hook_shield",
+			"ctft:tripwire_hook_fishing_rod",
+			"ctft:tripwire_hook_compass",
+			"ctft:tripwire_hook_clock",
+			"ctft:tripwire_hook_helmet",
+			"ctft:tripwire_hook_chestplate",
+			"ctft:tripwire_hook_leggings",
+			"ctft:tripwire_hook_boots",
+			"ctft:tripwire_hook_shears",
+			"ctft:tripwire_hook_horse_armor",
+			"ctft:tripwire_hook_bow"
+		]
+	}
+}

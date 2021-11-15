@@ -2,7 +2,13 @@
     {
       "parent": "ctft:item/shield",
       "textures": {
-        "0": "ctft:items/grass_block_side_shield_base"
-      }
+        "0": "ctft:items/shield_base",
+        "1": "ctft:blocks/grass_block_side_block",
+        "particle": "ctft:blocks/grass_block_side_block"
+      },
+      "overrides": [
+        { "predicate": { "blocking": 0.0 }, "model": "ctft:item/grass_block_shield" },
+        { "predicate": { "blocking": 1.0 }, "model": "ctft:item/grass_block_shield_blocking" }
+        ]
     }
             

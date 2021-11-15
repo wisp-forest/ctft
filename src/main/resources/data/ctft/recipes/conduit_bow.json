@@ -1,0 +1,23 @@
+
+{
+  "group": "Conduit Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:conduit"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:conduit_bow",
+    "count": 1
+  }
+}
+        

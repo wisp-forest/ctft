@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cut_copper"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:cut_copper_sword",
+			"ctft:cut_copper_pickaxe",
+			"ctft:cut_copper_axe",
+			"ctft:cut_copper_shovel",
+			"ctft:cut_copper_hoe",
+			"ctft:cut_copper_shield",
+			"ctft:cut_copper_fishing_rod",
+			"ctft:cut_copper_compass",
+			"ctft:cut_copper_clock",
+			"ctft:cut_copper_helmet",
+			"ctft:cut_copper_chestplate",
+			"ctft:cut_copper_leggings",
+			"ctft:cut_copper_boots",
+			"ctft:cut_copper_shears",
+			"ctft:cut_copper_horse_armor",
+			"ctft:cut_copper_bow"
+		]
+	}
+}

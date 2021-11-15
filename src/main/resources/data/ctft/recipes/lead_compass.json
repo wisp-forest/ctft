@@ -1,0 +1,23 @@
+
+{
+  "group": "Lead Compass",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    "010",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:lead"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:lead_compass",
+    "count": 1
+  }
+}
+        

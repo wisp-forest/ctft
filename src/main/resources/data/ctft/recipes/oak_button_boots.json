@@ -1,0 +1,20 @@
+
+{
+  "group": "Oak Button Boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:oak_button"
+    }
+  },
+  "result": {
+    "item": "ctft:oak_button_boots",
+    "count": 1
+  }
+}
+        

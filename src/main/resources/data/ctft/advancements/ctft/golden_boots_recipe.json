@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:golden_boots"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:golden_boots_sword",
+			"ctft:golden_boots_pickaxe",
+			"ctft:golden_boots_axe",
+			"ctft:golden_boots_shovel",
+			"ctft:golden_boots_hoe",
+			"ctft:golden_boots_shield",
+			"ctft:golden_boots_fishing_rod",
+			"ctft:golden_boots_compass",
+			"ctft:golden_boots_clock",
+			"ctft:golden_boots_helmet",
+			"ctft:golden_boots_chestplate",
+			"ctft:golden_boots_leggings",
+			"ctft:golden_boots_boots",
+			"ctft:golden_boots_shears",
+			"ctft:golden_boots_horse_armor",
+			"ctft:golden_boots_bow"
+		]
+	}
+}

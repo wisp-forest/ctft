@@ -1,8 +1,10 @@
 
     {
-      "parent": "item/handheld",
+      "parent": "ctft:item/shears",
       "textures": {
-        "layer0": "ctft:items/writable_book_shears"
+        "0": "ctft:items/shears",
+        "1": "ctft:blocks/writable_book_block",
+        "particle": "ctft:blocks/writable_book_block"
       }
     }
             

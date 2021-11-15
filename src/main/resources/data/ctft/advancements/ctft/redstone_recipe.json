@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:redstone"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:redstone_sword",
+			"ctft:redstone_pickaxe",
+			"ctft:redstone_axe",
+			"ctft:redstone_shovel",
+			"ctft:redstone_hoe",
+			"ctft:redstone_shield",
+			"ctft:redstone_fishing_rod",
+			"ctft:redstone_compass",
+			"ctft:redstone_clock",
+			"ctft:redstone_helmet",
+			"ctft:redstone_chestplate",
+			"ctft:redstone_leggings",
+			"ctft:redstone_boots",
+			"ctft:redstone_shears",
+			"ctft:redstone_horse_armor",
+			"ctft:redstone_bow"
+		]
+	}
+}

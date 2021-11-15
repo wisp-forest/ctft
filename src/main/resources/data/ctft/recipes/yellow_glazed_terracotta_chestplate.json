@@ -1,0 +1,20 @@
+
+{
+  "group": "Yellow Glazed Terracotta Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:yellow_glazed_terracotta"
+    }
+  },
+  "result": {
+    "item": "ctft:yellow_glazed_terracotta_chestplate",
+    "count": 1
+  }
+}
+        

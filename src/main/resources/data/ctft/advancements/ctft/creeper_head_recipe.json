@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:creeper_head"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:creeper_head_sword",
+			"ctft:creeper_head_pickaxe",
+			"ctft:creeper_head_axe",
+			"ctft:creeper_head_shovel",
+			"ctft:creeper_head_hoe",
+			"ctft:creeper_head_shield",
+			"ctft:creeper_head_fishing_rod",
+			"ctft:creeper_head_compass",
+			"ctft:creeper_head_clock",
+			"ctft:creeper_head_helmet",
+			"ctft:creeper_head_chestplate",
+			"ctft:creeper_head_leggings",
+			"ctft:creeper_head_boots",
+			"ctft:creeper_head_shears",
+			"ctft:creeper_head_horse_armor",
+			"ctft:creeper_head_bow"
+		]
+	}
+}

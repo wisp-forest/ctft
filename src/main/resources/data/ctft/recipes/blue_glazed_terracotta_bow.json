@@ -1,0 +1,23 @@
+
+{
+  "group": "Blue Glazed Terracotta Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:blue_glazed_terracotta"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:blue_glazed_terracotta_bow",
+    "count": 1
+  }
+}
+        

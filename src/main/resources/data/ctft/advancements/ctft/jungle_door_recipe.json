@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:jungle_door"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:jungle_door_sword",
+			"ctft:jungle_door_pickaxe",
+			"ctft:jungle_door_axe",
+			"ctft:jungle_door_shovel",
+			"ctft:jungle_door_hoe",
+			"ctft:jungle_door_shield",
+			"ctft:jungle_door_fishing_rod",
+			"ctft:jungle_door_compass",
+			"ctft:jungle_door_clock",
+			"ctft:jungle_door_helmet",
+			"ctft:jungle_door_chestplate",
+			"ctft:jungle_door_leggings",
+			"ctft:jungle_door_boots",
+			"ctft:jungle_door_shears",
+			"ctft:jungle_door_horse_armor",
+			"ctft:jungle_door_bow"
+		]
+	}
+}

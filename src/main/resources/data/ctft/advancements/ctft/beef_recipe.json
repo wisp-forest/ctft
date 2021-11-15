@@ -1,0 +1,41 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:beef"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:beef_sword",
+			"ctft:beef_pickaxe",
+			"ctft:beef_axe",
+			"ctft:beef_shovel",
+			"ctft:beef_hoe",
+			"ctft:beef_shield",
+			"ctft:beef_fishing_rod",
+			"ctft:beef_compass",
+			"ctft:beef_clock",
+			"ctft:beef_helmet",
+			"ctft:beef_chestplate",
+			"ctft:beef_leggings",
+			"ctft:beef_boots",
+			"ctft:beef_shears",
+			"ctft:beef_horse_armor"
+		]
+	}
+}

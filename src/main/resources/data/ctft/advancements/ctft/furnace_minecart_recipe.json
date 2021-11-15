@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:furnace_minecart"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:furnace_minecart_sword",
+			"ctft:furnace_minecart_pickaxe",
+			"ctft:furnace_minecart_axe",
+			"ctft:furnace_minecart_shovel",
+			"ctft:furnace_minecart_hoe",
+			"ctft:furnace_minecart_shield",
+			"ctft:furnace_minecart_fishing_rod",
+			"ctft:furnace_minecart_compass",
+			"ctft:furnace_minecart_clock",
+			"ctft:furnace_minecart_helmet",
+			"ctft:furnace_minecart_chestplate",
+			"ctft:furnace_minecart_leggings",
+			"ctft:furnace_minecart_boots",
+			"ctft:furnace_minecart_shears",
+			"ctft:furnace_minecart_horse_armor",
+			"ctft:furnace_minecart_bow"
+		]
+	}
+}

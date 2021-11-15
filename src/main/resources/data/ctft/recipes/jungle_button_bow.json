@@ -1,0 +1,23 @@
+
+{
+  "group": "Jungle Button Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:jungle_button"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:jungle_button_bow",
+    "count": 1
+  }
+}
+        

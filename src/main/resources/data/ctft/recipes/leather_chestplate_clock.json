@@ -1,0 +1,23 @@
+
+{
+  "group": "Leather Chestplate Clock",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    "010",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:leather_chestplate"
+    },
+    "1": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:leather_chestplate_clock",
+    "count": 1
+  }
+}
+        

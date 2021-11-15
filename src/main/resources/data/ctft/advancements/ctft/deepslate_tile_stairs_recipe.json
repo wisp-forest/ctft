@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:deepslate_tile_stairs"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:deepslate_tile_stairs_sword",
+			"ctft:deepslate_tile_stairs_pickaxe",
+			"ctft:deepslate_tile_stairs_axe",
+			"ctft:deepslate_tile_stairs_shovel",
+			"ctft:deepslate_tile_stairs_hoe",
+			"ctft:deepslate_tile_stairs_shield",
+			"ctft:deepslate_tile_stairs_fishing_rod",
+			"ctft:deepslate_tile_stairs_compass",
+			"ctft:deepslate_tile_stairs_clock",
+			"ctft:deepslate_tile_stairs_helmet",
+			"ctft:deepslate_tile_stairs_chestplate",
+			"ctft:deepslate_tile_stairs_leggings",
+			"ctft:deepslate_tile_stairs_boots",
+			"ctft:deepslate_tile_stairs_shears",
+			"ctft:deepslate_tile_stairs_horse_armor",
+			"ctft:deepslate_tile_stairs_bow"
+		]
+	}
+}

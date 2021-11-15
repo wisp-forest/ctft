@@ -1,0 +1,20 @@
+
+{
+  "group": "Iron Axe Boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:iron_axe"
+    }
+  },
+  "result": {
+    "item": "ctft:iron_axe_boots",
+    "count": 1
+  }
+}
+        

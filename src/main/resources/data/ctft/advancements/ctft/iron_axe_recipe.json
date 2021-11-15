@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_axe"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:iron_axe_sword",
+			"ctft:iron_axe_pickaxe",
+			"ctft:iron_axe_axe",
+			"ctft:iron_axe_shovel",
+			"ctft:iron_axe_hoe",
+			"ctft:iron_axe_shield",
+			"ctft:iron_axe_fishing_rod",
+			"ctft:iron_axe_compass",
+			"ctft:iron_axe_clock",
+			"ctft:iron_axe_helmet",
+			"ctft:iron_axe_chestplate",
+			"ctft:iron_axe_leggings",
+			"ctft:iron_axe_boots",
+			"ctft:iron_axe_shears",
+			"ctft:iron_axe_horse_armor",
+			"ctft:iron_axe_bow"
+		]
+	}
+}

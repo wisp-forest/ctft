@@ -1,0 +1,20 @@
+
+{
+  "group": "Iron Horse Armor Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:iron_horse_armor"
+    }
+  },
+  "result": {
+    "item": "ctft:iron_horse_armor_chestplate",
+    "count": 1
+  }
+}
+        

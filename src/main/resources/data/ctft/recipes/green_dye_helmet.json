@@ -1,0 +1,20 @@
+
+{
+  "group": "Green Dye Helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:green_dye"
+    }
+  },
+  "result": {
+    "item": "ctft:green_dye_helmet",
+    "count": 1
+  }
+}
+        

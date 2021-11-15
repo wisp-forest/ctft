@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:spruce_sapling"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:spruce_sapling_sword",
+			"ctft:spruce_sapling_pickaxe",
+			"ctft:spruce_sapling_axe",
+			"ctft:spruce_sapling_shovel",
+			"ctft:spruce_sapling_hoe",
+			"ctft:spruce_sapling_shield",
+			"ctft:spruce_sapling_fishing_rod",
+			"ctft:spruce_sapling_compass",
+			"ctft:spruce_sapling_clock",
+			"ctft:spruce_sapling_helmet",
+			"ctft:spruce_sapling_chestplate",
+			"ctft:spruce_sapling_leggings",
+			"ctft:spruce_sapling_boots",
+			"ctft:spruce_sapling_shears",
+			"ctft:spruce_sapling_horse_armor",
+			"ctft:spruce_sapling_bow"
+		]
+	}
+}

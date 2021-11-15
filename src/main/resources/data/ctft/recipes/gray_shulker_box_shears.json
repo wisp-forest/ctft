@@ -1,0 +1,20 @@
+
+{
+  "group": "Gray Shulker Box Shears",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 0 ",
+    "   "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:gray_shulker_box"
+    }
+  },
+  "result": {
+    "item": "ctft:gray_shulker_box_shears",
+    "count": 1
+  }
+}
+        

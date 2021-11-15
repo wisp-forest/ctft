@@ -1,0 +1,23 @@
+
+{
+  "group": "Cooked Cod Axe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "00 ",
+    "01 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:cooked_cod"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:cooked_cod_axe",
+    "count": 1
+  }
+}
+        

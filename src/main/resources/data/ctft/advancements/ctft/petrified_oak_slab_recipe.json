@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:petrified_oak_slab"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:petrified_oak_slab_sword",
+			"ctft:petrified_oak_slab_pickaxe",
+			"ctft:petrified_oak_slab_axe",
+			"ctft:petrified_oak_slab_shovel",
+			"ctft:petrified_oak_slab_hoe",
+			"ctft:petrified_oak_slab_shield",
+			"ctft:petrified_oak_slab_fishing_rod",
+			"ctft:petrified_oak_slab_compass",
+			"ctft:petrified_oak_slab_clock",
+			"ctft:petrified_oak_slab_helmet",
+			"ctft:petrified_oak_slab_chestplate",
+			"ctft:petrified_oak_slab_leggings",
+			"ctft:petrified_oak_slab_boots",
+			"ctft:petrified_oak_slab_shears",
+			"ctft:petrified_oak_slab_horse_armor",
+			"ctft:petrified_oak_slab_bow"
+		]
+	}
+}

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bucket"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:bucket_sword",
+			"ctft:bucket_pickaxe",
+			"ctft:bucket_axe",
+			"ctft:bucket_shovel",
+			"ctft:bucket_hoe",
+			"ctft:bucket_shield",
+			"ctft:bucket_fishing_rod",
+			"ctft:bucket_compass",
+			"ctft:bucket_clock",
+			"ctft:bucket_helmet",
+			"ctft:bucket_chestplate",
+			"ctft:bucket_leggings",
+			"ctft:bucket_boots",
+			"ctft:bucket_shears",
+			"ctft:bucket_horse_armor",
+			"ctft:bucket_bow"
+		]
+	}
+}

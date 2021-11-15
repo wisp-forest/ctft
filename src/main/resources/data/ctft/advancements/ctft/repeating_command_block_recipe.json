@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:repeating_command_block"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:repeating_command_block_sword",
+			"ctft:repeating_command_block_pickaxe",
+			"ctft:repeating_command_block_axe",
+			"ctft:repeating_command_block_shovel",
+			"ctft:repeating_command_block_hoe",
+			"ctft:repeating_command_block_shield",
+			"ctft:repeating_command_block_fishing_rod",
+			"ctft:repeating_command_block_compass",
+			"ctft:repeating_command_block_clock",
+			"ctft:repeating_command_block_helmet",
+			"ctft:repeating_command_block_chestplate",
+			"ctft:repeating_command_block_leggings",
+			"ctft:repeating_command_block_boots",
+			"ctft:repeating_command_block_shears",
+			"ctft:repeating_command_block_horse_armor",
+			"ctft:repeating_command_block_bow"
+		]
+	}
+}

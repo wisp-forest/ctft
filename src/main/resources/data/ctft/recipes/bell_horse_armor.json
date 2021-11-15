@@ -1,0 +1,20 @@
+
+{
+  "group": "Bell Horse Armor",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:bell"
+    }
+  },
+  "result": {
+    "item": "ctft:bell_horse_armor",
+    "count": 1
+  }
+}
+        

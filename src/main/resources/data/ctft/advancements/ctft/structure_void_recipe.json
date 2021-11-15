@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:structure_void"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:structure_void_sword",
+			"ctft:structure_void_pickaxe",
+			"ctft:structure_void_axe",
+			"ctft:structure_void_shovel",
+			"ctft:structure_void_hoe",
+			"ctft:structure_void_shield",
+			"ctft:structure_void_fishing_rod",
+			"ctft:structure_void_compass",
+			"ctft:structure_void_clock",
+			"ctft:structure_void_helmet",
+			"ctft:structure_void_chestplate",
+			"ctft:structure_void_leggings",
+			"ctft:structure_void_boots",
+			"ctft:structure_void_shears",
+			"ctft:structure_void_horse_armor",
+			"ctft:structure_void_bow"
+		]
+	}
+}

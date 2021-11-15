@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cyan_candle"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:cyan_candle_sword",
+			"ctft:cyan_candle_pickaxe",
+			"ctft:cyan_candle_axe",
+			"ctft:cyan_candle_shovel",
+			"ctft:cyan_candle_hoe",
+			"ctft:cyan_candle_shield",
+			"ctft:cyan_candle_fishing_rod",
+			"ctft:cyan_candle_compass",
+			"ctft:cyan_candle_clock",
+			"ctft:cyan_candle_helmet",
+			"ctft:cyan_candle_chestplate",
+			"ctft:cyan_candle_leggings",
+			"ctft:cyan_candle_boots",
+			"ctft:cyan_candle_shears",
+			"ctft:cyan_candle_horse_armor",
+			"ctft:cyan_candle_bow"
+		]
+	}
+}

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:kelp"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:kelp_sword",
+			"ctft:kelp_pickaxe",
+			"ctft:kelp_axe",
+			"ctft:kelp_shovel",
+			"ctft:kelp_hoe",
+			"ctft:kelp_shield",
+			"ctft:kelp_fishing_rod",
+			"ctft:kelp_compass",
+			"ctft:kelp_clock",
+			"ctft:kelp_helmet",
+			"ctft:kelp_chestplate",
+			"ctft:kelp_leggings",
+			"ctft:kelp_boots",
+			"ctft:kelp_shears",
+			"ctft:kelp_horse_armor",
+			"ctft:kelp_bow"
+		]
+	}
+}

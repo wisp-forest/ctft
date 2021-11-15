@@ -1,0 +1,23 @@
+
+{
+  "group": "Spruce Button Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:spruce_button"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:spruce_button_bow",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:chorus_plant"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:chorus_plant_sword",
+			"ctft:chorus_plant_pickaxe",
+			"ctft:chorus_plant_axe",
+			"ctft:chorus_plant_shovel",
+			"ctft:chorus_plant_hoe",
+			"ctft:chorus_plant_shield",
+			"ctft:chorus_plant_fishing_rod",
+			"ctft:chorus_plant_compass",
+			"ctft:chorus_plant_clock",
+			"ctft:chorus_plant_helmet",
+			"ctft:chorus_plant_chestplate",
+			"ctft:chorus_plant_leggings",
+			"ctft:chorus_plant_boots",
+			"ctft:chorus_plant_shears",
+			"ctft:chorus_plant_horse_armor",
+			"ctft:chorus_plant_bow"
+		]
+	}
+}

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:golden_pickaxe"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:golden_pickaxe_sword",
+			"ctft:golden_pickaxe_pickaxe",
+			"ctft:golden_pickaxe_axe",
+			"ctft:golden_pickaxe_shovel",
+			"ctft:golden_pickaxe_hoe",
+			"ctft:golden_pickaxe_shield",
+			"ctft:golden_pickaxe_fishing_rod",
+			"ctft:golden_pickaxe_compass",
+			"ctft:golden_pickaxe_clock",
+			"ctft:golden_pickaxe_helmet",
+			"ctft:golden_pickaxe_chestplate",
+			"ctft:golden_pickaxe_leggings",
+			"ctft:golden_pickaxe_boots",
+			"ctft:golden_pickaxe_shears",
+			"ctft:golden_pickaxe_horse_armor",
+			"ctft:golden_pickaxe_bow"
+		]
+	}
+}

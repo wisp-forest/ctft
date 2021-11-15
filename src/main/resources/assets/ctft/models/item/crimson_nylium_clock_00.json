@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/crimson_nylium_clock_00",
-    "1": "ctft:items/clock_00"
+    "0": "ctft:items/clock_00",
+    "1": "ctft:blocks/crimson_nylium_block",
+    "particle": "ctft:blocks/crimson_nylium_block"
   }
 }
             

@@ -1,0 +1,20 @@
+
+{
+  "group": "Oxidized Copper Boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:oxidized_copper"
+    }
+  },
+  "result": {
+    "item": "ctft:oxidized_copper_boots",
+    "count": 1
+  }
+}
+        

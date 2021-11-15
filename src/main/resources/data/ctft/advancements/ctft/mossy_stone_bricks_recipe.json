@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mossy_stone_bricks"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:mossy_stone_bricks_sword",
+			"ctft:mossy_stone_bricks_pickaxe",
+			"ctft:mossy_stone_bricks_axe",
+			"ctft:mossy_stone_bricks_shovel",
+			"ctft:mossy_stone_bricks_hoe",
+			"ctft:mossy_stone_bricks_shield",
+			"ctft:mossy_stone_bricks_fishing_rod",
+			"ctft:mossy_stone_bricks_compass",
+			"ctft:mossy_stone_bricks_clock",
+			"ctft:mossy_stone_bricks_helmet",
+			"ctft:mossy_stone_bricks_chestplate",
+			"ctft:mossy_stone_bricks_leggings",
+			"ctft:mossy_stone_bricks_boots",
+			"ctft:mossy_stone_bricks_shears",
+			"ctft:mossy_stone_bricks_horse_armor",
+			"ctft:mossy_stone_bricks_bow"
+		]
+	}
+}

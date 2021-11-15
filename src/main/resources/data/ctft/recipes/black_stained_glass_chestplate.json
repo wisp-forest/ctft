@@ -1,0 +1,20 @@
+
+{
+  "group": "Black Stained Glass Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:black_stained_glass"
+    }
+  },
+  "result": {
+    "item": "ctft:black_stained_glass_chestplate",
+    "count": 1
+  }
+}
+        

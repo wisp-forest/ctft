@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/leather_horse_armor_clock_46",
-    "1": "ctft:items/clock_46"
+    "0": "ctft:items/clock_46",
+    "1": "ctft:blocks/leather_horse_armor_block",
+    "particle": "ctft:blocks/leather_horse_armor_block"
   }
 }
             

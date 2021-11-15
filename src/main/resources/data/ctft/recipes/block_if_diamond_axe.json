@@ -1,0 +1,23 @@
+
+{
+  "group": "Block if Diamond Axe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "00 ",
+    "01 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:diamond_block"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:block_if_diamond_axe",
+    "count": 1
+  }
+}
+        

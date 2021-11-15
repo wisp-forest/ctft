@@ -1,0 +1,23 @@
+
+{
+  "group": "Light Gray Glazed Terracotta Fishing Rod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 01",
+    "0 1"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:light_gray_glazed_terracotta"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:light_gray_glazed_terracotta_fishing_rod",
+    "count": 1
+  }
+}
+        

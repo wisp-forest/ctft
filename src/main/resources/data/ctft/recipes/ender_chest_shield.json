@@ -1,0 +1,23 @@
+
+{
+  "group": "Ender Chest Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:ender_chest"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:ender_chest_shield",
+    "count": 1
+  }
+}
+        

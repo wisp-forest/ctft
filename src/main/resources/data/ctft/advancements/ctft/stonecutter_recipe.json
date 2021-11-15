@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:stonecutter"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:stonecutter_sword",
+			"ctft:stonecutter_pickaxe",
+			"ctft:stonecutter_axe",
+			"ctft:stonecutter_shovel",
+			"ctft:stonecutter_hoe",
+			"ctft:stonecutter_shield",
+			"ctft:stonecutter_fishing_rod",
+			"ctft:stonecutter_compass",
+			"ctft:stonecutter_clock",
+			"ctft:stonecutter_helmet",
+			"ctft:stonecutter_chestplate",
+			"ctft:stonecutter_leggings",
+			"ctft:stonecutter_boots",
+			"ctft:stonecutter_shears",
+			"ctft:stonecutter_horse_armor",
+			"ctft:stonecutter_bow"
+		]
+	}
+}

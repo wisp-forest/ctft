@@ -1,0 +1,20 @@
+
+{
+  "group": "Emerald Ore Shears",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 0 ",
+    "   "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:emerald_ore"
+    }
+  },
+  "result": {
+    "item": "ctft:emerald_ore_shears",
+    "count": 1
+  }
+}
+        

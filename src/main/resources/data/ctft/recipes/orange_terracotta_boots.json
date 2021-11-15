@@ -1,0 +1,20 @@
+
+{
+  "group": "Orange Terracotta Boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:orange_terracotta"
+    }
+  },
+  "result": {
+    "item": "ctft:orange_terracotta_boots",
+    "count": 1
+  }
+}
+        

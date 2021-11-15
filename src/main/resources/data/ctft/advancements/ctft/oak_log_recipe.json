@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:oak_log"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:oak_log_sword",
+			"ctft:oak_log_pickaxe",
+			"ctft:oak_log_axe",
+			"ctft:oak_log_shovel",
+			"ctft:oak_log_hoe",
+			"ctft:oak_log_shield",
+			"ctft:oak_log_fishing_rod",
+			"ctft:oak_log_compass",
+			"ctft:oak_log_clock",
+			"ctft:oak_log_helmet",
+			"ctft:oak_log_chestplate",
+			"ctft:oak_log_leggings",
+			"ctft:oak_log_boots",
+			"ctft:oak_log_shears",
+			"ctft:oak_log_horse_armor",
+			"ctft:oak_log_bow"
+		]
+	}
+}

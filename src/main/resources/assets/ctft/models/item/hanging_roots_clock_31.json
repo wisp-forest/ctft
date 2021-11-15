@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/hanging_roots_clock_31",
-    "1": "ctft:items/clock_31"
+    "0": "ctft:items/clock_31",
+    "1": "ctft:blocks/hanging_roots_block",
+    "particle": "ctft:blocks/hanging_roots_block"
   }
 }
             

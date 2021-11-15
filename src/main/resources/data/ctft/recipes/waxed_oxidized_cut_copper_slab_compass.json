@@ -1,0 +1,23 @@
+
+{
+  "group": "Waxed Oxidized Cut Copper Slab Compass",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    "010",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:waxed_oxidized_cut_copper_slab"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:waxed_oxidized_cut_copper_slab_compass",
+    "count": 1
+  }
+}
+        

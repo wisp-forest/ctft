@@ -2,7 +2,13 @@
     {
       "parent": "ctft:item/shield",
       "textures": {
-        "0": "ctft:items/leather_helmet_shield_base"
-      }
+        "0": "ctft:items/shield_base",
+        "1": "ctft:blocks/leather_helmet_block",
+        "particle": "ctft:blocks/leather_helmet_block"
+      },
+      "overrides": [
+        { "predicate": { "blocking": 0.0 }, "model": "ctft:item/leather_helmet_shield" },
+        { "predicate": { "blocking": 1.0 }, "model": "ctft:item/leather_helmet_shield_blocking" }
+        ]
     }
             

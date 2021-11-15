@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_cat"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:music_disc_cat_sword",
+			"ctft:music_disc_cat_pickaxe",
+			"ctft:music_disc_cat_axe",
+			"ctft:music_disc_cat_shovel",
+			"ctft:music_disc_cat_hoe",
+			"ctft:music_disc_cat_shield",
+			"ctft:music_disc_cat_fishing_rod",
+			"ctft:music_disc_cat_compass",
+			"ctft:music_disc_cat_clock",
+			"ctft:music_disc_cat_helmet",
+			"ctft:music_disc_cat_chestplate",
+			"ctft:music_disc_cat_leggings",
+			"ctft:music_disc_cat_boots",
+			"ctft:music_disc_cat_shears",
+			"ctft:music_disc_cat_horse_armor",
+			"ctft:music_disc_cat_bow"
+		]
+	}
+}

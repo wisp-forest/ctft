@@ -1,0 +1,23 @@
+
+{
+  "group": "End Stone Brick Slab Fishing Rod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 01",
+    "0 1"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:end_stone_brick_slab"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:end_stone_brick_slab_fishing_rod",
+    "count": 1
+  }
+}
+        

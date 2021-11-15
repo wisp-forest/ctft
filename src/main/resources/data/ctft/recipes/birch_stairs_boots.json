@@ -1,0 +1,20 @@
+
+{
+  "group": "Birch Stairs Boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:birch_stairs"
+    }
+  },
+  "result": {
+    "item": "ctft:birch_stairs_boots",
+    "count": 1
+  }
+}
+        

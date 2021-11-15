@@ -1,0 +1,23 @@
+
+{
+  "group": "Splash Potion Clock",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    "010",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:splash_potion"
+    },
+    "1": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:splash_potion_clock",
+    "count": 1
+  }
+}
+        

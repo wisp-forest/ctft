@@ -1,8 +1,10 @@
 
     {
-      "parent": "item/handheld",
+      "parent": "ctft:item/hoe",
       "textures": {
-        "layer0": "ctft:items/weeping_vines_hoe"
+        "0": "ctft:items/iron_hoe",
+        "1": "ctft:blocks/weeping_vines_block",
+        "particle": "ctft:blocks/weeping_vines_block"
       }
     }
             

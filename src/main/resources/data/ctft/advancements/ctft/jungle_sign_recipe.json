@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:jungle_sign"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:jungle_sign_sword",
+			"ctft:jungle_sign_pickaxe",
+			"ctft:jungle_sign_axe",
+			"ctft:jungle_sign_shovel",
+			"ctft:jungle_sign_hoe",
+			"ctft:jungle_sign_shield",
+			"ctft:jungle_sign_fishing_rod",
+			"ctft:jungle_sign_compass",
+			"ctft:jungle_sign_clock",
+			"ctft:jungle_sign_helmet",
+			"ctft:jungle_sign_chestplate",
+			"ctft:jungle_sign_leggings",
+			"ctft:jungle_sign_boots",
+			"ctft:jungle_sign_shears",
+			"ctft:jungle_sign_horse_armor",
+			"ctft:jungle_sign_bow"
+		]
+	}
+}

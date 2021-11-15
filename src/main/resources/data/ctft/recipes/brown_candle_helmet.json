@@ -1,0 +1,20 @@
+
+{
+  "group": "Brown Candle Helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:brown_candle"
+    }
+  },
+  "result": {
+    "item": "ctft:brown_candle_helmet",
+    "count": 1
+  }
+}
+        

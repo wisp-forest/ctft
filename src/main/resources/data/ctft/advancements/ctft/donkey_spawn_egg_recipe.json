@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:donkey_spawn_egg"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:donkey_spawn_egg_sword",
+			"ctft:donkey_spawn_egg_pickaxe",
+			"ctft:donkey_spawn_egg_axe",
+			"ctft:donkey_spawn_egg_shovel",
+			"ctft:donkey_spawn_egg_hoe",
+			"ctft:donkey_spawn_egg_shield",
+			"ctft:donkey_spawn_egg_fishing_rod",
+			"ctft:donkey_spawn_egg_compass",
+			"ctft:donkey_spawn_egg_clock",
+			"ctft:donkey_spawn_egg_helmet",
+			"ctft:donkey_spawn_egg_chestplate",
+			"ctft:donkey_spawn_egg_leggings",
+			"ctft:donkey_spawn_egg_boots",
+			"ctft:donkey_spawn_egg_shears",
+			"ctft:donkey_spawn_egg_horse_armor",
+			"ctft:donkey_spawn_egg_bow"
+		]
+	}
+}

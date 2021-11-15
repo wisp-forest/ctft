@@ -1,0 +1,20 @@
+
+{
+  "group": "Glow Berries Boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:glow_berries"
+    }
+  },
+  "result": {
+    "item": "ctft:glow_berries_boots",
+    "count": 1
+  }
+}
+        

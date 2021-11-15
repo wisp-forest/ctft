@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/pink_glazed_terracotta_clock_23",
-    "1": "ctft:items/clock_23"
+    "0": "ctft:items/clock_23",
+    "1": "ctft:blocks/pink_glazed_terracotta_block",
+    "particle": "ctft:blocks/pink_glazed_terracotta_block"
   }
 }
             

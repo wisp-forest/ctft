@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:smooth_quartz"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:smooth_quartz_sword",
+			"ctft:smooth_quartz_pickaxe",
+			"ctft:smooth_quartz_axe",
+			"ctft:smooth_quartz_shovel",
+			"ctft:smooth_quartz_hoe",
+			"ctft:smooth_quartz_shield",
+			"ctft:smooth_quartz_fishing_rod",
+			"ctft:smooth_quartz_compass",
+			"ctft:smooth_quartz_clock",
+			"ctft:smooth_quartz_helmet",
+			"ctft:smooth_quartz_chestplate",
+			"ctft:smooth_quartz_leggings",
+			"ctft:smooth_quartz_boots",
+			"ctft:smooth_quartz_shears",
+			"ctft:smooth_quartz_horse_armor",
+			"ctft:smooth_quartz_bow"
+		]
+	}
+}

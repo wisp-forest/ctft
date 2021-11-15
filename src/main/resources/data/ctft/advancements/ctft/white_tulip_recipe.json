@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:white_tulip"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:white_tulip_sword",
+			"ctft:white_tulip_pickaxe",
+			"ctft:white_tulip_axe",
+			"ctft:white_tulip_shovel",
+			"ctft:white_tulip_hoe",
+			"ctft:white_tulip_shield",
+			"ctft:white_tulip_fishing_rod",
+			"ctft:white_tulip_compass",
+			"ctft:white_tulip_clock",
+			"ctft:white_tulip_helmet",
+			"ctft:white_tulip_chestplate",
+			"ctft:white_tulip_leggings",
+			"ctft:white_tulip_boots",
+			"ctft:white_tulip_shears",
+			"ctft:white_tulip_horse_armor",
+			"ctft:white_tulip_bow"
+		]
+	}
+}

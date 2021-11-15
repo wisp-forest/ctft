@@ -1,0 +1,20 @@
+
+{
+  "group": "Cyan Candle Leggings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:cyan_candle"
+    }
+  },
+  "result": {
+    "item": "ctft:cyan_candle_leggings",
+    "count": 1
+  }
+}
+        

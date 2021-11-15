@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:brick_slab"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:brick_slab_sword",
+			"ctft:brick_slab_pickaxe",
+			"ctft:brick_slab_axe",
+			"ctft:brick_slab_shovel",
+			"ctft:brick_slab_hoe",
+			"ctft:brick_slab_shield",
+			"ctft:brick_slab_fishing_rod",
+			"ctft:brick_slab_compass",
+			"ctft:brick_slab_clock",
+			"ctft:brick_slab_helmet",
+			"ctft:brick_slab_chestplate",
+			"ctft:brick_slab_leggings",
+			"ctft:brick_slab_boots",
+			"ctft:brick_slab_shears",
+			"ctft:brick_slab_horse_armor",
+			"ctft:brick_slab_bow"
+		]
+	}
+}

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:axolotl_bucket"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:axolotl_bucket_sword",
+			"ctft:axolotl_bucket_pickaxe",
+			"ctft:axolotl_bucket_axe",
+			"ctft:axolotl_bucket_shovel",
+			"ctft:axolotl_bucket_hoe",
+			"ctft:axolotl_bucket_shield",
+			"ctft:axolotl_bucket_fishing_rod",
+			"ctft:axolotl_bucket_compass",
+			"ctft:axolotl_bucket_clock",
+			"ctft:axolotl_bucket_helmet",
+			"ctft:axolotl_bucket_chestplate",
+			"ctft:axolotl_bucket_leggings",
+			"ctft:axolotl_bucket_boots",
+			"ctft:axolotl_bucket_shears",
+			"ctft:axolotl_bucket_horse_armor",
+			"ctft:axolotl_bucket_bow"
+		]
+	}
+}

@@ -1,8 +1,0 @@
-
-    {
-      "parent": "item/handheld",
-      "textures": {
-        "layer0": "ctft:items/axolotl_bucket_hoe"
-      }
-    }
-            

@@ -1,0 +1,23 @@
+
+{
+  "group": "Golden Horse Armor Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:golden_horse_armor"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:golden_horse_armor_shield",
+    "count": 1
+  }
+}
+        

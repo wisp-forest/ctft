@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:armor_stand"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:armor_stand_sword",
+			"ctft:armor_stand_pickaxe",
+			"ctft:armor_stand_axe",
+			"ctft:armor_stand_shovel",
+			"ctft:armor_stand_hoe",
+			"ctft:armor_stand_shield",
+			"ctft:armor_stand_fishing_rod",
+			"ctft:armor_stand_compass",
+			"ctft:armor_stand_clock",
+			"ctft:armor_stand_helmet",
+			"ctft:armor_stand_chestplate",
+			"ctft:armor_stand_leggings",
+			"ctft:armor_stand_boots",
+			"ctft:armor_stand_shears",
+			"ctft:armor_stand_horse_armor",
+			"ctft:armor_stand_bow"
+		]
+	}
+}

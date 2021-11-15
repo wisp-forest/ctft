@@ -1,0 +1,20 @@
+
+{
+  "group": "Bowl Helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:bowl"
+    }
+  },
+  "result": {
+    "item": "ctft:bowl_helmet",
+    "count": 1
+  }
+}
+        

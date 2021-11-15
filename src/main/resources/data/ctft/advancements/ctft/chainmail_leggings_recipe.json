@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:chainmail_leggings"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:chainmail_leggings_sword",
+			"ctft:chainmail_leggings_pickaxe",
+			"ctft:chainmail_leggings_axe",
+			"ctft:chainmail_leggings_shovel",
+			"ctft:chainmail_leggings_hoe",
+			"ctft:chainmail_leggings_shield",
+			"ctft:chainmail_leggings_fishing_rod",
+			"ctft:chainmail_leggings_compass",
+			"ctft:chainmail_leggings_clock",
+			"ctft:chainmail_leggings_helmet",
+			"ctft:chainmail_leggings_chestplate",
+			"ctft:chainmail_leggings_leggings",
+			"ctft:chainmail_leggings_boots",
+			"ctft:chainmail_leggings_shears",
+			"ctft:chainmail_leggings_horse_armor",
+			"ctft:chainmail_leggings_bow"
+		]
+	}
+}

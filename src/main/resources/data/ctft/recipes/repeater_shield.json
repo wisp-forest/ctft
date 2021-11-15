@@ -1,0 +1,23 @@
+
+{
+  "group": "Repeater Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:repeater"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:repeater_shield",
+    "count": 1
+  }
+}
+        

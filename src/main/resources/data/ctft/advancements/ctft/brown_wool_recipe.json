@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:brown_wool"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:brown_wool_sword",
+			"ctft:brown_wool_pickaxe",
+			"ctft:brown_wool_axe",
+			"ctft:brown_wool_shovel",
+			"ctft:brown_wool_hoe",
+			"ctft:brown_wool_shield",
+			"ctft:brown_wool_fishing_rod",
+			"ctft:brown_wool_compass",
+			"ctft:brown_wool_clock",
+			"ctft:brown_wool_helmet",
+			"ctft:brown_wool_chestplate",
+			"ctft:brown_wool_leggings",
+			"ctft:brown_wool_boots",
+			"ctft:brown_wool_shears",
+			"ctft:brown_wool_horse_armor",
+			"ctft:brown_wool_bow"
+		]
+	}
+}

@@ -1,0 +1,20 @@
+
+{
+  "group": "Nether Star Leggings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "result": {
+    "item": "ctft:nether_star_leggings",
+    "count": 1
+  }
+}
+        

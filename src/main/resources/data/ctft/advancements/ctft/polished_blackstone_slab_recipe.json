@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:polished_blackstone_slab"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:polished_blackstone_slab_sword",
+			"ctft:polished_blackstone_slab_pickaxe",
+			"ctft:polished_blackstone_slab_axe",
+			"ctft:polished_blackstone_slab_shovel",
+			"ctft:polished_blackstone_slab_hoe",
+			"ctft:polished_blackstone_slab_shield",
+			"ctft:polished_blackstone_slab_fishing_rod",
+			"ctft:polished_blackstone_slab_compass",
+			"ctft:polished_blackstone_slab_clock",
+			"ctft:polished_blackstone_slab_helmet",
+			"ctft:polished_blackstone_slab_chestplate",
+			"ctft:polished_blackstone_slab_leggings",
+			"ctft:polished_blackstone_slab_boots",
+			"ctft:polished_blackstone_slab_shears",
+			"ctft:polished_blackstone_slab_horse_armor",
+			"ctft:polished_blackstone_slab_bow"
+		]
+	}
+}

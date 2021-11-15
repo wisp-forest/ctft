@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:fire_coral"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:fire_coral_sword",
+			"ctft:fire_coral_pickaxe",
+			"ctft:fire_coral_axe",
+			"ctft:fire_coral_shovel",
+			"ctft:fire_coral_hoe",
+			"ctft:fire_coral_shield",
+			"ctft:fire_coral_fishing_rod",
+			"ctft:fire_coral_compass",
+			"ctft:fire_coral_clock",
+			"ctft:fire_coral_helmet",
+			"ctft:fire_coral_chestplate",
+			"ctft:fire_coral_leggings",
+			"ctft:fire_coral_boots",
+			"ctft:fire_coral_shears",
+			"ctft:fire_coral_horse_armor",
+			"ctft:fire_coral_bow"
+		]
+	}
+}

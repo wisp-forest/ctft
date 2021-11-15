@@ -1,0 +1,20 @@
+
+{
+  "group": "Lapis Lazuli Boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:lapis_lazuli"
+    }
+  },
+  "result": {
+    "item": "ctft:lapis_lazuli_boots",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:crimson_sign"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:crimson_sign_sword",
+			"ctft:crimson_sign_pickaxe",
+			"ctft:crimson_sign_axe",
+			"ctft:crimson_sign_shovel",
+			"ctft:crimson_sign_hoe",
+			"ctft:crimson_sign_shield",
+			"ctft:crimson_sign_fishing_rod",
+			"ctft:crimson_sign_compass",
+			"ctft:crimson_sign_clock",
+			"ctft:crimson_sign_helmet",
+			"ctft:crimson_sign_chestplate",
+			"ctft:crimson_sign_leggings",
+			"ctft:crimson_sign_boots",
+			"ctft:crimson_sign_shears",
+			"ctft:crimson_sign_horse_armor",
+			"ctft:crimson_sign_bow"
+		]
+	}
+}

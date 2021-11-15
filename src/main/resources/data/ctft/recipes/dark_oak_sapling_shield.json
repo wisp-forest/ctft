@@ -1,0 +1,23 @@
+
+{
+  "group": "Dark Oak Sapling Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:dark_oak_sapling"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:dark_oak_sapling_shield",
+    "count": 1
+  }
+}
+        

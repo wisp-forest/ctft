@@ -1,0 +1,20 @@
+
+{
+  "group": "Purple Shulker Box Boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:purple_shulker_box"
+    }
+  },
+  "result": {
+    "item": "ctft:purple_shulker_box_boots",
+    "count": 1
+  }
+}
+        

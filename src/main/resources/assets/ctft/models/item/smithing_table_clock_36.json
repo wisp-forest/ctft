@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/smithing_table_front_clock_36",
-    "1": "ctft:items/clock_36"
+    "0": "ctft:items/clock_36",
+    "1": "ctft:blocks/smithing_table_front_block",
+    "particle": "ctft:blocks/smithing_table_front_block"
   }
 }
             

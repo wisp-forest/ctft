@@ -1,0 +1,20 @@
+
+{
+  "group": "Dark Oak Door Leggings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:dark_oak_door"
+    }
+  },
+  "result": {
+    "item": "ctft:dark_oak_door_leggings",
+    "count": 1
+  }
+}
+        

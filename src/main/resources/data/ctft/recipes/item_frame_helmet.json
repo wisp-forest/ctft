@@ -1,0 +1,20 @@
+
+{
+  "group": "Item Frame Helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:item_frame"
+    }
+  },
+  "result": {
+    "item": "ctft:item_frame_helmet",
+    "count": 1
+  }
+}
+        

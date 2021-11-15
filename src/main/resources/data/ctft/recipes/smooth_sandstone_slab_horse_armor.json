@@ -1,0 +1,20 @@
+
+{
+  "group": "Smooth Sandstone Slab Horse Armor",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:smooth_sandstone_slab"
+    }
+  },
+  "result": {
+    "item": "ctft:smooth_sandstone_slab_horse_armor",
+    "count": 1
+  }
+}
+        

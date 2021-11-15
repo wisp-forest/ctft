@@ -2,7 +2,13 @@
     {
       "parent": "ctft:item/shield",
       "textures": {
-        "0": "ctft:items/light_blue_candle_shield_base"
-      }
+        "0": "ctft:items/shield_base",
+        "1": "ctft:blocks/light_blue_candle_block",
+        "particle": "ctft:blocks/light_blue_candle_block"
+      },
+      "overrides": [
+        { "predicate": { "blocking": 0.0 }, "model": "ctft:item/light_blue_candle_shield" },
+        { "predicate": { "blocking": 1.0 }, "model": "ctft:item/light_blue_candle_shield_blocking" }
+        ]
     }
             

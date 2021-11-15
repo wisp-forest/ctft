@@ -1,0 +1,23 @@
+
+{
+  "group": "Name Tag Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:name_tag"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:name_tag_bow",
+    "count": 1
+  }
+}
+        

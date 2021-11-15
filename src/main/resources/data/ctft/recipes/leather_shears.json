@@ -1,0 +1,20 @@
+
+{
+  "group": "Leather Shears",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 0 ",
+    "   "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:leather"
+    }
+  },
+  "result": {
+    "item": "ctft:leather_shears",
+    "count": 1
+  }
+}
+        

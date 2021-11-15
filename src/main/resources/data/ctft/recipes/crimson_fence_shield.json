@@ -1,0 +1,23 @@
+
+{
+  "group": "Crimson Fence Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:crimson_fence"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:crimson_fence_shield",
+    "count": 1
+  }
+}
+        

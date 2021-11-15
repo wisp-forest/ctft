@@ -1,0 +1,20 @@
+
+{
+  "group": "Goat Spawn Egg Leggings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:goat_spawn_egg"
+    }
+  },
+  "result": {
+    "item": "ctft:goat_spawn_egg_leggings",
+    "count": 1
+  }
+}
+        

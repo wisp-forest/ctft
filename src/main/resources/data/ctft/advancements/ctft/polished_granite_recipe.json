@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:polished_granite"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:polished_granite_sword",
+			"ctft:polished_granite_pickaxe",
+			"ctft:polished_granite_axe",
+			"ctft:polished_granite_shovel",
+			"ctft:polished_granite_hoe",
+			"ctft:polished_granite_shield",
+			"ctft:polished_granite_fishing_rod",
+			"ctft:polished_granite_compass",
+			"ctft:polished_granite_clock",
+			"ctft:polished_granite_helmet",
+			"ctft:polished_granite_chestplate",
+			"ctft:polished_granite_leggings",
+			"ctft:polished_granite_boots",
+			"ctft:polished_granite_shears",
+			"ctft:polished_granite_horse_armor",
+			"ctft:polished_granite_bow"
+		]
+	}
+}

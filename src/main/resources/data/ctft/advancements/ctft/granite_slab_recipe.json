@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:granite_slab"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:granite_slab_sword",
+			"ctft:granite_slab_pickaxe",
+			"ctft:granite_slab_axe",
+			"ctft:granite_slab_shovel",
+			"ctft:granite_slab_hoe",
+			"ctft:granite_slab_shield",
+			"ctft:granite_slab_fishing_rod",
+			"ctft:granite_slab_compass",
+			"ctft:granite_slab_clock",
+			"ctft:granite_slab_helmet",
+			"ctft:granite_slab_chestplate",
+			"ctft:granite_slab_leggings",
+			"ctft:granite_slab_boots",
+			"ctft:granite_slab_shears",
+			"ctft:granite_slab_horse_armor",
+			"ctft:granite_slab_bow"
+		]
+	}
+}

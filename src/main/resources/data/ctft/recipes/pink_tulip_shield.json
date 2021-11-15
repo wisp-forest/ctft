@@ -1,0 +1,23 @@
+
+{
+  "group": "Pink Tulip Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:pink_tulip"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:pink_tulip_shield",
+    "count": 1
+  }
+}
+        

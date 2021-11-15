@@ -1,0 +1,20 @@
+
+{
+  "group": "Obsidian Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "result": {
+    "item": "ctft:obsidian_chestplate",
+    "count": 1
+  }
+}
+        

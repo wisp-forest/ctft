@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:diamond_axe"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:diamond_axe_sword",
+			"ctft:diamond_axe_pickaxe",
+			"ctft:diamond_axe_axe",
+			"ctft:diamond_axe_shovel",
+			"ctft:diamond_axe_hoe",
+			"ctft:diamond_axe_shield",
+			"ctft:diamond_axe_fishing_rod",
+			"ctft:diamond_axe_compass",
+			"ctft:diamond_axe_clock",
+			"ctft:diamond_axe_helmet",
+			"ctft:diamond_axe_chestplate",
+			"ctft:diamond_axe_leggings",
+			"ctft:diamond_axe_boots",
+			"ctft:diamond_axe_shears",
+			"ctft:diamond_axe_horse_armor",
+			"ctft:diamond_axe_bow"
+		]
+	}
+}

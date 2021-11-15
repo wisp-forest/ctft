@@ -1,0 +1,20 @@
+
+{
+  "group": "Nether Sprouts Leggings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:nether_sprouts"
+    }
+  },
+  "result": {
+    "item": "ctft:nether_sprouts_leggings",
+    "count": 1
+  }
+}
+        

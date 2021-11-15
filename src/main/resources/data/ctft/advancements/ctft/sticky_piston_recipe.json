@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:sticky_piston"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:sticky_piston_sword",
+			"ctft:sticky_piston_pickaxe",
+			"ctft:sticky_piston_axe",
+			"ctft:sticky_piston_shovel",
+			"ctft:sticky_piston_hoe",
+			"ctft:sticky_piston_shield",
+			"ctft:sticky_piston_fishing_rod",
+			"ctft:sticky_piston_compass",
+			"ctft:sticky_piston_clock",
+			"ctft:sticky_piston_helmet",
+			"ctft:sticky_piston_chestplate",
+			"ctft:sticky_piston_leggings",
+			"ctft:sticky_piston_boots",
+			"ctft:sticky_piston_shears",
+			"ctft:sticky_piston_horse_armor",
+			"ctft:sticky_piston_bow"
+		]
+	}
+}

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:light"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:light_sword",
+			"ctft:light_pickaxe",
+			"ctft:light_axe",
+			"ctft:light_shovel",
+			"ctft:light_hoe",
+			"ctft:light_shield",
+			"ctft:light_fishing_rod",
+			"ctft:light_compass",
+			"ctft:light_clock",
+			"ctft:light_helmet",
+			"ctft:light_chestplate",
+			"ctft:light_leggings",
+			"ctft:light_boots",
+			"ctft:light_shears",
+			"ctft:light_horse_armor",
+			"ctft:light_bow"
+		]
+	}
+}

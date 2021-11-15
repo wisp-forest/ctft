@@ -1,0 +1,20 @@
+
+{
+  "group": "Grass Block Helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:grass_block"
+    }
+  },
+  "result": {
+    "item": "ctft:grass_block_helmet",
+    "count": 1
+  }
+}
+        

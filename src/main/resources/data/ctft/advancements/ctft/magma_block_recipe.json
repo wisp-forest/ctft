@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:magma_block"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:magma_block_sword",
+			"ctft:magma_block_pickaxe",
+			"ctft:magma_block_axe",
+			"ctft:magma_block_shovel",
+			"ctft:magma_block_hoe",
+			"ctft:magma_block_shield",
+			"ctft:magma_block_fishing_rod",
+			"ctft:magma_block_compass",
+			"ctft:magma_block_clock",
+			"ctft:magma_block_helmet",
+			"ctft:magma_block_chestplate",
+			"ctft:magma_block_leggings",
+			"ctft:magma_block_boots",
+			"ctft:magma_block_shears",
+			"ctft:magma_block_horse_armor",
+			"ctft:magma_block_bow"
+		]
+	}
+}

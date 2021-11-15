@@ -1,0 +1,23 @@
+
+{
+  "group": "Pufferfish Axe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "00 ",
+    "01 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:pufferfish"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:pufferfish_axe",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:birch_slab"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:birch_slab_sword",
+			"ctft:birch_slab_pickaxe",
+			"ctft:birch_slab_axe",
+			"ctft:birch_slab_shovel",
+			"ctft:birch_slab_hoe",
+			"ctft:birch_slab_shield",
+			"ctft:birch_slab_fishing_rod",
+			"ctft:birch_slab_compass",
+			"ctft:birch_slab_clock",
+			"ctft:birch_slab_helmet",
+			"ctft:birch_slab_chestplate",
+			"ctft:birch_slab_leggings",
+			"ctft:birch_slab_boots",
+			"ctft:birch_slab_shears",
+			"ctft:birch_slab_horse_armor",
+			"ctft:birch_slab_bow"
+		]
+	}
+}

@@ -1,0 +1,20 @@
+
+{
+  "group": "Weathered Copper Boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:weathered_copper"
+    }
+  },
+  "result": {
+    "item": "ctft:weathered_copper_boots",
+    "count": 1
+  }
+}
+        

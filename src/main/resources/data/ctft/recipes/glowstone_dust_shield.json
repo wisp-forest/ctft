@@ -1,0 +1,23 @@
+
+{
+  "group": "Glowstone Dust Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:glowstone_dust_shield",
+    "count": 1
+  }
+}
+        

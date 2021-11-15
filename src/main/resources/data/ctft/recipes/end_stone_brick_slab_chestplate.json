@@ -1,0 +1,20 @@
+
+{
+  "group": "End Stone Brick Slab Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:end_stone_brick_slab"
+    }
+  },
+  "result": {
+    "item": "ctft:end_stone_brick_slab_chestplate",
+    "count": 1
+  }
+}
+        

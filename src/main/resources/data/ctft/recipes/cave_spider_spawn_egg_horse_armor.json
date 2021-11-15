@@ -1,0 +1,20 @@
+
+{
+  "group": "Cave Spider Spawn Egg Horse Armor",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:cave_spider_spawn_egg"
+    }
+  },
+  "result": {
+    "item": "ctft:cave_spider_spawn_egg_horse_armor",
+    "count": 1
+  }
+}
+        

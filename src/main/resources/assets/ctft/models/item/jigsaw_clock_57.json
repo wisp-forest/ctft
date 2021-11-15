@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/jigsaw_side_clock_57",
-    "1": "ctft:items/clock_57"
+    "0": "ctft:items/clock_57",
+    "1": "ctft:blocks/jigsaw_side_block",
+    "particle": "ctft:blocks/jigsaw_side_block"
   }
 }
             

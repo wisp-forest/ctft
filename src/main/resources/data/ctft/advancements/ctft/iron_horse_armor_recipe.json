@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_horse_armor"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:iron_horse_armor_sword",
+			"ctft:iron_horse_armor_pickaxe",
+			"ctft:iron_horse_armor_axe",
+			"ctft:iron_horse_armor_shovel",
+			"ctft:iron_horse_armor_hoe",
+			"ctft:iron_horse_armor_shield",
+			"ctft:iron_horse_armor_fishing_rod",
+			"ctft:iron_horse_armor_compass",
+			"ctft:iron_horse_armor_clock",
+			"ctft:iron_horse_armor_helmet",
+			"ctft:iron_horse_armor_chestplate",
+			"ctft:iron_horse_armor_leggings",
+			"ctft:iron_horse_armor_boots",
+			"ctft:iron_horse_armor_shears",
+			"ctft:iron_horse_armor_horse_armor",
+			"ctft:iron_horse_armor_bow"
+		]
+	}
+}

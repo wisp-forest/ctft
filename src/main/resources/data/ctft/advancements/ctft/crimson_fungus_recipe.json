@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:crimson_fungus"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:crimson_fungus_sword",
+			"ctft:crimson_fungus_pickaxe",
+			"ctft:crimson_fungus_axe",
+			"ctft:crimson_fungus_shovel",
+			"ctft:crimson_fungus_hoe",
+			"ctft:crimson_fungus_shield",
+			"ctft:crimson_fungus_fishing_rod",
+			"ctft:crimson_fungus_compass",
+			"ctft:crimson_fungus_clock",
+			"ctft:crimson_fungus_helmet",
+			"ctft:crimson_fungus_chestplate",
+			"ctft:crimson_fungus_leggings",
+			"ctft:crimson_fungus_boots",
+			"ctft:crimson_fungus_shears",
+			"ctft:crimson_fungus_horse_armor",
+			"ctft:crimson_fungus_bow"
+		]
+	}
+}

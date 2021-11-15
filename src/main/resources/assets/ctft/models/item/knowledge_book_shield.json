@@ -2,7 +2,13 @@
     {
       "parent": "ctft:item/shield",
       "textures": {
-        "0": "ctft:items/knowledge_book_shield_base"
-      }
+        "0": "ctft:items/shield_base",
+        "1": "ctft:blocks/knowledge_book_block",
+        "particle": "ctft:blocks/knowledge_book_block"
+      },
+      "overrides": [
+        { "predicate": { "blocking": 0.0 }, "model": "ctft:item/knowledge_book_shield" },
+        { "predicate": { "blocking": 1.0 }, "model": "ctft:item/knowledge_book_shield_blocking" }
+        ]
     }
             

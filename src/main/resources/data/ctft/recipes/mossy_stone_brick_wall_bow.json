@@ -1,0 +1,23 @@
+
+{
+  "group": "Mossy Stone Brick Wall Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:mossy_stone_brick_wall"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:mossy_stone_brick_wall_bow",
+    "count": 1
+  }
+}
+        

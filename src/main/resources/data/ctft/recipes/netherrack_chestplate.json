@@ -1,0 +1,20 @@
+
+{
+  "group": "Netherrack Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:netherrack"
+    }
+  },
+  "result": {
+    "item": "ctft:netherrack_chestplate",
+    "count": 1
+  }
+}
+        

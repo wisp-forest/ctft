@@ -1,0 +1,23 @@
+
+{
+  "group": "Honey Block Shovel",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:honey_block"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:honey_block_shovel",
+    "count": 1
+  }
+}
+        

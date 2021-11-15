@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:chain"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:chain_sword",
+			"ctft:chain_pickaxe",
+			"ctft:chain_axe",
+			"ctft:chain_shovel",
+			"ctft:chain_hoe",
+			"ctft:chain_shield",
+			"ctft:chain_fishing_rod",
+			"ctft:chain_compass",
+			"ctft:chain_clock",
+			"ctft:chain_helmet",
+			"ctft:chain_chestplate",
+			"ctft:chain_leggings",
+			"ctft:chain_boots",
+			"ctft:chain_shears",
+			"ctft:chain_horse_armor",
+			"ctft:chain_bow"
+		]
+	}
+}

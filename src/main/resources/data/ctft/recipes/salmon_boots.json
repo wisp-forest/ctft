@@ -1,0 +1,20 @@
+
+{
+  "group": "Salmon Boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:salmon"
+    }
+  },
+  "result": {
+    "item": "ctft:salmon_boots",
+    "count": 1
+  }
+}
+        

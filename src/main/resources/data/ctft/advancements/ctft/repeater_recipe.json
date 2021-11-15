@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:repeater"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:repeater_sword",
+			"ctft:repeater_pickaxe",
+			"ctft:repeater_axe",
+			"ctft:repeater_shovel",
+			"ctft:repeater_hoe",
+			"ctft:repeater_shield",
+			"ctft:repeater_fishing_rod",
+			"ctft:repeater_compass",
+			"ctft:repeater_clock",
+			"ctft:repeater_helmet",
+			"ctft:repeater_chestplate",
+			"ctft:repeater_leggings",
+			"ctft:repeater_boots",
+			"ctft:repeater_shears",
+			"ctft:repeater_horse_armor",
+			"ctft:repeater_bow"
+		]
+	}
+}

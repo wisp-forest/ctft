@@ -1,0 +1,20 @@
+
+{
+  "group": "Waxed Block of Copper Leggings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:waxed_copper_block"
+    }
+  },
+  "result": {
+    "item": "ctft:waxed_block_of_copper_leggings",
+    "count": 1
+  }
+}
+        

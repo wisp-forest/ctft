@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:oak_sapling"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:oak_sapling_sword",
+			"ctft:oak_sapling_pickaxe",
+			"ctft:oak_sapling_axe",
+			"ctft:oak_sapling_shovel",
+			"ctft:oak_sapling_hoe",
+			"ctft:oak_sapling_shield",
+			"ctft:oak_sapling_fishing_rod",
+			"ctft:oak_sapling_compass",
+			"ctft:oak_sapling_clock",
+			"ctft:oak_sapling_helmet",
+			"ctft:oak_sapling_chestplate",
+			"ctft:oak_sapling_leggings",
+			"ctft:oak_sapling_boots",
+			"ctft:oak_sapling_shears",
+			"ctft:oak_sapling_horse_armor",
+			"ctft:oak_sapling_bow"
+		]
+	}
+}

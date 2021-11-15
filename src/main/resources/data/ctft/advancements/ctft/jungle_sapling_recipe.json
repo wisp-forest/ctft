@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:jungle_sapling"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:jungle_sapling_sword",
+			"ctft:jungle_sapling_pickaxe",
+			"ctft:jungle_sapling_axe",
+			"ctft:jungle_sapling_shovel",
+			"ctft:jungle_sapling_hoe",
+			"ctft:jungle_sapling_shield",
+			"ctft:jungle_sapling_fishing_rod",
+			"ctft:jungle_sapling_compass",
+			"ctft:jungle_sapling_clock",
+			"ctft:jungle_sapling_helmet",
+			"ctft:jungle_sapling_chestplate",
+			"ctft:jungle_sapling_leggings",
+			"ctft:jungle_sapling_boots",
+			"ctft:jungle_sapling_shears",
+			"ctft:jungle_sapling_horse_armor",
+			"ctft:jungle_sapling_bow"
+		]
+	}
+}

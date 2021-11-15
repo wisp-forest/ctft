@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/repeating_command_block_front_clock_54",
-    "1": "ctft:items/clock_54"
+    "0": "ctft:items/clock_54",
+    "1": "ctft:blocks/repeating_command_block_front_block",
+    "particle": "ctft:blocks/repeating_command_block_front_block"
   }
 }
             

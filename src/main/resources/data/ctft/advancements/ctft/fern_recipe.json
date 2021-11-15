@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:fern"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:fern_sword",
+			"ctft:fern_pickaxe",
+			"ctft:fern_axe",
+			"ctft:fern_shovel",
+			"ctft:fern_hoe",
+			"ctft:fern_shield",
+			"ctft:fern_fishing_rod",
+			"ctft:fern_compass",
+			"ctft:fern_clock",
+			"ctft:fern_helmet",
+			"ctft:fern_chestplate",
+			"ctft:fern_leggings",
+			"ctft:fern_boots",
+			"ctft:fern_shears",
+			"ctft:fern_horse_armor",
+			"ctft:fern_bow"
+		]
+	}
+}

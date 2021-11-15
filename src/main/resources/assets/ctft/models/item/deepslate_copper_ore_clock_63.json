@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/deepslate_copper_ore_clock_63",
-    "1": "ctft:items/clock_63"
+    "0": "ctft:items/clock_63",
+    "1": "ctft:blocks/deepslate_copper_ore_block",
+    "particle": "ctft:blocks/deepslate_copper_ore_block"
   }
 }
             

@@ -1,0 +1,20 @@
+
+{
+  "group": "Purple Dye Helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:purple_dye"
+    }
+  },
+  "result": {
+    "item": "ctft:purple_dye_helmet",
+    "count": 1
+  }
+}
+        

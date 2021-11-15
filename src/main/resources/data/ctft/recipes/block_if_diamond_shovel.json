@@ -1,0 +1,23 @@
+
+{
+  "group": "Block if Diamond Shovel",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:diamond_block"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:block_if_diamond_shovel",
+    "count": 1
+  }
+}
+        

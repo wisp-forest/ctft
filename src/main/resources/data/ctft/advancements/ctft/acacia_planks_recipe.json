@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:acacia_planks"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:acacia_planks_sword",
+			"ctft:acacia_planks_pickaxe",
+			"ctft:acacia_planks_axe",
+			"ctft:acacia_planks_shovel",
+			"ctft:acacia_planks_hoe",
+			"ctft:acacia_planks_shield",
+			"ctft:acacia_planks_fishing_rod",
+			"ctft:acacia_planks_compass",
+			"ctft:acacia_planks_clock",
+			"ctft:acacia_planks_helmet",
+			"ctft:acacia_planks_chestplate",
+			"ctft:acacia_planks_leggings",
+			"ctft:acacia_planks_boots",
+			"ctft:acacia_planks_shears",
+			"ctft:acacia_planks_horse_armor",
+			"ctft:acacia_planks_bow"
+		]
+	}
+}

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:gray_bed"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:gray_bed_sword",
+			"ctft:gray_bed_pickaxe",
+			"ctft:gray_bed_axe",
+			"ctft:gray_bed_shovel",
+			"ctft:gray_bed_hoe",
+			"ctft:gray_bed_shield",
+			"ctft:gray_bed_fishing_rod",
+			"ctft:gray_bed_compass",
+			"ctft:gray_bed_clock",
+			"ctft:gray_bed_helmet",
+			"ctft:gray_bed_chestplate",
+			"ctft:gray_bed_leggings",
+			"ctft:gray_bed_boots",
+			"ctft:gray_bed_shears",
+			"ctft:gray_bed_horse_armor",
+			"ctft:gray_bed_bow"
+		]
+	}
+}

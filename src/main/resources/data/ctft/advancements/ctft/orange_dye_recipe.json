@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:orange_dye"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:orange_dye_sword",
+			"ctft:orange_dye_pickaxe",
+			"ctft:orange_dye_axe",
+			"ctft:orange_dye_shovel",
+			"ctft:orange_dye_hoe",
+			"ctft:orange_dye_shield",
+			"ctft:orange_dye_fishing_rod",
+			"ctft:orange_dye_compass",
+			"ctft:orange_dye_clock",
+			"ctft:orange_dye_helmet",
+			"ctft:orange_dye_chestplate",
+			"ctft:orange_dye_leggings",
+			"ctft:orange_dye_boots",
+			"ctft:orange_dye_shears",
+			"ctft:orange_dye_horse_armor",
+			"ctft:orange_dye_bow"
+		]
+	}
+}

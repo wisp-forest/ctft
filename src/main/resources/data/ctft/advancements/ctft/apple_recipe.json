@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:apple"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:apple_sword",
+			"ctft:apple_pickaxe",
+			"ctft:apple_axe",
+			"ctft:apple_shovel",
+			"ctft:apple_hoe",
+			"ctft:apple_shield",
+			"ctft:apple_fishing_rod",
+			"ctft:apple_compass",
+			"ctft:apple_clock",
+			"ctft:apple_helmet",
+			"ctft:apple_chestplate",
+			"ctft:apple_leggings",
+			"ctft:apple_boots",
+			"ctft:apple_shears",
+			"ctft:apple_horse_armor",
+			"ctft:apple_bow"
+		]
+	}
+}

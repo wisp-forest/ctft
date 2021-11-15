@@ -1,0 +1,20 @@
+
+{
+  "group": "Blue Candle Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:blue_candle"
+    }
+  },
+  "result": {
+    "item": "ctft:blue_candle_chestplate",
+    "count": 1
+  }
+}
+        

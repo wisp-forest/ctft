@@ -1,0 +1,20 @@
+
+{
+  "group": "Sandstone Stairs Helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:sandstone_stairs"
+    }
+  },
+  "result": {
+    "item": "ctft:sandstone_stairs_helmet",
+    "count": 1
+  }
+}
+        

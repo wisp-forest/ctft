@@ -1,0 +1,23 @@
+
+{
+  "group": "Warped Fungus Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:warped_fungus"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:warped_fungus_bow",
+    "count": 1
+  }
+}
+        

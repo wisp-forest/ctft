@@ -1,0 +1,20 @@
+
+{
+  "group": "Dried Kelp Horse Armor",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:dried_kelp"
+    }
+  },
+  "result": {
+    "item": "ctft:dried_kelp_horse_armor",
+    "count": 1
+  }
+}
+        

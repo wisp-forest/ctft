@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:brown_dye"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:brown_dye_sword",
+			"ctft:brown_dye_pickaxe",
+			"ctft:brown_dye_axe",
+			"ctft:brown_dye_shovel",
+			"ctft:brown_dye_hoe",
+			"ctft:brown_dye_shield",
+			"ctft:brown_dye_fishing_rod",
+			"ctft:brown_dye_compass",
+			"ctft:brown_dye_clock",
+			"ctft:brown_dye_helmet",
+			"ctft:brown_dye_chestplate",
+			"ctft:brown_dye_leggings",
+			"ctft:brown_dye_boots",
+			"ctft:brown_dye_shears",
+			"ctft:brown_dye_horse_armor",
+			"ctft:brown_dye_bow"
+		]
+	}
+}

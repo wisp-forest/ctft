@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:brown_stained_glass"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:brown_stained_glass_sword",
+			"ctft:brown_stained_glass_pickaxe",
+			"ctft:brown_stained_glass_axe",
+			"ctft:brown_stained_glass_shovel",
+			"ctft:brown_stained_glass_hoe",
+			"ctft:brown_stained_glass_shield",
+			"ctft:brown_stained_glass_fishing_rod",
+			"ctft:brown_stained_glass_compass",
+			"ctft:brown_stained_glass_clock",
+			"ctft:brown_stained_glass_helmet",
+			"ctft:brown_stained_glass_chestplate",
+			"ctft:brown_stained_glass_leggings",
+			"ctft:brown_stained_glass_boots",
+			"ctft:brown_stained_glass_shears",
+			"ctft:brown_stained_glass_horse_armor",
+			"ctft:brown_stained_glass_bow"
+		]
+	}
+}

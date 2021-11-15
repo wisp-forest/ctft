@@ -1,8 +1,10 @@
 
     {
-      "parent": "item/handheld",
+      "parent": "ctft:item/hoe",
       "textures": {
-        "layer0": "ctft:items/guardian_hoe"
+        "0": "ctft:items/iron_hoe",
+        "1": "ctft:blocks/guardian_block",
+        "particle": "ctft:blocks/guardian_block"
       }
     }
             

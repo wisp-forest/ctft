@@ -1,0 +1,23 @@
+
+{
+  "group": "Splash Potion Axe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "00 ",
+    "01 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:splash_potion"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:splash_potion_axe",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,23 @@
+
+{
+  "group": "Block of Coal Hoe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "00 ",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:coal_block"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:block_of_coal_hoe",
+    "count": 1
+  }
+}
+        

@@ -1,8 +1,10 @@
 
     {
-      "parent": "item/handheld",
+      "parent": "ctft:item/sword",
       "textures": {
-        "layer0": "ctft:items/oak_boat_sword"
+        "0": "ctft:items/iron_sword",
+        "1": "ctft:blocks/oak_boat_block",
+        "particle": "ctft:blocks/oak_boat_block"
       }
     }
             

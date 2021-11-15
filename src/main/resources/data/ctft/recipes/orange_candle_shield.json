@@ -1,0 +1,23 @@
+
+{
+  "group": "Orange Candle Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:orange_candle"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:orange_candle_shield",
+    "count": 1
+  }
+}
+        

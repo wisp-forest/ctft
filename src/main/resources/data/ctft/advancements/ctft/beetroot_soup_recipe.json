@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:beetroot_soup"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:beetroot_soup_sword",
+			"ctft:beetroot_soup_pickaxe",
+			"ctft:beetroot_soup_axe",
+			"ctft:beetroot_soup_shovel",
+			"ctft:beetroot_soup_hoe",
+			"ctft:beetroot_soup_shield",
+			"ctft:beetroot_soup_fishing_rod",
+			"ctft:beetroot_soup_compass",
+			"ctft:beetroot_soup_clock",
+			"ctft:beetroot_soup_helmet",
+			"ctft:beetroot_soup_chestplate",
+			"ctft:beetroot_soup_leggings",
+			"ctft:beetroot_soup_boots",
+			"ctft:beetroot_soup_shears",
+			"ctft:beetroot_soup_horse_armor",
+			"ctft:beetroot_soup_bow"
+		]
+	}
+}

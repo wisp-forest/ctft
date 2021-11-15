@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/campfire_clock_27",
-    "1": "ctft:items/clock_27"
+    "0": "ctft:items/clock_27",
+    "1": "ctft:blocks/campfire_block",
+    "particle": "ctft:blocks/campfire_block"
   }
 }
             

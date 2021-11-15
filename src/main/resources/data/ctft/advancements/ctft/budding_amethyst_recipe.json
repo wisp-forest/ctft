@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:budding_amethyst"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:budding_amethyst_sword",
+			"ctft:budding_amethyst_pickaxe",
+			"ctft:budding_amethyst_axe",
+			"ctft:budding_amethyst_shovel",
+			"ctft:budding_amethyst_hoe",
+			"ctft:budding_amethyst_shield",
+			"ctft:budding_amethyst_fishing_rod",
+			"ctft:budding_amethyst_compass",
+			"ctft:budding_amethyst_clock",
+			"ctft:budding_amethyst_helmet",
+			"ctft:budding_amethyst_chestplate",
+			"ctft:budding_amethyst_leggings",
+			"ctft:budding_amethyst_boots",
+			"ctft:budding_amethyst_shears",
+			"ctft:budding_amethyst_horse_armor",
+			"ctft:budding_amethyst_bow"
+		]
+	}
+}

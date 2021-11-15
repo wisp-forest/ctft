@@ -1,0 +1,23 @@
+
+{
+  "group": "Tube Coral Clock",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    "010",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:tube_coral"
+    },
+    "1": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:tube_coral_clock",
+    "count": 1
+  }
+}
+        

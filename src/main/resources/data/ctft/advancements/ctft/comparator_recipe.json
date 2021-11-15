@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:comparator"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:comparator_sword",
+			"ctft:comparator_pickaxe",
+			"ctft:comparator_axe",
+			"ctft:comparator_shovel",
+			"ctft:comparator_hoe",
+			"ctft:comparator_shield",
+			"ctft:comparator_fishing_rod",
+			"ctft:comparator_compass",
+			"ctft:comparator_clock",
+			"ctft:comparator_helmet",
+			"ctft:comparator_chestplate",
+			"ctft:comparator_leggings",
+			"ctft:comparator_boots",
+			"ctft:comparator_shears",
+			"ctft:comparator_horse_armor",
+			"ctft:comparator_bow"
+		]
+	}
+}

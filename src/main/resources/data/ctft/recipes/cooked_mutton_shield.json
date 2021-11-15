@@ -1,0 +1,23 @@
+
+{
+  "group": "Cooked Mutton Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:cooked_mutton"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:cooked_mutton_shield",
+    "count": 1
+  }
+}
+        

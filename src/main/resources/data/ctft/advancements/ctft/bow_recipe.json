@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bow"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:bow_sword",
+			"ctft:bow_pickaxe",
+			"ctft:bow_axe",
+			"ctft:bow_shovel",
+			"ctft:bow_hoe",
+			"ctft:bow_shield",
+			"ctft:bow_fishing_rod",
+			"ctft:bow_compass",
+			"ctft:bow_clock",
+			"ctft:bow_helmet",
+			"ctft:bow_chestplate",
+			"ctft:bow_leggings",
+			"ctft:bow_boots",
+			"ctft:bow_shears",
+			"ctft:bow_horse_armor",
+			"ctft:bow_bow"
+		]
+	}
+}

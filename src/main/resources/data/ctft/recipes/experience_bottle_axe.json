@@ -1,0 +1,23 @@
+
+{
+  "group": "Experience Bottle Axe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "00 ",
+    "01 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:experience_bottle"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:experience_bottle_axe",
+    "count": 1
+  }
+}
+        

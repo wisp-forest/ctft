@@ -1,0 +1,20 @@
+
+{
+  "group": "Jigsaw Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:jigsaw"
+    }
+  },
+  "result": {
+    "item": "ctft:jigsaw_chestplate",
+    "count": 1
+  }
+}
+        

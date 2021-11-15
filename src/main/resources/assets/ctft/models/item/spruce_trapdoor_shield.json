@@ -2,7 +2,13 @@
     {
       "parent": "ctft:item/shield",
       "textures": {
-        "0": "ctft:items/spruce_trapdoor_shield_base"
-      }
+        "0": "ctft:items/shield_base",
+        "1": "ctft:blocks/spruce_trapdoor_block",
+        "particle": "ctft:blocks/spruce_trapdoor_block"
+      },
+      "overrides": [
+        { "predicate": { "blocking": 0.0 }, "model": "ctft:item/spruce_trapdoor_shield" },
+        { "predicate": { "blocking": 1.0 }, "model": "ctft:item/spruce_trapdoor_shield_blocking" }
+        ]
     }
             

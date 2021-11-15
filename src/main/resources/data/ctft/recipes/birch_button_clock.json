@@ -1,0 +1,23 @@
+
+{
+  "group": "Birch Button Clock",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    "010",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:birch_button"
+    },
+    "1": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:birch_button_clock",
+    "count": 1
+  }
+}
+        

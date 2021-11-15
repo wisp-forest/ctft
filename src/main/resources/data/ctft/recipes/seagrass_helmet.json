@@ -1,0 +1,20 @@
+
+{
+  "group": "Seagrass Helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:seagrass"
+    }
+  },
+  "result": {
+    "item": "ctft:seagrass_helmet",
+    "count": 1
+  }
+}
+        

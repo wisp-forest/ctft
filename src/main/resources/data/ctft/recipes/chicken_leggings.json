@@ -1,0 +1,20 @@
+
+{
+  "group": "Chicken Leggings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:chicken"
+    }
+  },
+  "result": {
+    "item": "ctft:chicken_leggings",
+    "count": 1
+  }
+}
+        

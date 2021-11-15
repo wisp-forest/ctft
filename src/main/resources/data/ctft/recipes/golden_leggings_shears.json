@@ -1,0 +1,20 @@
+
+{
+  "group": "Golden Leggings Shears",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 0 ",
+    "   "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:golden_leggings"
+    }
+  },
+  "result": {
+    "item": "ctft:golden_leggings_shears",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,20 @@
+
+{
+  "group": "Infested Chiseled Stone Bricks Boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:infested_chiseled_stone_bricks"
+    }
+  },
+  "result": {
+    "item": "ctft:infested_chiseled_stone_bricks_boots",
+    "count": 1
+  }
+}
+        

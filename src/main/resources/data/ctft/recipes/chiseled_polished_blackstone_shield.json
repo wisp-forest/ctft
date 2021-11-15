@@ -1,0 +1,23 @@
+
+{
+  "group": "Chiseled Polished Blackstone Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:chiseled_polished_blackstone"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:chiseled_polished_blackstone_shield",
+    "count": 1
+  }
+}
+        

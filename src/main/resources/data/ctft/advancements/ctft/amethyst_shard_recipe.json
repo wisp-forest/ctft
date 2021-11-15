@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:amethyst_shard"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:amethyst_shard_sword",
+			"ctft:amethyst_shard_pickaxe",
+			"ctft:amethyst_shard_axe",
+			"ctft:amethyst_shard_shovel",
+			"ctft:amethyst_shard_hoe",
+			"ctft:amethyst_shard_shield",
+			"ctft:amethyst_shard_fishing_rod",
+			"ctft:amethyst_shard_compass",
+			"ctft:amethyst_shard_clock",
+			"ctft:amethyst_shard_helmet",
+			"ctft:amethyst_shard_chestplate",
+			"ctft:amethyst_shard_leggings",
+			"ctft:amethyst_shard_boots",
+			"ctft:amethyst_shard_shears",
+			"ctft:amethyst_shard_horse_armor",
+			"ctft:amethyst_shard_bow"
+		]
+	}
+}

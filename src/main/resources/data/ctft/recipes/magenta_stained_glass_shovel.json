@@ -1,0 +1,23 @@
+
+{
+  "group": "Magenta Stained Glass Shovel",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:magenta_stained_glass"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:magenta_stained_glass_shovel",
+    "count": 1
+  }
+}
+        

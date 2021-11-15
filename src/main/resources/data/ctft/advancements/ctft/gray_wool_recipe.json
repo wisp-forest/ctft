@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:gray_wool"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:gray_wool_sword",
+			"ctft:gray_wool_pickaxe",
+			"ctft:gray_wool_axe",
+			"ctft:gray_wool_shovel",
+			"ctft:gray_wool_hoe",
+			"ctft:gray_wool_shield",
+			"ctft:gray_wool_fishing_rod",
+			"ctft:gray_wool_compass",
+			"ctft:gray_wool_clock",
+			"ctft:gray_wool_helmet",
+			"ctft:gray_wool_chestplate",
+			"ctft:gray_wool_leggings",
+			"ctft:gray_wool_boots",
+			"ctft:gray_wool_shears",
+			"ctft:gray_wool_horse_armor",
+			"ctft:gray_wool_bow"
+		]
+	}
+}

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:deepslate_emerald_ore"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:deepslate_emerald_ore_sword",
+			"ctft:deepslate_emerald_ore_pickaxe",
+			"ctft:deepslate_emerald_ore_axe",
+			"ctft:deepslate_emerald_ore_shovel",
+			"ctft:deepslate_emerald_ore_hoe",
+			"ctft:deepslate_emerald_ore_shield",
+			"ctft:deepslate_emerald_ore_fishing_rod",
+			"ctft:deepslate_emerald_ore_compass",
+			"ctft:deepslate_emerald_ore_clock",
+			"ctft:deepslate_emerald_ore_helmet",
+			"ctft:deepslate_emerald_ore_chestplate",
+			"ctft:deepslate_emerald_ore_leggings",
+			"ctft:deepslate_emerald_ore_boots",
+			"ctft:deepslate_emerald_ore_shears",
+			"ctft:deepslate_emerald_ore_horse_armor",
+			"ctft:deepslate_emerald_ore_bow"
+		]
+	}
+}

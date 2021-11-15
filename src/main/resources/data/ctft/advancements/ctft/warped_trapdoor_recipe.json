@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:warped_trapdoor"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:warped_trapdoor_sword",
+			"ctft:warped_trapdoor_pickaxe",
+			"ctft:warped_trapdoor_axe",
+			"ctft:warped_trapdoor_shovel",
+			"ctft:warped_trapdoor_hoe",
+			"ctft:warped_trapdoor_shield",
+			"ctft:warped_trapdoor_fishing_rod",
+			"ctft:warped_trapdoor_compass",
+			"ctft:warped_trapdoor_clock",
+			"ctft:warped_trapdoor_helmet",
+			"ctft:warped_trapdoor_chestplate",
+			"ctft:warped_trapdoor_leggings",
+			"ctft:warped_trapdoor_boots",
+			"ctft:warped_trapdoor_shears",
+			"ctft:warped_trapdoor_horse_armor",
+			"ctft:warped_trapdoor_bow"
+		]
+	}
+}

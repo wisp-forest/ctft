@@ -1,0 +1,20 @@
+
+{
+  "group": "Flower Pot Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:flower_pot"
+    }
+  },
+  "result": {
+    "item": "ctft:flower_pot_chestplate",
+    "count": 1
+  }
+}
+        

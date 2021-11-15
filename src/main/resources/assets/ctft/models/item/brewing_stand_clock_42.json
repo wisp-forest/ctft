@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/brewing_stand_clock_42",
-    "1": "ctft:items/clock_42"
+    "0": "ctft:items/clock_42",
+    "1": "ctft:blocks/brewing_stand_block",
+    "particle": "ctft:blocks/brewing_stand_block"
   }
 }
             

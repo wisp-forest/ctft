@@ -1,0 +1,23 @@
+
+{
+  "group": "Warped Stem Shovel",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:warped_stem"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:warped_stem_shovel",
+    "count": 1
+  }
+}
+        

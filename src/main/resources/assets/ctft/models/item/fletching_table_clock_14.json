@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/fletching_table_front_clock_14",
-    "1": "ctft:items/clock_14"
+    "0": "ctft:items/clock_14",
+    "1": "ctft:blocks/fletching_table_front_block",
+    "particle": "ctft:blocks/fletching_table_front_block"
   }
 }
             

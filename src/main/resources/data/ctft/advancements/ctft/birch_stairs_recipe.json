@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:birch_stairs"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:birch_stairs_sword",
+			"ctft:birch_stairs_pickaxe",
+			"ctft:birch_stairs_axe",
+			"ctft:birch_stairs_shovel",
+			"ctft:birch_stairs_hoe",
+			"ctft:birch_stairs_shield",
+			"ctft:birch_stairs_fishing_rod",
+			"ctft:birch_stairs_compass",
+			"ctft:birch_stairs_clock",
+			"ctft:birch_stairs_helmet",
+			"ctft:birch_stairs_chestplate",
+			"ctft:birch_stairs_leggings",
+			"ctft:birch_stairs_boots",
+			"ctft:birch_stairs_shears",
+			"ctft:birch_stairs_horse_armor",
+			"ctft:birch_stairs_bow"
+		]
+	}
+}

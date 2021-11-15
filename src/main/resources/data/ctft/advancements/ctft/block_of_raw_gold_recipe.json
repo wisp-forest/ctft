@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:raw_gold_block"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:raw_gold_block_sword",
+			"ctft:raw_gold_block_pickaxe",
+			"ctft:raw_gold_block_axe",
+			"ctft:raw_gold_block_shovel",
+			"ctft:raw_gold_block_hoe",
+			"ctft:raw_gold_block_shield",
+			"ctft:raw_gold_block_fishing_rod",
+			"ctft:raw_gold_block_compass",
+			"ctft:raw_gold_block_clock",
+			"ctft:raw_gold_block_helmet",
+			"ctft:raw_gold_block_chestplate",
+			"ctft:raw_gold_block_leggings",
+			"ctft:raw_gold_block_boots",
+			"ctft:raw_gold_block_shears",
+			"ctft:raw_gold_block_horse_armor",
+			"ctft:raw_gold_block_bow"
+		]
+	}
+}

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:hanging_roots"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:hanging_roots_sword",
+			"ctft:hanging_roots_pickaxe",
+			"ctft:hanging_roots_axe",
+			"ctft:hanging_roots_shovel",
+			"ctft:hanging_roots_hoe",
+			"ctft:hanging_roots_shield",
+			"ctft:hanging_roots_fishing_rod",
+			"ctft:hanging_roots_compass",
+			"ctft:hanging_roots_clock",
+			"ctft:hanging_roots_helmet",
+			"ctft:hanging_roots_chestplate",
+			"ctft:hanging_roots_leggings",
+			"ctft:hanging_roots_boots",
+			"ctft:hanging_roots_shears",
+			"ctft:hanging_roots_horse_armor",
+			"ctft:hanging_roots_bow"
+		]
+	}
+}

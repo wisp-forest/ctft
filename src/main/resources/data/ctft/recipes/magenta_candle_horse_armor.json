@@ -1,0 +1,20 @@
+
+{
+  "group": "Magenta Candle Horse Armor",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:magenta_candle"
+    }
+  },
+  "result": {
+    "item": "ctft:magenta_candle_horse_armor",
+    "count": 1
+  }
+}
+        

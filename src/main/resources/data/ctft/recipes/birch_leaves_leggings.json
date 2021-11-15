@@ -1,0 +1,20 @@
+
+{
+  "group": "Birch Leaves Leggings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:birch_leaves"
+    }
+  },
+  "result": {
+    "item": "ctft:birch_leaves_leggings",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,20 @@
+
+{
+  "group": "Petrified Oak Slab Helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:petrified_oak_slab"
+    }
+  },
+  "result": {
+    "item": "ctft:petrified_oak_slab_helmet",
+    "count": 1
+  }
+}
+        

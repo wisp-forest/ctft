@@ -1,0 +1,23 @@
+
+{
+  "group": "Pufferfish Spawn Egg Hoe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "00 ",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:pufferfish_spawn_egg"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:pufferfish_spawn_egg_hoe",
+    "count": 1
+  }
+}
+        

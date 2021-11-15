@@ -1,0 +1,20 @@
+
+{
+  "group": "Brown Stained Glass Pane Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:brown_stained_glass_pane"
+    }
+  },
+  "result": {
+    "item": "ctft:brown_stained_glass_pane_chestplate",
+    "count": 1
+  }
+}
+        

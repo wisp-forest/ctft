@@ -1,0 +1,20 @@
+
+{
+  "group": "Egg Helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:egg"
+    }
+  },
+  "result": {
+    "item": "ctft:egg_helmet",
+    "count": 1
+  }
+}
+        

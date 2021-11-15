@@ -1,0 +1,23 @@
+
+{
+  "group": "Deepslate Diamond Ore Fishing Rod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 01",
+    "0 1"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:deepslate_diamond_ore"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:deepslate_diamond_ore_fishing_rod",
+    "count": 1
+  }
+}
+        

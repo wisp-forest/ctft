@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:lodestone"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:lodestone_sword",
+			"ctft:lodestone_pickaxe",
+			"ctft:lodestone_axe",
+			"ctft:lodestone_shovel",
+			"ctft:lodestone_hoe",
+			"ctft:lodestone_shield",
+			"ctft:lodestone_fishing_rod",
+			"ctft:lodestone_compass",
+			"ctft:lodestone_clock",
+			"ctft:lodestone_helmet",
+			"ctft:lodestone_chestplate",
+			"ctft:lodestone_leggings",
+			"ctft:lodestone_boots",
+			"ctft:lodestone_shears",
+			"ctft:lodestone_horse_armor",
+			"ctft:lodestone_bow"
+		]
+	}
+}

@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/redstone_torch_clock_33",
-    "1": "ctft:items/clock_33"
+    "0": "ctft:items/clock_33",
+    "1": "ctft:blocks/redstone_torch_block",
+    "particle": "ctft:blocks/redstone_torch_block"
   }
 }
             

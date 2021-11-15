@@ -1,8 +1,10 @@
 
     {
-      "parent": "item/handheld",
+      "parent": "ctft:item/sword",
       "textures": {
-        "layer0": "ctft:items/gold_ingot_sword"
+        "0": "ctft:items/iron_sword",
+        "1": "ctft:blocks/gold_ingot_block",
+        "particle": "ctft:blocks/gold_ingot_block"
       }
     }
             

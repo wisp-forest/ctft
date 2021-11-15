@@ -1,0 +1,23 @@
+
+{
+  "group": "Mossy Cobblestone Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:mossy_cobblestone"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:mossy_cobblestone_bow",
+    "count": 1
+  }
+}
+        

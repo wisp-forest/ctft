@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/ghast_tear_clock_13",
-    "1": "ctft:items/clock_13"
+    "0": "ctft:items/clock_13",
+    "1": "ctft:blocks/ghast_tear_block",
+    "particle": "ctft:blocks/ghast_tear_block"
   }
 }
             

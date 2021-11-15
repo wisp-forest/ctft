@@ -1,0 +1,23 @@
+
+{
+  "group": "Andesite Wall Shovel",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:andesite_wall"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:andesite_wall_shovel",
+    "count": 1
+  }
+}
+        

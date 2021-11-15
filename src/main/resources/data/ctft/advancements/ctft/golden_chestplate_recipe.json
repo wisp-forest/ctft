@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:golden_chestplate"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:golden_chestplate_sword",
+			"ctft:golden_chestplate_pickaxe",
+			"ctft:golden_chestplate_axe",
+			"ctft:golden_chestplate_shovel",
+			"ctft:golden_chestplate_hoe",
+			"ctft:golden_chestplate_shield",
+			"ctft:golden_chestplate_fishing_rod",
+			"ctft:golden_chestplate_compass",
+			"ctft:golden_chestplate_clock",
+			"ctft:golden_chestplate_helmet",
+			"ctft:golden_chestplate_chestplate",
+			"ctft:golden_chestplate_leggings",
+			"ctft:golden_chestplate_boots",
+			"ctft:golden_chestplate_shears",
+			"ctft:golden_chestplate_horse_armor",
+			"ctft:golden_chestplate_bow"
+		]
+	}
+}

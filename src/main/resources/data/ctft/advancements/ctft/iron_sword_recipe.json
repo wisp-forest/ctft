@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_sword"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:iron_sword_sword",
+			"ctft:iron_sword_pickaxe",
+			"ctft:iron_sword_axe",
+			"ctft:iron_sword_shovel",
+			"ctft:iron_sword_hoe",
+			"ctft:iron_sword_shield",
+			"ctft:iron_sword_fishing_rod",
+			"ctft:iron_sword_compass",
+			"ctft:iron_sword_clock",
+			"ctft:iron_sword_helmet",
+			"ctft:iron_sword_chestplate",
+			"ctft:iron_sword_leggings",
+			"ctft:iron_sword_boots",
+			"ctft:iron_sword_shears",
+			"ctft:iron_sword_horse_armor",
+			"ctft:iron_sword_bow"
+		]
+	}
+}

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:debug_stick"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:debug_stick_sword",
+			"ctft:debug_stick_pickaxe",
+			"ctft:debug_stick_axe",
+			"ctft:debug_stick_shovel",
+			"ctft:debug_stick_hoe",
+			"ctft:debug_stick_shield",
+			"ctft:debug_stick_fishing_rod",
+			"ctft:debug_stick_compass",
+			"ctft:debug_stick_clock",
+			"ctft:debug_stick_helmet",
+			"ctft:debug_stick_chestplate",
+			"ctft:debug_stick_leggings",
+			"ctft:debug_stick_boots",
+			"ctft:debug_stick_shears",
+			"ctft:debug_stick_horse_armor",
+			"ctft:debug_stick_bow"
+		]
+	}
+}

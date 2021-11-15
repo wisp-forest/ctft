@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/purple_terracotta_clock_13",
-    "1": "ctft:items/clock_13"
+    "0": "ctft:items/clock_13",
+    "1": "ctft:blocks/purple_terracotta_block",
+    "particle": "ctft:blocks/purple_terracotta_block"
   }
 }
             

@@ -1,0 +1,23 @@
+
+{
+  "group": "Elder Guardian Spawn Egg Axe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "00 ",
+    "01 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:elder_guardian_spawn_egg"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:elder_guardian_spawn_egg_axe",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,20 @@
+
+{
+  "group": "Tinted Glass Helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:tinted_glass"
+    }
+  },
+  "result": {
+    "item": "ctft:tinted_glass_helmet",
+    "count": 1
+  }
+}
+        

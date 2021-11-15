@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cracked_polished_blackstone_bricks"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:cracked_polished_blackstone_bricks_sword",
+			"ctft:cracked_polished_blackstone_bricks_pickaxe",
+			"ctft:cracked_polished_blackstone_bricks_axe",
+			"ctft:cracked_polished_blackstone_bricks_shovel",
+			"ctft:cracked_polished_blackstone_bricks_hoe",
+			"ctft:cracked_polished_blackstone_bricks_shield",
+			"ctft:cracked_polished_blackstone_bricks_fishing_rod",
+			"ctft:cracked_polished_blackstone_bricks_compass",
+			"ctft:cracked_polished_blackstone_bricks_clock",
+			"ctft:cracked_polished_blackstone_bricks_helmet",
+			"ctft:cracked_polished_blackstone_bricks_chestplate",
+			"ctft:cracked_polished_blackstone_bricks_leggings",
+			"ctft:cracked_polished_blackstone_bricks_boots",
+			"ctft:cracked_polished_blackstone_bricks_shears",
+			"ctft:cracked_polished_blackstone_bricks_horse_armor",
+			"ctft:cracked_polished_blackstone_bricks_bow"
+		]
+	}
+}

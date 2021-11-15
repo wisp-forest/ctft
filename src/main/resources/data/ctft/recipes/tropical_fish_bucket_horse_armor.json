@@ -1,0 +1,20 @@
+
+{
+  "group": "Tropical Fish Bucket Horse Armor",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:tropical_fish_bucket"
+    }
+  },
+  "result": {
+    "item": "ctft:tropical_fish_bucket_horse_armor",
+    "count": 1
+  }
+}
+        

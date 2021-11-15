@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:warped_wart_block"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:warped_wart_block_sword",
+			"ctft:warped_wart_block_pickaxe",
+			"ctft:warped_wart_block_axe",
+			"ctft:warped_wart_block_shovel",
+			"ctft:warped_wart_block_hoe",
+			"ctft:warped_wart_block_shield",
+			"ctft:warped_wart_block_fishing_rod",
+			"ctft:warped_wart_block_compass",
+			"ctft:warped_wart_block_clock",
+			"ctft:warped_wart_block_helmet",
+			"ctft:warped_wart_block_chestplate",
+			"ctft:warped_wart_block_leggings",
+			"ctft:warped_wart_block_boots",
+			"ctft:warped_wart_block_shears",
+			"ctft:warped_wart_block_horse_armor",
+			"ctft:warped_wart_block_bow"
+		]
+	}
+}

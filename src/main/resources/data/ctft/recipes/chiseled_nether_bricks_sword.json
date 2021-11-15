@@ -1,0 +1,23 @@
+
+{
+  "group": "Chiseled Nether Bricks Sword",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    " 0 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:chiseled_nether_bricks"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:chiseled_nether_bricks_sword",
+    "count": 1
+  }
+}
+        

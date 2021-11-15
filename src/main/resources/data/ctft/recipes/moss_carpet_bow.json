@@ -1,0 +1,23 @@
+
+{
+  "group": "Moss Carpet Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:moss_carpet"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:moss_carpet_bow",
+    "count": 1
+  }
+}
+        

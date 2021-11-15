@@ -1,0 +1,23 @@
+
+{
+  "group": "Golden Hoe Fishing Rod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 01",
+    "0 1"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:golden_hoe"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:golden_hoe_fishing_rod",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:magenta_concrete"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:magenta_concrete_sword",
+			"ctft:magenta_concrete_pickaxe",
+			"ctft:magenta_concrete_axe",
+			"ctft:magenta_concrete_shovel",
+			"ctft:magenta_concrete_hoe",
+			"ctft:magenta_concrete_shield",
+			"ctft:magenta_concrete_fishing_rod",
+			"ctft:magenta_concrete_compass",
+			"ctft:magenta_concrete_clock",
+			"ctft:magenta_concrete_helmet",
+			"ctft:magenta_concrete_chestplate",
+			"ctft:magenta_concrete_leggings",
+			"ctft:magenta_concrete_boots",
+			"ctft:magenta_concrete_shears",
+			"ctft:magenta_concrete_horse_armor",
+			"ctft:magenta_concrete_bow"
+		]
+	}
+}

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:spruce_button"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:spruce_button_sword",
+			"ctft:spruce_button_pickaxe",
+			"ctft:spruce_button_axe",
+			"ctft:spruce_button_shovel",
+			"ctft:spruce_button_hoe",
+			"ctft:spruce_button_shield",
+			"ctft:spruce_button_fishing_rod",
+			"ctft:spruce_button_compass",
+			"ctft:spruce_button_clock",
+			"ctft:spruce_button_helmet",
+			"ctft:spruce_button_chestplate",
+			"ctft:spruce_button_leggings",
+			"ctft:spruce_button_boots",
+			"ctft:spruce_button_shears",
+			"ctft:spruce_button_horse_armor",
+			"ctft:spruce_button_bow"
+		]
+	}
+}

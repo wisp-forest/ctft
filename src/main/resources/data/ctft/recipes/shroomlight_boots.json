@@ -1,0 +1,20 @@
+
+{
+  "group": "Shroomlight Boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:shroomlight"
+    }
+  },
+  "result": {
+    "item": "ctft:shroomlight_boots",
+    "count": 1
+  }
+}
+        

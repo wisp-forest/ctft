@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:potion"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:potion_sword",
+			"ctft:potion_pickaxe",
+			"ctft:potion_axe",
+			"ctft:potion_shovel",
+			"ctft:potion_hoe",
+			"ctft:potion_shield",
+			"ctft:potion_fishing_rod",
+			"ctft:potion_compass",
+			"ctft:potion_clock",
+			"ctft:potion_helmet",
+			"ctft:potion_chestplate",
+			"ctft:potion_leggings",
+			"ctft:potion_boots",
+			"ctft:potion_shears",
+			"ctft:potion_horse_armor",
+			"ctft:potion_bow"
+		]
+	}
+}

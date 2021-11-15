@@ -1,0 +1,20 @@
+
+{
+  "group": "Melon Slice Boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:melon_slice"
+    }
+  },
+  "result": {
+    "item": "ctft:melon_slice_boots",
+    "count": 1
+  }
+}
+        

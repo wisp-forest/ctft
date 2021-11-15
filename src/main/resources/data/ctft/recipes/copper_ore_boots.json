@@ -1,0 +1,20 @@
+
+{
+  "group": "Copper Ore Boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:copper_ore"
+    }
+  },
+  "result": {
+    "item": "ctft:copper_ore_boots",
+    "count": 1
+  }
+}
+        

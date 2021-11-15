@@ -1,0 +1,20 @@
+
+{
+  "group": "Polished Deepslate Stairs Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:polished_deepslate_stairs"
+    }
+  },
+  "result": {
+    "item": "ctft:polished_deepslate_stairs_chestplate",
+    "count": 1
+  }
+}
+        

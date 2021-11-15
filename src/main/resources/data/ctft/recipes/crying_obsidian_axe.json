@@ -1,0 +1,23 @@
+
+{
+  "group": "Crying Obsidian Axe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "00 ",
+    "01 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:crying_obsidian_axe",
+    "count": 1
+  }
+}
+        

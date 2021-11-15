@@ -1,0 +1,10 @@
+
+    {
+      "parent": "ctft:item/leggings",
+      "textures": {
+        "0": "ctft:items/iron_leggings",
+        "1": "ctft:blocks/beetroot_seeds_block",
+        "particle": "ctft:blocks/beetroot_seeds_block"
+      }
+    }
+            

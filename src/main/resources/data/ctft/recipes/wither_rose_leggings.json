@@ -1,0 +1,20 @@
+
+{
+  "group": "Wither Rose Leggings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:wither_rose"
+    }
+  },
+  "result": {
+    "item": "ctft:wither_rose_leggings",
+    "count": 1
+  }
+}
+        

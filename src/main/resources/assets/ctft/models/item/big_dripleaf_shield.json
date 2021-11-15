@@ -2,7 +2,13 @@
     {
       "parent": "ctft:item/shield",
       "textures": {
-        "0": "ctft:items/big_dripleaf_top_shield_base"
-      }
+        "0": "ctft:items/shield_base",
+        "1": "ctft:blocks/big_dripleaf_top_block",
+        "particle": "ctft:blocks/big_dripleaf_top_block"
+      },
+      "overrides": [
+        { "predicate": { "blocking": 0.0 }, "model": "ctft:item/big_dripleaf_shield" },
+        { "predicate": { "blocking": 1.0 }, "model": "ctft:item/big_dripleaf_shield_blocking" }
+        ]
     }
             

@@ -1,0 +1,23 @@
+
+{
+  "group": "Dark Prismarine Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:dark_prismarine"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:dark_prismarine_bow",
+    "count": 1
+  }
+}
+        

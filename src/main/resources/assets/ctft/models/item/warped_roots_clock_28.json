@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/warped_roots_clock_28",
-    "1": "ctft:items/clock_28"
+    "0": "ctft:items/clock_28",
+    "1": "ctft:blocks/warped_roots_block",
+    "particle": "ctft:blocks/warped_roots_block"
   }
 }
             

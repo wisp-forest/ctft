@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/amethyst_shard_clock_28",
-    "1": "ctft:items/clock_28"
+    "0": "ctft:items/clock_28",
+    "1": "ctft:blocks/amethyst_shard_block",
+    "particle": "ctft:blocks/amethyst_shard_block"
   }
 }
             

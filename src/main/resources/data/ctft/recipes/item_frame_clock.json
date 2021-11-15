@@ -1,0 +1,23 @@
+
+{
+  "group": "Item Frame Clock",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    "010",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:item_frame"
+    },
+    "1": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:item_frame_clock",
+    "count": 1
+  }
+}
+        

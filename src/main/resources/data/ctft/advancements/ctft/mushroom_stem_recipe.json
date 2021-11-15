@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mushroom_stem"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:mushroom_stem_sword",
+			"ctft:mushroom_stem_pickaxe",
+			"ctft:mushroom_stem_axe",
+			"ctft:mushroom_stem_shovel",
+			"ctft:mushroom_stem_hoe",
+			"ctft:mushroom_stem_shield",
+			"ctft:mushroom_stem_fishing_rod",
+			"ctft:mushroom_stem_compass",
+			"ctft:mushroom_stem_clock",
+			"ctft:mushroom_stem_helmet",
+			"ctft:mushroom_stem_chestplate",
+			"ctft:mushroom_stem_leggings",
+			"ctft:mushroom_stem_boots",
+			"ctft:mushroom_stem_shears",
+			"ctft:mushroom_stem_horse_armor",
+			"ctft:mushroom_stem_bow"
+		]
+	}
+}

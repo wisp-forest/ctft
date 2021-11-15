@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:elytra"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:elytra_sword",
+			"ctft:elytra_pickaxe",
+			"ctft:elytra_axe",
+			"ctft:elytra_shovel",
+			"ctft:elytra_hoe",
+			"ctft:elytra_shield",
+			"ctft:elytra_fishing_rod",
+			"ctft:elytra_compass",
+			"ctft:elytra_clock",
+			"ctft:elytra_helmet",
+			"ctft:elytra_chestplate",
+			"ctft:elytra_leggings",
+			"ctft:elytra_boots",
+			"ctft:elytra_shears",
+			"ctft:elytra_horse_armor",
+			"ctft:elytra_bow"
+		]
+	}
+}

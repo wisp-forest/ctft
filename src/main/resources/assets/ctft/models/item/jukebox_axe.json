@@ -1,8 +1,10 @@
 
     {
-      "parent": "item/handheld",
+      "parent": "ctft:item/axe",
       "textures": {
-        "layer0": "ctft:items/jukebox_side_axe"
+        "0": "ctft:items/iron_axe",
+        "1": "ctft:blocks/jukebox_side_block",
+        "particle": "ctft:blocks/jukebox_side_block"
       }
     }
             

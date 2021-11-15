@@ -1,0 +1,23 @@
+
+{
+  "group": "Large Amethyst Bud Hoe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "00 ",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:large_amethyst_bud"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:large_amethyst_bud_hoe",
+    "count": 1
+  }
+}
+        

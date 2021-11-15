@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:pillager_spawn_egg"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:pillager_spawn_egg_sword",
+			"ctft:pillager_spawn_egg_pickaxe",
+			"ctft:pillager_spawn_egg_axe",
+			"ctft:pillager_spawn_egg_shovel",
+			"ctft:pillager_spawn_egg_hoe",
+			"ctft:pillager_spawn_egg_shield",
+			"ctft:pillager_spawn_egg_fishing_rod",
+			"ctft:pillager_spawn_egg_compass",
+			"ctft:pillager_spawn_egg_clock",
+			"ctft:pillager_spawn_egg_helmet",
+			"ctft:pillager_spawn_egg_chestplate",
+			"ctft:pillager_spawn_egg_leggings",
+			"ctft:pillager_spawn_egg_boots",
+			"ctft:pillager_spawn_egg_shears",
+			"ctft:pillager_spawn_egg_horse_armor",
+			"ctft:pillager_spawn_egg_bow"
+		]
+	}
+}

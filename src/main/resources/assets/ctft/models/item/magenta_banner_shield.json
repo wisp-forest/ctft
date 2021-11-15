@@ -2,7 +2,13 @@
     {
       "parent": "ctft:item/shield",
       "textures": {
-        "0": "ctft:items/magenta_concrete_shield_base"
-      }
+        "0": "ctft:items/shield_base",
+        "1": "ctft:blocks/magenta_concrete_block",
+        "particle": "ctft:blocks/magenta_concrete_block"
+      },
+      "overrides": [
+        { "predicate": { "blocking": 0.0 }, "model": "ctft:item/magenta_banner_shield" },
+        { "predicate": { "blocking": 1.0 }, "model": "ctft:item/magenta_banner_shield_blocking" }
+        ]
     }
             

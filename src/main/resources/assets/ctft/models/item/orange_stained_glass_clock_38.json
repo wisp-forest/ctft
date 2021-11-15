@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/orange_stained_glass_clock_38",
-    "1": "ctft:items/clock_38"
+    "0": "ctft:items/clock_38",
+    "1": "ctft:blocks/orange_stained_glass_block",
+    "particle": "ctft:blocks/orange_stained_glass_block"
   }
 }
             

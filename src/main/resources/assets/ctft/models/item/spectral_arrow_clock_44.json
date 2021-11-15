@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/spectral_arrow_clock_44",
-    "1": "ctft:items/clock_44"
+    "0": "ctft:items/clock_44",
+    "1": "ctft:blocks/spectral_arrow_block",
+    "particle": "ctft:blocks/spectral_arrow_block"
   }
 }
             

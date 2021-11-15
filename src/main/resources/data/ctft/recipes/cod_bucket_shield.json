@@ -1,0 +1,23 @@
+
+{
+  "group": "Cod Bucket Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:cod_bucket"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:cod_bucket_shield",
+    "count": 1
+  }
+}
+        

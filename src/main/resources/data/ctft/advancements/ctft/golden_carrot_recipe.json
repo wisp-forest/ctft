@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:golden_carrot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:golden_carrot_sword",
+			"ctft:golden_carrot_pickaxe",
+			"ctft:golden_carrot_axe",
+			"ctft:golden_carrot_shovel",
+			"ctft:golden_carrot_hoe",
+			"ctft:golden_carrot_shield",
+			"ctft:golden_carrot_fishing_rod",
+			"ctft:golden_carrot_compass",
+			"ctft:golden_carrot_clock",
+			"ctft:golden_carrot_helmet",
+			"ctft:golden_carrot_chestplate",
+			"ctft:golden_carrot_leggings",
+			"ctft:golden_carrot_boots",
+			"ctft:golden_carrot_shears",
+			"ctft:golden_carrot_horse_armor",
+			"ctft:golden_carrot_bow"
+		]
+	}
+}

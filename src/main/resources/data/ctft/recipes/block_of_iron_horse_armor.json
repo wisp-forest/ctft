@@ -1,0 +1,20 @@
+
+{
+  "group": "Block of Iron Horse Armor",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:iron_block"
+    }
+  },
+  "result": {
+    "item": "ctft:block_of_iron_horse_armor",
+    "count": 1
+  }
+}
+        

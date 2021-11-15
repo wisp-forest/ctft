@@ -1,0 +1,20 @@
+
+{
+  "group": "Hopper Minecart Leggings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:hopper_minecart"
+    }
+  },
+  "result": {
+    "item": "ctft:hopper_minecart_leggings",
+    "count": 1
+  }
+}
+        

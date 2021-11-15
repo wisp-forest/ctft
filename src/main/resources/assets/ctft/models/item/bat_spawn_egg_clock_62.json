@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/bat_clock_62",
-    "1": "ctft:items/clock_62"
+    "0": "ctft:items/clock_62",
+    "1": "ctft:blocks/bat_block",
+    "particle": "ctft:blocks/bat_block"
   }
 }
             

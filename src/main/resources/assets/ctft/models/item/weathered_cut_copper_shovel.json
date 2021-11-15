@@ -1,8 +1,10 @@
 
     {
-      "parent": "item/handheld",
+      "parent": "ctft:item/shovel",
       "textures": {
-        "layer0": "ctft:items/weathered_cut_copper_shovel"
+        "0": "ctft:items/iron_shovel",
+        "1": "ctft:blocks/weathered_cut_copper_block",
+        "particle": "ctft:blocks/weathered_cut_copper_block"
       }
     }
             

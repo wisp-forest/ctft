@@ -1,0 +1,20 @@
+
+{
+  "group": "Oak Pressure Plate Helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:oak_pressure_plate"
+    }
+  },
+  "result": {
+    "item": "ctft:oak_pressure_plate_helmet",
+    "count": 1
+  }
+}
+        

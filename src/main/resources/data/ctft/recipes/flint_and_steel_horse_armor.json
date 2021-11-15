@@ -1,0 +1,20 @@
+
+{
+  "group": "Flint And Steel Horse Armor",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:flint_and_steel"
+    }
+  },
+  "result": {
+    "item": "ctft:flint_and_steel_horse_armor",
+    "count": 1
+  }
+}
+        

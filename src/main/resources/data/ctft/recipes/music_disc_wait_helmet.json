@@ -1,0 +1,20 @@
+
+{
+  "group": "Music Disc Wait Helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:music_disc_wait"
+    }
+  },
+  "result": {
+    "item": "ctft:music_disc_wait_helmet",
+    "count": 1
+  }
+}
+        

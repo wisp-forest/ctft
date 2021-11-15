@@ -1,14 +1,13 @@
 package com.chyzman.ctft;
 
-import java.time.Clock;
 import java.util.stream.Collectors;
 
 import com.chyzman.ctft.init.*;
-
+import net.minecraft.client.renderer.entity.FishingHookRenderer;
+import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.fmlserverevents.FMLServerStartingEvent;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -30,9 +29,16 @@ public class Ctft {
     public static final CreativeModeTab ctft_shovels = new TabInit.CtftShovels();
     public static final CreativeModeTab ctft_hoes = new TabInit.CtftHoes();
     public static final CreativeModeTab ctft_shears = new TabInit.CtftShears();
+    public static final CreativeModeTab ctft_helmets = new TabInit.CtftHelmets();
+    public static final CreativeModeTab ctft_chestplates = new TabInit.CtftChestplates();
+    public static final CreativeModeTab ctft_leggings = new TabInit.CtftLeggings();
+    public static final CreativeModeTab ctft_boots = new TabInit.CtftBoots();
     public static final CreativeModeTab ctft_shields = new TabInit.CtftShields();
     public static final CreativeModeTab ctft_fishing_rods = new TabInit.CtftFishingRods();
     public static final CreativeModeTab ctft_clocks = new TabInit.CtftClocks();
+    public static final CreativeModeTab ctft_compasses = new TabInit.CtftCompasses();
+    public static final CreativeModeTab ctft_horse_armor = new TabInit.CtftHorseArmor();
+    public static final CreativeModeTab ctft_bows = new TabInit.CtftBows();
 
     public Ctft() {
         SwordInit.SWORDS.register(FMLJavaModLoadingContext.get().getModEventBus());
@@ -44,6 +50,13 @@ public class Ctft {
         ShieldInit.SHIELDS.register(FMLJavaModLoadingContext.get().getModEventBus());
         FishingRodInit.FISHINGRODS.register(FMLJavaModLoadingContext.get().getModEventBus());
         ClockInit.CLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
+        HelmetInit.HELMETS.register(FMLJavaModLoadingContext.get().getModEventBus());
+        ChestplateInit.CHESTPLATES.register(FMLJavaModLoadingContext.get().getModEventBus());
+        LeggingsInit.LEGGINGS.register(FMLJavaModLoadingContext.get().getModEventBus());
+        BootsInit.BOOTS.register(FMLJavaModLoadingContext.get().getModEventBus());
+        CompassInit.COMPASSES.register(FMLJavaModLoadingContext.get().getModEventBus());
+        HorseArmorInit.HORSEARMOR.register(FMLJavaModLoadingContext.get().getModEventBus());
+        BowInit.BOWS.register(FMLJavaModLoadingContext.get().getModEventBus());
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::enqueueIMC);
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::processIMC);
@@ -67,9 +80,6 @@ public class Ctft {
     }
 
     private void processIMC(final InterModProcessEvent event) {
-        logger.info("Ctft IMC {}", event.getIMCStream().
-                map(m -> m.getMessageSupplier().get()).
-                collect(Collectors.toList()));
     }
 
     @SubscribeEvent

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:jungle_fence"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:jungle_fence_sword",
+			"ctft:jungle_fence_pickaxe",
+			"ctft:jungle_fence_axe",
+			"ctft:jungle_fence_shovel",
+			"ctft:jungle_fence_hoe",
+			"ctft:jungle_fence_shield",
+			"ctft:jungle_fence_fishing_rod",
+			"ctft:jungle_fence_compass",
+			"ctft:jungle_fence_clock",
+			"ctft:jungle_fence_helmet",
+			"ctft:jungle_fence_chestplate",
+			"ctft:jungle_fence_leggings",
+			"ctft:jungle_fence_boots",
+			"ctft:jungle_fence_shears",
+			"ctft:jungle_fence_horse_armor",
+			"ctft:jungle_fence_bow"
+		]
+	}
+}

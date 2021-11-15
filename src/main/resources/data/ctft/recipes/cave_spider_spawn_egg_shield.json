@@ -1,0 +1,23 @@
+
+{
+  "group": "Cave Spider Spawn Egg Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:cave_spider_spawn_egg"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:cave_spider_spawn_egg_shield",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:melon_seeds"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:melon_seeds_sword",
+			"ctft:melon_seeds_pickaxe",
+			"ctft:melon_seeds_axe",
+			"ctft:melon_seeds_shovel",
+			"ctft:melon_seeds_hoe",
+			"ctft:melon_seeds_shield",
+			"ctft:melon_seeds_fishing_rod",
+			"ctft:melon_seeds_compass",
+			"ctft:melon_seeds_clock",
+			"ctft:melon_seeds_helmet",
+			"ctft:melon_seeds_chestplate",
+			"ctft:melon_seeds_leggings",
+			"ctft:melon_seeds_boots",
+			"ctft:melon_seeds_shears",
+			"ctft:melon_seeds_horse_armor",
+			"ctft:melon_seeds_bow"
+		]
+	}
+}

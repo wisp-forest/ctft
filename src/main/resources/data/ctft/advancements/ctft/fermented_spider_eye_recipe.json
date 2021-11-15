@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:fermented_spider_eye"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:fermented_spider_eye_sword",
+			"ctft:fermented_spider_eye_pickaxe",
+			"ctft:fermented_spider_eye_axe",
+			"ctft:fermented_spider_eye_shovel",
+			"ctft:fermented_spider_eye_hoe",
+			"ctft:fermented_spider_eye_shield",
+			"ctft:fermented_spider_eye_fishing_rod",
+			"ctft:fermented_spider_eye_compass",
+			"ctft:fermented_spider_eye_clock",
+			"ctft:fermented_spider_eye_helmet",
+			"ctft:fermented_spider_eye_chestplate",
+			"ctft:fermented_spider_eye_leggings",
+			"ctft:fermented_spider_eye_boots",
+			"ctft:fermented_spider_eye_shears",
+			"ctft:fermented_spider_eye_horse_armor",
+			"ctft:fermented_spider_eye_bow"
+		]
+	}
+}

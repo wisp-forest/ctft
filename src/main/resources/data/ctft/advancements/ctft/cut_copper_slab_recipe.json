@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cut_copper_slab"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:cut_copper_slab_sword",
+			"ctft:cut_copper_slab_pickaxe",
+			"ctft:cut_copper_slab_axe",
+			"ctft:cut_copper_slab_shovel",
+			"ctft:cut_copper_slab_hoe",
+			"ctft:cut_copper_slab_shield",
+			"ctft:cut_copper_slab_fishing_rod",
+			"ctft:cut_copper_slab_compass",
+			"ctft:cut_copper_slab_clock",
+			"ctft:cut_copper_slab_helmet",
+			"ctft:cut_copper_slab_chestplate",
+			"ctft:cut_copper_slab_leggings",
+			"ctft:cut_copper_slab_boots",
+			"ctft:cut_copper_slab_shears",
+			"ctft:cut_copper_slab_horse_armor",
+			"ctft:cut_copper_slab_bow"
+		]
+	}
+}

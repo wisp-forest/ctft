@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:purpur_slab"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:purpur_slab_sword",
+			"ctft:purpur_slab_pickaxe",
+			"ctft:purpur_slab_axe",
+			"ctft:purpur_slab_shovel",
+			"ctft:purpur_slab_hoe",
+			"ctft:purpur_slab_shield",
+			"ctft:purpur_slab_fishing_rod",
+			"ctft:purpur_slab_compass",
+			"ctft:purpur_slab_clock",
+			"ctft:purpur_slab_helmet",
+			"ctft:purpur_slab_chestplate",
+			"ctft:purpur_slab_leggings",
+			"ctft:purpur_slab_boots",
+			"ctft:purpur_slab_shears",
+			"ctft:purpur_slab_horse_armor",
+			"ctft:purpur_slab_bow"
+		]
+	}
+}

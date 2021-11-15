@@ -1,0 +1,20 @@
+
+{
+  "group": "Stone Button Boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:stone_button"
+    }
+  },
+  "result": {
+    "item": "ctft:stone_button_boots",
+    "count": 1
+  }
+}
+        

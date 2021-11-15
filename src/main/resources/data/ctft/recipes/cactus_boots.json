@@ -1,0 +1,20 @@
+
+{
+  "group": "Cactus Boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:cactus"
+    }
+  },
+  "result": {
+    "item": "ctft:cactus_boots",
+    "count": 1
+  }
+}
+        

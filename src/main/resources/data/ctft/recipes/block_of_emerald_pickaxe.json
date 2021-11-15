@@ -1,0 +1,23 @@
+
+{
+  "group": "Block of Emerald Pickaxe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:emerald_block"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:block_of_emerald_pickaxe",
+    "count": 1
+  }
+}
+        

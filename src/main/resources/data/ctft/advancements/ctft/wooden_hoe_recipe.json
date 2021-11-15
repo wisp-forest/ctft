@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:wooden_hoe"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:wooden_hoe_sword",
+			"ctft:wooden_hoe_pickaxe",
+			"ctft:wooden_hoe_axe",
+			"ctft:wooden_hoe_shovel",
+			"ctft:wooden_hoe_hoe",
+			"ctft:wooden_hoe_shield",
+			"ctft:wooden_hoe_fishing_rod",
+			"ctft:wooden_hoe_compass",
+			"ctft:wooden_hoe_clock",
+			"ctft:wooden_hoe_helmet",
+			"ctft:wooden_hoe_chestplate",
+			"ctft:wooden_hoe_leggings",
+			"ctft:wooden_hoe_boots",
+			"ctft:wooden_hoe_shears",
+			"ctft:wooden_hoe_horse_armor",
+			"ctft:wooden_hoe_bow"
+		]
+	}
+}

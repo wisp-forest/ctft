@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:chorus_fruit"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:chorus_fruit_sword",
+			"ctft:chorus_fruit_pickaxe",
+			"ctft:chorus_fruit_axe",
+			"ctft:chorus_fruit_shovel",
+			"ctft:chorus_fruit_hoe",
+			"ctft:chorus_fruit_shield",
+			"ctft:chorus_fruit_fishing_rod",
+			"ctft:chorus_fruit_compass",
+			"ctft:chorus_fruit_clock",
+			"ctft:chorus_fruit_helmet",
+			"ctft:chorus_fruit_chestplate",
+			"ctft:chorus_fruit_leggings",
+			"ctft:chorus_fruit_boots",
+			"ctft:chorus_fruit_shears",
+			"ctft:chorus_fruit_horse_armor",
+			"ctft:chorus_fruit_bow"
+		]
+	}
+}

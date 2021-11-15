@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:birch_leaves"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:birch_leaves_sword",
+			"ctft:birch_leaves_pickaxe",
+			"ctft:birch_leaves_axe",
+			"ctft:birch_leaves_shovel",
+			"ctft:birch_leaves_hoe",
+			"ctft:birch_leaves_shield",
+			"ctft:birch_leaves_fishing_rod",
+			"ctft:birch_leaves_compass",
+			"ctft:birch_leaves_clock",
+			"ctft:birch_leaves_helmet",
+			"ctft:birch_leaves_chestplate",
+			"ctft:birch_leaves_leggings",
+			"ctft:birch_leaves_boots",
+			"ctft:birch_leaves_shears",
+			"ctft:birch_leaves_horse_armor",
+			"ctft:birch_leaves_bow"
+		]
+	}
+}

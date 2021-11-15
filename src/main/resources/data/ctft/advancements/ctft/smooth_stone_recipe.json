@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:smooth_stone"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:smooth_stone_sword",
+			"ctft:smooth_stone_pickaxe",
+			"ctft:smooth_stone_axe",
+			"ctft:smooth_stone_shovel",
+			"ctft:smooth_stone_hoe",
+			"ctft:smooth_stone_shield",
+			"ctft:smooth_stone_fishing_rod",
+			"ctft:smooth_stone_compass",
+			"ctft:smooth_stone_clock",
+			"ctft:smooth_stone_helmet",
+			"ctft:smooth_stone_chestplate",
+			"ctft:smooth_stone_leggings",
+			"ctft:smooth_stone_boots",
+			"ctft:smooth_stone_shears",
+			"ctft:smooth_stone_horse_armor",
+			"ctft:smooth_stone_bow"
+		]
+	}
+}

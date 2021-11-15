@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:sweet_berries"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:sweet_berries_sword",
+			"ctft:sweet_berries_pickaxe",
+			"ctft:sweet_berries_axe",
+			"ctft:sweet_berries_shovel",
+			"ctft:sweet_berries_hoe",
+			"ctft:sweet_berries_shield",
+			"ctft:sweet_berries_fishing_rod",
+			"ctft:sweet_berries_compass",
+			"ctft:sweet_berries_clock",
+			"ctft:sweet_berries_helmet",
+			"ctft:sweet_berries_chestplate",
+			"ctft:sweet_berries_leggings",
+			"ctft:sweet_berries_boots",
+			"ctft:sweet_berries_shears",
+			"ctft:sweet_berries_horse_armor",
+			"ctft:sweet_berries_bow"
+		]
+	}
+}

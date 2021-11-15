@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:leather_leggings"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:leather_leggings_sword",
+			"ctft:leather_leggings_pickaxe",
+			"ctft:leather_leggings_axe",
+			"ctft:leather_leggings_shovel",
+			"ctft:leather_leggings_hoe",
+			"ctft:leather_leggings_shield",
+			"ctft:leather_leggings_fishing_rod",
+			"ctft:leather_leggings_compass",
+			"ctft:leather_leggings_clock",
+			"ctft:leather_leggings_helmet",
+			"ctft:leather_leggings_chestplate",
+			"ctft:leather_leggings_leggings",
+			"ctft:leather_leggings_boots",
+			"ctft:leather_leggings_shears",
+			"ctft:leather_leggings_horse_armor",
+			"ctft:leather_leggings_bow"
+		]
+	}
+}

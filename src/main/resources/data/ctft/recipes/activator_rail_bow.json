@@ -1,0 +1,23 @@
+
+{
+  "group": "Activator Rail Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:activator_rail"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:activator_rail_bow",
+    "count": 1
+  }
+}
+        

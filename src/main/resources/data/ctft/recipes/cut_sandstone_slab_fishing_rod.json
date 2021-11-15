@@ -1,0 +1,23 @@
+
+{
+  "group": "Cut Sandstone Slab Fishing Rod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 01",
+    "0 1"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:cut_standstone_slab"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:cut_sandstone_slab_fishing_rod",
+    "count": 1
+  }
+}
+        

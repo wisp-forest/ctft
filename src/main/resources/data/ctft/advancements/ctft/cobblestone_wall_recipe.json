@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cobblestone_wall"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:cobblestone_wall_sword",
+			"ctft:cobblestone_wall_pickaxe",
+			"ctft:cobblestone_wall_axe",
+			"ctft:cobblestone_wall_shovel",
+			"ctft:cobblestone_wall_hoe",
+			"ctft:cobblestone_wall_shield",
+			"ctft:cobblestone_wall_fishing_rod",
+			"ctft:cobblestone_wall_compass",
+			"ctft:cobblestone_wall_clock",
+			"ctft:cobblestone_wall_helmet",
+			"ctft:cobblestone_wall_chestplate",
+			"ctft:cobblestone_wall_leggings",
+			"ctft:cobblestone_wall_boots",
+			"ctft:cobblestone_wall_shears",
+			"ctft:cobblestone_wall_horse_armor",
+			"ctft:cobblestone_wall_bow"
+		]
+	}
+}

@@ -2,7 +2,13 @@
     {
       "parent": "ctft:item/shield",
       "textures": {
-        "0": "ctft:items/blue_stained_glass_shield_base"
-      }
+        "0": "ctft:items/shield_base",
+        "1": "ctft:blocks/blue_stained_glass_block",
+        "particle": "ctft:blocks/blue_stained_glass_block"
+      },
+      "overrides": [
+        { "predicate": { "blocking": 0.0 }, "model": "ctft:item/blue_stained_glass_shield" },
+        { "predicate": { "blocking": 1.0 }, "model": "ctft:item/blue_stained_glass_shield_blocking" }
+        ]
     }
             

@@ -1,0 +1,20 @@
+
+{
+  "group": "Chorus Flower Helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:chorus_flower"
+    }
+  },
+  "result": {
+    "item": "ctft:chorus_flower_helmet",
+    "count": 1
+  }
+}
+        

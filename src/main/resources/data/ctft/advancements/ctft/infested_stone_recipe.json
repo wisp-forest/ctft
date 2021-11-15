@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:infested_stone"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:infested_stone_sword",
+			"ctft:infested_stone_pickaxe",
+			"ctft:infested_stone_axe",
+			"ctft:infested_stone_shovel",
+			"ctft:infested_stone_hoe",
+			"ctft:infested_stone_shield",
+			"ctft:infested_stone_fishing_rod",
+			"ctft:infested_stone_compass",
+			"ctft:infested_stone_clock",
+			"ctft:infested_stone_helmet",
+			"ctft:infested_stone_chestplate",
+			"ctft:infested_stone_leggings",
+			"ctft:infested_stone_boots",
+			"ctft:infested_stone_shears",
+			"ctft:infested_stone_horse_armor",
+			"ctft:infested_stone_bow"
+		]
+	}
+}

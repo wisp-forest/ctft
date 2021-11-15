@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:oak_stairs"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:oak_stairs_sword",
+			"ctft:oak_stairs_pickaxe",
+			"ctft:oak_stairs_axe",
+			"ctft:oak_stairs_shovel",
+			"ctft:oak_stairs_hoe",
+			"ctft:oak_stairs_shield",
+			"ctft:oak_stairs_fishing_rod",
+			"ctft:oak_stairs_compass",
+			"ctft:oak_stairs_clock",
+			"ctft:oak_stairs_helmet",
+			"ctft:oak_stairs_chestplate",
+			"ctft:oak_stairs_leggings",
+			"ctft:oak_stairs_boots",
+			"ctft:oak_stairs_shears",
+			"ctft:oak_stairs_horse_armor",
+			"ctft:oak_stairs_bow"
+		]
+	}
+}

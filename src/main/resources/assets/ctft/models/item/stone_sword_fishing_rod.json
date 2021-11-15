@@ -1,8 +1,14 @@
 
 {
-  "parent": "item/fishing_rod",
+  "parent": "ctft:item/fishing_rod",
   "textures": {
-    "layer0": "ctft:items/stone_sword_fishing_rod"
-  }
+    "0": "ctft:items/fishing_rod",
+    "1": "ctft:blocks/stone_sword_block",
+    "particle": "ctft:blocks/stone_sword_block"
+  },
+  "overrides": [
+        { "predicate": { "cast": 0.0 }, "model": "ctft:item/stone_sword_fishing_rod" },
+        { "predicate": { "cast": 1.0 }, "model": "ctft:item/stone_sword_fishing_rod_cast" }
+    ]
 }
         

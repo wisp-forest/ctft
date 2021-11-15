@@ -1,8 +1,10 @@
 
     {
-      "parent": "item/handheld",
+      "parent": "ctft:item/shovel",
       "textures": {
-        "layer0": "ctft:items/sculk_sensor_bottom_shovel"
+        "0": "ctft:items/iron_shovel",
+        "1": "ctft:blocks/sculk_sensor_bottom_block",
+        "particle": "ctft:blocks/sculk_sensor_bottom_block"
       }
     }
             

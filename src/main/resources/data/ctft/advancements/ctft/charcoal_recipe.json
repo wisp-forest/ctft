@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:charcoal"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:charcoal_sword",
+			"ctft:charcoal_pickaxe",
+			"ctft:charcoal_axe",
+			"ctft:charcoal_shovel",
+			"ctft:charcoal_hoe",
+			"ctft:charcoal_shield",
+			"ctft:charcoal_fishing_rod",
+			"ctft:charcoal_compass",
+			"ctft:charcoal_clock",
+			"ctft:charcoal_helmet",
+			"ctft:charcoal_chestplate",
+			"ctft:charcoal_leggings",
+			"ctft:charcoal_boots",
+			"ctft:charcoal_shears",
+			"ctft:charcoal_horse_armor",
+			"ctft:charcoal_bow"
+		]
+	}
+}

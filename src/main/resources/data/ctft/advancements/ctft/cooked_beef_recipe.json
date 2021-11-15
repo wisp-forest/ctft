@@ -1,0 +1,41 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cooked_beef"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:cooked_beef_sword",
+			"ctft:cooked_beef_pickaxe",
+			"ctft:cooked_beef_axe",
+			"ctft:cooked_beef_shovel",
+			"ctft:cooked_beef_hoe",
+			"ctft:cooked_beef_shield",
+			"ctft:cooked_beef_fishing_rod",
+			"ctft:cooked_beef_compass",
+			"ctft:cooked_beef_clock",
+			"ctft:cooked_beef_helmet",
+			"ctft:cooked_beef_chestplate",
+			"ctft:cooked_beef_leggings",
+			"ctft:cooked_beef_boots",
+			"ctft:cooked_beef_shears",
+			"ctft:cooked_beef_horse_armor"
+		]
+	}
+}

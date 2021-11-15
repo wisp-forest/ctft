@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:lilac"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:lilac_sword",
+			"ctft:lilac_pickaxe",
+			"ctft:lilac_axe",
+			"ctft:lilac_shovel",
+			"ctft:lilac_hoe",
+			"ctft:lilac_shield",
+			"ctft:lilac_fishing_rod",
+			"ctft:lilac_compass",
+			"ctft:lilac_clock",
+			"ctft:lilac_helmet",
+			"ctft:lilac_chestplate",
+			"ctft:lilac_leggings",
+			"ctft:lilac_boots",
+			"ctft:lilac_shears",
+			"ctft:lilac_horse_armor",
+			"ctft:lilac_bow"
+		]
+	}
+}

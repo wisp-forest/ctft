@@ -1,0 +1,20 @@
+
+{
+  "group": "Waxed Cut Copper Slab Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:waxed_cut_copper_slab"
+    }
+  },
+  "result": {
+    "item": "ctft:waxed_cut_copper_slab_chestplate",
+    "count": 1
+  }
+}
+        

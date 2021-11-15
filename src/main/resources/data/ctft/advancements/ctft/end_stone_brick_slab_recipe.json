@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:end_stone_brick_slab"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:end_stone_brick_slab_sword",
+			"ctft:end_stone_brick_slab_pickaxe",
+			"ctft:end_stone_brick_slab_axe",
+			"ctft:end_stone_brick_slab_shovel",
+			"ctft:end_stone_brick_slab_hoe",
+			"ctft:end_stone_brick_slab_shield",
+			"ctft:end_stone_brick_slab_fishing_rod",
+			"ctft:end_stone_brick_slab_compass",
+			"ctft:end_stone_brick_slab_clock",
+			"ctft:end_stone_brick_slab_helmet",
+			"ctft:end_stone_brick_slab_chestplate",
+			"ctft:end_stone_brick_slab_leggings",
+			"ctft:end_stone_brick_slab_boots",
+			"ctft:end_stone_brick_slab_shears",
+			"ctft:end_stone_brick_slab_horse_armor",
+			"ctft:end_stone_brick_slab_bow"
+		]
+	}
+}

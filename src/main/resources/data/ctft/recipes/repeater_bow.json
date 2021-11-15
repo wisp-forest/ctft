@@ -1,0 +1,23 @@
+
+{
+  "group": "Repeater Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:repeater"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:repeater_bow",
+    "count": 1
+  }
+}
+        

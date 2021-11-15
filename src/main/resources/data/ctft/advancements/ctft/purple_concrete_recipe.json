@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:purple_concrete"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:purple_concrete_sword",
+			"ctft:purple_concrete_pickaxe",
+			"ctft:purple_concrete_axe",
+			"ctft:purple_concrete_shovel",
+			"ctft:purple_concrete_hoe",
+			"ctft:purple_concrete_shield",
+			"ctft:purple_concrete_fishing_rod",
+			"ctft:purple_concrete_compass",
+			"ctft:purple_concrete_clock",
+			"ctft:purple_concrete_helmet",
+			"ctft:purple_concrete_chestplate",
+			"ctft:purple_concrete_leggings",
+			"ctft:purple_concrete_boots",
+			"ctft:purple_concrete_shears",
+			"ctft:purple_concrete_horse_armor",
+			"ctft:purple_concrete_bow"
+		]
+	}
+}

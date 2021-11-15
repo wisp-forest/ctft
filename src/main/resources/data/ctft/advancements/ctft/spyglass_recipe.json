@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:spyglass"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:spyglass_sword",
+			"ctft:spyglass_pickaxe",
+			"ctft:spyglass_axe",
+			"ctft:spyglass_shovel",
+			"ctft:spyglass_hoe",
+			"ctft:spyglass_shield",
+			"ctft:spyglass_fishing_rod",
+			"ctft:spyglass_compass",
+			"ctft:spyglass_clock",
+			"ctft:spyglass_helmet",
+			"ctft:spyglass_chestplate",
+			"ctft:spyglass_leggings",
+			"ctft:spyglass_boots",
+			"ctft:spyglass_shears",
+			"ctft:spyglass_horse_armor",
+			"ctft:spyglass_bow"
+		]
+	}
+}

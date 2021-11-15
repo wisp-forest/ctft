@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:amethyst_cluster"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:amethyst_cluster_sword",
+			"ctft:amethyst_cluster_pickaxe",
+			"ctft:amethyst_cluster_axe",
+			"ctft:amethyst_cluster_shovel",
+			"ctft:amethyst_cluster_hoe",
+			"ctft:amethyst_cluster_shield",
+			"ctft:amethyst_cluster_fishing_rod",
+			"ctft:amethyst_cluster_compass",
+			"ctft:amethyst_cluster_clock",
+			"ctft:amethyst_cluster_helmet",
+			"ctft:amethyst_cluster_chestplate",
+			"ctft:amethyst_cluster_leggings",
+			"ctft:amethyst_cluster_boots",
+			"ctft:amethyst_cluster_shears",
+			"ctft:amethyst_cluster_horse_armor",
+			"ctft:amethyst_cluster_bow"
+		]
+	}
+}

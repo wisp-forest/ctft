@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:smooth_basalt"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:smooth_basalt_sword",
+			"ctft:smooth_basalt_pickaxe",
+			"ctft:smooth_basalt_axe",
+			"ctft:smooth_basalt_shovel",
+			"ctft:smooth_basalt_hoe",
+			"ctft:smooth_basalt_shield",
+			"ctft:smooth_basalt_fishing_rod",
+			"ctft:smooth_basalt_compass",
+			"ctft:smooth_basalt_clock",
+			"ctft:smooth_basalt_helmet",
+			"ctft:smooth_basalt_chestplate",
+			"ctft:smooth_basalt_leggings",
+			"ctft:smooth_basalt_boots",
+			"ctft:smooth_basalt_shears",
+			"ctft:smooth_basalt_horse_armor",
+			"ctft:smooth_basalt_bow"
+		]
+	}
+}

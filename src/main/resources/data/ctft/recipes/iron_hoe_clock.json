@@ -1,0 +1,23 @@
+
+{
+  "group": "Iron Hoe Clock",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    "010",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:iron_hoe"
+    },
+    "1": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:iron_hoe_clock",
+    "count": 1
+  }
+}
+        

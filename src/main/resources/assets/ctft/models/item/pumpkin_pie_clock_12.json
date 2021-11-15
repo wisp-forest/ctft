@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/pumpkin_pie_clock_12",
-    "1": "ctft:items/clock_12"
+    "0": "ctft:items/clock_12",
+    "1": "ctft:blocks/pumpkin_pie_block",
+    "particle": "ctft:blocks/pumpkin_pie_block"
   }
 }
             

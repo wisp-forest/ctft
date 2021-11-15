@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:end_rod"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:end_rod_sword",
+			"ctft:end_rod_pickaxe",
+			"ctft:end_rod_axe",
+			"ctft:end_rod_shovel",
+			"ctft:end_rod_hoe",
+			"ctft:end_rod_shield",
+			"ctft:end_rod_fishing_rod",
+			"ctft:end_rod_compass",
+			"ctft:end_rod_clock",
+			"ctft:end_rod_helmet",
+			"ctft:end_rod_chestplate",
+			"ctft:end_rod_leggings",
+			"ctft:end_rod_boots",
+			"ctft:end_rod_shears",
+			"ctft:end_rod_horse_armor",
+			"ctft:end_rod_bow"
+		]
+	}
+}

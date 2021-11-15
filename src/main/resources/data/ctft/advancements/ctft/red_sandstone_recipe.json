@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:red_sandstone"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:red_sandstone_sword",
+			"ctft:red_sandstone_pickaxe",
+			"ctft:red_sandstone_axe",
+			"ctft:red_sandstone_shovel",
+			"ctft:red_sandstone_hoe",
+			"ctft:red_sandstone_shield",
+			"ctft:red_sandstone_fishing_rod",
+			"ctft:red_sandstone_compass",
+			"ctft:red_sandstone_clock",
+			"ctft:red_sandstone_helmet",
+			"ctft:red_sandstone_chestplate",
+			"ctft:red_sandstone_leggings",
+			"ctft:red_sandstone_boots",
+			"ctft:red_sandstone_shears",
+			"ctft:red_sandstone_horse_armor",
+			"ctft:red_sandstone_bow"
+		]
+	}
+}

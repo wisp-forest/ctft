@@ -1,0 +1,23 @@
+
+{
+  "group": "Deepslate Tiles Axe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "00 ",
+    "01 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:deepslate_tiles"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:deepslate_tiles_axe",
+    "count": 1
+  }
+}
+        

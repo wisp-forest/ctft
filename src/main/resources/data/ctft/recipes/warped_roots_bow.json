@@ -1,0 +1,23 @@
+
+{
+  "group": "Warped Roots Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:warped_roots"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:warped_roots_bow",
+    "count": 1
+  }
+}
+        

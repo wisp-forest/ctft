@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:dark_prismarine_slab"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:dark_prismarine_slab_sword",
+			"ctft:dark_prismarine_slab_pickaxe",
+			"ctft:dark_prismarine_slab_axe",
+			"ctft:dark_prismarine_slab_shovel",
+			"ctft:dark_prismarine_slab_hoe",
+			"ctft:dark_prismarine_slab_shield",
+			"ctft:dark_prismarine_slab_fishing_rod",
+			"ctft:dark_prismarine_slab_compass",
+			"ctft:dark_prismarine_slab_clock",
+			"ctft:dark_prismarine_slab_helmet",
+			"ctft:dark_prismarine_slab_chestplate",
+			"ctft:dark_prismarine_slab_leggings",
+			"ctft:dark_prismarine_slab_boots",
+			"ctft:dark_prismarine_slab_shears",
+			"ctft:dark_prismarine_slab_horse_armor",
+			"ctft:dark_prismarine_slab_bow"
+		]
+	}
+}

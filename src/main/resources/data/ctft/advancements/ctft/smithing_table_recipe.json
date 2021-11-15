@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:smithing_table"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:smithing_table_sword",
+			"ctft:smithing_table_pickaxe",
+			"ctft:smithing_table_axe",
+			"ctft:smithing_table_shovel",
+			"ctft:smithing_table_hoe",
+			"ctft:smithing_table_shield",
+			"ctft:smithing_table_fishing_rod",
+			"ctft:smithing_table_compass",
+			"ctft:smithing_table_clock",
+			"ctft:smithing_table_helmet",
+			"ctft:smithing_table_chestplate",
+			"ctft:smithing_table_leggings",
+			"ctft:smithing_table_boots",
+			"ctft:smithing_table_shears",
+			"ctft:smithing_table_horse_armor",
+			"ctft:smithing_table_bow"
+		]
+	}
+}

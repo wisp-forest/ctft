@@ -1,0 +1,23 @@
+
+{
+  "group": "Golden Apple Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:golden_apple"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:golden_apple_bow",
+    "count": 1
+  }
+}
+        

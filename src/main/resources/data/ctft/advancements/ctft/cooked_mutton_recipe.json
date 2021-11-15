@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cooked_mutton"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:cooked_mutton_sword",
+			"ctft:cooked_mutton_pickaxe",
+			"ctft:cooked_mutton_axe",
+			"ctft:cooked_mutton_shovel",
+			"ctft:cooked_mutton_hoe",
+			"ctft:cooked_mutton_shield",
+			"ctft:cooked_mutton_fishing_rod",
+			"ctft:cooked_mutton_compass",
+			"ctft:cooked_mutton_clock",
+			"ctft:cooked_mutton_helmet",
+			"ctft:cooked_mutton_chestplate",
+			"ctft:cooked_mutton_leggings",
+			"ctft:cooked_mutton_boots",
+			"ctft:cooked_mutton_shears",
+			"ctft:cooked_mutton_horse_armor",
+			"ctft:cooked_mutton_bow"
+		]
+	}
+}

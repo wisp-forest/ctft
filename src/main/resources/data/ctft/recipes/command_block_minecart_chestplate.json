@@ -1,0 +1,20 @@
+
+{
+  "group": "Command Block Minecart Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:command_block_minecart"
+    }
+  },
+  "result": {
+    "item": "ctft:command_block_minecart_chestplate",
+    "count": 1
+  }
+}
+        

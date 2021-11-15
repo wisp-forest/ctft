@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/anvil_top_clock_52",
-    "1": "ctft:items/clock_52"
+    "0": "ctft:items/clock_52",
+    "1": "ctft:blocks/anvil_top_block",
+    "particle": "ctft:blocks/anvil_top_block"
   }
 }
             

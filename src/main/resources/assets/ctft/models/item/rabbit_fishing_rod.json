@@ -1,8 +1,10 @@
 
 {
-  "parent": "item/fishing_rod",
+  "parent": "ctft:item/fishing_rod",
   "textures": {
-    "layer0": "ctft:items/rabbit_fishing_rod"
+    "0": "ctft:items/fishing_rod",
+    "1": "ctft:blocks/rabbit_block",
+    "particle": "ctft:blocks/rabbit_block"
   }
 }
         

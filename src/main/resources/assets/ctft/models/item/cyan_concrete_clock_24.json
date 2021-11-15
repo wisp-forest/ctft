@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/cyan_concrete_clock_24",
-    "1": "ctft:items/clock_24"
+    "0": "ctft:items/clock_24",
+    "1": "ctft:blocks/cyan_concrete_block",
+    "particle": "ctft:blocks/cyan_concrete_block"
   }
 }
             

@@ -1,8 +1,10 @@
 
     {
-      "parent": "item/handheld",
+      "parent": "ctft:item/shovel",
       "textures": {
-        "layer0": "ctft:items/command_block_minecart_shovel"
+        "0": "ctft:items/iron_shovel",
+        "1": "ctft:blocks/command_block_minecart_block",
+        "particle": "ctft:blocks/command_block_minecart_block"
       }
     }
             

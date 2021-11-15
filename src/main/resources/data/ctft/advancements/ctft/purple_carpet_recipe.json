@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:purple_carpet"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:purple_carpet_sword",
+			"ctft:purple_carpet_pickaxe",
+			"ctft:purple_carpet_axe",
+			"ctft:purple_carpet_shovel",
+			"ctft:purple_carpet_hoe",
+			"ctft:purple_carpet_shield",
+			"ctft:purple_carpet_fishing_rod",
+			"ctft:purple_carpet_compass",
+			"ctft:purple_carpet_clock",
+			"ctft:purple_carpet_helmet",
+			"ctft:purple_carpet_chestplate",
+			"ctft:purple_carpet_leggings",
+			"ctft:purple_carpet_boots",
+			"ctft:purple_carpet_shears",
+			"ctft:purple_carpet_horse_armor",
+			"ctft:purple_carpet_bow"
+		]
+	}
+}

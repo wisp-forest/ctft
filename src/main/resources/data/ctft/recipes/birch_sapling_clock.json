@@ -1,0 +1,23 @@
+
+{
+  "group": "Birch Sapling Clock",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    "010",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:birch_sapling"
+    },
+    "1": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:birch_sapling_clock",
+    "count": 1
+  }
+}
+        

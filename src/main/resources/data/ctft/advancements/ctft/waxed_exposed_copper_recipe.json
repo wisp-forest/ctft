@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:waxed_exposed_copper"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:waxed_exposed_copper_sword",
+			"ctft:waxed_exposed_copper_pickaxe",
+			"ctft:waxed_exposed_copper_axe",
+			"ctft:waxed_exposed_copper_shovel",
+			"ctft:waxed_exposed_copper_hoe",
+			"ctft:waxed_exposed_copper_shield",
+			"ctft:waxed_exposed_copper_fishing_rod",
+			"ctft:waxed_exposed_copper_compass",
+			"ctft:waxed_exposed_copper_clock",
+			"ctft:waxed_exposed_copper_helmet",
+			"ctft:waxed_exposed_copper_chestplate",
+			"ctft:waxed_exposed_copper_leggings",
+			"ctft:waxed_exposed_copper_boots",
+			"ctft:waxed_exposed_copper_shears",
+			"ctft:waxed_exposed_copper_horse_armor",
+			"ctft:waxed_exposed_copper_bow"
+		]
+	}
+}

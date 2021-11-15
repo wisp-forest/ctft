@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cyan_wool"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:cyan_wool_sword",
+			"ctft:cyan_wool_pickaxe",
+			"ctft:cyan_wool_axe",
+			"ctft:cyan_wool_shovel",
+			"ctft:cyan_wool_hoe",
+			"ctft:cyan_wool_shield",
+			"ctft:cyan_wool_fishing_rod",
+			"ctft:cyan_wool_compass",
+			"ctft:cyan_wool_clock",
+			"ctft:cyan_wool_helmet",
+			"ctft:cyan_wool_chestplate",
+			"ctft:cyan_wool_leggings",
+			"ctft:cyan_wool_boots",
+			"ctft:cyan_wool_shears",
+			"ctft:cyan_wool_horse_armor",
+			"ctft:cyan_wool_bow"
+		]
+	}
+}

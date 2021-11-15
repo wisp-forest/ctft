@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/black_shulker_box_clock_09",
-    "1": "ctft:items/clock_09"
+    "0": "ctft:items/clock_09",
+    "1": "ctft:blocks/black_shulker_box_block",
+    "particle": "ctft:blocks/black_shulker_box_block"
   }
 }
             

@@ -1,0 +1,23 @@
+
+{
+  "group": "Tripwire Hook Fishing Rod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 01",
+    "0 1"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:tripwire_hook"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:tripwire_hook_fishing_rod",
+    "count": 1
+  }
+}
+        

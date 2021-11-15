@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:gray_shulker_box"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:gray_shulker_box_sword",
+			"ctft:gray_shulker_box_pickaxe",
+			"ctft:gray_shulker_box_axe",
+			"ctft:gray_shulker_box_shovel",
+			"ctft:gray_shulker_box_hoe",
+			"ctft:gray_shulker_box_shield",
+			"ctft:gray_shulker_box_fishing_rod",
+			"ctft:gray_shulker_box_compass",
+			"ctft:gray_shulker_box_clock",
+			"ctft:gray_shulker_box_helmet",
+			"ctft:gray_shulker_box_chestplate",
+			"ctft:gray_shulker_box_leggings",
+			"ctft:gray_shulker_box_boots",
+			"ctft:gray_shulker_box_shears",
+			"ctft:gray_shulker_box_horse_armor",
+			"ctft:gray_shulker_box_bow"
+		]
+	}
+}

@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/command_block_minecart_clock_40",
-    "1": "ctft:items/clock_40"
+    "0": "ctft:items/clock_40",
+    "1": "ctft:blocks/command_block_minecart_block",
+    "particle": "ctft:blocks/command_block_minecart_block"
   }
 }
             

@@ -1,8 +1,10 @@
 
     {
-      "parent": "item/handheld",
+      "parent": "ctft:item/shears",
       "textures": {
-        "layer0": "ctft:items/bone_block_top_shears"
+        "0": "ctft:items/shears",
+        "1": "ctft:blocks/bone_block_top_block",
+        "particle": "ctft:blocks/bone_block_top_block"
       }
     }
             

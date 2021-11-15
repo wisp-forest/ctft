@@ -1,0 +1,20 @@
+
+{
+  "group": "Chorus Plant Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:chorus_plant"
+    }
+  },
+  "result": {
+    "item": "ctft:chorus_plant_chestplate",
+    "count": 1
+  }
+}
+        

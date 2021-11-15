@@ -1,0 +1,23 @@
+
+{
+  "group": "Lily Of The Valley Pickaxe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:lily_of_the_valley"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:lily_of_the_valley_pickaxe",
+    "count": 1
+  }
+}
+        

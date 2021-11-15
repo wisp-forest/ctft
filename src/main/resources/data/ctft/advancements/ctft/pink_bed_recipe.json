@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:pink_bed"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:pink_bed_sword",
+			"ctft:pink_bed_pickaxe",
+			"ctft:pink_bed_axe",
+			"ctft:pink_bed_shovel",
+			"ctft:pink_bed_hoe",
+			"ctft:pink_bed_shield",
+			"ctft:pink_bed_fishing_rod",
+			"ctft:pink_bed_compass",
+			"ctft:pink_bed_clock",
+			"ctft:pink_bed_helmet",
+			"ctft:pink_bed_chestplate",
+			"ctft:pink_bed_leggings",
+			"ctft:pink_bed_boots",
+			"ctft:pink_bed_shears",
+			"ctft:pink_bed_horse_armor",
+			"ctft:pink_bed_bow"
+		]
+	}
+}

@@ -1,0 +1,20 @@
+
+{
+  "group": "Dead Horn Coral Fan Boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:dead_horn_coral_fan"
+    }
+  },
+  "result": {
+    "item": "ctft:dead_horn_coral_fan_boots",
+    "count": 1
+  }
+}
+        

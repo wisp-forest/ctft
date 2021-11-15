@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:diamond_helmet"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:diamond_helmet_sword",
+			"ctft:diamond_helmet_pickaxe",
+			"ctft:diamond_helmet_axe",
+			"ctft:diamond_helmet_shovel",
+			"ctft:diamond_helmet_hoe",
+			"ctft:diamond_helmet_shield",
+			"ctft:diamond_helmet_fishing_rod",
+			"ctft:diamond_helmet_compass",
+			"ctft:diamond_helmet_clock",
+			"ctft:diamond_helmet_helmet",
+			"ctft:diamond_helmet_chestplate",
+			"ctft:diamond_helmet_leggings",
+			"ctft:diamond_helmet_boots",
+			"ctft:diamond_helmet_shears",
+			"ctft:diamond_helmet_horse_armor",
+			"ctft:diamond_helmet_bow"
+		]
+	}
+}

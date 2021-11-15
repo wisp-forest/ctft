@@ -2,7 +2,13 @@
     {
       "parent": "ctft:item/shield",
       "textures": {
-        "0": "ctft:items/stripped_dark_oak_log_top_shield_base"
-      }
+        "0": "ctft:items/shield_base",
+        "1": "ctft:blocks/stripped_dark_oak_log_top_block",
+        "particle": "ctft:blocks/stripped_dark_oak_log_top_block"
+      },
+      "overrides": [
+        { "predicate": { "blocking": 0.0 }, "model": "ctft:item/stripped_acacia_wood_shield" },
+        { "predicate": { "blocking": 1.0 }, "model": "ctft:item/stripped_acacia_wood_shield_blocking" }
+        ]
     }
             

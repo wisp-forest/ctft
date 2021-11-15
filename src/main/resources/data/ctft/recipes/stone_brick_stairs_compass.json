@@ -1,0 +1,23 @@
+
+{
+  "group": "Stone Brick Stairs Compass",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    "010",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:stone_brick_stairs"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:stone_brick_stairs_compass",
+    "count": 1
+  }
+}
+        

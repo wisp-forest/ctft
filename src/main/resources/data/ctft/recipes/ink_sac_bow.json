@@ -1,0 +1,23 @@
+
+{
+  "group": "Ink Sac Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:ink_sac"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:ink_sac_bow",
+    "count": 1
+  }
+}
+        

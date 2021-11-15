@@ -1,0 +1,20 @@
+
+{
+  "group": "Horn Coral Block Helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:horn_coral_block"
+    }
+  },
+  "result": {
+    "item": "ctft:horn_coral_block_helmet",
+    "count": 1
+  }
+}
+        

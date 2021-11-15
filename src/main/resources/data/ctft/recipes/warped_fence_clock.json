@@ -1,0 +1,23 @@
+
+{
+  "group": "Warped Fence Clock",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    "010",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:warped_fence"
+    },
+    "1": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:warped_fence_clock",
+    "count": 1
+  }
+}
+        

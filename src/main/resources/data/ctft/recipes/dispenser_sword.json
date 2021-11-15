@@ -1,0 +1,23 @@
+
+{
+  "group": "Dispenser Sword",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    " 0 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:dispenser"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:dispenser_sword",
+    "count": 1
+  }
+}
+        

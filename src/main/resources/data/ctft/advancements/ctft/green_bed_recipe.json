@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:green_bed"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:green_bed_sword",
+			"ctft:green_bed_pickaxe",
+			"ctft:green_bed_axe",
+			"ctft:green_bed_shovel",
+			"ctft:green_bed_hoe",
+			"ctft:green_bed_shield",
+			"ctft:green_bed_fishing_rod",
+			"ctft:green_bed_compass",
+			"ctft:green_bed_clock",
+			"ctft:green_bed_helmet",
+			"ctft:green_bed_chestplate",
+			"ctft:green_bed_leggings",
+			"ctft:green_bed_boots",
+			"ctft:green_bed_shears",
+			"ctft:green_bed_horse_armor",
+			"ctft:green_bed_bow"
+		]
+	}
+}

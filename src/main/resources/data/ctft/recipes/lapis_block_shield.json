@@ -1,0 +1,23 @@
+
+{
+  "group": "Lapis Block Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:lapis_block"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:lapis_block_shield",
+    "count": 1
+  }
+}
+        

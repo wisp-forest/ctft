@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bookshelf"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:bookshelf_sword",
+			"ctft:bookshelf_pickaxe",
+			"ctft:bookshelf_axe",
+			"ctft:bookshelf_shovel",
+			"ctft:bookshelf_hoe",
+			"ctft:bookshelf_shield",
+			"ctft:bookshelf_fishing_rod",
+			"ctft:bookshelf_compass",
+			"ctft:bookshelf_clock",
+			"ctft:bookshelf_helmet",
+			"ctft:bookshelf_chestplate",
+			"ctft:bookshelf_leggings",
+			"ctft:bookshelf_boots",
+			"ctft:bookshelf_shears",
+			"ctft:bookshelf_horse_armor",
+			"ctft:bookshelf_bow"
+		]
+	}
+}

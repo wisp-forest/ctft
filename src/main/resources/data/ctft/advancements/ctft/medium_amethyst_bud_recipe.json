@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:medium_amethyst_bud"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:medium_amethyst_bud_sword",
+			"ctft:medium_amethyst_bud_pickaxe",
+			"ctft:medium_amethyst_bud_axe",
+			"ctft:medium_amethyst_bud_shovel",
+			"ctft:medium_amethyst_bud_hoe",
+			"ctft:medium_amethyst_bud_shield",
+			"ctft:medium_amethyst_bud_fishing_rod",
+			"ctft:medium_amethyst_bud_compass",
+			"ctft:medium_amethyst_bud_clock",
+			"ctft:medium_amethyst_bud_helmet",
+			"ctft:medium_amethyst_bud_chestplate",
+			"ctft:medium_amethyst_bud_leggings",
+			"ctft:medium_amethyst_bud_boots",
+			"ctft:medium_amethyst_bud_shears",
+			"ctft:medium_amethyst_bud_horse_armor",
+			"ctft:medium_amethyst_bud_bow"
+		]
+	}
+}

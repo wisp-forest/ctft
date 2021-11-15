@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:sugar_cane"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:sugar_cane_sword",
+			"ctft:sugar_cane_pickaxe",
+			"ctft:sugar_cane_axe",
+			"ctft:sugar_cane_shovel",
+			"ctft:sugar_cane_hoe",
+			"ctft:sugar_cane_shield",
+			"ctft:sugar_cane_fishing_rod",
+			"ctft:sugar_cane_compass",
+			"ctft:sugar_cane_clock",
+			"ctft:sugar_cane_helmet",
+			"ctft:sugar_cane_chestplate",
+			"ctft:sugar_cane_leggings",
+			"ctft:sugar_cane_boots",
+			"ctft:sugar_cane_shears",
+			"ctft:sugar_cane_horse_armor",
+			"ctft:sugar_cane_bow"
+		]
+	}
+}

@@ -1,0 +1,20 @@
+
+{
+  "group": "Coal Block Boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:coal_block"
+    }
+  },
+  "result": {
+    "item": "ctft:coal_block_boots",
+    "count": 1
+  }
+}
+        

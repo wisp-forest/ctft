@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:chiseled_deepslate"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:chiseled_deepslate_sword",
+			"ctft:chiseled_deepslate_pickaxe",
+			"ctft:chiseled_deepslate_axe",
+			"ctft:chiseled_deepslate_shovel",
+			"ctft:chiseled_deepslate_hoe",
+			"ctft:chiseled_deepslate_shield",
+			"ctft:chiseled_deepslate_fishing_rod",
+			"ctft:chiseled_deepslate_compass",
+			"ctft:chiseled_deepslate_clock",
+			"ctft:chiseled_deepslate_helmet",
+			"ctft:chiseled_deepslate_chestplate",
+			"ctft:chiseled_deepslate_leggings",
+			"ctft:chiseled_deepslate_boots",
+			"ctft:chiseled_deepslate_shears",
+			"ctft:chiseled_deepslate_horse_armor",
+			"ctft:chiseled_deepslate_bow"
+		]
+	}
+}

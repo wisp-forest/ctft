@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:golden_axe"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:golden_axe_sword",
+			"ctft:golden_axe_pickaxe",
+			"ctft:golden_axe_axe",
+			"ctft:golden_axe_shovel",
+			"ctft:golden_axe_hoe",
+			"ctft:golden_axe_shield",
+			"ctft:golden_axe_fishing_rod",
+			"ctft:golden_axe_compass",
+			"ctft:golden_axe_clock",
+			"ctft:golden_axe_helmet",
+			"ctft:golden_axe_chestplate",
+			"ctft:golden_axe_leggings",
+			"ctft:golden_axe_boots",
+			"ctft:golden_axe_shears",
+			"ctft:golden_axe_horse_armor",
+			"ctft:golden_axe_bow"
+		]
+	}
+}

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:green_shulker_box"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:green_shulker_box_sword",
+			"ctft:green_shulker_box_pickaxe",
+			"ctft:green_shulker_box_axe",
+			"ctft:green_shulker_box_shovel",
+			"ctft:green_shulker_box_hoe",
+			"ctft:green_shulker_box_shield",
+			"ctft:green_shulker_box_fishing_rod",
+			"ctft:green_shulker_box_compass",
+			"ctft:green_shulker_box_clock",
+			"ctft:green_shulker_box_helmet",
+			"ctft:green_shulker_box_chestplate",
+			"ctft:green_shulker_box_leggings",
+			"ctft:green_shulker_box_boots",
+			"ctft:green_shulker_box_shears",
+			"ctft:green_shulker_box_horse_armor",
+			"ctft:green_shulker_box_bow"
+		]
+	}
+}

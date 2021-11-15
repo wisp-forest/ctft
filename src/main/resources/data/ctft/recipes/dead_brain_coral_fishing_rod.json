@@ -1,0 +1,23 @@
+
+{
+  "group": "Dead Brain Coral Fishing Rod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 01",
+    "0 1"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:dead_brain_coral"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:dead_brain_coral_fishing_rod",
+    "count": 1
+  }
+}
+        

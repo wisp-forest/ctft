@@ -2,7 +2,13 @@
     {
       "parent": "ctft:item/shield",
       "textures": {
-        "0": "ctft:items/scaffolding_top_shield_base"
-      }
+        "0": "ctft:items/shield_base",
+        "1": "ctft:blocks/scaffolding_top_block",
+        "particle": "ctft:blocks/scaffolding_top_block"
+      },
+      "overrides": [
+        { "predicate": { "blocking": 0.0 }, "model": "ctft:item/scaffolding_shield" },
+        { "predicate": { "blocking": 1.0 }, "model": "ctft:item/scaffolding_shield_blocking" }
+        ]
     }
             

@@ -1,0 +1,23 @@
+
+{
+  "group": "Orange Dye Hoe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "00 ",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:orange_dye"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:orange_dye_hoe",
+    "count": 1
+  }
+}
+        

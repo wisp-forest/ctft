@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:structure_block"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:structure_block_sword",
+			"ctft:structure_block_pickaxe",
+			"ctft:structure_block_axe",
+			"ctft:structure_block_shovel",
+			"ctft:structure_block_hoe",
+			"ctft:structure_block_shield",
+			"ctft:structure_block_fishing_rod",
+			"ctft:structure_block_compass",
+			"ctft:structure_block_clock",
+			"ctft:structure_block_helmet",
+			"ctft:structure_block_chestplate",
+			"ctft:structure_block_leggings",
+			"ctft:structure_block_boots",
+			"ctft:structure_block_shears",
+			"ctft:structure_block_horse_armor",
+			"ctft:structure_block_bow"
+		]
+	}
+}

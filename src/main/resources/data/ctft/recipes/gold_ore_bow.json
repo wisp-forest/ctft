@@ -1,0 +1,23 @@
+
+{
+  "group": "Gold Ore Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:gold_ore"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:gold_ore_bow",
+    "count": 1
+  }
+}
+        

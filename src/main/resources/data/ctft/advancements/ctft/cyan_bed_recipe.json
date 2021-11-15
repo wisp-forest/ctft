@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cyan_bed"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:cyan_bed_sword",
+			"ctft:cyan_bed_pickaxe",
+			"ctft:cyan_bed_axe",
+			"ctft:cyan_bed_shovel",
+			"ctft:cyan_bed_hoe",
+			"ctft:cyan_bed_shield",
+			"ctft:cyan_bed_fishing_rod",
+			"ctft:cyan_bed_compass",
+			"ctft:cyan_bed_clock",
+			"ctft:cyan_bed_helmet",
+			"ctft:cyan_bed_chestplate",
+			"ctft:cyan_bed_leggings",
+			"ctft:cyan_bed_boots",
+			"ctft:cyan_bed_shears",
+			"ctft:cyan_bed_horse_armor",
+			"ctft:cyan_bed_bow"
+		]
+	}
+}

@@ -1,0 +1,20 @@
+
+{
+  "group": "Warped Hyphae Shears",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 0 ",
+    "   "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:warped_hyphae"
+    }
+  },
+  "result": {
+    "item": "ctft:warped_hyphae_shears",
+    "count": 1
+  }
+}
+        

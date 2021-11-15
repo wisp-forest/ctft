@@ -1,8 +1,10 @@
 
     {
-      "parent": "item/handheld",
+      "parent": "ctft:item/pickaxe",
       "textures": {
-        "layer0": "ctft:items/deepslate_coal_ore_pickaxe"
+        "0": "ctft:items/iron_pickaxe",
+        "1": "ctft:blocks/deepslate_coal_ore_block",
+        "particle": "ctft:blocks/deepslate_coal_ore_block"
       }
     }
             

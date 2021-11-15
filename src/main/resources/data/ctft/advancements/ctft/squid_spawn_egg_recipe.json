@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:squid_spawn_egg"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:squid_spawn_egg_sword",
+			"ctft:squid_spawn_egg_pickaxe",
+			"ctft:squid_spawn_egg_axe",
+			"ctft:squid_spawn_egg_shovel",
+			"ctft:squid_spawn_egg_hoe",
+			"ctft:squid_spawn_egg_shield",
+			"ctft:squid_spawn_egg_fishing_rod",
+			"ctft:squid_spawn_egg_compass",
+			"ctft:squid_spawn_egg_clock",
+			"ctft:squid_spawn_egg_helmet",
+			"ctft:squid_spawn_egg_chestplate",
+			"ctft:squid_spawn_egg_leggings",
+			"ctft:squid_spawn_egg_boots",
+			"ctft:squid_spawn_egg_shears",
+			"ctft:squid_spawn_egg_horse_armor",
+			"ctft:squid_spawn_egg_bow"
+		]
+	}
+}

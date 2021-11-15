@@ -1,0 +1,23 @@
+
+{
+  "group": "Sea Pickle Clock",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    "010",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:sea_pickle"
+    },
+    "1": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:sea_pickle_clock",
+    "count": 1
+  }
+}
+        

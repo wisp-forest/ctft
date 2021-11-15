@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:skeleton_horse_spawn_egg"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:skeleton_horse_spawn_egg_sword",
+			"ctft:skeleton_horse_spawn_egg_pickaxe",
+			"ctft:skeleton_horse_spawn_egg_axe",
+			"ctft:skeleton_horse_spawn_egg_shovel",
+			"ctft:skeleton_horse_spawn_egg_hoe",
+			"ctft:skeleton_horse_spawn_egg_shield",
+			"ctft:skeleton_horse_spawn_egg_fishing_rod",
+			"ctft:skeleton_horse_spawn_egg_compass",
+			"ctft:skeleton_horse_spawn_egg_clock",
+			"ctft:skeleton_horse_spawn_egg_helmet",
+			"ctft:skeleton_horse_spawn_egg_chestplate",
+			"ctft:skeleton_horse_spawn_egg_leggings",
+			"ctft:skeleton_horse_spawn_egg_boots",
+			"ctft:skeleton_horse_spawn_egg_shears",
+			"ctft:skeleton_horse_spawn_egg_horse_armor",
+			"ctft:skeleton_horse_spawn_egg_bow"
+		]
+	}
+}

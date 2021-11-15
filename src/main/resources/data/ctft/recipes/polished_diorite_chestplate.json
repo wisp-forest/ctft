@@ -1,0 +1,20 @@
+
+{
+  "group": "Polished Diorite Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:polished_diorite"
+    }
+  },
+  "result": {
+    "item": "ctft:polished_diorite_chestplate",
+    "count": 1
+  }
+}
+        

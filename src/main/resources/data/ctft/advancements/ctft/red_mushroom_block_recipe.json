@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:red_mushroom_block"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:red_mushroom_block_sword",
+			"ctft:red_mushroom_block_pickaxe",
+			"ctft:red_mushroom_block_axe",
+			"ctft:red_mushroom_block_shovel",
+			"ctft:red_mushroom_block_hoe",
+			"ctft:red_mushroom_block_shield",
+			"ctft:red_mushroom_block_fishing_rod",
+			"ctft:red_mushroom_block_compass",
+			"ctft:red_mushroom_block_clock",
+			"ctft:red_mushroom_block_helmet",
+			"ctft:red_mushroom_block_chestplate",
+			"ctft:red_mushroom_block_leggings",
+			"ctft:red_mushroom_block_boots",
+			"ctft:red_mushroom_block_shears",
+			"ctft:red_mushroom_block_horse_armor",
+			"ctft:red_mushroom_block_bow"
+		]
+	}
+}

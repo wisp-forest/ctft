@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:stripped_spruce_wood"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:stripped_spruce_wood_sword",
+			"ctft:stripped_spruce_wood_pickaxe",
+			"ctft:stripped_spruce_wood_axe",
+			"ctft:stripped_spruce_wood_shovel",
+			"ctft:stripped_spruce_wood_hoe",
+			"ctft:stripped_spruce_wood_shield",
+			"ctft:stripped_spruce_wood_fishing_rod",
+			"ctft:stripped_spruce_wood_compass",
+			"ctft:stripped_spruce_wood_clock",
+			"ctft:stripped_spruce_wood_helmet",
+			"ctft:stripped_spruce_wood_chestplate",
+			"ctft:stripped_spruce_wood_leggings",
+			"ctft:stripped_spruce_wood_boots",
+			"ctft:stripped_spruce_wood_shears",
+			"ctft:stripped_spruce_wood_horse_armor",
+			"ctft:stripped_spruce_wood_bow"
+		]
+	}
+}

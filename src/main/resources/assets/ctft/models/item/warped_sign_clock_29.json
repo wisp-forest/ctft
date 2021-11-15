@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/warped_sign_clock_29",
-    "1": "ctft:items/clock_29"
+    "0": "ctft:items/clock_29",
+    "1": "ctft:blocks/warped_sign_block",
+    "particle": "ctft:blocks/warped_sign_block"
   }
 }
             

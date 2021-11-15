@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:candle"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:candle_sword",
+			"ctft:candle_pickaxe",
+			"ctft:candle_axe",
+			"ctft:candle_shovel",
+			"ctft:candle_hoe",
+			"ctft:candle_shield",
+			"ctft:candle_fishing_rod",
+			"ctft:candle_compass",
+			"ctft:candle_clock",
+			"ctft:candle_helmet",
+			"ctft:candle_chestplate",
+			"ctft:candle_leggings",
+			"ctft:candle_boots",
+			"ctft:candle_shears",
+			"ctft:candle_horse_armor",
+			"ctft:candle_bow"
+		]
+	}
+}

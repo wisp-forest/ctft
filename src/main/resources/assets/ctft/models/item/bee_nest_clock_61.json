@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/bee_nest_side_clock_61",
-    "1": "ctft:items/clock_61"
+    "0": "ctft:items/clock_61",
+    "1": "ctft:blocks/bee_nest_side_block",
+    "particle": "ctft:blocks/bee_nest_side_block"
   }
 }
             

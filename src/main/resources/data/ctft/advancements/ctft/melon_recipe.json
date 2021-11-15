@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:melon"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:melon_sword",
+			"ctft:melon_pickaxe",
+			"ctft:melon_axe",
+			"ctft:melon_shovel",
+			"ctft:melon_hoe",
+			"ctft:melon_shield",
+			"ctft:melon_fishing_rod",
+			"ctft:melon_compass",
+			"ctft:melon_clock",
+			"ctft:melon_helmet",
+			"ctft:melon_chestplate",
+			"ctft:melon_leggings",
+			"ctft:melon_boots",
+			"ctft:melon_shears",
+			"ctft:melon_horse_armor",
+			"ctft:melon_bow"
+		]
+	}
+}

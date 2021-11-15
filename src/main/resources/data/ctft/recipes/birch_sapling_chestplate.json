@@ -1,0 +1,20 @@
+
+{
+  "group": "Birch Sapling Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:birch_sapling"
+    }
+  },
+  "result": {
+    "item": "ctft:birch_sapling_chestplate",
+    "count": 1
+  }
+}
+        

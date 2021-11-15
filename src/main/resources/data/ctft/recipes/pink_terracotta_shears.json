@@ -1,0 +1,20 @@
+
+{
+  "group": "Pink Terracotta Shears",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 0 ",
+    "   "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:pink_terracotta"
+    }
+  },
+  "result": {
+    "item": "ctft:pink_terracotta_shears",
+    "count": 1
+  }
+}
+        

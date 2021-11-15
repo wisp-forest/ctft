@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/fire_charge_clock_40",
-    "1": "ctft:items/clock_40"
+    "0": "ctft:items/clock_40",
+    "1": "ctft:blocks/fire_charge_block",
+    "particle": "ctft:blocks/fire_charge_block"
   }
 }
             

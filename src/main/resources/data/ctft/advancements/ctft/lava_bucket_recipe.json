@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:lava_bucket"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:lava_bucket_sword",
+			"ctft:lava_bucket_pickaxe",
+			"ctft:lava_bucket_axe",
+			"ctft:lava_bucket_shovel",
+			"ctft:lava_bucket_hoe",
+			"ctft:lava_bucket_shield",
+			"ctft:lava_bucket_fishing_rod",
+			"ctft:lava_bucket_compass",
+			"ctft:lava_bucket_clock",
+			"ctft:lava_bucket_helmet",
+			"ctft:lava_bucket_chestplate",
+			"ctft:lava_bucket_leggings",
+			"ctft:lava_bucket_boots",
+			"ctft:lava_bucket_shears",
+			"ctft:lava_bucket_horse_armor",
+			"ctft:lava_bucket_bow"
+		]
+	}
+}

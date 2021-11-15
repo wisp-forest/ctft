@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:yellow_concrete"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:yellow_concrete_sword",
+			"ctft:yellow_concrete_pickaxe",
+			"ctft:yellow_concrete_axe",
+			"ctft:yellow_concrete_shovel",
+			"ctft:yellow_concrete_hoe",
+			"ctft:yellow_concrete_shield",
+			"ctft:yellow_concrete_fishing_rod",
+			"ctft:yellow_concrete_compass",
+			"ctft:yellow_concrete_clock",
+			"ctft:yellow_concrete_helmet",
+			"ctft:yellow_concrete_chestplate",
+			"ctft:yellow_concrete_leggings",
+			"ctft:yellow_concrete_boots",
+			"ctft:yellow_concrete_shears",
+			"ctft:yellow_concrete_horse_armor",
+			"ctft:yellow_concrete_bow"
+		]
+	}
+}

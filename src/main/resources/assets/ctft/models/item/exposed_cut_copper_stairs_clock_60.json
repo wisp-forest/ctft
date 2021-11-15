@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/exposed_cut_copper_clock_60",
-    "1": "ctft:items/clock_60"
+    "0": "ctft:items/clock_60",
+    "1": "ctft:blocks/exposed_cut_copper_block",
+    "particle": "ctft:blocks/exposed_cut_copper_block"
   }
 }
             

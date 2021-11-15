@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:clay_ball"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:clay_ball_sword",
+			"ctft:clay_ball_pickaxe",
+			"ctft:clay_ball_axe",
+			"ctft:clay_ball_shovel",
+			"ctft:clay_ball_hoe",
+			"ctft:clay_ball_shield",
+			"ctft:clay_ball_fishing_rod",
+			"ctft:clay_ball_compass",
+			"ctft:clay_ball_clock",
+			"ctft:clay_ball_helmet",
+			"ctft:clay_ball_chestplate",
+			"ctft:clay_ball_leggings",
+			"ctft:clay_ball_boots",
+			"ctft:clay_ball_shears",
+			"ctft:clay_ball_horse_armor",
+			"ctft:clay_ball_bow"
+		]
+	}
+}

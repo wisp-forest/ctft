@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/small_amethyst_bud_clock_12",
-    "1": "ctft:items/clock_12"
+    "0": "ctft:items/clock_12",
+    "1": "ctft:blocks/small_amethyst_bud_block",
+    "particle": "ctft:blocks/small_amethyst_bud_block"
   }
 }
             

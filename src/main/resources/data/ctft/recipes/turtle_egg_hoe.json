@@ -1,0 +1,23 @@
+
+{
+  "group": "Turtle Egg Hoe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "00 ",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:turtle_egg"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:turtle_egg_hoe",
+    "count": 1
+  }
+}
+        

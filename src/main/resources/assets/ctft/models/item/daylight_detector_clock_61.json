@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/daylight_detector_top_clock_61",
-    "1": "ctft:items/clock_61"
+    "0": "ctft:items/clock_61",
+    "1": "ctft:blocks/daylight_detector_top_block",
+    "particle": "ctft:blocks/daylight_detector_top_block"
   }
 }
             

@@ -1,0 +1,23 @@
+
+{
+  "group": "Pufferfish Spawn Egg Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:pufferfish_spawn_egg"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:pufferfish_spawn_egg_bow",
+    "count": 1
+  }
+}
+        

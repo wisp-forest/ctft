@@ -1,0 +1,20 @@
+
+{
+  "group": "Exposed Cut Copper Stairs Leggings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:exposed_cut_copper_stairs"
+    }
+  },
+  "result": {
+    "item": "ctft:exposed_cut_copper_stairs_leggings",
+    "count": 1
+  }
+}
+        

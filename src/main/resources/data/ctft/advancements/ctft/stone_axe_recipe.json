@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:stone_axe"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:stone_axe_sword",
+			"ctft:stone_axe_pickaxe",
+			"ctft:stone_axe_axe",
+			"ctft:stone_axe_shovel",
+			"ctft:stone_axe_hoe",
+			"ctft:stone_axe_shield",
+			"ctft:stone_axe_fishing_rod",
+			"ctft:stone_axe_compass",
+			"ctft:stone_axe_clock",
+			"ctft:stone_axe_helmet",
+			"ctft:stone_axe_chestplate",
+			"ctft:stone_axe_leggings",
+			"ctft:stone_axe_boots",
+			"ctft:stone_axe_shears",
+			"ctft:stone_axe_horse_armor",
+			"ctft:stone_axe_bow"
+		]
+	}
+}

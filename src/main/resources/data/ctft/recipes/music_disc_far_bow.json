@@ -1,0 +1,23 @@
+
+{
+  "group": "Music Disc Far Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:music_disc_far"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:music_disc_far_bow",
+    "count": 1
+  }
+}
+        

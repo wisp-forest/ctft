@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/ravager_clock_61",
-    "1": "ctft:items/clock_61"
+    "0": "ctft:items/clock_61",
+    "1": "ctft:blocks/ravager_block",
+    "particle": "ctft:blocks/ravager_block"
   }
 }
             

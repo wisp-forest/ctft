@@ -1,0 +1,23 @@
+
+{
+  "group": "White Concrete Powder Pickaxe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:white_concrete_powder"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:white_concrete_powder_pickaxe",
+    "count": 1
+  }
+}
+        

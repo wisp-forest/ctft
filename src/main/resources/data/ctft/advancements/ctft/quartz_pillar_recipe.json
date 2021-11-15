@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:quartz_pillar"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:quartz_pillar_sword",
+			"ctft:quartz_pillar_pickaxe",
+			"ctft:quartz_pillar_axe",
+			"ctft:quartz_pillar_shovel",
+			"ctft:quartz_pillar_hoe",
+			"ctft:quartz_pillar_shield",
+			"ctft:quartz_pillar_fishing_rod",
+			"ctft:quartz_pillar_compass",
+			"ctft:quartz_pillar_clock",
+			"ctft:quartz_pillar_helmet",
+			"ctft:quartz_pillar_chestplate",
+			"ctft:quartz_pillar_leggings",
+			"ctft:quartz_pillar_boots",
+			"ctft:quartz_pillar_shears",
+			"ctft:quartz_pillar_horse_armor",
+			"ctft:quartz_pillar_bow"
+		]
+	}
+}

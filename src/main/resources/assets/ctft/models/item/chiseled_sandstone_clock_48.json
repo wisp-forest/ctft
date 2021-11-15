@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/chiseled_sandstone_clock_48",
-    "1": "ctft:items/clock_48"
+    "0": "ctft:items/clock_48",
+    "1": "ctft:blocks/chiseled_sandstone_block",
+    "particle": "ctft:blocks/chiseled_sandstone_block"
   }
 }
             

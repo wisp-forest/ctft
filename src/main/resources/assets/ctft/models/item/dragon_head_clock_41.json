@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/dragon_head_clock_41",
-    "1": "ctft:items/clock_41"
+    "0": "ctft:items/clock_41",
+    "1": "ctft:blocks/dragon_head_block",
+    "particle": "ctft:blocks/dragon_head_block"
   }
 }
             

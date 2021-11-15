@@ -1,0 +1,20 @@
+
+{
+  "group": "Music Disc 13 Boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:music_disc_13"
+    }
+  },
+  "result": {
+    "item": "ctft:music_disc_13_boots",
+    "count": 1
+  }
+}
+        

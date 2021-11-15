@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:wandering_trader_spawn_egg"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:wandering_trader_spawn_egg_sword",
+			"ctft:wandering_trader_spawn_egg_pickaxe",
+			"ctft:wandering_trader_spawn_egg_axe",
+			"ctft:wandering_trader_spawn_egg_shovel",
+			"ctft:wandering_trader_spawn_egg_hoe",
+			"ctft:wandering_trader_spawn_egg_shield",
+			"ctft:wandering_trader_spawn_egg_fishing_rod",
+			"ctft:wandering_trader_spawn_egg_compass",
+			"ctft:wandering_trader_spawn_egg_clock",
+			"ctft:wandering_trader_spawn_egg_helmet",
+			"ctft:wandering_trader_spawn_egg_chestplate",
+			"ctft:wandering_trader_spawn_egg_leggings",
+			"ctft:wandering_trader_spawn_egg_boots",
+			"ctft:wandering_trader_spawn_egg_shears",
+			"ctft:wandering_trader_spawn_egg_horse_armor",
+			"ctft:wandering_trader_spawn_egg_bow"
+		]
+	}
+}

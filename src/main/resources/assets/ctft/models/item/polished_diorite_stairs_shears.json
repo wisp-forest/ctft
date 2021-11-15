@@ -1,8 +1,10 @@
 
     {
-      "parent": "item/handheld",
+      "parent": "ctft:item/shears",
       "textures": {
-        "layer0": "ctft:items/polished_diorite_shears"
+        "0": "ctft:items/shears",
+        "1": "ctft:blocks/polished_diorite_block",
+        "particle": "ctft:blocks/polished_diorite_block"
       }
     }
             

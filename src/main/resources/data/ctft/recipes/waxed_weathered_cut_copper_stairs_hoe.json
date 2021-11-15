@@ -1,0 +1,23 @@
+
+{
+  "group": "Waxed Weathered Cut Copper Stairs Hoe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "00 ",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:waxed_weathered_cut_copper_stairs"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:waxed_weathered_cut_copper_stairs_hoe",
+    "count": 1
+  }
+}
+        

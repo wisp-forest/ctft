@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:jungle_wood"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:jungle_wood_sword",
+			"ctft:jungle_wood_pickaxe",
+			"ctft:jungle_wood_axe",
+			"ctft:jungle_wood_shovel",
+			"ctft:jungle_wood_hoe",
+			"ctft:jungle_wood_shield",
+			"ctft:jungle_wood_fishing_rod",
+			"ctft:jungle_wood_compass",
+			"ctft:jungle_wood_clock",
+			"ctft:jungle_wood_helmet",
+			"ctft:jungle_wood_chestplate",
+			"ctft:jungle_wood_leggings",
+			"ctft:jungle_wood_boots",
+			"ctft:jungle_wood_shears",
+			"ctft:jungle_wood_horse_armor",
+			"ctft:jungle_wood_bow"
+		]
+	}
+}

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bedrock"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:bedrock_sword",
+			"ctft:bedrock_pickaxe",
+			"ctft:bedrock_axe",
+			"ctft:bedrock_shovel",
+			"ctft:bedrock_hoe",
+			"ctft:bedrock_shield",
+			"ctft:bedrock_fishing_rod",
+			"ctft:bedrock_compass",
+			"ctft:bedrock_clock",
+			"ctft:bedrock_helmet",
+			"ctft:bedrock_chestplate",
+			"ctft:bedrock_leggings",
+			"ctft:bedrock_boots",
+			"ctft:bedrock_shears",
+			"ctft:bedrock_horse_armor",
+			"ctft:bedrock_bow"
+		]
+	}
+}

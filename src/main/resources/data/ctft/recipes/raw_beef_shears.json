@@ -1,0 +1,20 @@
+
+{
+  "group": "Raw Beef Shears",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 0 ",
+    "   "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:beef"
+    }
+  },
+  "result": {
+    "item": "ctft:raw_beef_shears",
+    "count": 1
+  }
+}
+        

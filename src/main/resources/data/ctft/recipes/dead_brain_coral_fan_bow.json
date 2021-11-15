@@ -1,0 +1,23 @@
+
+{
+  "group": "Dead Brain Coral Fan Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:dead_brain_coral_fan"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:dead_brain_coral_fan_bow",
+    "count": 1
+  }
+}
+        

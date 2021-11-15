@@ -1,0 +1,20 @@
+
+{
+  "group": "Podzol Boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:podzol"
+    }
+  },
+  "result": {
+    "item": "ctft:podzol_boots",
+    "count": 1
+  }
+}
+        

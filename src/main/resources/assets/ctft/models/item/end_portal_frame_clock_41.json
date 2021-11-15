@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/end_portal_frame_top_clock_41",
-    "1": "ctft:items/clock_41"
+    "0": "ctft:items/clock_41",
+    "1": "ctft:blocks/end_portal_frame_top_block",
+    "particle": "ctft:blocks/end_portal_frame_top_block"
   }
 }
             

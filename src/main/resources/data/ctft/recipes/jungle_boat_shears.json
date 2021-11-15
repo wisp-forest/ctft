@@ -1,0 +1,20 @@
+
+{
+  "group": "Jungle Boat Shears",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 0 ",
+    "   "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:jungle_boat"
+    }
+  },
+  "result": {
+    "item": "ctft:jungle_boat_shears",
+    "count": 1
+  }
+}
+        

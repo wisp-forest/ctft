@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:andesite_wall"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:andesite_wall_sword",
+			"ctft:andesite_wall_pickaxe",
+			"ctft:andesite_wall_axe",
+			"ctft:andesite_wall_shovel",
+			"ctft:andesite_wall_hoe",
+			"ctft:andesite_wall_shield",
+			"ctft:andesite_wall_fishing_rod",
+			"ctft:andesite_wall_compass",
+			"ctft:andesite_wall_clock",
+			"ctft:andesite_wall_helmet",
+			"ctft:andesite_wall_chestplate",
+			"ctft:andesite_wall_leggings",
+			"ctft:andesite_wall_boots",
+			"ctft:andesite_wall_shears",
+			"ctft:andesite_wall_horse_armor",
+			"ctft:andesite_wall_bow"
+		]
+	}
+}

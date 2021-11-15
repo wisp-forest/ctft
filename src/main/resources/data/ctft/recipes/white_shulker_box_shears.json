@@ -1,0 +1,20 @@
+
+{
+  "group": "White Shulker Box Shears",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 0 ",
+    "   "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:white_shulker_box"
+    }
+  },
+  "result": {
+    "item": "ctft:white_shulker_box_shears",
+    "count": 1
+  }
+}
+        

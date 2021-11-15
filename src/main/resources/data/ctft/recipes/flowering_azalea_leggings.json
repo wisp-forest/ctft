@@ -1,0 +1,20 @@
+
+{
+  "group": "Flowering Azalea Leggings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:flowering_azalea"
+    }
+  },
+  "result": {
+    "item": "ctft:flowering_azalea_leggings",
+    "count": 1
+  }
+}
+        

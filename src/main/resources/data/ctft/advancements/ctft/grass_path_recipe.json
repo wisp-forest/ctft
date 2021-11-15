@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:dirt_path"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:dirt_path_sword",
+			"ctft:dirt_path_pickaxe",
+			"ctft:dirt_path_axe",
+			"ctft:dirt_path_shovel",
+			"ctft:dirt_path_hoe",
+			"ctft:dirt_path_shield",
+			"ctft:dirt_path_fishing_rod",
+			"ctft:dirt_path_compass",
+			"ctft:dirt_path_clock",
+			"ctft:dirt_path_helmet",
+			"ctft:dirt_path_chestplate",
+			"ctft:dirt_path_leggings",
+			"ctft:dirt_path_boots",
+			"ctft:dirt_path_shears",
+			"ctft:dirt_path_horse_armor",
+			"ctft:dirt_path_bow"
+		]
+	}
+}

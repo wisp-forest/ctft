@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:white_bed"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:white_bed_sword",
+			"ctft:white_bed_pickaxe",
+			"ctft:white_bed_axe",
+			"ctft:white_bed_shovel",
+			"ctft:white_bed_hoe",
+			"ctft:white_bed_shield",
+			"ctft:white_bed_fishing_rod",
+			"ctft:white_bed_compass",
+			"ctft:white_bed_clock",
+			"ctft:white_bed_helmet",
+			"ctft:white_bed_chestplate",
+			"ctft:white_bed_leggings",
+			"ctft:white_bed_boots",
+			"ctft:white_bed_shears",
+			"ctft:white_bed_horse_armor",
+			"ctft:white_bed_bow"
+		]
+	}
+}

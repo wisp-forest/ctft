@@ -1,0 +1,20 @@
+
+{
+  "group": "Lime Shulker Box Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:lime_shulker_box"
+    }
+  },
+  "result": {
+    "item": "ctft:lime_shulker_box_chestplate",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cracked_deepslate_tiles"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:cracked_deepslate_tiles_sword",
+			"ctft:cracked_deepslate_tiles_pickaxe",
+			"ctft:cracked_deepslate_tiles_axe",
+			"ctft:cracked_deepslate_tiles_shovel",
+			"ctft:cracked_deepslate_tiles_hoe",
+			"ctft:cracked_deepslate_tiles_shield",
+			"ctft:cracked_deepslate_tiles_fishing_rod",
+			"ctft:cracked_deepslate_tiles_compass",
+			"ctft:cracked_deepslate_tiles_clock",
+			"ctft:cracked_deepslate_tiles_helmet",
+			"ctft:cracked_deepslate_tiles_chestplate",
+			"ctft:cracked_deepslate_tiles_leggings",
+			"ctft:cracked_deepslate_tiles_boots",
+			"ctft:cracked_deepslate_tiles_shears",
+			"ctft:cracked_deepslate_tiles_horse_armor",
+			"ctft:cracked_deepslate_tiles_bow"
+		]
+	}
+}

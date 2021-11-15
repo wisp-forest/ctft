@@ -1,0 +1,23 @@
+
+{
+  "group": "Carved Pumpkin Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:carved_pumpkin"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:carved_pumpkin_bow",
+    "count": 1
+  }
+}
+        

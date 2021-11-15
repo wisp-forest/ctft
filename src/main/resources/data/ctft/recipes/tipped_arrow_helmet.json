@@ -1,0 +1,20 @@
+
+{
+  "group": "Tipped Arrow Helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:tipped_arrow"
+    }
+  },
+  "result": {
+    "item": "ctft:tipped_arrow_helmet",
+    "count": 1
+  }
+}
+        

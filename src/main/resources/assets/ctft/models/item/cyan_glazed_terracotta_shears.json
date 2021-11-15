@@ -1,8 +1,10 @@
 
     {
-      "parent": "item/handheld",
+      "parent": "ctft:item/shears",
       "textures": {
-        "layer0": "ctft:items/cyan_glazed_terracotta_shears"
+        "0": "ctft:items/shears",
+        "1": "ctft:blocks/cyan_glazed_terracotta_block",
+        "particle": "ctft:blocks/cyan_glazed_terracotta_block"
       }
     }
             

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cyan_shulker_box"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:cyan_shulker_box_sword",
+			"ctft:cyan_shulker_box_pickaxe",
+			"ctft:cyan_shulker_box_axe",
+			"ctft:cyan_shulker_box_shovel",
+			"ctft:cyan_shulker_box_hoe",
+			"ctft:cyan_shulker_box_shield",
+			"ctft:cyan_shulker_box_fishing_rod",
+			"ctft:cyan_shulker_box_compass",
+			"ctft:cyan_shulker_box_clock",
+			"ctft:cyan_shulker_box_helmet",
+			"ctft:cyan_shulker_box_chestplate",
+			"ctft:cyan_shulker_box_leggings",
+			"ctft:cyan_shulker_box_boots",
+			"ctft:cyan_shulker_box_shears",
+			"ctft:cyan_shulker_box_horse_armor",
+			"ctft:cyan_shulker_box_bow"
+		]
+	}
+}

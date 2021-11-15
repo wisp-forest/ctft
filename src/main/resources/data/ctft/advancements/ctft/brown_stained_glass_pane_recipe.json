@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:brown_stained_glass_pane"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:brown_stained_glass_pane_sword",
+			"ctft:brown_stained_glass_pane_pickaxe",
+			"ctft:brown_stained_glass_pane_axe",
+			"ctft:brown_stained_glass_pane_shovel",
+			"ctft:brown_stained_glass_pane_hoe",
+			"ctft:brown_stained_glass_pane_shield",
+			"ctft:brown_stained_glass_pane_fishing_rod",
+			"ctft:brown_stained_glass_pane_compass",
+			"ctft:brown_stained_glass_pane_clock",
+			"ctft:brown_stained_glass_pane_helmet",
+			"ctft:brown_stained_glass_pane_chestplate",
+			"ctft:brown_stained_glass_pane_leggings",
+			"ctft:brown_stained_glass_pane_boots",
+			"ctft:brown_stained_glass_pane_shears",
+			"ctft:brown_stained_glass_pane_horse_armor",
+			"ctft:brown_stained_glass_pane_bow"
+		]
+	}
+}

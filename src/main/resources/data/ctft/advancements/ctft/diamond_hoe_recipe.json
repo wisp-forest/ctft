@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:diamond_hoe"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:diamond_hoe_sword",
+			"ctft:diamond_hoe_pickaxe",
+			"ctft:diamond_hoe_axe",
+			"ctft:diamond_hoe_shovel",
+			"ctft:diamond_hoe_hoe",
+			"ctft:diamond_hoe_shield",
+			"ctft:diamond_hoe_fishing_rod",
+			"ctft:diamond_hoe_compass",
+			"ctft:diamond_hoe_clock",
+			"ctft:diamond_hoe_helmet",
+			"ctft:diamond_hoe_chestplate",
+			"ctft:diamond_hoe_leggings",
+			"ctft:diamond_hoe_boots",
+			"ctft:diamond_hoe_shears",
+			"ctft:diamond_hoe_horse_armor",
+			"ctft:diamond_hoe_bow"
+		]
+	}
+}

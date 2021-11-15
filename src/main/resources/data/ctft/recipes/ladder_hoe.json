@@ -1,0 +1,23 @@
+
+{
+  "group": "Ladder Hoe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "00 ",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:ladder"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:ladder_hoe",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:diamond_ore"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:diamond_ore_sword",
+			"ctft:diamond_ore_pickaxe",
+			"ctft:diamond_ore_axe",
+			"ctft:diamond_ore_shovel",
+			"ctft:diamond_ore_hoe",
+			"ctft:diamond_ore_shield",
+			"ctft:diamond_ore_fishing_rod",
+			"ctft:diamond_ore_compass",
+			"ctft:diamond_ore_clock",
+			"ctft:diamond_ore_helmet",
+			"ctft:diamond_ore_chestplate",
+			"ctft:diamond_ore_leggings",
+			"ctft:diamond_ore_boots",
+			"ctft:diamond_ore_shears",
+			"ctft:diamond_ore_horse_armor",
+			"ctft:diamond_ore_bow"
+		]
+	}
+}

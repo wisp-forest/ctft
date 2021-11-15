@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:blue_concrete_powder"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:blue_concrete_powder_sword",
+			"ctft:blue_concrete_powder_pickaxe",
+			"ctft:blue_concrete_powder_axe",
+			"ctft:blue_concrete_powder_shovel",
+			"ctft:blue_concrete_powder_hoe",
+			"ctft:blue_concrete_powder_shield",
+			"ctft:blue_concrete_powder_fishing_rod",
+			"ctft:blue_concrete_powder_compass",
+			"ctft:blue_concrete_powder_clock",
+			"ctft:blue_concrete_powder_helmet",
+			"ctft:blue_concrete_powder_chestplate",
+			"ctft:blue_concrete_powder_leggings",
+			"ctft:blue_concrete_powder_boots",
+			"ctft:blue_concrete_powder_shears",
+			"ctft:blue_concrete_powder_horse_armor",
+			"ctft:blue_concrete_powder_bow"
+		]
+	}
+}

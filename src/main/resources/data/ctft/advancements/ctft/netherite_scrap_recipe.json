@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_scrap"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:netherite_scrap_sword",
+			"ctft:netherite_scrap_pickaxe",
+			"ctft:netherite_scrap_axe",
+			"ctft:netherite_scrap_shovel",
+			"ctft:netherite_scrap_hoe",
+			"ctft:netherite_scrap_shield",
+			"ctft:netherite_scrap_fishing_rod",
+			"ctft:netherite_scrap_compass",
+			"ctft:netherite_scrap_clock",
+			"ctft:netherite_scrap_helmet",
+			"ctft:netherite_scrap_chestplate",
+			"ctft:netherite_scrap_leggings",
+			"ctft:netherite_scrap_boots",
+			"ctft:netherite_scrap_shears",
+			"ctft:netherite_scrap_horse_armor",
+			"ctft:netherite_scrap_bow"
+		]
+	}
+}

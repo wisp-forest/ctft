@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:saddle"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:saddle_sword",
+			"ctft:saddle_pickaxe",
+			"ctft:saddle_axe",
+			"ctft:saddle_shovel",
+			"ctft:saddle_hoe",
+			"ctft:saddle_shield",
+			"ctft:saddle_fishing_rod",
+			"ctft:saddle_compass",
+			"ctft:saddle_clock",
+			"ctft:saddle_helmet",
+			"ctft:saddle_chestplate",
+			"ctft:saddle_leggings",
+			"ctft:saddle_boots",
+			"ctft:saddle_shears",
+			"ctft:saddle_horse_armor",
+			"ctft:saddle_bow"
+		]
+	}
+}

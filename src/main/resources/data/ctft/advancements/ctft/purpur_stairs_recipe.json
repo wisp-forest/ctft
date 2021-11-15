@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:purpur_stairs"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:purpur_stairs_sword",
+			"ctft:purpur_stairs_pickaxe",
+			"ctft:purpur_stairs_axe",
+			"ctft:purpur_stairs_shovel",
+			"ctft:purpur_stairs_hoe",
+			"ctft:purpur_stairs_shield",
+			"ctft:purpur_stairs_fishing_rod",
+			"ctft:purpur_stairs_compass",
+			"ctft:purpur_stairs_clock",
+			"ctft:purpur_stairs_helmet",
+			"ctft:purpur_stairs_chestplate",
+			"ctft:purpur_stairs_leggings",
+			"ctft:purpur_stairs_boots",
+			"ctft:purpur_stairs_shears",
+			"ctft:purpur_stairs_horse_armor",
+			"ctft:purpur_stairs_bow"
+		]
+	}
+}

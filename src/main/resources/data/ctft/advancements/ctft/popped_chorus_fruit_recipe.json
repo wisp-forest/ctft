@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:popped_chorus_fruit"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:popped_chorus_fruit_sword",
+			"ctft:popped_chorus_fruit_pickaxe",
+			"ctft:popped_chorus_fruit_axe",
+			"ctft:popped_chorus_fruit_shovel",
+			"ctft:popped_chorus_fruit_hoe",
+			"ctft:popped_chorus_fruit_shield",
+			"ctft:popped_chorus_fruit_fishing_rod",
+			"ctft:popped_chorus_fruit_compass",
+			"ctft:popped_chorus_fruit_clock",
+			"ctft:popped_chorus_fruit_helmet",
+			"ctft:popped_chorus_fruit_chestplate",
+			"ctft:popped_chorus_fruit_leggings",
+			"ctft:popped_chorus_fruit_boots",
+			"ctft:popped_chorus_fruit_shears",
+			"ctft:popped_chorus_fruit_horse_armor",
+			"ctft:popped_chorus_fruit_bow"
+		]
+	}
+}

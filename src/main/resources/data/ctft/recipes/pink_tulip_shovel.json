@@ -1,0 +1,23 @@
+
+{
+  "group": "Pink Tulip Shovel",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:pink_tulip"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:pink_tulip_shovel",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,10 @@
+
+    {
+      "parent": "ctft:item/bow_pulling_0",
+      "textures": {
+        "0": "ctft:items/bow_pulling_0",
+        "1": "ctft:blocks/zombie_head_block",
+        "particle": "ctft:blocks/zombie_head_block"
+      }
+    }
+            

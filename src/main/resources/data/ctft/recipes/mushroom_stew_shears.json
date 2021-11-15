@@ -1,0 +1,20 @@
+
+{
+  "group": "Mushroom Stew Shears",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 0 ",
+    "   "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:mushroom_stew"
+    }
+  },
+  "result": {
+    "item": "ctft:mushroom_stew_shears",
+    "count": 1
+  }
+}
+        

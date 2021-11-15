@@ -1,0 +1,20 @@
+
+{
+  "group": "Tube Coral Fan Horse Armor",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:tube_coral_fan"
+    }
+  },
+  "result": {
+    "item": "ctft:tube_coral_fan_horse_armor",
+    "count": 1
+  }
+}
+        

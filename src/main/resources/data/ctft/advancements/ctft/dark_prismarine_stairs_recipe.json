@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:dark_prismarine_stairs"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:dark_prismarine_stairs_sword",
+			"ctft:dark_prismarine_stairs_pickaxe",
+			"ctft:dark_prismarine_stairs_axe",
+			"ctft:dark_prismarine_stairs_shovel",
+			"ctft:dark_prismarine_stairs_hoe",
+			"ctft:dark_prismarine_stairs_shield",
+			"ctft:dark_prismarine_stairs_fishing_rod",
+			"ctft:dark_prismarine_stairs_compass",
+			"ctft:dark_prismarine_stairs_clock",
+			"ctft:dark_prismarine_stairs_helmet",
+			"ctft:dark_prismarine_stairs_chestplate",
+			"ctft:dark_prismarine_stairs_leggings",
+			"ctft:dark_prismarine_stairs_boots",
+			"ctft:dark_prismarine_stairs_shears",
+			"ctft:dark_prismarine_stairs_horse_armor",
+			"ctft:dark_prismarine_stairs_bow"
+		]
+	}
+}

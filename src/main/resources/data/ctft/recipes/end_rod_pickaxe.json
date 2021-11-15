@@ -1,0 +1,23 @@
+
+{
+  "group": "End Rod Pickaxe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:end_rod"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:end_rod_pickaxe",
+    "count": 1
+  }
+}
+        

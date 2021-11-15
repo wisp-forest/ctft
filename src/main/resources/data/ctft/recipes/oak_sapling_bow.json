@@ -1,0 +1,23 @@
+
+{
+  "group": "Oak Sapling Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:oak_sapling"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:oak_sapling_bow",
+    "count": 1
+  }
+}
+        

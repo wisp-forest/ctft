@@ -1,0 +1,23 @@
+
+{
+  "group": "Lily Pad Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:lily_pad"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:lily_pad_bow",
+    "count": 1
+  }
+}
+        

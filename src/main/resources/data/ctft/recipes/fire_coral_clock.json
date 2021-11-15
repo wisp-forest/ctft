@@ -1,0 +1,23 @@
+
+{
+  "group": "Fire Coral Clock",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    "010",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:fire_coral"
+    },
+    "1": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:fire_coral_clock",
+    "count": 1
+  }
+}
+        

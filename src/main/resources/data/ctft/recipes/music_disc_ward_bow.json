@@ -1,0 +1,23 @@
+
+{
+  "group": "Music Disc Ward Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:music_disc_ward"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:music_disc_ward_bow",
+    "count": 1
+  }
+}
+        

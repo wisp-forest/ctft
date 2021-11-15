@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:prismarine_shard"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:prismarine_shard_sword",
+			"ctft:prismarine_shard_pickaxe",
+			"ctft:prismarine_shard_axe",
+			"ctft:prismarine_shard_shovel",
+			"ctft:prismarine_shard_hoe",
+			"ctft:prismarine_shard_shield",
+			"ctft:prismarine_shard_fishing_rod",
+			"ctft:prismarine_shard_compass",
+			"ctft:prismarine_shard_clock",
+			"ctft:prismarine_shard_helmet",
+			"ctft:prismarine_shard_chestplate",
+			"ctft:prismarine_shard_leggings",
+			"ctft:prismarine_shard_boots",
+			"ctft:prismarine_shard_shears",
+			"ctft:prismarine_shard_horse_armor",
+			"ctft:prismarine_shard_bow"
+		]
+	}
+}

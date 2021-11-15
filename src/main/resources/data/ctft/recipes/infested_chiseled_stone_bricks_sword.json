@@ -1,0 +1,23 @@
+
+{
+  "group": "Infested Chiseled Stone Bricks Sword",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    " 0 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:infested_chiseled_stone_bricks"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:infested_chiseled_stone_bricks_sword",
+    "count": 1
+  }
+}
+        

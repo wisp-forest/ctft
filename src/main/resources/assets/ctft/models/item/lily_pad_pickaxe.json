@@ -1,8 +1,10 @@
 
     {
-      "parent": "item/handheld",
+      "parent": "ctft:item/pickaxe",
       "textures": {
-        "layer0": "ctft:items/lily_pad_pickaxe"
+        "0": "ctft:items/iron_pickaxe",
+        "1": "ctft:blocks/lily_pad_block",
+        "particle": "ctft:blocks/lily_pad_block"
       }
     }
             

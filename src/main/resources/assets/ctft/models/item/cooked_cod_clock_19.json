@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/cooked_cod_clock_19",
-    "1": "ctft:items/clock_19"
+    "0": "ctft:items/clock_19",
+    "1": "ctft:blocks/cooked_cod_block",
+    "particle": "ctft:blocks/cooked_cod_block"
   }
 }
             

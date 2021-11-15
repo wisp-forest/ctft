@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:dark_oak_stairs"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:dark_oak_stairs_sword",
+			"ctft:dark_oak_stairs_pickaxe",
+			"ctft:dark_oak_stairs_axe",
+			"ctft:dark_oak_stairs_shovel",
+			"ctft:dark_oak_stairs_hoe",
+			"ctft:dark_oak_stairs_shield",
+			"ctft:dark_oak_stairs_fishing_rod",
+			"ctft:dark_oak_stairs_compass",
+			"ctft:dark_oak_stairs_clock",
+			"ctft:dark_oak_stairs_helmet",
+			"ctft:dark_oak_stairs_chestplate",
+			"ctft:dark_oak_stairs_leggings",
+			"ctft:dark_oak_stairs_boots",
+			"ctft:dark_oak_stairs_shears",
+			"ctft:dark_oak_stairs_horse_armor",
+			"ctft:dark_oak_stairs_bow"
+		]
+	}
+}

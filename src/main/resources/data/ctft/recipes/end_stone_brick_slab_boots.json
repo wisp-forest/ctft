@@ -1,0 +1,20 @@
+
+{
+  "group": "End Stone Brick Slab Boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:end_stone_brick_slab"
+    }
+  },
+  "result": {
+    "item": "ctft:end_stone_brick_slab_boots",
+    "count": 1
+  }
+}
+        

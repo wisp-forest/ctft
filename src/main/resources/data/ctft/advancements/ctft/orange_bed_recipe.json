@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:orange_bed"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:orange_bed_sword",
+			"ctft:orange_bed_pickaxe",
+			"ctft:orange_bed_axe",
+			"ctft:orange_bed_shovel",
+			"ctft:orange_bed_hoe",
+			"ctft:orange_bed_shield",
+			"ctft:orange_bed_fishing_rod",
+			"ctft:orange_bed_compass",
+			"ctft:orange_bed_clock",
+			"ctft:orange_bed_helmet",
+			"ctft:orange_bed_chestplate",
+			"ctft:orange_bed_leggings",
+			"ctft:orange_bed_boots",
+			"ctft:orange_bed_shears",
+			"ctft:orange_bed_horse_armor",
+			"ctft:orange_bed_bow"
+		]
+	}
+}

@@ -1,0 +1,23 @@
+
+{
+  "group": "Redstone Lamp Sword",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    " 0 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:redstone_lamp"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:redstone_lamp_sword",
+    "count": 1
+  }
+}
+        

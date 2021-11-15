@@ -1,0 +1,23 @@
+
+{
+  "group": "Block of Raw Iron Fishing Rod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 01",
+    "0 1"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:raw_iron_block"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:block_of_raw_iron_fishing_rod",
+    "count": 1
+  }
+}
+        

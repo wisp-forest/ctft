@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:white_terracotta"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:white_terracotta_sword",
+			"ctft:white_terracotta_pickaxe",
+			"ctft:white_terracotta_axe",
+			"ctft:white_terracotta_shovel",
+			"ctft:white_terracotta_hoe",
+			"ctft:white_terracotta_shield",
+			"ctft:white_terracotta_fishing_rod",
+			"ctft:white_terracotta_compass",
+			"ctft:white_terracotta_clock",
+			"ctft:white_terracotta_helmet",
+			"ctft:white_terracotta_chestplate",
+			"ctft:white_terracotta_leggings",
+			"ctft:white_terracotta_boots",
+			"ctft:white_terracotta_shears",
+			"ctft:white_terracotta_horse_armor",
+			"ctft:white_terracotta_bow"
+		]
+	}
+}

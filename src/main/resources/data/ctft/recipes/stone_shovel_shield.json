@@ -1,0 +1,23 @@
+
+{
+  "group": "Stone Shovel Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:stone_shovel"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:stone_shovel_shield",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,23 @@
+
+{
+  "group": "Iron Nugget Sword",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    " 0 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:iron_nugget"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:iron_nugget_sword",
+    "count": 1
+  }
+}
+        

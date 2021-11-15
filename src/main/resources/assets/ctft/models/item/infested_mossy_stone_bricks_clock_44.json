@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/mossy_stone_bricks_clock_44",
-    "1": "ctft:items/clock_44"
+    "0": "ctft:items/clock_44",
+    "1": "ctft:blocks/mossy_stone_bricks_block",
+    "particle": "ctft:blocks/mossy_stone_bricks_block"
   }
 }
             

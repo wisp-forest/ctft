@@ -1,0 +1,20 @@
+
+{
+  "group": "Warped Nylium Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:warped_nylium"
+    }
+  },
+  "result": {
+    "item": "ctft:warped_nylium_chestplate",
+    "count": 1
+  }
+}
+        

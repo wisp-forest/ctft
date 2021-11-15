@@ -1,0 +1,20 @@
+
+{
+  "group": "Block if Diamond Helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:diamond_block"
+    }
+  },
+  "result": {
+    "item": "ctft:block_if_diamond_helmet",
+    "count": 1
+  }
+}
+        

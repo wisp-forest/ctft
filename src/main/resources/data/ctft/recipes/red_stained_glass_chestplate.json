@@ -1,0 +1,20 @@
+
+{
+  "group": "Red Stained Glass Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:red_stained_glass"
+    }
+  },
+  "result": {
+    "item": "ctft:red_stained_glass_chestplate",
+    "count": 1
+  }
+}
+        

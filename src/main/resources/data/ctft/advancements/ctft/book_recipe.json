@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:book"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:book_sword",
+			"ctft:book_pickaxe",
+			"ctft:book_axe",
+			"ctft:book_shovel",
+			"ctft:book_hoe",
+			"ctft:book_shield",
+			"ctft:book_fishing_rod",
+			"ctft:book_compass",
+			"ctft:book_clock",
+			"ctft:book_helmet",
+			"ctft:book_chestplate",
+			"ctft:book_leggings",
+			"ctft:book_boots",
+			"ctft:book_shears",
+			"ctft:book_horse_armor",
+			"ctft:book_bow"
+		]
+	}
+}

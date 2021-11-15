@@ -1,8 +1,14 @@
 
 {
-  "parent": "item/fishing_rod",
+  "parent": "ctft:item/fishing_rod",
   "textures": {
-    "layer0": "ctft:items/creeper_banner_pattern_fishing_rod"
-  }
+    "0": "ctft:items/fishing_rod",
+    "1": "ctft:blocks/creeper_banner_pattern_block",
+    "particle": "ctft:blocks/creeper_banner_pattern_block"
+  },
+  "overrides": [
+        { "predicate": { "cast": 0.0 }, "model": "ctft:item/creeper_banner_pattern_fishing_rod" },
+        { "predicate": { "cast": 1.0 }, "model": "ctft:item/creeper_banner_pattern_fishing_rod_cast" }
+    ]
 }
         

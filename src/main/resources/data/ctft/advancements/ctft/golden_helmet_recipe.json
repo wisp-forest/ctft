@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:golden_helmet"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:golden_helmet_sword",
+			"ctft:golden_helmet_pickaxe",
+			"ctft:golden_helmet_axe",
+			"ctft:golden_helmet_shovel",
+			"ctft:golden_helmet_hoe",
+			"ctft:golden_helmet_shield",
+			"ctft:golden_helmet_fishing_rod",
+			"ctft:golden_helmet_compass",
+			"ctft:golden_helmet_clock",
+			"ctft:golden_helmet_helmet",
+			"ctft:golden_helmet_chestplate",
+			"ctft:golden_helmet_leggings",
+			"ctft:golden_helmet_boots",
+			"ctft:golden_helmet_shears",
+			"ctft:golden_helmet_horse_armor",
+			"ctft:golden_helmet_bow"
+		]
+	}
+}

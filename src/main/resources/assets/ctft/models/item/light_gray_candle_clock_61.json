@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/light_gray_candle_clock_61",
-    "1": "ctft:items/clock_61"
+    "0": "ctft:items/clock_61",
+    "1": "ctft:blocks/light_gray_candle_block",
+    "particle": "ctft:blocks/light_gray_candle_block"
   }
 }
             

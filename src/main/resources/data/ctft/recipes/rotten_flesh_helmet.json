@@ -1,0 +1,20 @@
+
+{
+  "group": "Rotten Flesh Helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:rotten_flesh"
+    }
+  },
+  "result": {
+    "item": "ctft:rotten_flesh_helmet",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,20 @@
+
+{
+  "group": "Magenta Shulker Box Helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:magenta_shulker_box"
+    }
+  },
+  "result": {
+    "item": "ctft:magenta_shulker_box_helmet",
+    "count": 1
+  }
+}
+        

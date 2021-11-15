@@ -1,0 +1,20 @@
+
+{
+  "group": "Nether Bricks Leggings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:nether_bricks"
+    }
+  },
+  "result": {
+    "item": "ctft:nether_bricks_leggings",
+    "count": 1
+  }
+}
+        

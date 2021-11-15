@@ -1,0 +1,23 @@
+
+{
+  "group": "Granite Wall Shovel",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:granite_wall"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:granite_wall_shovel",
+    "count": 1
+  }
+}
+        

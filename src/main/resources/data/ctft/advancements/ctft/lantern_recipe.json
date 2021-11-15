@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:lantern"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:lantern_sword",
+			"ctft:lantern_pickaxe",
+			"ctft:lantern_axe",
+			"ctft:lantern_shovel",
+			"ctft:lantern_hoe",
+			"ctft:lantern_shield",
+			"ctft:lantern_fishing_rod",
+			"ctft:lantern_compass",
+			"ctft:lantern_clock",
+			"ctft:lantern_helmet",
+			"ctft:lantern_chestplate",
+			"ctft:lantern_leggings",
+			"ctft:lantern_boots",
+			"ctft:lantern_shears",
+			"ctft:lantern_horse_armor",
+			"ctft:lantern_bow"
+		]
+	}
+}

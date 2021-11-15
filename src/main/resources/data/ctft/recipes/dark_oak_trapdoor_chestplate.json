@@ -1,0 +1,20 @@
+
+{
+  "group": "Dark Oak Trapdoor Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:dark_oak_trapdoor"
+    }
+  },
+  "result": {
+    "item": "ctft:dark_oak_trapdoor_chestplate",
+    "count": 1
+  }
+}
+        

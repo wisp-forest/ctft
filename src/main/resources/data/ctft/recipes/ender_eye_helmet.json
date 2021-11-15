@@ -1,0 +1,20 @@
+
+{
+  "group": "Ender Eye Helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:ender_eye"
+    }
+  },
+  "result": {
+    "item": "ctft:ender_eye_helmet",
+    "count": 1
+  }
+}
+        

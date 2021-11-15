@@ -1,0 +1,41 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:gold_block"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:gold_block_sword",
+			"ctft:gold_block_pickaxe",
+			"ctft:gold_block_axe",
+			"ctft:gold_block_shovel",
+			"ctft:gold_block_hoe",
+			"ctft:gold_block_shield",
+			"ctft:gold_block_fishing_rod",
+			"ctft:gold_block_compass",
+			"ctft:gold_block_clock",
+			"ctft:gold_block_helmet",
+			"ctft:gold_block_chestplate",
+			"ctft:gold_block_leggings",
+			"ctft:gold_block_boots",
+			"ctft:gold_block_shears",
+			"ctft:gold_block_horse_armor"
+		]
+	}
+}

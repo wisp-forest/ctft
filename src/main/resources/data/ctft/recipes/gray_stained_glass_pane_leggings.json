@@ -1,0 +1,20 @@
+
+{
+  "group": "Gray Stained Glass Pane Leggings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:gray_stained_glass_pane"
+    }
+  },
+  "result": {
+    "item": "ctft:gray_stained_glass_pane_leggings",
+    "count": 1
+  }
+}
+        

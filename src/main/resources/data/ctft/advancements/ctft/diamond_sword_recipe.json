@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:diamond_sword"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:diamond_sword_sword",
+			"ctft:diamond_sword_pickaxe",
+			"ctft:diamond_sword_axe",
+			"ctft:diamond_sword_shovel",
+			"ctft:diamond_sword_hoe",
+			"ctft:diamond_sword_shield",
+			"ctft:diamond_sword_fishing_rod",
+			"ctft:diamond_sword_compass",
+			"ctft:diamond_sword_clock",
+			"ctft:diamond_sword_helmet",
+			"ctft:diamond_sword_chestplate",
+			"ctft:diamond_sword_leggings",
+			"ctft:diamond_sword_boots",
+			"ctft:diamond_sword_shears",
+			"ctft:diamond_sword_horse_armor",
+			"ctft:diamond_sword_bow"
+		]
+	}
+}

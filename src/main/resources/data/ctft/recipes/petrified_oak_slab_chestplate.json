@@ -1,0 +1,20 @@
+
+{
+  "group": "Petrified Oak Slab Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:petrified_oak_slab"
+    }
+  },
+  "result": {
+    "item": "ctft:petrified_oak_slab_chestplate",
+    "count": 1
+  }
+}
+        

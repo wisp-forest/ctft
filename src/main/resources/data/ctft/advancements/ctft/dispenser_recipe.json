@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:dispenser"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:dispenser_sword",
+			"ctft:dispenser_pickaxe",
+			"ctft:dispenser_axe",
+			"ctft:dispenser_shovel",
+			"ctft:dispenser_hoe",
+			"ctft:dispenser_shield",
+			"ctft:dispenser_fishing_rod",
+			"ctft:dispenser_compass",
+			"ctft:dispenser_clock",
+			"ctft:dispenser_helmet",
+			"ctft:dispenser_chestplate",
+			"ctft:dispenser_leggings",
+			"ctft:dispenser_boots",
+			"ctft:dispenser_shears",
+			"ctft:dispenser_horse_armor",
+			"ctft:dispenser_bow"
+		]
+	}
+}

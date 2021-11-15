@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_bars"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:iron_bars_sword",
+			"ctft:iron_bars_pickaxe",
+			"ctft:iron_bars_axe",
+			"ctft:iron_bars_shovel",
+			"ctft:iron_bars_hoe",
+			"ctft:iron_bars_shield",
+			"ctft:iron_bars_fishing_rod",
+			"ctft:iron_bars_compass",
+			"ctft:iron_bars_clock",
+			"ctft:iron_bars_helmet",
+			"ctft:iron_bars_chestplate",
+			"ctft:iron_bars_leggings",
+			"ctft:iron_bars_boots",
+			"ctft:iron_bars_shears",
+			"ctft:iron_bars_horse_armor",
+			"ctft:iron_bars_bow"
+		]
+	}
+}

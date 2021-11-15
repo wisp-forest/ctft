@@ -1,0 +1,23 @@
+
+{
+  "group": "End Portal Frame Shovel",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:end_portal_frame"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:end_portal_frame_shovel",
+    "count": 1
+  }
+}
+        

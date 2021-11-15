@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:filled_map"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:filled_map_sword",
+			"ctft:filled_map_pickaxe",
+			"ctft:filled_map_axe",
+			"ctft:filled_map_shovel",
+			"ctft:filled_map_hoe",
+			"ctft:filled_map_shield",
+			"ctft:filled_map_fishing_rod",
+			"ctft:filled_map_compass",
+			"ctft:filled_map_clock",
+			"ctft:filled_map_helmet",
+			"ctft:filled_map_chestplate",
+			"ctft:filled_map_leggings",
+			"ctft:filled_map_boots",
+			"ctft:filled_map_shears",
+			"ctft:filled_map_horse_armor",
+			"ctft:filled_map_bow"
+		]
+	}
+}

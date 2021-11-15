@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:tnt"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:tnt_sword",
+			"ctft:tnt_pickaxe",
+			"ctft:tnt_axe",
+			"ctft:tnt_shovel",
+			"ctft:tnt_hoe",
+			"ctft:tnt_shield",
+			"ctft:tnt_fishing_rod",
+			"ctft:tnt_compass",
+			"ctft:tnt_clock",
+			"ctft:tnt_helmet",
+			"ctft:tnt_chestplate",
+			"ctft:tnt_leggings",
+			"ctft:tnt_boots",
+			"ctft:tnt_shears",
+			"ctft:tnt_horse_armor",
+			"ctft:tnt_bow"
+		]
+	}
+}

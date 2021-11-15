@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:warped_planks"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:warped_planks_sword",
+			"ctft:warped_planks_pickaxe",
+			"ctft:warped_planks_axe",
+			"ctft:warped_planks_shovel",
+			"ctft:warped_planks_hoe",
+			"ctft:warped_planks_shield",
+			"ctft:warped_planks_fishing_rod",
+			"ctft:warped_planks_compass",
+			"ctft:warped_planks_clock",
+			"ctft:warped_planks_helmet",
+			"ctft:warped_planks_chestplate",
+			"ctft:warped_planks_leggings",
+			"ctft:warped_planks_boots",
+			"ctft:warped_planks_shears",
+			"ctft:warped_planks_horse_armor",
+			"ctft:warped_planks_bow"
+		]
+	}
+}

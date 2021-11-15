@@ -1,0 +1,23 @@
+
+{
+  "group": "Cooked Mutton Fishing Rod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 01",
+    "0 1"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:cooked_mutton"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:cooked_mutton_fishing_rod",
+    "count": 1
+  }
+}
+        

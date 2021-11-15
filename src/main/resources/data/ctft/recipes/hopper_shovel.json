@@ -1,0 +1,23 @@
+
+{
+  "group": "Hopper Shovel",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:hopper"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:hopper_shovel",
+    "count": 1
+  }
+}
+        

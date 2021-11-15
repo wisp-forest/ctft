@@ -1,0 +1,20 @@
+
+{
+  "group": "Stone Hoe Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:stone_hoe"
+    }
+  },
+  "result": {
+    "item": "ctft:stone_hoe_chestplate",
+    "count": 1
+  }
+}
+        

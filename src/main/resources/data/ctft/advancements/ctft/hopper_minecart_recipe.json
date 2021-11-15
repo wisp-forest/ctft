@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:hopper_minecart"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:hopper_minecart_sword",
+			"ctft:hopper_minecart_pickaxe",
+			"ctft:hopper_minecart_axe",
+			"ctft:hopper_minecart_shovel",
+			"ctft:hopper_minecart_hoe",
+			"ctft:hopper_minecart_shield",
+			"ctft:hopper_minecart_fishing_rod",
+			"ctft:hopper_minecart_compass",
+			"ctft:hopper_minecart_clock",
+			"ctft:hopper_minecart_helmet",
+			"ctft:hopper_minecart_chestplate",
+			"ctft:hopper_minecart_leggings",
+			"ctft:hopper_minecart_boots",
+			"ctft:hopper_minecart_shears",
+			"ctft:hopper_minecart_horse_armor",
+			"ctft:hopper_minecart_bow"
+		]
+	}
+}

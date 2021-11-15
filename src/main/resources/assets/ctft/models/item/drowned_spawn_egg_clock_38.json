@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/drowned_clock_38",
-    "1": "ctft:items/clock_38"
+    "0": "ctft:items/clock_38",
+    "1": "ctft:blocks/drowned_block",
+    "particle": "ctft:blocks/drowned_block"
   }
 }
             

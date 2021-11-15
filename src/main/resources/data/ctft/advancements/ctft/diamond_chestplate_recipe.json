@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:diamond_chestplate"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:diamond_chestplate_sword",
+			"ctft:diamond_chestplate_pickaxe",
+			"ctft:diamond_chestplate_axe",
+			"ctft:diamond_chestplate_shovel",
+			"ctft:diamond_chestplate_hoe",
+			"ctft:diamond_chestplate_shield",
+			"ctft:diamond_chestplate_fishing_rod",
+			"ctft:diamond_chestplate_compass",
+			"ctft:diamond_chestplate_clock",
+			"ctft:diamond_chestplate_helmet",
+			"ctft:diamond_chestplate_chestplate",
+			"ctft:diamond_chestplate_leggings",
+			"ctft:diamond_chestplate_boots",
+			"ctft:diamond_chestplate_shears",
+			"ctft:diamond_chestplate_horse_armor",
+			"ctft:diamond_chestplate_bow"
+		]
+	}
+}

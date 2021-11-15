@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/warped_nylium_clock_62",
-    "1": "ctft:items/clock_62"
+    "0": "ctft:items/clock_62",
+    "1": "ctft:blocks/warped_nylium_block",
+    "particle": "ctft:blocks/warped_nylium_block"
   }
 }
             

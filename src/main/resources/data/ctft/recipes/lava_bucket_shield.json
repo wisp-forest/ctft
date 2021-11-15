@@ -1,0 +1,23 @@
+
+{
+  "group": "Lava Bucket Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:lava_bucket"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:lava_bucket_shield",
+    "count": 1
+  }
+}
+        

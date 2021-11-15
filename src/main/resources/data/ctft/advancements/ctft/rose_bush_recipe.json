@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:rose_bush"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:rose_bush_sword",
+			"ctft:rose_bush_pickaxe",
+			"ctft:rose_bush_axe",
+			"ctft:rose_bush_shovel",
+			"ctft:rose_bush_hoe",
+			"ctft:rose_bush_shield",
+			"ctft:rose_bush_fishing_rod",
+			"ctft:rose_bush_compass",
+			"ctft:rose_bush_clock",
+			"ctft:rose_bush_helmet",
+			"ctft:rose_bush_chestplate",
+			"ctft:rose_bush_leggings",
+			"ctft:rose_bush_boots",
+			"ctft:rose_bush_shears",
+			"ctft:rose_bush_horse_armor",
+			"ctft:rose_bush_bow"
+		]
+	}
+}

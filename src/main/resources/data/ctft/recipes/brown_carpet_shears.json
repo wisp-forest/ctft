@@ -1,0 +1,20 @@
+
+{
+  "group": "Brown Carpet Shears",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 0 ",
+    "   "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:brown_carpet"
+    }
+  },
+  "result": {
+    "item": "ctft:brown_carpet_shears",
+    "count": 1
+  }
+}
+        

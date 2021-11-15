@@ -1,8 +1,10 @@
 
     {
-      "parent": "item/handheld",
+      "parent": "ctft:item/sword",
       "textures": {
-        "layer0": "ctft:items/acacia_planks_sword"
+        "0": "ctft:items/iron_sword",
+        "1": "ctft:blocks/acacia_planks_block",
+        "particle": "ctft:blocks/acacia_planks_block"
       }
     }
             

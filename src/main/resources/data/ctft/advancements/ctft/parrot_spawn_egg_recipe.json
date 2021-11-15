@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:parrot_spawn_egg"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:parrot_spawn_egg_sword",
+			"ctft:parrot_spawn_egg_pickaxe",
+			"ctft:parrot_spawn_egg_axe",
+			"ctft:parrot_spawn_egg_shovel",
+			"ctft:parrot_spawn_egg_hoe",
+			"ctft:parrot_spawn_egg_shield",
+			"ctft:parrot_spawn_egg_fishing_rod",
+			"ctft:parrot_spawn_egg_compass",
+			"ctft:parrot_spawn_egg_clock",
+			"ctft:parrot_spawn_egg_helmet",
+			"ctft:parrot_spawn_egg_chestplate",
+			"ctft:parrot_spawn_egg_leggings",
+			"ctft:parrot_spawn_egg_boots",
+			"ctft:parrot_spawn_egg_shears",
+			"ctft:parrot_spawn_egg_horse_armor",
+			"ctft:parrot_spawn_egg_bow"
+		]
+	}
+}

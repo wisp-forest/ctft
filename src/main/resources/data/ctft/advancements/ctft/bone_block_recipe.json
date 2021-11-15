@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bone_block"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:bone_block_sword",
+			"ctft:bone_block_pickaxe",
+			"ctft:bone_block_axe",
+			"ctft:bone_block_shovel",
+			"ctft:bone_block_hoe",
+			"ctft:bone_block_shield",
+			"ctft:bone_block_fishing_rod",
+			"ctft:bone_block_compass",
+			"ctft:bone_block_clock",
+			"ctft:bone_block_helmet",
+			"ctft:bone_block_chestplate",
+			"ctft:bone_block_leggings",
+			"ctft:bone_block_boots",
+			"ctft:bone_block_shears",
+			"ctft:bone_block_horse_armor",
+			"ctft:bone_block_bow"
+		]
+	}
+}

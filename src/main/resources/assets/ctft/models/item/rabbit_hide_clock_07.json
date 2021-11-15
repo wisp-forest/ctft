@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/rabbit_hide_clock_07",
-    "1": "ctft:items/clock_07"
+    "0": "ctft:items/clock_07",
+    "1": "ctft:blocks/rabbit_hide_block",
+    "particle": "ctft:blocks/rabbit_hide_block"
   }
 }
             

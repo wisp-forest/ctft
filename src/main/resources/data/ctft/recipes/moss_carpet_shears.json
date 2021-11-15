@@ -1,0 +1,20 @@
+
+{
+  "group": "Moss Carpet Shears",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 0 ",
+    "   "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:moss_carpet"
+    }
+  },
+  "result": {
+    "item": "ctft:moss_carpet_shears",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,20 @@
+
+{
+  "group": "Crimson Fence Gate Shears",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 0 ",
+    "   "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:crimson_fence_gate"
+    }
+  },
+  "result": {
+    "item": "ctft:crimson_fence_gate_shears",
+    "count": 1
+  }
+}
+        

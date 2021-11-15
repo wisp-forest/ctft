@@ -1,0 +1,23 @@
+
+{
+  "group": "Orange Terracotta Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:orange_terracotta"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:orange_terracotta_shield",
+    "count": 1
+  }
+}
+        

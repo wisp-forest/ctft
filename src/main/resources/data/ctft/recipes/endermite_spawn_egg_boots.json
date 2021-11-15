@@ -1,0 +1,20 @@
+
+{
+  "group": "Endermite Spawn Egg Boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:endermite_spawn_egg"
+    }
+  },
+  "result": {
+    "item": "ctft:endermite_spawn_egg_boots",
+    "count": 1
+  }
+}
+        

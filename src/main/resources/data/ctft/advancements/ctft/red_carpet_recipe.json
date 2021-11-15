@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:red_carpet"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:red_carpet_sword",
+			"ctft:red_carpet_pickaxe",
+			"ctft:red_carpet_axe",
+			"ctft:red_carpet_shovel",
+			"ctft:red_carpet_hoe",
+			"ctft:red_carpet_shield",
+			"ctft:red_carpet_fishing_rod",
+			"ctft:red_carpet_compass",
+			"ctft:red_carpet_clock",
+			"ctft:red_carpet_helmet",
+			"ctft:red_carpet_chestplate",
+			"ctft:red_carpet_leggings",
+			"ctft:red_carpet_boots",
+			"ctft:red_carpet_shears",
+			"ctft:red_carpet_horse_armor",
+			"ctft:red_carpet_bow"
+		]
+	}
+}

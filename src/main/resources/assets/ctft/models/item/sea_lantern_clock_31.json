@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/sea_lantern_clock_31",
-    "1": "ctft:items/clock_31"
+    "0": "ctft:items/clock_31",
+    "1": "ctft:blocks/sea_lantern_block",
+    "particle": "ctft:blocks/sea_lantern_block"
   }
 }
             

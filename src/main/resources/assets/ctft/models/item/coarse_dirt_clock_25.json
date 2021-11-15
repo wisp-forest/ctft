@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/coarse_dirt_clock_25",
-    "1": "ctft:items/clock_25"
+    "0": "ctft:items/clock_25",
+    "1": "ctft:blocks/coarse_dirt_block",
+    "particle": "ctft:blocks/coarse_dirt_block"
   }
 }
             

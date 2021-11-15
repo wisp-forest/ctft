@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:pink_carpet"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:pink_carpet_sword",
+			"ctft:pink_carpet_pickaxe",
+			"ctft:pink_carpet_axe",
+			"ctft:pink_carpet_shovel",
+			"ctft:pink_carpet_hoe",
+			"ctft:pink_carpet_shield",
+			"ctft:pink_carpet_fishing_rod",
+			"ctft:pink_carpet_compass",
+			"ctft:pink_carpet_clock",
+			"ctft:pink_carpet_helmet",
+			"ctft:pink_carpet_chestplate",
+			"ctft:pink_carpet_leggings",
+			"ctft:pink_carpet_boots",
+			"ctft:pink_carpet_shears",
+			"ctft:pink_carpet_horse_armor",
+			"ctft:pink_carpet_bow"
+		]
+	}
+}

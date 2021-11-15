@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/carrot_on_a_stick_clock_26",
-    "1": "ctft:items/clock_26"
+    "0": "ctft:items/clock_26",
+    "1": "ctft:blocks/carrot_on_a_stick_block",
+    "particle": "ctft:blocks/carrot_on_a_stick_block"
   }
 }
             

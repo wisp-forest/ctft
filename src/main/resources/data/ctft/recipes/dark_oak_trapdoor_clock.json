@@ -1,0 +1,23 @@
+
+{
+  "group": "Dark Oak Trapdoor Clock",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    "010",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:dark_oak_trapdoor"
+    },
+    "1": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:dark_oak_trapdoor_clock",
+    "count": 1
+  }
+}
+        

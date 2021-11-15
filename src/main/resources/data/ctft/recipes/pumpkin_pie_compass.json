@@ -1,0 +1,23 @@
+
+{
+  "group": "Pumpkin Pie Compass",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    "010",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:pumpkin_pie"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:pumpkin_pie_compass",
+    "count": 1
+  }
+}
+        

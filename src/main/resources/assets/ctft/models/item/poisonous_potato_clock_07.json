@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/poisonous_potato_clock_07",
-    "1": "ctft:items/clock_07"
+    "0": "ctft:items/clock_07",
+    "1": "ctft:blocks/poisonous_potato_block",
+    "particle": "ctft:blocks/poisonous_potato_block"
   }
 }
             

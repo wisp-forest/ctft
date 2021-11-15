@@ -1,0 +1,23 @@
+
+{
+  "group": "Block of Diamond Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:diamond_block"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:block_of_diamond_shield",
+    "count": 1
+  }
+}
+        

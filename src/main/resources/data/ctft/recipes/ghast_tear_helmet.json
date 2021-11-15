@@ -1,0 +1,20 @@
+
+{
+  "group": "Ghast Tear Helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:ghast_tear"
+    }
+  },
+  "result": {
+    "item": "ctft:ghast_tear_helmet",
+    "count": 1
+  }
+}
+        

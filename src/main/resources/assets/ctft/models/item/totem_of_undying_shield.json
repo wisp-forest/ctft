@@ -2,7 +2,13 @@
     {
       "parent": "ctft:item/shield",
       "textures": {
-        "0": "ctft:items/totem_of_undying_shield_base"
-      }
+        "0": "ctft:items/shield_base",
+        "1": "ctft:blocks/totem_of_undying_block",
+        "particle": "ctft:blocks/totem_of_undying_block"
+      },
+      "overrides": [
+        { "predicate": { "blocking": 0.0 }, "model": "ctft:item/totem_of_undying_shield" },
+        { "predicate": { "blocking": 1.0 }, "model": "ctft:item/totem_of_undying_shield_blocking" }
+        ]
     }
             

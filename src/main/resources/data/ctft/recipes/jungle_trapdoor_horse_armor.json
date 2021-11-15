@@ -1,0 +1,20 @@
+
+{
+  "group": "Jungle Trapdoor Horse Armor",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:jungle_trapdoor"
+    }
+  },
+  "result": {
+    "item": "ctft:jungle_trapdoor_horse_armor",
+    "count": 1
+  }
+}
+        

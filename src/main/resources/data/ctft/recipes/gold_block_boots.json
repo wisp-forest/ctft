@@ -1,0 +1,20 @@
+
+{
+  "group": "Gold Block Boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:gold_block"
+    }
+  },
+  "result": {
+    "item": "ctft:gold_block_boots",
+    "count": 1
+  }
+}
+        

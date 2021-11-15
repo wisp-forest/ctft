@@ -2,7 +2,13 @@
     {
       "parent": "ctft:item/shield",
       "textures": {
-        "0": "ctft:items/cobblestone_shield_base"
-      }
+        "0": "ctft:items/shield_base",
+        "1": "ctft:blocks/cobblestone_block",
+        "particle": "ctft:blocks/cobblestone_block"
+      },
+      "overrides": [
+        { "predicate": { "blocking": 0.0 }, "model": "ctft:item/infested_cobblestone_shield" },
+        { "predicate": { "blocking": 1.0 }, "model": "ctft:item/infested_cobblestone_shield_blocking" }
+        ]
     }
             

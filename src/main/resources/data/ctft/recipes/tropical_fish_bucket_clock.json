@@ -1,0 +1,23 @@
+
+{
+  "group": "Tropical Fish Bucket Clock",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    "010",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:tropical_fish_bucket"
+    },
+    "1": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:tropical_fish_bucket_clock",
+    "count": 1
+  }
+}
+        

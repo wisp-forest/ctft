@@ -1,0 +1,20 @@
+
+{
+  "group": "Pink Banner Leggings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:pink_banner"
+    }
+  },
+  "result": {
+    "item": "ctft:pink_banner_leggings",
+    "count": 1
+  }
+}
+        

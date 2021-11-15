@@ -2,8 +2,9 @@
 {
   "parent": "ctft:item/clock",
   "textures": {
-    "0": "ctft:items/flowering_azalea_leaves_clock_02",
-    "1": "ctft:items/clock_02"
+    "0": "ctft:items/clock_02",
+    "1": "ctft:blocks/flowering_azalea_leaves_block",
+    "particle": "ctft:blocks/flowering_azalea_leaves_block"
   }
 }
             

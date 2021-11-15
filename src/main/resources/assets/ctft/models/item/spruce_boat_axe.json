@@ -1,8 +1,10 @@
 
     {
-      "parent": "item/handheld",
+      "parent": "ctft:item/axe",
       "textures": {
-        "layer0": "ctft:items/spruce_boat_axe"
+        "0": "ctft:items/iron_axe",
+        "1": "ctft:blocks/spruce_boat_block",
+        "particle": "ctft:blocks/spruce_boat_block"
       }
     }
             

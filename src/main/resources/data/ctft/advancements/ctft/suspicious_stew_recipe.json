@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:suspicious_stew"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:suspicious_stew_sword",
+			"ctft:suspicious_stew_pickaxe",
+			"ctft:suspicious_stew_axe",
+			"ctft:suspicious_stew_shovel",
+			"ctft:suspicious_stew_hoe",
+			"ctft:suspicious_stew_shield",
+			"ctft:suspicious_stew_fishing_rod",
+			"ctft:suspicious_stew_compass",
+			"ctft:suspicious_stew_clock",
+			"ctft:suspicious_stew_helmet",
+			"ctft:suspicious_stew_chestplate",
+			"ctft:suspicious_stew_leggings",
+			"ctft:suspicious_stew_boots",
+			"ctft:suspicious_stew_shears",
+			"ctft:suspicious_stew_horse_armor",
+			"ctft:suspicious_stew_bow"
+		]
+	}
+}
