@@ -14,12 +14,12 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 @Mixin(FishingHook.class)
 public abstract class CustomFishingItemFix {
     @Inject(at = @At("HEAD"), method = "shouldStopFishing(Lnet/minecraft/world/entity/player/Player;)Z")
-    private void shouldStopFishing(Player p_37137_, CallbackInfoReturnable<Boolean> callback) {
-        ItemStack itemstack = p_37137_.getMainHandItem();
-        ItemStack itemstack1 = p_37137_.getOffhandItem();
+    private void shouldStopFishing(Player player, CallbackInfoReturnable<Boolean> callback) {
+        ItemStack itemstack = player.getMainHandItem();
+        ItemStack itemstackOffhand = player.getOffhandItem();
         boolean flag = itemstack.getItem() instanceof FishingRodItem;
-        boolean flag1 = itemstack1.getItem() instanceof FishingRodItem;
-        if (!p_37137_.isRemoved() && p_37137_.isAlive() && (flag || flag1) && !(this.distanceToSqr(p_37137_) > 1024.0D)) {
+        boolean flagOffhand = itemstackOffhand.getItem() instanceof FishingRodItem;
+        if (!player.isRemoved() && player.isAlive() && (flag || flagOffhand) && !(this.distanceToSqr(player) > 1024.0D)) {
             callback.setReturnValue(false);
         } else {
             this.discard();
@@ -32,6 +32,6 @@ public abstract class CustomFishingItemFix {
     }
     @Shadow
     public double distanceToSqr(Player p_37137_) {
-        throw new IllegalStateException("Mixin failed to shadow distanceTosQr()");
+        throw new IllegalStateException("Mixin failed to shadow distanceToSqr()");
     }
 }
