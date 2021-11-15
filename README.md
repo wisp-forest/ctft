@@ -1,4 +1,5 @@
 # Craft This From That
-Make Anything out of literally Anything!*
+Make Anything out of literally Anything![^1]
+
 [Download on Curseforge](https://www.curseforge.com/minecraft/mc-mods/ctft)
-*not actually anything
+[^1]: not actually anything
