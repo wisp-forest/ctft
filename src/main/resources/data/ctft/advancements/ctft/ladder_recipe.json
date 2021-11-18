@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:ladder"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:ladder_sword",
+			"ctft:ladder_pickaxe",
+			"ctft:ladder_axe",
+			"ctft:ladder_shovel",
+			"ctft:ladder_hoe",
+			"ctft:ladder_shield",
+			"ctft:ladder_fishing_rod",
+			"ctft:ladder_compass",
+			"ctft:ladder_clock",
+			"ctft:ladder_helmet",
+			"ctft:ladder_chestplate",
+			"ctft:ladder_leggings",
+			"ctft:ladder_boots",
+			"ctft:ladder_shears",
+			"ctft:ladder_horse_armor",
+			"ctft:ladder_bow"
+		]
+	}
+}

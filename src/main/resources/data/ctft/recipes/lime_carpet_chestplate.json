@@ -1,0 +1,20 @@
+
+{
+  "group": "Lime Carpet Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:lime_carpet"
+    }
+  },
+  "result": {
+    "item": "ctft:lime_carpet_chestplate",
+    "count": 1
+  }
+}
+        

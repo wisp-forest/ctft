@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:stripped_dark_oak_log"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:stripped_dark_oak_log_sword",
+			"ctft:stripped_dark_oak_log_pickaxe",
+			"ctft:stripped_dark_oak_log_axe",
+			"ctft:stripped_dark_oak_log_shovel",
+			"ctft:stripped_dark_oak_log_hoe",
+			"ctft:stripped_dark_oak_log_shield",
+			"ctft:stripped_dark_oak_log_fishing_rod",
+			"ctft:stripped_dark_oak_log_compass",
+			"ctft:stripped_dark_oak_log_clock",
+			"ctft:stripped_dark_oak_log_helmet",
+			"ctft:stripped_dark_oak_log_chestplate",
+			"ctft:stripped_dark_oak_log_leggings",
+			"ctft:stripped_dark_oak_log_boots",
+			"ctft:stripped_dark_oak_log_shears",
+			"ctft:stripped_dark_oak_log_horse_armor",
+			"ctft:stripped_dark_oak_log_bow"
+		]
+	}
+}

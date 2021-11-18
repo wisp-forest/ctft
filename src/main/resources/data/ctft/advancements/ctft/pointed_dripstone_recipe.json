@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:pointed_dripstone"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:pointed_dripstone_sword",
+			"ctft:pointed_dripstone_pickaxe",
+			"ctft:pointed_dripstone_axe",
+			"ctft:pointed_dripstone_shovel",
+			"ctft:pointed_dripstone_hoe",
+			"ctft:pointed_dripstone_shield",
+			"ctft:pointed_dripstone_fishing_rod",
+			"ctft:pointed_dripstone_compass",
+			"ctft:pointed_dripstone_clock",
+			"ctft:pointed_dripstone_helmet",
+			"ctft:pointed_dripstone_chestplate",
+			"ctft:pointed_dripstone_leggings",
+			"ctft:pointed_dripstone_boots",
+			"ctft:pointed_dripstone_shears",
+			"ctft:pointed_dripstone_horse_armor",
+			"ctft:pointed_dripstone_bow"
+		]
+	}
+}

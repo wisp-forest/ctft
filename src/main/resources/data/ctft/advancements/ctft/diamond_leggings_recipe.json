@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:diamond_leggings"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:diamond_leggings_sword",
+			"ctft:diamond_leggings_pickaxe",
+			"ctft:diamond_leggings_axe",
+			"ctft:diamond_leggings_shovel",
+			"ctft:diamond_leggings_hoe",
+			"ctft:diamond_leggings_shield",
+			"ctft:diamond_leggings_fishing_rod",
+			"ctft:diamond_leggings_compass",
+			"ctft:diamond_leggings_clock",
+			"ctft:diamond_leggings_helmet",
+			"ctft:diamond_leggings_chestplate",
+			"ctft:diamond_leggings_leggings",
+			"ctft:diamond_leggings_boots",
+			"ctft:diamond_leggings_shears",
+			"ctft:diamond_leggings_horse_armor",
+			"ctft:diamond_leggings_bow"
+		]
+	}
+}

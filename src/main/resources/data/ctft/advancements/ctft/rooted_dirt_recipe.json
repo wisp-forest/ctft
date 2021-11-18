@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:rooted_dirt"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:rooted_dirt_sword",
+			"ctft:rooted_dirt_pickaxe",
+			"ctft:rooted_dirt_axe",
+			"ctft:rooted_dirt_shovel",
+			"ctft:rooted_dirt_hoe",
+			"ctft:rooted_dirt_shield",
+			"ctft:rooted_dirt_fishing_rod",
+			"ctft:rooted_dirt_compass",
+			"ctft:rooted_dirt_clock",
+			"ctft:rooted_dirt_helmet",
+			"ctft:rooted_dirt_chestplate",
+			"ctft:rooted_dirt_leggings",
+			"ctft:rooted_dirt_boots",
+			"ctft:rooted_dirt_shears",
+			"ctft:rooted_dirt_horse_armor",
+			"ctft:rooted_dirt_bow"
+		]
+	}
+}

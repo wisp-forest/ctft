@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:orange_banner"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:orange_banner_sword",
+			"ctft:orange_banner_pickaxe",
+			"ctft:orange_banner_axe",
+			"ctft:orange_banner_shovel",
+			"ctft:orange_banner_hoe",
+			"ctft:orange_banner_shield",
+			"ctft:orange_banner_fishing_rod",
+			"ctft:orange_banner_compass",
+			"ctft:orange_banner_clock",
+			"ctft:orange_banner_helmet",
+			"ctft:orange_banner_chestplate",
+			"ctft:orange_banner_leggings",
+			"ctft:orange_banner_boots",
+			"ctft:orange_banner_shears",
+			"ctft:orange_banner_horse_armor",
+			"ctft:orange_banner_bow"
+		]
+	}
+}

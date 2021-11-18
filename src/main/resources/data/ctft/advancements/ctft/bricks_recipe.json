@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bricks"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:bricks_sword",
+			"ctft:bricks_pickaxe",
+			"ctft:bricks_axe",
+			"ctft:bricks_shovel",
+			"ctft:bricks_hoe",
+			"ctft:bricks_shield",
+			"ctft:bricks_fishing_rod",
+			"ctft:bricks_compass",
+			"ctft:bricks_clock",
+			"ctft:bricks_helmet",
+			"ctft:bricks_chestplate",
+			"ctft:bricks_leggings",
+			"ctft:bricks_boots",
+			"ctft:bricks_shears",
+			"ctft:bricks_horse_armor",
+			"ctft:bricks_bow"
+		]
+	}
+}

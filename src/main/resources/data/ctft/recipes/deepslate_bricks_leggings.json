@@ -1,0 +1,20 @@
+
+{
+  "group": "Deepslate Bricks Leggings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:deepslate_bricks"
+    }
+  },
+  "result": {
+    "item": "ctft:deepslate_bricks_leggings",
+    "count": 1
+  }
+}
+        

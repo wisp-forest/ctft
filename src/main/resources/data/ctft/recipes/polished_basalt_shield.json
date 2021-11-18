@@ -1,0 +1,23 @@
+
+{
+  "group": "Polished Basalt Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:polished_basalt"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:polished_basalt_shield",
+    "count": 1
+  }
+}
+        

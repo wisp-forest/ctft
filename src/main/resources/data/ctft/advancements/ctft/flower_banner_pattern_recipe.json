@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:flower_banner_pattern"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:flower_banner_pattern_sword",
+			"ctft:flower_banner_pattern_pickaxe",
+			"ctft:flower_banner_pattern_axe",
+			"ctft:flower_banner_pattern_shovel",
+			"ctft:flower_banner_pattern_hoe",
+			"ctft:flower_banner_pattern_shield",
+			"ctft:flower_banner_pattern_fishing_rod",
+			"ctft:flower_banner_pattern_compass",
+			"ctft:flower_banner_pattern_clock",
+			"ctft:flower_banner_pattern_helmet",
+			"ctft:flower_banner_pattern_chestplate",
+			"ctft:flower_banner_pattern_leggings",
+			"ctft:flower_banner_pattern_boots",
+			"ctft:flower_banner_pattern_shears",
+			"ctft:flower_banner_pattern_horse_armor",
+			"ctft:flower_banner_pattern_bow"
+		]
+	}
+}

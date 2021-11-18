@@ -1,0 +1,20 @@
+
+{
+  "group": "Stick Helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:stick_helmet",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,23 @@
+
+{
+  "group": "Quartz Bricks Sword",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    " 0 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:quartz_bricks"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:quartz_bricks_sword",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:lapis_block"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:lapis_block_sword",
+			"ctft:lapis_block_pickaxe",
+			"ctft:lapis_block_axe",
+			"ctft:lapis_block_shovel",
+			"ctft:lapis_block_hoe",
+			"ctft:lapis_block_shield",
+			"ctft:lapis_block_fishing_rod",
+			"ctft:lapis_block_compass",
+			"ctft:lapis_block_clock",
+			"ctft:lapis_block_helmet",
+			"ctft:lapis_block_chestplate",
+			"ctft:lapis_block_leggings",
+			"ctft:lapis_block_boots",
+			"ctft:lapis_block_shears",
+			"ctft:lapis_block_horse_armor",
+			"ctft:lapis_block_bow"
+		]
+	}
+}

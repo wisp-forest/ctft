@@ -1,0 +1,20 @@
+
+{
+  "group": "Cooked Chicken Horse Armor",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:cooked_chicken"
+    }
+  },
+  "result": {
+    "item": "ctft:cooked_chicken_horse_armor",
+    "count": 1
+  }
+}
+        

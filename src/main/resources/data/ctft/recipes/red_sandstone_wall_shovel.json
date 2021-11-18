@@ -1,0 +1,23 @@
+
+{
+  "group": "Red Sandstone Wall Shovel",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:red_sandstone_wall"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:red_sandstone_wall_shovel",
+    "count": 1
+  }
+}
+        

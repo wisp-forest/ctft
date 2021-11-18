@@ -1,0 +1,20 @@
+
+{
+  "group": "Comparator Leggings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:comparator"
+    }
+  },
+  "result": {
+    "item": "ctft:comparator_leggings",
+    "count": 1
+  }
+}
+        

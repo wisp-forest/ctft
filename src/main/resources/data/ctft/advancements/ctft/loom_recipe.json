@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:loom"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:loom_sword",
+			"ctft:loom_pickaxe",
+			"ctft:loom_axe",
+			"ctft:loom_shovel",
+			"ctft:loom_hoe",
+			"ctft:loom_shield",
+			"ctft:loom_fishing_rod",
+			"ctft:loom_compass",
+			"ctft:loom_clock",
+			"ctft:loom_helmet",
+			"ctft:loom_chestplate",
+			"ctft:loom_leggings",
+			"ctft:loom_boots",
+			"ctft:loom_shears",
+			"ctft:loom_horse_armor",
+			"ctft:loom_bow"
+		]
+	}
+}

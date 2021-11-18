@@ -1,0 +1,23 @@
+
+{
+  "group": "Cooked Mutton Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:cooked_mutton"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:cooked_mutton_bow",
+    "count": 1
+  }
+}
+        

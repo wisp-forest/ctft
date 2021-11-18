@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:ancient_debris"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:ancient_debris_sword",
+			"ctft:ancient_debris_pickaxe",
+			"ctft:ancient_debris_axe",
+			"ctft:ancient_debris_shovel",
+			"ctft:ancient_debris_hoe",
+			"ctft:ancient_debris_shield",
+			"ctft:ancient_debris_fishing_rod",
+			"ctft:ancient_debris_compass",
+			"ctft:ancient_debris_clock",
+			"ctft:ancient_debris_helmet",
+			"ctft:ancient_debris_chestplate",
+			"ctft:ancient_debris_leggings",
+			"ctft:ancient_debris_boots",
+			"ctft:ancient_debris_shears",
+			"ctft:ancient_debris_horse_armor",
+			"ctft:ancient_debris_bow"
+		]
+	}
+}

@@ -1,0 +1,20 @@
+
+{
+  "group": "Lily Of The Valley Horse Armor",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:lily_of_the_valley"
+    }
+  },
+  "result": {
+    "item": "ctft:lily_of_the_valley_horse_armor",
+    "count": 1
+  }
+}
+        

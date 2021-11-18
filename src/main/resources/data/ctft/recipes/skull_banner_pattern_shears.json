@@ -1,0 +1,20 @@
+
+{
+  "group": "Skull Banner Pattern Shears",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 0 ",
+    "   "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:skull_banner_pattern"
+    }
+  },
+  "result": {
+    "item": "ctft:skull_banner_pattern_shears",
+    "count": 1
+  }
+}
+        

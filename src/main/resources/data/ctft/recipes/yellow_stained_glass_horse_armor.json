@@ -1,0 +1,20 @@
+
+{
+  "group": "Yellow Stained Glass Horse Armor",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:yellow_stained_glass"
+    }
+  },
+  "result": {
+    "item": "ctft:yellow_stained_glass_horse_armor",
+    "count": 1
+  }
+}
+        

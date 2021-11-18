@@ -1,0 +1,20 @@
+
+{
+  "group": "Tropical Fish Shears",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 0 ",
+    "   "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:tropical_fish"
+    }
+  },
+  "result": {
+    "item": "ctft:tropical_fish_shears",
+    "count": 1
+  }
+}
+        

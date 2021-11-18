@@ -1,0 +1,20 @@
+
+{
+  "group": "Soul Torch Helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:soul_torch"
+    }
+  },
+  "result": {
+    "item": "ctft:soul_torch_helmet",
+    "count": 1
+  }
+}
+        

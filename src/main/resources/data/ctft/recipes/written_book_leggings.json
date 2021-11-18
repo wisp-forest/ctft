@@ -1,0 +1,20 @@
+
+{
+  "group": "Written Book Leggings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:written_book"
+    }
+  },
+  "result": {
+    "item": "ctft:written_book_leggings",
+    "count": 1
+  }
+}
+        

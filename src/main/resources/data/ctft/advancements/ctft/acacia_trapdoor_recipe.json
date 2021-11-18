@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:acacia_trapdoor"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:acacia_trapdoor_sword",
+			"ctft:acacia_trapdoor_pickaxe",
+			"ctft:acacia_trapdoor_axe",
+			"ctft:acacia_trapdoor_shovel",
+			"ctft:acacia_trapdoor_hoe",
+			"ctft:acacia_trapdoor_shield",
+			"ctft:acacia_trapdoor_fishing_rod",
+			"ctft:acacia_trapdoor_compass",
+			"ctft:acacia_trapdoor_clock",
+			"ctft:acacia_trapdoor_helmet",
+			"ctft:acacia_trapdoor_chestplate",
+			"ctft:acacia_trapdoor_leggings",
+			"ctft:acacia_trapdoor_boots",
+			"ctft:acacia_trapdoor_shears",
+			"ctft:acacia_trapdoor_horse_armor",
+			"ctft:acacia_trapdoor_bow"
+		]
+	}
+}

@@ -1,0 +1,23 @@
+
+{
+  "group": "Chain Command Block Fishing Rod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 01",
+    "0 1"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:chain_command_block"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:chain_command_block_fishing_rod",
+    "count": 1
+  }
+}
+        

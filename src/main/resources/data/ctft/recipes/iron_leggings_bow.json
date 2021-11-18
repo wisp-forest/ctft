@@ -1,0 +1,23 @@
+
+{
+  "group": "Iron Leggings Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:iron_leggings"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:iron_leggings_bow",
+    "count": 1
+  }
+}
+        

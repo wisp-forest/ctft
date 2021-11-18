@@ -1,0 +1,23 @@
+
+{
+  "group": "Popped Chorus Fruit Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:popped_chorus_fruit"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:popped_chorus_fruit_shield",
+    "count": 1
+  }
+}
+        

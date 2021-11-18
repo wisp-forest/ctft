@@ -1,0 +1,23 @@
+
+{
+  "group": "Stripped Spruce Log Axe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "00 ",
+    "01 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:stripped_spruce_log"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:stripped_spruce_log_axe",
+    "count": 1
+  }
+}
+        

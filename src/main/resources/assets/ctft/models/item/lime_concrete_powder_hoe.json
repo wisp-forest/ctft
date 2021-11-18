@@ -1,0 +1,10 @@
+
+    {
+      "parent": "ctft:item/hoe",
+      "textures": {
+        "0": "ctft:items/iron_hoe",
+        "1": "ctft:blocks/lime_concrete_powder_block",
+        "particle": "ctft:blocks/lime_concrete_powder_block"
+      }
+    }
+            

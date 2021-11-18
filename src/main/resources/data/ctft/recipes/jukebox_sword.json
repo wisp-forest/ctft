@@ -1,0 +1,23 @@
+
+{
+  "group": "Jukebox Sword",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    " 0 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:jukebox"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:jukebox_sword",
+    "count": 1
+  }
+}
+        

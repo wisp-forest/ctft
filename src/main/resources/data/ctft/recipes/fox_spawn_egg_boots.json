@@ -1,0 +1,20 @@
+
+{
+  "group": "Fox Spawn Egg Boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:fox_spawn_egg"
+    }
+  },
+  "result": {
+    "item": "ctft:fox_spawn_egg_boots",
+    "count": 1
+  }
+}
+        

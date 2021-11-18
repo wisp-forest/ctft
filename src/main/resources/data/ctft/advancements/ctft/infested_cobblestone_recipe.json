@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:infested_cobblestone"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:infested_cobblestone_sword",
+			"ctft:infested_cobblestone_pickaxe",
+			"ctft:infested_cobblestone_axe",
+			"ctft:infested_cobblestone_shovel",
+			"ctft:infested_cobblestone_hoe",
+			"ctft:infested_cobblestone_shield",
+			"ctft:infested_cobblestone_fishing_rod",
+			"ctft:infested_cobblestone_compass",
+			"ctft:infested_cobblestone_clock",
+			"ctft:infested_cobblestone_helmet",
+			"ctft:infested_cobblestone_chestplate",
+			"ctft:infested_cobblestone_leggings",
+			"ctft:infested_cobblestone_boots",
+			"ctft:infested_cobblestone_shears",
+			"ctft:infested_cobblestone_horse_armor",
+			"ctft:infested_cobblestone_bow"
+		]
+	}
+}

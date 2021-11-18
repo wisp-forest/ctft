@@ -1,0 +1,23 @@
+
+{
+  "group": "Glow Ink Sac Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:glow_ink_sac"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:glow_ink_sac_shield",
+    "count": 1
+  }
+}
+        

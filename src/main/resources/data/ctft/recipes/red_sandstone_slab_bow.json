@@ -1,0 +1,23 @@
+
+{
+  "group": "Red Sandstone Slab Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:red_sandstone_slab"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:red_sandstone_slab_bow",
+    "count": 1
+  }
+}
+        

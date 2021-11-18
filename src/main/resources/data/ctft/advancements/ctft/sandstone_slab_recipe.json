@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:sandstone_slab"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:sandstone_slab_sword",
+			"ctft:sandstone_slab_pickaxe",
+			"ctft:sandstone_slab_axe",
+			"ctft:sandstone_slab_shovel",
+			"ctft:sandstone_slab_hoe",
+			"ctft:sandstone_slab_shield",
+			"ctft:sandstone_slab_fishing_rod",
+			"ctft:sandstone_slab_compass",
+			"ctft:sandstone_slab_clock",
+			"ctft:sandstone_slab_helmet",
+			"ctft:sandstone_slab_chestplate",
+			"ctft:sandstone_slab_leggings",
+			"ctft:sandstone_slab_boots",
+			"ctft:sandstone_slab_shears",
+			"ctft:sandstone_slab_horse_armor",
+			"ctft:sandstone_slab_bow"
+		]
+	}
+}

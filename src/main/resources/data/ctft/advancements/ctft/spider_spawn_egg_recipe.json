@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:spider_spawn_egg"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:spider_spawn_egg_sword",
+			"ctft:spider_spawn_egg_pickaxe",
+			"ctft:spider_spawn_egg_axe",
+			"ctft:spider_spawn_egg_shovel",
+			"ctft:spider_spawn_egg_hoe",
+			"ctft:spider_spawn_egg_shield",
+			"ctft:spider_spawn_egg_fishing_rod",
+			"ctft:spider_spawn_egg_compass",
+			"ctft:spider_spawn_egg_clock",
+			"ctft:spider_spawn_egg_helmet",
+			"ctft:spider_spawn_egg_chestplate",
+			"ctft:spider_spawn_egg_leggings",
+			"ctft:spider_spawn_egg_boots",
+			"ctft:spider_spawn_egg_shears",
+			"ctft:spider_spawn_egg_horse_armor",
+			"ctft:spider_spawn_egg_bow"
+		]
+	}
+}

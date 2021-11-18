@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:yellow_stained_glass"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:yellow_stained_glass_sword",
+			"ctft:yellow_stained_glass_pickaxe",
+			"ctft:yellow_stained_glass_axe",
+			"ctft:yellow_stained_glass_shovel",
+			"ctft:yellow_stained_glass_hoe",
+			"ctft:yellow_stained_glass_shield",
+			"ctft:yellow_stained_glass_fishing_rod",
+			"ctft:yellow_stained_glass_compass",
+			"ctft:yellow_stained_glass_clock",
+			"ctft:yellow_stained_glass_helmet",
+			"ctft:yellow_stained_glass_chestplate",
+			"ctft:yellow_stained_glass_leggings",
+			"ctft:yellow_stained_glass_boots",
+			"ctft:yellow_stained_glass_shears",
+			"ctft:yellow_stained_glass_horse_armor",
+			"ctft:yellow_stained_glass_bow"
+		]
+	}
+}

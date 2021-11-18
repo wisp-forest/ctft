@@ -1,0 +1,20 @@
+
+{
+  "group": "Cyan Stained Glass Leggings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:cyan_stained_glass"
+    }
+  },
+  "result": {
+    "item": "ctft:cyan_stained_glass_leggings",
+    "count": 1
+  }
+}
+        

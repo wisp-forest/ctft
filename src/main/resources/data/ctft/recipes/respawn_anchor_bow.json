@@ -1,0 +1,23 @@
+
+{
+  "group": "Respawn Anchor Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:respawn_anchor"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:respawn_anchor_bow",
+    "count": 1
+  }
+}
+        

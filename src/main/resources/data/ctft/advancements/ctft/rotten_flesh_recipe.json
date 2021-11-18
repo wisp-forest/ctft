@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:rotten_flesh"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:rotten_flesh_sword",
+			"ctft:rotten_flesh_pickaxe",
+			"ctft:rotten_flesh_axe",
+			"ctft:rotten_flesh_shovel",
+			"ctft:rotten_flesh_hoe",
+			"ctft:rotten_flesh_shield",
+			"ctft:rotten_flesh_fishing_rod",
+			"ctft:rotten_flesh_compass",
+			"ctft:rotten_flesh_clock",
+			"ctft:rotten_flesh_helmet",
+			"ctft:rotten_flesh_chestplate",
+			"ctft:rotten_flesh_leggings",
+			"ctft:rotten_flesh_boots",
+			"ctft:rotten_flesh_shears",
+			"ctft:rotten_flesh_horse_armor",
+			"ctft:rotten_flesh_bow"
+		]
+	}
+}

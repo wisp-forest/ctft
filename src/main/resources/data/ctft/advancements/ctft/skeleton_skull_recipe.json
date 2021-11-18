@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:skeleton_skull"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:skeleton_skull_sword",
+			"ctft:skeleton_skull_pickaxe",
+			"ctft:skeleton_skull_axe",
+			"ctft:skeleton_skull_shovel",
+			"ctft:skeleton_skull_hoe",
+			"ctft:skeleton_skull_shield",
+			"ctft:skeleton_skull_fishing_rod",
+			"ctft:skeleton_skull_compass",
+			"ctft:skeleton_skull_clock",
+			"ctft:skeleton_skull_helmet",
+			"ctft:skeleton_skull_chestplate",
+			"ctft:skeleton_skull_leggings",
+			"ctft:skeleton_skull_boots",
+			"ctft:skeleton_skull_shears",
+			"ctft:skeleton_skull_horse_armor",
+			"ctft:skeleton_skull_bow"
+		]
+	}
+}

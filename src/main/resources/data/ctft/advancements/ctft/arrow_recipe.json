@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:arrow"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:arrow_sword",
+			"ctft:arrow_pickaxe",
+			"ctft:arrow_axe",
+			"ctft:arrow_shovel",
+			"ctft:arrow_hoe",
+			"ctft:arrow_shield",
+			"ctft:arrow_fishing_rod",
+			"ctft:arrow_compass",
+			"ctft:arrow_clock",
+			"ctft:arrow_helmet",
+			"ctft:arrow_chestplate",
+			"ctft:arrow_leggings",
+			"ctft:arrow_boots",
+			"ctft:arrow_shears",
+			"ctft:arrow_horse_armor",
+			"ctft:arrow_bow"
+		]
+	}
+}

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:small_dripleaf"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:small_dripleaf_sword",
+			"ctft:small_dripleaf_pickaxe",
+			"ctft:small_dripleaf_axe",
+			"ctft:small_dripleaf_shovel",
+			"ctft:small_dripleaf_hoe",
+			"ctft:small_dripleaf_shield",
+			"ctft:small_dripleaf_fishing_rod",
+			"ctft:small_dripleaf_compass",
+			"ctft:small_dripleaf_clock",
+			"ctft:small_dripleaf_helmet",
+			"ctft:small_dripleaf_chestplate",
+			"ctft:small_dripleaf_leggings",
+			"ctft:small_dripleaf_boots",
+			"ctft:small_dripleaf_shears",
+			"ctft:small_dripleaf_horse_armor",
+			"ctft:small_dripleaf_bow"
+		]
+	}
+}

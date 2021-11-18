@@ -1,0 +1,23 @@
+
+{
+  "group": "Pink Carpet Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:pink_carpet"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:pink_carpet_bow",
+    "count": 1
+  }
+}
+        

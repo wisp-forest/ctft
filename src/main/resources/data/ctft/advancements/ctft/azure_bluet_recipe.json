@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:azure_bluet"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:azure_bluet_sword",
+			"ctft:azure_bluet_pickaxe",
+			"ctft:azure_bluet_axe",
+			"ctft:azure_bluet_shovel",
+			"ctft:azure_bluet_hoe",
+			"ctft:azure_bluet_shield",
+			"ctft:azure_bluet_fishing_rod",
+			"ctft:azure_bluet_compass",
+			"ctft:azure_bluet_clock",
+			"ctft:azure_bluet_helmet",
+			"ctft:azure_bluet_chestplate",
+			"ctft:azure_bluet_leggings",
+			"ctft:azure_bluet_boots",
+			"ctft:azure_bluet_shears",
+			"ctft:azure_bluet_horse_armor",
+			"ctft:azure_bluet_bow"
+		]
+	}
+}

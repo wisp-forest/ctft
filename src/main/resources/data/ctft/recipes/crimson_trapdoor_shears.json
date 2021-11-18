@@ -1,0 +1,20 @@
+
+{
+  "group": "Crimson Trapdoor Shears",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 0 ",
+    "   "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:crimson_trapdoor"
+    }
+  },
+  "result": {
+    "item": "ctft:crimson_trapdoor_shears",
+    "count": 1
+  }
+}
+        

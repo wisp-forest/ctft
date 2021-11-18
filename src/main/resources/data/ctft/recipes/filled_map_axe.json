@@ -1,0 +1,23 @@
+
+{
+  "group": "Filled Map Axe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "00 ",
+    "01 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:filled_map"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:filled_map_axe",
+    "count": 1
+  }
+}
+        

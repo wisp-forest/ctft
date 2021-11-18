@@ -1,0 +1,20 @@
+
+{
+  "group": "Netherite Scrap Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:netherite_scrap"
+    }
+  },
+  "result": {
+    "item": "ctft:netherite_scrap_chestplate",
+    "count": 1
+  }
+}
+        

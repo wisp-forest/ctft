@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:chest"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:chest_sword",
+			"ctft:chest_pickaxe",
+			"ctft:chest_axe",
+			"ctft:chest_shovel",
+			"ctft:chest_hoe",
+			"ctft:chest_shield",
+			"ctft:chest_fishing_rod",
+			"ctft:chest_compass",
+			"ctft:chest_clock",
+			"ctft:chest_helmet",
+			"ctft:chest_chestplate",
+			"ctft:chest_leggings",
+			"ctft:chest_boots",
+			"ctft:chest_shears",
+			"ctft:chest_horse_armor",
+			"ctft:chest_bow"
+		]
+	}
+}

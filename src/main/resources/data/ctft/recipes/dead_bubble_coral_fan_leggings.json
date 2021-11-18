@@ -1,0 +1,20 @@
+
+{
+  "group": "Dead Bubble Coral Fan Leggings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:dead_bubble_coral_fan"
+    }
+  },
+  "result": {
+    "item": "ctft:dead_bubble_coral_fan_leggings",
+    "count": 1
+  }
+}
+        

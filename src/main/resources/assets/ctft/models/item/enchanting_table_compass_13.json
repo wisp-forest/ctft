@@ -1,0 +1,10 @@
+
+{
+  "parent": "ctft:item/compass",
+  "textures": {
+    "0": "ctft:items/compass_13",
+    "1": "ctft:blocks/enchanting_table_side_block",
+    "particle": "ctft:blocks/enchanting_table_side_block"
+  }
+}
+            

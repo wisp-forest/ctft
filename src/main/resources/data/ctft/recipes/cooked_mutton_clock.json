@@ -1,0 +1,23 @@
+
+{
+  "group": "Cooked Mutton Clock",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    "010",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:cooked_mutton"
+    },
+    "1": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:cooked_mutton_clock",
+    "count": 1
+  }
+}
+        

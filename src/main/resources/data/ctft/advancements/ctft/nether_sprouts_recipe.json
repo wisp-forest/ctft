@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:nether_sprouts"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:nether_sprouts_sword",
+			"ctft:nether_sprouts_pickaxe",
+			"ctft:nether_sprouts_axe",
+			"ctft:nether_sprouts_shovel",
+			"ctft:nether_sprouts_hoe",
+			"ctft:nether_sprouts_shield",
+			"ctft:nether_sprouts_fishing_rod",
+			"ctft:nether_sprouts_compass",
+			"ctft:nether_sprouts_clock",
+			"ctft:nether_sprouts_helmet",
+			"ctft:nether_sprouts_chestplate",
+			"ctft:nether_sprouts_leggings",
+			"ctft:nether_sprouts_boots",
+			"ctft:nether_sprouts_shears",
+			"ctft:nether_sprouts_horse_armor",
+			"ctft:nether_sprouts_bow"
+		]
+	}
+}

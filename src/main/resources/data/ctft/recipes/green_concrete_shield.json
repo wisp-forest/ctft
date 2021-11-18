@@ -1,0 +1,23 @@
+
+{
+  "group": "Green Concrete Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:green_concrete"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:green_concrete_shield",
+    "count": 1
+  }
+}
+        

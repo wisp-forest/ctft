@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:barrier"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:barrier_sword",
+			"ctft:barrier_pickaxe",
+			"ctft:barrier_axe",
+			"ctft:barrier_shovel",
+			"ctft:barrier_hoe",
+			"ctft:barrier_shield",
+			"ctft:barrier_fishing_rod",
+			"ctft:barrier_compass",
+			"ctft:barrier_clock",
+			"ctft:barrier_helmet",
+			"ctft:barrier_chestplate",
+			"ctft:barrier_leggings",
+			"ctft:barrier_boots",
+			"ctft:barrier_shears",
+			"ctft:barrier_horse_armor",
+			"ctft:barrier_bow"
+		]
+	}
+}

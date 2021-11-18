@@ -1,0 +1,10 @@
+
+{
+  "parent": "ctft:item/clock",
+  "textures": {
+    "0": "ctft:items/clock_35",
+    "1": "ctft:blocks/dead_tube_coral_fan_block",
+    "particle": "ctft:blocks/dead_tube_coral_fan_block"
+  }
+}
+            

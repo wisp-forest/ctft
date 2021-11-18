@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:white_stained_glass"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:white_stained_glass_sword",
+			"ctft:white_stained_glass_pickaxe",
+			"ctft:white_stained_glass_axe",
+			"ctft:white_stained_glass_shovel",
+			"ctft:white_stained_glass_hoe",
+			"ctft:white_stained_glass_shield",
+			"ctft:white_stained_glass_fishing_rod",
+			"ctft:white_stained_glass_compass",
+			"ctft:white_stained_glass_clock",
+			"ctft:white_stained_glass_helmet",
+			"ctft:white_stained_glass_chestplate",
+			"ctft:white_stained_glass_leggings",
+			"ctft:white_stained_glass_boots",
+			"ctft:white_stained_glass_shears",
+			"ctft:white_stained_glass_horse_armor",
+			"ctft:white_stained_glass_bow"
+		]
+	}
+}

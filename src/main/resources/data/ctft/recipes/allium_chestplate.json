@@ -1,0 +1,20 @@
+
+{
+  "group": "Allium Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:allium"
+    }
+  },
+  "result": {
+    "item": "ctft:allium_chestplate",
+    "count": 1
+  }
+}
+        

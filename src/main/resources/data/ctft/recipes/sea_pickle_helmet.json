@@ -1,0 +1,20 @@
+
+{
+  "group": "Sea Pickle Helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:sea_pickle"
+    }
+  },
+  "result": {
+    "item": "ctft:sea_pickle_helmet",
+    "count": 1
+  }
+}
+        

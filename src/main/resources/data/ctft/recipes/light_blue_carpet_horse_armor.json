@@ -1,0 +1,20 @@
+
+{
+  "group": "Light Blue Carpet Horse Armor",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:light_blue_carpet"
+    }
+  },
+  "result": {
+    "item": "ctft:light_blue_carpet_horse_armor",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:dead_bush"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:dead_bush_sword",
+			"ctft:dead_bush_pickaxe",
+			"ctft:dead_bush_axe",
+			"ctft:dead_bush_shovel",
+			"ctft:dead_bush_hoe",
+			"ctft:dead_bush_shield",
+			"ctft:dead_bush_fishing_rod",
+			"ctft:dead_bush_compass",
+			"ctft:dead_bush_clock",
+			"ctft:dead_bush_helmet",
+			"ctft:dead_bush_chestplate",
+			"ctft:dead_bush_leggings",
+			"ctft:dead_bush_boots",
+			"ctft:dead_bush_shears",
+			"ctft:dead_bush_horse_armor",
+			"ctft:dead_bush_bow"
+		]
+	}
+}

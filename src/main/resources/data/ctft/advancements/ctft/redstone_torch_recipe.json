@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:redstone_torch"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:redstone_torch_sword",
+			"ctft:redstone_torch_pickaxe",
+			"ctft:redstone_torch_axe",
+			"ctft:redstone_torch_shovel",
+			"ctft:redstone_torch_hoe",
+			"ctft:redstone_torch_shield",
+			"ctft:redstone_torch_fishing_rod",
+			"ctft:redstone_torch_compass",
+			"ctft:redstone_torch_clock",
+			"ctft:redstone_torch_helmet",
+			"ctft:redstone_torch_chestplate",
+			"ctft:redstone_torch_leggings",
+			"ctft:redstone_torch_boots",
+			"ctft:redstone_torch_shears",
+			"ctft:redstone_torch_horse_armor",
+			"ctft:redstone_torch_bow"
+		]
+	}
+}

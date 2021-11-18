@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:snowball"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:snowball_sword",
+			"ctft:snowball_pickaxe",
+			"ctft:snowball_axe",
+			"ctft:snowball_shovel",
+			"ctft:snowball_hoe",
+			"ctft:snowball_shield",
+			"ctft:snowball_fishing_rod",
+			"ctft:snowball_compass",
+			"ctft:snowball_clock",
+			"ctft:snowball_helmet",
+			"ctft:snowball_chestplate",
+			"ctft:snowball_leggings",
+			"ctft:snowball_boots",
+			"ctft:snowball_shears",
+			"ctft:snowball_horse_armor",
+			"ctft:snowball_bow"
+		]
+	}
+}

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:chest_minecart"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:chest_minecart_sword",
+			"ctft:chest_minecart_pickaxe",
+			"ctft:chest_minecart_axe",
+			"ctft:chest_minecart_shovel",
+			"ctft:chest_minecart_hoe",
+			"ctft:chest_minecart_shield",
+			"ctft:chest_minecart_fishing_rod",
+			"ctft:chest_minecart_compass",
+			"ctft:chest_minecart_clock",
+			"ctft:chest_minecart_helmet",
+			"ctft:chest_minecart_chestplate",
+			"ctft:chest_minecart_leggings",
+			"ctft:chest_minecart_boots",
+			"ctft:chest_minecart_shears",
+			"ctft:chest_minecart_horse_armor",
+			"ctft:chest_minecart_bow"
+		]
+	}
+}

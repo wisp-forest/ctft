@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bamboo"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:bamboo_sword",
+			"ctft:bamboo_pickaxe",
+			"ctft:bamboo_axe",
+			"ctft:bamboo_shovel",
+			"ctft:bamboo_hoe",
+			"ctft:bamboo_shield",
+			"ctft:bamboo_fishing_rod",
+			"ctft:bamboo_compass",
+			"ctft:bamboo_clock",
+			"ctft:bamboo_helmet",
+			"ctft:bamboo_chestplate",
+			"ctft:bamboo_leggings",
+			"ctft:bamboo_boots",
+			"ctft:bamboo_shears",
+			"ctft:bamboo_horse_armor",
+			"ctft:bamboo_bow"
+		]
+	}
+}

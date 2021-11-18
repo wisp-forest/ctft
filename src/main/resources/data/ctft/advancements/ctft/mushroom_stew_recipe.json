@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mushroom_stew"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:mushroom_stew_sword",
+			"ctft:mushroom_stew_pickaxe",
+			"ctft:mushroom_stew_axe",
+			"ctft:mushroom_stew_shovel",
+			"ctft:mushroom_stew_hoe",
+			"ctft:mushroom_stew_shield",
+			"ctft:mushroom_stew_fishing_rod",
+			"ctft:mushroom_stew_compass",
+			"ctft:mushroom_stew_clock",
+			"ctft:mushroom_stew_helmet",
+			"ctft:mushroom_stew_chestplate",
+			"ctft:mushroom_stew_leggings",
+			"ctft:mushroom_stew_boots",
+			"ctft:mushroom_stew_shears",
+			"ctft:mushroom_stew_horse_armor",
+			"ctft:mushroom_stew_bow"
+		]
+	}
+}

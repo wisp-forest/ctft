@@ -1,0 +1,20 @@
+
+{
+  "group": "Cobbled Deepslate Wall Leggings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:cobbled_deepslate_wall"
+    }
+  },
+  "result": {
+    "item": "ctft:cobbled_deepslate_wall_leggings",
+    "count": 1
+  }
+}
+        

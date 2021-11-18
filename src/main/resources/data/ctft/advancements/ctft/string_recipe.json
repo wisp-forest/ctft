@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:string"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:string_sword",
+			"ctft:string_pickaxe",
+			"ctft:string_axe",
+			"ctft:string_shovel",
+			"ctft:string_hoe",
+			"ctft:string_shield",
+			"ctft:string_fishing_rod",
+			"ctft:string_compass",
+			"ctft:string_clock",
+			"ctft:string_helmet",
+			"ctft:string_chestplate",
+			"ctft:string_leggings",
+			"ctft:string_boots",
+			"ctft:string_shears",
+			"ctft:string_horse_armor",
+			"ctft:string_bow"
+		]
+	}
+}

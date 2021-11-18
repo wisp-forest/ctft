@@ -1,0 +1,23 @@
+
+{
+  "group": "Quartz Bricks Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:quartz_bricks"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:quartz_bricks_bow",
+    "count": 1
+  }
+}
+        

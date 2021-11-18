@@ -1,0 +1,20 @@
+
+{
+  "group": "Stripped Acacia Log Boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:stripped_acacia_log"
+    }
+  },
+  "result": {
+    "item": "ctft:stripped_acacia_log_boots",
+    "count": 1
+  }
+}
+        

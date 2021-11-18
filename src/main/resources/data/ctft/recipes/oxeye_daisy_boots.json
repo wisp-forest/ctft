@@ -1,0 +1,20 @@
+
+{
+  "group": "Oxeye Daisy Boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:oxeye_daisy"
+    }
+  },
+  "result": {
+    "item": "ctft:oxeye_daisy_boots",
+    "count": 1
+  }
+}
+        

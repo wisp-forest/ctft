@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:white_wool"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:white_wool_sword",
+			"ctft:white_wool_pickaxe",
+			"ctft:white_wool_axe",
+			"ctft:white_wool_shovel",
+			"ctft:white_wool_hoe",
+			"ctft:white_wool_shield",
+			"ctft:white_wool_fishing_rod",
+			"ctft:white_wool_compass",
+			"ctft:white_wool_clock",
+			"ctft:white_wool_helmet",
+			"ctft:white_wool_chestplate",
+			"ctft:white_wool_leggings",
+			"ctft:white_wool_boots",
+			"ctft:white_wool_shears",
+			"ctft:white_wool_horse_armor",
+			"ctft:white_wool_bow"
+		]
+	}
+}

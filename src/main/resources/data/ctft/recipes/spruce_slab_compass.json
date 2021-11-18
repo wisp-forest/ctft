@@ -1,0 +1,23 @@
+
+{
+  "group": "Spruce Slab Compass",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    "010",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:spruce_slab"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:spruce_slab_compass",
+    "count": 1
+  }
+}
+        

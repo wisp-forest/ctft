@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:birch_boat"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:birch_boat_sword",
+			"ctft:birch_boat_pickaxe",
+			"ctft:birch_boat_axe",
+			"ctft:birch_boat_shovel",
+			"ctft:birch_boat_hoe",
+			"ctft:birch_boat_shield",
+			"ctft:birch_boat_fishing_rod",
+			"ctft:birch_boat_compass",
+			"ctft:birch_boat_clock",
+			"ctft:birch_boat_helmet",
+			"ctft:birch_boat_chestplate",
+			"ctft:birch_boat_leggings",
+			"ctft:birch_boat_boots",
+			"ctft:birch_boat_shears",
+			"ctft:birch_boat_horse_armor",
+			"ctft:birch_boat_bow"
+		]
+	}
+}

@@ -1,0 +1,20 @@
+
+{
+  "group": "Crimson Slab Leggings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:crimson_slab"
+    }
+  },
+  "result": {
+    "item": "ctft:crimson_slab_leggings",
+    "count": 1
+  }
+}
+        

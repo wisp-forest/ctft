@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:heavy_weighted_pressure_plate"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:heavy_weighted_pressure_plate_sword",
+			"ctft:heavy_weighted_pressure_plate_pickaxe",
+			"ctft:heavy_weighted_pressure_plate_axe",
+			"ctft:heavy_weighted_pressure_plate_shovel",
+			"ctft:heavy_weighted_pressure_plate_hoe",
+			"ctft:heavy_weighted_pressure_plate_shield",
+			"ctft:heavy_weighted_pressure_plate_fishing_rod",
+			"ctft:heavy_weighted_pressure_plate_compass",
+			"ctft:heavy_weighted_pressure_plate_clock",
+			"ctft:heavy_weighted_pressure_plate_helmet",
+			"ctft:heavy_weighted_pressure_plate_chestplate",
+			"ctft:heavy_weighted_pressure_plate_leggings",
+			"ctft:heavy_weighted_pressure_plate_boots",
+			"ctft:heavy_weighted_pressure_plate_shears",
+			"ctft:heavy_weighted_pressure_plate_horse_armor",
+			"ctft:heavy_weighted_pressure_plate_bow"
+		]
+	}
+}

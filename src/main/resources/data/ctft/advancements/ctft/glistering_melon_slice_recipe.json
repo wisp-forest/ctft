@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:glistering_melon_slice"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:glistering_melon_slice_sword",
+			"ctft:glistering_melon_slice_pickaxe",
+			"ctft:glistering_melon_slice_axe",
+			"ctft:glistering_melon_slice_shovel",
+			"ctft:glistering_melon_slice_hoe",
+			"ctft:glistering_melon_slice_shield",
+			"ctft:glistering_melon_slice_fishing_rod",
+			"ctft:glistering_melon_slice_compass",
+			"ctft:glistering_melon_slice_clock",
+			"ctft:glistering_melon_slice_helmet",
+			"ctft:glistering_melon_slice_chestplate",
+			"ctft:glistering_melon_slice_leggings",
+			"ctft:glistering_melon_slice_boots",
+			"ctft:glistering_melon_slice_shears",
+			"ctft:glistering_melon_slice_horse_armor",
+			"ctft:glistering_melon_slice_bow"
+		]
+	}
+}

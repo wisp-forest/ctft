@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:oxidized_cut_copper_slab"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:oxidized_cut_copper_slab_sword",
+			"ctft:oxidized_cut_copper_slab_pickaxe",
+			"ctft:oxidized_cut_copper_slab_axe",
+			"ctft:oxidized_cut_copper_slab_shovel",
+			"ctft:oxidized_cut_copper_slab_hoe",
+			"ctft:oxidized_cut_copper_slab_shield",
+			"ctft:oxidized_cut_copper_slab_fishing_rod",
+			"ctft:oxidized_cut_copper_slab_compass",
+			"ctft:oxidized_cut_copper_slab_clock",
+			"ctft:oxidized_cut_copper_slab_helmet",
+			"ctft:oxidized_cut_copper_slab_chestplate",
+			"ctft:oxidized_cut_copper_slab_leggings",
+			"ctft:oxidized_cut_copper_slab_boots",
+			"ctft:oxidized_cut_copper_slab_shears",
+			"ctft:oxidized_cut_copper_slab_horse_armor",
+			"ctft:oxidized_cut_copper_slab_bow"
+		]
+	}
+}

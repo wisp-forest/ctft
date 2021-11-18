@@ -1,0 +1,23 @@
+
+{
+  "group": "Jack O Lantern Axe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "00 ",
+    "01 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:jack_o_lantern"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:jack_o_lantern_axe",
+    "count": 1
+  }
+}
+        

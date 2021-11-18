@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherrack"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:netherrack_sword",
+			"ctft:netherrack_pickaxe",
+			"ctft:netherrack_axe",
+			"ctft:netherrack_shovel",
+			"ctft:netherrack_hoe",
+			"ctft:netherrack_shield",
+			"ctft:netherrack_fishing_rod",
+			"ctft:netherrack_compass",
+			"ctft:netherrack_clock",
+			"ctft:netherrack_helmet",
+			"ctft:netherrack_chestplate",
+			"ctft:netherrack_leggings",
+			"ctft:netherrack_boots",
+			"ctft:netherrack_shears",
+			"ctft:netherrack_horse_armor",
+			"ctft:netherrack_bow"
+		]
+	}
+}

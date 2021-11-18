@@ -1,0 +1,23 @@
+
+{
+  "group": "Crimson Sign Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:crimson_sign"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:crimson_sign_bow",
+    "count": 1
+  }
+}
+        

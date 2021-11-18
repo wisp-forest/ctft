@@ -1,0 +1,20 @@
+
+{
+  "group": "Warped Button Boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:warped_button"
+    }
+  },
+  "result": {
+    "item": "ctft:warped_button_boots",
+    "count": 1
+  }
+}
+        

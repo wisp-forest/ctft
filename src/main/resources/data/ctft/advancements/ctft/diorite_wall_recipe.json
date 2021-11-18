@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:diorite_wall"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:diorite_wall_sword",
+			"ctft:diorite_wall_pickaxe",
+			"ctft:diorite_wall_axe",
+			"ctft:diorite_wall_shovel",
+			"ctft:diorite_wall_hoe",
+			"ctft:diorite_wall_shield",
+			"ctft:diorite_wall_fishing_rod",
+			"ctft:diorite_wall_compass",
+			"ctft:diorite_wall_clock",
+			"ctft:diorite_wall_helmet",
+			"ctft:diorite_wall_chestplate",
+			"ctft:diorite_wall_leggings",
+			"ctft:diorite_wall_boots",
+			"ctft:diorite_wall_shears",
+			"ctft:diorite_wall_horse_armor",
+			"ctft:diorite_wall_bow"
+		]
+	}
+}

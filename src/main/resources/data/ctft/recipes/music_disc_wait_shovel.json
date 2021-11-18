@@ -1,0 +1,23 @@
+
+{
+  "group": "Music Disc Wait Shovel",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:music_disc_wait"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:music_disc_wait_shovel",
+    "count": 1
+  }
+}
+        

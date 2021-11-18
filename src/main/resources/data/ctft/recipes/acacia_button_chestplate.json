@@ -1,0 +1,20 @@
+
+{
+  "group": "Acacia Button Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:acacia_button"
+    }
+  },
+  "result": {
+    "item": "ctft:acacia_button_chestplate",
+    "count": 1
+  }
+}
+        

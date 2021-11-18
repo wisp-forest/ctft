@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:warped_door"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:warped_door_sword",
+			"ctft:warped_door_pickaxe",
+			"ctft:warped_door_axe",
+			"ctft:warped_door_shovel",
+			"ctft:warped_door_hoe",
+			"ctft:warped_door_shield",
+			"ctft:warped_door_fishing_rod",
+			"ctft:warped_door_compass",
+			"ctft:warped_door_clock",
+			"ctft:warped_door_helmet",
+			"ctft:warped_door_chestplate",
+			"ctft:warped_door_leggings",
+			"ctft:warped_door_boots",
+			"ctft:warped_door_shears",
+			"ctft:warped_door_horse_armor",
+			"ctft:warped_door_bow"
+		]
+	}
+}

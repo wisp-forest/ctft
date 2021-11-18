@@ -1,0 +1,20 @@
+
+{
+  "group": "Carrot Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:carrot"
+    }
+  },
+  "result": {
+    "item": "ctft:carrot_chestplate",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:firework_star"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:firework_star_sword",
+			"ctft:firework_star_pickaxe",
+			"ctft:firework_star_axe",
+			"ctft:firework_star_shovel",
+			"ctft:firework_star_hoe",
+			"ctft:firework_star_shield",
+			"ctft:firework_star_fishing_rod",
+			"ctft:firework_star_compass",
+			"ctft:firework_star_clock",
+			"ctft:firework_star_helmet",
+			"ctft:firework_star_chestplate",
+			"ctft:firework_star_leggings",
+			"ctft:firework_star_boots",
+			"ctft:firework_star_shears",
+			"ctft:firework_star_horse_armor",
+			"ctft:firework_star_bow"
+		]
+	}
+}

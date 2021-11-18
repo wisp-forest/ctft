@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:wheat_seeds"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:wheat_seeds_sword",
+			"ctft:wheat_seeds_pickaxe",
+			"ctft:wheat_seeds_axe",
+			"ctft:wheat_seeds_shovel",
+			"ctft:wheat_seeds_hoe",
+			"ctft:wheat_seeds_shield",
+			"ctft:wheat_seeds_fishing_rod",
+			"ctft:wheat_seeds_compass",
+			"ctft:wheat_seeds_clock",
+			"ctft:wheat_seeds_helmet",
+			"ctft:wheat_seeds_chestplate",
+			"ctft:wheat_seeds_leggings",
+			"ctft:wheat_seeds_boots",
+			"ctft:wheat_seeds_shears",
+			"ctft:wheat_seeds_horse_armor",
+			"ctft:wheat_seeds_bow"
+		]
+	}
+}

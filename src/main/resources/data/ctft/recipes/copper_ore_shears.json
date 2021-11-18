@@ -1,0 +1,20 @@
+
+{
+  "group": "Copper Ore Shears",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 0 ",
+    "   "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:copper_ore"
+    }
+  },
+  "result": {
+    "item": "ctft:copper_ore_shears",
+    "count": 1
+  }
+}
+        

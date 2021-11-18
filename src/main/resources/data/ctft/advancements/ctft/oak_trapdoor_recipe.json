@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:oak_trapdoor"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:oak_trapdoor_sword",
+			"ctft:oak_trapdoor_pickaxe",
+			"ctft:oak_trapdoor_axe",
+			"ctft:oak_trapdoor_shovel",
+			"ctft:oak_trapdoor_hoe",
+			"ctft:oak_trapdoor_shield",
+			"ctft:oak_trapdoor_fishing_rod",
+			"ctft:oak_trapdoor_compass",
+			"ctft:oak_trapdoor_clock",
+			"ctft:oak_trapdoor_helmet",
+			"ctft:oak_trapdoor_chestplate",
+			"ctft:oak_trapdoor_leggings",
+			"ctft:oak_trapdoor_boots",
+			"ctft:oak_trapdoor_shears",
+			"ctft:oak_trapdoor_horse_armor",
+			"ctft:oak_trapdoor_bow"
+		]
+	}
+}

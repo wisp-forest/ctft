@@ -1,0 +1,10 @@
+
+{
+  "parent": "ctft:item/compass",
+  "textures": {
+    "0": "ctft:items/compass_01",
+    "1": "ctft:blocks/dead_brain_coral_fan_block",
+    "particle": "ctft:blocks/dead_brain_coral_fan_block"
+  }
+}
+            

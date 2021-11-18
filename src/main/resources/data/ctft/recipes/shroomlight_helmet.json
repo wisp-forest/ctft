@@ -1,0 +1,20 @@
+
+{
+  "group": "Shroomlight Helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:shroomlight"
+    }
+  },
+  "result": {
+    "item": "ctft:shroomlight_helmet",
+    "count": 1
+  }
+}
+        

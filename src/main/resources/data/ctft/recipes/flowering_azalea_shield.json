@@ -1,0 +1,23 @@
+
+{
+  "group": "Flowering Azalea Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:flowering_azalea"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:flowering_azalea_shield",
+    "count": 1
+  }
+}
+        

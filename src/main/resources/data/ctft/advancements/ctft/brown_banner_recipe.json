@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:brown_banner"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:brown_banner_sword",
+			"ctft:brown_banner_pickaxe",
+			"ctft:brown_banner_axe",
+			"ctft:brown_banner_shovel",
+			"ctft:brown_banner_hoe",
+			"ctft:brown_banner_shield",
+			"ctft:brown_banner_fishing_rod",
+			"ctft:brown_banner_compass",
+			"ctft:brown_banner_clock",
+			"ctft:brown_banner_helmet",
+			"ctft:brown_banner_chestplate",
+			"ctft:brown_banner_leggings",
+			"ctft:brown_banner_boots",
+			"ctft:brown_banner_shears",
+			"ctft:brown_banner_horse_armor",
+			"ctft:brown_banner_bow"
+		]
+	}
+}

@@ -1,0 +1,23 @@
+
+{
+  "group": "Chiseled Polished Blackstone Axe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "00 ",
+    "01 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:chiseled_polished_blackstone"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:chiseled_polished_blackstone_axe",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:end_stone_brick_stairs"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:end_stone_brick_stairs_sword",
+			"ctft:end_stone_brick_stairs_pickaxe",
+			"ctft:end_stone_brick_stairs_axe",
+			"ctft:end_stone_brick_stairs_shovel",
+			"ctft:end_stone_brick_stairs_hoe",
+			"ctft:end_stone_brick_stairs_shield",
+			"ctft:end_stone_brick_stairs_fishing_rod",
+			"ctft:end_stone_brick_stairs_compass",
+			"ctft:end_stone_brick_stairs_clock",
+			"ctft:end_stone_brick_stairs_helmet",
+			"ctft:end_stone_brick_stairs_chestplate",
+			"ctft:end_stone_brick_stairs_leggings",
+			"ctft:end_stone_brick_stairs_boots",
+			"ctft:end_stone_brick_stairs_shears",
+			"ctft:end_stone_brick_stairs_horse_armor",
+			"ctft:end_stone_brick_stairs_bow"
+		]
+	}
+}

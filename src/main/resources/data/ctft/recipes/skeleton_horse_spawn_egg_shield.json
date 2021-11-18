@@ -1,0 +1,23 @@
+
+{
+  "group": "Skeleton Horse Spawn Egg Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:skeleton_horse_spawn_egg"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:skeleton_horse_spawn_egg_shield",
+    "count": 1
+  }
+}
+        

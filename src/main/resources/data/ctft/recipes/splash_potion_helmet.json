@@ -1,0 +1,20 @@
+
+{
+  "group": "Splash Potion Helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:splash_potion"
+    }
+  },
+  "result": {
+    "item": "ctft:splash_potion_helmet",
+    "count": 1
+  }
+}
+        

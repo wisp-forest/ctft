@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:nether_brick_slab"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:nether_brick_slab_sword",
+			"ctft:nether_brick_slab_pickaxe",
+			"ctft:nether_brick_slab_axe",
+			"ctft:nether_brick_slab_shovel",
+			"ctft:nether_brick_slab_hoe",
+			"ctft:nether_brick_slab_shield",
+			"ctft:nether_brick_slab_fishing_rod",
+			"ctft:nether_brick_slab_compass",
+			"ctft:nether_brick_slab_clock",
+			"ctft:nether_brick_slab_helmet",
+			"ctft:nether_brick_slab_chestplate",
+			"ctft:nether_brick_slab_leggings",
+			"ctft:nether_brick_slab_boots",
+			"ctft:nether_brick_slab_shears",
+			"ctft:nether_brick_slab_horse_armor",
+			"ctft:nether_brick_slab_bow"
+		]
+	}
+}

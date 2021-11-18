@@ -1,0 +1,20 @@
+
+{
+  "group": "Name Tag Shears",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 0 ",
+    "   "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:name_tag"
+    }
+  },
+  "result": {
+    "item": "ctft:name_tag_shears",
+    "count": 1
+  }
+}
+        

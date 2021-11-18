@@ -1,0 +1,23 @@
+
+{
+  "group": "Flower Banner Pattern Pickaxe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:flower_banner_pattern"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:flower_banner_pattern_pickaxe",
+    "count": 1
+  }
+}
+        

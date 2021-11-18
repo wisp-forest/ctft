@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:experience_bottle"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:experience_bottle_sword",
+			"ctft:experience_bottle_pickaxe",
+			"ctft:experience_bottle_axe",
+			"ctft:experience_bottle_shovel",
+			"ctft:experience_bottle_hoe",
+			"ctft:experience_bottle_shield",
+			"ctft:experience_bottle_fishing_rod",
+			"ctft:experience_bottle_compass",
+			"ctft:experience_bottle_clock",
+			"ctft:experience_bottle_helmet",
+			"ctft:experience_bottle_chestplate",
+			"ctft:experience_bottle_leggings",
+			"ctft:experience_bottle_boots",
+			"ctft:experience_bottle_shears",
+			"ctft:experience_bottle_horse_armor",
+			"ctft:experience_bottle_bow"
+		]
+	}
+}

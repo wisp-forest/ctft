@@ -1,0 +1,23 @@
+
+{
+  "group": "Tropical Fish Bucket Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:tropical_fish_bucket"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:tropical_fish_bucket_bow",
+    "count": 1
+  }
+}
+        

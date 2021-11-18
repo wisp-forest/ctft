@@ -1,0 +1,20 @@
+
+{
+  "group": "Andesite Wall Shears",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 0 ",
+    "   "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:andesite_wall"
+    }
+  },
+  "result": {
+    "item": "ctft:andesite_wall_shears",
+    "count": 1
+  }
+}
+        

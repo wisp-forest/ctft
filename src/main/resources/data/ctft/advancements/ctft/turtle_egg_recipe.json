@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:turtle_egg"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:turtle_egg_sword",
+			"ctft:turtle_egg_pickaxe",
+			"ctft:turtle_egg_axe",
+			"ctft:turtle_egg_shovel",
+			"ctft:turtle_egg_hoe",
+			"ctft:turtle_egg_shield",
+			"ctft:turtle_egg_fishing_rod",
+			"ctft:turtle_egg_compass",
+			"ctft:turtle_egg_clock",
+			"ctft:turtle_egg_helmet",
+			"ctft:turtle_egg_chestplate",
+			"ctft:turtle_egg_leggings",
+			"ctft:turtle_egg_boots",
+			"ctft:turtle_egg_shears",
+			"ctft:turtle_egg_horse_armor",
+			"ctft:turtle_egg_bow"
+		]
+	}
+}

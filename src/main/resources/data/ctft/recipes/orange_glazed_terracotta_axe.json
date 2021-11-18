@@ -1,0 +1,23 @@
+
+{
+  "group": "Orange Glazed Terracotta Axe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "00 ",
+    "01 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:orange_glazed_terracotta"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:orange_glazed_terracotta_axe",
+    "count": 1
+  }
+}
+        

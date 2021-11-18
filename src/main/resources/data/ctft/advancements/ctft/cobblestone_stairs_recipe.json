@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cobblestone_stairs"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:cobblestone_stairs_sword",
+			"ctft:cobblestone_stairs_pickaxe",
+			"ctft:cobblestone_stairs_axe",
+			"ctft:cobblestone_stairs_shovel",
+			"ctft:cobblestone_stairs_hoe",
+			"ctft:cobblestone_stairs_shield",
+			"ctft:cobblestone_stairs_fishing_rod",
+			"ctft:cobblestone_stairs_compass",
+			"ctft:cobblestone_stairs_clock",
+			"ctft:cobblestone_stairs_helmet",
+			"ctft:cobblestone_stairs_chestplate",
+			"ctft:cobblestone_stairs_leggings",
+			"ctft:cobblestone_stairs_boots",
+			"ctft:cobblestone_stairs_shears",
+			"ctft:cobblestone_stairs_horse_armor",
+			"ctft:cobblestone_stairs_bow"
+		]
+	}
+}

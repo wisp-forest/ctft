@@ -1,0 +1,23 @@
+
+{
+  "group": "Diamond Horse Armor Clock",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    "010",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:diamond_horse_armor"
+    },
+    "1": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:diamond_horse_armor_clock",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,14 @@
+
+    {
+      "parent": "ctft:item/shield",
+      "textures": {
+        "0": "ctft:items/shield_base",
+        "1": "ctft:blocks/lime_dye_block",
+        "particle": "ctft:blocks/lime_dye_block"
+      },
+      "overrides": [
+        { "predicate": { "blocking": 0.0 }, "model": "ctft:item/lime_dye_shield" },
+        { "predicate": { "blocking": 1.0 }, "model": "ctft:item/lime_dye_shield_blocking" }
+        ]
+    }
+            

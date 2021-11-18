@@ -1,0 +1,23 @@
+
+{
+  "group": "Heart Of The Sea Shovel",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:heart_of_the_sea"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:heart_of_the_sea_shovel",
+    "count": 1
+  }
+}
+        

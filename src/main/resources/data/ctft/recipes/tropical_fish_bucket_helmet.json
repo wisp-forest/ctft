@@ -1,0 +1,20 @@
+
+{
+  "group": "Tropical Fish Bucket Helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:tropical_fish_bucket"
+    }
+  },
+  "result": {
+    "item": "ctft:tropical_fish_bucket_helmet",
+    "count": 1
+  }
+}
+        

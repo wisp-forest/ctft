@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:end_crystal"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:end_crystal_sword",
+			"ctft:end_crystal_pickaxe",
+			"ctft:end_crystal_axe",
+			"ctft:end_crystal_shovel",
+			"ctft:end_crystal_hoe",
+			"ctft:end_crystal_shield",
+			"ctft:end_crystal_fishing_rod",
+			"ctft:end_crystal_compass",
+			"ctft:end_crystal_clock",
+			"ctft:end_crystal_helmet",
+			"ctft:end_crystal_chestplate",
+			"ctft:end_crystal_leggings",
+			"ctft:end_crystal_boots",
+			"ctft:end_crystal_shears",
+			"ctft:end_crystal_horse_armor",
+			"ctft:end_crystal_bow"
+		]
+	}
+}

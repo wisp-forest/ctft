@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:polished_blackstone"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:polished_blackstone_sword",
+			"ctft:polished_blackstone_pickaxe",
+			"ctft:polished_blackstone_axe",
+			"ctft:polished_blackstone_shovel",
+			"ctft:polished_blackstone_hoe",
+			"ctft:polished_blackstone_shield",
+			"ctft:polished_blackstone_fishing_rod",
+			"ctft:polished_blackstone_compass",
+			"ctft:polished_blackstone_clock",
+			"ctft:polished_blackstone_helmet",
+			"ctft:polished_blackstone_chestplate",
+			"ctft:polished_blackstone_leggings",
+			"ctft:polished_blackstone_boots",
+			"ctft:polished_blackstone_shears",
+			"ctft:polished_blackstone_horse_armor",
+			"ctft:polished_blackstone_bow"
+		]
+	}
+}

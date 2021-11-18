@@ -1,0 +1,20 @@
+
+{
+  "group": "Zombie Villager Spawn Egg Boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:zombie_villager_spawn_egg"
+    }
+  },
+  "result": {
+    "item": "ctft:zombie_villager_spawn_egg_boots",
+    "count": 1
+  }
+}
+        

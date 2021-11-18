@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:green_concrete"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:green_concrete_sword",
+			"ctft:green_concrete_pickaxe",
+			"ctft:green_concrete_axe",
+			"ctft:green_concrete_shovel",
+			"ctft:green_concrete_hoe",
+			"ctft:green_concrete_shield",
+			"ctft:green_concrete_fishing_rod",
+			"ctft:green_concrete_compass",
+			"ctft:green_concrete_clock",
+			"ctft:green_concrete_helmet",
+			"ctft:green_concrete_chestplate",
+			"ctft:green_concrete_leggings",
+			"ctft:green_concrete_boots",
+			"ctft:green_concrete_shears",
+			"ctft:green_concrete_horse_armor",
+			"ctft:green_concrete_bow"
+		]
+	}
+}

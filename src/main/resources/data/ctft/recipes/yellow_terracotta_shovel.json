@@ -1,0 +1,23 @@
+
+{
+  "group": "Yellow Terracotta Shovel",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:yellow_terracotta"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:yellow_terracotta_shovel",
+    "count": 1
+  }
+}
+        

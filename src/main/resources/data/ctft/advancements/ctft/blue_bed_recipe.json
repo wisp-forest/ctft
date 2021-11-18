@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:blue_bed"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:blue_bed_sword",
+			"ctft:blue_bed_pickaxe",
+			"ctft:blue_bed_axe",
+			"ctft:blue_bed_shovel",
+			"ctft:blue_bed_hoe",
+			"ctft:blue_bed_shield",
+			"ctft:blue_bed_fishing_rod",
+			"ctft:blue_bed_compass",
+			"ctft:blue_bed_clock",
+			"ctft:blue_bed_helmet",
+			"ctft:blue_bed_chestplate",
+			"ctft:blue_bed_leggings",
+			"ctft:blue_bed_boots",
+			"ctft:blue_bed_shears",
+			"ctft:blue_bed_horse_armor",
+			"ctft:blue_bed_bow"
+		]
+	}
+}

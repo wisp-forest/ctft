@@ -1,0 +1,20 @@
+
+{
+  "group": "Red Nether Bricks Helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:red_nether_bricks"
+    }
+  },
+  "result": {
+    "item": "ctft:red_nether_bricks_helmet",
+    "count": 1
+  }
+}
+        

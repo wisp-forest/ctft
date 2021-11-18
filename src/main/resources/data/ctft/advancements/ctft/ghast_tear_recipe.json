@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:ghast_tear"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:ghast_tear_sword",
+			"ctft:ghast_tear_pickaxe",
+			"ctft:ghast_tear_axe",
+			"ctft:ghast_tear_shovel",
+			"ctft:ghast_tear_hoe",
+			"ctft:ghast_tear_shield",
+			"ctft:ghast_tear_fishing_rod",
+			"ctft:ghast_tear_compass",
+			"ctft:ghast_tear_clock",
+			"ctft:ghast_tear_helmet",
+			"ctft:ghast_tear_chestplate",
+			"ctft:ghast_tear_leggings",
+			"ctft:ghast_tear_boots",
+			"ctft:ghast_tear_shears",
+			"ctft:ghast_tear_horse_armor",
+			"ctft:ghast_tear_bow"
+		]
+	}
+}

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:oak_door"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:oak_door_sword",
+			"ctft:oak_door_pickaxe",
+			"ctft:oak_door_axe",
+			"ctft:oak_door_shovel",
+			"ctft:oak_door_hoe",
+			"ctft:oak_door_shield",
+			"ctft:oak_door_fishing_rod",
+			"ctft:oak_door_compass",
+			"ctft:oak_door_clock",
+			"ctft:oak_door_helmet",
+			"ctft:oak_door_chestplate",
+			"ctft:oak_door_leggings",
+			"ctft:oak_door_boots",
+			"ctft:oak_door_shears",
+			"ctft:oak_door_horse_armor",
+			"ctft:oak_door_bow"
+		]
+	}
+}

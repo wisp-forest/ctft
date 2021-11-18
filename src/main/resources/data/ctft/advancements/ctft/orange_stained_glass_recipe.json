@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:orange_stained_glass"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:orange_stained_glass_sword",
+			"ctft:orange_stained_glass_pickaxe",
+			"ctft:orange_stained_glass_axe",
+			"ctft:orange_stained_glass_shovel",
+			"ctft:orange_stained_glass_hoe",
+			"ctft:orange_stained_glass_shield",
+			"ctft:orange_stained_glass_fishing_rod",
+			"ctft:orange_stained_glass_compass",
+			"ctft:orange_stained_glass_clock",
+			"ctft:orange_stained_glass_helmet",
+			"ctft:orange_stained_glass_chestplate",
+			"ctft:orange_stained_glass_leggings",
+			"ctft:orange_stained_glass_boots",
+			"ctft:orange_stained_glass_shears",
+			"ctft:orange_stained_glass_horse_armor",
+			"ctft:orange_stained_glass_bow"
+		]
+	}
+}

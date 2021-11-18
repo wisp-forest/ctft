@@ -1,0 +1,20 @@
+
+{
+  "group": "Cyan Terracotta Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:cyan_terracotta"
+    }
+  },
+  "result": {
+    "item": "ctft:cyan_terracotta_chestplate",
+    "count": 1
+  }
+}
+        

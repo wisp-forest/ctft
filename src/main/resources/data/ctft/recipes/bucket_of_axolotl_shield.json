@@ -1,0 +1,23 @@
+
+{
+  "group": "Bucket of Axolotl Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:axolotl_bucket"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:bucket_of_axolotl_shield",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,20 @@
+
+{
+  "group": "Black Terracotta Boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:black_terracotta"
+    }
+  },
+  "result": {
+    "item": "ctft:black_terracotta_boots",
+    "count": 1
+  }
+}
+        

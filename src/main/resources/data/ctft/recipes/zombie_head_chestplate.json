@@ -1,0 +1,20 @@
+
+{
+  "group": "Zombie Head Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:zombie_head"
+    }
+  },
+  "result": {
+    "item": "ctft:zombie_head_chestplate",
+    "count": 1
+  }
+}
+        

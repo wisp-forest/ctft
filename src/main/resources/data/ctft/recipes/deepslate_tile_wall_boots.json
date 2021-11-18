@@ -1,0 +1,20 @@
+
+{
+  "group": "Deepslate Tile Wall Boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:deepslate_tile_wall"
+    }
+  },
+  "result": {
+    "item": "ctft:deepslate_tile_wall_boots",
+    "count": 1
+  }
+}
+        

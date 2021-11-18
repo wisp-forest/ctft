@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:green_dye"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:green_dye_sword",
+			"ctft:green_dye_pickaxe",
+			"ctft:green_dye_axe",
+			"ctft:green_dye_shovel",
+			"ctft:green_dye_hoe",
+			"ctft:green_dye_shield",
+			"ctft:green_dye_fishing_rod",
+			"ctft:green_dye_compass",
+			"ctft:green_dye_clock",
+			"ctft:green_dye_helmet",
+			"ctft:green_dye_chestplate",
+			"ctft:green_dye_leggings",
+			"ctft:green_dye_boots",
+			"ctft:green_dye_shears",
+			"ctft:green_dye_horse_armor",
+			"ctft:green_dye_bow"
+		]
+	}
+}

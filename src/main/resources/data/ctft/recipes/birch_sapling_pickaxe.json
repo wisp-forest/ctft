@@ -1,0 +1,23 @@
+
+{
+  "group": "Birch Sapling Pickaxe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:birch_sapling"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:birch_sapling_pickaxe",
+    "count": 1
+  }
+}
+        

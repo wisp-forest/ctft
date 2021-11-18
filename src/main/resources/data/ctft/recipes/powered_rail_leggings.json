@@ -1,0 +1,20 @@
+
+{
+  "group": "Powered Rail Leggings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:powered_rail"
+    }
+  },
+  "result": {
+    "item": "ctft:powered_rail_leggings",
+    "count": 1
+  }
+}
+        

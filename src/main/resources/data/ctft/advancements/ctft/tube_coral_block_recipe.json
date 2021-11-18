@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:tube_coral_block"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:tube_coral_block_sword",
+			"ctft:tube_coral_block_pickaxe",
+			"ctft:tube_coral_block_axe",
+			"ctft:tube_coral_block_shovel",
+			"ctft:tube_coral_block_hoe",
+			"ctft:tube_coral_block_shield",
+			"ctft:tube_coral_block_fishing_rod",
+			"ctft:tube_coral_block_compass",
+			"ctft:tube_coral_block_clock",
+			"ctft:tube_coral_block_helmet",
+			"ctft:tube_coral_block_chestplate",
+			"ctft:tube_coral_block_leggings",
+			"ctft:tube_coral_block_boots",
+			"ctft:tube_coral_block_shears",
+			"ctft:tube_coral_block_horse_armor",
+			"ctft:tube_coral_block_bow"
+		]
+	}
+}

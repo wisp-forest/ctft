@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:glowstone_dust"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:glowstone_dust_sword",
+			"ctft:glowstone_dust_pickaxe",
+			"ctft:glowstone_dust_axe",
+			"ctft:glowstone_dust_shovel",
+			"ctft:glowstone_dust_hoe",
+			"ctft:glowstone_dust_shield",
+			"ctft:glowstone_dust_fishing_rod",
+			"ctft:glowstone_dust_compass",
+			"ctft:glowstone_dust_clock",
+			"ctft:glowstone_dust_helmet",
+			"ctft:glowstone_dust_chestplate",
+			"ctft:glowstone_dust_leggings",
+			"ctft:glowstone_dust_boots",
+			"ctft:glowstone_dust_shears",
+			"ctft:glowstone_dust_horse_armor",
+			"ctft:glowstone_dust_bow"
+		]
+	}
+}

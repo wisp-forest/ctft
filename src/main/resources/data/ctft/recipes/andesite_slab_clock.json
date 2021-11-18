@@ -1,0 +1,23 @@
+
+{
+  "group": "Andesite Slab Clock",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    "010",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:andesite_slab"
+    },
+    "1": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:andesite_slab_clock",
+    "count": 1
+  }
+}
+        

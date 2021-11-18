@@ -1,0 +1,20 @@
+
+{
+  "group": "Sea Pickle Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:sea_pickle"
+    }
+  },
+  "result": {
+    "item": "ctft:sea_pickle_chestplate",
+    "count": 1
+  }
+}
+        

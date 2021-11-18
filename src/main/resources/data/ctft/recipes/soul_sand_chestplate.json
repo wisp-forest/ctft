@@ -1,0 +1,20 @@
+
+{
+  "group": "Soul Sand Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:soul_sand"
+    }
+  },
+  "result": {
+    "item": "ctft:soul_sand_chestplate",
+    "count": 1
+  }
+}
+        

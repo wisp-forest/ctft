@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:red_nether_bricks"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:red_nether_bricks_sword",
+			"ctft:red_nether_bricks_pickaxe",
+			"ctft:red_nether_bricks_axe",
+			"ctft:red_nether_bricks_shovel",
+			"ctft:red_nether_bricks_hoe",
+			"ctft:red_nether_bricks_shield",
+			"ctft:red_nether_bricks_fishing_rod",
+			"ctft:red_nether_bricks_compass",
+			"ctft:red_nether_bricks_clock",
+			"ctft:red_nether_bricks_helmet",
+			"ctft:red_nether_bricks_chestplate",
+			"ctft:red_nether_bricks_leggings",
+			"ctft:red_nether_bricks_boots",
+			"ctft:red_nether_bricks_shears",
+			"ctft:red_nether_bricks_horse_armor",
+			"ctft:red_nether_bricks_bow"
+		]
+	}
+}

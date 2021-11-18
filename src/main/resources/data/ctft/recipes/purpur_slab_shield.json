@@ -1,0 +1,23 @@
+
+{
+  "group": "Purpur Slab Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:purpur_slab"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:purpur_slab_shield",
+    "count": 1
+  }
+}
+        

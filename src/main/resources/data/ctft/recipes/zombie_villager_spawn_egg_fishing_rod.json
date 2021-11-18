@@ -1,0 +1,23 @@
+
+{
+  "group": "Zombie Villager Spawn Egg Fishing Rod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 01",
+    "0 1"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:zombie_villager_spawn_egg"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:zombie_villager_spawn_egg_fishing_rod",
+    "count": 1
+  }
+}
+        

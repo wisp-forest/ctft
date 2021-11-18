@@ -1,0 +1,23 @@
+
+{
+  "group": "Cartography Table Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:cartography_table"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:cartography_table_bow",
+    "count": 1
+  }
+}
+        

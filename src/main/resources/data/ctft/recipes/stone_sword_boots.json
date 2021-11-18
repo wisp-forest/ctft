@@ -1,0 +1,20 @@
+
+{
+  "group": "Stone Sword Boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:stone_sword"
+    }
+  },
+  "result": {
+    "item": "ctft:stone_sword_boots",
+    "count": 1
+  }
+}
+        

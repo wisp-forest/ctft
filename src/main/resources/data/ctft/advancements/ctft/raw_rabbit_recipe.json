@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:rabbit"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:rabbit_sword",
+			"ctft:rabbit_pickaxe",
+			"ctft:rabbit_axe",
+			"ctft:rabbit_shovel",
+			"ctft:rabbit_hoe",
+			"ctft:rabbit_shield",
+			"ctft:rabbit_fishing_rod",
+			"ctft:rabbit_compass",
+			"ctft:rabbit_clock",
+			"ctft:rabbit_helmet",
+			"ctft:rabbit_chestplate",
+			"ctft:rabbit_leggings",
+			"ctft:rabbit_boots",
+			"ctft:rabbit_shears",
+			"ctft:rabbit_horse_armor",
+			"ctft:rabbit_bow"
+		]
+	}
+}

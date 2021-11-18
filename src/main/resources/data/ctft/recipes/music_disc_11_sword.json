@@ -1,0 +1,23 @@
+
+{
+  "group": "Music Disc 11 Sword",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    " 0 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:music_disc_11"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:music_disc_11_sword",
+    "count": 1
+  }
+}
+        

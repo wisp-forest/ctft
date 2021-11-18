@@ -1,0 +1,20 @@
+
+{
+  "group": "Diamond Helmet Shears",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 0 ",
+    "   "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:diamond_helmet"
+    }
+  },
+  "result": {
+    "item": "ctft:diamond_helmet_shears",
+    "count": 1
+  }
+}
+        

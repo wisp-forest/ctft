@@ -1,0 +1,23 @@
+
+{
+  "group": "Bucket of Axolotl Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:axolotl_bucket"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:bucket_of_axolotl_bow",
+    "count": 1
+  }
+}
+        

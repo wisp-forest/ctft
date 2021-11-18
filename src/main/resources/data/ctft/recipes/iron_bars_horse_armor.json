@@ -1,0 +1,20 @@
+
+{
+  "group": "Iron Bars Horse Armor",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:iron_bars"
+    }
+  },
+  "result": {
+    "item": "ctft:iron_bars_horse_armor",
+    "count": 1
+  }
+}
+        

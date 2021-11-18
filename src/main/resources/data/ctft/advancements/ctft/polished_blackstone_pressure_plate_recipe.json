@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:polished_blackstone_pressure_plate"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:polished_blackstone_pressure_plate_sword",
+			"ctft:polished_blackstone_pressure_plate_pickaxe",
+			"ctft:polished_blackstone_pressure_plate_axe",
+			"ctft:polished_blackstone_pressure_plate_shovel",
+			"ctft:polished_blackstone_pressure_plate_hoe",
+			"ctft:polished_blackstone_pressure_plate_shield",
+			"ctft:polished_blackstone_pressure_plate_fishing_rod",
+			"ctft:polished_blackstone_pressure_plate_compass",
+			"ctft:polished_blackstone_pressure_plate_clock",
+			"ctft:polished_blackstone_pressure_plate_helmet",
+			"ctft:polished_blackstone_pressure_plate_chestplate",
+			"ctft:polished_blackstone_pressure_plate_leggings",
+			"ctft:polished_blackstone_pressure_plate_boots",
+			"ctft:polished_blackstone_pressure_plate_shears",
+			"ctft:polished_blackstone_pressure_plate_horse_armor",
+			"ctft:polished_blackstone_pressure_plate_bow"
+		]
+	}
+}

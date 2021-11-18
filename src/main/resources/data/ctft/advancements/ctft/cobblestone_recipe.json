@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cobblestone"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:cobblestone_sword",
+			"ctft:cobblestone_pickaxe",
+			"ctft:cobblestone_axe",
+			"ctft:cobblestone_shovel",
+			"ctft:cobblestone_hoe",
+			"ctft:cobblestone_shield",
+			"ctft:cobblestone_fishing_rod",
+			"ctft:cobblestone_compass",
+			"ctft:cobblestone_clock",
+			"ctft:cobblestone_helmet",
+			"ctft:cobblestone_chestplate",
+			"ctft:cobblestone_leggings",
+			"ctft:cobblestone_boots",
+			"ctft:cobblestone_shears",
+			"ctft:cobblestone_horse_armor",
+			"ctft:cobblestone_bow"
+		]
+	}
+}

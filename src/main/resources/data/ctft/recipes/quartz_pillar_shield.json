@@ -1,0 +1,23 @@
+
+{
+  "group": "Quartz Pillar Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:quartz_pillar"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:quartz_pillar_shield",
+    "count": 1
+  }
+}
+        

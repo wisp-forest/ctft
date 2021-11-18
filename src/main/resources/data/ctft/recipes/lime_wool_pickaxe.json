@@ -1,0 +1,23 @@
+
+{
+  "group": "Lime Wool Pickaxe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:lime_wool"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:lime_wool_pickaxe",
+    "count": 1
+  }
+}
+        

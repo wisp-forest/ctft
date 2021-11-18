@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:moss_block"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:moss_block_sword",
+			"ctft:moss_block_pickaxe",
+			"ctft:moss_block_axe",
+			"ctft:moss_block_shovel",
+			"ctft:moss_block_hoe",
+			"ctft:moss_block_shield",
+			"ctft:moss_block_fishing_rod",
+			"ctft:moss_block_compass",
+			"ctft:moss_block_clock",
+			"ctft:moss_block_helmet",
+			"ctft:moss_block_chestplate",
+			"ctft:moss_block_leggings",
+			"ctft:moss_block_boots",
+			"ctft:moss_block_shears",
+			"ctft:moss_block_horse_armor",
+			"ctft:moss_block_bow"
+		]
+	}
+}

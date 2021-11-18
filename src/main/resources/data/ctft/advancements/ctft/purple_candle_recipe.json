@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:purple_candle"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:purple_candle_sword",
+			"ctft:purple_candle_pickaxe",
+			"ctft:purple_candle_axe",
+			"ctft:purple_candle_shovel",
+			"ctft:purple_candle_hoe",
+			"ctft:purple_candle_shield",
+			"ctft:purple_candle_fishing_rod",
+			"ctft:purple_candle_compass",
+			"ctft:purple_candle_clock",
+			"ctft:purple_candle_helmet",
+			"ctft:purple_candle_chestplate",
+			"ctft:purple_candle_leggings",
+			"ctft:purple_candle_boots",
+			"ctft:purple_candle_shears",
+			"ctft:purple_candle_horse_armor",
+			"ctft:purple_candle_bow"
+		]
+	}
+}

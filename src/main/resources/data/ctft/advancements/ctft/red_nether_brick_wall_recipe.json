@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:red_nether_brick_wall"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:red_nether_brick_wall_sword",
+			"ctft:red_nether_brick_wall_pickaxe",
+			"ctft:red_nether_brick_wall_axe",
+			"ctft:red_nether_brick_wall_shovel",
+			"ctft:red_nether_brick_wall_hoe",
+			"ctft:red_nether_brick_wall_shield",
+			"ctft:red_nether_brick_wall_fishing_rod",
+			"ctft:red_nether_brick_wall_compass",
+			"ctft:red_nether_brick_wall_clock",
+			"ctft:red_nether_brick_wall_helmet",
+			"ctft:red_nether_brick_wall_chestplate",
+			"ctft:red_nether_brick_wall_leggings",
+			"ctft:red_nether_brick_wall_boots",
+			"ctft:red_nether_brick_wall_shears",
+			"ctft:red_nether_brick_wall_horse_armor",
+			"ctft:red_nether_brick_wall_bow"
+		]
+	}
+}

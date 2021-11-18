@@ -1,0 +1,23 @@
+
+{
+  "group": "Poisonous Potato Axe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "00 ",
+    "01 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:poisonous_potato"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:poisonous_potato_axe",
+    "count": 1
+  }
+}
+        

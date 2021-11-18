@@ -1,0 +1,23 @@
+
+{
+  "group": "White Concrete Powder Hoe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "00 ",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:white_concrete_powder"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:white_concrete_powder_hoe",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:campfire"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:campfire_sword",
+			"ctft:campfire_pickaxe",
+			"ctft:campfire_axe",
+			"ctft:campfire_shovel",
+			"ctft:campfire_hoe",
+			"ctft:campfire_shield",
+			"ctft:campfire_fishing_rod",
+			"ctft:campfire_compass",
+			"ctft:campfire_clock",
+			"ctft:campfire_helmet",
+			"ctft:campfire_chestplate",
+			"ctft:campfire_leggings",
+			"ctft:campfire_boots",
+			"ctft:campfire_shears",
+			"ctft:campfire_horse_armor",
+			"ctft:campfire_bow"
+		]
+	}
+}

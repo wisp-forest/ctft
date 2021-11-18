@@ -1,0 +1,20 @@
+
+{
+  "group": "Smooth Red Sandstone Stairs Horse Armor",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:smooth_red_sandstone_stairs"
+    }
+  },
+  "result": {
+    "item": "ctft:smooth_red_sandstone_stairs_horse_armor",
+    "count": 1
+  }
+}
+        

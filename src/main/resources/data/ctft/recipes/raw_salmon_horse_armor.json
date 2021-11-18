@@ -1,0 +1,20 @@
+
+{
+  "group": "Raw Salmon Horse Armor",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:salmon"
+    }
+  },
+  "result": {
+    "item": "ctft:raw_salmon_horse_armor",
+    "count": 1
+  }
+}
+        

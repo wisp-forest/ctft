@@ -1,0 +1,20 @@
+
+{
+  "group": "Birch Pressure Plate Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:birch_pressure_plate"
+    }
+  },
+  "result": {
+    "item": "ctft:birch_pressure_plate_chestplate",
+    "count": 1
+  }
+}
+        

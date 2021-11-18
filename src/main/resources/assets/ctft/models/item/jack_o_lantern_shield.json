@@ -1,0 +1,14 @@
+
+    {
+      "parent": "ctft:item/shield",
+      "textures": {
+        "0": "ctft:items/shield_base",
+        "1": "ctft:blocks/jack_o_lantern_block",
+        "particle": "ctft:blocks/jack_o_lantern_block"
+      },
+      "overrides": [
+        { "predicate": { "blocking": 0.0 }, "model": "ctft:item/jack_o_lantern_shield" },
+        { "predicate": { "blocking": 1.0 }, "model": "ctft:item/jack_o_lantern_shield_blocking" }
+        ]
+    }
+            

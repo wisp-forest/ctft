@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:torch"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:torch_sword",
+			"ctft:torch_pickaxe",
+			"ctft:torch_axe",
+			"ctft:torch_shovel",
+			"ctft:torch_hoe",
+			"ctft:torch_shield",
+			"ctft:torch_fishing_rod",
+			"ctft:torch_compass",
+			"ctft:torch_clock",
+			"ctft:torch_helmet",
+			"ctft:torch_chestplate",
+			"ctft:torch_leggings",
+			"ctft:torch_boots",
+			"ctft:torch_shears",
+			"ctft:torch_horse_armor",
+			"ctft:torch_bow"
+		]
+	}
+}

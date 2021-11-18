@@ -1,0 +1,20 @@
+
+{
+  "group": "Chorus Flower Shears",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 0 ",
+    "   "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:chorus_flower"
+    }
+  },
+  "result": {
+    "item": "ctft:chorus_flower_shears",
+    "count": 1
+  }
+}
+        

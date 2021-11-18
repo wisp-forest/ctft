@@ -1,0 +1,20 @@
+
+{
+  "group": "Golden Pickaxe Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:golden_pickaxe"
+    }
+  },
+  "result": {
+    "item": "ctft:golden_pickaxe_chestplate",
+    "count": 1
+  }
+}
+        

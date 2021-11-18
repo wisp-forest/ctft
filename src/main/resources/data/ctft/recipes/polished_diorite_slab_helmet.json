@@ -1,0 +1,20 @@
+
+{
+  "group": "Polished Diorite Slab Helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:polished_diorite_slab"
+    }
+  },
+  "result": {
+    "item": "ctft:polished_diorite_slab_helmet",
+    "count": 1
+  }
+}
+        

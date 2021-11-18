@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:conduit"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:conduit_sword",
+			"ctft:conduit_pickaxe",
+			"ctft:conduit_axe",
+			"ctft:conduit_shovel",
+			"ctft:conduit_hoe",
+			"ctft:conduit_shield",
+			"ctft:conduit_fishing_rod",
+			"ctft:conduit_compass",
+			"ctft:conduit_clock",
+			"ctft:conduit_helmet",
+			"ctft:conduit_chestplate",
+			"ctft:conduit_leggings",
+			"ctft:conduit_boots",
+			"ctft:conduit_shears",
+			"ctft:conduit_horse_armor",
+			"ctft:conduit_bow"
+		]
+	}
+}

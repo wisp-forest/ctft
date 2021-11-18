@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:acacia_pressure_plate"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:acacia_pressure_plate_sword",
+			"ctft:acacia_pressure_plate_pickaxe",
+			"ctft:acacia_pressure_plate_axe",
+			"ctft:acacia_pressure_plate_shovel",
+			"ctft:acacia_pressure_plate_hoe",
+			"ctft:acacia_pressure_plate_shield",
+			"ctft:acacia_pressure_plate_fishing_rod",
+			"ctft:acacia_pressure_plate_compass",
+			"ctft:acacia_pressure_plate_clock",
+			"ctft:acacia_pressure_plate_helmet",
+			"ctft:acacia_pressure_plate_chestplate",
+			"ctft:acacia_pressure_plate_leggings",
+			"ctft:acacia_pressure_plate_boots",
+			"ctft:acacia_pressure_plate_shears",
+			"ctft:acacia_pressure_plate_horse_armor",
+			"ctft:acacia_pressure_plate_bow"
+		]
+	}
+}

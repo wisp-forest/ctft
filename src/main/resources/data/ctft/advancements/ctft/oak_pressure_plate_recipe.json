@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:oak_pressure_plate"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:oak_pressure_plate_sword",
+			"ctft:oak_pressure_plate_pickaxe",
+			"ctft:oak_pressure_plate_axe",
+			"ctft:oak_pressure_plate_shovel",
+			"ctft:oak_pressure_plate_hoe",
+			"ctft:oak_pressure_plate_shield",
+			"ctft:oak_pressure_plate_fishing_rod",
+			"ctft:oak_pressure_plate_compass",
+			"ctft:oak_pressure_plate_clock",
+			"ctft:oak_pressure_plate_helmet",
+			"ctft:oak_pressure_plate_chestplate",
+			"ctft:oak_pressure_plate_leggings",
+			"ctft:oak_pressure_plate_boots",
+			"ctft:oak_pressure_plate_shears",
+			"ctft:oak_pressure_plate_horse_armor",
+			"ctft:oak_pressure_plate_bow"
+		]
+	}
+}

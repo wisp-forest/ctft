@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:polished_basalt"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:polished_basalt_sword",
+			"ctft:polished_basalt_pickaxe",
+			"ctft:polished_basalt_axe",
+			"ctft:polished_basalt_shovel",
+			"ctft:polished_basalt_hoe",
+			"ctft:polished_basalt_shield",
+			"ctft:polished_basalt_fishing_rod",
+			"ctft:polished_basalt_compass",
+			"ctft:polished_basalt_clock",
+			"ctft:polished_basalt_helmet",
+			"ctft:polished_basalt_chestplate",
+			"ctft:polished_basalt_leggings",
+			"ctft:polished_basalt_boots",
+			"ctft:polished_basalt_shears",
+			"ctft:polished_basalt_horse_armor",
+			"ctft:polished_basalt_bow"
+		]
+	}
+}

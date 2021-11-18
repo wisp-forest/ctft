@@ -1,0 +1,23 @@
+
+{
+  "group": "Magenta Dye Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:magenta_dye"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:magenta_dye_bow",
+    "count": 1
+  }
+}
+        

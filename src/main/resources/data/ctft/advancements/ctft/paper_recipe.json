@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:paper"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:paper_sword",
+			"ctft:paper_pickaxe",
+			"ctft:paper_axe",
+			"ctft:paper_shovel",
+			"ctft:paper_hoe",
+			"ctft:paper_shield",
+			"ctft:paper_fishing_rod",
+			"ctft:paper_compass",
+			"ctft:paper_clock",
+			"ctft:paper_helmet",
+			"ctft:paper_chestplate",
+			"ctft:paper_leggings",
+			"ctft:paper_boots",
+			"ctft:paper_shears",
+			"ctft:paper_horse_armor",
+			"ctft:paper_bow"
+		]
+	}
+}

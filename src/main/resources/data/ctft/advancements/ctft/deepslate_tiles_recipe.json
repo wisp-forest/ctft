@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:deepslate_tiles"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:deepslate_tiles_sword",
+			"ctft:deepslate_tiles_pickaxe",
+			"ctft:deepslate_tiles_axe",
+			"ctft:deepslate_tiles_shovel",
+			"ctft:deepslate_tiles_hoe",
+			"ctft:deepslate_tiles_shield",
+			"ctft:deepslate_tiles_fishing_rod",
+			"ctft:deepslate_tiles_compass",
+			"ctft:deepslate_tiles_clock",
+			"ctft:deepslate_tiles_helmet",
+			"ctft:deepslate_tiles_chestplate",
+			"ctft:deepslate_tiles_leggings",
+			"ctft:deepslate_tiles_boots",
+			"ctft:deepslate_tiles_shears",
+			"ctft:deepslate_tiles_horse_armor",
+			"ctft:deepslate_tiles_bow"
+		]
+	}
+}

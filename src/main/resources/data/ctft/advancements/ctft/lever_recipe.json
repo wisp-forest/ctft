@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:lever"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:lever_sword",
+			"ctft:lever_pickaxe",
+			"ctft:lever_axe",
+			"ctft:lever_shovel",
+			"ctft:lever_hoe",
+			"ctft:lever_shield",
+			"ctft:lever_fishing_rod",
+			"ctft:lever_compass",
+			"ctft:lever_clock",
+			"ctft:lever_helmet",
+			"ctft:lever_chestplate",
+			"ctft:lever_leggings",
+			"ctft:lever_boots",
+			"ctft:lever_shears",
+			"ctft:lever_horse_armor",
+			"ctft:lever_bow"
+		]
+	}
+}

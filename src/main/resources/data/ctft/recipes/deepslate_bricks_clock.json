@@ -1,0 +1,23 @@
+
+{
+  "group": "Deepslate Bricks Clock",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    "010",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:deepslate_bricks"
+    },
+    "1": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:deepslate_bricks_clock",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,23 @@
+
+{
+  "group": "Rotten Flesh Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:rotten_flesh_bow",
+    "count": 1
+  }
+}
+        

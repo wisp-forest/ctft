@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:stone_pickaxe"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:stone_pickaxe_sword",
+			"ctft:stone_pickaxe_pickaxe",
+			"ctft:stone_pickaxe_axe",
+			"ctft:stone_pickaxe_shovel",
+			"ctft:stone_pickaxe_hoe",
+			"ctft:stone_pickaxe_shield",
+			"ctft:stone_pickaxe_fishing_rod",
+			"ctft:stone_pickaxe_compass",
+			"ctft:stone_pickaxe_clock",
+			"ctft:stone_pickaxe_helmet",
+			"ctft:stone_pickaxe_chestplate",
+			"ctft:stone_pickaxe_leggings",
+			"ctft:stone_pickaxe_boots",
+			"ctft:stone_pickaxe_shears",
+			"ctft:stone_pickaxe_horse_armor",
+			"ctft:stone_pickaxe_bow"
+		]
+	}
+}

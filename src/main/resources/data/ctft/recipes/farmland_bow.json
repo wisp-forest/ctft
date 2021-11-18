@@ -1,0 +1,23 @@
+
+{
+  "group": "Farmland Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:farmland"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:farmland_bow",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cactus"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:cactus_sword",
+			"ctft:cactus_pickaxe",
+			"ctft:cactus_axe",
+			"ctft:cactus_shovel",
+			"ctft:cactus_hoe",
+			"ctft:cactus_shield",
+			"ctft:cactus_fishing_rod",
+			"ctft:cactus_compass",
+			"ctft:cactus_clock",
+			"ctft:cactus_helmet",
+			"ctft:cactus_chestplate",
+			"ctft:cactus_leggings",
+			"ctft:cactus_boots",
+			"ctft:cactus_shears",
+			"ctft:cactus_horse_armor",
+			"ctft:cactus_bow"
+		]
+	}
+}

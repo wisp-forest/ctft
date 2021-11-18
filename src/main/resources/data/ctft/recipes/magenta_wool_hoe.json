@@ -1,0 +1,23 @@
+
+{
+  "group": "Magenta Wool Hoe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "00 ",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:magenta_wool"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:magenta_wool_hoe",
+    "count": 1
+  }
+}
+        

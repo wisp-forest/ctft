@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:spruce_wood"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:spruce_wood_sword",
+			"ctft:spruce_wood_pickaxe",
+			"ctft:spruce_wood_axe",
+			"ctft:spruce_wood_shovel",
+			"ctft:spruce_wood_hoe",
+			"ctft:spruce_wood_shield",
+			"ctft:spruce_wood_fishing_rod",
+			"ctft:spruce_wood_compass",
+			"ctft:spruce_wood_clock",
+			"ctft:spruce_wood_helmet",
+			"ctft:spruce_wood_chestplate",
+			"ctft:spruce_wood_leggings",
+			"ctft:spruce_wood_boots",
+			"ctft:spruce_wood_shears",
+			"ctft:spruce_wood_horse_armor",
+			"ctft:spruce_wood_bow"
+		]
+	}
+}

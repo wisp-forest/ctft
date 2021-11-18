@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:fletching_table"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:fletching_table_sword",
+			"ctft:fletching_table_pickaxe",
+			"ctft:fletching_table_axe",
+			"ctft:fletching_table_shovel",
+			"ctft:fletching_table_hoe",
+			"ctft:fletching_table_shield",
+			"ctft:fletching_table_fishing_rod",
+			"ctft:fletching_table_compass",
+			"ctft:fletching_table_clock",
+			"ctft:fletching_table_helmet",
+			"ctft:fletching_table_chestplate",
+			"ctft:fletching_table_leggings",
+			"ctft:fletching_table_boots",
+			"ctft:fletching_table_shears",
+			"ctft:fletching_table_horse_armor",
+			"ctft:fletching_table_bow"
+		]
+	}
+}

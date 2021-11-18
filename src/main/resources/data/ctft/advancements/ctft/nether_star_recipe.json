@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:nether_star"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:nether_star_sword",
+			"ctft:nether_star_pickaxe",
+			"ctft:nether_star_axe",
+			"ctft:nether_star_shovel",
+			"ctft:nether_star_hoe",
+			"ctft:nether_star_shield",
+			"ctft:nether_star_fishing_rod",
+			"ctft:nether_star_compass",
+			"ctft:nether_star_clock",
+			"ctft:nether_star_helmet",
+			"ctft:nether_star_chestplate",
+			"ctft:nether_star_leggings",
+			"ctft:nether_star_boots",
+			"ctft:nether_star_shears",
+			"ctft:nether_star_horse_armor",
+			"ctft:nether_star_bow"
+		]
+	}
+}

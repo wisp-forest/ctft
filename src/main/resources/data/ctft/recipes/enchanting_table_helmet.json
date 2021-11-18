@@ -1,0 +1,20 @@
+
+{
+  "group": "Enchanting Table Helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:enchanting_table"
+    }
+  },
+  "result": {
+    "item": "ctft:enchanting_table_helmet",
+    "count": 1
+  }
+}
+        

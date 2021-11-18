@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:piston"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:piston_sword",
+			"ctft:piston_pickaxe",
+			"ctft:piston_axe",
+			"ctft:piston_shovel",
+			"ctft:piston_hoe",
+			"ctft:piston_shield",
+			"ctft:piston_fishing_rod",
+			"ctft:piston_compass",
+			"ctft:piston_clock",
+			"ctft:piston_helmet",
+			"ctft:piston_chestplate",
+			"ctft:piston_leggings",
+			"ctft:piston_boots",
+			"ctft:piston_shears",
+			"ctft:piston_horse_armor",
+			"ctft:piston_bow"
+		]
+	}
+}

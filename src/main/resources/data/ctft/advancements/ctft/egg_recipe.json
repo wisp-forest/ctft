@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:egg"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:egg_sword",
+			"ctft:egg_pickaxe",
+			"ctft:egg_axe",
+			"ctft:egg_shovel",
+			"ctft:egg_hoe",
+			"ctft:egg_shield",
+			"ctft:egg_fishing_rod",
+			"ctft:egg_compass",
+			"ctft:egg_clock",
+			"ctft:egg_helmet",
+			"ctft:egg_chestplate",
+			"ctft:egg_leggings",
+			"ctft:egg_boots",
+			"ctft:egg_shears",
+			"ctft:egg_horse_armor",
+			"ctft:egg_bow"
+		]
+	}
+}

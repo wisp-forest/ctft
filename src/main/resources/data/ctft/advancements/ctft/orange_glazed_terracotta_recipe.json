@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:orange_glazed_terracotta"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:orange_glazed_terracotta_sword",
+			"ctft:orange_glazed_terracotta_pickaxe",
+			"ctft:orange_glazed_terracotta_axe",
+			"ctft:orange_glazed_terracotta_shovel",
+			"ctft:orange_glazed_terracotta_hoe",
+			"ctft:orange_glazed_terracotta_shield",
+			"ctft:orange_glazed_terracotta_fishing_rod",
+			"ctft:orange_glazed_terracotta_compass",
+			"ctft:orange_glazed_terracotta_clock",
+			"ctft:orange_glazed_terracotta_helmet",
+			"ctft:orange_glazed_terracotta_chestplate",
+			"ctft:orange_glazed_terracotta_leggings",
+			"ctft:orange_glazed_terracotta_boots",
+			"ctft:orange_glazed_terracotta_shears",
+			"ctft:orange_glazed_terracotta_horse_armor",
+			"ctft:orange_glazed_terracotta_bow"
+		]
+	}
+}

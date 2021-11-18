@@ -1,0 +1,23 @@
+
+{
+  "group": "Chiseled Quartz Block Axe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "00 ",
+    "01 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:chiseled_quartz_block"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:chiseled_quartz_block_axe",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:phantom_membrane"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:phantom_membrane_sword",
+			"ctft:phantom_membrane_pickaxe",
+			"ctft:phantom_membrane_axe",
+			"ctft:phantom_membrane_shovel",
+			"ctft:phantom_membrane_hoe",
+			"ctft:phantom_membrane_shield",
+			"ctft:phantom_membrane_fishing_rod",
+			"ctft:phantom_membrane_compass",
+			"ctft:phantom_membrane_clock",
+			"ctft:phantom_membrane_helmet",
+			"ctft:phantom_membrane_chestplate",
+			"ctft:phantom_membrane_leggings",
+			"ctft:phantom_membrane_boots",
+			"ctft:phantom_membrane_shears",
+			"ctft:phantom_membrane_horse_armor",
+			"ctft:phantom_membrane_bow"
+		]
+	}
+}

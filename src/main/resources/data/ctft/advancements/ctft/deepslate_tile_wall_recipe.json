@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:deepslate_tile_wall"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:deepslate_tile_wall_sword",
+			"ctft:deepslate_tile_wall_pickaxe",
+			"ctft:deepslate_tile_wall_axe",
+			"ctft:deepslate_tile_wall_shovel",
+			"ctft:deepslate_tile_wall_hoe",
+			"ctft:deepslate_tile_wall_shield",
+			"ctft:deepslate_tile_wall_fishing_rod",
+			"ctft:deepslate_tile_wall_compass",
+			"ctft:deepslate_tile_wall_clock",
+			"ctft:deepslate_tile_wall_helmet",
+			"ctft:deepslate_tile_wall_chestplate",
+			"ctft:deepslate_tile_wall_leggings",
+			"ctft:deepslate_tile_wall_boots",
+			"ctft:deepslate_tile_wall_shears",
+			"ctft:deepslate_tile_wall_horse_armor",
+			"ctft:deepslate_tile_wall_bow"
+		]
+	}
+}

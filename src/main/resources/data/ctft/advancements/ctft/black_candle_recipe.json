@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:black_candle"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:black_candle_sword",
+			"ctft:black_candle_pickaxe",
+			"ctft:black_candle_axe",
+			"ctft:black_candle_shovel",
+			"ctft:black_candle_hoe",
+			"ctft:black_candle_shield",
+			"ctft:black_candle_fishing_rod",
+			"ctft:black_candle_compass",
+			"ctft:black_candle_clock",
+			"ctft:black_candle_helmet",
+			"ctft:black_candle_chestplate",
+			"ctft:black_candle_leggings",
+			"ctft:black_candle_boots",
+			"ctft:black_candle_shears",
+			"ctft:black_candle_horse_armor",
+			"ctft:black_candle_bow"
+		]
+	}
+}

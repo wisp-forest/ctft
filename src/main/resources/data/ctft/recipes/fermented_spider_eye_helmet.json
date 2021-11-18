@@ -1,0 +1,20 @@
+
+{
+  "group": "Fermented Spider Eye Helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:fermented_spider_eye"
+    }
+  },
+  "result": {
+    "item": "ctft:fermented_spider_eye_helmet",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,20 @@
+
+{
+  "group": "Twisting Vines Horse Armor",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:twisting_vines"
+    }
+  },
+  "result": {
+    "item": "ctft:twisting_vines_horse_armor",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,23 @@
+
+{
+  "group": "Respawn Anchor Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:respawn_anchor"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:respawn_anchor_shield",
+    "count": 1
+  }
+}
+        

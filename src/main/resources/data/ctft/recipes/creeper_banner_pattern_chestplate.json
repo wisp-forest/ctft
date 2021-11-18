@@ -1,0 +1,20 @@
+
+{
+  "group": "Creeper Banner Pattern Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:creeper_banner_pattern"
+    }
+  },
+  "result": {
+    "item": "ctft:creeper_banner_pattern_chestplate",
+    "count": 1
+  }
+}
+        

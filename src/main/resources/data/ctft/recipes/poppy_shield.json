@@ -1,0 +1,23 @@
+
+{
+  "group": "Poppy Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:poppy"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:poppy_shield",
+    "count": 1
+  }
+}
+        

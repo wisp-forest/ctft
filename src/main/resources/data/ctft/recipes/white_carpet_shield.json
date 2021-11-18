@@ -1,0 +1,23 @@
+
+{
+  "group": "White Carpet Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:white_carpet"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:white_carpet_shield",
+    "count": 1
+  }
+}
+        

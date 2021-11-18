@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_axe"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:netherite_axe_sword",
+			"ctft:netherite_axe_pickaxe",
+			"ctft:netherite_axe_axe",
+			"ctft:netherite_axe_shovel",
+			"ctft:netherite_axe_hoe",
+			"ctft:netherite_axe_shield",
+			"ctft:netherite_axe_fishing_rod",
+			"ctft:netherite_axe_compass",
+			"ctft:netherite_axe_clock",
+			"ctft:netherite_axe_helmet",
+			"ctft:netherite_axe_chestplate",
+			"ctft:netherite_axe_leggings",
+			"ctft:netherite_axe_boots",
+			"ctft:netherite_axe_shears",
+			"ctft:netherite_axe_horse_armor",
+			"ctft:netherite_axe_bow"
+		]
+	}
+}

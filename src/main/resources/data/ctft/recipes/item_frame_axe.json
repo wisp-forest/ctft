@@ -1,0 +1,23 @@
+
+{
+  "group": "Item Frame Axe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "00 ",
+    "01 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:item_frame"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:item_frame_axe",
+    "count": 1
+  }
+}
+        

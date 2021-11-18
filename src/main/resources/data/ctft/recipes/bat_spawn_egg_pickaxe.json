@@ -1,0 +1,23 @@
+
+{
+  "group": "Bat Spawn Egg Pickaxe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:bat_spawn_egg"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:bat_spawn_egg_pickaxe",
+    "count": 1
+  }
+}
+        

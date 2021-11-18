@@ -1,0 +1,20 @@
+
+{
+  "group": "Loom Boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:loom"
+    }
+  },
+  "result": {
+    "item": "ctft:loom_boots",
+    "count": 1
+  }
+}
+        

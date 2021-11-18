@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:tuff"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:tuff_sword",
+			"ctft:tuff_pickaxe",
+			"ctft:tuff_axe",
+			"ctft:tuff_shovel",
+			"ctft:tuff_hoe",
+			"ctft:tuff_shield",
+			"ctft:tuff_fishing_rod",
+			"ctft:tuff_compass",
+			"ctft:tuff_clock",
+			"ctft:tuff_helmet",
+			"ctft:tuff_chestplate",
+			"ctft:tuff_leggings",
+			"ctft:tuff_boots",
+			"ctft:tuff_shears",
+			"ctft:tuff_horse_armor",
+			"ctft:tuff_bow"
+		]
+	}
+}

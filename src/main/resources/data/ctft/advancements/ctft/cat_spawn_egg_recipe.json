@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cat_spawn_egg"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:cat_spawn_egg_sword",
+			"ctft:cat_spawn_egg_pickaxe",
+			"ctft:cat_spawn_egg_axe",
+			"ctft:cat_spawn_egg_shovel",
+			"ctft:cat_spawn_egg_hoe",
+			"ctft:cat_spawn_egg_shield",
+			"ctft:cat_spawn_egg_fishing_rod",
+			"ctft:cat_spawn_egg_compass",
+			"ctft:cat_spawn_egg_clock",
+			"ctft:cat_spawn_egg_helmet",
+			"ctft:cat_spawn_egg_chestplate",
+			"ctft:cat_spawn_egg_leggings",
+			"ctft:cat_spawn_egg_boots",
+			"ctft:cat_spawn_egg_shears",
+			"ctft:cat_spawn_egg_horse_armor",
+			"ctft:cat_spawn_egg_bow"
+		]
+	}
+}

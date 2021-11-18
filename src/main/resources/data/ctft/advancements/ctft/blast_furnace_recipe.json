@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:blast_furnace"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:blast_furnace_sword",
+			"ctft:blast_furnace_pickaxe",
+			"ctft:blast_furnace_axe",
+			"ctft:blast_furnace_shovel",
+			"ctft:blast_furnace_hoe",
+			"ctft:blast_furnace_shield",
+			"ctft:blast_furnace_fishing_rod",
+			"ctft:blast_furnace_compass",
+			"ctft:blast_furnace_clock",
+			"ctft:blast_furnace_helmet",
+			"ctft:blast_furnace_chestplate",
+			"ctft:blast_furnace_leggings",
+			"ctft:blast_furnace_boots",
+			"ctft:blast_furnace_shears",
+			"ctft:blast_furnace_horse_armor",
+			"ctft:blast_furnace_bow"
+		]
+	}
+}

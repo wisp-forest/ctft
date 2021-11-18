@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:twisting_vines"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:twisting_vines_sword",
+			"ctft:twisting_vines_pickaxe",
+			"ctft:twisting_vines_axe",
+			"ctft:twisting_vines_shovel",
+			"ctft:twisting_vines_hoe",
+			"ctft:twisting_vines_shield",
+			"ctft:twisting_vines_fishing_rod",
+			"ctft:twisting_vines_compass",
+			"ctft:twisting_vines_clock",
+			"ctft:twisting_vines_helmet",
+			"ctft:twisting_vines_chestplate",
+			"ctft:twisting_vines_leggings",
+			"ctft:twisting_vines_boots",
+			"ctft:twisting_vines_shears",
+			"ctft:twisting_vines_horse_armor",
+			"ctft:twisting_vines_bow"
+		]
+	}
+}

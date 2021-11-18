@@ -1,0 +1,23 @@
+
+{
+  "group": "Acacia Fence Gate Compass",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    "010",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:acacia_fence_gate"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:acacia_fence_gate_compass",
+    "count": 1
+  }
+}
+        

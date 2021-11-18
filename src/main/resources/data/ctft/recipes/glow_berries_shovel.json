@@ -1,0 +1,23 @@
+
+{
+  "group": "Glow Berries Shovel",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:glow_berries"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:glow_berries_shovel",
+    "count": 1
+  }
+}
+        

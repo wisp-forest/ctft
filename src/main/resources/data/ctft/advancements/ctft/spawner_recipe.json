@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:spawner"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:spawner_sword",
+			"ctft:spawner_pickaxe",
+			"ctft:spawner_axe",
+			"ctft:spawner_shovel",
+			"ctft:spawner_hoe",
+			"ctft:spawner_shield",
+			"ctft:spawner_fishing_rod",
+			"ctft:spawner_compass",
+			"ctft:spawner_clock",
+			"ctft:spawner_helmet",
+			"ctft:spawner_chestplate",
+			"ctft:spawner_leggings",
+			"ctft:spawner_boots",
+			"ctft:spawner_shears",
+			"ctft:spawner_horse_armor",
+			"ctft:spawner_bow"
+		]
+	}
+}

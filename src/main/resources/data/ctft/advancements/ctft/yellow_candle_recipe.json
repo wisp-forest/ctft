@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:yellow_candle"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:yellow_candle_sword",
+			"ctft:yellow_candle_pickaxe",
+			"ctft:yellow_candle_axe",
+			"ctft:yellow_candle_shovel",
+			"ctft:yellow_candle_hoe",
+			"ctft:yellow_candle_shield",
+			"ctft:yellow_candle_fishing_rod",
+			"ctft:yellow_candle_compass",
+			"ctft:yellow_candle_clock",
+			"ctft:yellow_candle_helmet",
+			"ctft:yellow_candle_chestplate",
+			"ctft:yellow_candle_leggings",
+			"ctft:yellow_candle_boots",
+			"ctft:yellow_candle_shears",
+			"ctft:yellow_candle_horse_armor",
+			"ctft:yellow_candle_bow"
+		]
+	}
+}

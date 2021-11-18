@@ -1,0 +1,10 @@
+
+    {
+      "parent": "ctft:item/leggings",
+      "textures": {
+        "0": "ctft:items/iron_leggings",
+        "1": "ctft:blocks/music_disc_blocks_block",
+        "particle": "ctft:blocks/music_disc_blocks_block"
+      }
+    }
+            

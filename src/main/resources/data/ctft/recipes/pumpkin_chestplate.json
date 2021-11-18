@@ -1,0 +1,20 @@
+
+{
+  "group": "Pumpkin Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:pumpkin"
+    }
+  },
+  "result": {
+    "item": "ctft:pumpkin_chestplate",
+    "count": 1
+  }
+}
+        

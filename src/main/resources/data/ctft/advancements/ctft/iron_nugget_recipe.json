@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_nugget"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:iron_nugget_sword",
+			"ctft:iron_nugget_pickaxe",
+			"ctft:iron_nugget_axe",
+			"ctft:iron_nugget_shovel",
+			"ctft:iron_nugget_hoe",
+			"ctft:iron_nugget_shield",
+			"ctft:iron_nugget_fishing_rod",
+			"ctft:iron_nugget_compass",
+			"ctft:iron_nugget_clock",
+			"ctft:iron_nugget_helmet",
+			"ctft:iron_nugget_chestplate",
+			"ctft:iron_nugget_leggings",
+			"ctft:iron_nugget_boots",
+			"ctft:iron_nugget_shears",
+			"ctft:iron_nugget_horse_armor",
+			"ctft:iron_nugget_bow"
+		]
+	}
+}

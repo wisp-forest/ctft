@@ -1,0 +1,23 @@
+
+{
+  "group": "Raw Iron Shovel",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:raw_iron"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:raw_iron_shovel",
+    "count": 1
+  }
+}
+        

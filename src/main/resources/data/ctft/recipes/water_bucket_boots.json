@@ -1,0 +1,20 @@
+
+{
+  "group": "Water Bucket Boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "result": {
+    "item": "ctft:water_bucket_boots",
+    "count": 1
+  }
+}
+        

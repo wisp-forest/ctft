@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:wither_rose"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:wither_rose_sword",
+			"ctft:wither_rose_pickaxe",
+			"ctft:wither_rose_axe",
+			"ctft:wither_rose_shovel",
+			"ctft:wither_rose_hoe",
+			"ctft:wither_rose_shield",
+			"ctft:wither_rose_fishing_rod",
+			"ctft:wither_rose_compass",
+			"ctft:wither_rose_clock",
+			"ctft:wither_rose_helmet",
+			"ctft:wither_rose_chestplate",
+			"ctft:wither_rose_leggings",
+			"ctft:wither_rose_boots",
+			"ctft:wither_rose_shears",
+			"ctft:wither_rose_horse_armor",
+			"ctft:wither_rose_bow"
+		]
+	}
+}

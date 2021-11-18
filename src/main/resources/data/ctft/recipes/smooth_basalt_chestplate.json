@@ -1,0 +1,20 @@
+
+{
+  "group": "Smooth Basalt Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:smooth_basalt"
+    }
+  },
+  "result": {
+    "item": "ctft:smooth_basalt_chestplate",
+    "count": 1
+  }
+}
+        

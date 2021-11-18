@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:granite_stairs"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:granite_stairs_sword",
+			"ctft:granite_stairs_pickaxe",
+			"ctft:granite_stairs_axe",
+			"ctft:granite_stairs_shovel",
+			"ctft:granite_stairs_hoe",
+			"ctft:granite_stairs_shield",
+			"ctft:granite_stairs_fishing_rod",
+			"ctft:granite_stairs_compass",
+			"ctft:granite_stairs_clock",
+			"ctft:granite_stairs_helmet",
+			"ctft:granite_stairs_chestplate",
+			"ctft:granite_stairs_leggings",
+			"ctft:granite_stairs_boots",
+			"ctft:granite_stairs_shears",
+			"ctft:granite_stairs_horse_armor",
+			"ctft:granite_stairs_bow"
+		]
+	}
+}

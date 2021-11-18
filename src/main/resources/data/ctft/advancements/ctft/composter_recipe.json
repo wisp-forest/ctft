@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:composter"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:composter_sword",
+			"ctft:composter_pickaxe",
+			"ctft:composter_axe",
+			"ctft:composter_shovel",
+			"ctft:composter_hoe",
+			"ctft:composter_shield",
+			"ctft:composter_fishing_rod",
+			"ctft:composter_compass",
+			"ctft:composter_clock",
+			"ctft:composter_helmet",
+			"ctft:composter_chestplate",
+			"ctft:composter_leggings",
+			"ctft:composter_boots",
+			"ctft:composter_shears",
+			"ctft:composter_horse_armor",
+			"ctft:composter_bow"
+		]
+	}
+}

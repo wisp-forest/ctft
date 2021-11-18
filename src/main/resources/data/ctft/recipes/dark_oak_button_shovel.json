@@ -1,0 +1,23 @@
+
+{
+  "group": "Dark Oak Button Shovel",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:dark_oak_button"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:dark_oak_button_shovel",
+    "count": 1
+  }
+}
+        

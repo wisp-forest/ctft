@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:warped_roots"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:warped_roots_sword",
+			"ctft:warped_roots_pickaxe",
+			"ctft:warped_roots_axe",
+			"ctft:warped_roots_shovel",
+			"ctft:warped_roots_hoe",
+			"ctft:warped_roots_shield",
+			"ctft:warped_roots_fishing_rod",
+			"ctft:warped_roots_compass",
+			"ctft:warped_roots_clock",
+			"ctft:warped_roots_helmet",
+			"ctft:warped_roots_chestplate",
+			"ctft:warped_roots_leggings",
+			"ctft:warped_roots_boots",
+			"ctft:warped_roots_shears",
+			"ctft:warped_roots_horse_armor",
+			"ctft:warped_roots_bow"
+		]
+	}
+}

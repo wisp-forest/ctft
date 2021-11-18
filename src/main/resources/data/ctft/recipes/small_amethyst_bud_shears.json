@@ -1,0 +1,20 @@
+
+{
+  "group": "Small Amethyst Bud Shears",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 0 ",
+    "   "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:small_amethyst_bud"
+    }
+  },
+  "result": {
+    "item": "ctft:small_amethyst_bud_shears",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bubble_coral_fan"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:bubble_coral_fan_sword",
+			"ctft:bubble_coral_fan_pickaxe",
+			"ctft:bubble_coral_fan_axe",
+			"ctft:bubble_coral_fan_shovel",
+			"ctft:bubble_coral_fan_hoe",
+			"ctft:bubble_coral_fan_shield",
+			"ctft:bubble_coral_fan_fishing_rod",
+			"ctft:bubble_coral_fan_compass",
+			"ctft:bubble_coral_fan_clock",
+			"ctft:bubble_coral_fan_helmet",
+			"ctft:bubble_coral_fan_chestplate",
+			"ctft:bubble_coral_fan_leggings",
+			"ctft:bubble_coral_fan_boots",
+			"ctft:bubble_coral_fan_shears",
+			"ctft:bubble_coral_fan_horse_armor",
+			"ctft:bubble_coral_fan_bow"
+		]
+	}
+}

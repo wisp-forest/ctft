@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:activator_rail"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:activator_rail_sword",
+			"ctft:activator_rail_pickaxe",
+			"ctft:activator_rail_axe",
+			"ctft:activator_rail_shovel",
+			"ctft:activator_rail_hoe",
+			"ctft:activator_rail_shield",
+			"ctft:activator_rail_fishing_rod",
+			"ctft:activator_rail_compass",
+			"ctft:activator_rail_clock",
+			"ctft:activator_rail_helmet",
+			"ctft:activator_rail_chestplate",
+			"ctft:activator_rail_leggings",
+			"ctft:activator_rail_boots",
+			"ctft:activator_rail_shears",
+			"ctft:activator_rail_horse_armor",
+			"ctft:activator_rail_bow"
+		]
+	}
+}

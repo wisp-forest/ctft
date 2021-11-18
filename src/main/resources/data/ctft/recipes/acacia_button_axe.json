@@ -1,0 +1,23 @@
+
+{
+  "group": "Acacia Button Axe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "00 ",
+    "01 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:acacia_button"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:acacia_button_axe",
+    "count": 1
+  }
+}
+        

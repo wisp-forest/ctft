@@ -1,0 +1,23 @@
+
+{
+  "group": "Furnace Minecart Sword",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    " 0 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:furnace_minecart"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:furnace_minecart_sword",
+    "count": 1
+  }
+}
+        

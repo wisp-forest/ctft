@@ -1,0 +1,20 @@
+
+{
+  "group": "Stone Pickaxe Helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:stone_pickaxe"
+    }
+  },
+  "result": {
+    "item": "ctft:stone_pickaxe_helmet",
+    "count": 1
+  }
+}
+        

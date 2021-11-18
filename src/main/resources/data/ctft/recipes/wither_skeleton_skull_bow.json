@@ -1,0 +1,23 @@
+
+{
+  "group": "Wither Skeleton Skull Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:wither_skeleton_skull"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:wither_skeleton_skull_bow",
+    "count": 1
+  }
+}
+        

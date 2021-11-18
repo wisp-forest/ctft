@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:golden_shovel"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:golden_shovel_sword",
+			"ctft:golden_shovel_pickaxe",
+			"ctft:golden_shovel_axe",
+			"ctft:golden_shovel_shovel",
+			"ctft:golden_shovel_hoe",
+			"ctft:golden_shovel_shield",
+			"ctft:golden_shovel_fishing_rod",
+			"ctft:golden_shovel_compass",
+			"ctft:golden_shovel_clock",
+			"ctft:golden_shovel_helmet",
+			"ctft:golden_shovel_chestplate",
+			"ctft:golden_shovel_leggings",
+			"ctft:golden_shovel_boots",
+			"ctft:golden_shovel_shears",
+			"ctft:golden_shovel_horse_armor",
+			"ctft:golden_shovel_bow"
+		]
+	}
+}

@@ -1,0 +1,14 @@
+
+    {
+      "parent": "ctft:item/shield",
+      "textures": {
+        "0": "ctft:items/shield_base",
+        "1": "ctft:blocks/quartz_bricks_block",
+        "particle": "ctft:blocks/quartz_bricks_block"
+      },
+      "overrides": [
+        { "predicate": { "blocking": 0.0 }, "model": "ctft:item/quartz_bricks_shield" },
+        { "predicate": { "blocking": 1.0 }, "model": "ctft:item/quartz_bricks_shield_blocking" }
+        ]
+    }
+            

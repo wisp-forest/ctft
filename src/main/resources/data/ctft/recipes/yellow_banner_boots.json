@@ -1,0 +1,20 @@
+
+{
+  "group": "Yellow Banner Boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:yellow_banner"
+    }
+  },
+  "result": {
+    "item": "ctft:yellow_banner_boots",
+    "count": 1
+  }
+}
+        

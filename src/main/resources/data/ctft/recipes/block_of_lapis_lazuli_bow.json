@@ -1,0 +1,23 @@
+
+{
+  "group": "Block of Lapis Lazuli Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:lapis_block"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:block_of_lapis_lazuli_bow",
+    "count": 1
+  }
+}
+        

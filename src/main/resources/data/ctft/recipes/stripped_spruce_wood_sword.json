@@ -1,0 +1,23 @@
+
+{
+  "group": "Stripped Spruce Wood Sword",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    " 0 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:stripped_spruce_wood"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:stripped_spruce_wood_sword",
+    "count": 1
+  }
+}
+        

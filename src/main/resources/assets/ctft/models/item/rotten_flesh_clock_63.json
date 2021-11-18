@@ -1,0 +1,10 @@
+
+{
+  "parent": "ctft:item/clock",
+  "textures": {
+    "0": "ctft:items/clock_63",
+    "1": "ctft:blocks/rotten_flesh_block",
+    "particle": "ctft:blocks/rotten_flesh_block"
+  }
+}
+            

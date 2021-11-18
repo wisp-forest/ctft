@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:scute"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:scute_sword",
+			"ctft:scute_pickaxe",
+			"ctft:scute_axe",
+			"ctft:scute_shovel",
+			"ctft:scute_hoe",
+			"ctft:scute_shield",
+			"ctft:scute_fishing_rod",
+			"ctft:scute_compass",
+			"ctft:scute_clock",
+			"ctft:scute_helmet",
+			"ctft:scute_chestplate",
+			"ctft:scute_leggings",
+			"ctft:scute_boots",
+			"ctft:scute_shears",
+			"ctft:scute_horse_armor",
+			"ctft:scute_bow"
+		]
+	}
+}

@@ -1,0 +1,20 @@
+
+{
+  "group": "Light Blue Bed Shears",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 0 ",
+    "   "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:light_blue_bed"
+    }
+  },
+  "result": {
+    "item": "ctft:light_blue_bed_shears",
+    "count": 1
+  }
+}
+        

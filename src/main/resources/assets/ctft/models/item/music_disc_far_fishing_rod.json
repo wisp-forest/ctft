@@ -1,0 +1,14 @@
+
+{
+  "parent": "ctft:item/fishing_rod",
+  "textures": {
+    "0": "ctft:items/fishing_rod",
+    "1": "ctft:blocks/music_disc_far_block",
+    "particle": "ctft:blocks/music_disc_far_block"
+  },
+  "overrides": [
+        { "predicate": { "cast": 0.0 }, "model": "ctft:item/music_disc_far_fishing_rod" },
+        { "predicate": { "cast": 1.0 }, "model": "ctft:item/music_disc_far_fishing_rod_cast" }
+    ]
+}
+        

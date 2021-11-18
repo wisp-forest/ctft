@@ -1,0 +1,23 @@
+
+{
+  "group": "Amethyst Shard Hoe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "00 ",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:amethyst_shard_hoe",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,23 @@
+
+{
+  "group": "Kelp Hoe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "00 ",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:kelp"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:kelp_hoe",
+    "count": 1
+  }
+}
+        

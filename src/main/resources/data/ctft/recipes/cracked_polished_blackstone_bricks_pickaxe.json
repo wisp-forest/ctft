@@ -1,0 +1,23 @@
+
+{
+  "group": "Cracked Polished Blackstone Bricks Pickaxe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:cracked_polished_blackstone_bricks"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:cracked_polished_blackstone_bricks_pickaxe",
+    "count": 1
+  }
+}
+        

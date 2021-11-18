@@ -1,0 +1,10 @@
+
+    {
+      "parent": "ctft:item/sword",
+      "textures": {
+        "0": "ctft:items/iron_sword",
+        "1": "ctft:blocks/stripped_jungle_log_top_block",
+        "particle": "ctft:blocks/stripped_jungle_log_top_block"
+      }
+    }
+            

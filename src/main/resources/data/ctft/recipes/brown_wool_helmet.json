@@ -1,0 +1,20 @@
+
+{
+  "group": "Brown Wool Helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:brown_wool"
+    }
+  },
+  "result": {
+    "item": "ctft:brown_wool_helmet",
+    "count": 1
+  }
+}
+        

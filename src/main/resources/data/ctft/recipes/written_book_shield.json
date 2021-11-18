@@ -1,0 +1,23 @@
+
+{
+  "group": "Written Book Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:written_book"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:written_book_shield",
+    "count": 1
+  }
+}
+        

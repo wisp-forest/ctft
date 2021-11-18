@@ -1,0 +1,10 @@
+
+{
+  "parent": "ctft:item/clock",
+  "textures": {
+    "0": "ctft:items/clock_56",
+    "1": "ctft:blocks/copper_ingot_block",
+    "particle": "ctft:blocks/copper_ingot_block"
+  }
+}
+            

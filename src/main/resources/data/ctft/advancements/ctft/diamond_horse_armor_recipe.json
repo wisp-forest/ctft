@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:diamond_horse_armor"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:diamond_horse_armor_sword",
+			"ctft:diamond_horse_armor_pickaxe",
+			"ctft:diamond_horse_armor_axe",
+			"ctft:diamond_horse_armor_shovel",
+			"ctft:diamond_horse_armor_hoe",
+			"ctft:diamond_horse_armor_shield",
+			"ctft:diamond_horse_armor_fishing_rod",
+			"ctft:diamond_horse_armor_compass",
+			"ctft:diamond_horse_armor_clock",
+			"ctft:diamond_horse_armor_helmet",
+			"ctft:diamond_horse_armor_chestplate",
+			"ctft:diamond_horse_armor_leggings",
+			"ctft:diamond_horse_armor_boots",
+			"ctft:diamond_horse_armor_shears",
+			"ctft:diamond_horse_armor_horse_armor",
+			"ctft:diamond_horse_armor_bow"
+		]
+	}
+}

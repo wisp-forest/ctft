@@ -1,0 +1,23 @@
+
+{
+  "group": "Music Disc Cat Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:music_disc_cat"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:music_disc_cat_shield",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:leather"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:leather_sword",
+			"ctft:leather_pickaxe",
+			"ctft:leather_axe",
+			"ctft:leather_shovel",
+			"ctft:leather_hoe",
+			"ctft:leather_shield",
+			"ctft:leather_fishing_rod",
+			"ctft:leather_compass",
+			"ctft:leather_clock",
+			"ctft:leather_helmet",
+			"ctft:leather_chestplate",
+			"ctft:leather_leggings",
+			"ctft:leather_boots",
+			"ctft:leather_shears",
+			"ctft:leather_horse_armor",
+			"ctft:leather_bow"
+		]
+	}
+}

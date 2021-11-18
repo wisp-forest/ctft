@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mycelium"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:mycelium_sword",
+			"ctft:mycelium_pickaxe",
+			"ctft:mycelium_axe",
+			"ctft:mycelium_shovel",
+			"ctft:mycelium_hoe",
+			"ctft:mycelium_shield",
+			"ctft:mycelium_fishing_rod",
+			"ctft:mycelium_compass",
+			"ctft:mycelium_clock",
+			"ctft:mycelium_helmet",
+			"ctft:mycelium_chestplate",
+			"ctft:mycelium_leggings",
+			"ctft:mycelium_boots",
+			"ctft:mycelium_shears",
+			"ctft:mycelium_horse_armor",
+			"ctft:mycelium_bow"
+		]
+	}
+}

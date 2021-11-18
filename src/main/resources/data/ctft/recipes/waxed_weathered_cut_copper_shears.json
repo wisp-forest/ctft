@@ -1,0 +1,20 @@
+
+{
+  "group": "Waxed Weathered Cut Copper Shears",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 0 ",
+    "   "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:waxed_weathered_cut_copper"
+    }
+  },
+  "result": {
+    "item": "ctft:waxed_weathered_cut_copper_shears",
+    "count": 1
+  }
+}
+        

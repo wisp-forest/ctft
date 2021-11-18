@@ -1,0 +1,10 @@
+
+{
+  "parent": "ctft:item/clock",
+  "textures": {
+    "0": "ctft:items/clock_05",
+    "1": "ctft:blocks/netherite_boots_block",
+    "particle": "ctft:blocks/netherite_boots_block"
+  }
+}
+            

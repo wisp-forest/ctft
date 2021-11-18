@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:magma_cube_spawn_egg"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:magma_cube_spawn_egg_sword",
+			"ctft:magma_cube_spawn_egg_pickaxe",
+			"ctft:magma_cube_spawn_egg_axe",
+			"ctft:magma_cube_spawn_egg_shovel",
+			"ctft:magma_cube_spawn_egg_hoe",
+			"ctft:magma_cube_spawn_egg_shield",
+			"ctft:magma_cube_spawn_egg_fishing_rod",
+			"ctft:magma_cube_spawn_egg_compass",
+			"ctft:magma_cube_spawn_egg_clock",
+			"ctft:magma_cube_spawn_egg_helmet",
+			"ctft:magma_cube_spawn_egg_chestplate",
+			"ctft:magma_cube_spawn_egg_leggings",
+			"ctft:magma_cube_spawn_egg_boots",
+			"ctft:magma_cube_spawn_egg_shears",
+			"ctft:magma_cube_spawn_egg_horse_armor",
+			"ctft:magma_cube_spawn_egg_bow"
+		]
+	}
+}

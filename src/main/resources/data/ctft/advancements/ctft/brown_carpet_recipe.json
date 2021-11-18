@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:brown_carpet"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:brown_carpet_sword",
+			"ctft:brown_carpet_pickaxe",
+			"ctft:brown_carpet_axe",
+			"ctft:brown_carpet_shovel",
+			"ctft:brown_carpet_hoe",
+			"ctft:brown_carpet_shield",
+			"ctft:brown_carpet_fishing_rod",
+			"ctft:brown_carpet_compass",
+			"ctft:brown_carpet_clock",
+			"ctft:brown_carpet_helmet",
+			"ctft:brown_carpet_chestplate",
+			"ctft:brown_carpet_leggings",
+			"ctft:brown_carpet_boots",
+			"ctft:brown_carpet_shears",
+			"ctft:brown_carpet_horse_armor",
+			"ctft:brown_carpet_bow"
+		]
+	}
+}

@@ -1,0 +1,23 @@
+
+{
+  "group": "Podzol Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:podzol"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:podzol_bow",
+    "count": 1
+  }
+}
+        

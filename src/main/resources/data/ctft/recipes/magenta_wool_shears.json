@@ -1,0 +1,20 @@
+
+{
+  "group": "Magenta Wool Shears",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 0 ",
+    "   "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:magenta_wool"
+    }
+  },
+  "result": {
+    "item": "ctft:magenta_wool_shears",
+    "count": 1
+  }
+}
+        

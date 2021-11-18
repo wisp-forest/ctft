@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:crimson_trapdoor"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:crimson_trapdoor_sword",
+			"ctft:crimson_trapdoor_pickaxe",
+			"ctft:crimson_trapdoor_axe",
+			"ctft:crimson_trapdoor_shovel",
+			"ctft:crimson_trapdoor_hoe",
+			"ctft:crimson_trapdoor_shield",
+			"ctft:crimson_trapdoor_fishing_rod",
+			"ctft:crimson_trapdoor_compass",
+			"ctft:crimson_trapdoor_clock",
+			"ctft:crimson_trapdoor_helmet",
+			"ctft:crimson_trapdoor_chestplate",
+			"ctft:crimson_trapdoor_leggings",
+			"ctft:crimson_trapdoor_boots",
+			"ctft:crimson_trapdoor_shears",
+			"ctft:crimson_trapdoor_horse_armor",
+			"ctft:crimson_trapdoor_bow"
+		]
+	}
+}

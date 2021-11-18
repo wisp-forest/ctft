@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:zoglin_spawn_egg"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:zoglin_spawn_egg_sword",
+			"ctft:zoglin_spawn_egg_pickaxe",
+			"ctft:zoglin_spawn_egg_axe",
+			"ctft:zoglin_spawn_egg_shovel",
+			"ctft:zoglin_spawn_egg_hoe",
+			"ctft:zoglin_spawn_egg_shield",
+			"ctft:zoglin_spawn_egg_fishing_rod",
+			"ctft:zoglin_spawn_egg_compass",
+			"ctft:zoglin_spawn_egg_clock",
+			"ctft:zoglin_spawn_egg_helmet",
+			"ctft:zoglin_spawn_egg_chestplate",
+			"ctft:zoglin_spawn_egg_leggings",
+			"ctft:zoglin_spawn_egg_boots",
+			"ctft:zoglin_spawn_egg_shears",
+			"ctft:zoglin_spawn_egg_horse_armor",
+			"ctft:zoglin_spawn_egg_bow"
+		]
+	}
+}

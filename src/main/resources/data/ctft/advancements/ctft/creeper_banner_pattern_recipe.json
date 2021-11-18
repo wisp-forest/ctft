@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:creeper_banner_pattern"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:creeper_banner_pattern_sword",
+			"ctft:creeper_banner_pattern_pickaxe",
+			"ctft:creeper_banner_pattern_axe",
+			"ctft:creeper_banner_pattern_shovel",
+			"ctft:creeper_banner_pattern_hoe",
+			"ctft:creeper_banner_pattern_shield",
+			"ctft:creeper_banner_pattern_fishing_rod",
+			"ctft:creeper_banner_pattern_compass",
+			"ctft:creeper_banner_pattern_clock",
+			"ctft:creeper_banner_pattern_helmet",
+			"ctft:creeper_banner_pattern_chestplate",
+			"ctft:creeper_banner_pattern_leggings",
+			"ctft:creeper_banner_pattern_boots",
+			"ctft:creeper_banner_pattern_shears",
+			"ctft:creeper_banner_pattern_horse_armor",
+			"ctft:creeper_banner_pattern_bow"
+		]
+	}
+}

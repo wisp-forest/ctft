@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "ctft",
+  "version": "${version}",
+  "name": "Craft This From That",
+  "description": "Craft Anything From Literally Anything",
+  "authors": [
+    "chyzman"
+  ],
+  "contact": {
+    "website": "https://www.curseforge.com/minecraft/mc-mods/ctft",
+    "repo": "https://github.com/chyzman/ctft"
+  },
+  "license": "MIT",
+  "icon": "assets/ctft/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.chyzman.ctft.client.CtftClient"
+    ],
+    "main": [
+      "com.chyzman.ctft.Ctft"
+    ]
+  },
+  "mixins": [
+    "ctft.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.5",
+    "fabric": "*",
+    "minecraft": "1.17.1"
+  }
+}

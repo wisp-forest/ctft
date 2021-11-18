@@ -1,0 +1,23 @@
+
+{
+  "group": "Waxed Weathered Cut Copper Stairs Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:waxed_weathered_cut_copper_stairs"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:waxed_weathered_cut_copper_stairs_bow",
+    "count": 1
+  }
+}
+        

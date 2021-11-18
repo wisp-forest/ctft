@@ -1,0 +1,20 @@
+
+{
+  "group": "Smooth Red Sandstone Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:smooth_red_sandstone"
+    }
+  },
+  "result": {
+    "item": "ctft:smooth_red_sandstone_chestplate",
+    "count": 1
+  }
+}
+        

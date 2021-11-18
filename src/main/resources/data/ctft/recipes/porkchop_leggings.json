@@ -1,0 +1,20 @@
+
+{
+  "group": "Porkchop Leggings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:porkchop"
+    }
+  },
+  "result": {
+    "item": "ctft:porkchop_leggings",
+    "count": 1
+  }
+}
+        

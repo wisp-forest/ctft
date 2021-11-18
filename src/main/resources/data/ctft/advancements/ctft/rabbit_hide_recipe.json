@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:rabbit_hide"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:rabbit_hide_sword",
+			"ctft:rabbit_hide_pickaxe",
+			"ctft:rabbit_hide_axe",
+			"ctft:rabbit_hide_shovel",
+			"ctft:rabbit_hide_hoe",
+			"ctft:rabbit_hide_shield",
+			"ctft:rabbit_hide_fishing_rod",
+			"ctft:rabbit_hide_compass",
+			"ctft:rabbit_hide_clock",
+			"ctft:rabbit_hide_helmet",
+			"ctft:rabbit_hide_chestplate",
+			"ctft:rabbit_hide_leggings",
+			"ctft:rabbit_hide_boots",
+			"ctft:rabbit_hide_shears",
+			"ctft:rabbit_hide_horse_armor",
+			"ctft:rabbit_hide_bow"
+		]
+	}
+}

@@ -1,0 +1,23 @@
+
+{
+  "group": "Crimson Sign Shovel",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:crimson_sign"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:crimson_sign_shovel",
+    "count": 1
+  }
+}
+        

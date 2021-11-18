@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:yellow_glazed_terracotta"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:yellow_glazed_terracotta_sword",
+			"ctft:yellow_glazed_terracotta_pickaxe",
+			"ctft:yellow_glazed_terracotta_axe",
+			"ctft:yellow_glazed_terracotta_shovel",
+			"ctft:yellow_glazed_terracotta_hoe",
+			"ctft:yellow_glazed_terracotta_shield",
+			"ctft:yellow_glazed_terracotta_fishing_rod",
+			"ctft:yellow_glazed_terracotta_compass",
+			"ctft:yellow_glazed_terracotta_clock",
+			"ctft:yellow_glazed_terracotta_helmet",
+			"ctft:yellow_glazed_terracotta_chestplate",
+			"ctft:yellow_glazed_terracotta_leggings",
+			"ctft:yellow_glazed_terracotta_boots",
+			"ctft:yellow_glazed_terracotta_shears",
+			"ctft:yellow_glazed_terracotta_horse_armor",
+			"ctft:yellow_glazed_terracotta_bow"
+		]
+	}
+}

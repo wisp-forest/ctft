@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cut_red_sandstone"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:cut_red_sandstone_sword",
+			"ctft:cut_red_sandstone_pickaxe",
+			"ctft:cut_red_sandstone_axe",
+			"ctft:cut_red_sandstone_shovel",
+			"ctft:cut_red_sandstone_hoe",
+			"ctft:cut_red_sandstone_shield",
+			"ctft:cut_red_sandstone_fishing_rod",
+			"ctft:cut_red_sandstone_compass",
+			"ctft:cut_red_sandstone_clock",
+			"ctft:cut_red_sandstone_helmet",
+			"ctft:cut_red_sandstone_chestplate",
+			"ctft:cut_red_sandstone_leggings",
+			"ctft:cut_red_sandstone_boots",
+			"ctft:cut_red_sandstone_shears",
+			"ctft:cut_red_sandstone_horse_armor",
+			"ctft:cut_red_sandstone_bow"
+		]
+	}
+}

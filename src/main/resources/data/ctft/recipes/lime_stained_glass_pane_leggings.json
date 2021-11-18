@@ -1,0 +1,20 @@
+
+{
+  "group": "Lime Stained Glass Pane Leggings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:lime_stained_glass_pane"
+    }
+  },
+  "result": {
+    "item": "ctft:lime_stained_glass_pane_leggings",
+    "count": 1
+  }
+}
+        

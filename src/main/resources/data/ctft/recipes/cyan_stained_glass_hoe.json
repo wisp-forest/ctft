@@ -1,0 +1,23 @@
+
+{
+  "group": "Cyan Stained Glass Hoe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "00 ",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:cyan_stained_glass"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:cyan_stained_glass_hoe",
+    "count": 1
+  }
+}
+        

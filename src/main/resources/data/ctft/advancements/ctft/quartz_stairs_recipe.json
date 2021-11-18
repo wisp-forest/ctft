@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:quartz_stairs"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:quartz_stairs_sword",
+			"ctft:quartz_stairs_pickaxe",
+			"ctft:quartz_stairs_axe",
+			"ctft:quartz_stairs_shovel",
+			"ctft:quartz_stairs_hoe",
+			"ctft:quartz_stairs_shield",
+			"ctft:quartz_stairs_fishing_rod",
+			"ctft:quartz_stairs_compass",
+			"ctft:quartz_stairs_clock",
+			"ctft:quartz_stairs_helmet",
+			"ctft:quartz_stairs_chestplate",
+			"ctft:quartz_stairs_leggings",
+			"ctft:quartz_stairs_boots",
+			"ctft:quartz_stairs_shears",
+			"ctft:quartz_stairs_horse_armor",
+			"ctft:quartz_stairs_bow"
+		]
+	}
+}

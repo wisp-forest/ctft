@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:respawn_anchor"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:respawn_anchor_sword",
+			"ctft:respawn_anchor_pickaxe",
+			"ctft:respawn_anchor_axe",
+			"ctft:respawn_anchor_shovel",
+			"ctft:respawn_anchor_hoe",
+			"ctft:respawn_anchor_shield",
+			"ctft:respawn_anchor_fishing_rod",
+			"ctft:respawn_anchor_compass",
+			"ctft:respawn_anchor_clock",
+			"ctft:respawn_anchor_helmet",
+			"ctft:respawn_anchor_chestplate",
+			"ctft:respawn_anchor_leggings",
+			"ctft:respawn_anchor_boots",
+			"ctft:respawn_anchor_shears",
+			"ctft:respawn_anchor_horse_armor",
+			"ctft:respawn_anchor_bow"
+		]
+	}
+}

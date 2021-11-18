@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:shroomlight"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:shroomlight_sword",
+			"ctft:shroomlight_pickaxe",
+			"ctft:shroomlight_axe",
+			"ctft:shroomlight_shovel",
+			"ctft:shroomlight_hoe",
+			"ctft:shroomlight_shield",
+			"ctft:shroomlight_fishing_rod",
+			"ctft:shroomlight_compass",
+			"ctft:shroomlight_clock",
+			"ctft:shroomlight_helmet",
+			"ctft:shroomlight_chestplate",
+			"ctft:shroomlight_leggings",
+			"ctft:shroomlight_boots",
+			"ctft:shroomlight_shears",
+			"ctft:shroomlight_horse_armor",
+			"ctft:shroomlight_bow"
+		]
+	}
+}

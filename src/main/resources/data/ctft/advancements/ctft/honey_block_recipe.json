@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:honey_block"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:honey_block_sword",
+			"ctft:honey_block_pickaxe",
+			"ctft:honey_block_axe",
+			"ctft:honey_block_shovel",
+			"ctft:honey_block_hoe",
+			"ctft:honey_block_shield",
+			"ctft:honey_block_fishing_rod",
+			"ctft:honey_block_compass",
+			"ctft:honey_block_clock",
+			"ctft:honey_block_helmet",
+			"ctft:honey_block_chestplate",
+			"ctft:honey_block_leggings",
+			"ctft:honey_block_boots",
+			"ctft:honey_block_shears",
+			"ctft:honey_block_horse_armor",
+			"ctft:honey_block_bow"
+		]
+	}
+}

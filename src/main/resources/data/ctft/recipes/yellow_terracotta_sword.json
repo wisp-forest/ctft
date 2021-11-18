@@ -1,0 +1,23 @@
+
+{
+  "group": "Yellow Terracotta Sword",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    " 0 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:yellow_terracotta"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:yellow_terracotta_sword",
+    "count": 1
+  }
+}
+        

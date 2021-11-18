@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:lead"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:lead_sword",
+			"ctft:lead_pickaxe",
+			"ctft:lead_axe",
+			"ctft:lead_shovel",
+			"ctft:lead_hoe",
+			"ctft:lead_shield",
+			"ctft:lead_fishing_rod",
+			"ctft:lead_compass",
+			"ctft:lead_clock",
+			"ctft:lead_helmet",
+			"ctft:lead_chestplate",
+			"ctft:lead_leggings",
+			"ctft:lead_boots",
+			"ctft:lead_shears",
+			"ctft:lead_horse_armor",
+			"ctft:lead_bow"
+		]
+	}
+}

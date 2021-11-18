@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:sculk_sensor"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:sculk_sensor_sword",
+			"ctft:sculk_sensor_pickaxe",
+			"ctft:sculk_sensor_axe",
+			"ctft:sculk_sensor_shovel",
+			"ctft:sculk_sensor_hoe",
+			"ctft:sculk_sensor_shield",
+			"ctft:sculk_sensor_fishing_rod",
+			"ctft:sculk_sensor_compass",
+			"ctft:sculk_sensor_clock",
+			"ctft:sculk_sensor_helmet",
+			"ctft:sculk_sensor_chestplate",
+			"ctft:sculk_sensor_leggings",
+			"ctft:sculk_sensor_boots",
+			"ctft:sculk_sensor_shears",
+			"ctft:sculk_sensor_horse_armor",
+			"ctft:sculk_sensor_bow"
+		]
+	}
+}

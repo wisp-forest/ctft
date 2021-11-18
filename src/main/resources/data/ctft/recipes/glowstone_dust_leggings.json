@@ -1,0 +1,20 @@
+
+{
+  "group": "Glowstone Dust Leggings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:glowstone_dust"
+    }
+  },
+  "result": {
+    "item": "ctft:glowstone_dust_leggings",
+    "count": 1
+  }
+}
+        

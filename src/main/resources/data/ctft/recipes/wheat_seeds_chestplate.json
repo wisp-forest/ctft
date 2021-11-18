@@ -1,0 +1,20 @@
+
+{
+  "group": "Wheat Seeds Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:wheat_seeds"
+    }
+  },
+  "result": {
+    "item": "ctft:wheat_seeds_chestplate",
+    "count": 1
+  }
+}
+        

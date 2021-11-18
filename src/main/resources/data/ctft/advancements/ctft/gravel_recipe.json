@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:gravel"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:gravel_sword",
+			"ctft:gravel_pickaxe",
+			"ctft:gravel_axe",
+			"ctft:gravel_shovel",
+			"ctft:gravel_hoe",
+			"ctft:gravel_shield",
+			"ctft:gravel_fishing_rod",
+			"ctft:gravel_compass",
+			"ctft:gravel_clock",
+			"ctft:gravel_helmet",
+			"ctft:gravel_chestplate",
+			"ctft:gravel_leggings",
+			"ctft:gravel_boots",
+			"ctft:gravel_shears",
+			"ctft:gravel_horse_armor",
+			"ctft:gravel_bow"
+		]
+	}
+}

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:detector_rail"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:detector_rail_sword",
+			"ctft:detector_rail_pickaxe",
+			"ctft:detector_rail_axe",
+			"ctft:detector_rail_shovel",
+			"ctft:detector_rail_hoe",
+			"ctft:detector_rail_shield",
+			"ctft:detector_rail_fishing_rod",
+			"ctft:detector_rail_compass",
+			"ctft:detector_rail_clock",
+			"ctft:detector_rail_helmet",
+			"ctft:detector_rail_chestplate",
+			"ctft:detector_rail_leggings",
+			"ctft:detector_rail_boots",
+			"ctft:detector_rail_shears",
+			"ctft:detector_rail_horse_armor",
+			"ctft:detector_rail_bow"
+		]
+	}
+}

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:jungle_pressure_plate"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:jungle_pressure_plate_sword",
+			"ctft:jungle_pressure_plate_pickaxe",
+			"ctft:jungle_pressure_plate_axe",
+			"ctft:jungle_pressure_plate_shovel",
+			"ctft:jungle_pressure_plate_hoe",
+			"ctft:jungle_pressure_plate_shield",
+			"ctft:jungle_pressure_plate_fishing_rod",
+			"ctft:jungle_pressure_plate_compass",
+			"ctft:jungle_pressure_plate_clock",
+			"ctft:jungle_pressure_plate_helmet",
+			"ctft:jungle_pressure_plate_chestplate",
+			"ctft:jungle_pressure_plate_leggings",
+			"ctft:jungle_pressure_plate_boots",
+			"ctft:jungle_pressure_plate_shears",
+			"ctft:jungle_pressure_plate_horse_armor",
+			"ctft:jungle_pressure_plate_bow"
+		]
+	}
+}

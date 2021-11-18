@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:black_terracotta"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:black_terracotta_sword",
+			"ctft:black_terracotta_pickaxe",
+			"ctft:black_terracotta_axe",
+			"ctft:black_terracotta_shovel",
+			"ctft:black_terracotta_hoe",
+			"ctft:black_terracotta_shield",
+			"ctft:black_terracotta_fishing_rod",
+			"ctft:black_terracotta_compass",
+			"ctft:black_terracotta_clock",
+			"ctft:black_terracotta_helmet",
+			"ctft:black_terracotta_chestplate",
+			"ctft:black_terracotta_leggings",
+			"ctft:black_terracotta_boots",
+			"ctft:black_terracotta_shears",
+			"ctft:black_terracotta_horse_armor",
+			"ctft:black_terracotta_bow"
+		]
+	}
+}

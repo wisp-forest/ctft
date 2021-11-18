@@ -1,0 +1,20 @@
+
+{
+  "group": "Gunpowder Helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:gunpowder"
+    }
+  },
+  "result": {
+    "item": "ctft:gunpowder_helmet",
+    "count": 1
+  }
+}
+        

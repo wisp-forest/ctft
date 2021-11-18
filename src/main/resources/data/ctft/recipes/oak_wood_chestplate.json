@@ -1,0 +1,20 @@
+
+{
+  "group": "Oak Wood Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:oak_wood"
+    }
+  },
+  "result": {
+    "item": "ctft:oak_wood_chestplate",
+    "count": 1
+  }
+}
+        

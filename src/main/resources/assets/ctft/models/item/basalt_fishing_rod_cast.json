@@ -1,0 +1,10 @@
+
+{
+  "parent": "ctft:item/fishing_rod_casting",
+  "textures": {
+    "0": "ctft:items/fishing_rod",
+    "1": "ctft:blocks/basalt_top_block",
+    "particle": "ctft:blocks/basalt_top_block"
+  }
+}
+        

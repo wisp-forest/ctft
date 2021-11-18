@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mojang_banner_pattern"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:mojang_banner_pattern_sword",
+			"ctft:mojang_banner_pattern_pickaxe",
+			"ctft:mojang_banner_pattern_axe",
+			"ctft:mojang_banner_pattern_shovel",
+			"ctft:mojang_banner_pattern_hoe",
+			"ctft:mojang_banner_pattern_shield",
+			"ctft:mojang_banner_pattern_fishing_rod",
+			"ctft:mojang_banner_pattern_compass",
+			"ctft:mojang_banner_pattern_clock",
+			"ctft:mojang_banner_pattern_helmet",
+			"ctft:mojang_banner_pattern_chestplate",
+			"ctft:mojang_banner_pattern_leggings",
+			"ctft:mojang_banner_pattern_boots",
+			"ctft:mojang_banner_pattern_shears",
+			"ctft:mojang_banner_pattern_horse_armor",
+			"ctft:mojang_banner_pattern_bow"
+		]
+	}
+}

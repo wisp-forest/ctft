@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:stripped_jungle_log"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:stripped_jungle_log_sword",
+			"ctft:stripped_jungle_log_pickaxe",
+			"ctft:stripped_jungle_log_axe",
+			"ctft:stripped_jungle_log_shovel",
+			"ctft:stripped_jungle_log_hoe",
+			"ctft:stripped_jungle_log_shield",
+			"ctft:stripped_jungle_log_fishing_rod",
+			"ctft:stripped_jungle_log_compass",
+			"ctft:stripped_jungle_log_clock",
+			"ctft:stripped_jungle_log_helmet",
+			"ctft:stripped_jungle_log_chestplate",
+			"ctft:stripped_jungle_log_leggings",
+			"ctft:stripped_jungle_log_boots",
+			"ctft:stripped_jungle_log_shears",
+			"ctft:stripped_jungle_log_horse_armor",
+			"ctft:stripped_jungle_log_bow"
+		]
+	}
+}

@@ -1,0 +1,20 @@
+
+{
+  "group": "Basalt Boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:basalt"
+    }
+  },
+  "result": {
+    "item": "ctft:basalt_boots",
+    "count": 1
+  }
+}
+        

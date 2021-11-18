@@ -1,0 +1,23 @@
+
+{
+  "group": "Wither Rose Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:wither_rose"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:wither_rose_shield",
+    "count": 1
+  }
+}
+        

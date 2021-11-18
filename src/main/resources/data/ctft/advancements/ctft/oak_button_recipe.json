@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:oak_button"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:oak_button_sword",
+			"ctft:oak_button_pickaxe",
+			"ctft:oak_button_axe",
+			"ctft:oak_button_shovel",
+			"ctft:oak_button_hoe",
+			"ctft:oak_button_shield",
+			"ctft:oak_button_fishing_rod",
+			"ctft:oak_button_compass",
+			"ctft:oak_button_clock",
+			"ctft:oak_button_helmet",
+			"ctft:oak_button_chestplate",
+			"ctft:oak_button_leggings",
+			"ctft:oak_button_boots",
+			"ctft:oak_button_shears",
+			"ctft:oak_button_horse_armor",
+			"ctft:oak_button_bow"
+		]
+	}
+}

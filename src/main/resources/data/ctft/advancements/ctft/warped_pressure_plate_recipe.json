@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:warped_pressure_plate"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:warped_pressure_plate_sword",
+			"ctft:warped_pressure_plate_pickaxe",
+			"ctft:warped_pressure_plate_axe",
+			"ctft:warped_pressure_plate_shovel",
+			"ctft:warped_pressure_plate_hoe",
+			"ctft:warped_pressure_plate_shield",
+			"ctft:warped_pressure_plate_fishing_rod",
+			"ctft:warped_pressure_plate_compass",
+			"ctft:warped_pressure_plate_clock",
+			"ctft:warped_pressure_plate_helmet",
+			"ctft:warped_pressure_plate_chestplate",
+			"ctft:warped_pressure_plate_leggings",
+			"ctft:warped_pressure_plate_boots",
+			"ctft:warped_pressure_plate_shears",
+			"ctft:warped_pressure_plate_horse_armor",
+			"ctft:warped_pressure_plate_bow"
+		]
+	}
+}

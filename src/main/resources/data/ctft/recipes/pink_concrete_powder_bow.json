@@ -1,0 +1,23 @@
+
+{
+  "group": "Pink Concrete Powder Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:pink_concrete_powder"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:pink_concrete_powder_bow",
+    "count": 1
+  }
+}
+        

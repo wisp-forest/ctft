@@ -1,0 +1,23 @@
+
+{
+  "group": "Beehive Fishing Rod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 01",
+    "0 1"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:beehive"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:beehive_fishing_rod",
+    "count": 1
+  }
+}
+        

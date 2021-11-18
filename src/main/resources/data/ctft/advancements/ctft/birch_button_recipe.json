@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:birch_button"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:birch_button_sword",
+			"ctft:birch_button_pickaxe",
+			"ctft:birch_button_axe",
+			"ctft:birch_button_shovel",
+			"ctft:birch_button_hoe",
+			"ctft:birch_button_shield",
+			"ctft:birch_button_fishing_rod",
+			"ctft:birch_button_compass",
+			"ctft:birch_button_clock",
+			"ctft:birch_button_helmet",
+			"ctft:birch_button_chestplate",
+			"ctft:birch_button_leggings",
+			"ctft:birch_button_boots",
+			"ctft:birch_button_shears",
+			"ctft:birch_button_horse_armor",
+			"ctft:birch_button_bow"
+		]
+	}
+}

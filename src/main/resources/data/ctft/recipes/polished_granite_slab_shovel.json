@@ -1,0 +1,23 @@
+
+{
+  "group": "Polished Granite Slab Shovel",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:polished_granite_slab"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:polished_granite_slab_shovel",
+    "count": 1
+  }
+}
+        

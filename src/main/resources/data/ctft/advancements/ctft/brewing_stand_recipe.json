@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:brewing_stand"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:brewing_stand_sword",
+			"ctft:brewing_stand_pickaxe",
+			"ctft:brewing_stand_axe",
+			"ctft:brewing_stand_shovel",
+			"ctft:brewing_stand_hoe",
+			"ctft:brewing_stand_shield",
+			"ctft:brewing_stand_fishing_rod",
+			"ctft:brewing_stand_compass",
+			"ctft:brewing_stand_clock",
+			"ctft:brewing_stand_helmet",
+			"ctft:brewing_stand_chestplate",
+			"ctft:brewing_stand_leggings",
+			"ctft:brewing_stand_boots",
+			"ctft:brewing_stand_shears",
+			"ctft:brewing_stand_horse_armor",
+			"ctft:brewing_stand_bow"
+		]
+	}
+}

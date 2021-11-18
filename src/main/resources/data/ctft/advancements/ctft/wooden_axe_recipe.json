@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:wooden_axe"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:wooden_axe_sword",
+			"ctft:wooden_axe_pickaxe",
+			"ctft:wooden_axe_axe",
+			"ctft:wooden_axe_shovel",
+			"ctft:wooden_axe_hoe",
+			"ctft:wooden_axe_shield",
+			"ctft:wooden_axe_fishing_rod",
+			"ctft:wooden_axe_compass",
+			"ctft:wooden_axe_clock",
+			"ctft:wooden_axe_helmet",
+			"ctft:wooden_axe_chestplate",
+			"ctft:wooden_axe_leggings",
+			"ctft:wooden_axe_boots",
+			"ctft:wooden_axe_shears",
+			"ctft:wooden_axe_horse_armor",
+			"ctft:wooden_axe_bow"
+		]
+	}
+}

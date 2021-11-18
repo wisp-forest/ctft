@@ -1,0 +1,23 @@
+
+{
+  "group": "Nautilus Shell Fishing Rod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 01",
+    "0 1"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:nautilus_shell"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:nautilus_shell_fishing_rod",
+    "count": 1
+  }
+}
+        

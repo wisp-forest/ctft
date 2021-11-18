@@ -1,0 +1,20 @@
+
+{
+  "group": "Piglin Banner Pattern Boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:piglin_banner_pattern"
+    }
+  },
+  "result": {
+    "item": "ctft:piglin_banner_pattern_boots",
+    "count": 1
+  }
+}
+        

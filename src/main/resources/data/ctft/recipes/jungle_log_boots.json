@@ -1,0 +1,20 @@
+
+{
+  "group": "Jungle Log Boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:jungle_log"
+    }
+  },
+  "result": {
+    "item": "ctft:jungle_log_boots",
+    "count": 1
+  }
+}
+        

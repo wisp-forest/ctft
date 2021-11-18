@@ -1,0 +1,20 @@
+
+{
+  "group": "Goat Spawn Egg Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:goat_spawn_egg"
+    }
+  },
+  "result": {
+    "item": "ctft:goat_spawn_egg_chestplate",
+    "count": 1
+  }
+}
+        

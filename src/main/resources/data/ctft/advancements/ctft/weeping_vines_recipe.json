@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:weeping_vines"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:weeping_vines_sword",
+			"ctft:weeping_vines_pickaxe",
+			"ctft:weeping_vines_axe",
+			"ctft:weeping_vines_shovel",
+			"ctft:weeping_vines_hoe",
+			"ctft:weeping_vines_shield",
+			"ctft:weeping_vines_fishing_rod",
+			"ctft:weeping_vines_compass",
+			"ctft:weeping_vines_clock",
+			"ctft:weeping_vines_helmet",
+			"ctft:weeping_vines_chestplate",
+			"ctft:weeping_vines_leggings",
+			"ctft:weeping_vines_boots",
+			"ctft:weeping_vines_shears",
+			"ctft:weeping_vines_horse_armor",
+			"ctft:weeping_vines_bow"
+		]
+	}
+}

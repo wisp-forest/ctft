@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:crimson_hyphae"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:crimson_hyphae_sword",
+			"ctft:crimson_hyphae_pickaxe",
+			"ctft:crimson_hyphae_axe",
+			"ctft:crimson_hyphae_shovel",
+			"ctft:crimson_hyphae_hoe",
+			"ctft:crimson_hyphae_shield",
+			"ctft:crimson_hyphae_fishing_rod",
+			"ctft:crimson_hyphae_compass",
+			"ctft:crimson_hyphae_clock",
+			"ctft:crimson_hyphae_helmet",
+			"ctft:crimson_hyphae_chestplate",
+			"ctft:crimson_hyphae_leggings",
+			"ctft:crimson_hyphae_boots",
+			"ctft:crimson_hyphae_shears",
+			"ctft:crimson_hyphae_horse_armor",
+			"ctft:crimson_hyphae_bow"
+		]
+	}
+}

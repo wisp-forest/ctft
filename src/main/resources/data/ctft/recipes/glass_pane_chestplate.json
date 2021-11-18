@@ -1,0 +1,20 @@
+
+{
+  "group": "Glass Pane Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:glass_pane"
+    }
+  },
+  "result": {
+    "item": "ctft:glass_pane_chestplate",
+    "count": 1
+  }
+}
+        

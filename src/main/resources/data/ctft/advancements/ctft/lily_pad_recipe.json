@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:lily_pad"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:lily_pad_sword",
+			"ctft:lily_pad_pickaxe",
+			"ctft:lily_pad_axe",
+			"ctft:lily_pad_shovel",
+			"ctft:lily_pad_hoe",
+			"ctft:lily_pad_shield",
+			"ctft:lily_pad_fishing_rod",
+			"ctft:lily_pad_compass",
+			"ctft:lily_pad_clock",
+			"ctft:lily_pad_helmet",
+			"ctft:lily_pad_chestplate",
+			"ctft:lily_pad_leggings",
+			"ctft:lily_pad_boots",
+			"ctft:lily_pad_shears",
+			"ctft:lily_pad_horse_armor",
+			"ctft:lily_pad_bow"
+		]
+	}
+}

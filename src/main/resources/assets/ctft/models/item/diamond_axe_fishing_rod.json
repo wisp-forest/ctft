@@ -1,0 +1,14 @@
+
+{
+  "parent": "ctft:item/fishing_rod",
+  "textures": {
+    "0": "ctft:items/fishing_rod",
+    "1": "ctft:blocks/diamond_axe_block",
+    "particle": "ctft:blocks/diamond_axe_block"
+  },
+  "overrides": [
+        { "predicate": { "cast": 0.0 }, "model": "ctft:item/diamond_axe_fishing_rod" },
+        { "predicate": { "cast": 1.0 }, "model": "ctft:item/diamond_axe_fishing_rod_cast" }
+    ]
+}
+        

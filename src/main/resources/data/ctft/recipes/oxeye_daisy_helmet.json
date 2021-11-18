@@ -1,0 +1,20 @@
+
+{
+  "group": "Oxeye Daisy Helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:oxeye_daisy"
+    }
+  },
+  "result": {
+    "item": "ctft:oxeye_daisy_helmet",
+    "count": 1
+  }
+}
+        

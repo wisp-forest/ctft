@@ -1,0 +1,23 @@
+
+{
+  "group": "Dead Bubble Coral Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:dead_bubble_coral"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:dead_bubble_coral_shield",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,20 @@
+
+{
+  "group": "Tall Grass Helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:tall_grass"
+    }
+  },
+  "result": {
+    "item": "ctft:tall_grass_helmet",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:gold_nugget"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:gold_nugget_sword",
+			"ctft:gold_nugget_pickaxe",
+			"ctft:gold_nugget_axe",
+			"ctft:gold_nugget_shovel",
+			"ctft:gold_nugget_hoe",
+			"ctft:gold_nugget_shield",
+			"ctft:gold_nugget_fishing_rod",
+			"ctft:gold_nugget_compass",
+			"ctft:gold_nugget_clock",
+			"ctft:gold_nugget_helmet",
+			"ctft:gold_nugget_chestplate",
+			"ctft:gold_nugget_leggings",
+			"ctft:gold_nugget_boots",
+			"ctft:gold_nugget_shears",
+			"ctft:gold_nugget_horse_armor",
+			"ctft:gold_nugget_bow"
+		]
+	}
+}

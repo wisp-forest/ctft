@@ -1,0 +1,20 @@
+
+{
+  "group": "Soul Lantern Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:soul_lantern"
+    }
+  },
+  "result": {
+    "item": "ctft:soul_lantern_chestplate",
+    "count": 1
+  }
+}
+        

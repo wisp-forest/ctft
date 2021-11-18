@@ -1,0 +1,23 @@
+
+{
+  "group": "Warped Fungus on a Stick Fishing Rod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 01",
+    "0 1"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:warped_fungus_on_a_stick"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:warped_fungus_on_a_stick_fishing_rod",
+    "count": 1
+  }
+}
+        

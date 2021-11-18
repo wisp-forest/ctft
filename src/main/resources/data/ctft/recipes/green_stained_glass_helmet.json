@@ -1,0 +1,20 @@
+
+{
+  "group": "Green Stained Glass Helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:green_stained_glass"
+    }
+  },
+  "result": {
+    "item": "ctft:green_stained_glass_helmet",
+    "count": 1
+  }
+}
+        

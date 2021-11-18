@@ -1,0 +1,20 @@
+
+{
+  "group": "Iron Hoe Boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:iron_hoe"
+    }
+  },
+  "result": {
+    "item": "ctft:iron_hoe_boots",
+    "count": 1
+  }
+}
+        

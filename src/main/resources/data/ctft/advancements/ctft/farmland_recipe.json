@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:farmland"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:farmland_sword",
+			"ctft:farmland_pickaxe",
+			"ctft:farmland_axe",
+			"ctft:farmland_shovel",
+			"ctft:farmland_hoe",
+			"ctft:farmland_shield",
+			"ctft:farmland_fishing_rod",
+			"ctft:farmland_compass",
+			"ctft:farmland_clock",
+			"ctft:farmland_helmet",
+			"ctft:farmland_chestplate",
+			"ctft:farmland_leggings",
+			"ctft:farmland_boots",
+			"ctft:farmland_shears",
+			"ctft:farmland_horse_armor",
+			"ctft:farmland_bow"
+		]
+	}
+}

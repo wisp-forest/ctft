@@ -1,0 +1,20 @@
+
+{
+  "group": "Ancient Debris Leggings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:ancient_debris"
+    }
+  },
+  "result": {
+    "item": "ctft:ancient_debris_leggings",
+    "count": 1
+  }
+}
+        

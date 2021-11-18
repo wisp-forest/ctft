@@ -1,0 +1,20 @@
+
+{
+  "group": "Comparator Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:comparator"
+    }
+  },
+  "result": {
+    "item": "ctft:comparator_chestplate",
+    "count": 1
+  }
+}
+        

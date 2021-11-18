@@ -1,0 +1,23 @@
+
+{
+  "group": "Barrel Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:barrel"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:barrel_shield",
+    "count": 1
+  }
+}
+        

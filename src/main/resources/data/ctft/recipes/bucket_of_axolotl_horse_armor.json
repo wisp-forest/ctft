@@ -1,0 +1,20 @@
+
+{
+  "group": "Bucket of Axolotl Horse Armor",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:axolotl_bucket"
+    }
+  },
+  "result": {
+    "item": "ctft:bucket_of_axolotl_horse_armor",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:diamond_block"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:diamond_block_sword",
+			"ctft:diamond_block_pickaxe",
+			"ctft:diamond_block_axe",
+			"ctft:diamond_block_shovel",
+			"ctft:diamond_block_hoe",
+			"ctft:diamond_block_shield",
+			"ctft:diamond_block_fishing_rod",
+			"ctft:diamond_block_compass",
+			"ctft:diamond_block_clock",
+			"ctft:diamond_block_helmet",
+			"ctft:diamond_block_chestplate",
+			"ctft:diamond_block_leggings",
+			"ctft:diamond_block_boots",
+			"ctft:diamond_block_shears",
+			"ctft:diamond_block_horse_armor",
+			"ctft:diamond_block_bow"
+		]
+	}
+}

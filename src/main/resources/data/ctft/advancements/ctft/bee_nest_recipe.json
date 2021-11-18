@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bee_nest"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:bee_nest_sword",
+			"ctft:bee_nest_pickaxe",
+			"ctft:bee_nest_axe",
+			"ctft:bee_nest_shovel",
+			"ctft:bee_nest_hoe",
+			"ctft:bee_nest_shield",
+			"ctft:bee_nest_fishing_rod",
+			"ctft:bee_nest_compass",
+			"ctft:bee_nest_clock",
+			"ctft:bee_nest_helmet",
+			"ctft:bee_nest_chestplate",
+			"ctft:bee_nest_leggings",
+			"ctft:bee_nest_boots",
+			"ctft:bee_nest_shears",
+			"ctft:bee_nest_horse_armor",
+			"ctft:bee_nest_bow"
+		]
+	}
+}

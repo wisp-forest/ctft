@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:spruce_log"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:spruce_log_sword",
+			"ctft:spruce_log_pickaxe",
+			"ctft:spruce_log_axe",
+			"ctft:spruce_log_shovel",
+			"ctft:spruce_log_hoe",
+			"ctft:spruce_log_shield",
+			"ctft:spruce_log_fishing_rod",
+			"ctft:spruce_log_compass",
+			"ctft:spruce_log_clock",
+			"ctft:spruce_log_helmet",
+			"ctft:spruce_log_chestplate",
+			"ctft:spruce_log_leggings",
+			"ctft:spruce_log_boots",
+			"ctft:spruce_log_shears",
+			"ctft:spruce_log_horse_armor",
+			"ctft:spruce_log_bow"
+		]
+	}
+}

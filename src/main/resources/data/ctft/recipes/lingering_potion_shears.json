@@ -1,0 +1,20 @@
+
+{
+  "group": "Lingering Potion Shears",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 0 ",
+    "   "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:lingering_potion"
+    }
+  },
+  "result": {
+    "item": "ctft:lingering_potion_shears",
+    "count": 1
+  }
+}
+        

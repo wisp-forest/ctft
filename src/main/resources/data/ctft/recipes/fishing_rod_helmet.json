@@ -1,0 +1,20 @@
+
+{
+  "group": "Fishing Rod Helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:fishing_rod"
+    }
+  },
+  "result": {
+    "item": "ctft:fishing_rod_helmet",
+    "count": 1
+  }
+}
+        

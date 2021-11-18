@@ -1,0 +1,23 @@
+
+{
+  "group": "Wooden Shovel Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:wooden_shovel"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:wooden_shovel_bow",
+    "count": 1
+  }
+}
+        

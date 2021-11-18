@@ -1,0 +1,23 @@
+
+{
+  "group": "Axolotl Spawn Egg Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:axolotl_spawn_egg"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:axolotl_spawn_egg_bow",
+    "count": 1
+  }
+}
+        

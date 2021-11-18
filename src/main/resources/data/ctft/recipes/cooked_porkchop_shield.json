@@ -1,0 +1,23 @@
+
+{
+  "group": "Cooked Porkchop Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:cooked_porkchop"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:cooked_porkchop_shield",
+    "count": 1
+  }
+}
+        

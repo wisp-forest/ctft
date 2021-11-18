@@ -1,0 +1,23 @@
+
+{
+  "group": "Leather Leggings Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:leather_leggings"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:leather_leggings_bow",
+    "count": 1
+  }
+}
+        

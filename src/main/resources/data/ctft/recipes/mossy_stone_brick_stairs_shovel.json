@@ -1,0 +1,23 @@
+
+{
+  "group": "Mossy Stone Brick Stairs Shovel",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:mossy_stone_brick_stairs"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:mossy_stone_brick_stairs_shovel",
+    "count": 1
+  }
+}
+        

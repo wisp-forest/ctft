@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:blackstone_stairs"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:blackstone_stairs_sword",
+			"ctft:blackstone_stairs_pickaxe",
+			"ctft:blackstone_stairs_axe",
+			"ctft:blackstone_stairs_shovel",
+			"ctft:blackstone_stairs_hoe",
+			"ctft:blackstone_stairs_shield",
+			"ctft:blackstone_stairs_fishing_rod",
+			"ctft:blackstone_stairs_compass",
+			"ctft:blackstone_stairs_clock",
+			"ctft:blackstone_stairs_helmet",
+			"ctft:blackstone_stairs_chestplate",
+			"ctft:blackstone_stairs_leggings",
+			"ctft:blackstone_stairs_boots",
+			"ctft:blackstone_stairs_shears",
+			"ctft:blackstone_stairs_horse_armor",
+			"ctft:blackstone_stairs_bow"
+		]
+	}
+}

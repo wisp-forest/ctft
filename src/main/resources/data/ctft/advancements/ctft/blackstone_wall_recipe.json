@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:blackstone_wall"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:blackstone_wall_sword",
+			"ctft:blackstone_wall_pickaxe",
+			"ctft:blackstone_wall_axe",
+			"ctft:blackstone_wall_shovel",
+			"ctft:blackstone_wall_hoe",
+			"ctft:blackstone_wall_shield",
+			"ctft:blackstone_wall_fishing_rod",
+			"ctft:blackstone_wall_compass",
+			"ctft:blackstone_wall_clock",
+			"ctft:blackstone_wall_helmet",
+			"ctft:blackstone_wall_chestplate",
+			"ctft:blackstone_wall_leggings",
+			"ctft:blackstone_wall_boots",
+			"ctft:blackstone_wall_shears",
+			"ctft:blackstone_wall_horse_armor",
+			"ctft:blackstone_wall_bow"
+		]
+	}
+}

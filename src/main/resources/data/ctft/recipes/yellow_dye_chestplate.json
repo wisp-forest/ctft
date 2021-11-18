@@ -1,0 +1,20 @@
+
+{
+  "group": "Yellow Dye Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:yellow_dye"
+    }
+  },
+  "result": {
+    "item": "ctft:yellow_dye_chestplate",
+    "count": 1
+  }
+}
+        

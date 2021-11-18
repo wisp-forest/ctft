@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:dead_tube_coral"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:dead_tube_coral_sword",
+			"ctft:dead_tube_coral_pickaxe",
+			"ctft:dead_tube_coral_axe",
+			"ctft:dead_tube_coral_shovel",
+			"ctft:dead_tube_coral_hoe",
+			"ctft:dead_tube_coral_shield",
+			"ctft:dead_tube_coral_fishing_rod",
+			"ctft:dead_tube_coral_compass",
+			"ctft:dead_tube_coral_clock",
+			"ctft:dead_tube_coral_helmet",
+			"ctft:dead_tube_coral_chestplate",
+			"ctft:dead_tube_coral_leggings",
+			"ctft:dead_tube_coral_boots",
+			"ctft:dead_tube_coral_shears",
+			"ctft:dead_tube_coral_horse_armor",
+			"ctft:dead_tube_coral_bow"
+		]
+	}
+}

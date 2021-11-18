@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:oak_leaves"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:oak_leaves_sword",
+			"ctft:oak_leaves_pickaxe",
+			"ctft:oak_leaves_axe",
+			"ctft:oak_leaves_shovel",
+			"ctft:oak_leaves_hoe",
+			"ctft:oak_leaves_shield",
+			"ctft:oak_leaves_fishing_rod",
+			"ctft:oak_leaves_compass",
+			"ctft:oak_leaves_clock",
+			"ctft:oak_leaves_helmet",
+			"ctft:oak_leaves_chestplate",
+			"ctft:oak_leaves_leggings",
+			"ctft:oak_leaves_boots",
+			"ctft:oak_leaves_shears",
+			"ctft:oak_leaves_horse_armor",
+			"ctft:oak_leaves_bow"
+		]
+	}
+}

@@ -1,0 +1,14 @@
+
+    {
+      "parent": "ctft:item/shield",
+      "textures": {
+        "0": "ctft:items/shield_base",
+        "1": "ctft:blocks/netherite_ingot_block",
+        "particle": "ctft:blocks/netherite_ingot_block"
+      },
+      "overrides": [
+        { "predicate": { "blocking": 0.0 }, "model": "ctft:item/netherite_ingot_shield" },
+        { "predicate": { "blocking": 1.0 }, "model": "ctft:item/netherite_ingot_shield_blocking" }
+        ]
+    }
+            

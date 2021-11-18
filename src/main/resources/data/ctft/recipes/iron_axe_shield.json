@@ -1,0 +1,23 @@
+
+{
+  "group": "Iron Axe Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:iron_axe"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:iron_axe_shield",
+    "count": 1
+  }
+}
+        

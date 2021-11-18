@@ -1,0 +1,23 @@
+
+{
+  "group": "Iron Leggings Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:iron_leggings"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:iron_leggings_shield",
+    "count": 1
+  }
+}
+        

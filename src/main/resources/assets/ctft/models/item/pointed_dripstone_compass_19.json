@@ -1,0 +1,10 @@
+
+{
+  "parent": "ctft:item/compass",
+  "textures": {
+    "0": "ctft:items/compass_19",
+    "1": "ctft:blocks/pointed_dripstone_block",
+    "particle": "ctft:blocks/pointed_dripstone_block"
+  }
+}
+            

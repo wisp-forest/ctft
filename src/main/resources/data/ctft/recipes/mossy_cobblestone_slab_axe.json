@@ -1,0 +1,23 @@
+
+{
+  "group": "Mossy Cobblestone Slab Axe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "00 ",
+    "01 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:mossy_cobblestone_slab"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:mossy_cobblestone_slab_axe",
+    "count": 1
+  }
+}
+        

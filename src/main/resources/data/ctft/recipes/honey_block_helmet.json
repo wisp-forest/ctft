@@ -1,0 +1,20 @@
+
+{
+  "group": "Honey Block Helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:honey_block"
+    }
+  },
+  "result": {
+    "item": "ctft:honey_block_helmet",
+    "count": 1
+  }
+}
+        

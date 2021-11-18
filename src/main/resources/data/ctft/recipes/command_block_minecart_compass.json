@@ -1,0 +1,23 @@
+
+{
+  "group": "Command Block Minecart Compass",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    "010",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:command_block_minecart"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:command_block_minecart_compass",
+    "count": 1
+  }
+}
+        

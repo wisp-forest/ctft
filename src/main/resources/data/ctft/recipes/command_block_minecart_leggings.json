@@ -1,0 +1,20 @@
+
+{
+  "group": "Command Block Minecart Leggings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:command_block_minecart"
+    }
+  },
+  "result": {
+    "item": "ctft:command_block_minecart_leggings",
+    "count": 1
+  }
+}
+        

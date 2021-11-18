@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:red_tulip"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:red_tulip_sword",
+			"ctft:red_tulip_pickaxe",
+			"ctft:red_tulip_axe",
+			"ctft:red_tulip_shovel",
+			"ctft:red_tulip_hoe",
+			"ctft:red_tulip_shield",
+			"ctft:red_tulip_fishing_rod",
+			"ctft:red_tulip_compass",
+			"ctft:red_tulip_clock",
+			"ctft:red_tulip_helmet",
+			"ctft:red_tulip_chestplate",
+			"ctft:red_tulip_leggings",
+			"ctft:red_tulip_boots",
+			"ctft:red_tulip_shears",
+			"ctft:red_tulip_horse_armor",
+			"ctft:red_tulip_bow"
+		]
+	}
+}

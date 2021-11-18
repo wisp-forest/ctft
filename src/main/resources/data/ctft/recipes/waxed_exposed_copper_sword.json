@@ -1,0 +1,23 @@
+
+{
+  "group": "Waxed Exposed Copper Sword",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    " 0 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:waxed_exposed_copper"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:waxed_exposed_copper_sword",
+    "count": 1
+  }
+}
+        

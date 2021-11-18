@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:polished_deepslate"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:polished_deepslate_sword",
+			"ctft:polished_deepslate_pickaxe",
+			"ctft:polished_deepslate_axe",
+			"ctft:polished_deepslate_shovel",
+			"ctft:polished_deepslate_hoe",
+			"ctft:polished_deepslate_shield",
+			"ctft:polished_deepslate_fishing_rod",
+			"ctft:polished_deepslate_compass",
+			"ctft:polished_deepslate_clock",
+			"ctft:polished_deepslate_helmet",
+			"ctft:polished_deepslate_chestplate",
+			"ctft:polished_deepslate_leggings",
+			"ctft:polished_deepslate_boots",
+			"ctft:polished_deepslate_shears",
+			"ctft:polished_deepslate_horse_armor",
+			"ctft:polished_deepslate_bow"
+		]
+	}
+}

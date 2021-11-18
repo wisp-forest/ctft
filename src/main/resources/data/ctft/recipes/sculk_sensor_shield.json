@@ -1,0 +1,23 @@
+
+{
+  "group": "Sculk Sensor Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:sculk_sensor"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:sculk_sensor_shield",
+    "count": 1
+  }
+}
+        

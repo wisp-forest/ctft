@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:purple_wool"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:purple_wool_sword",
+			"ctft:purple_wool_pickaxe",
+			"ctft:purple_wool_axe",
+			"ctft:purple_wool_shovel",
+			"ctft:purple_wool_hoe",
+			"ctft:purple_wool_shield",
+			"ctft:purple_wool_fishing_rod",
+			"ctft:purple_wool_compass",
+			"ctft:purple_wool_clock",
+			"ctft:purple_wool_helmet",
+			"ctft:purple_wool_chestplate",
+			"ctft:purple_wool_leggings",
+			"ctft:purple_wool_boots",
+			"ctft:purple_wool_shears",
+			"ctft:purple_wool_horse_armor",
+			"ctft:purple_wool_bow"
+		]
+	}
+}

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cobbled_deepslate_wall"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:cobbled_deepslate_wall_sword",
+			"ctft:cobbled_deepslate_wall_pickaxe",
+			"ctft:cobbled_deepslate_wall_axe",
+			"ctft:cobbled_deepslate_wall_shovel",
+			"ctft:cobbled_deepslate_wall_hoe",
+			"ctft:cobbled_deepslate_wall_shield",
+			"ctft:cobbled_deepslate_wall_fishing_rod",
+			"ctft:cobbled_deepslate_wall_compass",
+			"ctft:cobbled_deepslate_wall_clock",
+			"ctft:cobbled_deepslate_wall_helmet",
+			"ctft:cobbled_deepslate_wall_chestplate",
+			"ctft:cobbled_deepslate_wall_leggings",
+			"ctft:cobbled_deepslate_wall_boots",
+			"ctft:cobbled_deepslate_wall_shears",
+			"ctft:cobbled_deepslate_wall_horse_armor",
+			"ctft:cobbled_deepslate_wall_bow"
+		]
+	}
+}

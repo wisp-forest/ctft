@@ -1,0 +1,23 @@
+
+{
+  "group": "Sunflower Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:sunflower"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:sunflower_shield",
+    "count": 1
+  }
+}
+        

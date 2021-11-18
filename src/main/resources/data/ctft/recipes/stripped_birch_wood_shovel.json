@@ -1,0 +1,23 @@
+
+{
+  "group": "Stripped Birch Wood Shovel",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:stripped_birch_wood"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:stripped_birch_wood_shovel",
+    "count": 1
+  }
+}
+        

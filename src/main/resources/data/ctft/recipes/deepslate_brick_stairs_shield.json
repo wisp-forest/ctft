@@ -1,0 +1,23 @@
+
+{
+  "group": "Deepslate Brick Stairs Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:deepslate_brick_stairs"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:deepslate_brick_stairs_shield",
+    "count": 1
+  }
+}
+        

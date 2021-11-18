@@ -1,0 +1,20 @@
+
+{
+  "group": "Black Banner Horse Armor",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:black_banner"
+    }
+  },
+  "result": {
+    "item": "ctft:black_banner_horse_armor",
+    "count": 1
+  }
+}
+        

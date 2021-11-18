@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:prismarine_slab"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:prismarine_slab_sword",
+			"ctft:prismarine_slab_pickaxe",
+			"ctft:prismarine_slab_axe",
+			"ctft:prismarine_slab_shovel",
+			"ctft:prismarine_slab_hoe",
+			"ctft:prismarine_slab_shield",
+			"ctft:prismarine_slab_fishing_rod",
+			"ctft:prismarine_slab_compass",
+			"ctft:prismarine_slab_clock",
+			"ctft:prismarine_slab_helmet",
+			"ctft:prismarine_slab_chestplate",
+			"ctft:prismarine_slab_leggings",
+			"ctft:prismarine_slab_boots",
+			"ctft:prismarine_slab_shears",
+			"ctft:prismarine_slab_horse_armor",
+			"ctft:prismarine_slab_bow"
+		]
+	}
+}

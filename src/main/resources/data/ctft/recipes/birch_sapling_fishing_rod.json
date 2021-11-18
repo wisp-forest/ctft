@@ -1,0 +1,23 @@
+
+{
+  "group": "Birch Sapling Fishing Rod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 01",
+    "0 1"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:birch_sapling"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:birch_sapling_fishing_rod",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,10 @@
+
+{
+  "parent": "ctft:item/clock",
+  "textures": {
+    "0": "ctft:items/clock_29",
+    "1": "ctft:blocks/peony_top_block",
+    "particle": "ctft:blocks/peony_top_block"
+  }
+}
+            

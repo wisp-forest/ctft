@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:brown_concrete"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:brown_concrete_sword",
+			"ctft:brown_concrete_pickaxe",
+			"ctft:brown_concrete_axe",
+			"ctft:brown_concrete_shovel",
+			"ctft:brown_concrete_hoe",
+			"ctft:brown_concrete_shield",
+			"ctft:brown_concrete_fishing_rod",
+			"ctft:brown_concrete_compass",
+			"ctft:brown_concrete_clock",
+			"ctft:brown_concrete_helmet",
+			"ctft:brown_concrete_chestplate",
+			"ctft:brown_concrete_leggings",
+			"ctft:brown_concrete_boots",
+			"ctft:brown_concrete_shears",
+			"ctft:brown_concrete_horse_armor",
+			"ctft:brown_concrete_bow"
+		]
+	}
+}

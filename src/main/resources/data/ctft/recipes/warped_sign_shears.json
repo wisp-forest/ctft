@@ -1,0 +1,20 @@
+
+{
+  "group": "Warped Sign Shears",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 0 ",
+    "   "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:warped_sign"
+    }
+  },
+  "result": {
+    "item": "ctft:warped_sign_shears",
+    "count": 1
+  }
+}
+        

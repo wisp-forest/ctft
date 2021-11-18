@@ -1,0 +1,23 @@
+
+{
+  "group": "Cut Copper Axe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "00 ",
+    "01 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:cut_copper"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:cut_copper_axe",
+    "count": 1
+  }
+}
+        

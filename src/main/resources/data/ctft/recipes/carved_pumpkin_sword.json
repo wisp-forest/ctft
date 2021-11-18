@@ -1,0 +1,23 @@
+
+{
+  "group": "Carved Pumpkin Sword",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    " 0 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:carved_pumpkin"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:carved_pumpkin_sword",
+    "count": 1
+  }
+}
+        

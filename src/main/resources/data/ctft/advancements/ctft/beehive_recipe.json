@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:beehive"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:beehive_sword",
+			"ctft:beehive_pickaxe",
+			"ctft:beehive_axe",
+			"ctft:beehive_shovel",
+			"ctft:beehive_hoe",
+			"ctft:beehive_shield",
+			"ctft:beehive_fishing_rod",
+			"ctft:beehive_compass",
+			"ctft:beehive_clock",
+			"ctft:beehive_helmet",
+			"ctft:beehive_chestplate",
+			"ctft:beehive_leggings",
+			"ctft:beehive_boots",
+			"ctft:beehive_shears",
+			"ctft:beehive_horse_armor",
+			"ctft:beehive_bow"
+		]
+	}
+}

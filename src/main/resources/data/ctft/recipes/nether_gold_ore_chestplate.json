@@ -1,0 +1,20 @@
+
+{
+  "group": "Nether Gold Ore Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:nether_gold_ore"
+    }
+  },
+  "result": {
+    "item": "ctft:nether_gold_ore_chestplate",
+    "count": 1
+  }
+}
+        

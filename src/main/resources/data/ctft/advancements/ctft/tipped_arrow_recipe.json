@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:tipped_arrow"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:tipped_arrow_sword",
+			"ctft:tipped_arrow_pickaxe",
+			"ctft:tipped_arrow_axe",
+			"ctft:tipped_arrow_shovel",
+			"ctft:tipped_arrow_hoe",
+			"ctft:tipped_arrow_shield",
+			"ctft:tipped_arrow_fishing_rod",
+			"ctft:tipped_arrow_compass",
+			"ctft:tipped_arrow_clock",
+			"ctft:tipped_arrow_helmet",
+			"ctft:tipped_arrow_chestplate",
+			"ctft:tipped_arrow_leggings",
+			"ctft:tipped_arrow_boots",
+			"ctft:tipped_arrow_shears",
+			"ctft:tipped_arrow_horse_armor",
+			"ctft:tipped_arrow_bow"
+		]
+	}
+}

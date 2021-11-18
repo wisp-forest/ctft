@@ -1,0 +1,23 @@
+
+{
+  "group": "Crimson Roots Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:crimson_roots"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:crimson_roots_shield",
+    "count": 1
+  }
+}
+        

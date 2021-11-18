@@ -1,0 +1,23 @@
+
+{
+  "group": "Small Dripleaf Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:small_dripleaf"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:small_dripleaf_shield",
+    "count": 1
+  }
+}
+        

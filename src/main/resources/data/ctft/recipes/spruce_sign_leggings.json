@@ -1,0 +1,20 @@
+
+{
+  "group": "Spruce Sign Leggings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:spruce_sign"
+    }
+  },
+  "result": {
+    "item": "ctft:spruce_sign_leggings",
+    "count": 1
+  }
+}
+        

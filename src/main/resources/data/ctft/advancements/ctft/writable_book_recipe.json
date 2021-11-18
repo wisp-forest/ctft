@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:writable_book"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:writable_book_sword",
+			"ctft:writable_book_pickaxe",
+			"ctft:writable_book_axe",
+			"ctft:writable_book_shovel",
+			"ctft:writable_book_hoe",
+			"ctft:writable_book_shield",
+			"ctft:writable_book_fishing_rod",
+			"ctft:writable_book_compass",
+			"ctft:writable_book_clock",
+			"ctft:writable_book_helmet",
+			"ctft:writable_book_chestplate",
+			"ctft:writable_book_leggings",
+			"ctft:writable_book_boots",
+			"ctft:writable_book_shears",
+			"ctft:writable_book_horse_armor",
+			"ctft:writable_book_bow"
+		]
+	}
+}

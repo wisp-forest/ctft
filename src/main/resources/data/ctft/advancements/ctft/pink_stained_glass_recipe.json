@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:pink_stained_glass"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:pink_stained_glass_sword",
+			"ctft:pink_stained_glass_pickaxe",
+			"ctft:pink_stained_glass_axe",
+			"ctft:pink_stained_glass_shovel",
+			"ctft:pink_stained_glass_hoe",
+			"ctft:pink_stained_glass_shield",
+			"ctft:pink_stained_glass_fishing_rod",
+			"ctft:pink_stained_glass_compass",
+			"ctft:pink_stained_glass_clock",
+			"ctft:pink_stained_glass_helmet",
+			"ctft:pink_stained_glass_chestplate",
+			"ctft:pink_stained_glass_leggings",
+			"ctft:pink_stained_glass_boots",
+			"ctft:pink_stained_glass_shears",
+			"ctft:pink_stained_glass_horse_armor",
+			"ctft:pink_stained_glass_bow"
+		]
+	}
+}

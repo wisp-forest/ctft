@@ -1,0 +1,20 @@
+
+{
+  "group": "Iron Trapdoor Leggings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:iron_trapdoor"
+    }
+  },
+  "result": {
+    "item": "ctft:iron_trapdoor_leggings",
+    "count": 1
+  }
+}
+        

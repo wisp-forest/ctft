@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:globe_banner_patter"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:globe_banner_patter_sword",
+			"ctft:globe_banner_patter_pickaxe",
+			"ctft:globe_banner_patter_axe",
+			"ctft:globe_banner_patter_shovel",
+			"ctft:globe_banner_patter_hoe",
+			"ctft:globe_banner_patter_shield",
+			"ctft:globe_banner_patter_fishing_rod",
+			"ctft:globe_banner_patter_compass",
+			"ctft:globe_banner_patter_clock",
+			"ctft:globe_banner_patter_helmet",
+			"ctft:globe_banner_patter_chestplate",
+			"ctft:globe_banner_patter_leggings",
+			"ctft:globe_banner_patter_boots",
+			"ctft:globe_banner_patter_shears",
+			"ctft:globe_banner_patter_horse_armor",
+			"ctft:globe_banner_patter_bow"
+		]
+	}
+}

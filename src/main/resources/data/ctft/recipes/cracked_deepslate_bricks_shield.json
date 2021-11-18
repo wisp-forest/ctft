@@ -1,0 +1,23 @@
+
+{
+  "group": "Cracked Deepslate Bricks Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:cracked_deepslate_bricks"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:cracked_deepslate_bricks_shield",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:rail"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:rail_sword",
+			"ctft:rail_pickaxe",
+			"ctft:rail_axe",
+			"ctft:rail_shovel",
+			"ctft:rail_hoe",
+			"ctft:rail_shield",
+			"ctft:rail_fishing_rod",
+			"ctft:rail_compass",
+			"ctft:rail_clock",
+			"ctft:rail_helmet",
+			"ctft:rail_chestplate",
+			"ctft:rail_leggings",
+			"ctft:rail_boots",
+			"ctft:rail_shears",
+			"ctft:rail_horse_armor",
+			"ctft:rail_bow"
+		]
+	}
+}

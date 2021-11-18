@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:lime_dye"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:lime_dye_sword",
+			"ctft:lime_dye_pickaxe",
+			"ctft:lime_dye_axe",
+			"ctft:lime_dye_shovel",
+			"ctft:lime_dye_hoe",
+			"ctft:lime_dye_shield",
+			"ctft:lime_dye_fishing_rod",
+			"ctft:lime_dye_compass",
+			"ctft:lime_dye_clock",
+			"ctft:lime_dye_helmet",
+			"ctft:lime_dye_chestplate",
+			"ctft:lime_dye_leggings",
+			"ctft:lime_dye_boots",
+			"ctft:lime_dye_shears",
+			"ctft:lime_dye_horse_armor",
+			"ctft:lime_dye_bow"
+		]
+	}
+}

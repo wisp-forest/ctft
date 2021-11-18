@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:blue_glazed_terracotta"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:blue_glazed_terracotta_sword",
+			"ctft:blue_glazed_terracotta_pickaxe",
+			"ctft:blue_glazed_terracotta_axe",
+			"ctft:blue_glazed_terracotta_shovel",
+			"ctft:blue_glazed_terracotta_hoe",
+			"ctft:blue_glazed_terracotta_shield",
+			"ctft:blue_glazed_terracotta_fishing_rod",
+			"ctft:blue_glazed_terracotta_compass",
+			"ctft:blue_glazed_terracotta_clock",
+			"ctft:blue_glazed_terracotta_helmet",
+			"ctft:blue_glazed_terracotta_chestplate",
+			"ctft:blue_glazed_terracotta_leggings",
+			"ctft:blue_glazed_terracotta_boots",
+			"ctft:blue_glazed_terracotta_shears",
+			"ctft:blue_glazed_terracotta_horse_armor",
+			"ctft:blue_glazed_terracotta_bow"
+		]
+	}
+}

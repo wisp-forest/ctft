@@ -1,0 +1,10 @@
+
+{
+  "parent": "ctft:item/clock",
+  "textures": {
+    "0": "ctft:items/clock_34",
+    "1": "ctft:blocks/sculk_sensor_bottom_block",
+    "particle": "ctft:blocks/sculk_sensor_bottom_block"
+  }
+}
+            

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:anvil"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:anvil_sword",
+			"ctft:anvil_pickaxe",
+			"ctft:anvil_axe",
+			"ctft:anvil_shovel",
+			"ctft:anvil_hoe",
+			"ctft:anvil_shield",
+			"ctft:anvil_fishing_rod",
+			"ctft:anvil_compass",
+			"ctft:anvil_clock",
+			"ctft:anvil_helmet",
+			"ctft:anvil_chestplate",
+			"ctft:anvil_leggings",
+			"ctft:anvil_boots",
+			"ctft:anvil_shears",
+			"ctft:anvil_horse_armor",
+			"ctft:anvil_bow"
+		]
+	}
+}

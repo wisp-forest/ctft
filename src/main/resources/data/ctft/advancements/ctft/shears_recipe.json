@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:shears"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:shears_sword",
+			"ctft:shears_pickaxe",
+			"ctft:shears_axe",
+			"ctft:shears_shovel",
+			"ctft:shears_hoe",
+			"ctft:shears_shield",
+			"ctft:shears_fishing_rod",
+			"ctft:shears_compass",
+			"ctft:shears_clock",
+			"ctft:shears_helmet",
+			"ctft:shears_chestplate",
+			"ctft:shears_leggings",
+			"ctft:shears_boots",
+			"ctft:shears_shears",
+			"ctft:shears_horse_armor",
+			"ctft:shears_bow"
+		]
+	}
+}

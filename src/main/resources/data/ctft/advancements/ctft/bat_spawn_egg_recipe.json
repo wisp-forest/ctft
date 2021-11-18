@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bat_spawn_egg"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:bat_spawn_egg_sword",
+			"ctft:bat_spawn_egg_pickaxe",
+			"ctft:bat_spawn_egg_axe",
+			"ctft:bat_spawn_egg_shovel",
+			"ctft:bat_spawn_egg_hoe",
+			"ctft:bat_spawn_egg_shield",
+			"ctft:bat_spawn_egg_fishing_rod",
+			"ctft:bat_spawn_egg_compass",
+			"ctft:bat_spawn_egg_clock",
+			"ctft:bat_spawn_egg_helmet",
+			"ctft:bat_spawn_egg_chestplate",
+			"ctft:bat_spawn_egg_leggings",
+			"ctft:bat_spawn_egg_boots",
+			"ctft:bat_spawn_egg_shears",
+			"ctft:bat_spawn_egg_horse_armor",
+			"ctft:bat_spawn_egg_bow"
+		]
+	}
+}

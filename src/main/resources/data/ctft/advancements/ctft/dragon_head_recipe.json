@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:dragon_head"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:dragon_head_sword",
+			"ctft:dragon_head_pickaxe",
+			"ctft:dragon_head_axe",
+			"ctft:dragon_head_shovel",
+			"ctft:dragon_head_hoe",
+			"ctft:dragon_head_shield",
+			"ctft:dragon_head_fishing_rod",
+			"ctft:dragon_head_compass",
+			"ctft:dragon_head_clock",
+			"ctft:dragon_head_helmet",
+			"ctft:dragon_head_chestplate",
+			"ctft:dragon_head_leggings",
+			"ctft:dragon_head_boots",
+			"ctft:dragon_head_shears",
+			"ctft:dragon_head_horse_armor",
+			"ctft:dragon_head_bow"
+		]
+	}
+}

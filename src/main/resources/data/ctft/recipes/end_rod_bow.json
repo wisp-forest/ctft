@@ -1,0 +1,23 @@
+
+{
+  "group": "End Rod Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:end_rod"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:end_rod_bow",
+    "count": 1
+  }
+}
+        

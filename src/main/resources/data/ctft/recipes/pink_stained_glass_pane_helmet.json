@@ -1,0 +1,20 @@
+
+{
+  "group": "Pink Stained Glass Pane Helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:pink_stained_glass_pane"
+    }
+  },
+  "result": {
+    "item": "ctft:pink_stained_glass_pane_helmet",
+    "count": 1
+  }
+}
+        

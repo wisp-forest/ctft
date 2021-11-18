@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:netherite_ingot_sword",
+			"ctft:netherite_ingot_pickaxe",
+			"ctft:netherite_ingot_axe",
+			"ctft:netherite_ingot_shovel",
+			"ctft:netherite_ingot_hoe",
+			"ctft:netherite_ingot_shield",
+			"ctft:netherite_ingot_fishing_rod",
+			"ctft:netherite_ingot_compass",
+			"ctft:netherite_ingot_clock",
+			"ctft:netherite_ingot_helmet",
+			"ctft:netherite_ingot_chestplate",
+			"ctft:netherite_ingot_leggings",
+			"ctft:netherite_ingot_boots",
+			"ctft:netherite_ingot_shears",
+			"ctft:netherite_ingot_horse_armor",
+			"ctft:netherite_ingot_bow"
+		]
+	}
+}

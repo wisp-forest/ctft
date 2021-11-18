@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:warped_stairs"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:warped_stairs_sword",
+			"ctft:warped_stairs_pickaxe",
+			"ctft:warped_stairs_axe",
+			"ctft:warped_stairs_shovel",
+			"ctft:warped_stairs_hoe",
+			"ctft:warped_stairs_shield",
+			"ctft:warped_stairs_fishing_rod",
+			"ctft:warped_stairs_compass",
+			"ctft:warped_stairs_clock",
+			"ctft:warped_stairs_helmet",
+			"ctft:warped_stairs_chestplate",
+			"ctft:warped_stairs_leggings",
+			"ctft:warped_stairs_boots",
+			"ctft:warped_stairs_shears",
+			"ctft:warped_stairs_horse_armor",
+			"ctft:warped_stairs_bow"
+		]
+	}
+}

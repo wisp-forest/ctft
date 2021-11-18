@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:chainmail_boots"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:chainmail_boots_sword",
+			"ctft:chainmail_boots_pickaxe",
+			"ctft:chainmail_boots_axe",
+			"ctft:chainmail_boots_shovel",
+			"ctft:chainmail_boots_hoe",
+			"ctft:chainmail_boots_shield",
+			"ctft:chainmail_boots_fishing_rod",
+			"ctft:chainmail_boots_compass",
+			"ctft:chainmail_boots_clock",
+			"ctft:chainmail_boots_helmet",
+			"ctft:chainmail_boots_chestplate",
+			"ctft:chainmail_boots_leggings",
+			"ctft:chainmail_boots_boots",
+			"ctft:chainmail_boots_shears",
+			"ctft:chainmail_boots_horse_armor",
+			"ctft:chainmail_boots_bow"
+		]
+	}
+}

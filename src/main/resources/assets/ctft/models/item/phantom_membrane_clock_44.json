@@ -1,0 +1,10 @@
+
+{
+  "parent": "ctft:item/clock",
+  "textures": {
+    "0": "ctft:items/clock_44",
+    "1": "ctft:blocks/phantom_membrane_block",
+    "particle": "ctft:blocks/phantom_membrane_block"
+  }
+}
+            

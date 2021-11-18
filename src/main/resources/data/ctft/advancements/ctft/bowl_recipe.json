@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bowl"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:bowl_sword",
+			"ctft:bowl_pickaxe",
+			"ctft:bowl_axe",
+			"ctft:bowl_shovel",
+			"ctft:bowl_hoe",
+			"ctft:bowl_shield",
+			"ctft:bowl_fishing_rod",
+			"ctft:bowl_compass",
+			"ctft:bowl_clock",
+			"ctft:bowl_helmet",
+			"ctft:bowl_chestplate",
+			"ctft:bowl_leggings",
+			"ctft:bowl_boots",
+			"ctft:bowl_shears",
+			"ctft:bowl_horse_armor",
+			"ctft:bowl_bow"
+		]
+	}
+}

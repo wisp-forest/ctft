@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:allium"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:allium_sword",
+			"ctft:allium_pickaxe",
+			"ctft:allium_axe",
+			"ctft:allium_shovel",
+			"ctft:allium_hoe",
+			"ctft:allium_shield",
+			"ctft:allium_fishing_rod",
+			"ctft:allium_compass",
+			"ctft:allium_clock",
+			"ctft:allium_helmet",
+			"ctft:allium_chestplate",
+			"ctft:allium_leggings",
+			"ctft:allium_boots",
+			"ctft:allium_shears",
+			"ctft:allium_horse_armor",
+			"ctft:allium_bow"
+		]
+	}
+}

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:deepslate"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:deepslate_sword",
+			"ctft:deepslate_pickaxe",
+			"ctft:deepslate_axe",
+			"ctft:deepslate_shovel",
+			"ctft:deepslate_hoe",
+			"ctft:deepslate_shield",
+			"ctft:deepslate_fishing_rod",
+			"ctft:deepslate_compass",
+			"ctft:deepslate_clock",
+			"ctft:deepslate_helmet",
+			"ctft:deepslate_chestplate",
+			"ctft:deepslate_leggings",
+			"ctft:deepslate_boots",
+			"ctft:deepslate_shears",
+			"ctft:deepslate_horse_armor",
+			"ctft:deepslate_bow"
+		]
+	}
+}

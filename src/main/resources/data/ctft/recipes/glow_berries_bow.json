@@ -1,0 +1,23 @@
+
+{
+  "group": "Glow Berries Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:glow_berries"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:glow_berries_bow",
+    "count": 1
+  }
+}
+        

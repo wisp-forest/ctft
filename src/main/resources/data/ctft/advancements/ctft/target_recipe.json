@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:target"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:target_sword",
+			"ctft:target_pickaxe",
+			"ctft:target_axe",
+			"ctft:target_shovel",
+			"ctft:target_hoe",
+			"ctft:target_shield",
+			"ctft:target_fishing_rod",
+			"ctft:target_compass",
+			"ctft:target_clock",
+			"ctft:target_helmet",
+			"ctft:target_chestplate",
+			"ctft:target_leggings",
+			"ctft:target_boots",
+			"ctft:target_shears",
+			"ctft:target_horse_armor",
+			"ctft:target_bow"
+		]
+	}
+}

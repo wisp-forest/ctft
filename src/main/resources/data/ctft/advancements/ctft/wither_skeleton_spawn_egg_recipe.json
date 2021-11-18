@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:wither_skeleton_spawn_egg"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:wither_skeleton_spawn_egg_sword",
+			"ctft:wither_skeleton_spawn_egg_pickaxe",
+			"ctft:wither_skeleton_spawn_egg_axe",
+			"ctft:wither_skeleton_spawn_egg_shovel",
+			"ctft:wither_skeleton_spawn_egg_hoe",
+			"ctft:wither_skeleton_spawn_egg_shield",
+			"ctft:wither_skeleton_spawn_egg_fishing_rod",
+			"ctft:wither_skeleton_spawn_egg_compass",
+			"ctft:wither_skeleton_spawn_egg_clock",
+			"ctft:wither_skeleton_spawn_egg_helmet",
+			"ctft:wither_skeleton_spawn_egg_chestplate",
+			"ctft:wither_skeleton_spawn_egg_leggings",
+			"ctft:wither_skeleton_spawn_egg_boots",
+			"ctft:wither_skeleton_spawn_egg_shears",
+			"ctft:wither_skeleton_spawn_egg_horse_armor",
+			"ctft:wither_skeleton_spawn_egg_bow"
+		]
+	}
+}

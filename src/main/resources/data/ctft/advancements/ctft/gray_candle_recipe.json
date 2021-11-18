@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:gray_candle"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:gray_candle_sword",
+			"ctft:gray_candle_pickaxe",
+			"ctft:gray_candle_axe",
+			"ctft:gray_candle_shovel",
+			"ctft:gray_candle_hoe",
+			"ctft:gray_candle_shield",
+			"ctft:gray_candle_fishing_rod",
+			"ctft:gray_candle_compass",
+			"ctft:gray_candle_clock",
+			"ctft:gray_candle_helmet",
+			"ctft:gray_candle_chestplate",
+			"ctft:gray_candle_leggings",
+			"ctft:gray_candle_boots",
+			"ctft:gray_candle_shears",
+			"ctft:gray_candle_horse_armor",
+			"ctft:gray_candle_bow"
+		]
+	}
+}

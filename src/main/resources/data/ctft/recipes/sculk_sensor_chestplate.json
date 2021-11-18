@@ -1,0 +1,20 @@
+
+{
+  "group": "Sculk Sensor Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:sculk_sensor"
+    }
+  },
+  "result": {
+    "item": "ctft:sculk_sensor_chestplate",
+    "count": 1
+  }
+}
+        

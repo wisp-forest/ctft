@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:chiseled_red_sandstone"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:chiseled_red_sandstone_sword",
+			"ctft:chiseled_red_sandstone_pickaxe",
+			"ctft:chiseled_red_sandstone_axe",
+			"ctft:chiseled_red_sandstone_shovel",
+			"ctft:chiseled_red_sandstone_hoe",
+			"ctft:chiseled_red_sandstone_shield",
+			"ctft:chiseled_red_sandstone_fishing_rod",
+			"ctft:chiseled_red_sandstone_compass",
+			"ctft:chiseled_red_sandstone_clock",
+			"ctft:chiseled_red_sandstone_helmet",
+			"ctft:chiseled_red_sandstone_chestplate",
+			"ctft:chiseled_red_sandstone_leggings",
+			"ctft:chiseled_red_sandstone_boots",
+			"ctft:chiseled_red_sandstone_shears",
+			"ctft:chiseled_red_sandstone_horse_armor",
+			"ctft:chiseled_red_sandstone_bow"
+		]
+	}
+}

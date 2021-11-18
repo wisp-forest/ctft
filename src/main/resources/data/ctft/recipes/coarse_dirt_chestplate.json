@@ -1,0 +1,20 @@
+
+{
+  "group": "Coarse Dirt Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:coarse_dirt"
+    }
+  },
+  "result": {
+    "item": "ctft:coarse_dirt_chestplate",
+    "count": 1
+  }
+}
+        

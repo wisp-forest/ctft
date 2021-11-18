@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:lime_terracotta"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:lime_terracotta_sword",
+			"ctft:lime_terracotta_pickaxe",
+			"ctft:lime_terracotta_axe",
+			"ctft:lime_terracotta_shovel",
+			"ctft:lime_terracotta_hoe",
+			"ctft:lime_terracotta_shield",
+			"ctft:lime_terracotta_fishing_rod",
+			"ctft:lime_terracotta_compass",
+			"ctft:lime_terracotta_clock",
+			"ctft:lime_terracotta_helmet",
+			"ctft:lime_terracotta_chestplate",
+			"ctft:lime_terracotta_leggings",
+			"ctft:lime_terracotta_boots",
+			"ctft:lime_terracotta_shears",
+			"ctft:lime_terracotta_horse_armor",
+			"ctft:lime_terracotta_bow"
+		]
+	}
+}

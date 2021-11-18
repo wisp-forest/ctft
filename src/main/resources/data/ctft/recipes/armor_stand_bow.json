@@ -1,0 +1,23 @@
+
+{
+  "group": "Armor Stand Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:armor_stand"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:armor_stand_bow",
+    "count": 1
+  }
+}
+        

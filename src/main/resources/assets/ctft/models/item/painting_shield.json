@@ -1,0 +1,14 @@
+
+    {
+      "parent": "ctft:item/shield",
+      "textures": {
+        "0": "ctft:items/shield_base",
+        "1": "ctft:blocks/painting_block",
+        "particle": "ctft:blocks/painting_block"
+      },
+      "overrides": [
+        { "predicate": { "blocking": 0.0 }, "model": "ctft:item/painting_shield" },
+        { "predicate": { "blocking": 1.0 }, "model": "ctft:item/painting_shield_blocking" }
+        ]
+    }
+            

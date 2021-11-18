@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:pink_wool"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:pink_wool_sword",
+			"ctft:pink_wool_pickaxe",
+			"ctft:pink_wool_axe",
+			"ctft:pink_wool_shovel",
+			"ctft:pink_wool_hoe",
+			"ctft:pink_wool_shield",
+			"ctft:pink_wool_fishing_rod",
+			"ctft:pink_wool_compass",
+			"ctft:pink_wool_clock",
+			"ctft:pink_wool_helmet",
+			"ctft:pink_wool_chestplate",
+			"ctft:pink_wool_leggings",
+			"ctft:pink_wool_boots",
+			"ctft:pink_wool_shears",
+			"ctft:pink_wool_horse_armor",
+			"ctft:pink_wool_bow"
+		]
+	}
+}

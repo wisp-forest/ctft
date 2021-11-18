@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:warped_fence_gate"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:warped_fence_gate_sword",
+			"ctft:warped_fence_gate_pickaxe",
+			"ctft:warped_fence_gate_axe",
+			"ctft:warped_fence_gate_shovel",
+			"ctft:warped_fence_gate_hoe",
+			"ctft:warped_fence_gate_shield",
+			"ctft:warped_fence_gate_fishing_rod",
+			"ctft:warped_fence_gate_compass",
+			"ctft:warped_fence_gate_clock",
+			"ctft:warped_fence_gate_helmet",
+			"ctft:warped_fence_gate_chestplate",
+			"ctft:warped_fence_gate_leggings",
+			"ctft:warped_fence_gate_boots",
+			"ctft:warped_fence_gate_shears",
+			"ctft:warped_fence_gate_horse_armor",
+			"ctft:warped_fence_gate_bow"
+		]
+	}
+}

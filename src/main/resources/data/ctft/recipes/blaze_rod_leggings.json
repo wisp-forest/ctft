@@ -1,0 +1,20 @@
+
+{
+  "group": "Blaze Rod Leggings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:blaze_rod"
+    }
+  },
+  "result": {
+    "item": "ctft:blaze_rod_leggings",
+    "count": 1
+  }
+}
+        

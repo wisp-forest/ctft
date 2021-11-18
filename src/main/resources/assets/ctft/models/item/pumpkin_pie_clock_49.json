@@ -1,0 +1,10 @@
+
+{
+  "parent": "ctft:item/clock",
+  "textures": {
+    "0": "ctft:items/clock_49",
+    "1": "ctft:blocks/pumpkin_pie_block",
+    "particle": "ctft:blocks/pumpkin_pie_block"
+  }
+}
+            

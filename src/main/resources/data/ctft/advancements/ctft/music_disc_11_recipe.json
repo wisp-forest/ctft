@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_11"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:music_disc_11_sword",
+			"ctft:music_disc_11_pickaxe",
+			"ctft:music_disc_11_axe",
+			"ctft:music_disc_11_shovel",
+			"ctft:music_disc_11_hoe",
+			"ctft:music_disc_11_shield",
+			"ctft:music_disc_11_fishing_rod",
+			"ctft:music_disc_11_compass",
+			"ctft:music_disc_11_clock",
+			"ctft:music_disc_11_helmet",
+			"ctft:music_disc_11_chestplate",
+			"ctft:music_disc_11_leggings",
+			"ctft:music_disc_11_boots",
+			"ctft:music_disc_11_shears",
+			"ctft:music_disc_11_horse_armor",
+			"ctft:music_disc_11_bow"
+		]
+	}
+}

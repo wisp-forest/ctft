@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_shovel"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:iron_shovel_sword",
+			"ctft:iron_shovel_pickaxe",
+			"ctft:iron_shovel_axe",
+			"ctft:iron_shovel_shovel",
+			"ctft:iron_shovel_hoe",
+			"ctft:iron_shovel_shield",
+			"ctft:iron_shovel_fishing_rod",
+			"ctft:iron_shovel_compass",
+			"ctft:iron_shovel_clock",
+			"ctft:iron_shovel_helmet",
+			"ctft:iron_shovel_chestplate",
+			"ctft:iron_shovel_leggings",
+			"ctft:iron_shovel_boots",
+			"ctft:iron_shovel_shears",
+			"ctft:iron_shovel_horse_armor",
+			"ctft:iron_shovel_bow"
+		]
+	}
+}

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:pufferfish_bucket"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:pufferfish_bucket_sword",
+			"ctft:pufferfish_bucket_pickaxe",
+			"ctft:pufferfish_bucket_axe",
+			"ctft:pufferfish_bucket_shovel",
+			"ctft:pufferfish_bucket_hoe",
+			"ctft:pufferfish_bucket_shield",
+			"ctft:pufferfish_bucket_fishing_rod",
+			"ctft:pufferfish_bucket_compass",
+			"ctft:pufferfish_bucket_clock",
+			"ctft:pufferfish_bucket_helmet",
+			"ctft:pufferfish_bucket_chestplate",
+			"ctft:pufferfish_bucket_leggings",
+			"ctft:pufferfish_bucket_boots",
+			"ctft:pufferfish_bucket_shears",
+			"ctft:pufferfish_bucket_horse_armor",
+			"ctft:pufferfish_bucket_bow"
+		]
+	}
+}

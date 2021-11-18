@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:flower_pot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:flower_pot_sword",
+			"ctft:flower_pot_pickaxe",
+			"ctft:flower_pot_axe",
+			"ctft:flower_pot_shovel",
+			"ctft:flower_pot_hoe",
+			"ctft:flower_pot_shield",
+			"ctft:flower_pot_fishing_rod",
+			"ctft:flower_pot_compass",
+			"ctft:flower_pot_clock",
+			"ctft:flower_pot_helmet",
+			"ctft:flower_pot_chestplate",
+			"ctft:flower_pot_leggings",
+			"ctft:flower_pot_boots",
+			"ctft:flower_pot_shears",
+			"ctft:flower_pot_horse_armor",
+			"ctft:flower_pot_bow"
+		]
+	}
+}

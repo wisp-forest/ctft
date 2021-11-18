@@ -1,0 +1,23 @@
+
+{
+  "group": "Turtle Egg Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:turtle_egg"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:turtle_egg_shield",
+    "count": 1
+  }
+}
+        

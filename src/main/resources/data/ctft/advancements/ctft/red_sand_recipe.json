@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:red_sand"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:red_sand_sword",
+			"ctft:red_sand_pickaxe",
+			"ctft:red_sand_axe",
+			"ctft:red_sand_shovel",
+			"ctft:red_sand_hoe",
+			"ctft:red_sand_shield",
+			"ctft:red_sand_fishing_rod",
+			"ctft:red_sand_compass",
+			"ctft:red_sand_clock",
+			"ctft:red_sand_helmet",
+			"ctft:red_sand_chestplate",
+			"ctft:red_sand_leggings",
+			"ctft:red_sand_boots",
+			"ctft:red_sand_shears",
+			"ctft:red_sand_horse_armor",
+			"ctft:red_sand_bow"
+		]
+	}
+}

@@ -1,0 +1,20 @@
+
+{
+  "group": "Warped Fungus Horse Armor",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:warped_fungus"
+    }
+  },
+  "result": {
+    "item": "ctft:warped_fungus_horse_armor",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,23 @@
+
+{
+  "group": "Carved Pumpkin Shovel",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:carved_pumpkin"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:carved_pumpkin_shovel",
+    "count": 1
+  }
+}
+        

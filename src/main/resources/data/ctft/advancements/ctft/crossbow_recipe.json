@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:crossbow"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:crossbow_sword",
+			"ctft:crossbow_pickaxe",
+			"ctft:crossbow_axe",
+			"ctft:crossbow_shovel",
+			"ctft:crossbow_hoe",
+			"ctft:crossbow_shield",
+			"ctft:crossbow_fishing_rod",
+			"ctft:crossbow_compass",
+			"ctft:crossbow_clock",
+			"ctft:crossbow_helmet",
+			"ctft:crossbow_chestplate",
+			"ctft:crossbow_leggings",
+			"ctft:crossbow_boots",
+			"ctft:crossbow_shears",
+			"ctft:crossbow_horse_armor",
+			"ctft:crossbow_bow"
+		]
+	}
+}

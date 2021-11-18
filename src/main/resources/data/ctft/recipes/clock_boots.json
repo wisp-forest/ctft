@@ -1,0 +1,20 @@
+
+{
+  "group": "Clock Boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:clock"
+    }
+  },
+  "result": {
+    "item": "ctft:clock_boots",
+    "count": 1
+  }
+}
+        

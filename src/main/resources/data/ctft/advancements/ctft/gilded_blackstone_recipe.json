@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:gilded_blackstone"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:gilded_blackstone_sword",
+			"ctft:gilded_blackstone_pickaxe",
+			"ctft:gilded_blackstone_axe",
+			"ctft:gilded_blackstone_shovel",
+			"ctft:gilded_blackstone_hoe",
+			"ctft:gilded_blackstone_shield",
+			"ctft:gilded_blackstone_fishing_rod",
+			"ctft:gilded_blackstone_compass",
+			"ctft:gilded_blackstone_clock",
+			"ctft:gilded_blackstone_helmet",
+			"ctft:gilded_blackstone_chestplate",
+			"ctft:gilded_blackstone_leggings",
+			"ctft:gilded_blackstone_boots",
+			"ctft:gilded_blackstone_shears",
+			"ctft:gilded_blackstone_horse_armor",
+			"ctft:gilded_blackstone_bow"
+		]
+	}
+}

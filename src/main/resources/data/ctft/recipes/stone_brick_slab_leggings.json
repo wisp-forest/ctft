@@ -1,0 +1,20 @@
+
+{
+  "group": "Stone Brick Slab Leggings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:stone_brick_slab"
+    }
+  },
+  "result": {
+    "item": "ctft:stone_brick_slab_leggings",
+    "count": 1
+  }
+}
+        

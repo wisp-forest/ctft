@@ -1,0 +1,23 @@
+
+{
+  "group": "Polished Diorite Axe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "00 ",
+    "01 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:polished_diorite"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:polished_diorite_axe",
+    "count": 1
+  }
+}
+        

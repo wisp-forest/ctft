@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_door"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:iron_door_sword",
+			"ctft:iron_door_pickaxe",
+			"ctft:iron_door_axe",
+			"ctft:iron_door_shovel",
+			"ctft:iron_door_hoe",
+			"ctft:iron_door_shield",
+			"ctft:iron_door_fishing_rod",
+			"ctft:iron_door_compass",
+			"ctft:iron_door_clock",
+			"ctft:iron_door_helmet",
+			"ctft:iron_door_chestplate",
+			"ctft:iron_door_leggings",
+			"ctft:iron_door_boots",
+			"ctft:iron_door_shears",
+			"ctft:iron_door_horse_armor",
+			"ctft:iron_door_bow"
+		]
+	}
+}

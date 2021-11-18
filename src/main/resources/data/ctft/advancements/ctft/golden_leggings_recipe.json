@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:golden_leggings"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:golden_leggings_sword",
+			"ctft:golden_leggings_pickaxe",
+			"ctft:golden_leggings_axe",
+			"ctft:golden_leggings_shovel",
+			"ctft:golden_leggings_hoe",
+			"ctft:golden_leggings_shield",
+			"ctft:golden_leggings_fishing_rod",
+			"ctft:golden_leggings_compass",
+			"ctft:golden_leggings_clock",
+			"ctft:golden_leggings_helmet",
+			"ctft:golden_leggings_chestplate",
+			"ctft:golden_leggings_leggings",
+			"ctft:golden_leggings_boots",
+			"ctft:golden_leggings_shears",
+			"ctft:golden_leggings_horse_armor",
+			"ctft:golden_leggings_bow"
+		]
+	}
+}

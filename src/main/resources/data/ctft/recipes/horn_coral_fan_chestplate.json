@@ -1,0 +1,20 @@
+
+{
+  "group": "Horn Coral Fan Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:horn_coral_fan"
+    }
+  },
+  "result": {
+    "item": "ctft:horn_coral_fan_chestplate",
+    "count": 1
+  }
+}
+        

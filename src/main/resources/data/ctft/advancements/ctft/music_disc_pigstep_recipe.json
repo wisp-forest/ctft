@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_pigstep"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:music_disc_pigstep_sword",
+			"ctft:music_disc_pigstep_pickaxe",
+			"ctft:music_disc_pigstep_axe",
+			"ctft:music_disc_pigstep_shovel",
+			"ctft:music_disc_pigstep_hoe",
+			"ctft:music_disc_pigstep_shield",
+			"ctft:music_disc_pigstep_fishing_rod",
+			"ctft:music_disc_pigstep_compass",
+			"ctft:music_disc_pigstep_clock",
+			"ctft:music_disc_pigstep_helmet",
+			"ctft:music_disc_pigstep_chestplate",
+			"ctft:music_disc_pigstep_leggings",
+			"ctft:music_disc_pigstep_boots",
+			"ctft:music_disc_pigstep_shears",
+			"ctft:music_disc_pigstep_horse_armor",
+			"ctft:music_disc_pigstep_bow"
+		]
+	}
+}

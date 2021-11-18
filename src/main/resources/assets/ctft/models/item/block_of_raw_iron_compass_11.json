@@ -1,0 +1,10 @@
+
+{
+  "parent": "ctft:item/compass",
+  "textures": {
+    "0": "ctft:items/compass_11",
+    "1": "ctft:blocks/raw_iron_block_block",
+    "particle": "ctft:blocks/raw_iron_block_block"
+  }
+}
+            

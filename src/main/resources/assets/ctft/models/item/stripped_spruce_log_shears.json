@@ -1,0 +1,10 @@
+
+    {
+      "parent": "ctft:item/shears",
+      "textures": {
+        "0": "ctft:items/shears",
+        "1": "ctft:blocks/stripped_spruce_log_top_block",
+        "particle": "ctft:blocks/stripped_spruce_log_top_block"
+      }
+    }
+            

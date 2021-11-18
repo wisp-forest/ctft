@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:jungle_slab"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:jungle_slab_sword",
+			"ctft:jungle_slab_pickaxe",
+			"ctft:jungle_slab_axe",
+			"ctft:jungle_slab_shovel",
+			"ctft:jungle_slab_hoe",
+			"ctft:jungle_slab_shield",
+			"ctft:jungle_slab_fishing_rod",
+			"ctft:jungle_slab_compass",
+			"ctft:jungle_slab_clock",
+			"ctft:jungle_slab_helmet",
+			"ctft:jungle_slab_chestplate",
+			"ctft:jungle_slab_leggings",
+			"ctft:jungle_slab_boots",
+			"ctft:jungle_slab_shears",
+			"ctft:jungle_slab_horse_armor",
+			"ctft:jungle_slab_bow"
+		]
+	}
+}

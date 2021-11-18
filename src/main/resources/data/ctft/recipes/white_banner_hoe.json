@@ -1,0 +1,23 @@
+
+{
+  "group": "White Banner Hoe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "00 ",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:white_banner"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:white_banner_hoe",
+    "count": 1
+  }
+}
+        

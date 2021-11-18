@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mutton"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:mutton_sword",
+			"ctft:mutton_pickaxe",
+			"ctft:mutton_axe",
+			"ctft:mutton_shovel",
+			"ctft:mutton_hoe",
+			"ctft:mutton_shield",
+			"ctft:mutton_fishing_rod",
+			"ctft:mutton_compass",
+			"ctft:mutton_clock",
+			"ctft:mutton_helmet",
+			"ctft:mutton_chestplate",
+			"ctft:mutton_leggings",
+			"ctft:mutton_boots",
+			"ctft:mutton_shears",
+			"ctft:mutton_horse_armor",
+			"ctft:mutton_bow"
+		]
+	}
+}

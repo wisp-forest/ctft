@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bone_meal"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:bone_meal_sword",
+			"ctft:bone_meal_pickaxe",
+			"ctft:bone_meal_axe",
+			"ctft:bone_meal_shovel",
+			"ctft:bone_meal_hoe",
+			"ctft:bone_meal_shield",
+			"ctft:bone_meal_fishing_rod",
+			"ctft:bone_meal_compass",
+			"ctft:bone_meal_clock",
+			"ctft:bone_meal_helmet",
+			"ctft:bone_meal_chestplate",
+			"ctft:bone_meal_leggings",
+			"ctft:bone_meal_boots",
+			"ctft:bone_meal_shears",
+			"ctft:bone_meal_horse_armor",
+			"ctft:bone_meal_bow"
+		]
+	}
+}

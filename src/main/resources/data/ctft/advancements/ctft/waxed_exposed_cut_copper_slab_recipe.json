@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:waxed_exposed_cut_copper_slab"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:waxed_exposed_cut_copper_slab_sword",
+			"ctft:waxed_exposed_cut_copper_slab_pickaxe",
+			"ctft:waxed_exposed_cut_copper_slab_axe",
+			"ctft:waxed_exposed_cut_copper_slab_shovel",
+			"ctft:waxed_exposed_cut_copper_slab_hoe",
+			"ctft:waxed_exposed_cut_copper_slab_shield",
+			"ctft:waxed_exposed_cut_copper_slab_fishing_rod",
+			"ctft:waxed_exposed_cut_copper_slab_compass",
+			"ctft:waxed_exposed_cut_copper_slab_clock",
+			"ctft:waxed_exposed_cut_copper_slab_helmet",
+			"ctft:waxed_exposed_cut_copper_slab_chestplate",
+			"ctft:waxed_exposed_cut_copper_slab_leggings",
+			"ctft:waxed_exposed_cut_copper_slab_boots",
+			"ctft:waxed_exposed_cut_copper_slab_shears",
+			"ctft:waxed_exposed_cut_copper_slab_horse_armor",
+			"ctft:waxed_exposed_cut_copper_slab_bow"
+		]
+	}
+}

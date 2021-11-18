@@ -1,0 +1,23 @@
+
+{
+  "group": "Warped Planks Pickaxe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:warped_planks"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:warped_planks_pickaxe",
+    "count": 1
+  }
+}
+        

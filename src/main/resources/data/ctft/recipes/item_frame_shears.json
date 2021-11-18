@@ -1,0 +1,20 @@
+
+{
+  "group": "Item Frame Shears",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 0 ",
+    "   "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:item_frame"
+    }
+  },
+  "result": {
+    "item": "ctft:item_frame_shears",
+    "count": 1
+  }
+}
+        

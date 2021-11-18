@@ -1,0 +1,23 @@
+
+{
+  "group": "Scaffolding Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:scaffolding"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:scaffolding_bow",
+    "count": 1
+  }
+}
+        

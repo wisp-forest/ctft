@@ -1,0 +1,23 @@
+
+{
+  "group": "Cut Sandstone Hoe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "00 ",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:cut_sandstone"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:cut_sandstone_hoe",
+    "count": 1
+  }
+}
+        

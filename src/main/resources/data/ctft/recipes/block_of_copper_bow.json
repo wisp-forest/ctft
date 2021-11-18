@@ -1,0 +1,23 @@
+
+{
+  "group": "Block of Copper Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:copper_block"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:block_of_copper_bow",
+    "count": 1
+  }
+}
+        

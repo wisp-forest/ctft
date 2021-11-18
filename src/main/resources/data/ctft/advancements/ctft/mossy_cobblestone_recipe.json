@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mossy_cobblestone"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:mossy_cobblestone_sword",
+			"ctft:mossy_cobblestone_pickaxe",
+			"ctft:mossy_cobblestone_axe",
+			"ctft:mossy_cobblestone_shovel",
+			"ctft:mossy_cobblestone_hoe",
+			"ctft:mossy_cobblestone_shield",
+			"ctft:mossy_cobblestone_fishing_rod",
+			"ctft:mossy_cobblestone_compass",
+			"ctft:mossy_cobblestone_clock",
+			"ctft:mossy_cobblestone_helmet",
+			"ctft:mossy_cobblestone_chestplate",
+			"ctft:mossy_cobblestone_leggings",
+			"ctft:mossy_cobblestone_boots",
+			"ctft:mossy_cobblestone_shears",
+			"ctft:mossy_cobblestone_horse_armor",
+			"ctft:mossy_cobblestone_bow"
+		]
+	}
+}

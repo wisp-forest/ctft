@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:grindstone"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:grindstone_sword",
+			"ctft:grindstone_pickaxe",
+			"ctft:grindstone_axe",
+			"ctft:grindstone_shovel",
+			"ctft:grindstone_hoe",
+			"ctft:grindstone_shield",
+			"ctft:grindstone_fishing_rod",
+			"ctft:grindstone_compass",
+			"ctft:grindstone_clock",
+			"ctft:grindstone_helmet",
+			"ctft:grindstone_chestplate",
+			"ctft:grindstone_leggings",
+			"ctft:grindstone_boots",
+			"ctft:grindstone_shears",
+			"ctft:grindstone_horse_armor",
+			"ctft:grindstone_bow"
+		]
+	}
+}

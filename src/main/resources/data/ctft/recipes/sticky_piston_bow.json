@@ -1,0 +1,23 @@
+
+{
+  "group": "Sticky Piston Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:sticky_piston"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:sticky_piston_bow",
+    "count": 1
+  }
+}
+        

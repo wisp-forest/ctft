@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:carrot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:carrot_sword",
+			"ctft:carrot_pickaxe",
+			"ctft:carrot_axe",
+			"ctft:carrot_shovel",
+			"ctft:carrot_hoe",
+			"ctft:carrot_shield",
+			"ctft:carrot_fishing_rod",
+			"ctft:carrot_compass",
+			"ctft:carrot_clock",
+			"ctft:carrot_helmet",
+			"ctft:carrot_chestplate",
+			"ctft:carrot_leggings",
+			"ctft:carrot_boots",
+			"ctft:carrot_shears",
+			"ctft:carrot_horse_armor",
+			"ctft:carrot_bow"
+		]
+	}
+}

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:magenta_banner"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:magenta_banner_sword",
+			"ctft:magenta_banner_pickaxe",
+			"ctft:magenta_banner_axe",
+			"ctft:magenta_banner_shovel",
+			"ctft:magenta_banner_hoe",
+			"ctft:magenta_banner_shield",
+			"ctft:magenta_banner_fishing_rod",
+			"ctft:magenta_banner_compass",
+			"ctft:magenta_banner_clock",
+			"ctft:magenta_banner_helmet",
+			"ctft:magenta_banner_chestplate",
+			"ctft:magenta_banner_leggings",
+			"ctft:magenta_banner_boots",
+			"ctft:magenta_banner_shears",
+			"ctft:magenta_banner_horse_armor",
+			"ctft:magenta_banner_bow"
+		]
+	}
+}

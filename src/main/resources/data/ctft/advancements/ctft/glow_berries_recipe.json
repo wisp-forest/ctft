@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:glow_berries"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:glow_berries_sword",
+			"ctft:glow_berries_pickaxe",
+			"ctft:glow_berries_axe",
+			"ctft:glow_berries_shovel",
+			"ctft:glow_berries_hoe",
+			"ctft:glow_berries_shield",
+			"ctft:glow_berries_fishing_rod",
+			"ctft:glow_berries_compass",
+			"ctft:glow_berries_clock",
+			"ctft:glow_berries_helmet",
+			"ctft:glow_berries_chestplate",
+			"ctft:glow_berries_leggings",
+			"ctft:glow_berries_boots",
+			"ctft:glow_berries_shears",
+			"ctft:glow_berries_horse_armor",
+			"ctft:glow_berries_bow"
+		]
+	}
+}

@@ -1,0 +1,20 @@
+
+{
+  "group": "Stone Helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:stone"
+    }
+  },
+  "result": {
+    "item": "ctft:stone_helmet",
+    "count": 1
+  }
+}
+        

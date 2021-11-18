@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:acacia_fence_gate"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:acacia_fence_gate_sword",
+			"ctft:acacia_fence_gate_pickaxe",
+			"ctft:acacia_fence_gate_axe",
+			"ctft:acacia_fence_gate_shovel",
+			"ctft:acacia_fence_gate_hoe",
+			"ctft:acacia_fence_gate_shield",
+			"ctft:acacia_fence_gate_fishing_rod",
+			"ctft:acacia_fence_gate_compass",
+			"ctft:acacia_fence_gate_clock",
+			"ctft:acacia_fence_gate_helmet",
+			"ctft:acacia_fence_gate_chestplate",
+			"ctft:acacia_fence_gate_leggings",
+			"ctft:acacia_fence_gate_boots",
+			"ctft:acacia_fence_gate_shears",
+			"ctft:acacia_fence_gate_horse_armor",
+			"ctft:acacia_fence_gate_bow"
+		]
+	}
+}

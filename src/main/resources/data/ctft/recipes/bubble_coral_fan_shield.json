@@ -1,0 +1,23 @@
+
+{
+  "group": "Bubble Coral Fan Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:bubble_coral_fan"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:bubble_coral_fan_shield",
+    "count": 1
+  }
+}
+        

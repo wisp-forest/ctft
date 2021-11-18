@@ -1,0 +1,10 @@
+
+{
+  "parent": "ctft:item/clock",
+  "textures": {
+    "0": "ctft:items/clock_32",
+    "1": "ctft:blocks/polished_blackstone_block",
+    "particle": "ctft:blocks/polished_blackstone_block"
+  }
+}
+            

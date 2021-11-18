@@ -1,0 +1,23 @@
+
+{
+  "group": "Nautilus Shell Axe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "00 ",
+    "01 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:nautilus_shell"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:nautilus_shell_axe",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,20 @@
+
+{
+  "group": "Wheat Seeds Shears",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 0 ",
+    "   "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:wheat_seeds"
+    }
+  },
+  "result": {
+    "item": "ctft:wheat_seeds_shears",
+    "count": 1
+  }
+}
+        

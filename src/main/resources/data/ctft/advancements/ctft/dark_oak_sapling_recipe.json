@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:dark_oak_sapling"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:dark_oak_sapling_sword",
+			"ctft:dark_oak_sapling_pickaxe",
+			"ctft:dark_oak_sapling_axe",
+			"ctft:dark_oak_sapling_shovel",
+			"ctft:dark_oak_sapling_hoe",
+			"ctft:dark_oak_sapling_shield",
+			"ctft:dark_oak_sapling_fishing_rod",
+			"ctft:dark_oak_sapling_compass",
+			"ctft:dark_oak_sapling_clock",
+			"ctft:dark_oak_sapling_helmet",
+			"ctft:dark_oak_sapling_chestplate",
+			"ctft:dark_oak_sapling_leggings",
+			"ctft:dark_oak_sapling_boots",
+			"ctft:dark_oak_sapling_shears",
+			"ctft:dark_oak_sapling_horse_armor",
+			"ctft:dark_oak_sapling_bow"
+		]
+	}
+}

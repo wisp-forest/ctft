@@ -1,0 +1,20 @@
+
+{
+  "group": "Birch Slab Boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:birch_slab"
+    }
+  },
+  "result": {
+    "item": "ctft:birch_slab_boots",
+    "count": 1
+  }
+}
+        

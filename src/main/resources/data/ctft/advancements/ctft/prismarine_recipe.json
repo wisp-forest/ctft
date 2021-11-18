@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:prismarine"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:prismarine_sword",
+			"ctft:prismarine_pickaxe",
+			"ctft:prismarine_axe",
+			"ctft:prismarine_shovel",
+			"ctft:prismarine_hoe",
+			"ctft:prismarine_shield",
+			"ctft:prismarine_fishing_rod",
+			"ctft:prismarine_compass",
+			"ctft:prismarine_clock",
+			"ctft:prismarine_helmet",
+			"ctft:prismarine_chestplate",
+			"ctft:prismarine_leggings",
+			"ctft:prismarine_boots",
+			"ctft:prismarine_shears",
+			"ctft:prismarine_horse_armor",
+			"ctft:prismarine_bow"
+		]
+	}
+}

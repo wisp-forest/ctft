@@ -1,0 +1,14 @@
+
+    {
+      "parent": "ctft:item/shield",
+      "textures": {
+        "0": "ctft:items/shield_base",
+        "1": "ctft:blocks/end_stone_bricks_block",
+        "particle": "ctft:blocks/end_stone_bricks_block"
+      },
+      "overrides": [
+        { "predicate": { "blocking": 0.0 }, "model": "ctft:item/end_stone_brick_wall_shield" },
+        { "predicate": { "blocking": 1.0 }, "model": "ctft:item/end_stone_brick_wall_shield_blocking" }
+        ]
+    }
+            

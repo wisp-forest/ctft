@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:leather_horse_armor"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:leather_horse_armor_sword",
+			"ctft:leather_horse_armor_pickaxe",
+			"ctft:leather_horse_armor_axe",
+			"ctft:leather_horse_armor_shovel",
+			"ctft:leather_horse_armor_hoe",
+			"ctft:leather_horse_armor_shield",
+			"ctft:leather_horse_armor_fishing_rod",
+			"ctft:leather_horse_armor_compass",
+			"ctft:leather_horse_armor_clock",
+			"ctft:leather_horse_armor_helmet",
+			"ctft:leather_horse_armor_chestplate",
+			"ctft:leather_horse_armor_leggings",
+			"ctft:leather_horse_armor_boots",
+			"ctft:leather_horse_armor_shears",
+			"ctft:leather_horse_armor_horse_armor",
+			"ctft:leather_horse_armor_bow"
+		]
+	}
+}

@@ -1,0 +1,20 @@
+
+{
+  "group": "Polar Bear Spawn Egg Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:polar_bear_spawn_egg"
+    }
+  },
+  "result": {
+    "item": "ctft:polar_bear_spawn_egg_chestplate",
+    "count": 1
+  }
+}
+        

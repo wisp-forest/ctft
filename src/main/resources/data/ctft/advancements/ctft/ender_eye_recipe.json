@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:ender_eye"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:ender_eye_sword",
+			"ctft:ender_eye_pickaxe",
+			"ctft:ender_eye_axe",
+			"ctft:ender_eye_shovel",
+			"ctft:ender_eye_hoe",
+			"ctft:ender_eye_shield",
+			"ctft:ender_eye_fishing_rod",
+			"ctft:ender_eye_compass",
+			"ctft:ender_eye_clock",
+			"ctft:ender_eye_helmet",
+			"ctft:ender_eye_chestplate",
+			"ctft:ender_eye_leggings",
+			"ctft:ender_eye_boots",
+			"ctft:ender_eye_shears",
+			"ctft:ender_eye_horse_armor",
+			"ctft:ender_eye_bow"
+		]
+	}
+}

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:sea_lantern"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:sea_lantern_sword",
+			"ctft:sea_lantern_pickaxe",
+			"ctft:sea_lantern_axe",
+			"ctft:sea_lantern_shovel",
+			"ctft:sea_lantern_hoe",
+			"ctft:sea_lantern_shield",
+			"ctft:sea_lantern_fishing_rod",
+			"ctft:sea_lantern_compass",
+			"ctft:sea_lantern_clock",
+			"ctft:sea_lantern_helmet",
+			"ctft:sea_lantern_chestplate",
+			"ctft:sea_lantern_leggings",
+			"ctft:sea_lantern_boots",
+			"ctft:sea_lantern_shears",
+			"ctft:sea_lantern_horse_armor",
+			"ctft:sea_lantern_bow"
+		]
+	}
+}

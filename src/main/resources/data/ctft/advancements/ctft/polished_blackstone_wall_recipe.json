@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:polished_blackstone_wall"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:polished_blackstone_wall_sword",
+			"ctft:polished_blackstone_wall_pickaxe",
+			"ctft:polished_blackstone_wall_axe",
+			"ctft:polished_blackstone_wall_shovel",
+			"ctft:polished_blackstone_wall_hoe",
+			"ctft:polished_blackstone_wall_shield",
+			"ctft:polished_blackstone_wall_fishing_rod",
+			"ctft:polished_blackstone_wall_compass",
+			"ctft:polished_blackstone_wall_clock",
+			"ctft:polished_blackstone_wall_helmet",
+			"ctft:polished_blackstone_wall_chestplate",
+			"ctft:polished_blackstone_wall_leggings",
+			"ctft:polished_blackstone_wall_boots",
+			"ctft:polished_blackstone_wall_shears",
+			"ctft:polished_blackstone_wall_horse_armor",
+			"ctft:polished_blackstone_wall_bow"
+		]
+	}
+}

@@ -1,0 +1,20 @@
+
+{
+  "group": "Barrier Shears",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 0 ",
+    "   "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:barrier"
+    }
+  },
+  "result": {
+    "item": "ctft:barrier_shears",
+    "count": 1
+  }
+}
+        

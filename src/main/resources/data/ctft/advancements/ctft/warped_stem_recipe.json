@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:warped_stem"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:warped_stem_sword",
+			"ctft:warped_stem_pickaxe",
+			"ctft:warped_stem_axe",
+			"ctft:warped_stem_shovel",
+			"ctft:warped_stem_hoe",
+			"ctft:warped_stem_shield",
+			"ctft:warped_stem_fishing_rod",
+			"ctft:warped_stem_compass",
+			"ctft:warped_stem_clock",
+			"ctft:warped_stem_helmet",
+			"ctft:warped_stem_chestplate",
+			"ctft:warped_stem_leggings",
+			"ctft:warped_stem_boots",
+			"ctft:warped_stem_shears",
+			"ctft:warped_stem_horse_armor",
+			"ctft:warped_stem_bow"
+		]
+	}
+}

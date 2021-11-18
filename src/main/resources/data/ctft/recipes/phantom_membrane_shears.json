@@ -1,0 +1,20 @@
+
+{
+  "group": "Phantom Membrane Shears",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 0 ",
+    "   "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:phantom_membrane"
+    }
+  },
+  "result": {
+    "item": "ctft:phantom_membrane_shears",
+    "count": 1
+  }
+}
+        

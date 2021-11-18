@@ -1,0 +1,20 @@
+
+{
+  "group": "Slime Block Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:slime_block"
+    }
+  },
+  "result": {
+    "item": "ctft:slime_block_chestplate",
+    "count": 1
+  }
+}
+        

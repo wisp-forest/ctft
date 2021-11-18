@@ -1,0 +1,23 @@
+
+{
+  "group": "Turtle Egg Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:turtle_egg"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:turtle_egg_bow",
+    "count": 1
+  }
+}
+        

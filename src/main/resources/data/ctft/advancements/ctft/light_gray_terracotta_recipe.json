@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:light_gray_terracotta"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:light_gray_terracotta_sword",
+			"ctft:light_gray_terracotta_pickaxe",
+			"ctft:light_gray_terracotta_axe",
+			"ctft:light_gray_terracotta_shovel",
+			"ctft:light_gray_terracotta_hoe",
+			"ctft:light_gray_terracotta_shield",
+			"ctft:light_gray_terracotta_fishing_rod",
+			"ctft:light_gray_terracotta_compass",
+			"ctft:light_gray_terracotta_clock",
+			"ctft:light_gray_terracotta_helmet",
+			"ctft:light_gray_terracotta_chestplate",
+			"ctft:light_gray_terracotta_leggings",
+			"ctft:light_gray_terracotta_boots",
+			"ctft:light_gray_terracotta_shears",
+			"ctft:light_gray_terracotta_horse_armor",
+			"ctft:light_gray_terracotta_bow"
+		]
+	}
+}

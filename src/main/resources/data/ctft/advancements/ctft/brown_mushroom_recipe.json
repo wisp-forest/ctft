@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:brown_mushroom"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:brown_mushroom_sword",
+			"ctft:brown_mushroom_pickaxe",
+			"ctft:brown_mushroom_axe",
+			"ctft:brown_mushroom_shovel",
+			"ctft:brown_mushroom_hoe",
+			"ctft:brown_mushroom_shield",
+			"ctft:brown_mushroom_fishing_rod",
+			"ctft:brown_mushroom_compass",
+			"ctft:brown_mushroom_clock",
+			"ctft:brown_mushroom_helmet",
+			"ctft:brown_mushroom_chestplate",
+			"ctft:brown_mushroom_leggings",
+			"ctft:brown_mushroom_boots",
+			"ctft:brown_mushroom_shears",
+			"ctft:brown_mushroom_horse_armor",
+			"ctft:brown_mushroom_bow"
+		]
+	}
+}

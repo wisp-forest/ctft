@@ -1,0 +1,10 @@
+
+    {
+      "parent": "ctft:item/sword",
+      "textures": {
+        "0": "ctft:items/iron_sword",
+        "1": "ctft:blocks/apple_block",
+        "particle": "ctft:blocks/apple_block"
+      }
+    }
+            

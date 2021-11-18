@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:sandstone_wall"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:sandstone_wall_sword",
+			"ctft:sandstone_wall_pickaxe",
+			"ctft:sandstone_wall_axe",
+			"ctft:sandstone_wall_shovel",
+			"ctft:sandstone_wall_hoe",
+			"ctft:sandstone_wall_shield",
+			"ctft:sandstone_wall_fishing_rod",
+			"ctft:sandstone_wall_compass",
+			"ctft:sandstone_wall_clock",
+			"ctft:sandstone_wall_helmet",
+			"ctft:sandstone_wall_chestplate",
+			"ctft:sandstone_wall_leggings",
+			"ctft:sandstone_wall_boots",
+			"ctft:sandstone_wall_shears",
+			"ctft:sandstone_wall_horse_armor",
+			"ctft:sandstone_wall_bow"
+		]
+	}
+}

@@ -1,0 +1,23 @@
+
+{
+  "group": "Cobbled Deepslate Wall Shovel",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:cobbled_deepslate_wall"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:cobbled_deepslate_wall_shovel",
+    "count": 1
+  }
+}
+        

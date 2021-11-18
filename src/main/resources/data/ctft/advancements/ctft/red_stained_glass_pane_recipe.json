@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:red_stained_glass_pane"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:red_stained_glass_pane_sword",
+			"ctft:red_stained_glass_pane_pickaxe",
+			"ctft:red_stained_glass_pane_axe",
+			"ctft:red_stained_glass_pane_shovel",
+			"ctft:red_stained_glass_pane_hoe",
+			"ctft:red_stained_glass_pane_shield",
+			"ctft:red_stained_glass_pane_fishing_rod",
+			"ctft:red_stained_glass_pane_compass",
+			"ctft:red_stained_glass_pane_clock",
+			"ctft:red_stained_glass_pane_helmet",
+			"ctft:red_stained_glass_pane_chestplate",
+			"ctft:red_stained_glass_pane_leggings",
+			"ctft:red_stained_glass_pane_boots",
+			"ctft:red_stained_glass_pane_shears",
+			"ctft:red_stained_glass_pane_horse_armor",
+			"ctft:red_stained_glass_pane_bow"
+		]
+	}
+}

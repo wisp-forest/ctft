@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_boots"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:iron_boots_sword",
+			"ctft:iron_boots_pickaxe",
+			"ctft:iron_boots_axe",
+			"ctft:iron_boots_shovel",
+			"ctft:iron_boots_hoe",
+			"ctft:iron_boots_shield",
+			"ctft:iron_boots_fishing_rod",
+			"ctft:iron_boots_compass",
+			"ctft:iron_boots_clock",
+			"ctft:iron_boots_helmet",
+			"ctft:iron_boots_chestplate",
+			"ctft:iron_boots_leggings",
+			"ctft:iron_boots_boots",
+			"ctft:iron_boots_shears",
+			"ctft:iron_boots_horse_armor",
+			"ctft:iron_boots_bow"
+		]
+	}
+}

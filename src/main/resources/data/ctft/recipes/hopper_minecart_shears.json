@@ -1,0 +1,20 @@
+
+{
+  "group": "Hopper Minecart Shears",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 0 ",
+    "   "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:hopper_minecart"
+    }
+  },
+  "result": {
+    "item": "ctft:hopper_minecart_shears",
+    "count": 1
+  }
+}
+        

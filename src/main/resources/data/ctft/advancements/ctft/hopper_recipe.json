@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:hopper"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:hopper_sword",
+			"ctft:hopper_pickaxe",
+			"ctft:hopper_axe",
+			"ctft:hopper_shovel",
+			"ctft:hopper_hoe",
+			"ctft:hopper_shield",
+			"ctft:hopper_fishing_rod",
+			"ctft:hopper_compass",
+			"ctft:hopper_clock",
+			"ctft:hopper_helmet",
+			"ctft:hopper_chestplate",
+			"ctft:hopper_leggings",
+			"ctft:hopper_boots",
+			"ctft:hopper_shears",
+			"ctft:hopper_horse_armor",
+			"ctft:hopper_bow"
+		]
+	}
+}

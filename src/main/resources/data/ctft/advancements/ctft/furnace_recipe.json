@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:furnace"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:furnace_sword",
+			"ctft:furnace_pickaxe",
+			"ctft:furnace_axe",
+			"ctft:furnace_shovel",
+			"ctft:furnace_hoe",
+			"ctft:furnace_shield",
+			"ctft:furnace_fishing_rod",
+			"ctft:furnace_compass",
+			"ctft:furnace_clock",
+			"ctft:furnace_helmet",
+			"ctft:furnace_chestplate",
+			"ctft:furnace_leggings",
+			"ctft:furnace_boots",
+			"ctft:furnace_shears",
+			"ctft:furnace_horse_armor",
+			"ctft:furnace_bow"
+		]
+	}
+}

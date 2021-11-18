@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:smooth_red_sandstone_slab"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:smooth_red_sandstone_slab_sword",
+			"ctft:smooth_red_sandstone_slab_pickaxe",
+			"ctft:smooth_red_sandstone_slab_axe",
+			"ctft:smooth_red_sandstone_slab_shovel",
+			"ctft:smooth_red_sandstone_slab_hoe",
+			"ctft:smooth_red_sandstone_slab_shield",
+			"ctft:smooth_red_sandstone_slab_fishing_rod",
+			"ctft:smooth_red_sandstone_slab_compass",
+			"ctft:smooth_red_sandstone_slab_clock",
+			"ctft:smooth_red_sandstone_slab_helmet",
+			"ctft:smooth_red_sandstone_slab_chestplate",
+			"ctft:smooth_red_sandstone_slab_leggings",
+			"ctft:smooth_red_sandstone_slab_boots",
+			"ctft:smooth_red_sandstone_slab_shears",
+			"ctft:smooth_red_sandstone_slab_horse_armor",
+			"ctft:smooth_red_sandstone_slab_bow"
+		]
+	}
+}

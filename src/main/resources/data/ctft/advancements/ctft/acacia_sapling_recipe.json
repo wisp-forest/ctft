@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:acacia_sapling"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:acacia_sapling_sword",
+			"ctft:acacia_sapling_pickaxe",
+			"ctft:acacia_sapling_axe",
+			"ctft:acacia_sapling_shovel",
+			"ctft:acacia_sapling_hoe",
+			"ctft:acacia_sapling_shield",
+			"ctft:acacia_sapling_fishing_rod",
+			"ctft:acacia_sapling_compass",
+			"ctft:acacia_sapling_clock",
+			"ctft:acacia_sapling_helmet",
+			"ctft:acacia_sapling_chestplate",
+			"ctft:acacia_sapling_leggings",
+			"ctft:acacia_sapling_boots",
+			"ctft:acacia_sapling_shears",
+			"ctft:acacia_sapling_horse_armor",
+			"ctft:acacia_sapling_bow"
+		]
+	}
+}

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:oak_boat"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:oak_boat_sword",
+			"ctft:oak_boat_pickaxe",
+			"ctft:oak_boat_axe",
+			"ctft:oak_boat_shovel",
+			"ctft:oak_boat_hoe",
+			"ctft:oak_boat_shield",
+			"ctft:oak_boat_fishing_rod",
+			"ctft:oak_boat_compass",
+			"ctft:oak_boat_clock",
+			"ctft:oak_boat_helmet",
+			"ctft:oak_boat_chestplate",
+			"ctft:oak_boat_leggings",
+			"ctft:oak_boat_boots",
+			"ctft:oak_boat_shears",
+			"ctft:oak_boat_horse_armor",
+			"ctft:oak_boat_bow"
+		]
+	}
+}

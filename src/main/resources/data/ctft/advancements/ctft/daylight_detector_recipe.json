@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:daylight_detector"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:daylight_detector_sword",
+			"ctft:daylight_detector_pickaxe",
+			"ctft:daylight_detector_axe",
+			"ctft:daylight_detector_shovel",
+			"ctft:daylight_detector_hoe",
+			"ctft:daylight_detector_shield",
+			"ctft:daylight_detector_fishing_rod",
+			"ctft:daylight_detector_compass",
+			"ctft:daylight_detector_clock",
+			"ctft:daylight_detector_helmet",
+			"ctft:daylight_detector_chestplate",
+			"ctft:daylight_detector_leggings",
+			"ctft:daylight_detector_boots",
+			"ctft:daylight_detector_shears",
+			"ctft:daylight_detector_horse_armor",
+			"ctft:daylight_detector_bow"
+		]
+	}
+}

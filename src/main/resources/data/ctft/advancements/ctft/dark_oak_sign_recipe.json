@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:dark_oak_sign"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:dark_oak_sign_sword",
+			"ctft:dark_oak_sign_pickaxe",
+			"ctft:dark_oak_sign_axe",
+			"ctft:dark_oak_sign_shovel",
+			"ctft:dark_oak_sign_hoe",
+			"ctft:dark_oak_sign_shield",
+			"ctft:dark_oak_sign_fishing_rod",
+			"ctft:dark_oak_sign_compass",
+			"ctft:dark_oak_sign_clock",
+			"ctft:dark_oak_sign_helmet",
+			"ctft:dark_oak_sign_chestplate",
+			"ctft:dark_oak_sign_leggings",
+			"ctft:dark_oak_sign_boots",
+			"ctft:dark_oak_sign_shears",
+			"ctft:dark_oak_sign_horse_armor",
+			"ctft:dark_oak_sign_bow"
+		]
+	}
+}

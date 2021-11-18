@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:birch_fence"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:birch_fence_sword",
+			"ctft:birch_fence_pickaxe",
+			"ctft:birch_fence_axe",
+			"ctft:birch_fence_shovel",
+			"ctft:birch_fence_hoe",
+			"ctft:birch_fence_shield",
+			"ctft:birch_fence_fishing_rod",
+			"ctft:birch_fence_compass",
+			"ctft:birch_fence_clock",
+			"ctft:birch_fence_helmet",
+			"ctft:birch_fence_chestplate",
+			"ctft:birch_fence_leggings",
+			"ctft:birch_fence_boots",
+			"ctft:birch_fence_shears",
+			"ctft:birch_fence_horse_armor",
+			"ctft:birch_fence_bow"
+		]
+	}
+}

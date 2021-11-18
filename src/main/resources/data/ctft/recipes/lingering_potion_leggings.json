@@ -1,0 +1,20 @@
+
+{
+  "group": "Lingering Potion Leggings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:lingering_potion"
+    }
+  },
+  "result": {
+    "item": "ctft:lingering_potion_leggings",
+    "count": 1
+  }
+}
+        

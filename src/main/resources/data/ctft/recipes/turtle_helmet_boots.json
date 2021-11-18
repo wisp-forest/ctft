@@ -1,0 +1,20 @@
+
+{
+  "group": "Turtle Helmet Boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:turtle_helmet"
+    }
+  },
+  "result": {
+    "item": "ctft:turtle_helmet_boots",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:ender_pearl"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:ender_pearl_sword",
+			"ctft:ender_pearl_pickaxe",
+			"ctft:ender_pearl_axe",
+			"ctft:ender_pearl_shovel",
+			"ctft:ender_pearl_hoe",
+			"ctft:ender_pearl_shield",
+			"ctft:ender_pearl_fishing_rod",
+			"ctft:ender_pearl_compass",
+			"ctft:ender_pearl_clock",
+			"ctft:ender_pearl_helmet",
+			"ctft:ender_pearl_chestplate",
+			"ctft:ender_pearl_leggings",
+			"ctft:ender_pearl_boots",
+			"ctft:ender_pearl_shears",
+			"ctft:ender_pearl_horse_armor",
+			"ctft:ender_pearl_bow"
+		]
+	}
+}

@@ -1,0 +1,20 @@
+
+{
+  "group": "Brewing Stand Helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:brewing_stand"
+    }
+  },
+  "result": {
+    "item": "ctft:brewing_stand_helmet",
+    "count": 1
+  }
+}
+        

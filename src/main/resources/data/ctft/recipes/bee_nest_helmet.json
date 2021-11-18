@@ -1,0 +1,20 @@
+
+{
+  "group": "Bee Nest Helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:bee_nest"
+    }
+  },
+  "result": {
+    "item": "ctft:bee_nest_helmet",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,10 @@
+
+{
+  "parent": "ctft:item/fishing_rod_casting",
+  "textures": {
+    "0": "ctft:items/fishing_rod",
+    "1": "ctft:blocks/jack_o_lantern_block",
+    "particle": "ctft:blocks/jack_o_lantern_block"
+  }
+}
+        

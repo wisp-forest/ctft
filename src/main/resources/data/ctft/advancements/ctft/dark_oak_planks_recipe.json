@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:dark_oak_planks"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:dark_oak_planks_sword",
+			"ctft:dark_oak_planks_pickaxe",
+			"ctft:dark_oak_planks_axe",
+			"ctft:dark_oak_planks_shovel",
+			"ctft:dark_oak_planks_hoe",
+			"ctft:dark_oak_planks_shield",
+			"ctft:dark_oak_planks_fishing_rod",
+			"ctft:dark_oak_planks_compass",
+			"ctft:dark_oak_planks_clock",
+			"ctft:dark_oak_planks_helmet",
+			"ctft:dark_oak_planks_chestplate",
+			"ctft:dark_oak_planks_leggings",
+			"ctft:dark_oak_planks_boots",
+			"ctft:dark_oak_planks_shears",
+			"ctft:dark_oak_planks_horse_armor",
+			"ctft:dark_oak_planks_bow"
+		]
+	}
+}

@@ -1,0 +1,23 @@
+
+{
+  "group": "Honeycomb Block Axe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "00 ",
+    "01 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:honeycomb_block"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:honeycomb_block_axe",
+    "count": 1
+  }
+}
+        

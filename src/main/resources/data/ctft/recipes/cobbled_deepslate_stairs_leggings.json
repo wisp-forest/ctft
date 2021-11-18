@@ -1,0 +1,20 @@
+
+{
+  "group": "Cobbled Deepslate Stairs Leggings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:cobbled_deepslate_stairs"
+    }
+  },
+  "result": {
+    "item": "ctft:cobbled_deepslate_stairs_leggings",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,23 @@
+
+{
+  "group": "Birch Trapdoor Compass",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    "010",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:birch_trapdoor"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:birch_trapdoor_compass",
+    "count": 1
+  }
+}
+        

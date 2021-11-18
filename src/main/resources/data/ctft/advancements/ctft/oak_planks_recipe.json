@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:oak_planks"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:oak_planks_sword",
+			"ctft:oak_planks_pickaxe",
+			"ctft:oak_planks_axe",
+			"ctft:oak_planks_shovel",
+			"ctft:oak_planks_hoe",
+			"ctft:oak_planks_shield",
+			"ctft:oak_planks_fishing_rod",
+			"ctft:oak_planks_compass",
+			"ctft:oak_planks_clock",
+			"ctft:oak_planks_helmet",
+			"ctft:oak_planks_chestplate",
+			"ctft:oak_planks_leggings",
+			"ctft:oak_planks_boots",
+			"ctft:oak_planks_shears",
+			"ctft:oak_planks_horse_armor",
+			"ctft:oak_planks_bow"
+		]
+	}
+}

@@ -1,0 +1,23 @@
+
+{
+  "group": "Brown Mushroom Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:brown_mushroom"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:brown_mushroom_shield",
+    "count": 1
+  }
+}
+        

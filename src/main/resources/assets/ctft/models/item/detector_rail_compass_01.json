@@ -1,0 +1,10 @@
+
+{
+  "parent": "ctft:item/compass",
+  "textures": {
+    "0": "ctft:items/compass_01",
+    "1": "ctft:blocks/detector_rail_block",
+    "particle": "ctft:blocks/detector_rail_block"
+  }
+}
+            

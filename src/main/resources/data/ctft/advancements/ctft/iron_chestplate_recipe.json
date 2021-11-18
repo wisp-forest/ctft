@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_chestplate"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:iron_chestplate_sword",
+			"ctft:iron_chestplate_pickaxe",
+			"ctft:iron_chestplate_axe",
+			"ctft:iron_chestplate_shovel",
+			"ctft:iron_chestplate_hoe",
+			"ctft:iron_chestplate_shield",
+			"ctft:iron_chestplate_fishing_rod",
+			"ctft:iron_chestplate_compass",
+			"ctft:iron_chestplate_clock",
+			"ctft:iron_chestplate_helmet",
+			"ctft:iron_chestplate_chestplate",
+			"ctft:iron_chestplate_leggings",
+			"ctft:iron_chestplate_boots",
+			"ctft:iron_chestplate_shears",
+			"ctft:iron_chestplate_horse_armor",
+			"ctft:iron_chestplate_bow"
+		]
+	}
+}

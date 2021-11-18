@@ -1,0 +1,20 @@
+
+{
+  "group": "Gray Banner Leggings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:gray_banner"
+    }
+  },
+  "result": {
+    "item": "ctft:gray_banner_leggings",
+    "count": 1
+  }
+}
+        

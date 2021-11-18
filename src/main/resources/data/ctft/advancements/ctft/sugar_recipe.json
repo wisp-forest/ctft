@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:sugar"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:sugar_sword",
+			"ctft:sugar_pickaxe",
+			"ctft:sugar_axe",
+			"ctft:sugar_shovel",
+			"ctft:sugar_hoe",
+			"ctft:sugar_shield",
+			"ctft:sugar_fishing_rod",
+			"ctft:sugar_compass",
+			"ctft:sugar_clock",
+			"ctft:sugar_helmet",
+			"ctft:sugar_chestplate",
+			"ctft:sugar_leggings",
+			"ctft:sugar_boots",
+			"ctft:sugar_shears",
+			"ctft:sugar_horse_armor",
+			"ctft:sugar_bow"
+		]
+	}
+}

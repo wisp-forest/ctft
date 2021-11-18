@@ -1,0 +1,23 @@
+
+{
+  "group": "Orange Dye Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:orange_dye"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:orange_dye_shield",
+    "count": 1
+  }
+}
+        

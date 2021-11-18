@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:sponge"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:sponge_sword",
+			"ctft:sponge_pickaxe",
+			"ctft:sponge_axe",
+			"ctft:sponge_shovel",
+			"ctft:sponge_hoe",
+			"ctft:sponge_shield",
+			"ctft:sponge_fishing_rod",
+			"ctft:sponge_compass",
+			"ctft:sponge_clock",
+			"ctft:sponge_helmet",
+			"ctft:sponge_chestplate",
+			"ctft:sponge_leggings",
+			"ctft:sponge_boots",
+			"ctft:sponge_shears",
+			"ctft:sponge_horse_armor",
+			"ctft:sponge_bow"
+		]
+	}
+}

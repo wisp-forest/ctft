@@ -1,0 +1,23 @@
+
+{
+  "group": "Mossy Stone Brick Wall Compass",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    "010",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:mossy_stone_brick_wall"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:mossy_stone_brick_wall_compass",
+    "count": 1
+  }
+}
+        

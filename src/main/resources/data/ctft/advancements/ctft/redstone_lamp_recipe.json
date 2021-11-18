@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:redstone_lamp"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:redstone_lamp_sword",
+			"ctft:redstone_lamp_pickaxe",
+			"ctft:redstone_lamp_axe",
+			"ctft:redstone_lamp_shovel",
+			"ctft:redstone_lamp_hoe",
+			"ctft:redstone_lamp_shield",
+			"ctft:redstone_lamp_fishing_rod",
+			"ctft:redstone_lamp_compass",
+			"ctft:redstone_lamp_clock",
+			"ctft:redstone_lamp_helmet",
+			"ctft:redstone_lamp_chestplate",
+			"ctft:redstone_lamp_leggings",
+			"ctft:redstone_lamp_boots",
+			"ctft:redstone_lamp_shears",
+			"ctft:redstone_lamp_horse_armor",
+			"ctft:redstone_lamp_bow"
+		]
+	}
+}

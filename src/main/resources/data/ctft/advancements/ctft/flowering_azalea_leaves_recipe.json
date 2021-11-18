@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:azalea_leaves_flowers"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:azalea_leaves_flowers_sword",
+			"ctft:azalea_leaves_flowers_pickaxe",
+			"ctft:azalea_leaves_flowers_axe",
+			"ctft:azalea_leaves_flowers_shovel",
+			"ctft:azalea_leaves_flowers_hoe",
+			"ctft:azalea_leaves_flowers_shield",
+			"ctft:azalea_leaves_flowers_fishing_rod",
+			"ctft:azalea_leaves_flowers_compass",
+			"ctft:azalea_leaves_flowers_clock",
+			"ctft:azalea_leaves_flowers_helmet",
+			"ctft:azalea_leaves_flowers_chestplate",
+			"ctft:azalea_leaves_flowers_leggings",
+			"ctft:azalea_leaves_flowers_boots",
+			"ctft:azalea_leaves_flowers_shears",
+			"ctft:azalea_leaves_flowers_horse_armor",
+			"ctft:azalea_leaves_flowers_bow"
+		]
+	}
+}

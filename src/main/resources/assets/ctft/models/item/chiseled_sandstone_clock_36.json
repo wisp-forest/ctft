@@ -1,0 +1,10 @@
+
+{
+  "parent": "ctft:item/clock",
+  "textures": {
+    "0": "ctft:items/clock_36",
+    "1": "ctft:blocks/chiseled_sandstone_block",
+    "particle": "ctft:blocks/chiseled_sandstone_block"
+  }
+}
+            

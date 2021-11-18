@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mossy_cobblestone_stairs"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:mossy_cobblestone_stairs_sword",
+			"ctft:mossy_cobblestone_stairs_pickaxe",
+			"ctft:mossy_cobblestone_stairs_axe",
+			"ctft:mossy_cobblestone_stairs_shovel",
+			"ctft:mossy_cobblestone_stairs_hoe",
+			"ctft:mossy_cobblestone_stairs_shield",
+			"ctft:mossy_cobblestone_stairs_fishing_rod",
+			"ctft:mossy_cobblestone_stairs_compass",
+			"ctft:mossy_cobblestone_stairs_clock",
+			"ctft:mossy_cobblestone_stairs_helmet",
+			"ctft:mossy_cobblestone_stairs_chestplate",
+			"ctft:mossy_cobblestone_stairs_leggings",
+			"ctft:mossy_cobblestone_stairs_boots",
+			"ctft:mossy_cobblestone_stairs_shears",
+			"ctft:mossy_cobblestone_stairs_horse_armor",
+			"ctft:mossy_cobblestone_stairs_bow"
+		]
+	}
+}

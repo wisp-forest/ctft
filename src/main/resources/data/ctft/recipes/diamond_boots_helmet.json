@@ -1,0 +1,20 @@
+
+{
+  "group": "Diamond Boots Helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:diamond_boots"
+    }
+  },
+  "result": {
+    "item": "ctft:diamond_boots_helmet",
+    "count": 1
+  }
+}
+        

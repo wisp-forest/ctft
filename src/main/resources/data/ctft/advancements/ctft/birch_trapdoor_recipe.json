@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:birch_trapdoor"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:birch_trapdoor_sword",
+			"ctft:birch_trapdoor_pickaxe",
+			"ctft:birch_trapdoor_axe",
+			"ctft:birch_trapdoor_shovel",
+			"ctft:birch_trapdoor_hoe",
+			"ctft:birch_trapdoor_shield",
+			"ctft:birch_trapdoor_fishing_rod",
+			"ctft:birch_trapdoor_compass",
+			"ctft:birch_trapdoor_clock",
+			"ctft:birch_trapdoor_helmet",
+			"ctft:birch_trapdoor_chestplate",
+			"ctft:birch_trapdoor_leggings",
+			"ctft:birch_trapdoor_boots",
+			"ctft:birch_trapdoor_shears",
+			"ctft:birch_trapdoor_horse_armor",
+			"ctft:birch_trapdoor_bow"
+		]
+	}
+}

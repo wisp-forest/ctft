@@ -1,0 +1,20 @@
+
+{
+  "group": "Phantom Membrane Helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:phantom_membrane"
+    }
+  },
+  "result": {
+    "item": "ctft:phantom_membrane_helmet",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,20 @@
+
+{
+  "group": "Polar Bear Spawn Egg Helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:polar_bear_spawn_egg"
+    }
+  },
+  "result": {
+    "item": "ctft:polar_bear_spawn_egg_helmet",
+    "count": 1
+  }
+}
+        

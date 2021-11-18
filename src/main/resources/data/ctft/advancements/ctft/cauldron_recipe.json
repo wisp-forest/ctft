@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cauldron"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:cauldron_sword",
+			"ctft:cauldron_pickaxe",
+			"ctft:cauldron_axe",
+			"ctft:cauldron_shovel",
+			"ctft:cauldron_hoe",
+			"ctft:cauldron_shield",
+			"ctft:cauldron_fishing_rod",
+			"ctft:cauldron_compass",
+			"ctft:cauldron_clock",
+			"ctft:cauldron_helmet",
+			"ctft:cauldron_chestplate",
+			"ctft:cauldron_leggings",
+			"ctft:cauldron_boots",
+			"ctft:cauldron_shears",
+			"ctft:cauldron_horse_armor",
+			"ctft:cauldron_bow"
+		]
+	}
+}

@@ -1,0 +1,14 @@
+
+    {
+      "parent": "ctft:item/shield",
+      "textures": {
+        "0": "ctft:items/shield_base",
+        "1": "ctft:blocks/horse_block",
+        "particle": "ctft:blocks/horse_block"
+      },
+      "overrides": [
+        { "predicate": { "blocking": 0.0 }, "model": "ctft:item/horse_spawn_egg_shield" },
+        { "predicate": { "blocking": 1.0 }, "model": "ctft:item/horse_spawn_egg_shield_blocking" }
+        ]
+    }
+            

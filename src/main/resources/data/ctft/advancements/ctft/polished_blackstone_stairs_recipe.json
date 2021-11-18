@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:polished_blackstone_stairs"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:polished_blackstone_stairs_sword",
+			"ctft:polished_blackstone_stairs_pickaxe",
+			"ctft:polished_blackstone_stairs_axe",
+			"ctft:polished_blackstone_stairs_shovel",
+			"ctft:polished_blackstone_stairs_hoe",
+			"ctft:polished_blackstone_stairs_shield",
+			"ctft:polished_blackstone_stairs_fishing_rod",
+			"ctft:polished_blackstone_stairs_compass",
+			"ctft:polished_blackstone_stairs_clock",
+			"ctft:polished_blackstone_stairs_helmet",
+			"ctft:polished_blackstone_stairs_chestplate",
+			"ctft:polished_blackstone_stairs_leggings",
+			"ctft:polished_blackstone_stairs_boots",
+			"ctft:polished_blackstone_stairs_shears",
+			"ctft:polished_blackstone_stairs_horse_armor",
+			"ctft:polished_blackstone_stairs_bow"
+		]
+	}
+}

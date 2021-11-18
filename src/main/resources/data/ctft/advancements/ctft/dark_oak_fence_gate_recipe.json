@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:dark_oak_fence_gate"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:dark_oak_fence_gate_sword",
+			"ctft:dark_oak_fence_gate_pickaxe",
+			"ctft:dark_oak_fence_gate_axe",
+			"ctft:dark_oak_fence_gate_shovel",
+			"ctft:dark_oak_fence_gate_hoe",
+			"ctft:dark_oak_fence_gate_shield",
+			"ctft:dark_oak_fence_gate_fishing_rod",
+			"ctft:dark_oak_fence_gate_compass",
+			"ctft:dark_oak_fence_gate_clock",
+			"ctft:dark_oak_fence_gate_helmet",
+			"ctft:dark_oak_fence_gate_chestplate",
+			"ctft:dark_oak_fence_gate_leggings",
+			"ctft:dark_oak_fence_gate_boots",
+			"ctft:dark_oak_fence_gate_shears",
+			"ctft:dark_oak_fence_gate_horse_armor",
+			"ctft:dark_oak_fence_gate_bow"
+		]
+	}
+}

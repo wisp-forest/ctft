@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:potato"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:potato_sword",
+			"ctft:potato_pickaxe",
+			"ctft:potato_axe",
+			"ctft:potato_shovel",
+			"ctft:potato_hoe",
+			"ctft:potato_shield",
+			"ctft:potato_fishing_rod",
+			"ctft:potato_compass",
+			"ctft:potato_clock",
+			"ctft:potato_helmet",
+			"ctft:potato_chestplate",
+			"ctft:potato_leggings",
+			"ctft:potato_boots",
+			"ctft:potato_shears",
+			"ctft:potato_horse_armor",
+			"ctft:potato_bow"
+		]
+	}
+}

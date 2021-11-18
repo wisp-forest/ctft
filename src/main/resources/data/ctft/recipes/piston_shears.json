@@ -1,0 +1,20 @@
+
+{
+  "group": "Piston Shears",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 0 ",
+    "   "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:piston"
+    }
+  },
+  "result": {
+    "item": "ctft:piston_shears",
+    "count": 1
+  }
+}
+        

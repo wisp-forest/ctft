@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:redstone_ore"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:redstone_ore_sword",
+			"ctft:redstone_ore_pickaxe",
+			"ctft:redstone_ore_axe",
+			"ctft:redstone_ore_shovel",
+			"ctft:redstone_ore_hoe",
+			"ctft:redstone_ore_shield",
+			"ctft:redstone_ore_fishing_rod",
+			"ctft:redstone_ore_compass",
+			"ctft:redstone_ore_clock",
+			"ctft:redstone_ore_helmet",
+			"ctft:redstone_ore_chestplate",
+			"ctft:redstone_ore_leggings",
+			"ctft:redstone_ore_boots",
+			"ctft:redstone_ore_shears",
+			"ctft:redstone_ore_horse_armor",
+			"ctft:redstone_ore_bow"
+		]
+	}
+}

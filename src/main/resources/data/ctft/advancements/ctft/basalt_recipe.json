@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:basalt"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:basalt_sword",
+			"ctft:basalt_pickaxe",
+			"ctft:basalt_axe",
+			"ctft:basalt_shovel",
+			"ctft:basalt_hoe",
+			"ctft:basalt_shield",
+			"ctft:basalt_fishing_rod",
+			"ctft:basalt_compass",
+			"ctft:basalt_clock",
+			"ctft:basalt_helmet",
+			"ctft:basalt_chestplate",
+			"ctft:basalt_leggings",
+			"ctft:basalt_boots",
+			"ctft:basalt_shears",
+			"ctft:basalt_horse_armor",
+			"ctft:basalt_bow"
+		]
+	}
+}

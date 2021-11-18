@@ -1,0 +1,20 @@
+
+{
+  "group": "Gray Concrete Leggings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:gray_concrete"
+    }
+  },
+  "result": {
+    "item": "ctft:gray_concrete_leggings",
+    "count": 1
+  }
+}
+        

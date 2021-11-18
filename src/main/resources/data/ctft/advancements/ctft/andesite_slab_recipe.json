@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:andesite_slab"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:andesite_slab_sword",
+			"ctft:andesite_slab_pickaxe",
+			"ctft:andesite_slab_axe",
+			"ctft:andesite_slab_shovel",
+			"ctft:andesite_slab_hoe",
+			"ctft:andesite_slab_shield",
+			"ctft:andesite_slab_fishing_rod",
+			"ctft:andesite_slab_compass",
+			"ctft:andesite_slab_clock",
+			"ctft:andesite_slab_helmet",
+			"ctft:andesite_slab_chestplate",
+			"ctft:andesite_slab_leggings",
+			"ctft:andesite_slab_boots",
+			"ctft:andesite_slab_shears",
+			"ctft:andesite_slab_horse_armor",
+			"ctft:andesite_slab_bow"
+		]
+	}
+}

@@ -1,0 +1,23 @@
+
+{
+  "group": "Warped Fungus Sword",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    " 0 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:warped_fungus"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:warped_fungus_sword",
+    "count": 1
+  }
+}
+        

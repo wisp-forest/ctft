@@ -1,0 +1,23 @@
+
+{
+  "group": "Dark Oak Planks Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:dark_oak_planks"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:dark_oak_planks_shield",
+    "count": 1
+  }
+}
+        

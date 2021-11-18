@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cobbled_deepslate_slab"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:cobbled_deepslate_slab_sword",
+			"ctft:cobbled_deepslate_slab_pickaxe",
+			"ctft:cobbled_deepslate_slab_axe",
+			"ctft:cobbled_deepslate_slab_shovel",
+			"ctft:cobbled_deepslate_slab_hoe",
+			"ctft:cobbled_deepslate_slab_shield",
+			"ctft:cobbled_deepslate_slab_fishing_rod",
+			"ctft:cobbled_deepslate_slab_compass",
+			"ctft:cobbled_deepslate_slab_clock",
+			"ctft:cobbled_deepslate_slab_helmet",
+			"ctft:cobbled_deepslate_slab_chestplate",
+			"ctft:cobbled_deepslate_slab_leggings",
+			"ctft:cobbled_deepslate_slab_boots",
+			"ctft:cobbled_deepslate_slab_shears",
+			"ctft:cobbled_deepslate_slab_horse_armor",
+			"ctft:cobbled_deepslate_slab_bow"
+		]
+	}
+}

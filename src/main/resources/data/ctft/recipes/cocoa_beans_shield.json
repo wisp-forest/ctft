@@ -1,0 +1,23 @@
+
+{
+  "group": "Cocoa Beans Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:cocoa_beans"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:cocoa_beans_shield",
+    "count": 1
+  }
+}
+        

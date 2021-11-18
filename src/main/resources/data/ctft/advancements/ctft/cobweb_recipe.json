@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cobweb"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:cobweb_sword",
+			"ctft:cobweb_pickaxe",
+			"ctft:cobweb_axe",
+			"ctft:cobweb_shovel",
+			"ctft:cobweb_hoe",
+			"ctft:cobweb_shield",
+			"ctft:cobweb_fishing_rod",
+			"ctft:cobweb_compass",
+			"ctft:cobweb_clock",
+			"ctft:cobweb_helmet",
+			"ctft:cobweb_chestplate",
+			"ctft:cobweb_leggings",
+			"ctft:cobweb_boots",
+			"ctft:cobweb_shears",
+			"ctft:cobweb_horse_armor",
+			"ctft:cobweb_bow"
+		]
+	}
+}

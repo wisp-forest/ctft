@@ -1,0 +1,20 @@
+
+{
+  "group": "Cracked Stone Bricks Shears",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 0 ",
+    "   "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:cracked_stone_bricks"
+    }
+  },
+  "result": {
+    "item": "ctft:cracked_stone_bricks_shears",
+    "count": 1
+  }
+}
+        

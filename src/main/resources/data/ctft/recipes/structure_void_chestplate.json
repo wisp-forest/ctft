@@ -1,0 +1,20 @@
+
+{
+  "group": "Structure Void Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:structure_void"
+    }
+  },
+  "result": {
+    "item": "ctft:structure_void_chestplate",
+    "count": 1
+  }
+}
+        

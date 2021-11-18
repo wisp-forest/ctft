@@ -1,0 +1,23 @@
+
+{
+  "group": "Red Sand Axe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "00 ",
+    "01 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:red_sand"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:red_sand_axe",
+    "count": 1
+  }
+}
+        

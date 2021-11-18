@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:brain_coral"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:brain_coral_sword",
+			"ctft:brain_coral_pickaxe",
+			"ctft:brain_coral_axe",
+			"ctft:brain_coral_shovel",
+			"ctft:brain_coral_hoe",
+			"ctft:brain_coral_shield",
+			"ctft:brain_coral_fishing_rod",
+			"ctft:brain_coral_compass",
+			"ctft:brain_coral_clock",
+			"ctft:brain_coral_helmet",
+			"ctft:brain_coral_chestplate",
+			"ctft:brain_coral_leggings",
+			"ctft:brain_coral_boots",
+			"ctft:brain_coral_shears",
+			"ctft:brain_coral_horse_armor",
+			"ctft:brain_coral_bow"
+		]
+	}
+}

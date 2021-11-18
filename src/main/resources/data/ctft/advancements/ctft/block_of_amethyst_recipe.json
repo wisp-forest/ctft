@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:amethyst_block"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:amethyst_block_sword",
+			"ctft:amethyst_block_pickaxe",
+			"ctft:amethyst_block_axe",
+			"ctft:amethyst_block_shovel",
+			"ctft:amethyst_block_hoe",
+			"ctft:amethyst_block_shield",
+			"ctft:amethyst_block_fishing_rod",
+			"ctft:amethyst_block_compass",
+			"ctft:amethyst_block_clock",
+			"ctft:amethyst_block_helmet",
+			"ctft:amethyst_block_chestplate",
+			"ctft:amethyst_block_leggings",
+			"ctft:amethyst_block_boots",
+			"ctft:amethyst_block_shears",
+			"ctft:amethyst_block_horse_armor",
+			"ctft:amethyst_block_bow"
+		]
+	}
+}

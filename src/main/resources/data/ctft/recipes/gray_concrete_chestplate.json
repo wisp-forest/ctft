@@ -1,0 +1,20 @@
+
+{
+  "group": "Gray Concrete Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:gray_concrete"
+    }
+  },
+  "result": {
+    "item": "ctft:gray_concrete_chestplate",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,14 @@
+
+    {
+      "parent": "ctft:item/shield",
+      "textures": {
+        "0": "ctft:items/shield_base",
+        "1": "ctft:blocks/fern_block",
+        "particle": "ctft:blocks/fern_block"
+      },
+      "overrides": [
+        { "predicate": { "blocking": 0.0 }, "model": "ctft:item/large_fern_shield" },
+        { "predicate": { "blocking": 1.0 }, "model": "ctft:item/large_fern_shield_blocking" }
+        ]
+    }
+            

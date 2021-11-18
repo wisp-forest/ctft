@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:stripped_acacia_log"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:stripped_acacia_log_sword",
+			"ctft:stripped_acacia_log_pickaxe",
+			"ctft:stripped_acacia_log_axe",
+			"ctft:stripped_acacia_log_shovel",
+			"ctft:stripped_acacia_log_hoe",
+			"ctft:stripped_acacia_log_shield",
+			"ctft:stripped_acacia_log_fishing_rod",
+			"ctft:stripped_acacia_log_compass",
+			"ctft:stripped_acacia_log_clock",
+			"ctft:stripped_acacia_log_helmet",
+			"ctft:stripped_acacia_log_chestplate",
+			"ctft:stripped_acacia_log_leggings",
+			"ctft:stripped_acacia_log_boots",
+			"ctft:stripped_acacia_log_shears",
+			"ctft:stripped_acacia_log_horse_armor",
+			"ctft:stripped_acacia_log_bow"
+		]
+	}
+}

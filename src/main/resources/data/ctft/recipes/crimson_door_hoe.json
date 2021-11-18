@@ -1,0 +1,23 @@
+
+{
+  "group": "Crimson Door Hoe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "00 ",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:crimson_door"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:crimson_door_hoe",
+    "count": 1
+  }
+}
+        

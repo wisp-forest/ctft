@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:brown_terracotta"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:brown_terracotta_sword",
+			"ctft:brown_terracotta_pickaxe",
+			"ctft:brown_terracotta_axe",
+			"ctft:brown_terracotta_shovel",
+			"ctft:brown_terracotta_hoe",
+			"ctft:brown_terracotta_shield",
+			"ctft:brown_terracotta_fishing_rod",
+			"ctft:brown_terracotta_compass",
+			"ctft:brown_terracotta_clock",
+			"ctft:brown_terracotta_helmet",
+			"ctft:brown_terracotta_chestplate",
+			"ctft:brown_terracotta_leggings",
+			"ctft:brown_terracotta_boots",
+			"ctft:brown_terracotta_shears",
+			"ctft:brown_terracotta_horse_armor",
+			"ctft:brown_terracotta_bow"
+		]
+	}
+}

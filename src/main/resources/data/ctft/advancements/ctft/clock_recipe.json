@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:clock"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:clock_sword",
+			"ctft:clock_pickaxe",
+			"ctft:clock_axe",
+			"ctft:clock_shovel",
+			"ctft:clock_hoe",
+			"ctft:clock_shield",
+			"ctft:clock_fishing_rod",
+			"ctft:clock_compass",
+			"ctft:clock_clock",
+			"ctft:clock_helmet",
+			"ctft:clock_chestplate",
+			"ctft:clock_leggings",
+			"ctft:clock_boots",
+			"ctft:clock_shears",
+			"ctft:clock_horse_armor",
+			"ctft:clock_bow"
+		]
+	}
+}

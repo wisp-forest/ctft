@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:red_shulker_box"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:red_shulker_box_sword",
+			"ctft:red_shulker_box_pickaxe",
+			"ctft:red_shulker_box_axe",
+			"ctft:red_shulker_box_shovel",
+			"ctft:red_shulker_box_hoe",
+			"ctft:red_shulker_box_shield",
+			"ctft:red_shulker_box_fishing_rod",
+			"ctft:red_shulker_box_compass",
+			"ctft:red_shulker_box_clock",
+			"ctft:red_shulker_box_helmet",
+			"ctft:red_shulker_box_chestplate",
+			"ctft:red_shulker_box_leggings",
+			"ctft:red_shulker_box_boots",
+			"ctft:red_shulker_box_shears",
+			"ctft:red_shulker_box_horse_armor",
+			"ctft:red_shulker_box_bow"
+		]
+	}
+}

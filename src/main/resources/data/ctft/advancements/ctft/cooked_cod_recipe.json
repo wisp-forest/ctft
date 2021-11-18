@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cooked_cod"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:cooked_cod_sword",
+			"ctft:cooked_cod_pickaxe",
+			"ctft:cooked_cod_axe",
+			"ctft:cooked_cod_shovel",
+			"ctft:cooked_cod_hoe",
+			"ctft:cooked_cod_shield",
+			"ctft:cooked_cod_fishing_rod",
+			"ctft:cooked_cod_compass",
+			"ctft:cooked_cod_clock",
+			"ctft:cooked_cod_helmet",
+			"ctft:cooked_cod_chestplate",
+			"ctft:cooked_cod_leggings",
+			"ctft:cooked_cod_boots",
+			"ctft:cooked_cod_shears",
+			"ctft:cooked_cod_horse_armor",
+			"ctft:cooked_cod_bow"
+		]
+	}
+}

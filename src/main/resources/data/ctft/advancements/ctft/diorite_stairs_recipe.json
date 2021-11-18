@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:diorite_stairs"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:diorite_stairs_sword",
+			"ctft:diorite_stairs_pickaxe",
+			"ctft:diorite_stairs_axe",
+			"ctft:diorite_stairs_shovel",
+			"ctft:diorite_stairs_hoe",
+			"ctft:diorite_stairs_shield",
+			"ctft:diorite_stairs_fishing_rod",
+			"ctft:diorite_stairs_compass",
+			"ctft:diorite_stairs_clock",
+			"ctft:diorite_stairs_helmet",
+			"ctft:diorite_stairs_chestplate",
+			"ctft:diorite_stairs_leggings",
+			"ctft:diorite_stairs_boots",
+			"ctft:diorite_stairs_shears",
+			"ctft:diorite_stairs_horse_armor",
+			"ctft:diorite_stairs_bow"
+		]
+	}
+}

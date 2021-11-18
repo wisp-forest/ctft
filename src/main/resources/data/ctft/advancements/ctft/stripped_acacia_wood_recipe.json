@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:stripped_acacia_wood"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:stripped_acacia_wood_sword",
+			"ctft:stripped_acacia_wood_pickaxe",
+			"ctft:stripped_acacia_wood_axe",
+			"ctft:stripped_acacia_wood_shovel",
+			"ctft:stripped_acacia_wood_hoe",
+			"ctft:stripped_acacia_wood_shield",
+			"ctft:stripped_acacia_wood_fishing_rod",
+			"ctft:stripped_acacia_wood_compass",
+			"ctft:stripped_acacia_wood_clock",
+			"ctft:stripped_acacia_wood_helmet",
+			"ctft:stripped_acacia_wood_chestplate",
+			"ctft:stripped_acacia_wood_leggings",
+			"ctft:stripped_acacia_wood_boots",
+			"ctft:stripped_acacia_wood_shears",
+			"ctft:stripped_acacia_wood_horse_armor",
+			"ctft:stripped_acacia_wood_bow"
+		]
+	}
+}

@@ -1,0 +1,20 @@
+
+{
+  "group": "Polished Blackstone Brick Stairs Helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:polished_blackstone_brick_stairs"
+    }
+  },
+  "result": {
+    "item": "ctft:polished_blackstone_brick_stairs_helmet",
+    "count": 1
+  }
+}
+        

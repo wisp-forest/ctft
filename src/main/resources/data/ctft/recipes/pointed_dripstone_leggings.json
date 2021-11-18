@@ -1,0 +1,20 @@
+
+{
+  "group": "Pointed Dripstone Leggings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:pointed_dripstone"
+    }
+  },
+  "result": {
+    "item": "ctft:pointed_dripstone_leggings",
+    "count": 1
+  }
+}
+        

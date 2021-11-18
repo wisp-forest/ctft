@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bread"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:bread_sword",
+			"ctft:bread_pickaxe",
+			"ctft:bread_axe",
+			"ctft:bread_shovel",
+			"ctft:bread_hoe",
+			"ctft:bread_shield",
+			"ctft:bread_fishing_rod",
+			"ctft:bread_compass",
+			"ctft:bread_clock",
+			"ctft:bread_helmet",
+			"ctft:bread_chestplate",
+			"ctft:bread_leggings",
+			"ctft:bread_boots",
+			"ctft:bread_shears",
+			"ctft:bread_horse_armor",
+			"ctft:bread_bow"
+		]
+	}
+}

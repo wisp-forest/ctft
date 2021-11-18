@@ -1,0 +1,20 @@
+
+{
+  "group": "Dark Oak Sapling Leggings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:dark_oak_sapling"
+    }
+  },
+  "result": {
+    "item": "ctft:dark_oak_sapling_leggings",
+    "count": 1
+  }
+}
+        

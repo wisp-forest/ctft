@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cyan_banner"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:cyan_banner_sword",
+			"ctft:cyan_banner_pickaxe",
+			"ctft:cyan_banner_axe",
+			"ctft:cyan_banner_shovel",
+			"ctft:cyan_banner_hoe",
+			"ctft:cyan_banner_shield",
+			"ctft:cyan_banner_fishing_rod",
+			"ctft:cyan_banner_compass",
+			"ctft:cyan_banner_clock",
+			"ctft:cyan_banner_helmet",
+			"ctft:cyan_banner_chestplate",
+			"ctft:cyan_banner_leggings",
+			"ctft:cyan_banner_boots",
+			"ctft:cyan_banner_shears",
+			"ctft:cyan_banner_horse_armor",
+			"ctft:cyan_banner_bow"
+		]
+	}
+}

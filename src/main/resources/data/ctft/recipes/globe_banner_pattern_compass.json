@@ -1,0 +1,23 @@
+
+{
+  "group": "Globe Banner Pattern Compass",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    "010",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:globe_banner_patter"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:globe_banner_pattern_compass",
+    "count": 1
+  }
+}
+        

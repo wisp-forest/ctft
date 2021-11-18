@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:crimson_button"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:crimson_button_sword",
+			"ctft:crimson_button_pickaxe",
+			"ctft:crimson_button_axe",
+			"ctft:crimson_button_shovel",
+			"ctft:crimson_button_hoe",
+			"ctft:crimson_button_shield",
+			"ctft:crimson_button_fishing_rod",
+			"ctft:crimson_button_compass",
+			"ctft:crimson_button_clock",
+			"ctft:crimson_button_helmet",
+			"ctft:crimson_button_chestplate",
+			"ctft:crimson_button_leggings",
+			"ctft:crimson_button_boots",
+			"ctft:crimson_button_shears",
+			"ctft:crimson_button_horse_armor",
+			"ctft:crimson_button_bow"
+		]
+	}
+}

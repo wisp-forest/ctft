@@ -1,0 +1,20 @@
+
+{
+  "group": "Moss Block Helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:moss_block"
+    }
+  },
+  "result": {
+    "item": "ctft:moss_block_helmet",
+    "count": 1
+  }
+}
+        

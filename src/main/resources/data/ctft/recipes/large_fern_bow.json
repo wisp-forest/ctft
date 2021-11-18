@@ -1,0 +1,23 @@
+
+{
+  "group": "Large Fern Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:large_fern"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:large_fern_bow",
+    "count": 1
+  }
+}
+        

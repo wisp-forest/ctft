@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:lime_concrete_powder"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:lime_concrete_powder_sword",
+			"ctft:lime_concrete_powder_pickaxe",
+			"ctft:lime_concrete_powder_axe",
+			"ctft:lime_concrete_powder_shovel",
+			"ctft:lime_concrete_powder_hoe",
+			"ctft:lime_concrete_powder_shield",
+			"ctft:lime_concrete_powder_fishing_rod",
+			"ctft:lime_concrete_powder_compass",
+			"ctft:lime_concrete_powder_clock",
+			"ctft:lime_concrete_powder_helmet",
+			"ctft:lime_concrete_powder_chestplate",
+			"ctft:lime_concrete_powder_leggings",
+			"ctft:lime_concrete_powder_boots",
+			"ctft:lime_concrete_powder_shears",
+			"ctft:lime_concrete_powder_horse_armor",
+			"ctft:lime_concrete_powder_bow"
+		]
+	}
+}

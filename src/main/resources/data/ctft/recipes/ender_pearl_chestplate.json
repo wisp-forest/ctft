@@ -1,0 +1,20 @@
+
+{
+  "group": "Ender Pearl Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:ender_pearl"
+    }
+  },
+  "result": {
+    "item": "ctft:ender_pearl_chestplate",
+    "count": 1
+  }
+}
+        

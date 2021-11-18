@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cyan_concrete_powder"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:cyan_concrete_powder_sword",
+			"ctft:cyan_concrete_powder_pickaxe",
+			"ctft:cyan_concrete_powder_axe",
+			"ctft:cyan_concrete_powder_shovel",
+			"ctft:cyan_concrete_powder_hoe",
+			"ctft:cyan_concrete_powder_shield",
+			"ctft:cyan_concrete_powder_fishing_rod",
+			"ctft:cyan_concrete_powder_compass",
+			"ctft:cyan_concrete_powder_clock",
+			"ctft:cyan_concrete_powder_helmet",
+			"ctft:cyan_concrete_powder_chestplate",
+			"ctft:cyan_concrete_powder_leggings",
+			"ctft:cyan_concrete_powder_boots",
+			"ctft:cyan_concrete_powder_shears",
+			"ctft:cyan_concrete_powder_horse_armor",
+			"ctft:cyan_concrete_powder_bow"
+		]
+	}
+}

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:diamond_shovel"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:diamond_shovel_sword",
+			"ctft:diamond_shovel_pickaxe",
+			"ctft:diamond_shovel_axe",
+			"ctft:diamond_shovel_shovel",
+			"ctft:diamond_shovel_hoe",
+			"ctft:diamond_shovel_shield",
+			"ctft:diamond_shovel_fishing_rod",
+			"ctft:diamond_shovel_compass",
+			"ctft:diamond_shovel_clock",
+			"ctft:diamond_shovel_helmet",
+			"ctft:diamond_shovel_chestplate",
+			"ctft:diamond_shovel_leggings",
+			"ctft:diamond_shovel_boots",
+			"ctft:diamond_shovel_shears",
+			"ctft:diamond_shovel_horse_armor",
+			"ctft:diamond_shovel_bow"
+		]
+	}
+}

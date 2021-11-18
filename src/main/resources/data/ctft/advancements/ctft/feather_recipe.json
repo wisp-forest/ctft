@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:feather"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:feather_sword",
+			"ctft:feather_pickaxe",
+			"ctft:feather_axe",
+			"ctft:feather_shovel",
+			"ctft:feather_hoe",
+			"ctft:feather_shield",
+			"ctft:feather_fishing_rod",
+			"ctft:feather_compass",
+			"ctft:feather_clock",
+			"ctft:feather_helmet",
+			"ctft:feather_chestplate",
+			"ctft:feather_leggings",
+			"ctft:feather_boots",
+			"ctft:feather_shears",
+			"ctft:feather_horse_armor",
+			"ctft:feather_bow"
+		]
+	}
+}

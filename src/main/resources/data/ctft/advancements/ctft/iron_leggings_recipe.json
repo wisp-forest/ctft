@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_leggings"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:iron_leggings_sword",
+			"ctft:iron_leggings_pickaxe",
+			"ctft:iron_leggings_axe",
+			"ctft:iron_leggings_shovel",
+			"ctft:iron_leggings_hoe",
+			"ctft:iron_leggings_shield",
+			"ctft:iron_leggings_fishing_rod",
+			"ctft:iron_leggings_compass",
+			"ctft:iron_leggings_clock",
+			"ctft:iron_leggings_helmet",
+			"ctft:iron_leggings_chestplate",
+			"ctft:iron_leggings_leggings",
+			"ctft:iron_leggings_boots",
+			"ctft:iron_leggings_shears",
+			"ctft:iron_leggings_horse_armor",
+			"ctft:iron_leggings_bow"
+		]
+	}
+}

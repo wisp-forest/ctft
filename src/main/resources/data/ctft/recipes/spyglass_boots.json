@@ -1,0 +1,20 @@
+
+{
+  "group": "Spyglass Boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:spyglass"
+    }
+  },
+  "result": {
+    "item": "ctft:spyglass_boots",
+    "count": 1
+  }
+}
+        

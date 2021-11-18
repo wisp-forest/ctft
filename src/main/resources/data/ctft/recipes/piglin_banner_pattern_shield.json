@@ -1,0 +1,23 @@
+
+{
+  "group": "Piglin Banner Pattern Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:piglin_banner_pattern"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:piglin_banner_pattern_shield",
+    "count": 1
+  }
+}
+        

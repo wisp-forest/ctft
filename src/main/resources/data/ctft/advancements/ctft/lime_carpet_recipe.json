@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:lime_carpet"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:lime_carpet_sword",
+			"ctft:lime_carpet_pickaxe",
+			"ctft:lime_carpet_axe",
+			"ctft:lime_carpet_shovel",
+			"ctft:lime_carpet_hoe",
+			"ctft:lime_carpet_shield",
+			"ctft:lime_carpet_fishing_rod",
+			"ctft:lime_carpet_compass",
+			"ctft:lime_carpet_clock",
+			"ctft:lime_carpet_helmet",
+			"ctft:lime_carpet_chestplate",
+			"ctft:lime_carpet_leggings",
+			"ctft:lime_carpet_boots",
+			"ctft:lime_carpet_shears",
+			"ctft:lime_carpet_horse_armor",
+			"ctft:lime_carpet_bow"
+		]
+	}
+}

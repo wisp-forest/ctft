@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:pink_terracotta"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:pink_terracotta_sword",
+			"ctft:pink_terracotta_pickaxe",
+			"ctft:pink_terracotta_axe",
+			"ctft:pink_terracotta_shovel",
+			"ctft:pink_terracotta_hoe",
+			"ctft:pink_terracotta_shield",
+			"ctft:pink_terracotta_fishing_rod",
+			"ctft:pink_terracotta_compass",
+			"ctft:pink_terracotta_clock",
+			"ctft:pink_terracotta_helmet",
+			"ctft:pink_terracotta_chestplate",
+			"ctft:pink_terracotta_leggings",
+			"ctft:pink_terracotta_boots",
+			"ctft:pink_terracotta_shears",
+			"ctft:pink_terracotta_horse_armor",
+			"ctft:pink_terracotta_bow"
+		]
+	}
+}

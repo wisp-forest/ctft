@@ -1,0 +1,20 @@
+
+{
+  "group": "Powered Rail Boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:powered_rail"
+    }
+  },
+  "result": {
+    "item": "ctft:powered_rail_boots",
+    "count": 1
+  }
+}
+        

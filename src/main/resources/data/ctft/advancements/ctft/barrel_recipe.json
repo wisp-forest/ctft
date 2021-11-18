@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:barrel"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:barrel_sword",
+			"ctft:barrel_pickaxe",
+			"ctft:barrel_axe",
+			"ctft:barrel_shovel",
+			"ctft:barrel_hoe",
+			"ctft:barrel_shield",
+			"ctft:barrel_fishing_rod",
+			"ctft:barrel_compass",
+			"ctft:barrel_clock",
+			"ctft:barrel_helmet",
+			"ctft:barrel_chestplate",
+			"ctft:barrel_leggings",
+			"ctft:barrel_boots",
+			"ctft:barrel_shears",
+			"ctft:barrel_horse_armor",
+			"ctft:barrel_bow"
+		]
+	}
+}

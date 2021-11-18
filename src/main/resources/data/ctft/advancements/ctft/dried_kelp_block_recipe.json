@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:dried_kelp_block"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:dried_kelp_block_sword",
+			"ctft:dried_kelp_block_pickaxe",
+			"ctft:dried_kelp_block_axe",
+			"ctft:dried_kelp_block_shovel",
+			"ctft:dried_kelp_block_hoe",
+			"ctft:dried_kelp_block_shield",
+			"ctft:dried_kelp_block_fishing_rod",
+			"ctft:dried_kelp_block_compass",
+			"ctft:dried_kelp_block_clock",
+			"ctft:dried_kelp_block_helmet",
+			"ctft:dried_kelp_block_chestplate",
+			"ctft:dried_kelp_block_leggings",
+			"ctft:dried_kelp_block_boots",
+			"ctft:dried_kelp_block_shears",
+			"ctft:dried_kelp_block_horse_armor",
+			"ctft:dried_kelp_block_bow"
+		]
+	}
+}

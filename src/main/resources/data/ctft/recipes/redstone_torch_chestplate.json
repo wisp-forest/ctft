@@ -1,0 +1,20 @@
+
+{
+  "group": "Redstone Torch Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:redstone_torch"
+    }
+  },
+  "result": {
+    "item": "ctft:redstone_torch_chestplate",
+    "count": 1
+  }
+}
+        

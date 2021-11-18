@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:blue_orchid"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:blue_orchid_sword",
+			"ctft:blue_orchid_pickaxe",
+			"ctft:blue_orchid_axe",
+			"ctft:blue_orchid_shovel",
+			"ctft:blue_orchid_hoe",
+			"ctft:blue_orchid_shield",
+			"ctft:blue_orchid_fishing_rod",
+			"ctft:blue_orchid_compass",
+			"ctft:blue_orchid_clock",
+			"ctft:blue_orchid_helmet",
+			"ctft:blue_orchid_chestplate",
+			"ctft:blue_orchid_leggings",
+			"ctft:blue_orchid_boots",
+			"ctft:blue_orchid_shears",
+			"ctft:blue_orchid_horse_armor",
+			"ctft:blue_orchid_bow"
+		]
+	}
+}

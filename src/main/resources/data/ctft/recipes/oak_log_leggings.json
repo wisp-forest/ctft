@@ -1,0 +1,20 @@
+
+{
+  "group": "Oak Log Leggings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:oak_log"
+    }
+  },
+  "result": {
+    "item": "ctft:oak_log_leggings",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:glowstone"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:glowstone_sword",
+			"ctft:glowstone_pickaxe",
+			"ctft:glowstone_axe",
+			"ctft:glowstone_shovel",
+			"ctft:glowstone_hoe",
+			"ctft:glowstone_shield",
+			"ctft:glowstone_fishing_rod",
+			"ctft:glowstone_compass",
+			"ctft:glowstone_clock",
+			"ctft:glowstone_helmet",
+			"ctft:glowstone_chestplate",
+			"ctft:glowstone_leggings",
+			"ctft:glowstone_boots",
+			"ctft:glowstone_shears",
+			"ctft:glowstone_horse_armor",
+			"ctft:glowstone_bow"
+		]
+	}
+}

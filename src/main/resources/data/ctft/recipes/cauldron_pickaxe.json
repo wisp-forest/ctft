@@ -1,0 +1,23 @@
+
+{
+  "group": "Cauldron Pickaxe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:cauldron"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:cauldron_pickaxe",
+    "count": 1
+  }
+}
+        

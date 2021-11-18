@@ -1,0 +1,23 @@
+
+{
+  "group": "Sculk Sensor Sword",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    " 0 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:sculk_sensor"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:sculk_sensor_sword",
+    "count": 1
+  }
+}
+        

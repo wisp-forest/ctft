@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:black_stained_glass"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:black_stained_glass_sword",
+			"ctft:black_stained_glass_pickaxe",
+			"ctft:black_stained_glass_axe",
+			"ctft:black_stained_glass_shovel",
+			"ctft:black_stained_glass_hoe",
+			"ctft:black_stained_glass_shield",
+			"ctft:black_stained_glass_fishing_rod",
+			"ctft:black_stained_glass_compass",
+			"ctft:black_stained_glass_clock",
+			"ctft:black_stained_glass_helmet",
+			"ctft:black_stained_glass_chestplate",
+			"ctft:black_stained_glass_leggings",
+			"ctft:black_stained_glass_boots",
+			"ctft:black_stained_glass_shears",
+			"ctft:black_stained_glass_horse_armor",
+			"ctft:black_stained_glass_bow"
+		]
+	}
+}

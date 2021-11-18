@@ -1,0 +1,23 @@
+
+{
+  "group": "Spore Blossom Sword",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    " 0 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:spore_blossom"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:spore_blossom_sword",
+    "count": 1
+  }
+}
+        

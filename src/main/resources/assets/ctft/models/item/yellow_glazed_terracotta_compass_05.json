@@ -1,0 +1,10 @@
+
+{
+  "parent": "ctft:item/compass",
+  "textures": {
+    "0": "ctft:items/compass_05",
+    "1": "ctft:blocks/yellow_glazed_terracotta_block",
+    "particle": "ctft:blocks/yellow_glazed_terracotta_block"
+  }
+}
+            

@@ -1,0 +1,23 @@
+
+{
+  "group": "Dried Kelp Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:dried_kelp"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:dried_kelp_bow",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:golden_horse_armor"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:golden_horse_armor_sword",
+			"ctft:golden_horse_armor_pickaxe",
+			"ctft:golden_horse_armor_axe",
+			"ctft:golden_horse_armor_shovel",
+			"ctft:golden_horse_armor_hoe",
+			"ctft:golden_horse_armor_shield",
+			"ctft:golden_horse_armor_fishing_rod",
+			"ctft:golden_horse_armor_compass",
+			"ctft:golden_horse_armor_clock",
+			"ctft:golden_horse_armor_helmet",
+			"ctft:golden_horse_armor_chestplate",
+			"ctft:golden_horse_armor_leggings",
+			"ctft:golden_horse_armor_boots",
+			"ctft:golden_horse_armor_shears",
+			"ctft:golden_horse_armor_horse_armor",
+			"ctft:golden_horse_armor_bow"
+		]
+	}
+}

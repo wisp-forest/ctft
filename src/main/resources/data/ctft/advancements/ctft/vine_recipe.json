@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:vine"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:vine_sword",
+			"ctft:vine_pickaxe",
+			"ctft:vine_axe",
+			"ctft:vine_shovel",
+			"ctft:vine_hoe",
+			"ctft:vine_shield",
+			"ctft:vine_fishing_rod",
+			"ctft:vine_compass",
+			"ctft:vine_clock",
+			"ctft:vine_helmet",
+			"ctft:vine_chestplate",
+			"ctft:vine_leggings",
+			"ctft:vine_boots",
+			"ctft:vine_shears",
+			"ctft:vine_horse_armor",
+			"ctft:vine_bow"
+		]
+	}
+}

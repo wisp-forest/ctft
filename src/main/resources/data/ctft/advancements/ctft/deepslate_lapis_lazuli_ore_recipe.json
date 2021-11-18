@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:deepslate_lapis_ore"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:deepslate_lapis_ore_sword",
+			"ctft:deepslate_lapis_ore_pickaxe",
+			"ctft:deepslate_lapis_ore_axe",
+			"ctft:deepslate_lapis_ore_shovel",
+			"ctft:deepslate_lapis_ore_hoe",
+			"ctft:deepslate_lapis_ore_shield",
+			"ctft:deepslate_lapis_ore_fishing_rod",
+			"ctft:deepslate_lapis_ore_compass",
+			"ctft:deepslate_lapis_ore_clock",
+			"ctft:deepslate_lapis_ore_helmet",
+			"ctft:deepslate_lapis_ore_chestplate",
+			"ctft:deepslate_lapis_ore_leggings",
+			"ctft:deepslate_lapis_ore_boots",
+			"ctft:deepslate_lapis_ore_shears",
+			"ctft:deepslate_lapis_ore_horse_armor",
+			"ctft:deepslate_lapis_ore_bow"
+		]
+	}
+}

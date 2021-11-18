@@ -1,0 +1,23 @@
+
+{
+  "group": "Wooden Sword Sword",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    " 0 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:wooden_sword"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:wooden_sword_sword",
+    "count": 1
+  }
+}
+        

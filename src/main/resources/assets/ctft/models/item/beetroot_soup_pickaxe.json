@@ -1,0 +1,10 @@
+
+    {
+      "parent": "ctft:item/pickaxe",
+      "textures": {
+        "0": "ctft:items/iron_pickaxe",
+        "1": "ctft:blocks/beetroot_soup_block",
+        "particle": "ctft:blocks/beetroot_soup_block"
+      }
+    }
+            

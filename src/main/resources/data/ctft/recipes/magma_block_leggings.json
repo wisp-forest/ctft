@@ -1,0 +1,20 @@
+
+{
+  "group": "Magma Block Leggings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:magma_block"
+    }
+  },
+  "result": {
+    "item": "ctft:magma_block_leggings",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,20 @@
+
+{
+  "group": "Dark Oak Sapling Boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:dark_oak_sapling"
+    }
+  },
+  "result": {
+    "item": "ctft:dark_oak_sapling_boots",
+    "count": 1
+  }
+}
+        

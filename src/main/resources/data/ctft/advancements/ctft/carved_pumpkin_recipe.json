@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:carved_pumpkin"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:carved_pumpkin_sword",
+			"ctft:carved_pumpkin_pickaxe",
+			"ctft:carved_pumpkin_axe",
+			"ctft:carved_pumpkin_shovel",
+			"ctft:carved_pumpkin_hoe",
+			"ctft:carved_pumpkin_shield",
+			"ctft:carved_pumpkin_fishing_rod",
+			"ctft:carved_pumpkin_compass",
+			"ctft:carved_pumpkin_clock",
+			"ctft:carved_pumpkin_helmet",
+			"ctft:carved_pumpkin_chestplate",
+			"ctft:carved_pumpkin_leggings",
+			"ctft:carved_pumpkin_boots",
+			"ctft:carved_pumpkin_shears",
+			"ctft:carved_pumpkin_horse_armor",
+			"ctft:carved_pumpkin_bow"
+		]
+	}
+}

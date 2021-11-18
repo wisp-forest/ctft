@@ -1,0 +1,23 @@
+
+{
+  "group": "Bee Spawn Egg Sword",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    " 0 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:bee_spawn_egg"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:bee_spawn_egg_sword",
+    "count": 1
+  }
+}
+        

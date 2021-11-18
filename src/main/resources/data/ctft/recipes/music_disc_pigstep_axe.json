@@ -1,0 +1,23 @@
+
+{
+  "group": "Music Disc Pigstep Axe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "00 ",
+    "01 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:music_disc_pigstep"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:music_disc_pigstep_axe",
+    "count": 1
+  }
+}
+        

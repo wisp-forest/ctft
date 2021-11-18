@@ -1,0 +1,23 @@
+
+{
+  "group": "Scaffolding Clock",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    "010",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:scaffolding"
+    },
+    "1": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:scaffolding_clock",
+    "count": 1
+  }
+}
+        

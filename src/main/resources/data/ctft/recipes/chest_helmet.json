@@ -1,0 +1,20 @@
+
+{
+  "group": "Chest Helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:chest"
+    }
+  },
+  "result": {
+    "item": "ctft:chest_helmet",
+    "count": 1
+  }
+}
+        

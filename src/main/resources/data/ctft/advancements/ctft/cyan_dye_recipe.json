@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cyan_dye"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:cyan_dye_sword",
+			"ctft:cyan_dye_pickaxe",
+			"ctft:cyan_dye_axe",
+			"ctft:cyan_dye_shovel",
+			"ctft:cyan_dye_hoe",
+			"ctft:cyan_dye_shield",
+			"ctft:cyan_dye_fishing_rod",
+			"ctft:cyan_dye_compass",
+			"ctft:cyan_dye_clock",
+			"ctft:cyan_dye_helmet",
+			"ctft:cyan_dye_chestplate",
+			"ctft:cyan_dye_leggings",
+			"ctft:cyan_dye_boots",
+			"ctft:cyan_dye_shears",
+			"ctft:cyan_dye_horse_armor",
+			"ctft:cyan_dye_bow"
+		]
+	}
+}

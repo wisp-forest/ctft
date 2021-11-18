@@ -1,0 +1,23 @@
+
+{
+  "group": "Big Dripleaf Compass",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    "010",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:big_dripleaf"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:big_dripleaf_compass",
+    "count": 1
+  }
+}
+        

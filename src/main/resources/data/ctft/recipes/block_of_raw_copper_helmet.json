@@ -1,0 +1,20 @@
+
+{
+  "group": "Block of Raw Copper Helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:raw_copper_block"
+    }
+  },
+  "result": {
+    "item": "ctft:block_of_raw_copper_helmet",
+    "count": 1
+  }
+}
+        

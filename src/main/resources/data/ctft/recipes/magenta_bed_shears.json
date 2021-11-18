@@ -1,0 +1,20 @@
+
+{
+  "group": "Magenta Bed Shears",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 0 ",
+    "   "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:magenta_bed"
+    }
+  },
+  "result": {
+    "item": "ctft:magenta_bed_shears",
+    "count": 1
+  }
+}
+        

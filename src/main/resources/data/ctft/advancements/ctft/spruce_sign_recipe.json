@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:spruce_sign"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:spruce_sign_sword",
+			"ctft:spruce_sign_pickaxe",
+			"ctft:spruce_sign_axe",
+			"ctft:spruce_sign_shovel",
+			"ctft:spruce_sign_hoe",
+			"ctft:spruce_sign_shield",
+			"ctft:spruce_sign_fishing_rod",
+			"ctft:spruce_sign_compass",
+			"ctft:spruce_sign_clock",
+			"ctft:spruce_sign_helmet",
+			"ctft:spruce_sign_chestplate",
+			"ctft:spruce_sign_leggings",
+			"ctft:spruce_sign_boots",
+			"ctft:spruce_sign_shears",
+			"ctft:spruce_sign_horse_armor",
+			"ctft:spruce_sign_bow"
+		]
+	}
+}

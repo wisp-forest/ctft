@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:soul_sand"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:soul_sand_sword",
+			"ctft:soul_sand_pickaxe",
+			"ctft:soul_sand_axe",
+			"ctft:soul_sand_shovel",
+			"ctft:soul_sand_hoe",
+			"ctft:soul_sand_shield",
+			"ctft:soul_sand_fishing_rod",
+			"ctft:soul_sand_compass",
+			"ctft:soul_sand_clock",
+			"ctft:soul_sand_helmet",
+			"ctft:soul_sand_chestplate",
+			"ctft:soul_sand_leggings",
+			"ctft:soul_sand_boots",
+			"ctft:soul_sand_shears",
+			"ctft:soul_sand_horse_armor",
+			"ctft:soul_sand_bow"
+		]
+	}
+}

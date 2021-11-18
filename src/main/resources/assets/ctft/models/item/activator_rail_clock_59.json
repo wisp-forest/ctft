@@ -1,0 +1,10 @@
+
+{
+  "parent": "ctft:item/clock",
+  "textures": {
+    "0": "ctft:items/clock_59",
+    "1": "ctft:blocks/activator_rail_block",
+    "particle": "ctft:blocks/activator_rail_block"
+  }
+}
+            

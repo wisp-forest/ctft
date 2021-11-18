@@ -1,0 +1,20 @@
+
+{
+  "group": "Warped Trapdoor Leggings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:warped_trapdoor"
+    }
+  },
+  "result": {
+    "item": "ctft:warped_trapdoor_leggings",
+    "count": 1
+  }
+}
+        

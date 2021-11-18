@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:oak_wood"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:oak_wood_sword",
+			"ctft:oak_wood_pickaxe",
+			"ctft:oak_wood_axe",
+			"ctft:oak_wood_shovel",
+			"ctft:oak_wood_hoe",
+			"ctft:oak_wood_shield",
+			"ctft:oak_wood_fishing_rod",
+			"ctft:oak_wood_compass",
+			"ctft:oak_wood_clock",
+			"ctft:oak_wood_helmet",
+			"ctft:oak_wood_chestplate",
+			"ctft:oak_wood_leggings",
+			"ctft:oak_wood_boots",
+			"ctft:oak_wood_shears",
+			"ctft:oak_wood_horse_armor",
+			"ctft:oak_wood_bow"
+		]
+	}
+}

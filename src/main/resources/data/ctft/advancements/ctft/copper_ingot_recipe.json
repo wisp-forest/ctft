@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:copper_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:copper_ingot_sword",
+			"ctft:copper_ingot_pickaxe",
+			"ctft:copper_ingot_axe",
+			"ctft:copper_ingot_shovel",
+			"ctft:copper_ingot_hoe",
+			"ctft:copper_ingot_shield",
+			"ctft:copper_ingot_fishing_rod",
+			"ctft:copper_ingot_compass",
+			"ctft:copper_ingot_clock",
+			"ctft:copper_ingot_helmet",
+			"ctft:copper_ingot_chestplate",
+			"ctft:copper_ingot_leggings",
+			"ctft:copper_ingot_boots",
+			"ctft:copper_ingot_shears",
+			"ctft:copper_ingot_horse_armor",
+			"ctft:copper_ingot_bow"
+		]
+	}
+}

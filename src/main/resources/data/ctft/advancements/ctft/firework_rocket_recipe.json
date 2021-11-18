@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:firework_rocket"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:firework_rocket_sword",
+			"ctft:firework_rocket_pickaxe",
+			"ctft:firework_rocket_axe",
+			"ctft:firework_rocket_shovel",
+			"ctft:firework_rocket_hoe",
+			"ctft:firework_rocket_shield",
+			"ctft:firework_rocket_fishing_rod",
+			"ctft:firework_rocket_compass",
+			"ctft:firework_rocket_clock",
+			"ctft:firework_rocket_helmet",
+			"ctft:firework_rocket_chestplate",
+			"ctft:firework_rocket_leggings",
+			"ctft:firework_rocket_boots",
+			"ctft:firework_rocket_shears",
+			"ctft:firework_rocket_horse_armor",
+			"ctft:firework_rocket_bow"
+		]
+	}
+}

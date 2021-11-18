@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:black_carpet"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:black_carpet_sword",
+			"ctft:black_carpet_pickaxe",
+			"ctft:black_carpet_axe",
+			"ctft:black_carpet_shovel",
+			"ctft:black_carpet_hoe",
+			"ctft:black_carpet_shield",
+			"ctft:black_carpet_fishing_rod",
+			"ctft:black_carpet_compass",
+			"ctft:black_carpet_clock",
+			"ctft:black_carpet_helmet",
+			"ctft:black_carpet_chestplate",
+			"ctft:black_carpet_leggings",
+			"ctft:black_carpet_boots",
+			"ctft:black_carpet_shears",
+			"ctft:black_carpet_horse_armor",
+			"ctft:black_carpet_bow"
+		]
+	}
+}

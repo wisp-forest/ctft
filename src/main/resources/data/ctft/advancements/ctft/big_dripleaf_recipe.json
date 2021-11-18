@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:big_dripleaf"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:big_dripleaf_sword",
+			"ctft:big_dripleaf_pickaxe",
+			"ctft:big_dripleaf_axe",
+			"ctft:big_dripleaf_shovel",
+			"ctft:big_dripleaf_hoe",
+			"ctft:big_dripleaf_shield",
+			"ctft:big_dripleaf_fishing_rod",
+			"ctft:big_dripleaf_compass",
+			"ctft:big_dripleaf_clock",
+			"ctft:big_dripleaf_helmet",
+			"ctft:big_dripleaf_chestplate",
+			"ctft:big_dripleaf_leggings",
+			"ctft:big_dripleaf_boots",
+			"ctft:big_dripleaf_shears",
+			"ctft:big_dripleaf_horse_armor",
+			"ctft:big_dripleaf_bow"
+		]
+	}
+}

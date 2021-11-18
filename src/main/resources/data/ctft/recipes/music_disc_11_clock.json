@@ -1,0 +1,23 @@
+
+{
+  "group": "Music Disc 11 Clock",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    "010",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:music_disc_11"
+    },
+    "1": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:music_disc_11_clock",
+    "count": 1
+  }
+}
+        

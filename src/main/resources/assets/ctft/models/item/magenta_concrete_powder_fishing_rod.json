@@ -1,0 +1,14 @@
+
+{
+  "parent": "ctft:item/fishing_rod",
+  "textures": {
+    "0": "ctft:items/fishing_rod",
+    "1": "ctft:blocks/magenta_concrete_powder_block",
+    "particle": "ctft:blocks/magenta_concrete_powder_block"
+  },
+  "overrides": [
+        { "predicate": { "cast": 0.0 }, "model": "ctft:item/magenta_concrete_powder_fishing_rod" },
+        { "predicate": { "cast": 1.0 }, "model": "ctft:item/magenta_concrete_powder_fishing_rod_cast" }
+    ]
+}
+        

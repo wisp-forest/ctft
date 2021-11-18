@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:prismarine_stairs"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:prismarine_stairs_sword",
+			"ctft:prismarine_stairs_pickaxe",
+			"ctft:prismarine_stairs_axe",
+			"ctft:prismarine_stairs_shovel",
+			"ctft:prismarine_stairs_hoe",
+			"ctft:prismarine_stairs_shield",
+			"ctft:prismarine_stairs_fishing_rod",
+			"ctft:prismarine_stairs_compass",
+			"ctft:prismarine_stairs_clock",
+			"ctft:prismarine_stairs_helmet",
+			"ctft:prismarine_stairs_chestplate",
+			"ctft:prismarine_stairs_leggings",
+			"ctft:prismarine_stairs_boots",
+			"ctft:prismarine_stairs_shears",
+			"ctft:prismarine_stairs_horse_armor",
+			"ctft:prismarine_stairs_bow"
+		]
+	}
+}

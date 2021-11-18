@@ -1,0 +1,23 @@
+
+{
+  "group": "Orange Carpet Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:orange_carpet"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:orange_carpet_shield",
+    "count": 1
+  }
+}
+        

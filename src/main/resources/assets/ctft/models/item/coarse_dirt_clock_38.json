@@ -1,0 +1,10 @@
+
+{
+  "parent": "ctft:item/clock",
+  "textures": {
+    "0": "ctft:items/clock_38",
+    "1": "ctft:blocks/coarse_dirt_block",
+    "particle": "ctft:blocks/coarse_dirt_block"
+  }
+}
+            

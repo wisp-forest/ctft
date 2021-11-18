@@ -1,0 +1,23 @@
+
+{
+  "group": "Gray Candle Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:gray_candle"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:gray_candle_bow",
+    "count": 1
+  }
+}
+        

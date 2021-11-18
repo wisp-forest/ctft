@@ -1,0 +1,10 @@
+
+    {
+      "parent": "ctft:item/pickaxe",
+      "textures": {
+        "0": "ctft:items/iron_pickaxe",
+        "1": "ctft:blocks/jack_o_lantern_block",
+        "particle": "ctft:blocks/jack_o_lantern_block"
+      }
+    }
+            

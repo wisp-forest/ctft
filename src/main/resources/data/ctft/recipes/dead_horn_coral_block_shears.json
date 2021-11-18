@@ -1,0 +1,20 @@
+
+{
+  "group": "Dead Horn Coral Block Shears",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 0 ",
+    "   "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:dead_horn_coral_block"
+    }
+  },
+  "result": {
+    "item": "ctft:dead_horn_coral_block_shears",
+    "count": 1
+  }
+}
+        

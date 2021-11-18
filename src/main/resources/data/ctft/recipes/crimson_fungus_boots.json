@@ -1,0 +1,20 @@
+
+{
+  "group": "Crimson Fungus Boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:crimson_fungus"
+    }
+  },
+  "result": {
+    "item": "ctft:crimson_fungus_boots",
+    "count": 1
+  }
+}
+        

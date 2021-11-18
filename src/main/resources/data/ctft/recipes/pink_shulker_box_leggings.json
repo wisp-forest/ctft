@@ -1,0 +1,20 @@
+
+{
+  "group": "Pink Shulker Box Leggings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:pink_shulker_box"
+    }
+  },
+  "result": {
+    "item": "ctft:pink_shulker_box_leggings",
+    "count": 1
+  }
+}
+        

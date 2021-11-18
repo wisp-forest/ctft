@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:diorite_slab"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:diorite_slab_sword",
+			"ctft:diorite_slab_pickaxe",
+			"ctft:diorite_slab_axe",
+			"ctft:diorite_slab_shovel",
+			"ctft:diorite_slab_hoe",
+			"ctft:diorite_slab_shield",
+			"ctft:diorite_slab_fishing_rod",
+			"ctft:diorite_slab_compass",
+			"ctft:diorite_slab_clock",
+			"ctft:diorite_slab_helmet",
+			"ctft:diorite_slab_chestplate",
+			"ctft:diorite_slab_leggings",
+			"ctft:diorite_slab_boots",
+			"ctft:diorite_slab_shears",
+			"ctft:diorite_slab_horse_armor",
+			"ctft:diorite_slab_bow"
+		]
+	}
+}

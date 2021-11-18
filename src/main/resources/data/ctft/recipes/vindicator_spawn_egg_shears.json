@@ -1,0 +1,20 @@
+
+{
+  "group": "Vindicator Spawn Egg Shears",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 0 ",
+    "   "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:vindicator_spawn_egg"
+    }
+  },
+  "result": {
+    "item": "ctft:vindicator_spawn_egg_shears",
+    "count": 1
+  }
+}
+        

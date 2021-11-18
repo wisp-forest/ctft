@@ -1,0 +1,23 @@
+
+{
+  "group": "End Stone Brick Slab Clock",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    "010",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:end_stone_brick_slab"
+    },
+    "1": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:end_stone_brick_slab_clock",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:hay_block"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:hay_block_sword",
+			"ctft:hay_block_pickaxe",
+			"ctft:hay_block_axe",
+			"ctft:hay_block_shovel",
+			"ctft:hay_block_hoe",
+			"ctft:hay_block_shield",
+			"ctft:hay_block_fishing_rod",
+			"ctft:hay_block_compass",
+			"ctft:hay_block_clock",
+			"ctft:hay_block_helmet",
+			"ctft:hay_block_chestplate",
+			"ctft:hay_block_leggings",
+			"ctft:hay_block_boots",
+			"ctft:hay_block_shears",
+			"ctft:hay_block_horse_armor",
+			"ctft:hay_block_bow"
+		]
+	}
+}

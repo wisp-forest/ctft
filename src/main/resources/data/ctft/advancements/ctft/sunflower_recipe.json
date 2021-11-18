@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:sunflower"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:sunflower_sword",
+			"ctft:sunflower_pickaxe",
+			"ctft:sunflower_axe",
+			"ctft:sunflower_shovel",
+			"ctft:sunflower_hoe",
+			"ctft:sunflower_shield",
+			"ctft:sunflower_fishing_rod",
+			"ctft:sunflower_compass",
+			"ctft:sunflower_clock",
+			"ctft:sunflower_helmet",
+			"ctft:sunflower_chestplate",
+			"ctft:sunflower_leggings",
+			"ctft:sunflower_boots",
+			"ctft:sunflower_shears",
+			"ctft:sunflower_horse_armor",
+			"ctft:sunflower_bow"
+		]
+	}
+}

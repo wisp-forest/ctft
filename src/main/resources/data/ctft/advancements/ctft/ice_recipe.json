@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:ice"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:ice_sword",
+			"ctft:ice_pickaxe",
+			"ctft:ice_axe",
+			"ctft:ice_shovel",
+			"ctft:ice_hoe",
+			"ctft:ice_shield",
+			"ctft:ice_fishing_rod",
+			"ctft:ice_compass",
+			"ctft:ice_clock",
+			"ctft:ice_helmet",
+			"ctft:ice_chestplate",
+			"ctft:ice_leggings",
+			"ctft:ice_boots",
+			"ctft:ice_shears",
+			"ctft:ice_horse_armor",
+			"ctft:ice_bow"
+		]
+	}
+}

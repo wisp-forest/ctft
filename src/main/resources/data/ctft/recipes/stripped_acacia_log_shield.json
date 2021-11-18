@@ -1,0 +1,23 @@
+
+{
+  "group": "Stripped Acacia Log Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:stripped_acacia_log"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:stripped_acacia_log_shield",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,23 @@
+
+{
+  "group": "Iron Boots Axe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "00 ",
+    "01 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:iron_boots"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:iron_boots_axe",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,20 @@
+
+{
+  "group": "Raw Cod Helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:cod"
+    }
+  },
+  "result": {
+    "item": "ctft:raw_cod_helmet",
+    "count": 1
+  }
+}
+        

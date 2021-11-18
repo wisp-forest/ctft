@@ -1,0 +1,20 @@
+
+{
+  "group": "Granite Slab Shears",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 0 ",
+    "   "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:granite_slab"
+    }
+  },
+  "result": {
+    "item": "ctft:granite_slab_shears",
+    "count": 1
+  }
+}
+        

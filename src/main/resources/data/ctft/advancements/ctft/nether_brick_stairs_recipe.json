@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:nether_brick_stairs"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:nether_brick_stairs_sword",
+			"ctft:nether_brick_stairs_pickaxe",
+			"ctft:nether_brick_stairs_axe",
+			"ctft:nether_brick_stairs_shovel",
+			"ctft:nether_brick_stairs_hoe",
+			"ctft:nether_brick_stairs_shield",
+			"ctft:nether_brick_stairs_fishing_rod",
+			"ctft:nether_brick_stairs_compass",
+			"ctft:nether_brick_stairs_clock",
+			"ctft:nether_brick_stairs_helmet",
+			"ctft:nether_brick_stairs_chestplate",
+			"ctft:nether_brick_stairs_leggings",
+			"ctft:nether_brick_stairs_boots",
+			"ctft:nether_brick_stairs_shears",
+			"ctft:nether_brick_stairs_horse_armor",
+			"ctft:nether_brick_stairs_bow"
+		]
+	}
+}

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:chipped_anvil"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:chipped_anvil_sword",
+			"ctft:chipped_anvil_pickaxe",
+			"ctft:chipped_anvil_axe",
+			"ctft:chipped_anvil_shovel",
+			"ctft:chipped_anvil_hoe",
+			"ctft:chipped_anvil_shield",
+			"ctft:chipped_anvil_fishing_rod",
+			"ctft:chipped_anvil_compass",
+			"ctft:chipped_anvil_clock",
+			"ctft:chipped_anvil_helmet",
+			"ctft:chipped_anvil_chestplate",
+			"ctft:chipped_anvil_leggings",
+			"ctft:chipped_anvil_boots",
+			"ctft:chipped_anvil_shears",
+			"ctft:chipped_anvil_horse_armor",
+			"ctft:chipped_anvil_bow"
+		]
+	}
+}

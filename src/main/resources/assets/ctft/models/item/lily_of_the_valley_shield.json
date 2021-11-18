@@ -1,0 +1,14 @@
+
+    {
+      "parent": "ctft:item/shield",
+      "textures": {
+        "0": "ctft:items/shield_base",
+        "1": "ctft:blocks/lily_of_the_valley_block",
+        "particle": "ctft:blocks/lily_of_the_valley_block"
+      },
+      "overrides": [
+        { "predicate": { "blocking": 0.0 }, "model": "ctft:item/lily_of_the_valley_shield" },
+        { "predicate": { "blocking": 1.0 }, "model": "ctft:item/lily_of_the_valley_shield_blocking" }
+        ]
+    }
+            

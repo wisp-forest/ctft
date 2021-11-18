@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:salmon_bucket"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:salmon_bucket_sword",
+			"ctft:salmon_bucket_pickaxe",
+			"ctft:salmon_bucket_axe",
+			"ctft:salmon_bucket_shovel",
+			"ctft:salmon_bucket_hoe",
+			"ctft:salmon_bucket_shield",
+			"ctft:salmon_bucket_fishing_rod",
+			"ctft:salmon_bucket_compass",
+			"ctft:salmon_bucket_clock",
+			"ctft:salmon_bucket_helmet",
+			"ctft:salmon_bucket_chestplate",
+			"ctft:salmon_bucket_leggings",
+			"ctft:salmon_bucket_boots",
+			"ctft:salmon_bucket_shears",
+			"ctft:salmon_bucket_horse_armor",
+			"ctft:salmon_bucket_bow"
+		]
+	}
+}

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:jukebox"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:jukebox_sword",
+			"ctft:jukebox_pickaxe",
+			"ctft:jukebox_axe",
+			"ctft:jukebox_shovel",
+			"ctft:jukebox_hoe",
+			"ctft:jukebox_shield",
+			"ctft:jukebox_fishing_rod",
+			"ctft:jukebox_compass",
+			"ctft:jukebox_clock",
+			"ctft:jukebox_helmet",
+			"ctft:jukebox_chestplate",
+			"ctft:jukebox_leggings",
+			"ctft:jukebox_boots",
+			"ctft:jukebox_shears",
+			"ctft:jukebox_horse_armor",
+			"ctft:jukebox_bow"
+		]
+	}
+}

@@ -1,0 +1,20 @@
+
+{
+  "group": "Horn Coral Leggings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:horn_coral"
+    }
+  },
+  "result": {
+    "item": "ctft:horn_coral_leggings",
+    "count": 1
+  }
+}
+        

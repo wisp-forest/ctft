@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:jungle_boat"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:jungle_boat_sword",
+			"ctft:jungle_boat_pickaxe",
+			"ctft:jungle_boat_axe",
+			"ctft:jungle_boat_shovel",
+			"ctft:jungle_boat_hoe",
+			"ctft:jungle_boat_shield",
+			"ctft:jungle_boat_fishing_rod",
+			"ctft:jungle_boat_compass",
+			"ctft:jungle_boat_clock",
+			"ctft:jungle_boat_helmet",
+			"ctft:jungle_boat_chestplate",
+			"ctft:jungle_boat_leggings",
+			"ctft:jungle_boat_boots",
+			"ctft:jungle_boat_shears",
+			"ctft:jungle_boat_horse_armor",
+			"ctft:jungle_boat_bow"
+		]
+	}
+}

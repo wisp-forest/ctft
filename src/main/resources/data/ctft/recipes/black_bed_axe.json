@@ -1,0 +1,23 @@
+
+{
+  "group": "Black Bed Axe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "00 ",
+    "01 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:black_bed"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:black_bed_axe",
+    "count": 1
+  }
+}
+        

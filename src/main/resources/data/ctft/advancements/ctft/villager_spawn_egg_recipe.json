@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:villager_spawn_egg"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:villager_spawn_egg_sword",
+			"ctft:villager_spawn_egg_pickaxe",
+			"ctft:villager_spawn_egg_axe",
+			"ctft:villager_spawn_egg_shovel",
+			"ctft:villager_spawn_egg_hoe",
+			"ctft:villager_spawn_egg_shield",
+			"ctft:villager_spawn_egg_fishing_rod",
+			"ctft:villager_spawn_egg_compass",
+			"ctft:villager_spawn_egg_clock",
+			"ctft:villager_spawn_egg_helmet",
+			"ctft:villager_spawn_egg_chestplate",
+			"ctft:villager_spawn_egg_leggings",
+			"ctft:villager_spawn_egg_boots",
+			"ctft:villager_spawn_egg_shears",
+			"ctft:villager_spawn_egg_horse_armor",
+			"ctft:villager_spawn_egg_bow"
+		]
+	}
+}

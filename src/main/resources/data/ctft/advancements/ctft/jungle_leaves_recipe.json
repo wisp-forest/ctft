@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:jungle_leaves"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:jungle_leaves_sword",
+			"ctft:jungle_leaves_pickaxe",
+			"ctft:jungle_leaves_axe",
+			"ctft:jungle_leaves_shovel",
+			"ctft:jungle_leaves_hoe",
+			"ctft:jungle_leaves_shield",
+			"ctft:jungle_leaves_fishing_rod",
+			"ctft:jungle_leaves_compass",
+			"ctft:jungle_leaves_clock",
+			"ctft:jungle_leaves_helmet",
+			"ctft:jungle_leaves_chestplate",
+			"ctft:jungle_leaves_leggings",
+			"ctft:jungle_leaves_boots",
+			"ctft:jungle_leaves_shears",
+			"ctft:jungle_leaves_horse_armor",
+			"ctft:jungle_leaves_bow"
+		]
+	}
+}

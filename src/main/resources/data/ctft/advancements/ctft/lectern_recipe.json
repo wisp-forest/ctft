@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:lectern"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:lectern_sword",
+			"ctft:lectern_pickaxe",
+			"ctft:lectern_axe",
+			"ctft:lectern_shovel",
+			"ctft:lectern_hoe",
+			"ctft:lectern_shield",
+			"ctft:lectern_fishing_rod",
+			"ctft:lectern_compass",
+			"ctft:lectern_clock",
+			"ctft:lectern_helmet",
+			"ctft:lectern_chestplate",
+			"ctft:lectern_leggings",
+			"ctft:lectern_boots",
+			"ctft:lectern_shears",
+			"ctft:lectern_horse_armor",
+			"ctft:lectern_bow"
+		]
+	}
+}

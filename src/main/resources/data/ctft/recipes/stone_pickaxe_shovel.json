@@ -1,0 +1,23 @@
+
+{
+  "group": "Stone Pickaxe Shovel",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:stone_pickaxe"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:stone_pickaxe_shovel",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:salmon"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:salmon_sword",
+			"ctft:salmon_pickaxe",
+			"ctft:salmon_axe",
+			"ctft:salmon_shovel",
+			"ctft:salmon_hoe",
+			"ctft:salmon_shield",
+			"ctft:salmon_fishing_rod",
+			"ctft:salmon_compass",
+			"ctft:salmon_clock",
+			"ctft:salmon_helmet",
+			"ctft:salmon_chestplate",
+			"ctft:salmon_leggings",
+			"ctft:salmon_boots",
+			"ctft:salmon_shears",
+			"ctft:salmon_horse_armor",
+			"ctft:salmon_bow"
+		]
+	}
+}

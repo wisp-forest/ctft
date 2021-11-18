@@ -1,0 +1,23 @@
+
+{
+  "group": "Orange Stained Glass Pane Clock",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    "010",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:orange_stained_glass_pane"
+    },
+    "1": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:orange_stained_glass_pane_clock",
+    "count": 1
+  }
+}
+        

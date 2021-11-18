@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:item_frame"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:item_frame_sword",
+			"ctft:item_frame_pickaxe",
+			"ctft:item_frame_axe",
+			"ctft:item_frame_shovel",
+			"ctft:item_frame_hoe",
+			"ctft:item_frame_shield",
+			"ctft:item_frame_fishing_rod",
+			"ctft:item_frame_compass",
+			"ctft:item_frame_clock",
+			"ctft:item_frame_helmet",
+			"ctft:item_frame_chestplate",
+			"ctft:item_frame_leggings",
+			"ctft:item_frame_boots",
+			"ctft:item_frame_shears",
+			"ctft:item_frame_horse_armor",
+			"ctft:item_frame_bow"
+		]
+	}
+}

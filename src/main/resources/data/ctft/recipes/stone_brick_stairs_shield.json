@@ -1,0 +1,23 @@
+
+{
+  "group": "Stone Brick Stairs Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:stone_brick_stairs"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:stone_brick_stairs_shield",
+    "count": 1
+  }
+}
+        

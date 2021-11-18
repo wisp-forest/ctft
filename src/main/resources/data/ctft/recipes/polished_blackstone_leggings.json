@@ -1,0 +1,20 @@
+
+{
+  "group": "Polished Blackstone Leggings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:polished_blackstone"
+    }
+  },
+  "result": {
+    "item": "ctft:polished_blackstone_leggings",
+    "count": 1
+  }
+}
+        

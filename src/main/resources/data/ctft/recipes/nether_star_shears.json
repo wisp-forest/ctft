@@ -1,0 +1,20 @@
+
+{
+  "group": "Nether Star Shears",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 0 ",
+    "   "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "result": {
+    "item": "ctft:nether_star_shears",
+    "count": 1
+  }
+}
+        

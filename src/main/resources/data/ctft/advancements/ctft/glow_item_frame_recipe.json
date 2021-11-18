@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:glow_item_frame"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:glow_item_frame_sword",
+			"ctft:glow_item_frame_pickaxe",
+			"ctft:glow_item_frame_axe",
+			"ctft:glow_item_frame_shovel",
+			"ctft:glow_item_frame_hoe",
+			"ctft:glow_item_frame_shield",
+			"ctft:glow_item_frame_fishing_rod",
+			"ctft:glow_item_frame_compass",
+			"ctft:glow_item_frame_clock",
+			"ctft:glow_item_frame_helmet",
+			"ctft:glow_item_frame_chestplate",
+			"ctft:glow_item_frame_leggings",
+			"ctft:glow_item_frame_boots",
+			"ctft:glow_item_frame_shears",
+			"ctft:glow_item_frame_horse_armor",
+			"ctft:glow_item_frame_bow"
+		]
+	}
+}

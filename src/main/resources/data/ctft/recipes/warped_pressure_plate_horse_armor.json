@@ -1,0 +1,20 @@
+
+{
+  "group": "Warped Pressure Plate Horse Armor",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:warped_pressure_plate"
+    }
+  },
+  "result": {
+    "item": "ctft:warped_pressure_plate_horse_armor",
+    "count": 1
+  }
+}
+        

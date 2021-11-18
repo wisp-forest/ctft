@@ -1,0 +1,20 @@
+
+{
+  "group": "Vine Helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:vine"
+    }
+  },
+  "result": {
+    "item": "ctft:vine_helmet",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,23 @@
+
+{
+  "group": "Cooked Rabbit Axe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "00 ",
+    "01 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:cooked_rabbit"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:cooked_rabbit_axe",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:flint"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:flint_sword",
+			"ctft:flint_pickaxe",
+			"ctft:flint_axe",
+			"ctft:flint_shovel",
+			"ctft:flint_hoe",
+			"ctft:flint_shield",
+			"ctft:flint_fishing_rod",
+			"ctft:flint_compass",
+			"ctft:flint_clock",
+			"ctft:flint_helmet",
+			"ctft:flint_chestplate",
+			"ctft:flint_leggings",
+			"ctft:flint_boots",
+			"ctft:flint_shears",
+			"ctft:flint_horse_armor",
+			"ctft:flint_bow"
+		]
+	}
+}

@@ -1,0 +1,23 @@
+
+{
+  "group": "Jungle Fence Pickaxe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:jungle_fence"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:jungle_fence_pickaxe",
+    "count": 1
+  }
+}
+        

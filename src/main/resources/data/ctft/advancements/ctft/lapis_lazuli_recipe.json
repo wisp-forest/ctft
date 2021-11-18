@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:lapis_lazuli"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:lapis_lazuli_sword",
+			"ctft:lapis_lazuli_pickaxe",
+			"ctft:lapis_lazuli_axe",
+			"ctft:lapis_lazuli_shovel",
+			"ctft:lapis_lazuli_hoe",
+			"ctft:lapis_lazuli_shield",
+			"ctft:lapis_lazuli_fishing_rod",
+			"ctft:lapis_lazuli_compass",
+			"ctft:lapis_lazuli_clock",
+			"ctft:lapis_lazuli_helmet",
+			"ctft:lapis_lazuli_chestplate",
+			"ctft:lapis_lazuli_leggings",
+			"ctft:lapis_lazuli_boots",
+			"ctft:lapis_lazuli_shears",
+			"ctft:lapis_lazuli_horse_armor",
+			"ctft:lapis_lazuli_bow"
+		]
+	}
+}

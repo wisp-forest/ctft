@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:green_banner"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:green_banner_sword",
+			"ctft:green_banner_pickaxe",
+			"ctft:green_banner_axe",
+			"ctft:green_banner_shovel",
+			"ctft:green_banner_hoe",
+			"ctft:green_banner_shield",
+			"ctft:green_banner_fishing_rod",
+			"ctft:green_banner_compass",
+			"ctft:green_banner_clock",
+			"ctft:green_banner_helmet",
+			"ctft:green_banner_chestplate",
+			"ctft:green_banner_leggings",
+			"ctft:green_banner_boots",
+			"ctft:green_banner_shears",
+			"ctft:green_banner_horse_armor",
+			"ctft:green_banner_bow"
+		]
+	}
+}

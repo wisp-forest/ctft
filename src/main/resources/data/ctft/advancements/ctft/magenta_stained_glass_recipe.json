@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:magenta_stained_glass"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:magenta_stained_glass_sword",
+			"ctft:magenta_stained_glass_pickaxe",
+			"ctft:magenta_stained_glass_axe",
+			"ctft:magenta_stained_glass_shovel",
+			"ctft:magenta_stained_glass_hoe",
+			"ctft:magenta_stained_glass_shield",
+			"ctft:magenta_stained_glass_fishing_rod",
+			"ctft:magenta_stained_glass_compass",
+			"ctft:magenta_stained_glass_clock",
+			"ctft:magenta_stained_glass_helmet",
+			"ctft:magenta_stained_glass_chestplate",
+			"ctft:magenta_stained_glass_leggings",
+			"ctft:magenta_stained_glass_boots",
+			"ctft:magenta_stained_glass_shears",
+			"ctft:magenta_stained_glass_horse_armor",
+			"ctft:magenta_stained_glass_bow"
+		]
+	}
+}

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:warped_fungus"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:warped_fungus_sword",
+			"ctft:warped_fungus_pickaxe",
+			"ctft:warped_fungus_axe",
+			"ctft:warped_fungus_shovel",
+			"ctft:warped_fungus_hoe",
+			"ctft:warped_fungus_shield",
+			"ctft:warped_fungus_fishing_rod",
+			"ctft:warped_fungus_compass",
+			"ctft:warped_fungus_clock",
+			"ctft:warped_fungus_helmet",
+			"ctft:warped_fungus_chestplate",
+			"ctft:warped_fungus_leggings",
+			"ctft:warped_fungus_boots",
+			"ctft:warped_fungus_shears",
+			"ctft:warped_fungus_horse_armor",
+			"ctft:warped_fungus_bow"
+		]
+	}
+}

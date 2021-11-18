@@ -1,0 +1,23 @@
+
+{
+  "group": "Crossbow Shovel",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:crossbow"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:crossbow_shovel",
+    "count": 1
+  }
+}
+        

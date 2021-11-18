@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:piglin_banner_pattern"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:piglin_banner_pattern_sword",
+			"ctft:piglin_banner_pattern_pickaxe",
+			"ctft:piglin_banner_pattern_axe",
+			"ctft:piglin_banner_pattern_shovel",
+			"ctft:piglin_banner_pattern_hoe",
+			"ctft:piglin_banner_pattern_shield",
+			"ctft:piglin_banner_pattern_fishing_rod",
+			"ctft:piglin_banner_pattern_compass",
+			"ctft:piglin_banner_pattern_clock",
+			"ctft:piglin_banner_pattern_helmet",
+			"ctft:piglin_banner_pattern_chestplate",
+			"ctft:piglin_banner_pattern_leggings",
+			"ctft:piglin_banner_pattern_boots",
+			"ctft:piglin_banner_pattern_shears",
+			"ctft:piglin_banner_pattern_horse_armor",
+			"ctft:piglin_banner_pattern_bow"
+		]
+	}
+}

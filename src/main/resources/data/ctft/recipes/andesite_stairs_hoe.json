@@ -1,0 +1,23 @@
+
+{
+  "group": "Andesite Stairs Hoe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "00 ",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:andesite_stairs"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:andesite_stairs_hoe",
+    "count": 1
+  }
+}
+        

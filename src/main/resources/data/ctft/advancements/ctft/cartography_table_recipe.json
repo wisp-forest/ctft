@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cartography_table"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:cartography_table_sword",
+			"ctft:cartography_table_pickaxe",
+			"ctft:cartography_table_axe",
+			"ctft:cartography_table_shovel",
+			"ctft:cartography_table_hoe",
+			"ctft:cartography_table_shield",
+			"ctft:cartography_table_fishing_rod",
+			"ctft:cartography_table_compass",
+			"ctft:cartography_table_clock",
+			"ctft:cartography_table_helmet",
+			"ctft:cartography_table_chestplate",
+			"ctft:cartography_table_leggings",
+			"ctft:cartography_table_boots",
+			"ctft:cartography_table_shears",
+			"ctft:cartography_table_horse_armor",
+			"ctft:cartography_table_bow"
+		]
+	}
+}

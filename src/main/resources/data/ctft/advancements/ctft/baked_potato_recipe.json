@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:baked_potato"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:baked_potato_sword",
+			"ctft:baked_potato_pickaxe",
+			"ctft:baked_potato_axe",
+			"ctft:baked_potato_shovel",
+			"ctft:baked_potato_hoe",
+			"ctft:baked_potato_shield",
+			"ctft:baked_potato_fishing_rod",
+			"ctft:baked_potato_compass",
+			"ctft:baked_potato_clock",
+			"ctft:baked_potato_helmet",
+			"ctft:baked_potato_chestplate",
+			"ctft:baked_potato_leggings",
+			"ctft:baked_potato_boots",
+			"ctft:baked_potato_shears",
+			"ctft:baked_potato_horse_armor",
+			"ctft:baked_potato_bow"
+		]
+	}
+}

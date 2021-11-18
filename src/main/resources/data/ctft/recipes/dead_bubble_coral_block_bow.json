@@ -1,0 +1,23 @@
+
+{
+  "group": "Dead Bubble Coral Block Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:dead_bubble_coral_block"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:dead_bubble_coral_block_bow",
+    "count": 1
+  }
+}
+        

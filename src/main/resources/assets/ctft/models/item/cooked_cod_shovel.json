@@ -1,0 +1,10 @@
+
+    {
+      "parent": "ctft:item/shovel",
+      "textures": {
+        "0": "ctft:items/iron_shovel",
+        "1": "ctft:blocks/cooked_cod_block",
+        "particle": "ctft:blocks/cooked_cod_block"
+      }
+    }
+            

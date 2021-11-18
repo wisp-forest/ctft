@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:grass_block"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:grass_block_sword",
+			"ctft:grass_block_pickaxe",
+			"ctft:grass_block_axe",
+			"ctft:grass_block_shovel",
+			"ctft:grass_block_hoe",
+			"ctft:grass_block_shield",
+			"ctft:grass_block_fishing_rod",
+			"ctft:grass_block_compass",
+			"ctft:grass_block_clock",
+			"ctft:grass_block_helmet",
+			"ctft:grass_block_chestplate",
+			"ctft:grass_block_leggings",
+			"ctft:grass_block_boots",
+			"ctft:grass_block_shears",
+			"ctft:grass_block_horse_armor",
+			"ctft:grass_block_bow"
+		]
+	}
+}

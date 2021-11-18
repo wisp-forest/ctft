@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:emerald_block"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:emerald_block_sword",
+			"ctft:emerald_block_pickaxe",
+			"ctft:emerald_block_axe",
+			"ctft:emerald_block_shovel",
+			"ctft:emerald_block_hoe",
+			"ctft:emerald_block_shield",
+			"ctft:emerald_block_fishing_rod",
+			"ctft:emerald_block_compass",
+			"ctft:emerald_block_clock",
+			"ctft:emerald_block_helmet",
+			"ctft:emerald_block_chestplate",
+			"ctft:emerald_block_leggings",
+			"ctft:emerald_block_boots",
+			"ctft:emerald_block_shears",
+			"ctft:emerald_block_horse_armor",
+			"ctft:emerald_block_bow"
+		]
+	}
+}

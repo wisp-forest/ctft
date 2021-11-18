@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:raw_iron_block"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:raw_iron_block_sword",
+			"ctft:raw_iron_block_pickaxe",
+			"ctft:raw_iron_block_axe",
+			"ctft:raw_iron_block_shovel",
+			"ctft:raw_iron_block_hoe",
+			"ctft:raw_iron_block_shield",
+			"ctft:raw_iron_block_fishing_rod",
+			"ctft:raw_iron_block_compass",
+			"ctft:raw_iron_block_clock",
+			"ctft:raw_iron_block_helmet",
+			"ctft:raw_iron_block_chestplate",
+			"ctft:raw_iron_block_leggings",
+			"ctft:raw_iron_block_boots",
+			"ctft:raw_iron_block_shears",
+			"ctft:raw_iron_block_horse_armor",
+			"ctft:raw_iron_block_bow"
+		]
+	}
+}

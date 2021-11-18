@@ -1,0 +1,23 @@
+
+{
+  "group": "Bone Meal Pickaxe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:bone_meal"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:bone_meal_pickaxe",
+    "count": 1
+  }
+}
+        

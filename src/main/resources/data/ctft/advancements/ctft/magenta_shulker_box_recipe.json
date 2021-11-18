@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:magenta_shulker_box"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:magenta_shulker_box_sword",
+			"ctft:magenta_shulker_box_pickaxe",
+			"ctft:magenta_shulker_box_axe",
+			"ctft:magenta_shulker_box_shovel",
+			"ctft:magenta_shulker_box_hoe",
+			"ctft:magenta_shulker_box_shield",
+			"ctft:magenta_shulker_box_fishing_rod",
+			"ctft:magenta_shulker_box_compass",
+			"ctft:magenta_shulker_box_clock",
+			"ctft:magenta_shulker_box_helmet",
+			"ctft:magenta_shulker_box_chestplate",
+			"ctft:magenta_shulker_box_leggings",
+			"ctft:magenta_shulker_box_boots",
+			"ctft:magenta_shulker_box_shears",
+			"ctft:magenta_shulker_box_horse_armor",
+			"ctft:magenta_shulker_box_bow"
+		]
+	}
+}

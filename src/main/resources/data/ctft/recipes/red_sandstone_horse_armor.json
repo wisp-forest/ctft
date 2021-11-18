@@ -1,0 +1,20 @@
+
+{
+  "group": "Red Sandstone Horse Armor",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:red_sandstone"
+    }
+  },
+  "result": {
+    "item": "ctft:red_sandstone_horse_armor",
+    "count": 1
+  }
+}
+        

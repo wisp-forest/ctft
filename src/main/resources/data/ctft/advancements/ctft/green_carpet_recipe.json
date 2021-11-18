@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:green_carpet"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:green_carpet_sword",
+			"ctft:green_carpet_pickaxe",
+			"ctft:green_carpet_axe",
+			"ctft:green_carpet_shovel",
+			"ctft:green_carpet_hoe",
+			"ctft:green_carpet_shield",
+			"ctft:green_carpet_fishing_rod",
+			"ctft:green_carpet_compass",
+			"ctft:green_carpet_clock",
+			"ctft:green_carpet_helmet",
+			"ctft:green_carpet_chestplate",
+			"ctft:green_carpet_leggings",
+			"ctft:green_carpet_boots",
+			"ctft:green_carpet_shears",
+			"ctft:green_carpet_horse_armor",
+			"ctft:green_carpet_bow"
+		]
+	}
+}

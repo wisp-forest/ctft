@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:chiseled_stone_bricks"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:chiseled_stone_bricks_sword",
+			"ctft:chiseled_stone_bricks_pickaxe",
+			"ctft:chiseled_stone_bricks_axe",
+			"ctft:chiseled_stone_bricks_shovel",
+			"ctft:chiseled_stone_bricks_hoe",
+			"ctft:chiseled_stone_bricks_shield",
+			"ctft:chiseled_stone_bricks_fishing_rod",
+			"ctft:chiseled_stone_bricks_compass",
+			"ctft:chiseled_stone_bricks_clock",
+			"ctft:chiseled_stone_bricks_helmet",
+			"ctft:chiseled_stone_bricks_chestplate",
+			"ctft:chiseled_stone_bricks_leggings",
+			"ctft:chiseled_stone_bricks_boots",
+			"ctft:chiseled_stone_bricks_shears",
+			"ctft:chiseled_stone_bricks_horse_armor",
+			"ctft:chiseled_stone_bricks_bow"
+		]
+	}
+}

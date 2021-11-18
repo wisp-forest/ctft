@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:pumpkin_seeds"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:pumpkin_seeds_sword",
+			"ctft:pumpkin_seeds_pickaxe",
+			"ctft:pumpkin_seeds_axe",
+			"ctft:pumpkin_seeds_shovel",
+			"ctft:pumpkin_seeds_hoe",
+			"ctft:pumpkin_seeds_shield",
+			"ctft:pumpkin_seeds_fishing_rod",
+			"ctft:pumpkin_seeds_compass",
+			"ctft:pumpkin_seeds_clock",
+			"ctft:pumpkin_seeds_helmet",
+			"ctft:pumpkin_seeds_chestplate",
+			"ctft:pumpkin_seeds_leggings",
+			"ctft:pumpkin_seeds_boots",
+			"ctft:pumpkin_seeds_shears",
+			"ctft:pumpkin_seeds_horse_armor",
+			"ctft:pumpkin_seeds_bow"
+		]
+	}
+}

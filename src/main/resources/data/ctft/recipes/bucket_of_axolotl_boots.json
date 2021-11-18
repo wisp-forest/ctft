@@ -1,0 +1,20 @@
+
+{
+  "group": "Bucket of Axolotl Boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:axolotl_bucket"
+    }
+  },
+  "result": {
+    "item": "ctft:bucket_of_axolotl_boots",
+    "count": 1
+  }
+}
+        

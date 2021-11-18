@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cornflower"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:cornflower_sword",
+			"ctft:cornflower_pickaxe",
+			"ctft:cornflower_axe",
+			"ctft:cornflower_shovel",
+			"ctft:cornflower_hoe",
+			"ctft:cornflower_shield",
+			"ctft:cornflower_fishing_rod",
+			"ctft:cornflower_compass",
+			"ctft:cornflower_clock",
+			"ctft:cornflower_helmet",
+			"ctft:cornflower_chestplate",
+			"ctft:cornflower_leggings",
+			"ctft:cornflower_boots",
+			"ctft:cornflower_shears",
+			"ctft:cornflower_horse_armor",
+			"ctft:cornflower_bow"
+		]
+	}
+}

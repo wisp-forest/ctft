@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:shulker_shell"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:shulker_shell_sword",
+			"ctft:shulker_shell_pickaxe",
+			"ctft:shulker_shell_axe",
+			"ctft:shulker_shell_shovel",
+			"ctft:shulker_shell_hoe",
+			"ctft:shulker_shell_shield",
+			"ctft:shulker_shell_fishing_rod",
+			"ctft:shulker_shell_compass",
+			"ctft:shulker_shell_clock",
+			"ctft:shulker_shell_helmet",
+			"ctft:shulker_shell_chestplate",
+			"ctft:shulker_shell_leggings",
+			"ctft:shulker_shell_boots",
+			"ctft:shulker_shell_shears",
+			"ctft:shulker_shell_horse_armor",
+			"ctft:shulker_shell_bow"
+		]
+	}
+}

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cooked_porkchop"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:cooked_porkchop_sword",
+			"ctft:cooked_porkchop_pickaxe",
+			"ctft:cooked_porkchop_axe",
+			"ctft:cooked_porkchop_shovel",
+			"ctft:cooked_porkchop_hoe",
+			"ctft:cooked_porkchop_shield",
+			"ctft:cooked_porkchop_fishing_rod",
+			"ctft:cooked_porkchop_compass",
+			"ctft:cooked_porkchop_clock",
+			"ctft:cooked_porkchop_helmet",
+			"ctft:cooked_porkchop_chestplate",
+			"ctft:cooked_porkchop_leggings",
+			"ctft:cooked_porkchop_boots",
+			"ctft:cooked_porkchop_shears",
+			"ctft:cooked_porkchop_horse_armor",
+			"ctft:cooked_porkchop_bow"
+		]
+	}
+}

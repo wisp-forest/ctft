@@ -1,0 +1,20 @@
+
+{
+  "group": "Andesite Stairs Boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:andesite_stairs"
+    }
+  },
+  "result": {
+    "item": "ctft:andesite_stairs_boots",
+    "count": 1
+  }
+}
+        

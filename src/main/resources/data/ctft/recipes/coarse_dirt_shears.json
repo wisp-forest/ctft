@@ -1,0 +1,20 @@
+
+{
+  "group": "Coarse Dirt Shears",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 0 ",
+    "   "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:coarse_dirt"
+    }
+  },
+  "result": {
+    "item": "ctft:coarse_dirt_shears",
+    "count": 1
+  }
+}
+        

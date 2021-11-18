@@ -1,0 +1,23 @@
+
+{
+  "group": "Purple Stained Glass Pane Shovel",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:purple_stained_glass_pane"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:purple_stained_glass_pane_shovel",
+    "count": 1
+  }
+}
+        

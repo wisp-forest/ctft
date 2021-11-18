@@ -1,0 +1,20 @@
+
+{
+  "group": "Lily Pad Shears",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 0 ",
+    "   "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:lily_pad"
+    }
+  },
+  "result": {
+    "item": "ctft:lily_pad_shears",
+    "count": 1
+  }
+}
+        

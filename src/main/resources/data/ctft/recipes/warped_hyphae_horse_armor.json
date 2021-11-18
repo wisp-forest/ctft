@@ -1,0 +1,20 @@
+
+{
+  "group": "Warped Hyphae Horse Armor",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:warped_hyphae"
+    }
+  },
+  "result": {
+    "item": "ctft:warped_hyphae_horse_armor",
+    "count": 1
+  }
+}
+        

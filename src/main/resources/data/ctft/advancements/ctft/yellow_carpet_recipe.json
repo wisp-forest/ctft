@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:yellow_carpet"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:yellow_carpet_sword",
+			"ctft:yellow_carpet_pickaxe",
+			"ctft:yellow_carpet_axe",
+			"ctft:yellow_carpet_shovel",
+			"ctft:yellow_carpet_hoe",
+			"ctft:yellow_carpet_shield",
+			"ctft:yellow_carpet_fishing_rod",
+			"ctft:yellow_carpet_compass",
+			"ctft:yellow_carpet_clock",
+			"ctft:yellow_carpet_helmet",
+			"ctft:yellow_carpet_chestplate",
+			"ctft:yellow_carpet_leggings",
+			"ctft:yellow_carpet_boots",
+			"ctft:yellow_carpet_shears",
+			"ctft:yellow_carpet_horse_armor",
+			"ctft:yellow_carpet_bow"
+		]
+	}
+}

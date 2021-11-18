@@ -1,0 +1,23 @@
+
+{
+  "group": "Iron Hoe Pickaxe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:iron_hoe"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:iron_hoe_pickaxe",
+    "count": 1
+  }
+}
+        

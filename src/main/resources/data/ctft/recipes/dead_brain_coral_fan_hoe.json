@@ -1,0 +1,23 @@
+
+{
+  "group": "Dead Brain Coral Fan Hoe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "00 ",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:dead_brain_coral_fan"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:dead_brain_coral_fan_hoe",
+    "count": 1
+  }
+}
+        

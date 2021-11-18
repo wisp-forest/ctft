@@ -1,0 +1,23 @@
+
+{
+  "group": "Baked Potato Hoe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "00 ",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:baked_potato"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:baked_potato_hoe",
+    "count": 1
+  }
+}
+        

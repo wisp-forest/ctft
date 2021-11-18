@@ -1,0 +1,20 @@
+
+{
+  "group": "Sponge Leggings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:sponge"
+    }
+  },
+  "result": {
+    "item": "ctft:sponge_leggings",
+    "count": 1
+  }
+}
+        

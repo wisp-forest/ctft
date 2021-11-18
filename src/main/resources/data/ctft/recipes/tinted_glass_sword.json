@@ -1,0 +1,23 @@
+
+{
+  "group": "Tinted Glass Sword",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    " 0 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:tinted_glass"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:tinted_glass_sword",
+    "count": 1
+  }
+}
+        

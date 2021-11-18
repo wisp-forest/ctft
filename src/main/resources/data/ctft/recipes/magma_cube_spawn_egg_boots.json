@@ -1,0 +1,20 @@
+
+{
+  "group": "Magma Cube Spawn Egg Boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:magma_cube_spawn_egg"
+    }
+  },
+  "result": {
+    "item": "ctft:magma_cube_spawn_egg_boots",
+    "count": 1
+  }
+}
+        

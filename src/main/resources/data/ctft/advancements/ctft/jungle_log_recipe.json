@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:jungle_log"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:jungle_log_sword",
+			"ctft:jungle_log_pickaxe",
+			"ctft:jungle_log_axe",
+			"ctft:jungle_log_shovel",
+			"ctft:jungle_log_hoe",
+			"ctft:jungle_log_shield",
+			"ctft:jungle_log_fishing_rod",
+			"ctft:jungle_log_compass",
+			"ctft:jungle_log_clock",
+			"ctft:jungle_log_helmet",
+			"ctft:jungle_log_chestplate",
+			"ctft:jungle_log_leggings",
+			"ctft:jungle_log_boots",
+			"ctft:jungle_log_shears",
+			"ctft:jungle_log_horse_armor",
+			"ctft:jungle_log_bow"
+		]
+	}
+}

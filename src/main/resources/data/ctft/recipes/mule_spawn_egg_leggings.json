@@ -1,0 +1,20 @@
+
+{
+  "group": "Mule Spawn Egg Leggings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:mule_spawn_egg"
+    }
+  },
+  "result": {
+    "item": "ctft:mule_spawn_egg_leggings",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,20 @@
+
+{
+  "group": "Cactus Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:cactus"
+    }
+  },
+  "result": {
+    "item": "ctft:cactus_chestplate",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,23 @@
+
+{
+  "group": "Mycelium Pickaxe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:mycelium"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:mycelium_pickaxe",
+    "count": 1
+  }
+}
+        

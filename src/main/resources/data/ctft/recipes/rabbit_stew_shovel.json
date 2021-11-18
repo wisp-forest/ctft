@@ -1,0 +1,23 @@
+
+{
+  "group": "Rabbit Stew Shovel",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:rabbit_stew"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:rabbit_stew_shovel",
+    "count": 1
+  }
+}
+        

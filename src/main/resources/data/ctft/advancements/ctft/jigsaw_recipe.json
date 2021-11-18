@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:jigsaw"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:jigsaw_sword",
+			"ctft:jigsaw_pickaxe",
+			"ctft:jigsaw_axe",
+			"ctft:jigsaw_shovel",
+			"ctft:jigsaw_hoe",
+			"ctft:jigsaw_shield",
+			"ctft:jigsaw_fishing_rod",
+			"ctft:jigsaw_compass",
+			"ctft:jigsaw_clock",
+			"ctft:jigsaw_helmet",
+			"ctft:jigsaw_chestplate",
+			"ctft:jigsaw_leggings",
+			"ctft:jigsaw_boots",
+			"ctft:jigsaw_shears",
+			"ctft:jigsaw_horse_armor",
+			"ctft:jigsaw_bow"
+		]
+	}
+}

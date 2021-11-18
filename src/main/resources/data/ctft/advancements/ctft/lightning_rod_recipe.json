@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:lightning_rod"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:lightning_rod_sword",
+			"ctft:lightning_rod_pickaxe",
+			"ctft:lightning_rod_axe",
+			"ctft:lightning_rod_shovel",
+			"ctft:lightning_rod_hoe",
+			"ctft:lightning_rod_shield",
+			"ctft:lightning_rod_fishing_rod",
+			"ctft:lightning_rod_compass",
+			"ctft:lightning_rod_clock",
+			"ctft:lightning_rod_helmet",
+			"ctft:lightning_rod_chestplate",
+			"ctft:lightning_rod_leggings",
+			"ctft:lightning_rod_boots",
+			"ctft:lightning_rod_shears",
+			"ctft:lightning_rod_horse_armor",
+			"ctft:lightning_rod_bow"
+		]
+	}
+}

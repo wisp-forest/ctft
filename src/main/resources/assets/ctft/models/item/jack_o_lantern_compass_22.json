@@ -1,0 +1,10 @@
+
+{
+  "parent": "ctft:item/compass",
+  "textures": {
+    "0": "ctft:items/compass_22",
+    "1": "ctft:blocks/jack_o_lantern_block",
+    "particle": "ctft:blocks/jack_o_lantern_block"
+  }
+}
+            

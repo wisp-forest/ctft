@@ -1,0 +1,20 @@
+
+{
+  "group": "Structure Void Helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:structure_void"
+    }
+  },
+  "result": {
+    "item": "ctft:structure_void_helmet",
+    "count": 1
+  }
+}
+        

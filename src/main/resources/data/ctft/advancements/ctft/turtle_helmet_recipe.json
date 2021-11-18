@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:turtle_helmet"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:turtle_helmet_sword",
+			"ctft:turtle_helmet_pickaxe",
+			"ctft:turtle_helmet_axe",
+			"ctft:turtle_helmet_shovel",
+			"ctft:turtle_helmet_hoe",
+			"ctft:turtle_helmet_shield",
+			"ctft:turtle_helmet_fishing_rod",
+			"ctft:turtle_helmet_compass",
+			"ctft:turtle_helmet_clock",
+			"ctft:turtle_helmet_helmet",
+			"ctft:turtle_helmet_chestplate",
+			"ctft:turtle_helmet_leggings",
+			"ctft:turtle_helmet_boots",
+			"ctft:turtle_helmet_shears",
+			"ctft:turtle_helmet_horse_armor",
+			"ctft:turtle_helmet_bow"
+		]
+	}
+}

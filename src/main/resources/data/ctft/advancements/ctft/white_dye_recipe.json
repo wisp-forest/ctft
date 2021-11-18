@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:white_dye"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:white_dye_sword",
+			"ctft:white_dye_pickaxe",
+			"ctft:white_dye_axe",
+			"ctft:white_dye_shovel",
+			"ctft:white_dye_hoe",
+			"ctft:white_dye_shield",
+			"ctft:white_dye_fishing_rod",
+			"ctft:white_dye_compass",
+			"ctft:white_dye_clock",
+			"ctft:white_dye_helmet",
+			"ctft:white_dye_chestplate",
+			"ctft:white_dye_leggings",
+			"ctft:white_dye_boots",
+			"ctft:white_dye_shears",
+			"ctft:white_dye_horse_armor",
+			"ctft:white_dye_bow"
+		]
+	}
+}

@@ -1,0 +1,23 @@
+
+{
+  "group": "Flower Pot Axe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "00 ",
+    "01 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:flower_pot"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:flower_pot_axe",
+    "count": 1
+  }
+}
+        

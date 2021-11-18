@@ -1,0 +1,23 @@
+
+{
+  "group": "Yellow Carpet Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:yellow_carpet"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:yellow_carpet_shield",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,10 @@
+
+{
+  "parent": "ctft:item/clock",
+  "textures": {
+    "0": "ctft:items/clock_50",
+    "1": "ctft:blocks/nautilus_shell_block",
+    "particle": "ctft:blocks/nautilus_shell_block"
+  }
+}
+            

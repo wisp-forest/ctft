@@ -1,0 +1,20 @@
+
+{
+  "group": "Mojang Banner Pattern Leggings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:mojang_banner_pattern"
+    }
+  },
+  "result": {
+    "item": "ctft:mojang_banner_pattern_leggings",
+    "count": 1
+  }
+}
+        

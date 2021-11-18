@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:wheat"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:wheat_sword",
+			"ctft:wheat_pickaxe",
+			"ctft:wheat_axe",
+			"ctft:wheat_shovel",
+			"ctft:wheat_hoe",
+			"ctft:wheat_shield",
+			"ctft:wheat_fishing_rod",
+			"ctft:wheat_compass",
+			"ctft:wheat_clock",
+			"ctft:wheat_helmet",
+			"ctft:wheat_chestplate",
+			"ctft:wheat_leggings",
+			"ctft:wheat_boots",
+			"ctft:wheat_shears",
+			"ctft:wheat_horse_armor",
+			"ctft:wheat_bow"
+		]
+	}
+}

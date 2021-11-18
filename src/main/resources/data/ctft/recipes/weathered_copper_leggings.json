@@ -1,0 +1,20 @@
+
+{
+  "group": "Weathered Copper Leggings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:weathered_copper"
+    }
+  },
+  "result": {
+    "item": "ctft:weathered_copper_leggings",
+    "count": 1
+  }
+}
+        

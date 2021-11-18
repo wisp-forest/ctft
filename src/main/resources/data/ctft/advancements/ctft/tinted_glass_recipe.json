@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:tinted_glass"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:tinted_glass_sword",
+			"ctft:tinted_glass_pickaxe",
+			"ctft:tinted_glass_axe",
+			"ctft:tinted_glass_shovel",
+			"ctft:tinted_glass_hoe",
+			"ctft:tinted_glass_shield",
+			"ctft:tinted_glass_fishing_rod",
+			"ctft:tinted_glass_compass",
+			"ctft:tinted_glass_clock",
+			"ctft:tinted_glass_helmet",
+			"ctft:tinted_glass_chestplate",
+			"ctft:tinted_glass_leggings",
+			"ctft:tinted_glass_boots",
+			"ctft:tinted_glass_shears",
+			"ctft:tinted_glass_horse_armor",
+			"ctft:tinted_glass_bow"
+		]
+	}
+}

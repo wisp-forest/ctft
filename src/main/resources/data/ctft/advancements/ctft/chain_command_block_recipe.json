@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:chain_command_block"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:chain_command_block_sword",
+			"ctft:chain_command_block_pickaxe",
+			"ctft:chain_command_block_axe",
+			"ctft:chain_command_block_shovel",
+			"ctft:chain_command_block_hoe",
+			"ctft:chain_command_block_shield",
+			"ctft:chain_command_block_fishing_rod",
+			"ctft:chain_command_block_compass",
+			"ctft:chain_command_block_clock",
+			"ctft:chain_command_block_helmet",
+			"ctft:chain_command_block_chestplate",
+			"ctft:chain_command_block_leggings",
+			"ctft:chain_command_block_boots",
+			"ctft:chain_command_block_shears",
+			"ctft:chain_command_block_horse_armor",
+			"ctft:chain_command_block_bow"
+		]
+	}
+}

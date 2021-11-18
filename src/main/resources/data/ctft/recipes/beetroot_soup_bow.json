@@ -1,0 +1,23 @@
+
+{
+  "group": "Beetroot Soup Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:beetroot_soup"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:beetroot_soup_bow",
+    "count": 1
+  }
+}
+        

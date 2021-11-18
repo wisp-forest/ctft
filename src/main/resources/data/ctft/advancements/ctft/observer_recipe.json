@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:observer"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:observer_sword",
+			"ctft:observer_pickaxe",
+			"ctft:observer_axe",
+			"ctft:observer_shovel",
+			"ctft:observer_hoe",
+			"ctft:observer_shield",
+			"ctft:observer_fishing_rod",
+			"ctft:observer_compass",
+			"ctft:observer_clock",
+			"ctft:observer_helmet",
+			"ctft:observer_chestplate",
+			"ctft:observer_leggings",
+			"ctft:observer_boots",
+			"ctft:observer_shears",
+			"ctft:observer_horse_armor",
+			"ctft:observer_bow"
+		]
+	}
+}

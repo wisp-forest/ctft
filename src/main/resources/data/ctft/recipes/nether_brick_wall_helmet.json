@@ -1,0 +1,20 @@
+
+{
+  "group": "Nether Brick Wall Helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:nether_brick_wall"
+    }
+  },
+  "result": {
+    "item": "ctft:nether_brick_wall_helmet",
+    "count": 1
+  }
+}
+        

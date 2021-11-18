@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:golden_sword"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:golden_sword_sword",
+			"ctft:golden_sword_pickaxe",
+			"ctft:golden_sword_axe",
+			"ctft:golden_sword_shovel",
+			"ctft:golden_sword_hoe",
+			"ctft:golden_sword_shield",
+			"ctft:golden_sword_fishing_rod",
+			"ctft:golden_sword_compass",
+			"ctft:golden_sword_clock",
+			"ctft:golden_sword_helmet",
+			"ctft:golden_sword_chestplate",
+			"ctft:golden_sword_leggings",
+			"ctft:golden_sword_boots",
+			"ctft:golden_sword_shears",
+			"ctft:golden_sword_horse_armor",
+			"ctft:golden_sword_bow"
+		]
+	}
+}

@@ -1,0 +1,23 @@
+
+{
+  "group": "Cooked Cod Compass",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    "010",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:cooked_cod"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:cooked_cod_compass",
+    "count": 1
+  }
+}
+        

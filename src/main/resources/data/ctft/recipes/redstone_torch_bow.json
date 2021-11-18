@@ -1,0 +1,23 @@
+
+{
+  "group": "Redstone Torch Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:redstone_torch"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:redstone_torch_bow",
+    "count": 1
+  }
+}
+        

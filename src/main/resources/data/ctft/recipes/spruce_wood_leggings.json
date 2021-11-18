@@ -1,0 +1,20 @@
+
+{
+  "group": "Spruce Wood Leggings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:spruce_wood"
+    }
+  },
+  "result": {
+    "item": "ctft:spruce_wood_leggings",
+    "count": 1
+  }
+}
+        

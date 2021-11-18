@@ -1,0 +1,10 @@
+
+{
+  "parent": "ctft:item/fishing_rod_casting",
+  "textures": {
+    "0": "ctft:items/fishing_rod",
+    "1": "ctft:blocks/weeping_vines_block",
+    "particle": "ctft:blocks/weeping_vines_block"
+  }
+}
+        

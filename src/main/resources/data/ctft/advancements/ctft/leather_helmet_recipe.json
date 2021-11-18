@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:leather_helmet"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:leather_helmet_sword",
+			"ctft:leather_helmet_pickaxe",
+			"ctft:leather_helmet_axe",
+			"ctft:leather_helmet_shovel",
+			"ctft:leather_helmet_hoe",
+			"ctft:leather_helmet_shield",
+			"ctft:leather_helmet_fishing_rod",
+			"ctft:leather_helmet_compass",
+			"ctft:leather_helmet_clock",
+			"ctft:leather_helmet_helmet",
+			"ctft:leather_helmet_chestplate",
+			"ctft:leather_helmet_leggings",
+			"ctft:leather_helmet_boots",
+			"ctft:leather_helmet_shears",
+			"ctft:leather_helmet_horse_armor",
+			"ctft:leather_helmet_bow"
+		]
+	}
+}

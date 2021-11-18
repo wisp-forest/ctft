@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cod_bucket"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:cod_bucket_sword",
+			"ctft:cod_bucket_pickaxe",
+			"ctft:cod_bucket_axe",
+			"ctft:cod_bucket_shovel",
+			"ctft:cod_bucket_hoe",
+			"ctft:cod_bucket_shield",
+			"ctft:cod_bucket_fishing_rod",
+			"ctft:cod_bucket_compass",
+			"ctft:cod_bucket_clock",
+			"ctft:cod_bucket_helmet",
+			"ctft:cod_bucket_chestplate",
+			"ctft:cod_bucket_leggings",
+			"ctft:cod_bucket_boots",
+			"ctft:cod_bucket_shears",
+			"ctft:cod_bucket_horse_armor",
+			"ctft:cod_bucket_bow"
+		]
+	}
+}

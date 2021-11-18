@@ -1,0 +1,20 @@
+
+{
+  "group": "Wither Skeleton Skull Boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:wither_skeleton_skull"
+    }
+  },
+  "result": {
+    "item": "ctft:wither_skeleton_skull_boots",
+    "count": 1
+  }
+}
+        

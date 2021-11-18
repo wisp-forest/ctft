@@ -1,0 +1,20 @@
+
+{
+  "group": "Tall Grass Horse Armor",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:tall_grass"
+    }
+  },
+  "result": {
+    "item": "ctft:tall_grass_horse_armor",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,20 @@
+
+{
+  "group": "Block of Redstone Helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "result": {
+    "item": "ctft:block_of_redstone_helmet",
+    "count": 1
+  }
+}
+        

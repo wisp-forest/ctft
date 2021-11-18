@@ -1,0 +1,20 @@
+
+{
+  "group": "Magenta Terracotta Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:magenta_terracotta"
+    }
+  },
+  "result": {
+    "item": "ctft:magenta_terracotta_chestplate",
+    "count": 1
+  }
+}
+        

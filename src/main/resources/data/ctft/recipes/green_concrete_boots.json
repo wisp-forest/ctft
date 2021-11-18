@@ -1,0 +1,20 @@
+
+{
+  "group": "Green Concrete Boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:green_concrete"
+    }
+  },
+  "result": {
+    "item": "ctft:green_concrete_boots",
+    "count": 1
+  }
+}
+        

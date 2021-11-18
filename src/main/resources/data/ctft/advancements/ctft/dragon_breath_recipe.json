@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:dragon_breath"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:dragon_breath_sword",
+			"ctft:dragon_breath_pickaxe",
+			"ctft:dragon_breath_axe",
+			"ctft:dragon_breath_shovel",
+			"ctft:dragon_breath_hoe",
+			"ctft:dragon_breath_shield",
+			"ctft:dragon_breath_fishing_rod",
+			"ctft:dragon_breath_compass",
+			"ctft:dragon_breath_clock",
+			"ctft:dragon_breath_helmet",
+			"ctft:dragon_breath_chestplate",
+			"ctft:dragon_breath_leggings",
+			"ctft:dragon_breath_boots",
+			"ctft:dragon_breath_shears",
+			"ctft:dragon_breath_horse_armor",
+			"ctft:dragon_breath_bow"
+		]
+	}
+}

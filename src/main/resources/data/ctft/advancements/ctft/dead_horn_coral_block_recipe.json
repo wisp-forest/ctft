@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:dead_horn_coral_block"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:dead_horn_coral_block_sword",
+			"ctft:dead_horn_coral_block_pickaxe",
+			"ctft:dead_horn_coral_block_axe",
+			"ctft:dead_horn_coral_block_shovel",
+			"ctft:dead_horn_coral_block_hoe",
+			"ctft:dead_horn_coral_block_shield",
+			"ctft:dead_horn_coral_block_fishing_rod",
+			"ctft:dead_horn_coral_block_compass",
+			"ctft:dead_horn_coral_block_clock",
+			"ctft:dead_horn_coral_block_helmet",
+			"ctft:dead_horn_coral_block_chestplate",
+			"ctft:dead_horn_coral_block_leggings",
+			"ctft:dead_horn_coral_block_boots",
+			"ctft:dead_horn_coral_block_shears",
+			"ctft:dead_horn_coral_block_horse_armor",
+			"ctft:dead_horn_coral_block_bow"
+		]
+	}
+}

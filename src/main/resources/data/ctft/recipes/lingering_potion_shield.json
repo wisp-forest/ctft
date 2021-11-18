@@ -1,0 +1,23 @@
+
+{
+  "group": "Lingering Potion Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:lingering_potion"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:lingering_potion_shield",
+    "count": 1
+  }
+}
+        

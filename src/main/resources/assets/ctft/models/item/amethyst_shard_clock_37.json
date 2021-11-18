@@ -1,0 +1,10 @@
+
+{
+  "parent": "ctft:item/clock",
+  "textures": {
+    "0": "ctft:items/clock_37",
+    "1": "ctft:blocks/amethyst_shard_block",
+    "particle": "ctft:blocks/amethyst_shard_block"
+  }
+}
+            

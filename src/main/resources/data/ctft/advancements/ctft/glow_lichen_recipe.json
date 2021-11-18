@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:glow_lichen"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:glow_lichen_sword",
+			"ctft:glow_lichen_pickaxe",
+			"ctft:glow_lichen_axe",
+			"ctft:glow_lichen_shovel",
+			"ctft:glow_lichen_hoe",
+			"ctft:glow_lichen_shield",
+			"ctft:glow_lichen_fishing_rod",
+			"ctft:glow_lichen_compass",
+			"ctft:glow_lichen_clock",
+			"ctft:glow_lichen_helmet",
+			"ctft:glow_lichen_chestplate",
+			"ctft:glow_lichen_leggings",
+			"ctft:glow_lichen_boots",
+			"ctft:glow_lichen_shears",
+			"ctft:glow_lichen_horse_armor",
+			"ctft:glow_lichen_bow"
+		]
+	}
+}

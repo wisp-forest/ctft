@@ -1,0 +1,23 @@
+
+{
+  "group": "Mojang Banner Pattern Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:mojang_banner_pattern"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:mojang_banner_pattern_bow",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,23 @@
+
+{
+  "group": "Crimson Nylium Shovel",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:crimson_nylium"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:crimson_nylium_shovel",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cocoa_beans"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:cocoa_beans_sword",
+			"ctft:cocoa_beans_pickaxe",
+			"ctft:cocoa_beans_axe",
+			"ctft:cocoa_beans_shovel",
+			"ctft:cocoa_beans_hoe",
+			"ctft:cocoa_beans_shield",
+			"ctft:cocoa_beans_fishing_rod",
+			"ctft:cocoa_beans_compass",
+			"ctft:cocoa_beans_clock",
+			"ctft:cocoa_beans_helmet",
+			"ctft:cocoa_beans_chestplate",
+			"ctft:cocoa_beans_leggings",
+			"ctft:cocoa_beans_boots",
+			"ctft:cocoa_beans_shears",
+			"ctft:cocoa_beans_horse_armor",
+			"ctft:cocoa_beans_bow"
+		]
+	}
+}

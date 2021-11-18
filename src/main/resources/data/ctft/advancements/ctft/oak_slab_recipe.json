@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:oak_slab"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:oak_slab_sword",
+			"ctft:oak_slab_pickaxe",
+			"ctft:oak_slab_axe",
+			"ctft:oak_slab_shovel",
+			"ctft:oak_slab_hoe",
+			"ctft:oak_slab_shield",
+			"ctft:oak_slab_fishing_rod",
+			"ctft:oak_slab_compass",
+			"ctft:oak_slab_clock",
+			"ctft:oak_slab_helmet",
+			"ctft:oak_slab_chestplate",
+			"ctft:oak_slab_leggings",
+			"ctft:oak_slab_boots",
+			"ctft:oak_slab_shears",
+			"ctft:oak_slab_horse_armor",
+			"ctft:oak_slab_bow"
+		]
+	}
+}

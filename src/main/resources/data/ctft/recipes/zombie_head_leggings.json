@@ -1,0 +1,20 @@
+
+{
+  "group": "Zombie Head Leggings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:zombie_head"
+    }
+  },
+  "result": {
+    "item": "ctft:zombie_head_leggings",
+    "count": 1
+  }
+}
+        

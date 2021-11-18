@@ -1,0 +1,20 @@
+
+{
+  "group": "Polished Diorite Shears",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 0 ",
+    "   "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:polished_diorite"
+    }
+  },
+  "result": {
+    "item": "ctft:polished_diorite_shears",
+    "count": 1
+  }
+}
+        

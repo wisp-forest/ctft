@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:birch_sapling"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:birch_sapling_sword",
+			"ctft:birch_sapling_pickaxe",
+			"ctft:birch_sapling_axe",
+			"ctft:birch_sapling_shovel",
+			"ctft:birch_sapling_hoe",
+			"ctft:birch_sapling_shield",
+			"ctft:birch_sapling_fishing_rod",
+			"ctft:birch_sapling_compass",
+			"ctft:birch_sapling_clock",
+			"ctft:birch_sapling_helmet",
+			"ctft:birch_sapling_chestplate",
+			"ctft:birch_sapling_leggings",
+			"ctft:birch_sapling_boots",
+			"ctft:birch_sapling_shears",
+			"ctft:birch_sapling_horse_armor",
+			"ctft:birch_sapling_bow"
+		]
+	}
+}

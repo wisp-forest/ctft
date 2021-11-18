@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:green_candle"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:green_candle_sword",
+			"ctft:green_candle_pickaxe",
+			"ctft:green_candle_axe",
+			"ctft:green_candle_shovel",
+			"ctft:green_candle_hoe",
+			"ctft:green_candle_shield",
+			"ctft:green_candle_fishing_rod",
+			"ctft:green_candle_compass",
+			"ctft:green_candle_clock",
+			"ctft:green_candle_helmet",
+			"ctft:green_candle_chestplate",
+			"ctft:green_candle_leggings",
+			"ctft:green_candle_boots",
+			"ctft:green_candle_shears",
+			"ctft:green_candle_horse_armor",
+			"ctft:green_candle_bow"
+		]
+	}
+}

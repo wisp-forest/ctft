@@ -1,0 +1,20 @@
+
+{
+  "group": "Sculk Sensor Horse Armor",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:sculk_sensor"
+    }
+  },
+  "result": {
+    "item": "ctft:sculk_sensor_horse_armor",
+    "count": 1
+  }
+}
+        

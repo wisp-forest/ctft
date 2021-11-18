@@ -1,0 +1,23 @@
+
+{
+  "group": "Chainmail Helmet Clock",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    "010",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:chainmail_helmet"
+    },
+    "1": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:chainmail_helmet_clock",
+    "count": 1
+  }
+}
+        

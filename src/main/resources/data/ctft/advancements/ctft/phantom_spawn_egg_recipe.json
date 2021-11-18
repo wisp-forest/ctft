@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:phantom_spawn_egg"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:phantom_spawn_egg_sword",
+			"ctft:phantom_spawn_egg_pickaxe",
+			"ctft:phantom_spawn_egg_axe",
+			"ctft:phantom_spawn_egg_shovel",
+			"ctft:phantom_spawn_egg_hoe",
+			"ctft:phantom_spawn_egg_shield",
+			"ctft:phantom_spawn_egg_fishing_rod",
+			"ctft:phantom_spawn_egg_compass",
+			"ctft:phantom_spawn_egg_clock",
+			"ctft:phantom_spawn_egg_helmet",
+			"ctft:phantom_spawn_egg_chestplate",
+			"ctft:phantom_spawn_egg_leggings",
+			"ctft:phantom_spawn_egg_boots",
+			"ctft:phantom_spawn_egg_shears",
+			"ctft:phantom_spawn_egg_horse_armor",
+			"ctft:phantom_spawn_egg_bow"
+		]
+	}
+}

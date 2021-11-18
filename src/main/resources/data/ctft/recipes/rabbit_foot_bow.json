@@ -1,0 +1,23 @@
+
+{
+  "group": "Rabbit Foot Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:rabbit_foot"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:rabbit_foot_bow",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:jungle_stairs"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:jungle_stairs_sword",
+			"ctft:jungle_stairs_pickaxe",
+			"ctft:jungle_stairs_axe",
+			"ctft:jungle_stairs_shovel",
+			"ctft:jungle_stairs_hoe",
+			"ctft:jungle_stairs_shield",
+			"ctft:jungle_stairs_fishing_rod",
+			"ctft:jungle_stairs_compass",
+			"ctft:jungle_stairs_clock",
+			"ctft:jungle_stairs_helmet",
+			"ctft:jungle_stairs_chestplate",
+			"ctft:jungle_stairs_leggings",
+			"ctft:jungle_stairs_boots",
+			"ctft:jungle_stairs_shears",
+			"ctft:jungle_stairs_horse_armor",
+			"ctft:jungle_stairs_bow"
+		]
+	}
+}

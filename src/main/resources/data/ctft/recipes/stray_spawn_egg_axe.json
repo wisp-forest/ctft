@@ -1,0 +1,23 @@
+
+{
+  "group": "Stray Spawn Egg Axe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "00 ",
+    "01 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:stray_spawn_egg"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:stray_spawn_egg_axe",
+    "count": 1
+  }
+}
+        

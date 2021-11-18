@@ -1,0 +1,20 @@
+
+{
+  "group": "Raw Gold Boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:raw_gold"
+    }
+  },
+  "result": {
+    "item": "ctft:raw_gold_boots",
+    "count": 1
+  }
+}
+        

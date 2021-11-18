@@ -1,0 +1,20 @@
+
+{
+  "group": "Raw Chicken Shears",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 0 ",
+    "   "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:chicken"
+    }
+  },
+  "result": {
+    "item": "ctft:raw_chicken_shears",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:wooden_pickaxe"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:wooden_pickaxe_sword",
+			"ctft:wooden_pickaxe_pickaxe",
+			"ctft:wooden_pickaxe_axe",
+			"ctft:wooden_pickaxe_shovel",
+			"ctft:wooden_pickaxe_hoe",
+			"ctft:wooden_pickaxe_shield",
+			"ctft:wooden_pickaxe_fishing_rod",
+			"ctft:wooden_pickaxe_compass",
+			"ctft:wooden_pickaxe_clock",
+			"ctft:wooden_pickaxe_helmet",
+			"ctft:wooden_pickaxe_chestplate",
+			"ctft:wooden_pickaxe_leggings",
+			"ctft:wooden_pickaxe_boots",
+			"ctft:wooden_pickaxe_shears",
+			"ctft:wooden_pickaxe_horse_armor",
+			"ctft:wooden_pickaxe_bow"
+		]
+	}
+}

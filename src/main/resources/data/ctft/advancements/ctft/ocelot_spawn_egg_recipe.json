@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:ocelot_spawn_egg"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:ocelot_spawn_egg_sword",
+			"ctft:ocelot_spawn_egg_pickaxe",
+			"ctft:ocelot_spawn_egg_axe",
+			"ctft:ocelot_spawn_egg_shovel",
+			"ctft:ocelot_spawn_egg_hoe",
+			"ctft:ocelot_spawn_egg_shield",
+			"ctft:ocelot_spawn_egg_fishing_rod",
+			"ctft:ocelot_spawn_egg_compass",
+			"ctft:ocelot_spawn_egg_clock",
+			"ctft:ocelot_spawn_egg_helmet",
+			"ctft:ocelot_spawn_egg_chestplate",
+			"ctft:ocelot_spawn_egg_leggings",
+			"ctft:ocelot_spawn_egg_boots",
+			"ctft:ocelot_spawn_egg_shears",
+			"ctft:ocelot_spawn_egg_horse_armor",
+			"ctft:ocelot_spawn_egg_bow"
+		]
+	}
+}

@@ -1,0 +1,20 @@
+
+{
+  "group": "Glowstone Helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:glowstone"
+    }
+  },
+  "result": {
+    "item": "ctft:glowstone_helmet",
+    "count": 1
+  }
+}
+        

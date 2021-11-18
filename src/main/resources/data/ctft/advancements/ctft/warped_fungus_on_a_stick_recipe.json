@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:warped_fungus_on_a_stick"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:warped_fungus_on_a_stick_sword",
+			"ctft:warped_fungus_on_a_stick_pickaxe",
+			"ctft:warped_fungus_on_a_stick_axe",
+			"ctft:warped_fungus_on_a_stick_shovel",
+			"ctft:warped_fungus_on_a_stick_hoe",
+			"ctft:warped_fungus_on_a_stick_shield",
+			"ctft:warped_fungus_on_a_stick_fishing_rod",
+			"ctft:warped_fungus_on_a_stick_compass",
+			"ctft:warped_fungus_on_a_stick_clock",
+			"ctft:warped_fungus_on_a_stick_helmet",
+			"ctft:warped_fungus_on_a_stick_chestplate",
+			"ctft:warped_fungus_on_a_stick_leggings",
+			"ctft:warped_fungus_on_a_stick_boots",
+			"ctft:warped_fungus_on_a_stick_shears",
+			"ctft:warped_fungus_on_a_stick_horse_armor",
+			"ctft:warped_fungus_on_a_stick_bow"
+		]
+	}
+}

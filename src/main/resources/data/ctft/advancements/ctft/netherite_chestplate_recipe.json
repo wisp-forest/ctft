@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_chestplate"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:netherite_chestplate_sword",
+			"ctft:netherite_chestplate_pickaxe",
+			"ctft:netherite_chestplate_axe",
+			"ctft:netherite_chestplate_shovel",
+			"ctft:netherite_chestplate_hoe",
+			"ctft:netherite_chestplate_shield",
+			"ctft:netherite_chestplate_fishing_rod",
+			"ctft:netherite_chestplate_compass",
+			"ctft:netherite_chestplate_clock",
+			"ctft:netherite_chestplate_helmet",
+			"ctft:netherite_chestplate_chestplate",
+			"ctft:netherite_chestplate_leggings",
+			"ctft:netherite_chestplate_boots",
+			"ctft:netherite_chestplate_shears",
+			"ctft:netherite_chestplate_horse_armor",
+			"ctft:netherite_chestplate_bow"
+		]
+	}
+}

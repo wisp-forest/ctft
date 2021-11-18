@@ -1,0 +1,20 @@
+
+{
+  "group": "Dispenser Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:dispenser"
+    }
+  },
+  "result": {
+    "item": "ctft:dispenser_chestplate",
+    "count": 1
+  }
+}
+        

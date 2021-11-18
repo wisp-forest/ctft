@@ -1,0 +1,23 @@
+
+{
+  "group": "Amethyst Cluster Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:amethyst_cluster"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:amethyst_cluster_shield",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,10 @@
+
+    {
+      "parent": "ctft:item/shield_blocking",
+      "textures": {
+        "0": "ctft:items/shield_base",
+        "1": "ctft:blocks/zoglin_block",
+        "particle": "ctft:blocks/zoglin_block"
+      }
+    }
+            

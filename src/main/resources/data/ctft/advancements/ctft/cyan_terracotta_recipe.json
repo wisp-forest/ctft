@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cyan_terracotta"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:cyan_terracotta_sword",
+			"ctft:cyan_terracotta_pickaxe",
+			"ctft:cyan_terracotta_axe",
+			"ctft:cyan_terracotta_shovel",
+			"ctft:cyan_terracotta_hoe",
+			"ctft:cyan_terracotta_shield",
+			"ctft:cyan_terracotta_fishing_rod",
+			"ctft:cyan_terracotta_compass",
+			"ctft:cyan_terracotta_clock",
+			"ctft:cyan_terracotta_helmet",
+			"ctft:cyan_terracotta_chestplate",
+			"ctft:cyan_terracotta_leggings",
+			"ctft:cyan_terracotta_boots",
+			"ctft:cyan_terracotta_shears",
+			"ctft:cyan_terracotta_horse_armor",
+			"ctft:cyan_terracotta_bow"
+		]
+	}
+}

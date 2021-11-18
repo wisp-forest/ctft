@@ -1,0 +1,20 @@
+
+{
+  "group": "Lime Dye Shears",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 0 ",
+    "   "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:lime_dye"
+    }
+  },
+  "result": {
+    "item": "ctft:lime_dye_shears",
+    "count": 1
+  }
+}
+        

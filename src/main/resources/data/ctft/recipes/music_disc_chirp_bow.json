@@ -1,0 +1,23 @@
+
+{
+  "group": "Music Disc Chirp Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:music_disc_chirp"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:music_disc_chirp_bow",
+    "count": 1
+  }
+}
+        

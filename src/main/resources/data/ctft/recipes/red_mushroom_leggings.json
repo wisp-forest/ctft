@@ -1,0 +1,20 @@
+
+{
+  "group": "Red Mushroom Leggings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:red_mushroom"
+    }
+  },
+  "result": {
+    "item": "ctft:red_mushroom_leggings",
+    "count": 1
+  }
+}
+        

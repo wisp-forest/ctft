@@ -1,0 +1,10 @@
+
+    {
+      "parent": "ctft:item/bow_pulling_0",
+      "textures": {    
+        "0": "ctft:items/bow_pulling_0",
+        "1": "ctft:blocks/daylight_detector_top_block",
+        "particle": "ctft:blocks/daylight_detector_top_block"
+      }
+    }
+            

@@ -1,0 +1,20 @@
+
+{
+  "group": "Deepslate Tile Wall Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:deepslate_tile_wall"
+    }
+  },
+  "result": {
+    "item": "ctft:deepslate_tile_wall_chestplate",
+    "count": 1
+  }
+}
+        

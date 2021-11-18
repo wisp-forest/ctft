@@ -1,0 +1,20 @@
+
+{
+  "group": "Polished Blackstone Brick Wall Leggings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:polished_blackstone_brick_wall"
+    }
+  },
+  "result": {
+    "item": "ctft:polished_blackstone_brick_wall_leggings",
+    "count": 1
+  }
+}
+        

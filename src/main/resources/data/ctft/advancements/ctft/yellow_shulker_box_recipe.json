@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:yellow_shulker_box"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:yellow_shulker_box_sword",
+			"ctft:yellow_shulker_box_pickaxe",
+			"ctft:yellow_shulker_box_axe",
+			"ctft:yellow_shulker_box_shovel",
+			"ctft:yellow_shulker_box_hoe",
+			"ctft:yellow_shulker_box_shield",
+			"ctft:yellow_shulker_box_fishing_rod",
+			"ctft:yellow_shulker_box_compass",
+			"ctft:yellow_shulker_box_clock",
+			"ctft:yellow_shulker_box_helmet",
+			"ctft:yellow_shulker_box_chestplate",
+			"ctft:yellow_shulker_box_leggings",
+			"ctft:yellow_shulker_box_boots",
+			"ctft:yellow_shulker_box_shears",
+			"ctft:yellow_shulker_box_horse_armor",
+			"ctft:yellow_shulker_box_bow"
+		]
+	}
+}

@@ -1,0 +1,23 @@
+
+{
+  "group": "Smooth Stone Slab Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:smooth_stone_slab"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:smooth_stone_slab_bow",
+    "count": 1
+  }
+}
+        

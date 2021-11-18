@@ -1,0 +1,23 @@
+
+{
+  "group": "Stripped Warped Hyphae Clock",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    "010",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:stripped_warped_hyphae"
+    },
+    "1": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:stripped_warped_hyphae_clock",
+    "count": 1
+  }
+}
+        

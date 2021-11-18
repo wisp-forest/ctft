@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:jungle_planks"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:jungle_planks_sword",
+			"ctft:jungle_planks_pickaxe",
+			"ctft:jungle_planks_axe",
+			"ctft:jungle_planks_shovel",
+			"ctft:jungle_planks_hoe",
+			"ctft:jungle_planks_shield",
+			"ctft:jungle_planks_fishing_rod",
+			"ctft:jungle_planks_compass",
+			"ctft:jungle_planks_clock",
+			"ctft:jungle_planks_helmet",
+			"ctft:jungle_planks_chestplate",
+			"ctft:jungle_planks_leggings",
+			"ctft:jungle_planks_boots",
+			"ctft:jungle_planks_shears",
+			"ctft:jungle_planks_horse_armor",
+			"ctft:jungle_planks_bow"
+		]
+	}
+}

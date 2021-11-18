@@ -1,0 +1,23 @@
+
+{
+  "group": "Light Blue Candle Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:light_blue_candle"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:light_blue_candle_bow",
+    "count": 1
+  }
+}
+        

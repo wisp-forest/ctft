@@ -1,0 +1,23 @@
+
+{
+  "group": "Andesite Stairs Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:andesite_stairs"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:andesite_stairs_shield",
+    "count": 1
+  }
+}
+        

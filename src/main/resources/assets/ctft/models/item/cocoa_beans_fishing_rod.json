@@ -1,0 +1,14 @@
+
+{
+  "parent": "ctft:item/fishing_rod",
+  "textures": {
+    "0": "ctft:items/fishing_rod",
+    "1": "ctft:blocks/cocoa_beans_block",
+    "particle": "ctft:blocks/cocoa_beans_block"
+  },
+  "overrides": [
+        { "predicate": { "cast": 0.0 }, "model": "ctft:item/cocoa_beans_fishing_rod" },
+        { "predicate": { "cast": 1.0 }, "model": "ctft:item/cocoa_beans_fishing_rod_cast" }
+    ]
+}
+        

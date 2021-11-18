@@ -1,0 +1,20 @@
+
+{
+  "group": "Flowering Azalea Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:flowering_azalea"
+    }
+  },
+  "result": {
+    "item": "ctft:flowering_azalea_chestplate",
+    "count": 1
+  }
+}
+        

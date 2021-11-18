@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:ender_chest"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:ender_chest_sword",
+			"ctft:ender_chest_pickaxe",
+			"ctft:ender_chest_axe",
+			"ctft:ender_chest_shovel",
+			"ctft:ender_chest_hoe",
+			"ctft:ender_chest_shield",
+			"ctft:ender_chest_fishing_rod",
+			"ctft:ender_chest_compass",
+			"ctft:ender_chest_clock",
+			"ctft:ender_chest_helmet",
+			"ctft:ender_chest_chestplate",
+			"ctft:ender_chest_leggings",
+			"ctft:ender_chest_boots",
+			"ctft:ender_chest_shears",
+			"ctft:ender_chest_horse_armor",
+			"ctft:ender_chest_bow"
+		]
+	}
+}

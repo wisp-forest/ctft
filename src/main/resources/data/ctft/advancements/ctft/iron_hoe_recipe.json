@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_hoe"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:iron_hoe_sword",
+			"ctft:iron_hoe_pickaxe",
+			"ctft:iron_hoe_axe",
+			"ctft:iron_hoe_shovel",
+			"ctft:iron_hoe_hoe",
+			"ctft:iron_hoe_shield",
+			"ctft:iron_hoe_fishing_rod",
+			"ctft:iron_hoe_compass",
+			"ctft:iron_hoe_clock",
+			"ctft:iron_hoe_helmet",
+			"ctft:iron_hoe_chestplate",
+			"ctft:iron_hoe_leggings",
+			"ctft:iron_hoe_boots",
+			"ctft:iron_hoe_shears",
+			"ctft:iron_hoe_horse_armor",
+			"ctft:iron_hoe_bow"
+		]
+	}
+}

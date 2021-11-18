@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:red_concrete"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:red_concrete_sword",
+			"ctft:red_concrete_pickaxe",
+			"ctft:red_concrete_axe",
+			"ctft:red_concrete_shovel",
+			"ctft:red_concrete_hoe",
+			"ctft:red_concrete_shield",
+			"ctft:red_concrete_fishing_rod",
+			"ctft:red_concrete_compass",
+			"ctft:red_concrete_clock",
+			"ctft:red_concrete_helmet",
+			"ctft:red_concrete_chestplate",
+			"ctft:red_concrete_leggings",
+			"ctft:red_concrete_boots",
+			"ctft:red_concrete_shears",
+			"ctft:red_concrete_horse_armor",
+			"ctft:red_concrete_bow"
+		]
+	}
+}

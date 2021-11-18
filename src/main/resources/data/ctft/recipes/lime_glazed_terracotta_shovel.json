@@ -1,0 +1,23 @@
+
+{
+  "group": "Lime Glazed Terracotta Shovel",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:lime_glazed_terracotta"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:lime_glazed_terracotta_shovel",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:gold_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:gold_ingot_sword",
+			"ctft:gold_ingot_pickaxe",
+			"ctft:gold_ingot_axe",
+			"ctft:gold_ingot_shovel",
+			"ctft:gold_ingot_hoe",
+			"ctft:gold_ingot_shield",
+			"ctft:gold_ingot_fishing_rod",
+			"ctft:gold_ingot_compass",
+			"ctft:gold_ingot_clock",
+			"ctft:gold_ingot_helmet",
+			"ctft:gold_ingot_chestplate",
+			"ctft:gold_ingot_leggings",
+			"ctft:gold_ingot_boots",
+			"ctft:gold_ingot_shears",
+			"ctft:gold_ingot_horse_armor",
+			"ctft:gold_ingot_bow"
+		]
+	}
+}

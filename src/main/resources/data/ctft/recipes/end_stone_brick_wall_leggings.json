@@ -1,0 +1,20 @@
+
+{
+  "group": "End Stone Brick Wall Leggings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:end_stone_brick_wall"
+    }
+  },
+  "result": {
+    "item": "ctft:end_stone_brick_wall_leggings",
+    "count": 1
+  }
+}
+        

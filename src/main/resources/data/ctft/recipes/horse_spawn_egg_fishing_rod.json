@@ -1,0 +1,23 @@
+
+{
+  "group": "Horse Spawn Egg Fishing Rod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 01",
+    "0 1"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:horse_spawn_egg"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:horse_spawn_egg_fishing_rod",
+    "count": 1
+  }
+}
+        

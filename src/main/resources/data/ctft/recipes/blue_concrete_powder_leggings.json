@@ -1,0 +1,20 @@
+
+{
+  "group": "Blue Concrete Powder Leggings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:blue_concrete_powder"
+    }
+  },
+  "result": {
+    "item": "ctft:blue_concrete_powder_leggings",
+    "count": 1
+  }
+}
+        

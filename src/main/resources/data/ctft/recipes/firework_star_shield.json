@@ -1,0 +1,23 @@
+
+{
+  "group": "Firework Star Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:firework_star"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:firework_star_shield",
+    "count": 1
+  }
+}
+        

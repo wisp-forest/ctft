@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:azalea"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:azalea_sword",
+			"ctft:azalea_pickaxe",
+			"ctft:azalea_axe",
+			"ctft:azalea_shovel",
+			"ctft:azalea_hoe",
+			"ctft:azalea_shield",
+			"ctft:azalea_fishing_rod",
+			"ctft:azalea_compass",
+			"ctft:azalea_clock",
+			"ctft:azalea_helmet",
+			"ctft:azalea_chestplate",
+			"ctft:azalea_leggings",
+			"ctft:azalea_boots",
+			"ctft:azalea_shears",
+			"ctft:azalea_horse_armor",
+			"ctft:azalea_bow"
+		]
+	}
+}

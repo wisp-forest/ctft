@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:snow_block"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:snow_block_sword",
+			"ctft:snow_block_pickaxe",
+			"ctft:snow_block_axe",
+			"ctft:snow_block_shovel",
+			"ctft:snow_block_hoe",
+			"ctft:snow_block_shield",
+			"ctft:snow_block_fishing_rod",
+			"ctft:snow_block_compass",
+			"ctft:snow_block_clock",
+			"ctft:snow_block_helmet",
+			"ctft:snow_block_chestplate",
+			"ctft:snow_block_leggings",
+			"ctft:snow_block_boots",
+			"ctft:snow_block_shears",
+			"ctft:snow_block_horse_armor",
+			"ctft:snow_block_bow"
+		]
+	}
+}

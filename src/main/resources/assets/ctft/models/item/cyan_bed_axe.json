@@ -1,0 +1,10 @@
+
+    {
+      "parent": "ctft:item/axe",
+      "textures": {
+        "0": "ctft:items/iron_axe",
+        "1": "ctft:blocks/cyan_wool_block",
+        "particle": "ctft:blocks/cyan_wool_block"
+      }
+    }
+            

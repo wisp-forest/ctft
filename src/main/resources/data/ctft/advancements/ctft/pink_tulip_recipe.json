@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:pink_tulip"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:pink_tulip_sword",
+			"ctft:pink_tulip_pickaxe",
+			"ctft:pink_tulip_axe",
+			"ctft:pink_tulip_shovel",
+			"ctft:pink_tulip_hoe",
+			"ctft:pink_tulip_shield",
+			"ctft:pink_tulip_fishing_rod",
+			"ctft:pink_tulip_compass",
+			"ctft:pink_tulip_clock",
+			"ctft:pink_tulip_helmet",
+			"ctft:pink_tulip_chestplate",
+			"ctft:pink_tulip_leggings",
+			"ctft:pink_tulip_boots",
+			"ctft:pink_tulip_shears",
+			"ctft:pink_tulip_horse_armor",
+			"ctft:pink_tulip_bow"
+		]
+	}
+}

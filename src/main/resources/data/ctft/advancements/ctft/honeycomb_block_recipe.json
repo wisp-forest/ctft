@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:honeycomb_block"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:honeycomb_block_sword",
+			"ctft:honeycomb_block_pickaxe",
+			"ctft:honeycomb_block_axe",
+			"ctft:honeycomb_block_shovel",
+			"ctft:honeycomb_block_hoe",
+			"ctft:honeycomb_block_shield",
+			"ctft:honeycomb_block_fishing_rod",
+			"ctft:honeycomb_block_compass",
+			"ctft:honeycomb_block_clock",
+			"ctft:honeycomb_block_helmet",
+			"ctft:honeycomb_block_chestplate",
+			"ctft:honeycomb_block_leggings",
+			"ctft:honeycomb_block_boots",
+			"ctft:honeycomb_block_shears",
+			"ctft:honeycomb_block_horse_armor",
+			"ctft:honeycomb_block_bow"
+		]
+	}
+}

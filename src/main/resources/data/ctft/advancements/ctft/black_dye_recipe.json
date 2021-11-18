@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:black_dye"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:black_dye_sword",
+			"ctft:black_dye_pickaxe",
+			"ctft:black_dye_axe",
+			"ctft:black_dye_shovel",
+			"ctft:black_dye_hoe",
+			"ctft:black_dye_shield",
+			"ctft:black_dye_fishing_rod",
+			"ctft:black_dye_compass",
+			"ctft:black_dye_clock",
+			"ctft:black_dye_helmet",
+			"ctft:black_dye_chestplate",
+			"ctft:black_dye_leggings",
+			"ctft:black_dye_boots",
+			"ctft:black_dye_shears",
+			"ctft:black_dye_horse_armor",
+			"ctft:black_dye_bow"
+		]
+	}
+}

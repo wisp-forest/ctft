@@ -1,0 +1,23 @@
+
+{
+  "group": "Granite Wall Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:granite_wall"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:granite_wall_shield",
+    "count": 1
+  }
+}
+        

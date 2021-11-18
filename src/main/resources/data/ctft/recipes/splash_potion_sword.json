@@ -1,0 +1,23 @@
+
+{
+  "group": "Splash Potion Sword",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    " 0 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:splash_potion"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:splash_potion_sword",
+    "count": 1
+  }
+}
+        

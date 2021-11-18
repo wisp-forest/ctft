@@ -1,0 +1,10 @@
+
+{
+  "parent": "ctft:item/clock",
+  "textures": {
+    "0": "ctft:items/clock_59",
+    "1": "ctft:blocks/blue_shulker_box_block",
+    "particle": "ctft:blocks/blue_shulker_box_block"
+  }
+}
+            

@@ -1,0 +1,23 @@
+
+{
+  "group": "Stripped Crimson Stem Shovel",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:stripped_crimson_stem"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:stripped_crimson_stem_shovel",
+    "count": 1
+  }
+}
+        

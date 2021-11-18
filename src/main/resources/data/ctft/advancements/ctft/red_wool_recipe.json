@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:red_wool"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:red_wool_sword",
+			"ctft:red_wool_pickaxe",
+			"ctft:red_wool_axe",
+			"ctft:red_wool_shovel",
+			"ctft:red_wool_hoe",
+			"ctft:red_wool_shield",
+			"ctft:red_wool_fishing_rod",
+			"ctft:red_wool_compass",
+			"ctft:red_wool_clock",
+			"ctft:red_wool_helmet",
+			"ctft:red_wool_chestplate",
+			"ctft:red_wool_leggings",
+			"ctft:red_wool_boots",
+			"ctft:red_wool_shears",
+			"ctft:red_wool_horse_armor",
+			"ctft:red_wool_bow"
+		]
+	}
+}

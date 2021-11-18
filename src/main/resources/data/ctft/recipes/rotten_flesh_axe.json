@@ -1,0 +1,23 @@
+
+{
+  "group": "Rotten Flesh Axe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "00 ",
+    "01 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:rotten_flesh_axe",
+    "count": 1
+  }
+}
+        

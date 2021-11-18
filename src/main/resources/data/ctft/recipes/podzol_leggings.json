@@ -1,0 +1,20 @@
+
+{
+  "group": "Podzol Leggings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:podzol"
+    }
+  },
+  "result": {
+    "item": "ctft:podzol_leggings",
+    "count": 1
+  }
+}
+        

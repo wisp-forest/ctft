@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:wither_skeleton_skull"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:wither_skeleton_skull_sword",
+			"ctft:wither_skeleton_skull_pickaxe",
+			"ctft:wither_skeleton_skull_axe",
+			"ctft:wither_skeleton_skull_shovel",
+			"ctft:wither_skeleton_skull_hoe",
+			"ctft:wither_skeleton_skull_shield",
+			"ctft:wither_skeleton_skull_fishing_rod",
+			"ctft:wither_skeleton_skull_compass",
+			"ctft:wither_skeleton_skull_clock",
+			"ctft:wither_skeleton_skull_helmet",
+			"ctft:wither_skeleton_skull_chestplate",
+			"ctft:wither_skeleton_skull_leggings",
+			"ctft:wither_skeleton_skull_boots",
+			"ctft:wither_skeleton_skull_shears",
+			"ctft:wither_skeleton_skull_horse_armor",
+			"ctft:wither_skeleton_skull_bow"
+		]
+	}
+}

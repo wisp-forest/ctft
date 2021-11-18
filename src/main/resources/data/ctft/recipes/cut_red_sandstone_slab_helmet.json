@@ -1,0 +1,20 @@
+
+{
+  "group": "Cut Red Sandstone Slab Helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:cut_red_sandstone_slab"
+    }
+  },
+  "result": {
+    "item": "ctft:cut_red_sandstone_slab_helmet",
+    "count": 1
+  }
+}
+        

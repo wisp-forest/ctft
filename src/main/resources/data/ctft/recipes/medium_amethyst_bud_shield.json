@@ -1,0 +1,23 @@
+
+{
+  "group": "Medium Amethyst Bud Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:medium_amethyst_bud"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:medium_amethyst_bud_shield",
+    "count": 1
+  }
+}
+        

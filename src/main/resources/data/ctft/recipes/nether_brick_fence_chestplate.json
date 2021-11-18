@@ -1,0 +1,20 @@
+
+{
+  "group": "Nether Brick Fence Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:nether_brick_fence"
+    }
+  },
+  "result": {
+    "item": "ctft:nether_brick_fence_chestplate",
+    "count": 1
+  }
+}
+        

@@ -1,0 +1,23 @@
+
+{
+  "group": "Phantom Membrane Hoe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "00 ",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:phantom_membrane"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:phantom_membrane_hoe",
+    "count": 1
+  }
+}
+        

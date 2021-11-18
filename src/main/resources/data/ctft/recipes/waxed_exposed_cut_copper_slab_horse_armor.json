@@ -1,0 +1,20 @@
+
+{
+  "group": "Waxed Exposed Cut Copper Slab Horse Armor",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:waxed_exposed_cut_copper_slab"
+    }
+  },
+  "result": {
+    "item": "ctft:waxed_exposed_cut_copper_slab_horse_armor",
+    "count": 1
+  }
+}
+        

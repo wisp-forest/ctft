@@ -1,0 +1,23 @@
+
+{
+  "group": "Netherite Sword Clock",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    "010",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:netherite_sword"
+    },
+    "1": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:netherite_sword_clock",
+    "count": 1
+  }
+}
+        

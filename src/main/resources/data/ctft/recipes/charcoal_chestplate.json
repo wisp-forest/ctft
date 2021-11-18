@@ -1,0 +1,20 @@
+
+{
+  "group": "Charcoal Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:charcoal"
+    }
+  },
+  "result": {
+    "item": "ctft:charcoal_chestplate",
+    "count": 1
+  }
+}
+        

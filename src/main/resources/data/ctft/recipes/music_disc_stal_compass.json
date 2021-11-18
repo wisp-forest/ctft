@@ -1,0 +1,23 @@
+
+{
+  "group": "Music Disc Stal Compass",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    "010",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:music_disc_stal"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:music_disc_stal_compass",
+    "count": 1
+  }
+}
+        

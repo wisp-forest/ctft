@@ -1,0 +1,23 @@
+
+{
+  "group": "Cocoa Beans Pickaxe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:cocoa_beans"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:cocoa_beans_pickaxe",
+    "count": 1
+  }
+}
+        

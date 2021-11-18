@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:magenta_stained_glass_pane"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:magenta_stained_glass_pane_sword",
+			"ctft:magenta_stained_glass_pane_pickaxe",
+			"ctft:magenta_stained_glass_pane_axe",
+			"ctft:magenta_stained_glass_pane_shovel",
+			"ctft:magenta_stained_glass_pane_hoe",
+			"ctft:magenta_stained_glass_pane_shield",
+			"ctft:magenta_stained_glass_pane_fishing_rod",
+			"ctft:magenta_stained_glass_pane_compass",
+			"ctft:magenta_stained_glass_pane_clock",
+			"ctft:magenta_stained_glass_pane_helmet",
+			"ctft:magenta_stained_glass_pane_chestplate",
+			"ctft:magenta_stained_glass_pane_leggings",
+			"ctft:magenta_stained_glass_pane_boots",
+			"ctft:magenta_stained_glass_pane_shears",
+			"ctft:magenta_stained_glass_pane_horse_armor",
+			"ctft:magenta_stained_glass_pane_bow"
+		]
+	}
+}

@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:infested_deepslate"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:infested_deepslate_sword",
+			"ctft:infested_deepslate_pickaxe",
+			"ctft:infested_deepslate_axe",
+			"ctft:infested_deepslate_shovel",
+			"ctft:infested_deepslate_hoe",
+			"ctft:infested_deepslate_shield",
+			"ctft:infested_deepslate_fishing_rod",
+			"ctft:infested_deepslate_compass",
+			"ctft:infested_deepslate_clock",
+			"ctft:infested_deepslate_helmet",
+			"ctft:infested_deepslate_chestplate",
+			"ctft:infested_deepslate_leggings",
+			"ctft:infested_deepslate_boots",
+			"ctft:infested_deepslate_shears",
+			"ctft:infested_deepslate_horse_armor",
+			"ctft:infested_deepslate_bow"
+		]
+	}
+}

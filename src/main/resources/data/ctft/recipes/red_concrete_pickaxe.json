@@ -1,0 +1,23 @@
+
+{
+  "group": "Red Concrete Pickaxe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:red_concrete"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:red_concrete_pickaxe",
+    "count": 1
+  }
+}
+        

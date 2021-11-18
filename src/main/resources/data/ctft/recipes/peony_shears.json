@@ -1,0 +1,20 @@
+
+{
+  "group": "Peony Shears",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 0 ",
+    "   "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:peony"
+    }
+  },
+  "result": {
+    "item": "ctft:peony_shears",
+    "count": 1
+  }
+}
+        

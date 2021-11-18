@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:lime_stained_glass"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:lime_stained_glass_sword",
+			"ctft:lime_stained_glass_pickaxe",
+			"ctft:lime_stained_glass_axe",
+			"ctft:lime_stained_glass_shovel",
+			"ctft:lime_stained_glass_hoe",
+			"ctft:lime_stained_glass_shield",
+			"ctft:lime_stained_glass_fishing_rod",
+			"ctft:lime_stained_glass_compass",
+			"ctft:lime_stained_glass_clock",
+			"ctft:lime_stained_glass_helmet",
+			"ctft:lime_stained_glass_chestplate",
+			"ctft:lime_stained_glass_leggings",
+			"ctft:lime_stained_glass_boots",
+			"ctft:lime_stained_glass_shears",
+			"ctft:lime_stained_glass_horse_armor",
+			"ctft:lime_stained_glass_bow"
+		]
+	}
+}

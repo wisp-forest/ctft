@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:knowledge_book"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:knowledge_book_sword",
+			"ctft:knowledge_book_pickaxe",
+			"ctft:knowledge_book_axe",
+			"ctft:knowledge_book_shovel",
+			"ctft:knowledge_book_hoe",
+			"ctft:knowledge_book_shield",
+			"ctft:knowledge_book_fishing_rod",
+			"ctft:knowledge_book_compass",
+			"ctft:knowledge_book_clock",
+			"ctft:knowledge_book_helmet",
+			"ctft:knowledge_book_chestplate",
+			"ctft:knowledge_book_leggings",
+			"ctft:knowledge_book_boots",
+			"ctft:knowledge_book_shears",
+			"ctft:knowledge_book_horse_armor",
+			"ctft:knowledge_book_bow"
+		]
+	}
+}

@@ -1,0 +1,14 @@
+
+    {
+      "parent": "ctft:item/shield",
+      "textures": {
+        "0": "ctft:items/shield_base",
+        "1": "ctft:blocks/crimson_stem_block",
+        "particle": "ctft:blocks/crimson_stem_block"
+      },
+      "overrides": [
+        { "predicate": { "blocking": 0.0 }, "model": "ctft:item/crimson_hyphae_shield" },
+        { "predicate": { "blocking": 1.0 }, "model": "ctft:item/crimson_hyphae_shield_blocking" }
+        ]
+    }
+            

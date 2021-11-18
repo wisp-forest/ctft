@@ -1,0 +1,23 @@
+
+{
+  "group": "Netherite Ingot Shovel",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:netherite_ingot_shovel",
+    "count": 1
+  }
+}
+        

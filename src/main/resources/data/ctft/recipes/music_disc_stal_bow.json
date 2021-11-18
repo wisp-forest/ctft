@@ -1,0 +1,23 @@
+
+{
+  "group": "Music Disc Stal Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "10 ",
+    "1 0",
+    "10 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:music_disc_stal"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:music_disc_stal_bow",
+    "count": 1
+  }
+}
+        

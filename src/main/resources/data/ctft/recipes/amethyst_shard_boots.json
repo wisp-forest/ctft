@@ -1,0 +1,20 @@
+
+{
+  "group": "Amethyst Shard Boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:amethyst_shard"
+    }
+  },
+  "result": {
+    "item": "ctft:amethyst_shard_boots",
+    "count": 1
+  }
+}
+        

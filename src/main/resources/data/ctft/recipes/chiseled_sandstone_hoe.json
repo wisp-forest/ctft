@@ -1,0 +1,23 @@
+
+{
+  "group": "Chiseled Sandstone Hoe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "00 ",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:chiseled_sandstone"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctft:chiseled_sandstone_hoe",
+    "count": 1
+  }
+}
+        

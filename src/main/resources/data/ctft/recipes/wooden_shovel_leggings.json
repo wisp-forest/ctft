@@ -1,0 +1,20 @@
+
+{
+  "group": "Wooden Shovel Leggings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:wooden_shovel"
+    }
+  },
+  "result": {
+    "item": "ctft:wooden_shovel_leggings",
+    "count": 1
+  }
+}
+        

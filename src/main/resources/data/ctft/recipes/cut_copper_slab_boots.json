@@ -1,0 +1,20 @@
+
+{
+  "group": "Cut Copper Slab Boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:cut_copper_slab"
+    }
+  },
+  "result": {
+    "item": "ctft:cut_copper_slab_boots",
+    "count": 1
+  }
+}
+        

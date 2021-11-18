@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:terracotta"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:terracotta_sword",
+			"ctft:terracotta_pickaxe",
+			"ctft:terracotta_axe",
+			"ctft:terracotta_shovel",
+			"ctft:terracotta_hoe",
+			"ctft:terracotta_shield",
+			"ctft:terracotta_fishing_rod",
+			"ctft:terracotta_compass",
+			"ctft:terracotta_clock",
+			"ctft:terracotta_helmet",
+			"ctft:terracotta_chestplate",
+			"ctft:terracotta_leggings",
+			"ctft:terracotta_boots",
+			"ctft:terracotta_shears",
+			"ctft:terracotta_horse_armor",
+			"ctft:terracotta_bow"
+		]
+	}
+}

@@ -1,0 +1,20 @@
+
+{
+  "group": "Farmland Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:farmland"
+    }
+  },
+  "result": {
+    "item": "ctft:farmland_chestplate",
+    "count": 1
+  }
+}
+        

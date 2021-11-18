@@ -1,0 +1,23 @@
+
+{
+  "group": "Waxed Exposed Cut Copper Slab Shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:waxed_exposed_cut_copper_slab"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ctft:waxed_exposed_cut_copper_slab_shield",
+    "count": 1
+  }
+}
+        

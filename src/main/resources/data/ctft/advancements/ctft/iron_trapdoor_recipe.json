@@ -1,0 +1,42 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_trapdoor"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:iron_trapdoor_sword",
+			"ctft:iron_trapdoor_pickaxe",
+			"ctft:iron_trapdoor_axe",
+			"ctft:iron_trapdoor_shovel",
+			"ctft:iron_trapdoor_hoe",
+			"ctft:iron_trapdoor_shield",
+			"ctft:iron_trapdoor_fishing_rod",
+			"ctft:iron_trapdoor_compass",
+			"ctft:iron_trapdoor_clock",
+			"ctft:iron_trapdoor_helmet",
+			"ctft:iron_trapdoor_chestplate",
+			"ctft:iron_trapdoor_leggings",
+			"ctft:iron_trapdoor_boots",
+			"ctft:iron_trapdoor_shears",
+			"ctft:iron_trapdoor_horse_armor",
+			"ctft:iron_trapdoor_bow"
+		]
+	}
+}

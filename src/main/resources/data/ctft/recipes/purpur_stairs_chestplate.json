@@ -1,0 +1,20 @@
+
+{
+  "group": "Purpur Stairs Chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:purpur_stairs"
+    }
+  },
+  "result": {
+    "item": "ctft:purpur_stairs_chestplate",
+    "count": 1
+  }
+}
+        
