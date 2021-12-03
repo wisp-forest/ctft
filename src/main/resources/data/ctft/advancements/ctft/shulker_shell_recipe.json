@@ -36,7 +36,8 @@
 			"ctft:shulker_shell_boots",
 			"ctft:shulker_shell_shears",
 			"ctft:shulker_shell_horse_armor",
-			"ctft:shulker_shell_bow"
+			"ctft:shulker_shell_bow",
+			"ctft:shulker_shell_crossbow"
 		]
 	}
 }

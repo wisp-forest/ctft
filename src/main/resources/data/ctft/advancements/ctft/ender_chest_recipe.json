@@ -36,7 +36,8 @@
 			"ctft:ender_chest_boots",
 			"ctft:ender_chest_shears",
 			"ctft:ender_chest_horse_armor",
-			"ctft:ender_chest_bow"
+			"ctft:ender_chest_bow",
+			"ctft:ender_chest_crossbow"
 		]
 	}
 }

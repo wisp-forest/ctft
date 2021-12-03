@@ -36,7 +36,8 @@
 			"ctft:music_disc_blocks_boots",
 			"ctft:music_disc_blocks_shears",
 			"ctft:music_disc_blocks_horse_armor",
-			"ctft:music_disc_blocks_bow"
+			"ctft:music_disc_blocks_bow",
+			"ctft:music_disc_blocks_crossbow"
 		]
 	}
 }

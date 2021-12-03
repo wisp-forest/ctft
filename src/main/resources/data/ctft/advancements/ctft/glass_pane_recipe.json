@@ -36,7 +36,8 @@
 			"ctft:glass_pane_boots",
 			"ctft:glass_pane_shears",
 			"ctft:glass_pane_horse_armor",
-			"ctft:glass_pane_bow"
+			"ctft:glass_pane_bow",
+			"ctft:glass_pane_crossbow"
 		]
 	}
 }

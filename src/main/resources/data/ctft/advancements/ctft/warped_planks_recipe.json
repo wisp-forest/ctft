@@ -36,7 +36,8 @@
 			"ctft:warped_planks_boots",
 			"ctft:warped_planks_shears",
 			"ctft:warped_planks_horse_armor",
-			"ctft:warped_planks_bow"
+			"ctft:warped_planks_bow",
+			"ctft:warped_planks_crossbow"
 		]
 	}
 }

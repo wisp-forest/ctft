@@ -36,7 +36,8 @@
 			"ctft:spruce_door_boots",
 			"ctft:spruce_door_shears",
 			"ctft:spruce_door_horse_armor",
-			"ctft:spruce_door_bow"
+			"ctft:spruce_door_bow",
+			"ctft:spruce_door_crossbow"
 		]
 	}
 }

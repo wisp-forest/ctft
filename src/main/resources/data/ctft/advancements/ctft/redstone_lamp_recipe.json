@@ -36,7 +36,8 @@
 			"ctft:redstone_lamp_boots",
 			"ctft:redstone_lamp_shears",
 			"ctft:redstone_lamp_horse_armor",
-			"ctft:redstone_lamp_bow"
+			"ctft:redstone_lamp_bow",
+			"ctft:redstone_lamp_crossbow"
 		]
 	}
 }

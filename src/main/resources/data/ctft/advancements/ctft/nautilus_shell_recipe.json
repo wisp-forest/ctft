@@ -36,7 +36,8 @@
 			"ctft:nautilus_shell_boots",
 			"ctft:nautilus_shell_shears",
 			"ctft:nautilus_shell_horse_armor",
-			"ctft:nautilus_shell_bow"
+			"ctft:nautilus_shell_bow",
+			"ctft:nautilus_shell_crossbow"
 		]
 	}
 }

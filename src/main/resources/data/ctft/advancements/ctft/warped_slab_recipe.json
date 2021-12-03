@@ -36,7 +36,8 @@
 			"ctft:warped_slab_boots",
 			"ctft:warped_slab_shears",
 			"ctft:warped_slab_horse_armor",
-			"ctft:warped_slab_bow"
+			"ctft:warped_slab_bow",
+			"ctft:warped_slab_crossbow"
 		]
 	}
 }

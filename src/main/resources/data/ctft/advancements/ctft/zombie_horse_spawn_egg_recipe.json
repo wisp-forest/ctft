@@ -36,7 +36,8 @@
 			"ctft:zombie_horse_spawn_egg_boots",
 			"ctft:zombie_horse_spawn_egg_shears",
 			"ctft:zombie_horse_spawn_egg_horse_armor",
-			"ctft:zombie_horse_spawn_egg_bow"
+			"ctft:zombie_horse_spawn_egg_bow",
+			"ctft:zombie_horse_spawn_egg_crossbow"
 		]
 	}
 }

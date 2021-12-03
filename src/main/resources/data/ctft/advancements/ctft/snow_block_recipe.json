@@ -36,7 +36,8 @@
 			"ctft:snow_block_boots",
 			"ctft:snow_block_shears",
 			"ctft:snow_block_horse_armor",
-			"ctft:snow_block_bow"
+			"ctft:snow_block_bow",
+			"ctft:snow_block_crossbow"
 		]
 	}
 }

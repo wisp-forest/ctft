@@ -36,7 +36,8 @@
 			"ctft:netherite_helmet_boots",
 			"ctft:netherite_helmet_shears",
 			"ctft:netherite_helmet_horse_armor",
-			"ctft:netherite_helmet_bow"
+			"ctft:netherite_helmet_bow",
+			"ctft:netherite_helmet_crossbow"
 		]
 	}
 }

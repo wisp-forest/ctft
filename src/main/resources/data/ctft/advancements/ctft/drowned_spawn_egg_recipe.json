@@ -36,7 +36,8 @@
 			"ctft:drowned_spawn_egg_boots",
 			"ctft:drowned_spawn_egg_shears",
 			"ctft:drowned_spawn_egg_horse_armor",
-			"ctft:drowned_spawn_egg_bow"
+			"ctft:drowned_spawn_egg_bow",
+			"ctft:drowned_spawn_egg_crossbow"
 		]
 	}
 }

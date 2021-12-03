@@ -36,7 +36,8 @@
 			"ctft:blackstone_slab_boots",
 			"ctft:blackstone_slab_shears",
 			"ctft:blackstone_slab_horse_armor",
-			"ctft:blackstone_slab_bow"
+			"ctft:blackstone_slab_bow",
+			"ctft:blackstone_slab_crossbow"
 		]
 	}
 }

@@ -36,7 +36,8 @@
 			"ctft:warped_stairs_boots",
 			"ctft:warped_stairs_shears",
 			"ctft:warped_stairs_horse_armor",
-			"ctft:warped_stairs_bow"
+			"ctft:warped_stairs_bow",
+			"ctft:warped_stairs_crossbow"
 		]
 	}
 }

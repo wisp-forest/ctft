@@ -36,7 +36,8 @@
 			"ctft:glowstone_dust_boots",
 			"ctft:glowstone_dust_shears",
 			"ctft:glowstone_dust_horse_armor",
-			"ctft:glowstone_dust_bow"
+			"ctft:glowstone_dust_bow",
+			"ctft:glowstone_dust_crossbow"
 		]
 	}
 }

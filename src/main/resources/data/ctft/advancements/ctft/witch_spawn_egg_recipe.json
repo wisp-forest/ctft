@@ -36,7 +36,8 @@
 			"ctft:witch_spawn_egg_boots",
 			"ctft:witch_spawn_egg_shears",
 			"ctft:witch_spawn_egg_horse_armor",
-			"ctft:witch_spawn_egg_bow"
+			"ctft:witch_spawn_egg_bow",
+			"ctft:witch_spawn_egg_crossbow"
 		]
 	}
 }

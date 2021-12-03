@@ -36,7 +36,8 @@
 			"ctft:cat_spawn_egg_boots",
 			"ctft:cat_spawn_egg_shears",
 			"ctft:cat_spawn_egg_horse_armor",
-			"ctft:cat_spawn_egg_bow"
+			"ctft:cat_spawn_egg_bow",
+			"ctft:cat_spawn_egg_crossbow"
 		]
 	}
 }

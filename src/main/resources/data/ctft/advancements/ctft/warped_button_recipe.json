@@ -36,7 +36,8 @@
 			"ctft:warped_button_boots",
 			"ctft:warped_button_shears",
 			"ctft:warped_button_horse_armor",
-			"ctft:warped_button_bow"
+			"ctft:warped_button_bow",
+			"ctft:warped_button_crossbow"
 		]
 	}
 }

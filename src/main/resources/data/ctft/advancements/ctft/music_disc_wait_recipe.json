@@ -36,7 +36,8 @@
 			"ctft:music_disc_wait_boots",
 			"ctft:music_disc_wait_shears",
 			"ctft:music_disc_wait_horse_armor",
-			"ctft:music_disc_wait_bow"
+			"ctft:music_disc_wait_bow",
+			"ctft:music_disc_wait_crossbow"
 		]
 	}
 }

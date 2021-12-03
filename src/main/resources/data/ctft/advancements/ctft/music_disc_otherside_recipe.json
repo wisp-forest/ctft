@@ -1,0 +1,43 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_otherside"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:music_disc_otherside_sword",
+			"ctft:music_disc_otherside_pickaxe",
+			"ctft:music_disc_otherside_axe",
+			"ctft:music_disc_otherside_shovel",
+			"ctft:music_disc_otherside_hoe",
+			"ctft:music_disc_otherside_shield",
+			"ctft:music_disc_otherside_fishing_rod",
+			"ctft:music_disc_otherside_compass",
+			"ctft:music_disc_otherside_clock",
+			"ctft:music_disc_otherside_helmet",
+			"ctft:music_disc_otherside_chestplate",
+			"ctft:music_disc_otherside_leggings",
+			"ctft:music_disc_otherside_boots",
+			"ctft:music_disc_otherside_shears",
+			"ctft:music_disc_otherside_horse_armor",
+			"ctft:music_disc_otherside_bow",
+			"ctft:music_disc_otherside_crossbow"
+		]
+	}
+}

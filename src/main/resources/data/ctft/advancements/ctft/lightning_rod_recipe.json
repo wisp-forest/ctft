@@ -36,7 +36,8 @@
 			"ctft:lightning_rod_boots",
 			"ctft:lightning_rod_shears",
 			"ctft:lightning_rod_horse_armor",
-			"ctft:lightning_rod_bow"
+			"ctft:lightning_rod_bow",
+			"ctft:lightning_rod_crossbow"
 		]
 	}
 }

@@ -36,7 +36,8 @@
 			"ctft:acacia_log_boots",
 			"ctft:acacia_log_shears",
 			"ctft:acacia_log_horse_armor",
-			"ctft:acacia_log_bow"
+			"ctft:acacia_log_bow",
+			"ctft:acacia_log_crossbow"
 		]
 	}
 }

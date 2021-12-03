@@ -36,7 +36,8 @@
 			"ctft:bedrock_boots",
 			"ctft:bedrock_shears",
 			"ctft:bedrock_horse_armor",
-			"ctft:bedrock_bow"
+			"ctft:bedrock_bow",
+			"ctft:bedrock_crossbow"
 		]
 	}
 }

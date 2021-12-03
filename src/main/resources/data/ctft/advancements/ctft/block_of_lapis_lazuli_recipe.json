@@ -36,7 +36,8 @@
 			"ctft:lapis_block_boots",
 			"ctft:lapis_block_shears",
 			"ctft:lapis_block_horse_armor",
-			"ctft:lapis_block_bow"
+			"ctft:lapis_block_bow",
+			"ctft:lapis_block_crossbow"
 		]
 	}
 }

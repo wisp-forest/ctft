@@ -36,7 +36,8 @@
 			"ctft:cocoa_beans_boots",
 			"ctft:cocoa_beans_shears",
 			"ctft:cocoa_beans_horse_armor",
-			"ctft:cocoa_beans_bow"
+			"ctft:cocoa_beans_bow",
+			"ctft:cocoa_beans_crossbow"
 		]
 	}
 }

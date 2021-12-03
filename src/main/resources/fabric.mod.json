@@ -16,7 +16,13 @@
   "environment": "*",
   "entrypoints": {
     "client": [
-      "com.chyzman.ctft.client.CtftClient"
+      "com.chyzman.ctft.client.CtftClient",
+      "com.chyzman.ctft.client.CtftBowClient",
+      "com.chyzman.ctft.client.CtftBowPullingClient",
+      "com.chyzman.ctft.client.CtftClockClient",
+      "com.chyzman.ctft.client.CtftShieldClient",
+      "com.chyzman.ctft.client.CtftFishingRodClient",
+      "com.chyzman.ctft.client.CtftCompassClient"
     ],
     "main": [
       "com.chyzman.ctft.Ctft"
@@ -26,8 +32,10 @@
     "ctft.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=0.12.5",
+    "fabricloader": "*",
     "fabric": "*",
-    "minecraft": "1.17.1"
+    "minecraft": "1.18",
+    "owo": ">=0.2.0",
+    "advanced_runtime_resource_pack": ">=0.5.4"
   }
 }

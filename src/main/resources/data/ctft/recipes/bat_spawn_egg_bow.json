@@ -3,9 +3,9 @@
   "group": "Bat Spawn Egg Bow",
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "10 ",
-    "1 0",
-    "10 "
+    " 01",
+    "0 1",
+    " 01"
   ],
   "key": {
     "0": {

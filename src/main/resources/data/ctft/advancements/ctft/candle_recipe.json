@@ -36,7 +36,8 @@
 			"ctft:candle_boots",
 			"ctft:candle_shears",
 			"ctft:candle_horse_armor",
-			"ctft:candle_bow"
+			"ctft:candle_bow",
+			"ctft:candle_crossbow"
 		]
 	}
 }

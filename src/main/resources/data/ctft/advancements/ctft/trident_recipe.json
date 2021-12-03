@@ -36,7 +36,8 @@
 			"ctft:trident_boots",
 			"ctft:trident_shears",
 			"ctft:trident_horse_armor",
-			"ctft:trident_bow"
+			"ctft:trident_bow",
+			"ctft:trident_crossbow"
 		]
 	}
 }

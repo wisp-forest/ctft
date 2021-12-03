@@ -36,7 +36,8 @@
 			"ctft:gold_block_boots",
 			"ctft:gold_block_shears",
 			"ctft:gold_block_horse_armor",
-			"ctft:gold_block_bow"
+			"ctft:gold_block_bow",
+			"ctft:gold_block_crossbow"
 		]
 	}
 }

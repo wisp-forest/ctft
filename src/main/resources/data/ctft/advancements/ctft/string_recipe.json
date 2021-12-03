@@ -36,7 +36,8 @@
 			"ctft:string_boots",
 			"ctft:string_shears",
 			"ctft:string_horse_armor",
-			"ctft:string_bow"
+			"ctft:string_bow",
+			"ctft:string_crossbow"
 		]
 	}
 }

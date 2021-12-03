@@ -36,7 +36,8 @@
 			"ctft:fletching_table_boots",
 			"ctft:fletching_table_shears",
 			"ctft:fletching_table_horse_armor",
-			"ctft:fletching_table_bow"
+			"ctft:fletching_table_bow",
+			"ctft:fletching_table_crossbow"
 		]
 	}
 }

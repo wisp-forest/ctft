@@ -36,7 +36,8 @@
 			"ctft:sculk_sensor_boots",
 			"ctft:sculk_sensor_shears",
 			"ctft:sculk_sensor_horse_armor",
-			"ctft:sculk_sensor_bow"
+			"ctft:sculk_sensor_bow",
+			"ctft:sculk_sensor_crossbow"
 		]
 	}
 }

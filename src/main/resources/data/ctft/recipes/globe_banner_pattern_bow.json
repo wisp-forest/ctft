@@ -3,13 +3,13 @@
   "group": "Globe Banner Pattern Bow",
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "10 ",
-    "1 0",
-    "10 "
+    " 01",
+    "0 1",
+    " 01"
   ],
   "key": {
     "0": {
-      "item": "minecraft:globe_banner_patter"
+      "item": "minecraft:globe_banner_pattern"
     },
     "1": {
       "item": "minecraft:string"

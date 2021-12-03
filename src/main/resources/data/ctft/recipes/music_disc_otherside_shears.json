@@ -1,0 +1,20 @@
+
+{
+  "group": "Music Disc Otherside Shears",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 0 ",
+    "   "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:music_disc_otherside"
+    }
+  },
+  "result": {
+    "item": "ctft:music_disc_otherside_shears",
+    "count": 1
+  }
+}
+        

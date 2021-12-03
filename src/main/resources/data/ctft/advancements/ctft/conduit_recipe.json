@@ -36,7 +36,8 @@
 			"ctft:conduit_boots",
 			"ctft:conduit_shears",
 			"ctft:conduit_horse_armor",
-			"ctft:conduit_bow"
+			"ctft:conduit_bow",
+			"ctft:conduit_crossbow"
 		]
 	}
 }

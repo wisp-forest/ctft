@@ -36,7 +36,8 @@
 			"ctft:end_stone_brick_wall_boots",
 			"ctft:end_stone_brick_wall_shears",
 			"ctft:end_stone_brick_wall_horse_armor",
-			"ctft:end_stone_brick_wall_bow"
+			"ctft:end_stone_brick_wall_bow",
+			"ctft:end_stone_brick_wall_crossbow"
 		]
 	}
 }

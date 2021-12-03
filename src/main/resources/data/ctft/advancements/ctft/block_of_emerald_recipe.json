@@ -36,7 +36,8 @@
 			"ctft:emerald_block_boots",
 			"ctft:emerald_block_shears",
 			"ctft:emerald_block_horse_armor",
-			"ctft:emerald_block_bow"
+			"ctft:emerald_block_bow",
+			"ctft:emerald_block_crossbow"
 		]
 	}
 }

@@ -36,7 +36,8 @@
 			"ctft:hopper_minecart_boots",
 			"ctft:hopper_minecart_shears",
 			"ctft:hopper_minecart_horse_armor",
-			"ctft:hopper_minecart_bow"
+			"ctft:hopper_minecart_bow",
+			"ctft:hopper_minecart_crossbow"
 		]
 	}
 }

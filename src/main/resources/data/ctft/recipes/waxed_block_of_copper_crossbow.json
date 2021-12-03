@@ -1,0 +1,29 @@
+
+{
+  "group": "Waxed Block of Copper Crossbow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "232",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:waxed_copper"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    },
+    "2": {
+      "item": "minecraft:string"
+    },
+    "3": {
+      "item": "minecraft:tripwire_hook"
+    }
+  },
+  "result": {
+    "item": "ctft:waxed_block_of_copper_crossbow",
+    "count": 1
+  }
+}
+        

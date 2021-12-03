@@ -36,7 +36,8 @@
 			"ctft:piston_boots",
 			"ctft:piston_shears",
 			"ctft:piston_horse_armor",
-			"ctft:piston_bow"
+			"ctft:piston_bow",
+			"ctft:piston_crossbow"
 		]
 	}
 }

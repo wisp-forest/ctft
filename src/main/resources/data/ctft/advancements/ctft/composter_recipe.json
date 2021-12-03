@@ -36,7 +36,8 @@
 			"ctft:composter_boots",
 			"ctft:composter_shears",
 			"ctft:composter_horse_armor",
-			"ctft:composter_bow"
+			"ctft:composter_bow",
+			"ctft:composter_crossbow"
 		]
 	}
 }

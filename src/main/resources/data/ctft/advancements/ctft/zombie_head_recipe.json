@@ -36,7 +36,8 @@
 			"ctft:zombie_head_boots",
 			"ctft:zombie_head_shears",
 			"ctft:zombie_head_horse_armor",
-			"ctft:zombie_head_bow"
+			"ctft:zombie_head_bow",
+			"ctft:zombie_head_crossbow"
 		]
 	}
 }

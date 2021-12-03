@@ -36,7 +36,8 @@
 			"ctft:magma_block_boots",
 			"ctft:magma_block_shears",
 			"ctft:magma_block_horse_armor",
-			"ctft:magma_block_bow"
+			"ctft:magma_block_bow",
+			"ctft:magma_block_crossbow"
 		]
 	}
 }

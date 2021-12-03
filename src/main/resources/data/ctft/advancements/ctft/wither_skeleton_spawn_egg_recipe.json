@@ -36,7 +36,8 @@
 			"ctft:wither_skeleton_spawn_egg_boots",
 			"ctft:wither_skeleton_spawn_egg_shears",
 			"ctft:wither_skeleton_spawn_egg_horse_armor",
-			"ctft:wither_skeleton_spawn_egg_bow"
+			"ctft:wither_skeleton_spawn_egg_bow",
+			"ctft:wither_skeleton_spawn_egg_crossbow"
 		]
 	}
 }

@@ -36,7 +36,8 @@
 			"ctft:diamond_block_boots",
 			"ctft:diamond_block_shears",
 			"ctft:diamond_block_horse_armor",
-			"ctft:diamond_block_bow"
+			"ctft:diamond_block_bow",
+			"ctft:diamond_block_crossbow"
 		]
 	}
 }

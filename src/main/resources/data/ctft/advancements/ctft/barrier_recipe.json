@@ -36,7 +36,8 @@
 			"ctft:barrier_boots",
 			"ctft:barrier_shears",
 			"ctft:barrier_horse_armor",
-			"ctft:barrier_bow"
+			"ctft:barrier_bow",
+			"ctft:barrier_crossbow"
 		]
 	}
 }

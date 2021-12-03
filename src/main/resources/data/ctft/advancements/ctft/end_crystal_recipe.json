@@ -36,7 +36,8 @@
 			"ctft:end_crystal_boots",
 			"ctft:end_crystal_shears",
 			"ctft:end_crystal_horse_armor",
-			"ctft:end_crystal_bow"
+			"ctft:end_crystal_bow",
+			"ctft:end_crystal_crossbow"
 		]
 	}
 }

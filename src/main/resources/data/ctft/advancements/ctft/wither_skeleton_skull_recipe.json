@@ -36,7 +36,8 @@
 			"ctft:wither_skeleton_skull_boots",
 			"ctft:wither_skeleton_skull_shears",
 			"ctft:wither_skeleton_skull_horse_armor",
-			"ctft:wither_skeleton_skull_bow"
+			"ctft:wither_skeleton_skull_bow",
+			"ctft:wither_skeleton_skull_crossbow"
 		]
 	}
 }

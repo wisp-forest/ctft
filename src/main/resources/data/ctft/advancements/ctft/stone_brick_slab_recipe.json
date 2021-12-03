@@ -36,7 +36,8 @@
 			"ctft:stone_brick_slab_boots",
 			"ctft:stone_brick_slab_shears",
 			"ctft:stone_brick_slab_horse_armor",
-			"ctft:stone_brick_slab_bow"
+			"ctft:stone_brick_slab_bow",
+			"ctft:stone_brick_slab_crossbow"
 		]
 	}
 }

@@ -36,7 +36,8 @@
 			"ctft:lingering_potion_boots",
 			"ctft:lingering_potion_shears",
 			"ctft:lingering_potion_horse_armor",
-			"ctft:lingering_potion_bow"
+			"ctft:lingering_potion_bow",
+			"ctft:lingering_potion_crossbow"
 		]
 	}
 }

@@ -36,7 +36,8 @@
 			"ctft:raw_iron_block_boots",
 			"ctft:raw_iron_block_shears",
 			"ctft:raw_iron_block_horse_armor",
-			"ctft:raw_iron_block_bow"
+			"ctft:raw_iron_block_bow",
+			"ctft:raw_iron_block_crossbow"
 		]
 	}
 }

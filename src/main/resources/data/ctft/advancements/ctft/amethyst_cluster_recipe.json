@@ -36,7 +36,8 @@
 			"ctft:amethyst_cluster_boots",
 			"ctft:amethyst_cluster_shears",
 			"ctft:amethyst_cluster_horse_armor",
-			"ctft:amethyst_cluster_bow"
+			"ctft:amethyst_cluster_bow",
+			"ctft:amethyst_cluster_crossbow"
 		]
 	}
 }

@@ -36,7 +36,8 @@
 			"ctft:deepslate_redstone_ore_boots",
 			"ctft:deepslate_redstone_ore_shears",
 			"ctft:deepslate_redstone_ore_horse_armor",
-			"ctft:deepslate_redstone_ore_bow"
+			"ctft:deepslate_redstone_ore_bow",
+			"ctft:deepslate_redstone_ore_crossbow"
 		]
 	}
 }

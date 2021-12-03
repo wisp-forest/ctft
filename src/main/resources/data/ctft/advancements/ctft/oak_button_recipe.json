@@ -36,7 +36,8 @@
 			"ctft:oak_button_boots",
 			"ctft:oak_button_shears",
 			"ctft:oak_button_horse_armor",
-			"ctft:oak_button_bow"
+			"ctft:oak_button_bow",
+			"ctft:oak_button_crossbow"
 		]
 	}
 }

@@ -36,7 +36,8 @@
 			"ctft:enderman_spawn_egg_boots",
 			"ctft:enderman_spawn_egg_shears",
 			"ctft:enderman_spawn_egg_horse_armor",
-			"ctft:enderman_spawn_egg_bow"
+			"ctft:enderman_spawn_egg_bow",
+			"ctft:enderman_spawn_egg_crossbow"
 		]
 	}
 }

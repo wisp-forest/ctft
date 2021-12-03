@@ -36,7 +36,8 @@
 			"ctft:lapis_ore_boots",
 			"ctft:lapis_ore_shears",
 			"ctft:lapis_ore_horse_armor",
-			"ctft:lapis_ore_bow"
+			"ctft:lapis_ore_bow",
+			"ctft:lapis_ore_crossbow"
 		]
 	}
 }

@@ -36,7 +36,8 @@
 			"ctft:farmland_boots",
 			"ctft:farmland_shears",
 			"ctft:farmland_horse_armor",
-			"ctft:farmland_bow"
+			"ctft:farmland_bow",
+			"ctft:farmland_crossbow"
 		]
 	}
 }

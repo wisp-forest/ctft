@@ -36,7 +36,8 @@
 			"ctft:chain_boots",
 			"ctft:chain_shears",
 			"ctft:chain_horse_armor",
-			"ctft:chain_bow"
+			"ctft:chain_bow",
+			"ctft:chain_crossbow"
 		]
 	}
 }

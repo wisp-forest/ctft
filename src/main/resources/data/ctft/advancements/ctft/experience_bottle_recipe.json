@@ -36,7 +36,8 @@
 			"ctft:experience_bottle_boots",
 			"ctft:experience_bottle_shears",
 			"ctft:experience_bottle_horse_armor",
-			"ctft:experience_bottle_bow"
+			"ctft:experience_bottle_bow",
+			"ctft:experience_bottle_crossbow"
 		]
 	}
 }

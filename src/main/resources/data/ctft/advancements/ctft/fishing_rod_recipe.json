@@ -36,7 +36,8 @@
 			"ctft:fishing_rod_boots",
 			"ctft:fishing_rod_shears",
 			"ctft:fishing_rod_horse_armor",
-			"ctft:fishing_rod_bow"
+			"ctft:fishing_rod_bow",
+			"ctft:fishing_rod_crossbow"
 		]
 	}
 }

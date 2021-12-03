@@ -36,7 +36,8 @@
 			"ctft:end_portal_frame_boots",
 			"ctft:end_portal_frame_shears",
 			"ctft:end_portal_frame_horse_armor",
-			"ctft:end_portal_frame_bow"
+			"ctft:end_portal_frame_bow",
+			"ctft:end_portal_frame_crossbow"
 		]
 	}
 }

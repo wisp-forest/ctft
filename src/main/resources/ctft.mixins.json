@@ -4,6 +4,8 @@
   "package": "com.chyzman.ctft.mixin",
   "compatibilityLevel": "JAVA_16",
   "mixins": [
+    "FishingBobberFix",
+    "FishingBobberEntityRendererMixin"
   ],
   "client": [
   ],

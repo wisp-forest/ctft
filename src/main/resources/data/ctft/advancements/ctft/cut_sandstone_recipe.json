@@ -36,7 +36,8 @@
 			"ctft:cut_sandstone_boots",
 			"ctft:cut_sandstone_shears",
 			"ctft:cut_sandstone_horse_armor",
-			"ctft:cut_sandstone_bow"
+			"ctft:cut_sandstone_bow",
+			"ctft:cut_sandstone_crossbow"
 		]
 	}
 }

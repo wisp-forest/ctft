@@ -36,7 +36,8 @@
 			"ctft:acacia_button_boots",
 			"ctft:acacia_button_shears",
 			"ctft:acacia_button_horse_armor",
-			"ctft:acacia_button_bow"
+			"ctft:acacia_button_bow",
+			"ctft:acacia_button_crossbow"
 		]
 	}
 }

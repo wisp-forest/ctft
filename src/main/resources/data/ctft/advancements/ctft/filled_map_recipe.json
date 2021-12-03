@@ -36,7 +36,8 @@
 			"ctft:filled_map_boots",
 			"ctft:filled_map_shears",
 			"ctft:filled_map_horse_armor",
-			"ctft:filled_map_bow"
+			"ctft:filled_map_bow",
+			"ctft:filled_map_crossbow"
 		]
 	}
 }

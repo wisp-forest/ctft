@@ -36,7 +36,8 @@
 			"ctft:comparator_boots",
 			"ctft:comparator_shears",
 			"ctft:comparator_horse_armor",
-			"ctft:comparator_bow"
+			"ctft:comparator_bow",
+			"ctft:comparator_crossbow"
 		]
 	}
 }

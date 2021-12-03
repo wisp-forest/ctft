@@ -36,7 +36,8 @@
 			"ctft:deepslate_tile_stairs_boots",
 			"ctft:deepslate_tile_stairs_shears",
 			"ctft:deepslate_tile_stairs_horse_armor",
-			"ctft:deepslate_tile_stairs_bow"
+			"ctft:deepslate_tile_stairs_bow",
+			"ctft:deepslate_tile_stairs_crossbow"
 		]
 	}
 }

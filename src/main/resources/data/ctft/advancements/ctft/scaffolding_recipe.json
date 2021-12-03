@@ -36,7 +36,8 @@
 			"ctft:scaffolding_boots",
 			"ctft:scaffolding_shears",
 			"ctft:scaffolding_horse_armor",
-			"ctft:scaffolding_bow"
+			"ctft:scaffolding_bow",
+			"ctft:scaffolding_crossbow"
 		]
 	}
 }

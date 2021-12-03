@@ -36,7 +36,8 @@
 			"ctft:packed_ice_boots",
 			"ctft:packed_ice_shears",
 			"ctft:packed_ice_horse_armor",
-			"ctft:packed_ice_bow"
+			"ctft:packed_ice_bow",
+			"ctft:packed_ice_crossbow"
 		]
 	}
 }

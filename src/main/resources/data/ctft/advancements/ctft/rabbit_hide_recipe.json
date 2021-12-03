@@ -36,7 +36,8 @@
 			"ctft:rabbit_hide_boots",
 			"ctft:rabbit_hide_shears",
 			"ctft:rabbit_hide_horse_armor",
-			"ctft:rabbit_hide_bow"
+			"ctft:rabbit_hide_bow",
+			"ctft:rabbit_hide_crossbow"
 		]
 	}
 }

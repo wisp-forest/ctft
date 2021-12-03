@@ -36,7 +36,8 @@
 			"ctft:chest_boots",
 			"ctft:chest_shears",
 			"ctft:chest_horse_armor",
-			"ctft:chest_bow"
+			"ctft:chest_bow",
+			"ctft:chest_crossbow"
 		]
 	}
 }

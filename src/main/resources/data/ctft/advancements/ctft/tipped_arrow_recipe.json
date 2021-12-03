@@ -36,7 +36,8 @@
 			"ctft:tipped_arrow_boots",
 			"ctft:tipped_arrow_shears",
 			"ctft:tipped_arrow_horse_armor",
-			"ctft:tipped_arrow_bow"
+			"ctft:tipped_arrow_bow",
+			"ctft:tipped_arrow_crossbow"
 		]
 	}
 }

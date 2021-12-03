@@ -36,7 +36,8 @@
 			"ctft:smooth_quartz_slab_boots",
 			"ctft:smooth_quartz_slab_shears",
 			"ctft:smooth_quartz_slab_horse_armor",
-			"ctft:smooth_quartz_slab_bow"
+			"ctft:smooth_quartz_slab_bow",
+			"ctft:smooth_quartz_slab_crossbow"
 		]
 	}
 }

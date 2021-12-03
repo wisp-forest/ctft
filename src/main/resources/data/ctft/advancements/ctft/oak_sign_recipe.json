@@ -36,7 +36,8 @@
 			"ctft:oak_sign_boots",
 			"ctft:oak_sign_shears",
 			"ctft:oak_sign_horse_armor",
-			"ctft:oak_sign_bow"
+			"ctft:oak_sign_bow",
+			"ctft:oak_sign_crossbow"
 		]
 	}
 }

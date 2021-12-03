@@ -36,7 +36,8 @@
 			"ctft:quartz_block_boots",
 			"ctft:quartz_block_shears",
 			"ctft:quartz_block_horse_armor",
-			"ctft:quartz_block_bow"
+			"ctft:quartz_block_bow",
+			"ctft:quartz_block_crossbow"
 		]
 	}
 }

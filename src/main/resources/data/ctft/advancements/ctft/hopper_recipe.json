@@ -36,7 +36,8 @@
 			"ctft:hopper_boots",
 			"ctft:hopper_shears",
 			"ctft:hopper_horse_armor",
-			"ctft:hopper_bow"
+			"ctft:hopper_bow",
+			"ctft:hopper_crossbow"
 		]
 	}
 }

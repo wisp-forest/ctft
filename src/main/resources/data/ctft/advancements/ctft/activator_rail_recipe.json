@@ -36,7 +36,8 @@
 			"ctft:activator_rail_boots",
 			"ctft:activator_rail_shears",
 			"ctft:activator_rail_horse_armor",
-			"ctft:activator_rail_bow"
+			"ctft:activator_rail_bow",
+			"ctft:activator_rail_crossbow"
 		]
 	}
 }

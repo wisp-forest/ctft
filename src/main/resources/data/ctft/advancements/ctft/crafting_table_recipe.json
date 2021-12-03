@@ -36,7 +36,8 @@
 			"ctft:crafting_table_boots",
 			"ctft:crafting_table_shears",
 			"ctft:crafting_table_horse_armor",
-			"ctft:crafting_table_bow"
+			"ctft:crafting_table_bow",
+			"ctft:crafting_table_crossbow"
 		]
 	}
 }

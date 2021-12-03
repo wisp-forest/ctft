@@ -36,7 +36,8 @@
 			"ctft:cut_copper_slab_boots",
 			"ctft:cut_copper_slab_shears",
 			"ctft:cut_copper_slab_horse_armor",
-			"ctft:cut_copper_slab_bow"
+			"ctft:cut_copper_slab_bow",
+			"ctft:cut_copper_slab_crossbow"
 		]
 	}
 }

@@ -36,7 +36,8 @@
 			"ctft:target_boots",
 			"ctft:target_shears",
 			"ctft:target_horse_armor",
-			"ctft:target_bow"
+			"ctft:target_bow",
+			"ctft:target_crossbow"
 		]
 	}
 }

@@ -36,7 +36,8 @@
 			"ctft:barrel_boots",
 			"ctft:barrel_shears",
 			"ctft:barrel_horse_armor",
-			"ctft:barrel_bow"
+			"ctft:barrel_bow",
+			"ctft:barrel_crossbow"
 		]
 	}
 }

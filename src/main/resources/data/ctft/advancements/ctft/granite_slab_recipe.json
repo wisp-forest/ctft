@@ -36,7 +36,8 @@
 			"ctft:granite_slab_boots",
 			"ctft:granite_slab_shears",
 			"ctft:granite_slab_horse_armor",
-			"ctft:granite_slab_bow"
+			"ctft:granite_slab_bow",
+			"ctft:granite_slab_crossbow"
 		]
 	}
 }

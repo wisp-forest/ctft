@@ -36,7 +36,8 @@
 			"ctft:stone_button_boots",
 			"ctft:stone_button_shears",
 			"ctft:stone_button_horse_armor",
-			"ctft:stone_button_bow"
+			"ctft:stone_button_bow",
+			"ctft:stone_button_crossbow"
 		]
 	}
 }

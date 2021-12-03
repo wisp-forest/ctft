@@ -36,7 +36,8 @@
 			"ctft:magma_cube_spawn_egg_boots",
 			"ctft:magma_cube_spawn_egg_shears",
 			"ctft:magma_cube_spawn_egg_horse_armor",
-			"ctft:magma_cube_spawn_egg_bow"
+			"ctft:magma_cube_spawn_egg_bow",
+			"ctft:magma_cube_spawn_egg_crossbow"
 		]
 	}
 }

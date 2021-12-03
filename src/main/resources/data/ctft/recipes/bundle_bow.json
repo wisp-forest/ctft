@@ -1,0 +1,23 @@
+
+{
+  "group": "Bundle Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 01",
+    "0 1",
+    " 01"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:bundle"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:bundle_bow",
+    "count": 1
+  }
+}
+        

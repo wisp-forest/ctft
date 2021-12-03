@@ -36,7 +36,8 @@
 			"ctft:end_rod_boots",
 			"ctft:end_rod_shears",
 			"ctft:end_rod_horse_armor",
-			"ctft:end_rod_bow"
+			"ctft:end_rod_bow",
+			"ctft:end_rod_crossbow"
 		]
 	}
 }

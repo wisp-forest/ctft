@@ -1,0 +1,43 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bundle"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:bundle_sword",
+			"ctft:bundle_pickaxe",
+			"ctft:bundle_axe",
+			"ctft:bundle_shovel",
+			"ctft:bundle_hoe",
+			"ctft:bundle_shield",
+			"ctft:bundle_fishing_rod",
+			"ctft:bundle_compass",
+			"ctft:bundle_clock",
+			"ctft:bundle_helmet",
+			"ctft:bundle_chestplate",
+			"ctft:bundle_leggings",
+			"ctft:bundle_boots",
+			"ctft:bundle_shears",
+			"ctft:bundle_horse_armor",
+			"ctft:bundle_bow",
+			"ctft:bundle_crossbow"
+		]
+	}
+}

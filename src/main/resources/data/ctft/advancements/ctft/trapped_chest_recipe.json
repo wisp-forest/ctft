@@ -36,7 +36,8 @@
 			"ctft:trapped_chest_boots",
 			"ctft:trapped_chest_shears",
 			"ctft:trapped_chest_horse_armor",
-			"ctft:trapped_chest_bow"
+			"ctft:trapped_chest_bow",
+			"ctft:trapped_chest_crossbow"
 		]
 	}
 }

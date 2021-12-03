@@ -36,7 +36,8 @@
 			"ctft:tripwire_hook_boots",
 			"ctft:tripwire_hook_shears",
 			"ctft:tripwire_hook_horse_armor",
-			"ctft:tripwire_hook_bow"
+			"ctft:tripwire_hook_bow",
+			"ctft:tripwire_hook_crossbow"
 		]
 	}
 }

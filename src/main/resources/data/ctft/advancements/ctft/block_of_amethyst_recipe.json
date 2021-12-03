@@ -36,7 +36,8 @@
 			"ctft:amethyst_block_boots",
 			"ctft:amethyst_block_shears",
 			"ctft:amethyst_block_horse_armor",
-			"ctft:amethyst_block_bow"
+			"ctft:amethyst_block_bow",
+			"ctft:amethyst_block_crossbow"
 		]
 	}
 }

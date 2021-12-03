@@ -3,13 +3,13 @@
   "group": "Waxed Block of Copper Bow",
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "10 ",
-    "1 0",
-    "10 "
+    " 01",
+    "0 1",
+    " 01"
   ],
   "key": {
     "0": {
-      "item": "minecraft:waxed_copper_block"
+      "item": "minecraft:waxed_copper"
     },
     "1": {
       "item": "minecraft:string"

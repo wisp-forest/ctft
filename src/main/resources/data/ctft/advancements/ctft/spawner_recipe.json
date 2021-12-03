@@ -36,7 +36,8 @@
 			"ctft:spawner_boots",
 			"ctft:spawner_shears",
 			"ctft:spawner_horse_armor",
-			"ctft:spawner_bow"
+			"ctft:spawner_bow",
+			"ctft:spawner_crossbow"
 		]
 	}
 }

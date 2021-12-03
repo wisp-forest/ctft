@@ -36,7 +36,8 @@
 			"ctft:stonecutter_boots",
 			"ctft:stonecutter_shears",
 			"ctft:stonecutter_horse_armor",
-			"ctft:stonecutter_bow"
+			"ctft:stonecutter_bow",
+			"ctft:stonecutter_crossbow"
 		]
 	}
 }

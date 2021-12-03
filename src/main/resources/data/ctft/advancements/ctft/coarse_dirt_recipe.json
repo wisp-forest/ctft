@@ -36,7 +36,8 @@
 			"ctft:coarse_dirt_boots",
 			"ctft:coarse_dirt_shears",
 			"ctft:coarse_dirt_horse_armor",
-			"ctft:coarse_dirt_bow"
+			"ctft:coarse_dirt_bow",
+			"ctft:coarse_dirt_crossbow"
 		]
 	}
 }

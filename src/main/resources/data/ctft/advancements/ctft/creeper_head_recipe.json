@@ -36,7 +36,8 @@
 			"ctft:creeper_head_boots",
 			"ctft:creeper_head_shears",
 			"ctft:creeper_head_horse_armor",
-			"ctft:creeper_head_bow"
+			"ctft:creeper_head_bow",
+			"ctft:creeper_head_crossbow"
 		]
 	}
 }

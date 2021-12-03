@@ -36,7 +36,8 @@
 			"ctft:netherite_block_boots",
 			"ctft:netherite_block_shears",
 			"ctft:netherite_block_horse_armor",
-			"ctft:netherite_block_bow"
+			"ctft:netherite_block_bow",
+			"ctft:netherite_block_crossbow"
 		]
 	}
 }

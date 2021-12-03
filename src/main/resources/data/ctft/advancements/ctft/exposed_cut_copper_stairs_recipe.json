@@ -36,7 +36,8 @@
 			"ctft:exposed_cut_copper_stairs_boots",
 			"ctft:exposed_cut_copper_stairs_shears",
 			"ctft:exposed_cut_copper_stairs_horse_armor",
-			"ctft:exposed_cut_copper_stairs_bow"
+			"ctft:exposed_cut_copper_stairs_bow",
+			"ctft:exposed_cut_copper_stairs_crossbow"
 		]
 	}
 }

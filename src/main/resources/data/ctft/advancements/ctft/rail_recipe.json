@@ -36,7 +36,8 @@
 			"ctft:rail_boots",
 			"ctft:rail_shears",
 			"ctft:rail_horse_armor",
-			"ctft:rail_bow"
+			"ctft:rail_bow",
+			"ctft:rail_crossbow"
 		]
 	}
 }

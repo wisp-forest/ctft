@@ -1,0 +1,20 @@
+
+{
+  "group": "Milk Shears",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  0",
+    " 0 ",
+    "   "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:milk_bucket"
+    }
+  },
+  "result": {
+    "item": "ctft:milk_shears",
+    "count": 1
+  }
+}
+        

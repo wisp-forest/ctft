@@ -36,7 +36,8 @@
 			"ctft:bone_boots",
 			"ctft:bone_shears",
 			"ctft:bone_horse_armor",
-			"ctft:bone_bow"
+			"ctft:bone_bow",
+			"ctft:bone_crossbow"
 		]
 	}
 }

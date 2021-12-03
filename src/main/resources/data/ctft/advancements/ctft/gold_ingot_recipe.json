@@ -36,7 +36,8 @@
 			"ctft:gold_ingot_boots",
 			"ctft:gold_ingot_shears",
 			"ctft:gold_ingot_horse_armor",
-			"ctft:gold_ingot_bow"
+			"ctft:gold_ingot_bow",
+			"ctft:gold_ingot_crossbow"
 		]
 	}
 }

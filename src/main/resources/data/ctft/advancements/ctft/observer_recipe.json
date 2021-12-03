@@ -36,7 +36,8 @@
 			"ctft:observer_boots",
 			"ctft:observer_shears",
 			"ctft:observer_horse_armor",
-			"ctft:observer_bow"
+			"ctft:observer_bow",
+			"ctft:observer_crossbow"
 		]
 	}
 }

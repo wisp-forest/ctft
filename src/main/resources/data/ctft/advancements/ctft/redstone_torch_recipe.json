@@ -36,7 +36,8 @@
 			"ctft:redstone_torch_boots",
 			"ctft:redstone_torch_shears",
 			"ctft:redstone_torch_horse_armor",
-			"ctft:redstone_torch_bow"
+			"ctft:redstone_torch_bow",
+			"ctft:redstone_torch_crossbow"
 		]
 	}
 }

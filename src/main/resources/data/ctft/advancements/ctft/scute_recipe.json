@@ -36,7 +36,8 @@
 			"ctft:scute_boots",
 			"ctft:scute_shears",
 			"ctft:scute_horse_armor",
-			"ctft:scute_bow"
+			"ctft:scute_bow",
+			"ctft:scute_crossbow"
 		]
 	}
 }

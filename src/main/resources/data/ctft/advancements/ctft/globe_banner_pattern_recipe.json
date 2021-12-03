@@ -7,7 +7,7 @@
         "items": [
           {
             "items": [
-              "minecraft:globe_banner_patter"
+              "minecraft:globe_banner_pattern"
             ]
           }
         ]
@@ -21,22 +21,23 @@
 	],
 	"rewards": {
 		"recipes": [
-			"ctft:globe_banner_patter_sword",
-			"ctft:globe_banner_patter_pickaxe",
-			"ctft:globe_banner_patter_axe",
-			"ctft:globe_banner_patter_shovel",
-			"ctft:globe_banner_patter_hoe",
-			"ctft:globe_banner_patter_shield",
-			"ctft:globe_banner_patter_fishing_rod",
-			"ctft:globe_banner_patter_compass",
-			"ctft:globe_banner_patter_clock",
-			"ctft:globe_banner_patter_helmet",
-			"ctft:globe_banner_patter_chestplate",
-			"ctft:globe_banner_patter_leggings",
-			"ctft:globe_banner_patter_boots",
-			"ctft:globe_banner_patter_shears",
-			"ctft:globe_banner_patter_horse_armor",
-			"ctft:globe_banner_patter_bow"
+			"ctft:globe_banner_pattern_sword",
+			"ctft:globe_banner_pattern_pickaxe",
+			"ctft:globe_banner_pattern_axe",
+			"ctft:globe_banner_pattern_shovel",
+			"ctft:globe_banner_pattern_hoe",
+			"ctft:globe_banner_pattern_shield",
+			"ctft:globe_banner_pattern_fishing_rod",
+			"ctft:globe_banner_pattern_compass",
+			"ctft:globe_banner_pattern_clock",
+			"ctft:globe_banner_pattern_helmet",
+			"ctft:globe_banner_pattern_chestplate",
+			"ctft:globe_banner_pattern_leggings",
+			"ctft:globe_banner_pattern_boots",
+			"ctft:globe_banner_pattern_shears",
+			"ctft:globe_banner_pattern_horse_armor",
+			"ctft:globe_banner_pattern_bow",
+			"ctft:globe_banner_pattern_crossbow"
 		]
 	}
 }

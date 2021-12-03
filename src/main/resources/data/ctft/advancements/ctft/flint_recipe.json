@@ -36,7 +36,8 @@
 			"ctft:flint_boots",
 			"ctft:flint_shears",
 			"ctft:flint_horse_armor",
-			"ctft:flint_bow"
+			"ctft:flint_bow",
+			"ctft:flint_crossbow"
 		]
 	}
 }

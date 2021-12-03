@@ -36,7 +36,8 @@
 			"ctft:light_boots",
 			"ctft:light_shears",
 			"ctft:light_horse_armor",
-			"ctft:light_bow"
+			"ctft:light_bow",
+			"ctft:light_crossbow"
 		]
 	}
 }

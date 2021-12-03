@@ -1,0 +1,29 @@
+
+{
+  "group": "Waxed Oxidized Cut Copper Stairs Crossbow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "232",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:waxed_oxidized_cut_copper_stairs"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    },
+    "2": {
+      "item": "minecraft:string"
+    },
+    "3": {
+      "item": "minecraft:tripwire_hook"
+    }
+  },
+  "result": {
+    "item": "ctft:waxed_oxidized_cut_copper_stairs_crossbow",
+    "count": 1
+  }
+}
+        

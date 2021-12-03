@@ -36,7 +36,8 @@
 			"ctft:diorite_slab_boots",
 			"ctft:diorite_slab_shears",
 			"ctft:diorite_slab_horse_armor",
-			"ctft:diorite_slab_bow"
+			"ctft:diorite_slab_bow",
+			"ctft:diorite_slab_crossbow"
 		]
 	}
 }

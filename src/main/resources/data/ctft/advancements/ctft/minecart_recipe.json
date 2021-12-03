@@ -36,7 +36,8 @@
 			"ctft:minecart_boots",
 			"ctft:minecart_shears",
 			"ctft:minecart_horse_armor",
-			"ctft:minecart_bow"
+			"ctft:minecart_bow",
+			"ctft:minecart_crossbow"
 		]
 	}
 }

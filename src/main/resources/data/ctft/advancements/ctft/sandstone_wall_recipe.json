@@ -36,7 +36,8 @@
 			"ctft:sandstone_wall_boots",
 			"ctft:sandstone_wall_shears",
 			"ctft:sandstone_wall_horse_armor",
-			"ctft:sandstone_wall_bow"
+			"ctft:sandstone_wall_bow",
+			"ctft:sandstone_wall_crossbow"
 		]
 	}
 }

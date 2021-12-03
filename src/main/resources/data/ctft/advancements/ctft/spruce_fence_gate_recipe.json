@@ -36,7 +36,8 @@
 			"ctft:spruce_fence_gate_boots",
 			"ctft:spruce_fence_gate_shears",
 			"ctft:spruce_fence_gate_horse_armor",
-			"ctft:spruce_fence_gate_bow"
+			"ctft:spruce_fence_gate_bow",
+			"ctft:spruce_fence_gate_crossbow"
 		]
 	}
 }

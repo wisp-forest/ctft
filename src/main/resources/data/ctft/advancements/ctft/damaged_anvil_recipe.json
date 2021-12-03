@@ -36,7 +36,8 @@
 			"ctft:damaged_anvil_boots",
 			"ctft:damaged_anvil_shears",
 			"ctft:damaged_anvil_horse_armor",
-			"ctft:damaged_anvil_bow"
+			"ctft:damaged_anvil_bow",
+			"ctft:damaged_anvil_crossbow"
 		]
 	}
 }

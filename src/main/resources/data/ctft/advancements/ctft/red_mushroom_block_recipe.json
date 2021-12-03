@@ -36,7 +36,8 @@
 			"ctft:red_mushroom_block_boots",
 			"ctft:red_mushroom_block_shears",
 			"ctft:red_mushroom_block_horse_armor",
-			"ctft:red_mushroom_block_bow"
+			"ctft:red_mushroom_block_bow",
+			"ctft:red_mushroom_block_crossbow"
 		]
 	}
 }

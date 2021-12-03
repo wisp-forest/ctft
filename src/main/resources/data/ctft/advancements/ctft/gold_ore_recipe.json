@@ -36,7 +36,8 @@
 			"ctft:gold_ore_boots",
 			"ctft:gold_ore_shears",
 			"ctft:gold_ore_horse_armor",
-			"ctft:gold_ore_bow"
+			"ctft:gold_ore_bow",
+			"ctft:gold_ore_crossbow"
 		]
 	}
 }

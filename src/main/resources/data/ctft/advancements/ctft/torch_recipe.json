@@ -36,7 +36,8 @@
 			"ctft:torch_boots",
 			"ctft:torch_shears",
 			"ctft:torch_horse_armor",
-			"ctft:torch_bow"
+			"ctft:torch_bow",
+			"ctft:torch_crossbow"
 		]
 	}
 }

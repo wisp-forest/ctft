@@ -36,7 +36,8 @@
 			"ctft:hay_block_boots",
 			"ctft:hay_block_shears",
 			"ctft:hay_block_horse_armor",
-			"ctft:hay_block_bow"
+			"ctft:hay_block_bow",
+			"ctft:hay_block_crossbow"
 		]
 	}
 }

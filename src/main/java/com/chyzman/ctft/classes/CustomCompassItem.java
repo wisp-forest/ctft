@@ -77,7 +77,7 @@ public class CustomCompassItem extends Item implements Vanishable {
             if (bl) {
                 this.writeNbt(world.getRegistryKey(), blockPos, itemStack.getOrCreateNbt());
             } else {
-                ItemStack itemStack2 = new ItemStack(Items.COMPASS, 1);
+                ItemStack itemStack2 = new ItemStack(this, 1);
                 NbtCompound nbtCompound = itemStack.hasNbt() ? itemStack.getNbt().copy() : new NbtCompound();
                 itemStack2.setNbt(nbtCompound);
                 if (!playerEntity.getAbilities().creativeMode) {

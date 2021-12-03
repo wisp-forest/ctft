@@ -1,5 +1,6 @@
 package com.chyzman.ctft.classes;
 
+import io.wispforest.owo.itemgroup.OwoItemSettings;
 import net.minecraft.item.AxeItem;
 import net.minecraft.item.ToolMaterial;
 

@@ -36,7 +36,8 @@
 			"ctft:villager_spawn_egg_boots",
 			"ctft:villager_spawn_egg_shears",
 			"ctft:villager_spawn_egg_horse_armor",
-			"ctft:villager_spawn_egg_bow"
+			"ctft:villager_spawn_egg_bow",
+			"ctft:villager_spawn_egg_crossbow"
 		]
 	}
 }

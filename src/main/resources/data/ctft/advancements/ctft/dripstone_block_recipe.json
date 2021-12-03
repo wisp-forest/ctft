@@ -36,7 +36,8 @@
 			"ctft:dripstone_block_boots",
 			"ctft:dripstone_block_shears",
 			"ctft:dripstone_block_horse_armor",
-			"ctft:dripstone_block_bow"
+			"ctft:dripstone_block_bow",
+			"ctft:dripstone_block_crossbow"
 		]
 	}
 }

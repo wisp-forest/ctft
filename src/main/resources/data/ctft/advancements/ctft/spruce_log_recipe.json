@@ -36,7 +36,8 @@
 			"ctft:spruce_log_boots",
 			"ctft:spruce_log_shears",
 			"ctft:spruce_log_horse_armor",
-			"ctft:spruce_log_bow"
+			"ctft:spruce_log_bow",
+			"ctft:spruce_log_crossbow"
 		]
 	}
 }

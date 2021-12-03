@@ -36,7 +36,8 @@
 			"ctft:dark_oak_button_boots",
 			"ctft:dark_oak_button_shears",
 			"ctft:dark_oak_button_horse_armor",
-			"ctft:dark_oak_button_bow"
+			"ctft:dark_oak_button_bow",
+			"ctft:dark_oak_button_crossbow"
 		]
 	}
 }

@@ -36,7 +36,8 @@
 			"ctft:warped_pressure_plate_boots",
 			"ctft:warped_pressure_plate_shears",
 			"ctft:warped_pressure_plate_horse_armor",
-			"ctft:warped_pressure_plate_bow"
+			"ctft:warped_pressure_plate_bow",
+			"ctft:warped_pressure_plate_crossbow"
 		]
 	}
 }

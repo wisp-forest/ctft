@@ -36,7 +36,8 @@
 			"ctft:nether_wart_boots",
 			"ctft:nether_wart_shears",
 			"ctft:nether_wart_horse_armor",
-			"ctft:nether_wart_bow"
+			"ctft:nether_wart_bow",
+			"ctft:nether_wart_crossbow"
 		]
 	}
 }

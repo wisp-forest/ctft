@@ -6,12 +6,7 @@ import net.minecraft.enchantment.Enchantments;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.projectile.PersistentProjectileEntity;
-import net.minecraft.item.ArrowItem;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.Items;
-import net.minecraft.item.RangedWeaponItem;
-import net.minecraft.item.Vanishable;
+import net.minecraft.item.*;
 import net.minecraft.sound.SoundCategory;
 import net.minecraft.sound.SoundEvents;
 import net.minecraft.stat.Stats;
@@ -20,7 +15,7 @@ import net.minecraft.util.TypedActionResult;
 import net.minecraft.util.UseAction;
 import net.minecraft.world.World;
 
-public class CustomBowItem extends RangedWeaponItem implements Vanishable {
+public class CustomBowItem extends BowItem implements Vanishable {
     public static final int field_30855 = 20;
     public static final int RANGE = 15;
     public final float UseDurationMultiplier;
@@ -48,7 +43,7 @@ public class CustomBowItem extends RangedWeaponItem implements Vanishable {
         if (itemStack.isEmpty()) {
             itemStack = new ItemStack(Items.ARROW);
         }
-        if ((double)(f = net.minecraft.item.BowItem.getPullProgress(i = this.getMaxUseTime(stack) - remainingUseTicks)) < 0.1) {
+        if ((double)(f = BowItem.getPullProgress(i = this.getMaxUseTime(stack) - remainingUseTicks)) < 0.1) {
             return;
         }
         boolean bl3 = bl2 = bl && itemStack.isOf(Items.ARROW);
@@ -57,7 +52,7 @@ public class CustomBowItem extends RangedWeaponItem implements Vanishable {
             int j;
             ArrowItem arrowItem = (ArrowItem)(itemStack.getItem() instanceof ArrowItem ? itemStack.getItem() : Items.ARROW);
             PersistentProjectileEntity persistentProjectileEntity = arrowItem.createArrow(world, itemStack, playerEntity);
-            persistentProjectileEntity.setProperties(playerEntity, playerEntity.getPitch(), playerEntity.getYaw(), 0.0f, f * 3.0f * VelocityMultiplier, 1.0f);
+            persistentProjectileEntity.setVelocity(playerEntity, playerEntity.getPitch(), playerEntity.getYaw(), 0.0f, f * 3.0f * VelocityMultiplier, 1.0f);
             if (f == 1.0f) {
                 persistentProjectileEntity.setCritical(true);
             }
@@ -86,7 +81,7 @@ public class CustomBowItem extends RangedWeaponItem implements Vanishable {
         playerEntity.incrementStat(Stats.USED.getOrCreateStat(this));
     }
 
-    public float getPullProgress(int useTicks) {
+    public float getPullProgressbutitscustom(int useTicks) {
         float f = (float)useTicks / 20.0f * UseDurationMultiplier;
         if ((f = (f * f + f * 2.0f) / 3.0f) > 1.0f) {
             f = 1.0f;

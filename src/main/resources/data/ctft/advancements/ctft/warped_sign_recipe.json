@@ -36,7 +36,8 @@
 			"ctft:warped_sign_boots",
 			"ctft:warped_sign_shears",
 			"ctft:warped_sign_horse_armor",
-			"ctft:warped_sign_bow"
+			"ctft:warped_sign_bow",
+			"ctft:warped_sign_crossbow"
 		]
 	}
 }

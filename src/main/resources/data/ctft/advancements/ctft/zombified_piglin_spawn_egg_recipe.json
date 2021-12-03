@@ -36,7 +36,8 @@
 			"ctft:zombified_piglin_spawn_egg_boots",
 			"ctft:zombified_piglin_spawn_egg_shears",
 			"ctft:zombified_piglin_spawn_egg_horse_armor",
-			"ctft:zombified_piglin_spawn_egg_bow"
+			"ctft:zombified_piglin_spawn_egg_bow",
+			"ctft:zombified_piglin_spawn_egg_crossbow"
 		]
 	}
 }

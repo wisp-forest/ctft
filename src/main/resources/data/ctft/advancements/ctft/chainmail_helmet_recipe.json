@@ -36,7 +36,8 @@
 			"ctft:chainmail_helmet_boots",
 			"ctft:chainmail_helmet_shears",
 			"ctft:chainmail_helmet_horse_armor",
-			"ctft:chainmail_helmet_bow"
+			"ctft:chainmail_helmet_bow",
+			"ctft:chainmail_helmet_crossbow"
 		]
 	}
 }

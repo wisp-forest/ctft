@@ -36,7 +36,8 @@
 			"ctft:daylight_detector_boots",
 			"ctft:daylight_detector_shears",
 			"ctft:daylight_detector_horse_armor",
-			"ctft:daylight_detector_bow"
+			"ctft:daylight_detector_bow",
+			"ctft:daylight_detector_crossbow"
 		]
 	}
 }

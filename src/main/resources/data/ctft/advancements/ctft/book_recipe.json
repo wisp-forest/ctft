@@ -36,7 +36,8 @@
 			"ctft:book_boots",
 			"ctft:book_shears",
 			"ctft:book_horse_armor",
-			"ctft:book_bow"
+			"ctft:book_bow",
+			"ctft:book_crossbow"
 		]
 	}
 }

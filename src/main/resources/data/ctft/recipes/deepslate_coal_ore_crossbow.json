@@ -1,0 +1,29 @@
+
+{
+  "group": "Deepslate Coal Ore Crossbow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "232",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:deepslate_coal_ore"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    },
+    "2": {
+      "item": "minecraft:string"
+    },
+    "3": {
+      "item": "minecraft:tripwire_hook"
+    }
+  },
+  "result": {
+    "item": "ctft:deepslate_coal_ore_crossbow",
+    "count": 1
+  }
+}
+        

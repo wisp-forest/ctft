@@ -36,7 +36,8 @@
 			"ctft:jungle_log_boots",
 			"ctft:jungle_log_shears",
 			"ctft:jungle_log_horse_armor",
-			"ctft:jungle_log_bow"
+			"ctft:jungle_log_bow",
+			"ctft:jungle_log_crossbow"
 		]
 	}
 }

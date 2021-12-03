@@ -36,7 +36,8 @@
 			"ctft:sticky_piston_boots",
 			"ctft:sticky_piston_shears",
 			"ctft:sticky_piston_horse_armor",
-			"ctft:sticky_piston_bow"
+			"ctft:sticky_piston_bow",
+			"ctft:sticky_piston_crossbow"
 		]
 	}
 }

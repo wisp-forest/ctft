@@ -36,7 +36,8 @@
 			"ctft:diamond_ore_boots",
 			"ctft:diamond_ore_shears",
 			"ctft:diamond_ore_horse_armor",
-			"ctft:diamond_ore_bow"
+			"ctft:diamond_ore_bow",
+			"ctft:diamond_ore_crossbow"
 		]
 	}
 }

@@ -36,7 +36,8 @@
 			"ctft:netherite_chestplate_boots",
 			"ctft:netherite_chestplate_shears",
 			"ctft:netherite_chestplate_horse_armor",
-			"ctft:netherite_chestplate_bow"
+			"ctft:netherite_chestplate_bow",
+			"ctft:netherite_chestplate_crossbow"
 		]
 	}
 }

@@ -36,7 +36,8 @@
 			"ctft:gravel_boots",
 			"ctft:gravel_shears",
 			"ctft:gravel_horse_armor",
-			"ctft:gravel_bow"
+			"ctft:gravel_bow",
+			"ctft:gravel_crossbow"
 		]
 	}
 }

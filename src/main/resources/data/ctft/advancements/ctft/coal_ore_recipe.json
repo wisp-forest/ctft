@@ -36,7 +36,8 @@
 			"ctft:coal_ore_boots",
 			"ctft:coal_ore_shears",
 			"ctft:coal_ore_horse_armor",
-			"ctft:coal_ore_bow"
+			"ctft:coal_ore_bow",
+			"ctft:coal_ore_crossbow"
 		]
 	}
 }

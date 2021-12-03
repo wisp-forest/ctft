@@ -1,0 +1,43 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:milk_bucket"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:milk_bucket_sword",
+			"ctft:milk_bucket_pickaxe",
+			"ctft:milk_bucket_axe",
+			"ctft:milk_bucket_shovel",
+			"ctft:milk_bucket_hoe",
+			"ctft:milk_bucket_shield",
+			"ctft:milk_bucket_fishing_rod",
+			"ctft:milk_bucket_compass",
+			"ctft:milk_bucket_clock",
+			"ctft:milk_bucket_helmet",
+			"ctft:milk_bucket_chestplate",
+			"ctft:milk_bucket_leggings",
+			"ctft:milk_bucket_boots",
+			"ctft:milk_bucket_shears",
+			"ctft:milk_bucket_horse_armor",
+			"ctft:milk_bucket_bow",
+			"ctft:milk_bucket_crossbow"
+		]
+	}
+}

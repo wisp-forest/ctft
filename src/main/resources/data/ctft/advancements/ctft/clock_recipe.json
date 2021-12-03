@@ -36,7 +36,8 @@
 			"ctft:clock_boots",
 			"ctft:clock_shears",
 			"ctft:clock_horse_armor",
-			"ctft:clock_bow"
+			"ctft:clock_bow",
+			"ctft:clock_crossbow"
 		]
 	}
 }

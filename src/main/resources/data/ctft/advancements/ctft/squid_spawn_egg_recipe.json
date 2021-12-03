@@ -36,7 +36,8 @@
 			"ctft:squid_spawn_egg_boots",
 			"ctft:squid_spawn_egg_shears",
 			"ctft:squid_spawn_egg_horse_armor",
-			"ctft:squid_spawn_egg_bow"
+			"ctft:squid_spawn_egg_bow",
+			"ctft:squid_spawn_egg_crossbow"
 		]
 	}
 }

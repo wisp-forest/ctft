@@ -36,7 +36,8 @@
 			"ctft:player_head_boots",
 			"ctft:player_head_shears",
 			"ctft:player_head_horse_armor",
-			"ctft:player_head_bow"
+			"ctft:player_head_bow",
+			"ctft:player_head_crossbow"
 		]
 	}
 }

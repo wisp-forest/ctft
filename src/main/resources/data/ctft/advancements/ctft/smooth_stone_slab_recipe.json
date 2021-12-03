@@ -36,7 +36,8 @@
 			"ctft:smooth_stone_slab_boots",
 			"ctft:smooth_stone_slab_shears",
 			"ctft:smooth_stone_slab_horse_armor",
-			"ctft:smooth_stone_slab_bow"
+			"ctft:smooth_stone_slab_bow",
+			"ctft:smooth_stone_slab_crossbow"
 		]
 	}
 }

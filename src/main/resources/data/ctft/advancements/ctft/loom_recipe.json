@@ -36,7 +36,8 @@
 			"ctft:loom_boots",
 			"ctft:loom_shears",
 			"ctft:loom_horse_armor",
-			"ctft:loom_bow"
+			"ctft:loom_bow",
+			"ctft:loom_crossbow"
 		]
 	}
 }

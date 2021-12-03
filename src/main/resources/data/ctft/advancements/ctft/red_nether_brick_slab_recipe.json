@@ -36,7 +36,8 @@
 			"ctft:red_nether_brick_slab_boots",
 			"ctft:red_nether_brick_slab_shears",
 			"ctft:red_nether_brick_slab_horse_armor",
-			"ctft:red_nether_brick_slab_bow"
+			"ctft:red_nether_brick_slab_bow",
+			"ctft:red_nether_brick_slab_crossbow"
 		]
 	}
 }

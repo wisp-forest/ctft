@@ -36,7 +36,8 @@
 			"ctft:detector_rail_boots",
 			"ctft:detector_rail_shears",
 			"ctft:detector_rail_horse_armor",
-			"ctft:detector_rail_bow"
+			"ctft:detector_rail_bow",
+			"ctft:detector_rail_crossbow"
 		]
 	}
 }

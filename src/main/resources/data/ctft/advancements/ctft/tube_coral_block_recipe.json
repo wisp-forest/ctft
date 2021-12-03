@@ -36,7 +36,8 @@
 			"ctft:tube_coral_block_boots",
 			"ctft:tube_coral_block_shears",
 			"ctft:tube_coral_block_horse_armor",
-			"ctft:tube_coral_block_bow"
+			"ctft:tube_coral_block_bow",
+			"ctft:tube_coral_block_crossbow"
 		]
 	}
 }

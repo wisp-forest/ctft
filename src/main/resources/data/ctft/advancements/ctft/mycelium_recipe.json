@@ -36,7 +36,8 @@
 			"ctft:mycelium_boots",
 			"ctft:mycelium_shears",
 			"ctft:mycelium_horse_armor",
-			"ctft:mycelium_bow"
+			"ctft:mycelium_bow",
+			"ctft:mycelium_crossbow"
 		]
 	}
 }

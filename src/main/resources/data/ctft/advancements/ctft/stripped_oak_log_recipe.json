@@ -36,7 +36,8 @@
 			"ctft:stripped_oak_log_boots",
 			"ctft:stripped_oak_log_shears",
 			"ctft:stripped_oak_log_horse_armor",
-			"ctft:stripped_oak_log_bow"
+			"ctft:stripped_oak_log_bow",
+			"ctft:stripped_oak_log_crossbow"
 		]
 	}
 }

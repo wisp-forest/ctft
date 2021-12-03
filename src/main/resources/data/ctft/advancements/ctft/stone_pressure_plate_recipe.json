@@ -36,7 +36,8 @@
 			"ctft:stone_pressure_plate_boots",
 			"ctft:stone_pressure_plate_shears",
 			"ctft:stone_pressure_plate_horse_armor",
-			"ctft:stone_pressure_plate_bow"
+			"ctft:stone_pressure_plate_bow",
+			"ctft:stone_pressure_plate_crossbow"
 		]
 	}
 }

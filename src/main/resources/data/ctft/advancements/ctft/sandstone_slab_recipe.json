@@ -36,7 +36,8 @@
 			"ctft:sandstone_slab_boots",
 			"ctft:sandstone_slab_shears",
 			"ctft:sandstone_slab_horse_armor",
-			"ctft:sandstone_slab_bow"
+			"ctft:sandstone_slab_bow",
+			"ctft:sandstone_slab_crossbow"
 		]
 	}
 }

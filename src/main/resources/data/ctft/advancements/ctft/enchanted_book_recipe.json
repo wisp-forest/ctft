@@ -36,7 +36,8 @@
 			"ctft:enchanted_book_boots",
 			"ctft:enchanted_book_shears",
 			"ctft:enchanted_book_horse_armor",
-			"ctft:enchanted_book_bow"
+			"ctft:enchanted_book_bow",
+			"ctft:enchanted_book_crossbow"
 		]
 	}
 }

@@ -36,7 +36,8 @@
 			"ctft:map_boots",
 			"ctft:map_shears",
 			"ctft:map_horse_armor",
-			"ctft:map_bow"
+			"ctft:map_bow",
+			"ctft:map_crossbow"
 		]
 	}
 }

@@ -36,7 +36,8 @@
 			"ctft:nether_quartz_ore_boots",
 			"ctft:nether_quartz_ore_shears",
 			"ctft:nether_quartz_ore_horse_armor",
-			"ctft:nether_quartz_ore_bow"
+			"ctft:nether_quartz_ore_bow",
+			"ctft:nether_quartz_ore_crossbow"
 		]
 	}
 }

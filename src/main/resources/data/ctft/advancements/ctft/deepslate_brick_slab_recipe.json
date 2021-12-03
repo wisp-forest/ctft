@@ -36,7 +36,8 @@
 			"ctft:deepslate_brick_slab_boots",
 			"ctft:deepslate_brick_slab_shears",
 			"ctft:deepslate_brick_slab_horse_armor",
-			"ctft:deepslate_brick_slab_bow"
+			"ctft:deepslate_brick_slab_bow",
+			"ctft:deepslate_brick_slab_crossbow"
 		]
 	}
 }

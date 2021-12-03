@@ -36,7 +36,8 @@
 			"ctft:debug_stick_boots",
 			"ctft:debug_stick_shears",
 			"ctft:debug_stick_horse_armor",
-			"ctft:debug_stick_bow"
+			"ctft:debug_stick_bow",
+			"ctft:debug_stick_crossbow"
 		]
 	}
 }

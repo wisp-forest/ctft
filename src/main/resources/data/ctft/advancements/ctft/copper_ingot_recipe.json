@@ -36,7 +36,8 @@
 			"ctft:copper_ingot_boots",
 			"ctft:copper_ingot_shears",
 			"ctft:copper_ingot_horse_armor",
-			"ctft:copper_ingot_bow"
+			"ctft:copper_ingot_bow",
+			"ctft:copper_ingot_crossbow"
 		]
 	}
 }

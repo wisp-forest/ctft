@@ -36,7 +36,8 @@
 			"ctft:grass_block_boots",
 			"ctft:grass_block_shears",
 			"ctft:grass_block_horse_armor",
-			"ctft:grass_block_bow"
+			"ctft:grass_block_bow",
+			"ctft:grass_block_crossbow"
 		]
 	}
 }

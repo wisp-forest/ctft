@@ -36,7 +36,8 @@
 			"ctft:axolotl_spawn_egg_boots",
 			"ctft:axolotl_spawn_egg_shears",
 			"ctft:axolotl_spawn_egg_horse_armor",
-			"ctft:axolotl_spawn_egg_bow"
+			"ctft:axolotl_spawn_egg_bow",
+			"ctft:axolotl_spawn_egg_crossbow"
 		]
 	}
 }

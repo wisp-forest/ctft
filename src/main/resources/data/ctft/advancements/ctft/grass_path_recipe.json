@@ -36,7 +36,8 @@
 			"ctft:dirt_path_boots",
 			"ctft:dirt_path_shears",
 			"ctft:dirt_path_horse_armor",
-			"ctft:dirt_path_bow"
+			"ctft:dirt_path_bow",
+			"ctft:dirt_path_crossbow"
 		]
 	}
 }

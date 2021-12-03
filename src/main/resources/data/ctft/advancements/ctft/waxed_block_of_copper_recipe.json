@@ -7,7 +7,7 @@
         "items": [
           {
             "items": [
-              "minecraft:waxed_copper_block"
+              "minecraft:waxed_copper"
             ]
           }
         ]
@@ -21,22 +21,23 @@
 	],
 	"rewards": {
 		"recipes": [
-			"ctft:waxed_copper_block_sword",
-			"ctft:waxed_copper_block_pickaxe",
-			"ctft:waxed_copper_block_axe",
-			"ctft:waxed_copper_block_shovel",
-			"ctft:waxed_copper_block_hoe",
-			"ctft:waxed_copper_block_shield",
-			"ctft:waxed_copper_block_fishing_rod",
-			"ctft:waxed_copper_block_compass",
-			"ctft:waxed_copper_block_clock",
-			"ctft:waxed_copper_block_helmet",
-			"ctft:waxed_copper_block_chestplate",
-			"ctft:waxed_copper_block_leggings",
-			"ctft:waxed_copper_block_boots",
-			"ctft:waxed_copper_block_shears",
-			"ctft:waxed_copper_block_horse_armor",
-			"ctft:waxed_copper_block_bow"
+			"ctft:waxed_copper_sword",
+			"ctft:waxed_copper_pickaxe",
+			"ctft:waxed_copper_axe",
+			"ctft:waxed_copper_shovel",
+			"ctft:waxed_copper_hoe",
+			"ctft:waxed_copper_shield",
+			"ctft:waxed_copper_fishing_rod",
+			"ctft:waxed_copper_compass",
+			"ctft:waxed_copper_clock",
+			"ctft:waxed_copper_helmet",
+			"ctft:waxed_copper_chestplate",
+			"ctft:waxed_copper_leggings",
+			"ctft:waxed_copper_boots",
+			"ctft:waxed_copper_shears",
+			"ctft:waxed_copper_horse_armor",
+			"ctft:waxed_copper_bow",
+			"ctft:waxed_copper_crossbow"
 		]
 	}
 }

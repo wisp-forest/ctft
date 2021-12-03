@@ -36,7 +36,8 @@
 			"ctft:nether_star_boots",
 			"ctft:nether_star_shears",
 			"ctft:nether_star_horse_armor",
-			"ctft:nether_star_bow"
+			"ctft:nether_star_bow",
+			"ctft:nether_star_crossbow"
 		]
 	}
 }

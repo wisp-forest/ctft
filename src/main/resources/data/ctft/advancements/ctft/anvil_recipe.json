@@ -36,7 +36,8 @@
 			"ctft:anvil_boots",
 			"ctft:anvil_shears",
 			"ctft:anvil_horse_armor",
-			"ctft:anvil_bow"
+			"ctft:anvil_bow",
+			"ctft:anvil_crossbow"
 		]
 	}
 }

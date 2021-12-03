@@ -36,7 +36,8 @@
 			"ctft:iron_ore_boots",
 			"ctft:iron_ore_shears",
 			"ctft:iron_ore_horse_armor",
-			"ctft:iron_ore_bow"
+			"ctft:iron_ore_bow",
+			"ctft:iron_ore_crossbow"
 		]
 	}
 }

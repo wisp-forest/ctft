@@ -36,7 +36,8 @@
 			"ctft:shield_boots",
 			"ctft:shield_shears",
 			"ctft:shield_horse_armor",
-			"ctft:shield_bow"
+			"ctft:shield_bow",
+			"ctft:shield_crossbow"
 		]
 	}
 }

@@ -36,7 +36,8 @@
 			"ctft:light_weighted_pressure_plate_boots",
 			"ctft:light_weighted_pressure_plate_shears",
 			"ctft:light_weighted_pressure_plate_horse_armor",
-			"ctft:light_weighted_pressure_plate_bow"
+			"ctft:light_weighted_pressure_plate_bow",
+			"ctft:light_weighted_pressure_plate_crossbow"
 		]
 	}
 }

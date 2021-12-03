@@ -36,7 +36,8 @@
 			"ctft:compass_boots",
 			"ctft:compass_shears",
 			"ctft:compass_horse_armor",
-			"ctft:compass_bow"
+			"ctft:compass_bow",
+			"ctft:compass_crossbow"
 		]
 	}
 }

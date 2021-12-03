@@ -36,7 +36,8 @@
 			"ctft:oak_log_boots",
 			"ctft:oak_log_shears",
 			"ctft:oak_log_horse_armor",
-			"ctft:oak_log_bow"
+			"ctft:oak_log_bow",
+			"ctft:oak_log_crossbow"
 		]
 	}
 }

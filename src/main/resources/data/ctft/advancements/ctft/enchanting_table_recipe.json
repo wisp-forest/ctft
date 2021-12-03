@@ -36,7 +36,8 @@
 			"ctft:enchanting_table_boots",
 			"ctft:enchanting_table_shears",
 			"ctft:enchanting_table_horse_armor",
-			"ctft:enchanting_table_bow"
+			"ctft:enchanting_table_bow",
+			"ctft:enchanting_table_crossbow"
 		]
 	}
 }

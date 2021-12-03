@@ -36,7 +36,8 @@
 			"ctft:cartography_table_boots",
 			"ctft:cartography_table_shears",
 			"ctft:cartography_table_horse_armor",
-			"ctft:cartography_table_bow"
+			"ctft:cartography_table_bow",
+			"ctft:cartography_table_crossbow"
 		]
 	}
 }

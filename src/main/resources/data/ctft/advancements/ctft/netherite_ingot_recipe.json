@@ -36,7 +36,8 @@
 			"ctft:netherite_ingot_boots",
 			"ctft:netherite_ingot_shears",
 			"ctft:netherite_ingot_horse_armor",
-			"ctft:netherite_ingot_bow"
+			"ctft:netherite_ingot_bow",
+			"ctft:netherite_ingot_crossbow"
 		]
 	}
 }

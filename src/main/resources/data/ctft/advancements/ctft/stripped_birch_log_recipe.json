@@ -36,7 +36,8 @@
 			"ctft:stripped_birch_log_boots",
 			"ctft:stripped_birch_log_shears",
 			"ctft:stripped_birch_log_horse_armor",
-			"ctft:stripped_birch_log_bow"
+			"ctft:stripped_birch_log_bow",
+			"ctft:stripped_birch_log_crossbow"
 		]
 	}
 }

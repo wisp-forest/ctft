@@ -36,7 +36,8 @@
 			"ctft:brain_coral_block_boots",
 			"ctft:brain_coral_block_shears",
 			"ctft:brain_coral_block_horse_armor",
-			"ctft:brain_coral_block_bow"
+			"ctft:brain_coral_block_bow",
+			"ctft:brain_coral_block_crossbow"
 		]
 	}
 }

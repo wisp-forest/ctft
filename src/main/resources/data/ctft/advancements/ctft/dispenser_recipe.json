@@ -36,7 +36,8 @@
 			"ctft:dispenser_boots",
 			"ctft:dispenser_shears",
 			"ctft:dispenser_horse_armor",
-			"ctft:dispenser_bow"
+			"ctft:dispenser_bow",
+			"ctft:dispenser_crossbow"
 		]
 	}
 }

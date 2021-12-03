@@ -36,7 +36,8 @@
 			"ctft:netherite_pickaxe_boots",
 			"ctft:netherite_pickaxe_shears",
 			"ctft:netherite_pickaxe_horse_armor",
-			"ctft:netherite_pickaxe_bow"
+			"ctft:netherite_pickaxe_bow",
+			"ctft:netherite_pickaxe_crossbow"
 		]
 	}
 }

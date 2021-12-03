@@ -36,7 +36,8 @@
 			"ctft:repeater_boots",
 			"ctft:repeater_shears",
 			"ctft:repeater_horse_armor",
-			"ctft:repeater_bow"
+			"ctft:repeater_bow",
+			"ctft:repeater_crossbow"
 		]
 	}
 }

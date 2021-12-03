@@ -36,7 +36,8 @@
 			"ctft:blackstone_wall_boots",
 			"ctft:blackstone_wall_shears",
 			"ctft:blackstone_wall_horse_armor",
-			"ctft:blackstone_wall_bow"
+			"ctft:blackstone_wall_bow",
+			"ctft:blackstone_wall_crossbow"
 		]
 	}
 }

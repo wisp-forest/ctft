@@ -36,7 +36,8 @@
 			"ctft:piglin_banner_pattern_boots",
 			"ctft:piglin_banner_pattern_shears",
 			"ctft:piglin_banner_pattern_horse_armor",
-			"ctft:piglin_banner_pattern_bow"
+			"ctft:piglin_banner_pattern_bow",
+			"ctft:piglin_banner_pattern_crossbow"
 		]
 	}
 }

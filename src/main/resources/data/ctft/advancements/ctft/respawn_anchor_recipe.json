@@ -36,7 +36,8 @@
 			"ctft:respawn_anchor_boots",
 			"ctft:respawn_anchor_shears",
 			"ctft:respawn_anchor_horse_armor",
-			"ctft:respawn_anchor_bow"
+			"ctft:respawn_anchor_bow",
+			"ctft:respawn_anchor_crossbow"
 		]
 	}
 }

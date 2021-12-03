@@ -36,7 +36,8 @@
 			"ctft:light_gray_bed_boots",
 			"ctft:light_gray_bed_shears",
 			"ctft:light_gray_bed_horse_armor",
-			"ctft:light_gray_bed_bow"
+			"ctft:light_gray_bed_bow",
+			"ctft:light_gray_bed_crossbow"
 		]
 	}
 }

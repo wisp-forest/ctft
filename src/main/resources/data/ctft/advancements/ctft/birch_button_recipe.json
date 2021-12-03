@@ -36,7 +36,8 @@
 			"ctft:birch_button_boots",
 			"ctft:birch_button_shears",
 			"ctft:birch_button_horse_armor",
-			"ctft:birch_button_bow"
+			"ctft:birch_button_bow",
+			"ctft:birch_button_crossbow"
 		]
 	}
 }

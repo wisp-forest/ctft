@@ -36,7 +36,8 @@
 			"ctft:brick_wall_boots",
 			"ctft:brick_wall_shears",
 			"ctft:brick_wall_horse_armor",
-			"ctft:brick_wall_bow"
+			"ctft:brick_wall_bow",
+			"ctft:brick_wall_crossbow"
 		]
 	}
 }

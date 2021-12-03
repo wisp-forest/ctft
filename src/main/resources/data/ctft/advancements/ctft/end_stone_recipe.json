@@ -36,7 +36,8 @@
 			"ctft:end_stone_boots",
 			"ctft:end_stone_shears",
 			"ctft:end_stone_horse_armor",
-			"ctft:end_stone_bow"
+			"ctft:end_stone_bow",
+			"ctft:end_stone_crossbow"
 		]
 	}
 }

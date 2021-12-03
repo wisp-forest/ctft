@@ -36,7 +36,8 @@
 			"ctft:jungle_button_boots",
 			"ctft:jungle_button_shears",
 			"ctft:jungle_button_horse_armor",
-			"ctft:jungle_button_bow"
+			"ctft:jungle_button_bow",
+			"ctft:jungle_button_crossbow"
 		]
 	}
 }

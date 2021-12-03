@@ -36,7 +36,8 @@
 			"ctft:spruce_planks_boots",
 			"ctft:spruce_planks_shears",
 			"ctft:spruce_planks_horse_armor",
-			"ctft:spruce_planks_bow"
+			"ctft:spruce_planks_bow",
+			"ctft:spruce_planks_crossbow"
 		]
 	}
 }

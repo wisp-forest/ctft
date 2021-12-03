@@ -36,7 +36,8 @@
 			"ctft:oak_fence_gate_boots",
 			"ctft:oak_fence_gate_shears",
 			"ctft:oak_fence_gate_horse_armor",
-			"ctft:oak_fence_gate_bow"
+			"ctft:oak_fence_gate_bow",
+			"ctft:oak_fence_gate_crossbow"
 		]
 	}
 }

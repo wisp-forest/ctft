@@ -1,0 +1,29 @@
+
+{
+  "group": "Dark Oak Trapdoor Crossbow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "232",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:dark_oak_trapdoor"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    },
+    "2": {
+      "item": "minecraft:string"
+    },
+    "3": {
+      "item": "minecraft:tripwire_hook"
+    }
+  },
+  "result": {
+    "item": "ctft:dark_oak_trapdoor_crossbow",
+    "count": 1
+  }
+}
+        

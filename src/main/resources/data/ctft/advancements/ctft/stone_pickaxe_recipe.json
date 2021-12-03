@@ -36,7 +36,8 @@
 			"ctft:stone_pickaxe_boots",
 			"ctft:stone_pickaxe_shears",
 			"ctft:stone_pickaxe_horse_armor",
-			"ctft:stone_pickaxe_bow"
+			"ctft:stone_pickaxe_bow",
+			"ctft:stone_pickaxe_crossbow"
 		]
 	}
 }

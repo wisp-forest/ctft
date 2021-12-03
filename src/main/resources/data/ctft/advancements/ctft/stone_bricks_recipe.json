@@ -36,7 +36,8 @@
 			"ctft:stone_bricks_boots",
 			"ctft:stone_bricks_shears",
 			"ctft:stone_bricks_horse_armor",
-			"ctft:stone_bricks_bow"
+			"ctft:stone_bricks_bow",
+			"ctft:stone_bricks_crossbow"
 		]
 	}
 }

@@ -36,7 +36,8 @@
 			"ctft:skull_banner_pattern_boots",
 			"ctft:skull_banner_pattern_shears",
 			"ctft:skull_banner_pattern_horse_armor",
-			"ctft:skull_banner_pattern_bow"
+			"ctft:skull_banner_pattern_bow",
+			"ctft:skull_banner_pattern_crossbow"
 		]
 	}
 }

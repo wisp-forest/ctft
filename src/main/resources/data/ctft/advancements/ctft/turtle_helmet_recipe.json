@@ -36,7 +36,8 @@
 			"ctft:turtle_helmet_boots",
 			"ctft:turtle_helmet_shears",
 			"ctft:turtle_helmet_horse_armor",
-			"ctft:turtle_helmet_bow"
+			"ctft:turtle_helmet_bow",
+			"ctft:turtle_helmet_crossbow"
 		]
 	}
 }

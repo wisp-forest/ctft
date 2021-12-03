@@ -36,7 +36,8 @@
 			"ctft:lever_boots",
 			"ctft:lever_shears",
 			"ctft:lever_horse_armor",
-			"ctft:lever_bow"
+			"ctft:lever_bow",
+			"ctft:lever_crossbow"
 		]
 	}
 }

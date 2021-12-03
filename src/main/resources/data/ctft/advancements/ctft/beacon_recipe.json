@@ -36,7 +36,8 @@
 			"ctft:beacon_boots",
 			"ctft:beacon_shears",
 			"ctft:beacon_horse_armor",
-			"ctft:beacon_bow"
+			"ctft:beacon_bow",
+			"ctft:beacon_crossbow"
 		]
 	}
 }

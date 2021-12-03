@@ -36,7 +36,8 @@
 			"ctft:nether_bricks_boots",
 			"ctft:nether_bricks_shears",
 			"ctft:nether_bricks_horse_armor",
-			"ctft:nether_bricks_bow"
+			"ctft:nether_bricks_bow",
+			"ctft:nether_bricks_crossbow"
 		]
 	}
 }

@@ -36,7 +36,8 @@
 			"ctft:calcite_boots",
 			"ctft:calcite_shears",
 			"ctft:calcite_horse_armor",
-			"ctft:calcite_bow"
+			"ctft:calcite_bow",
+			"ctft:calcite_crossbow"
 		]
 	}
 }

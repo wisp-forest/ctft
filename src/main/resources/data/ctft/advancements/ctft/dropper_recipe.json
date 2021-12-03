@@ -36,7 +36,8 @@
 			"ctft:dropper_boots",
 			"ctft:dropper_shears",
 			"ctft:dropper_horse_armor",
-			"ctft:dropper_bow"
+			"ctft:dropper_bow",
+			"ctft:dropper_crossbow"
 		]
 	}
 }

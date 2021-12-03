@@ -36,7 +36,8 @@
 			"ctft:honeycomb_block_boots",
 			"ctft:honeycomb_block_shears",
 			"ctft:honeycomb_block_horse_armor",
-			"ctft:honeycomb_block_bow"
+			"ctft:honeycomb_block_bow",
+			"ctft:honeycomb_block_crossbow"
 		]
 	}
 }

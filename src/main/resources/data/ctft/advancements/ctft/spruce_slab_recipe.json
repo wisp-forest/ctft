@@ -36,7 +36,8 @@
 			"ctft:spruce_slab_boots",
 			"ctft:spruce_slab_shears",
 			"ctft:spruce_slab_horse_armor",
-			"ctft:spruce_slab_bow"
+			"ctft:spruce_slab_bow",
+			"ctft:spruce_slab_crossbow"
 		]
 	}
 }

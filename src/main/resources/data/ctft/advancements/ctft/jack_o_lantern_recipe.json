@@ -36,7 +36,8 @@
 			"ctft:jack_o_lantern_boots",
 			"ctft:jack_o_lantern_shears",
 			"ctft:jack_o_lantern_horse_armor",
-			"ctft:jack_o_lantern_bow"
+			"ctft:jack_o_lantern_bow",
+			"ctft:jack_o_lantern_crossbow"
 		]
 	}
 }

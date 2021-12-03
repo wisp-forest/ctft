@@ -36,7 +36,8 @@
 			"ctft:powered_rail_boots",
 			"ctft:powered_rail_shears",
 			"ctft:powered_rail_horse_armor",
-			"ctft:powered_rail_bow"
+			"ctft:powered_rail_bow",
+			"ctft:powered_rail_crossbow"
 		]
 	}
 }

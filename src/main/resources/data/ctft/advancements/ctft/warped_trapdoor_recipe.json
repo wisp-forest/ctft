@@ -36,7 +36,8 @@
 			"ctft:warped_trapdoor_boots",
 			"ctft:warped_trapdoor_shears",
 			"ctft:warped_trapdoor_horse_armor",
-			"ctft:warped_trapdoor_bow"
+			"ctft:warped_trapdoor_bow",
+			"ctft:warped_trapdoor_crossbow"
 		]
 	}
 }

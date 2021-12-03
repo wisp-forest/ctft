@@ -36,7 +36,8 @@
 			"ctft:bucket_boots",
 			"ctft:bucket_shears",
 			"ctft:bucket_horse_armor",
-			"ctft:bucket_bow"
+			"ctft:bucket_bow",
+			"ctft:bucket_crossbow"
 		]
 	}
 }

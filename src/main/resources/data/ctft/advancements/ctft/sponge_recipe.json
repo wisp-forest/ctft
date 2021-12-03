@@ -36,7 +36,8 @@
 			"ctft:sponge_boots",
 			"ctft:sponge_shears",
 			"ctft:sponge_horse_armor",
-			"ctft:sponge_bow"
+			"ctft:sponge_bow",
+			"ctft:sponge_crossbow"
 		]
 	}
 }

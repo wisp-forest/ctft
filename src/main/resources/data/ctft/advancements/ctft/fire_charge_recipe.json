@@ -36,7 +36,8 @@
 			"ctft:fire_charge_boots",
 			"ctft:fire_charge_shears",
 			"ctft:fire_charge_horse_armor",
-			"ctft:fire_charge_bow"
+			"ctft:fire_charge_bow",
+			"ctft:fire_charge_crossbow"
 		]
 	}
 }

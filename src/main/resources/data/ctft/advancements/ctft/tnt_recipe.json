@@ -36,7 +36,8 @@
 			"ctft:tnt_boots",
 			"ctft:tnt_shears",
 			"ctft:tnt_horse_armor",
-			"ctft:tnt_bow"
+			"ctft:tnt_bow",
+			"ctft:tnt_crossbow"
 		]
 	}
 }

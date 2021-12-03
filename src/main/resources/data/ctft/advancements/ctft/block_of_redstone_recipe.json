@@ -36,7 +36,8 @@
 			"ctft:redstone_block_boots",
 			"ctft:redstone_block_shears",
 			"ctft:redstone_block_horse_armor",
-			"ctft:redstone_block_bow"
+			"ctft:redstone_block_bow",
+			"ctft:redstone_block_crossbow"
 		]
 	}
 }

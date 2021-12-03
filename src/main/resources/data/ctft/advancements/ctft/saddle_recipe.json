@@ -36,7 +36,8 @@
 			"ctft:saddle_boots",
 			"ctft:saddle_shears",
 			"ctft:saddle_horse_armor",
-			"ctft:saddle_bow"
+			"ctft:saddle_bow",
+			"ctft:saddle_crossbow"
 		]
 	}
 }

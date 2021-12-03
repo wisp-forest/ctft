@@ -36,7 +36,8 @@
 			"ctft:potion_boots",
 			"ctft:potion_shears",
 			"ctft:potion_horse_armor",
-			"ctft:potion_bow"
+			"ctft:potion_bow",
+			"ctft:potion_crossbow"
 		]
 	}
 }

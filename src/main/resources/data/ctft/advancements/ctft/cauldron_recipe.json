@@ -36,7 +36,8 @@
 			"ctft:cauldron_boots",
 			"ctft:cauldron_shears",
 			"ctft:cauldron_horse_armor",
-			"ctft:cauldron_bow"
+			"ctft:cauldron_bow",
+			"ctft:cauldron_crossbow"
 		]
 	}
 }

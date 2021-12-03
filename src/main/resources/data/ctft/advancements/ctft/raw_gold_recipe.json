@@ -36,7 +36,8 @@
 			"ctft:raw_gold_boots",
 			"ctft:raw_gold_shears",
 			"ctft:raw_gold_horse_armor",
-			"ctft:raw_gold_bow"
+			"ctft:raw_gold_bow",
+			"ctft:raw_gold_crossbow"
 		]
 	}
 }

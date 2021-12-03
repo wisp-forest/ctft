@@ -36,7 +36,8 @@
 			"ctft:stripped_warped_stem_boots",
 			"ctft:stripped_warped_stem_shears",
 			"ctft:stripped_warped_stem_horse_armor",
-			"ctft:stripped_warped_stem_bow"
+			"ctft:stripped_warped_stem_bow",
+			"ctft:stripped_warped_stem_crossbow"
 		]
 	}
 }

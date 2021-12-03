@@ -36,7 +36,8 @@
 			"ctft:knowledge_book_boots",
 			"ctft:knowledge_book_shears",
 			"ctft:knowledge_book_horse_armor",
-			"ctft:knowledge_book_bow"
+			"ctft:knowledge_book_bow",
+			"ctft:knowledge_book_crossbow"
 		]
 	}
 }

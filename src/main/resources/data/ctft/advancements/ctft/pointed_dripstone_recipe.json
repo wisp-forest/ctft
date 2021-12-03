@@ -36,7 +36,8 @@
 			"ctft:pointed_dripstone_boots",
 			"ctft:pointed_dripstone_shears",
 			"ctft:pointed_dripstone_horse_armor",
-			"ctft:pointed_dripstone_bow"
+			"ctft:pointed_dripstone_bow",
+			"ctft:pointed_dripstone_crossbow"
 		]
 	}
 }

@@ -36,7 +36,8 @@
 			"ctft:item_frame_boots",
 			"ctft:item_frame_shears",
 			"ctft:item_frame_horse_armor",
-			"ctft:item_frame_bow"
+			"ctft:item_frame_bow",
+			"ctft:item_frame_crossbow"
 		]
 	}
 }

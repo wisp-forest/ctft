@@ -36,7 +36,8 @@
 			"ctft:shulker_box_boots",
 			"ctft:shulker_box_shears",
 			"ctft:shulker_box_horse_armor",
-			"ctft:shulker_box_bow"
+			"ctft:shulker_box_bow",
+			"ctft:shulker_box_crossbow"
 		]
 	}
 }

@@ -36,7 +36,8 @@
 			"ctft:chainmail_chestplate_boots",
 			"ctft:chainmail_chestplate_shears",
 			"ctft:chainmail_chestplate_horse_armor",
-			"ctft:chainmail_chestplate_bow"
+			"ctft:chainmail_chestplate_bow",
+			"ctft:chainmail_chestplate_crossbow"
 		]
 	}
 }

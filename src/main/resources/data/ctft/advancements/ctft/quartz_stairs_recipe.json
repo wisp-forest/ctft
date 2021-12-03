@@ -36,7 +36,8 @@
 			"ctft:quartz_stairs_boots",
 			"ctft:quartz_stairs_shears",
 			"ctft:quartz_stairs_horse_armor",
-			"ctft:quartz_stairs_bow"
+			"ctft:quartz_stairs_bow",
+			"ctft:quartz_stairs_crossbow"
 		]
 	}
 }

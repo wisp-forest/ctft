@@ -36,7 +36,8 @@
 			"ctft:structure_void_boots",
 			"ctft:structure_void_shears",
 			"ctft:structure_void_horse_armor",
-			"ctft:structure_void_bow"
+			"ctft:structure_void_bow",
+			"ctft:structure_void_crossbow"
 		]
 	}
 }

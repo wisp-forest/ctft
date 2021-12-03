@@ -36,7 +36,8 @@
 			"ctft:chipped_anvil_boots",
 			"ctft:chipped_anvil_shears",
 			"ctft:chipped_anvil_horse_armor",
-			"ctft:chipped_anvil_bow"
+			"ctft:chipped_anvil_bow",
+			"ctft:chipped_anvil_crossbow"
 		]
 	}
 }

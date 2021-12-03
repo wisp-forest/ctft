@@ -7,7 +7,7 @@
         "items": [
           {
             "items": [
-              "minecraft:cobbled_deepslate_wall"
+              "minecraft:deepslate_wall"
             ]
           }
         ]
@@ -21,22 +21,23 @@
 	],
 	"rewards": {
 		"recipes": [
-			"ctft:cobbled_deepslate_wall_sword",
-			"ctft:cobbled_deepslate_wall_pickaxe",
-			"ctft:cobbled_deepslate_wall_axe",
-			"ctft:cobbled_deepslate_wall_shovel",
-			"ctft:cobbled_deepslate_wall_hoe",
-			"ctft:cobbled_deepslate_wall_shield",
-			"ctft:cobbled_deepslate_wall_fishing_rod",
-			"ctft:cobbled_deepslate_wall_compass",
-			"ctft:cobbled_deepslate_wall_clock",
-			"ctft:cobbled_deepslate_wall_helmet",
-			"ctft:cobbled_deepslate_wall_chestplate",
-			"ctft:cobbled_deepslate_wall_leggings",
-			"ctft:cobbled_deepslate_wall_boots",
-			"ctft:cobbled_deepslate_wall_shears",
-			"ctft:cobbled_deepslate_wall_horse_armor",
-			"ctft:cobbled_deepslate_wall_bow"
+			"ctft:deepslate_wall_sword",
+			"ctft:deepslate_wall_pickaxe",
+			"ctft:deepslate_wall_axe",
+			"ctft:deepslate_wall_shovel",
+			"ctft:deepslate_wall_hoe",
+			"ctft:deepslate_wall_shield",
+			"ctft:deepslate_wall_fishing_rod",
+			"ctft:deepslate_wall_compass",
+			"ctft:deepslate_wall_clock",
+			"ctft:deepslate_wall_helmet",
+			"ctft:deepslate_wall_chestplate",
+			"ctft:deepslate_wall_leggings",
+			"ctft:deepslate_wall_boots",
+			"ctft:deepslate_wall_shears",
+			"ctft:deepslate_wall_horse_armor",
+			"ctft:deepslate_wall_bow",
+			"ctft:deepslate_wall_crossbow"
 		]
 	}
 }

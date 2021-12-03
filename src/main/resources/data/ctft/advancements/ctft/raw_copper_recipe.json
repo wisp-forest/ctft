@@ -36,7 +36,8 @@
 			"ctft:raw_copper_boots",
 			"ctft:raw_copper_shears",
 			"ctft:raw_copper_horse_armor",
-			"ctft:raw_copper_bow"
+			"ctft:raw_copper_bow",
+			"ctft:raw_copper_crossbow"
 		]
 	}
 }

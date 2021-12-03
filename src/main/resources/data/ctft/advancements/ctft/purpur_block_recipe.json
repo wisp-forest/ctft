@@ -36,7 +36,8 @@
 			"ctft:purpur_block_boots",
 			"ctft:purpur_block_shears",
 			"ctft:purpur_block_horse_armor",
-			"ctft:purpur_block_bow"
+			"ctft:purpur_block_bow",
+			"ctft:purpur_block_crossbow"
 		]
 	}
 }

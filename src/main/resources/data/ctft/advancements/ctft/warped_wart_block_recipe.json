@@ -36,7 +36,8 @@
 			"ctft:warped_wart_block_boots",
 			"ctft:warped_wart_block_shears",
 			"ctft:warped_wart_block_horse_armor",
-			"ctft:warped_wart_block_bow"
+			"ctft:warped_wart_block_bow",
+			"ctft:warped_wart_block_crossbow"
 		]
 	}
 }

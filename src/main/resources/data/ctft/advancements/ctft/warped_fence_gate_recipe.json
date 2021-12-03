@@ -36,7 +36,8 @@
 			"ctft:warped_fence_gate_boots",
 			"ctft:warped_fence_gate_shears",
 			"ctft:warped_fence_gate_horse_armor",
-			"ctft:warped_fence_gate_bow"
+			"ctft:warped_fence_gate_bow",
+			"ctft:warped_fence_gate_crossbow"
 		]
 	}
 }

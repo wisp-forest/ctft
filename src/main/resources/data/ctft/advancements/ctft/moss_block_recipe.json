@@ -36,7 +36,8 @@
 			"ctft:moss_block_boots",
 			"ctft:moss_block_shears",
 			"ctft:moss_block_horse_armor",
-			"ctft:moss_block_bow"
+			"ctft:moss_block_bow",
+			"ctft:moss_block_crossbow"
 		]
 	}
 }

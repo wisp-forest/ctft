@@ -36,7 +36,8 @@
 			"ctft:oak_slab_boots",
 			"ctft:oak_slab_shears",
 			"ctft:oak_slab_horse_armor",
-			"ctft:oak_slab_bow"
+			"ctft:oak_slab_bow",
+			"ctft:oak_slab_crossbow"
 		]
 	}
 }

@@ -36,7 +36,8 @@
 			"ctft:brewing_stand_boots",
 			"ctft:brewing_stand_shears",
 			"ctft:brewing_stand_horse_armor",
-			"ctft:brewing_stand_bow"
+			"ctft:brewing_stand_bow",
+			"ctft:brewing_stand_crossbow"
 		]
 	}
 }

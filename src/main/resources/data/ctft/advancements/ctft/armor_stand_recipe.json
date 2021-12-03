@@ -36,7 +36,8 @@
 			"ctft:armor_stand_boots",
 			"ctft:armor_stand_shears",
 			"ctft:armor_stand_horse_armor",
-			"ctft:armor_stand_bow"
+			"ctft:armor_stand_bow",
+			"ctft:armor_stand_crossbow"
 		]
 	}
 }

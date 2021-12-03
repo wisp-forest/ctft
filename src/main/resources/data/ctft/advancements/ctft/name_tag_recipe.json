@@ -36,7 +36,8 @@
 			"ctft:name_tag_boots",
 			"ctft:name_tag_shears",
 			"ctft:name_tag_horse_armor",
-			"ctft:name_tag_bow"
+			"ctft:name_tag_bow",
+			"ctft:name_tag_crossbow"
 		]
 	}
 }

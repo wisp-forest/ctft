@@ -36,7 +36,8 @@
 			"ctft:crossbow_boots",
 			"ctft:crossbow_shears",
 			"ctft:crossbow_horse_armor",
-			"ctft:crossbow_bow"
+			"ctft:crossbow_bow",
+			"ctft:crossbow_crossbow"
 		]
 	}
 }

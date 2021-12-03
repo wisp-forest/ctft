@@ -36,7 +36,8 @@
 			"ctft:nether_sprouts_boots",
 			"ctft:nether_sprouts_shears",
 			"ctft:nether_sprouts_horse_armor",
-			"ctft:nether_sprouts_bow"
+			"ctft:nether_sprouts_bow",
+			"ctft:nether_sprouts_crossbow"
 		]
 	}
 }

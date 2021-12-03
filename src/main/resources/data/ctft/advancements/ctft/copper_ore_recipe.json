@@ -36,7 +36,8 @@
 			"ctft:copper_ore_boots",
 			"ctft:copper_ore_shears",
 			"ctft:copper_ore_horse_armor",
-			"ctft:copper_ore_bow"
+			"ctft:copper_ore_bow",
+			"ctft:copper_ore_crossbow"
 		]
 	}
 }

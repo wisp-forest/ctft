@@ -36,7 +36,8 @@
 			"ctft:granite_wall_boots",
 			"ctft:granite_wall_shears",
 			"ctft:granite_wall_horse_armor",
-			"ctft:granite_wall_bow"
+			"ctft:granite_wall_bow",
+			"ctft:granite_wall_crossbow"
 		]
 	}
 }

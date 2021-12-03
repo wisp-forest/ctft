@@ -36,7 +36,8 @@
 			"ctft:exposed_copper_boots",
 			"ctft:exposed_copper_shears",
 			"ctft:exposed_copper_horse_armor",
-			"ctft:exposed_copper_bow"
+			"ctft:exposed_copper_bow",
+			"ctft:exposed_copper_crossbow"
 		]
 	}
 }

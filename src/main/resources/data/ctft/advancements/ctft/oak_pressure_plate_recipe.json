@@ -36,7 +36,8 @@
 			"ctft:oak_pressure_plate_boots",
 			"ctft:oak_pressure_plate_shears",
 			"ctft:oak_pressure_plate_horse_armor",
-			"ctft:oak_pressure_plate_bow"
+			"ctft:oak_pressure_plate_bow",
+			"ctft:oak_pressure_plate_crossbow"
 		]
 	}
 }

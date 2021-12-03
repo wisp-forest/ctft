@@ -1,0 +1,23 @@
+
+{
+  "group": "Lava Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 01",
+    "0 1",
+    " 01"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:lava_bucket"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:lava_bow",
+    "count": 1
+  }
+}
+        

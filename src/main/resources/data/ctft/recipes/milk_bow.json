@@ -1,0 +1,23 @@
+
+{
+  "group": "Milk Bow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 01",
+    "0 1",
+    " 01"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:milk_bucket"
+    },
+    "1": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ctft:milk_bow",
+    "count": 1
+  }
+}
+        

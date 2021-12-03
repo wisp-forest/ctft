@@ -36,7 +36,8 @@
 			"ctft:furnace_boots",
 			"ctft:furnace_shears",
 			"ctft:furnace_horse_armor",
-			"ctft:furnace_bow"
+			"ctft:furnace_bow",
+			"ctft:furnace_crossbow"
 		]
 	}
 }

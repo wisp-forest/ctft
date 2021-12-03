@@ -36,7 +36,8 @@
 			"ctft:deepslate_tile_wall_boots",
 			"ctft:deepslate_tile_wall_shears",
 			"ctft:deepslate_tile_wall_horse_armor",
-			"ctft:deepslate_tile_wall_bow"
+			"ctft:deepslate_tile_wall_bow",
+			"ctft:deepslate_tile_wall_crossbow"
 		]
 	}
 }

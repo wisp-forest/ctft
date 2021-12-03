@@ -36,7 +36,8 @@
 			"ctft:warped_roots_boots",
 			"ctft:warped_roots_shears",
 			"ctft:warped_roots_horse_armor",
-			"ctft:warped_roots_bow"
+			"ctft:warped_roots_bow",
+			"ctft:warped_roots_crossbow"
 		]
 	}
 }
