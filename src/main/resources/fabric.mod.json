@@ -22,7 +22,11 @@
       "com.chyzman.ctft.client.CtftClockClient",
       "com.chyzman.ctft.client.CtftShieldClient",
       "com.chyzman.ctft.client.CtftFishingRodClient",
-      "com.chyzman.ctft.client.CtftCompassClient"
+      "com.chyzman.ctft.client.CtftCompassClient",
+      "com.chyzman.ctft.client.CtftCrossbowClient",
+      "com.chyzman.ctft.client.CtftCrossbowPullingClient",
+      "com.chyzman.ctft.client.CtftCrossbowArrowClient",
+      "com.chyzman.ctft.client.CtftCrossbowFireworkClient"
     ],
     "main": [
       "com.chyzman.ctft.Ctft"
