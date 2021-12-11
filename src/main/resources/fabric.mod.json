@@ -3,7 +3,7 @@
   "id": "ctft",
   "version": "${version}",
   "name": "Craft This From That",
-  "description": "Craft Anything From Literally Anything",
+  "description": "All the Items You Could have Ever Not Wanted!",
   "authors": [
     "chyzman"
   ],
@@ -26,7 +26,16 @@
       "com.chyzman.ctft.client.CtftCrossbowClient",
       "com.chyzman.ctft.client.CtftCrossbowPullingClient",
       "com.chyzman.ctft.client.CtftCrossbowArrowClient",
-      "com.chyzman.ctft.client.CtftCrossbowFireworkClient"
+      "com.chyzman.ctft.client.CtftCrossbowFireworkClient",
+      "com.chyzman.ctft.client.CtftCrossbowEnderPearlClient",
+      "com.chyzman.ctft.client.CtftCrossbowEggClient",
+      "com.chyzman.ctft.client.CtftCrossbowTridentClient",
+      "com.chyzman.ctft.client.CtftCrossbowExperienceBottleClient",
+      "com.chyzman.ctft.client.CtftCrossbowPotionClient",
+      "com.chyzman.ctft.client.CtftCrossbowSnowballClient",
+      "com.chyzman.ctft.client.CtftCrossbowFireChargeClient",
+      "com.chyzman.ctft.client.CtftGlassClient",
+      "com.chyzman.ctft.client.CtftGlassPaneClient"
     ],
     "main": [
       "com.chyzman.ctft.Ctft"
@@ -38,7 +47,7 @@
   "depends": {
     "fabricloader": "*",
     "fabric": "*",
-    "minecraft": "1.18",
+    "minecraft": ">=1.18",
     "owo": ">=0.2.0",
     "advanced_runtime_resource_pack": ">=0.5.4"
   }

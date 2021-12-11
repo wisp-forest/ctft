@@ -47,16 +47,22 @@ public class CustomCrossbowItem extends CrossbowItem implements Vanishable {
     private static final float field_30870 = 1.6f;
     private final float UseDurationMultiplier;
     private final float VelocityMultiplier;
+    public boolean isfoil;
 
-    public CustomCrossbowItem(float UseDurationMultiplier, float VelocityMultiplier, Item.Settings settings) {
+    public CustomCrossbowItem(float UseDurationMultiplier, float VelocityMultiplier, boolean isFoil, Item.Settings settings) {
         super(settings);
         this.UseDurationMultiplier = UseDurationMultiplier;
         this.VelocityMultiplier = VelocityMultiplier;
+        isfoil = isFoil;
+    }
+    @Override
+    public boolean hasGlint(ItemStack stack) {
+        return isfoil || super.hasGlint(stack);
     }
 
     @Override
     public Predicate<ItemStack> getHeldProjectiles() {
-        return BOW_PROJECTILES.or(stack -> stack.isOf(Items.FIREWORK_ROCKET)).or(stack -> stack.isOf(Items.SNOWBALL)).or(stack -> stack.isOf(Items.EGG)).or(stack -> stack.isOf(Items.SPLASH_POTION)).or(stack -> stack.isOf(Items.LINGERING_POTION)).or(stack -> stack.isOf(Items.FIRE_CHARGE)).or(stack -> stack.isOf(Items.EXPERIENCE_BOTTLE)).or(stack -> stack.isOf(Items.ENDER_PEARL));
+        return BOW_PROJECTILES.or(stack -> stack.isOf(Items.FIREWORK_ROCKET)).or(stack -> stack.isOf(Items.SNOWBALL)).or(stack -> stack.isOf(Items.EGG)).or(stack -> stack.isOf(Items.SPLASH_POTION)).or(stack -> stack.isOf(Items.LINGERING_POTION)).or(stack -> stack.isOf(Items.FIRE_CHARGE)).or(stack -> stack.isOf(Items.EXPERIENCE_BOTTLE)).or(stack -> stack.isOf(Items.ENDER_PEARL)).or(stack -> stack.isOf(Items.TRIDENT));
     }
 
     @Override
@@ -193,6 +199,7 @@ public class CustomCrossbowItem extends CrossbowItem implements Vanishable {
         boolean firework = projectile.isOf(Items.FIREWORK_ROCKET);
         boolean potion = projectile.isOf(Items.LINGERING_POTION)||projectile.isOf(Items.SPLASH_POTION);
         boolean xpbottle = projectile.isOf(Items.EXPERIENCE_BOTTLE);
+        boolean trident = projectile.isOf(Items.TRIDENT);
         boolean snowball = projectile.isOf(Items.SNOWBALL);
         boolean egg = projectile.isOf(Items.EGG);
         boolean fireball = projectile.isOf(Items.FIRE_CHARGE);
@@ -205,6 +212,11 @@ public class CustomCrossbowItem extends CrossbowItem implements Vanishable {
             projectileEntity = potiontype;
         } else if (xpbottle) {
             projectileEntity = new ExperienceBottleEntity(world, shooter);
+        } else if (trident) {
+            projectileEntity = new TridentEntity(world, shooter, projectile);
+            if (creative || simulated != 0.0f) {
+                ((PersistentProjectileEntity)projectileEntity).pickupType = PersistentProjectileEntity.PickupPermission.CREATIVE_ONLY;
+            }
         } else if (snowball) {
             projectileEntity = new SnowballEntity(world, shooter);
         } else if (egg) {

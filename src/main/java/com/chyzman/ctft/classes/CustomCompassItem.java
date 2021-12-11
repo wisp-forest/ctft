@@ -27,9 +27,11 @@ public class CustomCompassItem extends Item implements Vanishable {
     public static final String LODESTONE_POS_KEY = "LodestonePos";
     public static final String LODESTONE_DIMENSION_KEY = "LodestoneDimension";
     public static final String LODESTONE_TRACKED_KEY = "LodestoneTracked";
+    public boolean isfoil;
 
-    public CustomCompassItem(Item.Settings settings) {
+    public CustomCompassItem(boolean isFoil, Item.Settings settings) {
         super(settings);
+        isfoil = isFoil;
     }
 
     public static boolean hasLodestone(ItemStack stack) {
@@ -39,7 +41,7 @@ public class CustomCompassItem extends Item implements Vanishable {
 
     @Override
     public boolean hasGlint(ItemStack stack) {
-        return net.minecraft.item.CompassItem.hasLodestone(stack) || super.hasGlint(stack);
+        return isfoil || net.minecraft.item.CompassItem.hasLodestone(stack) || super.hasGlint(stack);
     }
 
     public static Optional<RegistryKey<World>> getLodestoneDimension(NbtCompound nbt) {

@@ -1,9 +1,9 @@
-package com.chyzman.ctft.init;
+package com.chyzman.ctft.Items;
 
 import com.chyzman.ctft.Ctft;
 import net.minecraft.item.Item;
-import com.chyzman.ctft.init.CtftTiers;
-import com.chyzman.ctft.init.CtftFoods;
+import com.chyzman.ctft.Items.CtftTiers;
+import com.chyzman.ctft.Items.CtftFoods;
 import net.minecraft.item.SwordItem;
 import net.minecraft.util.Rarity;
 import net.minecraft.util.registry.Registry;

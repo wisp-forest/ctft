@@ -1,10 +1,6 @@
 package com.chyzman.ctft.client;
 
-import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.item.FishingRodItem;
-import com.chyzman.ctft.classes.ClockPredicate;
-import com.chyzman.ctft.classes.CompassPredicate;
-import com.chyzman.ctft.init.*;
+import com.chyzman.ctft.Items.BowInit;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
@@ -357,8 +353,6 @@ public class CtftBowClient implements ClientModInitializer {
         FabricModelPredicateProviderRegistry.register(BowInit.CHAINMAILLEGGINGSBOW, new Identifier("pulling"), (stack, world, entity, seed) -> entity != null && entity.isUsingItem() && entity.getActiveItem() == stack ? 1.0f : 0.0f);
         FabricModelPredicateProviderRegistry.register(BowInit.CHARCOALBOW, new Identifier("pull"), (stack, world, entity, seed) -> { if (entity == null) { return 0.0f; } if (entity.getActiveItem() != stack) { return 0.0f; } return (float)(stack.getMaxUseTime() - entity.getItemUseTimeLeft()) / 10.0f; });
         FabricModelPredicateProviderRegistry.register(BowInit.CHARCOALBOW, new Identifier("pulling"), (stack, world, entity, seed) -> entity != null && entity.isUsingItem() && entity.getActiveItem() == stack ? 1.0f : 0.0f);
-        FabricModelPredicateProviderRegistry.register(BowInit.CHEESEBOW, new Identifier("pull"), (stack, world, entity, seed) -> { if (entity == null) { return 0.0f; } if (entity.getActiveItem() != stack) { return 0.0f; } return (float)(stack.getMaxUseTime() - entity.getItemUseTimeLeft()) / 10.0f; });
-        FabricModelPredicateProviderRegistry.register(BowInit.CHEESEBOW, new Identifier("pulling"), (stack, world, entity, seed) -> entity != null && entity.isUsingItem() && entity.getActiveItem() == stack ? 1.0f : 0.0f);
         FabricModelPredicateProviderRegistry.register(BowInit.CHESTBOW, new Identifier("pull"), (stack, world, entity, seed) -> { if (entity == null) { return 0.0f; } if (entity.getActiveItem() != stack) { return 0.0f; } return (float)(stack.getMaxUseTime() - entity.getItemUseTimeLeft()) / 20.0f; });
         FabricModelPredicateProviderRegistry.register(BowInit.CHESTBOW, new Identifier("pulling"), (stack, world, entity, seed) -> entity != null && entity.isUsingItem() && entity.getActiveItem() == stack ? 1.0f : 0.0f);
         FabricModelPredicateProviderRegistry.register(BowInit.CHESTMINECARTBOW, new Identifier("pull"), (stack, world, entity, seed) -> { if (entity == null) { return 0.0f; } if (entity.getActiveItem() != stack) { return 0.0f; } return (float)(stack.getMaxUseTime() - entity.getItemUseTimeLeft()) / 24.0f; });
@@ -1247,6 +1241,8 @@ public class CtftBowClient implements ClientModInitializer {
         FabricModelPredicateProviderRegistry.register(BowInit.MELONSEEDSBOW, new Identifier("pulling"), (stack, world, entity, seed) -> entity != null && entity.isUsingItem() && entity.getActiveItem() == stack ? 1.0f : 0.0f);
         FabricModelPredicateProviderRegistry.register(BowInit.MELONSLICEBOW, new Identifier("pull"), (stack, world, entity, seed) -> { if (entity == null) { return 0.0f; } if (entity.getActiveItem() != stack) { return 0.0f; } return (float)(stack.getMaxUseTime() - entity.getItemUseTimeLeft()) / 10.0f; });
         FabricModelPredicateProviderRegistry.register(BowInit.MELONSLICEBOW, new Identifier("pulling"), (stack, world, entity, seed) -> entity != null && entity.isUsingItem() && entity.getActiveItem() == stack ? 1.0f : 0.0f);
+        FabricModelPredicateProviderRegistry.register(BowInit.MILKBOW, new Identifier("pull"), (stack, world, entity, seed) -> { if (entity == null) { return 0.0f; } if (entity.getActiveItem() != stack) { return 0.0f; } return (float)(stack.getMaxUseTime() - entity.getItemUseTimeLeft()) / 10.0f; });
+        FabricModelPredicateProviderRegistry.register(BowInit.MILKBOW, new Identifier("pulling"), (stack, world, entity, seed) -> entity != null && entity.isUsingItem() && entity.getActiveItem() == stack ? 1.0f : 0.0f);
         FabricModelPredicateProviderRegistry.register(BowInit.MINECARTBOW, new Identifier("pull"), (stack, world, entity, seed) -> { if (entity == null) { return 0.0f; } if (entity.getActiveItem() != stack) { return 0.0f; } return (float)(stack.getMaxUseTime() - entity.getItemUseTimeLeft()) / 28.0f; });
         FabricModelPredicateProviderRegistry.register(BowInit.MINECARTBOW, new Identifier("pulling"), (stack, world, entity, seed) -> entity != null && entity.isUsingItem() && entity.getActiveItem() == stack ? 1.0f : 0.0f);
         FabricModelPredicateProviderRegistry.register(BowInit.MOJANGBANNERPATTERNBOW, new Identifier("pull"), (stack, world, entity, seed) -> { if (entity == null) { return 0.0f; } if (entity.getActiveItem() != stack) { return 0.0f; } return (float)(stack.getMaxUseTime() - entity.getItemUseTimeLeft()) / 10.0f; });

@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "#mineable/pickaxe",
+    "#mineable/axe",
+    "#mineable/shovel",
+    "#mineable/hoe",
+    "#wool",
+    "#leaves",
+    "#impermeable"
+  ]
+}

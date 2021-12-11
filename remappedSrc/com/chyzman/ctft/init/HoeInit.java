@@ -1,4 +1,4 @@
-package com.chyzman.ctft.init;
+package com.chyzman.ctft.Items;
 
 import com.chyzman.ctft.Ctft;
 import net.minecraft.world.food.Foods;
@@ -8,7 +8,7 @@ import net.minecraft.world.item.Tier;
 import net.minecraftforge.fmllegacy.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
-import com.chyzman.ctft.init.CtftTiers;
+import com.chyzman.ctft.Items.CtftTiers;
 
 public class HoeInit {
     public static final DeferredRegister<Item> HOES = DeferredRegister.create(ForgeRegistries.ITEMS, Ctft.modid);

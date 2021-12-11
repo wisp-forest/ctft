@@ -1,10 +1,10 @@
 package com.chyzman.ctft.client;
 
+import com.chyzman.ctft.Items.ClockInit;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.FishingRodItem;
 import com.chyzman.ctft.classes.ClockPredicate;
 import com.chyzman.ctft.classes.CompassPredicate;
-import com.chyzman.ctft.init.*;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
@@ -186,7 +186,6 @@ public class CtftClockClient implements ClientModInitializer {
         FabricModelPredicateProviderRegistry.register(ClockInit.CHAINMAILHELMETCLOCK, new Identifier("time"), new ClockPredicate());
         FabricModelPredicateProviderRegistry.register(ClockInit.CHAINMAILLEGGINGSCLOCK, new Identifier("time"), new ClockPredicate());
         FabricModelPredicateProviderRegistry.register(ClockInit.CHARCOALCLOCK, new Identifier("time"), new ClockPredicate());
-        FabricModelPredicateProviderRegistry.register(ClockInit.CHEESECLOCK, new Identifier("time"), new ClockPredicate());
         FabricModelPredicateProviderRegistry.register(ClockInit.CHESTCLOCK, new Identifier("time"), new ClockPredicate());
         FabricModelPredicateProviderRegistry.register(ClockInit.CHESTMINECARTCLOCK, new Identifier("time"), new ClockPredicate());
         FabricModelPredicateProviderRegistry.register(ClockInit.CHICKENSPAWNEGGCLOCK, new Identifier("time"), new ClockPredicate());
@@ -631,6 +630,7 @@ public class CtftClockClient implements ClientModInitializer {
         FabricModelPredicateProviderRegistry.register(ClockInit.MELONCLOCK, new Identifier("time"), new ClockPredicate());
         FabricModelPredicateProviderRegistry.register(ClockInit.MELONSEEDSCLOCK, new Identifier("time"), new ClockPredicate());
         FabricModelPredicateProviderRegistry.register(ClockInit.MELONSLICECLOCK, new Identifier("time"), new ClockPredicate());
+        FabricModelPredicateProviderRegistry.register(ClockInit.MILKCLOCK, new Identifier("time"), new ClockPredicate());
         FabricModelPredicateProviderRegistry.register(ClockInit.MINECARTCLOCK, new Identifier("time"), new ClockPredicate());
         FabricModelPredicateProviderRegistry.register(ClockInit.MOJANGBANNERPATTERNCLOCK, new Identifier("time"), new ClockPredicate());
         FabricModelPredicateProviderRegistry.register(ClockInit.MOOSHROOMSPAWNEGGCLOCK, new Identifier("time"), new ClockPredicate());

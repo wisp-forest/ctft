@@ -20,13 +20,20 @@ public class CustomBowItem extends BowItem implements Vanishable {
     public static final int RANGE = 15;
     public final float UseDurationMultiplier;
     public final float VelocityMultiplier;
+    public final float AccuracyMultiplier;
+    public boolean isfoil;
 
-    public CustomBowItem(float UseDuration, float Velocity, Item.Settings settings) {
+    public CustomBowItem(float UseDuration, float Velocity, float accuracyMultiplier, boolean isFoil, Item.Settings settings) {
         super(settings);
         this.UseDurationMultiplier = UseDuration;
         this.VelocityMultiplier = Velocity;
+        this.AccuracyMultiplier = accuracyMultiplier;
+        isfoil = isFoil;
     }
-
+    @Override
+    public boolean hasGlint(ItemStack stack) {
+        return isfoil || super.hasGlint(stack);
+    }
     @Override
     public void onStoppedUsing(ItemStack stack, World world, LivingEntity user, int remainingUseTicks) {
         boolean bl2;
@@ -52,7 +59,7 @@ public class CustomBowItem extends BowItem implements Vanishable {
             int j;
             ArrowItem arrowItem = (ArrowItem)(itemStack.getItem() instanceof ArrowItem ? itemStack.getItem() : Items.ARROW);
             PersistentProjectileEntity persistentProjectileEntity = arrowItem.createArrow(world, itemStack, playerEntity);
-            persistentProjectileEntity.setVelocity(playerEntity, playerEntity.getPitch(), playerEntity.getYaw(), 0.0f, f * 3.0f * VelocityMultiplier, 1.0f);
+            persistentProjectileEntity.setVelocity(playerEntity, playerEntity.getPitch(), playerEntity.getYaw(), 0.0f, f * 3.0f * VelocityMultiplier, AccuracyMultiplier);
             if (f == 1.0f) {
                 persistentProjectileEntity.setCritical(true);
             }

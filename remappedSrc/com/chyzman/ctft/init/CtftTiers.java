@@ -1,9 +1,8 @@
-package com.chyzman.ctft.init;
+package com.chyzman.ctft.Items;
     
 import net.minecraft.item.ToolMaterials;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.util.LazyLoadedValue;
-import net.minecraft.item.ToolMaterials;
 import net.minecraft.world.item.Items;
 import net.minecraft.item.;
 import net.minecraft.world.item.crafting.Ingredient;

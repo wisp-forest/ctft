@@ -1,10 +1,6 @@
 package com.chyzman.ctft.client;
 
-import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.item.FishingRodItem;
-import com.chyzman.ctft.classes.ClockPredicate;
-import com.chyzman.ctft.classes.CompassPredicate;
-import com.chyzman.ctft.init.*;
+import com.chyzman.ctft.Items.ShieldInit;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
@@ -186,7 +182,6 @@ public class CtftShieldClient implements ClientModInitializer {
         FabricModelPredicateProviderRegistry.register(ShieldInit.CHAINMAILHELMETSHIELD, new Identifier("blocking"), (stack, world, entity, seed) -> entity != null && entity.isUsingItem() && entity.getActiveItem() == stack ? 1.0f : 0.0f);
         FabricModelPredicateProviderRegistry.register(ShieldInit.CHAINMAILLEGGINGSSHIELD, new Identifier("blocking"), (stack, world, entity, seed) -> entity != null && entity.isUsingItem() && entity.getActiveItem() == stack ? 1.0f : 0.0f);
         FabricModelPredicateProviderRegistry.register(ShieldInit.CHARCOALSHIELD, new Identifier("blocking"), (stack, world, entity, seed) -> entity != null && entity.isUsingItem() && entity.getActiveItem() == stack ? 1.0f : 0.0f);
-        FabricModelPredicateProviderRegistry.register(ShieldInit.CHEESESHIELD, new Identifier("blocking"), (stack, world, entity, seed) -> entity != null && entity.isUsingItem() && entity.getActiveItem() == stack ? 1.0f : 0.0f);
         FabricModelPredicateProviderRegistry.register(ShieldInit.CHESTSHIELD, new Identifier("blocking"), (stack, world, entity, seed) -> entity != null && entity.isUsingItem() && entity.getActiveItem() == stack ? 1.0f : 0.0f);
         FabricModelPredicateProviderRegistry.register(ShieldInit.CHESTMINECARTSHIELD, new Identifier("blocking"), (stack, world, entity, seed) -> entity != null && entity.isUsingItem() && entity.getActiveItem() == stack ? 1.0f : 0.0f);
         FabricModelPredicateProviderRegistry.register(ShieldInit.CHICKENSPAWNEGGSHIELD, new Identifier("blocking"), (stack, world, entity, seed) -> entity != null && entity.isUsingItem() && entity.getActiveItem() == stack ? 1.0f : 0.0f);
@@ -631,6 +626,7 @@ public class CtftShieldClient implements ClientModInitializer {
         FabricModelPredicateProviderRegistry.register(ShieldInit.MELONSHIELD, new Identifier("blocking"), (stack, world, entity, seed) -> entity != null && entity.isUsingItem() && entity.getActiveItem() == stack ? 1.0f : 0.0f);
         FabricModelPredicateProviderRegistry.register(ShieldInit.MELONSEEDSSHIELD, new Identifier("blocking"), (stack, world, entity, seed) -> entity != null && entity.isUsingItem() && entity.getActiveItem() == stack ? 1.0f : 0.0f);
         FabricModelPredicateProviderRegistry.register(ShieldInit.MELONSLICESHIELD, new Identifier("blocking"), (stack, world, entity, seed) -> entity != null && entity.isUsingItem() && entity.getActiveItem() == stack ? 1.0f : 0.0f);
+        FabricModelPredicateProviderRegistry.register(ShieldInit.MILKSHIELD, new Identifier("blocking"), (stack, world, entity, seed) -> entity != null && entity.isUsingItem() && entity.getActiveItem() == stack ? 1.0f : 0.0f);
         FabricModelPredicateProviderRegistry.register(ShieldInit.MINECARTSHIELD, new Identifier("blocking"), (stack, world, entity, seed) -> entity != null && entity.isUsingItem() && entity.getActiveItem() == stack ? 1.0f : 0.0f);
         FabricModelPredicateProviderRegistry.register(ShieldInit.MOJANGBANNERPATTERNSHIELD, new Identifier("blocking"), (stack, world, entity, seed) -> entity != null && entity.isUsingItem() && entity.getActiveItem() == stack ? 1.0f : 0.0f);
         FabricModelPredicateProviderRegistry.register(ShieldInit.MOOSHROOMSPAWNEGGSHIELD, new Identifier("blocking"), (stack, world, entity, seed) -> entity != null && entity.isUsingItem() && entity.getActiveItem() == stack ? 1.0f : 0.0f);

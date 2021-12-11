@@ -1,12 +1,12 @@
 package com.chyzman.ctft.client;
 
-import net.minecraft.entity.player.PlayerEntity;
+import com.chyzman.ctft.Items.CrossbowInit;
 import com.chyzman.ctft.classes.CustomCrossbowItem;
-import com.chyzman.ctft.init.*;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.fabricmc.fabric.api.object.builder.v1.client.model.FabricModelPredicateProviderRegistry;
+import net.minecraft.item.Items;
 import net.minecraft.util.Identifier;
 
 @Environment(EnvType.CLIENT)
@@ -184,7 +184,6 @@ public class CtftCrossbowClient implements ClientModInitializer {
         FabricModelPredicateProviderRegistry.register(CrossbowInit.CHAINMAILHELMETCROSSBOW, new Identifier("pull"), (stack, world, entity, seed) -> { if (entity == null) { return 0.0f; } if (CustomCrossbowItem.isCharged(stack)) { return 0.0f; } return (float)(stack.getMaxUseTime() - entity.getItemUseTimeLeft()) / (float) CustomCrossbowItem.getPullTime(stack);});
         FabricModelPredicateProviderRegistry.register(CrossbowInit.CHAINMAILLEGGINGSCROSSBOW, new Identifier("pull"), (stack, world, entity, seed) -> { if (entity == null) { return 0.0f; } if (CustomCrossbowItem.isCharged(stack)) { return 0.0f; } return (float)(stack.getMaxUseTime() - entity.getItemUseTimeLeft()) / (float) CustomCrossbowItem.getPullTime(stack);});
         FabricModelPredicateProviderRegistry.register(CrossbowInit.CHARCOALCROSSBOW, new Identifier("pull"), (stack, world, entity, seed) -> { if (entity == null) { return 0.0f; } if (CustomCrossbowItem.isCharged(stack)) { return 0.0f; } return (float)(stack.getMaxUseTime() - entity.getItemUseTimeLeft()) / (float) CustomCrossbowItem.getPullTime(stack);});
-        FabricModelPredicateProviderRegistry.register(CrossbowInit.CHEESECROSSBOW, new Identifier("pull"), (stack, world, entity, seed) -> { if (entity == null) { return 0.0f; } if (CustomCrossbowItem.isCharged(stack)) { return 0.0f; } return (float)(stack.getMaxUseTime() - entity.getItemUseTimeLeft()) / (float) CustomCrossbowItem.getPullTime(stack);});
         FabricModelPredicateProviderRegistry.register(CrossbowInit.CHESTCROSSBOW, new Identifier("pull"), (stack, world, entity, seed) -> { if (entity == null) { return 0.0f; } if (CustomCrossbowItem.isCharged(stack)) { return 0.0f; } return (float)(stack.getMaxUseTime() - entity.getItemUseTimeLeft()) / (float) CustomCrossbowItem.getPullTime(stack);});
         FabricModelPredicateProviderRegistry.register(CrossbowInit.CHESTMINECARTCROSSBOW, new Identifier("pull"), (stack, world, entity, seed) -> { if (entity == null) { return 0.0f; } if (CustomCrossbowItem.isCharged(stack)) { return 0.0f; } return (float)(stack.getMaxUseTime() - entity.getItemUseTimeLeft()) / (float) CustomCrossbowItem.getPullTime(stack);});
         FabricModelPredicateProviderRegistry.register(CrossbowInit.CHICKENSPAWNEGGCROSSBOW, new Identifier("pull"), (stack, world, entity, seed) -> { if (entity == null) { return 0.0f; } if (CustomCrossbowItem.isCharged(stack)) { return 0.0f; } return (float)(stack.getMaxUseTime() - entity.getItemUseTimeLeft()) / (float) CustomCrossbowItem.getPullTime(stack);});
@@ -629,6 +628,7 @@ public class CtftCrossbowClient implements ClientModInitializer {
         FabricModelPredicateProviderRegistry.register(CrossbowInit.MELONCROSSBOW, new Identifier("pull"), (stack, world, entity, seed) -> { if (entity == null) { return 0.0f; } if (CustomCrossbowItem.isCharged(stack)) { return 0.0f; } return (float)(stack.getMaxUseTime() - entity.getItemUseTimeLeft()) / (float) CustomCrossbowItem.getPullTime(stack);});
         FabricModelPredicateProviderRegistry.register(CrossbowInit.MELONSEEDSCROSSBOW, new Identifier("pull"), (stack, world, entity, seed) -> { if (entity == null) { return 0.0f; } if (CustomCrossbowItem.isCharged(stack)) { return 0.0f; } return (float)(stack.getMaxUseTime() - entity.getItemUseTimeLeft()) / (float) CustomCrossbowItem.getPullTime(stack);});
         FabricModelPredicateProviderRegistry.register(CrossbowInit.MELONSLICECROSSBOW, new Identifier("pull"), (stack, world, entity, seed) -> { if (entity == null) { return 0.0f; } if (CustomCrossbowItem.isCharged(stack)) { return 0.0f; } return (float)(stack.getMaxUseTime() - entity.getItemUseTimeLeft()) / (float) CustomCrossbowItem.getPullTime(stack);});
+        FabricModelPredicateProviderRegistry.register(CrossbowInit.MILKCROSSBOW, new Identifier("pull"), (stack, world, entity, seed) -> { if (entity == null) { return 0.0f; } if (CustomCrossbowItem.isCharged(stack)) { return 0.0f; } return (float)(stack.getMaxUseTime() - entity.getItemUseTimeLeft()) / (float) CustomCrossbowItem.getPullTime(stack);});
         FabricModelPredicateProviderRegistry.register(CrossbowInit.MINECARTCROSSBOW, new Identifier("pull"), (stack, world, entity, seed) -> { if (entity == null) { return 0.0f; } if (CustomCrossbowItem.isCharged(stack)) { return 0.0f; } return (float)(stack.getMaxUseTime() - entity.getItemUseTimeLeft()) / (float) CustomCrossbowItem.getPullTime(stack);});
         FabricModelPredicateProviderRegistry.register(CrossbowInit.MOJANGBANNERPATTERNCROSSBOW, new Identifier("pull"), (stack, world, entity, seed) -> { if (entity == null) { return 0.0f; } if (CustomCrossbowItem.isCharged(stack)) { return 0.0f; } return (float)(stack.getMaxUseTime() - entity.getItemUseTimeLeft()) / (float) CustomCrossbowItem.getPullTime(stack);});
         FabricModelPredicateProviderRegistry.register(CrossbowInit.MOOSHROOMSPAWNEGGCROSSBOW, new Identifier("pull"), (stack, world, entity, seed) -> { if (entity == null) { return 0.0f; } if (CustomCrossbowItem.isCharged(stack)) { return 0.0f; } return (float)(stack.getMaxUseTime() - entity.getItemUseTimeLeft()) / (float) CustomCrossbowItem.getPullTime(stack);});

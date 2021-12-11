@@ -1,12 +1,12 @@
 package com.chyzman.ctft.client;
 
-import net.minecraft.entity.player.PlayerEntity;
+import com.chyzman.ctft.Items.CrossbowInit;
 import com.chyzman.ctft.classes.CustomCrossbowItem;
-import com.chyzman.ctft.init.*;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.fabricmc.fabric.api.object.builder.v1.client.model.FabricModelPredicateProviderRegistry;
+import net.minecraft.item.Items;
 import net.minecraft.util.Identifier;
 
 @Environment(EnvType.CLIENT)
@@ -184,7 +184,6 @@ public class CtftCrossbowPullingClient implements ClientModInitializer {
         FabricModelPredicateProviderRegistry.register(CrossbowInit.CHAINMAILHELMETCROSSBOW, new Identifier("pulling"), (stack, world, entity, seed) -> entity != null && entity.isUsingItem() && entity.getActiveItem() == stack && !CustomCrossbowItem.isCharged(stack) ? 1.0f: 0.0f);
         FabricModelPredicateProviderRegistry.register(CrossbowInit.CHAINMAILLEGGINGSCROSSBOW, new Identifier("pulling"), (stack, world, entity, seed) -> entity != null && entity.isUsingItem() && entity.getActiveItem() == stack && !CustomCrossbowItem.isCharged(stack) ? 1.0f: 0.0f);
         FabricModelPredicateProviderRegistry.register(CrossbowInit.CHARCOALCROSSBOW, new Identifier("pulling"), (stack, world, entity, seed) -> entity != null && entity.isUsingItem() && entity.getActiveItem() == stack && !CustomCrossbowItem.isCharged(stack) ? 1.0f: 0.0f);
-        FabricModelPredicateProviderRegistry.register(CrossbowInit.CHEESECROSSBOW, new Identifier("pulling"), (stack, world, entity, seed) -> entity != null && entity.isUsingItem() && entity.getActiveItem() == stack && !CustomCrossbowItem.isCharged(stack) ? 1.0f: 0.0f);
         FabricModelPredicateProviderRegistry.register(CrossbowInit.CHESTCROSSBOW, new Identifier("pulling"), (stack, world, entity, seed) -> entity != null && entity.isUsingItem() && entity.getActiveItem() == stack && !CustomCrossbowItem.isCharged(stack) ? 1.0f: 0.0f);
         FabricModelPredicateProviderRegistry.register(CrossbowInit.CHESTMINECARTCROSSBOW, new Identifier("pulling"), (stack, world, entity, seed) -> entity != null && entity.isUsingItem() && entity.getActiveItem() == stack && !CustomCrossbowItem.isCharged(stack) ? 1.0f: 0.0f);
         FabricModelPredicateProviderRegistry.register(CrossbowInit.CHICKENSPAWNEGGCROSSBOW, new Identifier("pulling"), (stack, world, entity, seed) -> entity != null && entity.isUsingItem() && entity.getActiveItem() == stack && !CustomCrossbowItem.isCharged(stack) ? 1.0f: 0.0f);
@@ -629,6 +628,7 @@ public class CtftCrossbowPullingClient implements ClientModInitializer {
         FabricModelPredicateProviderRegistry.register(CrossbowInit.MELONCROSSBOW, new Identifier("pulling"), (stack, world, entity, seed) -> entity != null && entity.isUsingItem() && entity.getActiveItem() == stack && !CustomCrossbowItem.isCharged(stack) ? 1.0f: 0.0f);
         FabricModelPredicateProviderRegistry.register(CrossbowInit.MELONSEEDSCROSSBOW, new Identifier("pulling"), (stack, world, entity, seed) -> entity != null && entity.isUsingItem() && entity.getActiveItem() == stack && !CustomCrossbowItem.isCharged(stack) ? 1.0f: 0.0f);
         FabricModelPredicateProviderRegistry.register(CrossbowInit.MELONSLICECROSSBOW, new Identifier("pulling"), (stack, world, entity, seed) -> entity != null && entity.isUsingItem() && entity.getActiveItem() == stack && !CustomCrossbowItem.isCharged(stack) ? 1.0f: 0.0f);
+        FabricModelPredicateProviderRegistry.register(CrossbowInit.MILKCROSSBOW, new Identifier("pulling"), (stack, world, entity, seed) -> entity != null && entity.isUsingItem() && entity.getActiveItem() == stack && !CustomCrossbowItem.isCharged(stack) ? 1.0f: 0.0f);
         FabricModelPredicateProviderRegistry.register(CrossbowInit.MINECARTCROSSBOW, new Identifier("pulling"), (stack, world, entity, seed) -> entity != null && entity.isUsingItem() && entity.getActiveItem() == stack && !CustomCrossbowItem.isCharged(stack) ? 1.0f: 0.0f);
         FabricModelPredicateProviderRegistry.register(CrossbowInit.MOJANGBANNERPATTERNCROSSBOW, new Identifier("pulling"), (stack, world, entity, seed) -> entity != null && entity.isUsingItem() && entity.getActiveItem() == stack && !CustomCrossbowItem.isCharged(stack) ? 1.0f: 0.0f);
         FabricModelPredicateProviderRegistry.register(CrossbowInit.MOOSHROOMSPAWNEGGCROSSBOW, new Identifier("pulling"), (stack, world, entity, seed) -> entity != null && entity.isUsingItem() && entity.getActiveItem() == stack && !CustomCrossbowItem.isCharged(stack) ? 1.0f: 0.0f);

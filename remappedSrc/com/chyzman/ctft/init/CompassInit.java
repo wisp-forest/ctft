@@ -1,4 +1,4 @@
-package com.chyzman.ctft.init;
+package com.chyzman.ctft.Items;
 
 import com.chyzman.ctft.Ctft;
 import com.chyzman.ctft.classes.CustomCompassItem;

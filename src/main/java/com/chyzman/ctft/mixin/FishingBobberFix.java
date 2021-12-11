@@ -1,5 +1,6 @@
 package com.chyzman.ctft.mixin;
 
+import com.chyzman.ctft.classes.CustomFishingRodItem;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.projectile.FishingBobberEntity;
 import net.minecraft.item.FishingRodItem;

@@ -15,6 +15,10 @@
     "ctft:soul_torch_compass",
     "ctft:soul_torch_shears",
     "ctft:soul_torch_fishing_rod",
+    "ctft:soul_torch_crossbow",
+    "ctft:soul_torch_block",
+    "ctft:soul_torch_stairs",
+    "ctft:soul_torch_slab",
     "ctft:soul_lantern_sword",
     "ctft:soul_lantern_pickaxe",
     "ctft:soul_lantern_axe",
@@ -29,6 +33,10 @@
     "ctft:soul_lantern_compass",
     "ctft:soul_lantern_shears",
     "ctft:soul_lantern_fishing_rod",
+    "ctft:soul_lantern_crossbow",
+    "ctft:soul_lantern_block",
+    "ctft:soul_lantern_stairs",
+    "ctft:soul_lantern_slab",
     "ctft:soul_campfire_sword",
     "ctft:soul_campfire_pickaxe",
     "ctft:soul_campfire_axe",
@@ -42,6 +50,10 @@
     "ctft:soul_campfire_clock",
     "ctft:soul_campfire_compass",
     "ctft:soul_campfire_shears",
-    "ctft:soul_campfire_fishing_rod" 
+    "ctft:soul_campfire_fishing_rod",
+    "ctft:soul_campfire_crossbow",
+    "ctft:soul_campfire_block",
+    "ctft:soul_campfire_stairs",
+    "ctft:soul_campfire_slab" 
   ]
 }

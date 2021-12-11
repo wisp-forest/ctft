@@ -31,8 +31,9 @@ public class FishingBobberEntityRendererMixin {
             at = @At(value = "INVOKE", target = "Lnet/minecraft/util/math/MathHelper;sin(F)F", ordinal = 0),
             ordinal = 1)
     private int modifySide(int side) {
-        if (!ctft$player.getMainHandStack().isOf(Items.FISHING_ROD) && !(ctft$player.getMainHandStack().getItem() instanceof FishingRodItem)) return side;
-        return -side;
+        if (ctft$player.getMainHandStack().isOf(Items.FISHING_ROD)) return side;
+        if (ctft$player.getMainHandStack().getItem() instanceof FishingRodItem) return -side;
+        return side;
     }
 
     @Inject(method = "render(Lnet/minecraft/entity/projectile/FishingBobberEntity;FFLnet/minecraft/client/util/math/MatrixStack;Lnet/minecraft/client/render/VertexConsumerProvider;I)V",

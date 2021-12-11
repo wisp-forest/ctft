@@ -1,4 +1,4 @@
-package com.chyzman.ctft.init;
+package com.chyzman.ctft.Items;
 
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;

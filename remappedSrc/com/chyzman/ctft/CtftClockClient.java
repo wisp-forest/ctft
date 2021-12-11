@@ -1,7 +1,7 @@
 package com.chyzman.ctft;
 
 import com.chyzman.ctft.classes.ClockRender;
-import com.chyzman.ctft.init.ClockInit;
+import com.chyzman.ctft.Items.ClockInit;
 import net.minecraft.client.renderer.item.ItemProperties;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.api.distmarker.Dist;

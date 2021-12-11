@@ -1,10 +1,7 @@
 package com.chyzman.ctft.client;
 
-import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.item.FishingRodItem;
-import com.chyzman.ctft.classes.ClockPredicate;
+import com.chyzman.ctft.Items.CompassInit;
 import com.chyzman.ctft.classes.CompassPredicate;
-import com.chyzman.ctft.init.*;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
@@ -186,7 +183,6 @@ public class CtftCompassClient implements ClientModInitializer {
         FabricModelPredicateProviderRegistry.register(CompassInit.CHAINMAILHELMETCOMPASS, new Identifier("angle"), new CompassPredicate());
         FabricModelPredicateProviderRegistry.register(CompassInit.CHAINMAILLEGGINGSCOMPASS, new Identifier("angle"), new CompassPredicate());
         FabricModelPredicateProviderRegistry.register(CompassInit.CHARCOALCOMPASS, new Identifier("angle"), new CompassPredicate());
-        FabricModelPredicateProviderRegistry.register(CompassInit.CHEESECOMPASS, new Identifier("angle"), new CompassPredicate());
         FabricModelPredicateProviderRegistry.register(CompassInit.CHESTCOMPASS, new Identifier("angle"), new CompassPredicate());
         FabricModelPredicateProviderRegistry.register(CompassInit.CHESTMINECARTCOMPASS, new Identifier("angle"), new CompassPredicate());
         FabricModelPredicateProviderRegistry.register(CompassInit.CHICKENSPAWNEGGCOMPASS, new Identifier("angle"), new CompassPredicate());
@@ -631,6 +627,7 @@ public class CtftCompassClient implements ClientModInitializer {
         FabricModelPredicateProviderRegistry.register(CompassInit.MELONCOMPASS, new Identifier("angle"), new CompassPredicate());
         FabricModelPredicateProviderRegistry.register(CompassInit.MELONSEEDSCOMPASS, new Identifier("angle"), new CompassPredicate());
         FabricModelPredicateProviderRegistry.register(CompassInit.MELONSLICECOMPASS, new Identifier("angle"), new CompassPredicate());
+        FabricModelPredicateProviderRegistry.register(CompassInit.MILKCOMPASS, new Identifier("angle"), new CompassPredicate());
         FabricModelPredicateProviderRegistry.register(CompassInit.MINECARTCOMPASS, new Identifier("angle"), new CompassPredicate());
         FabricModelPredicateProviderRegistry.register(CompassInit.MOJANGBANNERPATTERNCOMPASS, new Identifier("angle"), new CompassPredicate());
         FabricModelPredicateProviderRegistry.register(CompassInit.MOOSHROOMSPAWNEGGCOMPASS, new Identifier("angle"), new CompassPredicate());
