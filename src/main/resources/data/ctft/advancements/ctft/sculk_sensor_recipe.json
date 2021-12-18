@@ -44,7 +44,14 @@
 			"ctft:sculk_sensor_slab_from_crafting",
 			"ctft:sculk_sensor_glass_pane_from_crafting",
 			"ctft:sculk_sensor_pane_from_crafting",
-			"ctft:sculk_sensor_glass_from_smelting"
+			"ctft:sculk_sensor_glass_from_smelting",
+			"ctft:sculk_sensor_stairs_from_stonecutter",
+			"ctft:sculk_sensor_slab_from_stonecutter",
+			"ctft:sculk_sensor_wall_from_stonecutter",
+			"ctft:sculk_sensor_lever_from_crafting",
+			"ctft:sculk_sensor_button_from_crafting",
+			"ctft:sculk_sensor_pressure_plate_from_crafting",
+			"ctft:sculk_sensor_fence_gate_from_crafting"
 		]
 	}
 }

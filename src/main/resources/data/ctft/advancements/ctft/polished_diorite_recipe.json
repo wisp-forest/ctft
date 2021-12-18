@@ -44,7 +44,14 @@
 			"ctft:polished_diorite_slab_from_crafting",
 			"ctft:polished_diorite_glass_pane_from_crafting",
 			"ctft:polished_diorite_pane_from_crafting",
-			"ctft:polished_diorite_glass_from_smelting"
+			"ctft:polished_diorite_glass_from_smelting",
+			"ctft:polished_diorite_stairs_from_stonecutter",
+			"ctft:polished_diorite_slab_from_stonecutter",
+			"ctft:polished_diorite_wall_from_stonecutter",
+			"ctft:polished_diorite_lever_from_crafting",
+			"ctft:polished_diorite_button_from_crafting",
+			"ctft:polished_diorite_pressure_plate_from_crafting",
+			"ctft:polished_diorite_fence_gate_from_crafting"
 		]
 	}
 }

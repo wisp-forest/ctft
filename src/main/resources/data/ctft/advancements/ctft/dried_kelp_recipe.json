@@ -44,7 +44,14 @@
 			"ctft:dried_kelp_slab_from_crafting",
 			"ctft:dried_kelp_glass_pane_from_crafting",
 			"ctft:dried_kelp_pane_from_crafting",
-			"ctft:dried_kelp_glass_from_smelting"
+			"ctft:dried_kelp_glass_from_smelting",
+			"ctft:dried_kelp_stairs_from_stonecutter",
+			"ctft:dried_kelp_slab_from_stonecutter",
+			"ctft:dried_kelp_wall_from_stonecutter",
+			"ctft:dried_kelp_lever_from_crafting",
+			"ctft:dried_kelp_button_from_crafting",
+			"ctft:dried_kelp_pressure_plate_from_crafting",
+			"ctft:dried_kelp_fence_gate_from_crafting"
 		]
 	}
 }

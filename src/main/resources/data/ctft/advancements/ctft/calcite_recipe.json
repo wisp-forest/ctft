@@ -44,7 +44,14 @@
 			"ctft:calcite_slab_from_crafting",
 			"ctft:calcite_glass_pane_from_crafting",
 			"ctft:calcite_pane_from_crafting",
-			"ctft:calcite_glass_from_smelting"
+			"ctft:calcite_glass_from_smelting",
+			"ctft:calcite_stairs_from_stonecutter",
+			"ctft:calcite_slab_from_stonecutter",
+			"ctft:calcite_wall_from_stonecutter",
+			"ctft:calcite_lever_from_crafting",
+			"ctft:calcite_button_from_crafting",
+			"ctft:calcite_pressure_plate_from_crafting",
+			"ctft:calcite_fence_gate_from_crafting"
 		]
 	}
 }

@@ -44,7 +44,14 @@
 			"ctft:milk_bucket_slab_from_crafting",
 			"ctft:milk_bucket_glass_pane_from_crafting",
 			"ctft:milk_bucket_pane_from_crafting",
-			"ctft:milk_bucket_glass_from_smelting"
+			"ctft:milk_bucket_glass_from_smelting",
+			"ctft:milk_bucket_stairs_from_stonecutter",
+			"ctft:milk_bucket_slab_from_stonecutter",
+			"ctft:milk_bucket_wall_from_stonecutter",
+			"ctft:milk_bucket_lever_from_crafting",
+			"ctft:milk_bucket_button_from_crafting",
+			"ctft:milk_bucket_pressure_plate_from_crafting",
+			"ctft:milk_bucket_fence_gate_from_crafting"
 		]
 	}
 }

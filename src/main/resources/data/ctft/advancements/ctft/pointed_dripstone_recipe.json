@@ -44,7 +44,14 @@
 			"ctft:pointed_dripstone_slab_from_crafting",
 			"ctft:pointed_dripstone_glass_pane_from_crafting",
 			"ctft:pointed_dripstone_pane_from_crafting",
-			"ctft:pointed_dripstone_glass_from_smelting"
+			"ctft:pointed_dripstone_glass_from_smelting",
+			"ctft:pointed_dripstone_stairs_from_stonecutter",
+			"ctft:pointed_dripstone_slab_from_stonecutter",
+			"ctft:pointed_dripstone_wall_from_stonecutter",
+			"ctft:pointed_dripstone_lever_from_crafting",
+			"ctft:pointed_dripstone_button_from_crafting",
+			"ctft:pointed_dripstone_pressure_plate_from_crafting",
+			"ctft:pointed_dripstone_fence_gate_from_crafting"
 		]
 	}
 }

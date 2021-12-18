@@ -44,7 +44,14 @@
 			"ctft:brain_coral_slab_from_crafting",
 			"ctft:brain_coral_glass_pane_from_crafting",
 			"ctft:brain_coral_pane_from_crafting",
-			"ctft:brain_coral_glass_from_smelting"
+			"ctft:brain_coral_glass_from_smelting",
+			"ctft:brain_coral_stairs_from_stonecutter",
+			"ctft:brain_coral_slab_from_stonecutter",
+			"ctft:brain_coral_wall_from_stonecutter",
+			"ctft:brain_coral_lever_from_crafting",
+			"ctft:brain_coral_button_from_crafting",
+			"ctft:brain_coral_pressure_plate_from_crafting",
+			"ctft:brain_coral_fence_gate_from_crafting"
 		]
 	}
 }

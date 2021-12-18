@@ -44,7 +44,14 @@
 			"ctft:gold_ingot_slab_from_crafting",
 			"ctft:gold_ingot_glass_pane_from_crafting",
 			"ctft:gold_ingot_pane_from_crafting",
-			"ctft:gold_ingot_glass_from_smelting"
+			"ctft:gold_ingot_glass_from_smelting",
+			"ctft:gold_ingot_stairs_from_stonecutter",
+			"ctft:gold_ingot_slab_from_stonecutter",
+			"ctft:gold_ingot_wall_from_stonecutter",
+			"ctft:gold_ingot_lever_from_crafting",
+			"ctft:gold_ingot_button_from_crafting",
+			"ctft:gold_ingot_pressure_plate_from_crafting",
+			"ctft:gold_ingot_fence_gate_from_crafting"
 		]
 	}
 }

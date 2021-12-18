@@ -44,7 +44,14 @@
 			"ctft:fire_charge_slab_from_crafting",
 			"ctft:fire_charge_glass_pane_from_crafting",
 			"ctft:fire_charge_pane_from_crafting",
-			"ctft:fire_charge_glass_from_smelting"
+			"ctft:fire_charge_glass_from_smelting",
+			"ctft:fire_charge_stairs_from_stonecutter",
+			"ctft:fire_charge_slab_from_stonecutter",
+			"ctft:fire_charge_wall_from_stonecutter",
+			"ctft:fire_charge_lever_from_crafting",
+			"ctft:fire_charge_button_from_crafting",
+			"ctft:fire_charge_pressure_plate_from_crafting",
+			"ctft:fire_charge_fence_gate_from_crafting"
 		]
 	}
 }

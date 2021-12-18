@@ -44,7 +44,14 @@
 			"ctft:heart_of_the_sea_slab_from_crafting",
 			"ctft:heart_of_the_sea_glass_pane_from_crafting",
 			"ctft:heart_of_the_sea_pane_from_crafting",
-			"ctft:heart_of_the_sea_glass_from_smelting"
+			"ctft:heart_of_the_sea_glass_from_smelting",
+			"ctft:heart_of_the_sea_stairs_from_stonecutter",
+			"ctft:heart_of_the_sea_slab_from_stonecutter",
+			"ctft:heart_of_the_sea_wall_from_stonecutter",
+			"ctft:heart_of_the_sea_lever_from_crafting",
+			"ctft:heart_of_the_sea_button_from_crafting",
+			"ctft:heart_of_the_sea_pressure_plate_from_crafting",
+			"ctft:heart_of_the_sea_fence_gate_from_crafting"
 		]
 	}
 }

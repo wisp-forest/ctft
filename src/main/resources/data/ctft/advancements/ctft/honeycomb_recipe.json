@@ -44,7 +44,14 @@
 			"ctft:honeycomb_slab_from_crafting",
 			"ctft:honeycomb_glass_pane_from_crafting",
 			"ctft:honeycomb_pane_from_crafting",
-			"ctft:honeycomb_glass_from_smelting"
+			"ctft:honeycomb_glass_from_smelting",
+			"ctft:honeycomb_stairs_from_stonecutter",
+			"ctft:honeycomb_slab_from_stonecutter",
+			"ctft:honeycomb_wall_from_stonecutter",
+			"ctft:honeycomb_lever_from_crafting",
+			"ctft:honeycomb_button_from_crafting",
+			"ctft:honeycomb_pressure_plate_from_crafting",
+			"ctft:honeycomb_fence_gate_from_crafting"
 		]
 	}
 }

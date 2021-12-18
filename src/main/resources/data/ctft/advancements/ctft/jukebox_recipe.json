@@ -44,7 +44,14 @@
 			"ctft:jukebox_slab_from_crafting",
 			"ctft:jukebox_glass_pane_from_crafting",
 			"ctft:jukebox_pane_from_crafting",
-			"ctft:jukebox_glass_from_smelting"
+			"ctft:jukebox_glass_from_smelting",
+			"ctft:jukebox_stairs_from_stonecutter",
+			"ctft:jukebox_slab_from_stonecutter",
+			"ctft:jukebox_wall_from_stonecutter",
+			"ctft:jukebox_lever_from_crafting",
+			"ctft:jukebox_button_from_crafting",
+			"ctft:jukebox_pressure_plate_from_crafting",
+			"ctft:jukebox_fence_gate_from_crafting"
 		]
 	}
 }

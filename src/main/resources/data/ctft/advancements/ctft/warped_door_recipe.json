@@ -44,7 +44,14 @@
 			"ctft:warped_door_slab_from_crafting",
 			"ctft:warped_door_glass_pane_from_crafting",
 			"ctft:warped_door_pane_from_crafting",
-			"ctft:warped_door_glass_from_smelting"
+			"ctft:warped_door_glass_from_smelting",
+			"ctft:warped_door_stairs_from_stonecutter",
+			"ctft:warped_door_slab_from_stonecutter",
+			"ctft:warped_door_wall_from_stonecutter",
+			"ctft:warped_door_lever_from_crafting",
+			"ctft:warped_door_button_from_crafting",
+			"ctft:warped_door_pressure_plate_from_crafting",
+			"ctft:warped_door_fence_gate_from_crafting"
 		]
 	}
 }

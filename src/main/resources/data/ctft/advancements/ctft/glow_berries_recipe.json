@@ -44,7 +44,14 @@
 			"ctft:glow_berries_slab_from_crafting",
 			"ctft:glow_berries_glass_pane_from_crafting",
 			"ctft:glow_berries_pane_from_crafting",
-			"ctft:glow_berries_glass_from_smelting"
+			"ctft:glow_berries_glass_from_smelting",
+			"ctft:glow_berries_stairs_from_stonecutter",
+			"ctft:glow_berries_slab_from_stonecutter",
+			"ctft:glow_berries_wall_from_stonecutter",
+			"ctft:glow_berries_lever_from_crafting",
+			"ctft:glow_berries_button_from_crafting",
+			"ctft:glow_berries_pressure_plate_from_crafting",
+			"ctft:glow_berries_fence_gate_from_crafting"
 		]
 	}
 }

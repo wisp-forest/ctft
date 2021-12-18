@@ -44,7 +44,14 @@
 			"ctft:red_stained_glass_slab_from_crafting",
 			"ctft:red_stained_glass_glass_pane_from_crafting",
 			"ctft:red_stained_glass_pane_from_crafting",
-			"ctft:red_stained_glass_glass_from_smelting"
+			"ctft:red_stained_glass_glass_from_smelting",
+			"ctft:red_stained_glass_stairs_from_stonecutter",
+			"ctft:red_stained_glass_slab_from_stonecutter",
+			"ctft:red_stained_glass_wall_from_stonecutter",
+			"ctft:red_stained_glass_lever_from_crafting",
+			"ctft:red_stained_glass_button_from_crafting",
+			"ctft:red_stained_glass_pressure_plate_from_crafting",
+			"ctft:red_stained_glass_fence_gate_from_crafting"
 		]
 	}
 }

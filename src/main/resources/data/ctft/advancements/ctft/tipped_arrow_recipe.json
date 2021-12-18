@@ -44,7 +44,14 @@
 			"ctft:tipped_arrow_slab_from_crafting",
 			"ctft:tipped_arrow_glass_pane_from_crafting",
 			"ctft:tipped_arrow_pane_from_crafting",
-			"ctft:tipped_arrow_glass_from_smelting"
+			"ctft:tipped_arrow_glass_from_smelting",
+			"ctft:tipped_arrow_stairs_from_stonecutter",
+			"ctft:tipped_arrow_slab_from_stonecutter",
+			"ctft:tipped_arrow_wall_from_stonecutter",
+			"ctft:tipped_arrow_lever_from_crafting",
+			"ctft:tipped_arrow_button_from_crafting",
+			"ctft:tipped_arrow_pressure_plate_from_crafting",
+			"ctft:tipped_arrow_fence_gate_from_crafting"
 		]
 	}
 }

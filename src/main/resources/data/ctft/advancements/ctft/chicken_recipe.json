@@ -44,7 +44,14 @@
 			"ctft:chicken_slab_from_crafting",
 			"ctft:chicken_glass_pane_from_crafting",
 			"ctft:chicken_pane_from_crafting",
-			"ctft:chicken_glass_from_smelting"
+			"ctft:chicken_glass_from_smelting",
+			"ctft:chicken_stairs_from_stonecutter",
+			"ctft:chicken_slab_from_stonecutter",
+			"ctft:chicken_wall_from_stonecutter",
+			"ctft:chicken_lever_from_crafting",
+			"ctft:chicken_button_from_crafting",
+			"ctft:chicken_pressure_plate_from_crafting",
+			"ctft:chicken_fence_gate_from_crafting"
 		]
 	}
 }

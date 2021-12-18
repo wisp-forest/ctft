@@ -44,7 +44,14 @@
 			"ctft:stripped_birch_log_slab_from_crafting",
 			"ctft:stripped_birch_log_glass_pane_from_crafting",
 			"ctft:stripped_birch_log_pane_from_crafting",
-			"ctft:stripped_birch_log_glass_from_smelting"
+			"ctft:stripped_birch_log_glass_from_smelting",
+			"ctft:stripped_birch_log_stairs_from_stonecutter",
+			"ctft:stripped_birch_log_slab_from_stonecutter",
+			"ctft:stripped_birch_log_wall_from_stonecutter",
+			"ctft:stripped_birch_log_lever_from_crafting",
+			"ctft:stripped_birch_log_button_from_crafting",
+			"ctft:stripped_birch_log_pressure_plate_from_crafting",
+			"ctft:stripped_birch_log_fence_gate_from_crafting"
 		]
 	}
 }

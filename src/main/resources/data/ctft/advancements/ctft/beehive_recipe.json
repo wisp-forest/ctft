@@ -44,7 +44,14 @@
 			"ctft:beehive_slab_from_crafting",
 			"ctft:beehive_glass_pane_from_crafting",
 			"ctft:beehive_pane_from_crafting",
-			"ctft:beehive_glass_from_smelting"
+			"ctft:beehive_glass_from_smelting",
+			"ctft:beehive_stairs_from_stonecutter",
+			"ctft:beehive_slab_from_stonecutter",
+			"ctft:beehive_wall_from_stonecutter",
+			"ctft:beehive_lever_from_crafting",
+			"ctft:beehive_button_from_crafting",
+			"ctft:beehive_pressure_plate_from_crafting",
+			"ctft:beehive_fence_gate_from_crafting"
 		]
 	}
 }

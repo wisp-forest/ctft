@@ -44,7 +44,14 @@
 			"ctft:stick_slab_from_crafting",
 			"ctft:stick_glass_pane_from_crafting",
 			"ctft:stick_pane_from_crafting",
-			"ctft:stick_glass_from_smelting"
+			"ctft:stick_glass_from_smelting",
+			"ctft:stick_stairs_from_stonecutter",
+			"ctft:stick_slab_from_stonecutter",
+			"ctft:stick_wall_from_stonecutter",
+			"ctft:stick_lever_from_crafting",
+			"ctft:stick_button_from_crafting",
+			"ctft:stick_pressure_plate_from_crafting",
+			"ctft:stick_fence_gate_from_crafting"
 		]
 	}
 }

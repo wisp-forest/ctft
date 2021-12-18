@@ -44,7 +44,14 @@
 			"ctft:quartz_pillar_slab_from_crafting",
 			"ctft:quartz_pillar_glass_pane_from_crafting",
 			"ctft:quartz_pillar_pane_from_crafting",
-			"ctft:quartz_pillar_glass_from_smelting"
+			"ctft:quartz_pillar_glass_from_smelting",
+			"ctft:quartz_pillar_stairs_from_stonecutter",
+			"ctft:quartz_pillar_slab_from_stonecutter",
+			"ctft:quartz_pillar_wall_from_stonecutter",
+			"ctft:quartz_pillar_lever_from_crafting",
+			"ctft:quartz_pillar_button_from_crafting",
+			"ctft:quartz_pillar_pressure_plate_from_crafting",
+			"ctft:quartz_pillar_fence_gate_from_crafting"
 		]
 	}
 }

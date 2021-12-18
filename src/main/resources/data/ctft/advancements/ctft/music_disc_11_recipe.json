@@ -44,7 +44,14 @@
 			"ctft:music_disc_11_slab_from_crafting",
 			"ctft:music_disc_11_glass_pane_from_crafting",
 			"ctft:music_disc_11_pane_from_crafting",
-			"ctft:music_disc_11_glass_from_smelting"
+			"ctft:music_disc_11_glass_from_smelting",
+			"ctft:music_disc_11_stairs_from_stonecutter",
+			"ctft:music_disc_11_slab_from_stonecutter",
+			"ctft:music_disc_11_wall_from_stonecutter",
+			"ctft:music_disc_11_lever_from_crafting",
+			"ctft:music_disc_11_button_from_crafting",
+			"ctft:music_disc_11_pressure_plate_from_crafting",
+			"ctft:music_disc_11_fence_gate_from_crafting"
 		]
 	}
 }

@@ -44,7 +44,14 @@
 			"ctft:tropical_fish_slab_from_crafting",
 			"ctft:tropical_fish_glass_pane_from_crafting",
 			"ctft:tropical_fish_pane_from_crafting",
-			"ctft:tropical_fish_glass_from_smelting"
+			"ctft:tropical_fish_glass_from_smelting",
+			"ctft:tropical_fish_stairs_from_stonecutter",
+			"ctft:tropical_fish_slab_from_stonecutter",
+			"ctft:tropical_fish_wall_from_stonecutter",
+			"ctft:tropical_fish_lever_from_crafting",
+			"ctft:tropical_fish_button_from_crafting",
+			"ctft:tropical_fish_pressure_plate_from_crafting",
+			"ctft:tropical_fish_fence_gate_from_crafting"
 		]
 	}
 }

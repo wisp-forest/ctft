@@ -44,7 +44,14 @@
 			"ctft:small_amethyst_bud_slab_from_crafting",
 			"ctft:small_amethyst_bud_glass_pane_from_crafting",
 			"ctft:small_amethyst_bud_pane_from_crafting",
-			"ctft:small_amethyst_bud_glass_from_smelting"
+			"ctft:small_amethyst_bud_glass_from_smelting",
+			"ctft:small_amethyst_bud_stairs_from_stonecutter",
+			"ctft:small_amethyst_bud_slab_from_stonecutter",
+			"ctft:small_amethyst_bud_wall_from_stonecutter",
+			"ctft:small_amethyst_bud_lever_from_crafting",
+			"ctft:small_amethyst_bud_button_from_crafting",
+			"ctft:small_amethyst_bud_pressure_plate_from_crafting",
+			"ctft:small_amethyst_bud_fence_gate_from_crafting"
 		]
 	}
 }

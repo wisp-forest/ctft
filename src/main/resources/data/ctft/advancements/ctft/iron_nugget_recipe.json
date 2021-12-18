@@ -44,7 +44,14 @@
 			"ctft:iron_nugget_slab_from_crafting",
 			"ctft:iron_nugget_glass_pane_from_crafting",
 			"ctft:iron_nugget_pane_from_crafting",
-			"ctft:iron_nugget_glass_from_smelting"
+			"ctft:iron_nugget_glass_from_smelting",
+			"ctft:iron_nugget_stairs_from_stonecutter",
+			"ctft:iron_nugget_slab_from_stonecutter",
+			"ctft:iron_nugget_wall_from_stonecutter",
+			"ctft:iron_nugget_lever_from_crafting",
+			"ctft:iron_nugget_button_from_crafting",
+			"ctft:iron_nugget_pressure_plate_from_crafting",
+			"ctft:iron_nugget_fence_gate_from_crafting"
 		]
 	}
 }

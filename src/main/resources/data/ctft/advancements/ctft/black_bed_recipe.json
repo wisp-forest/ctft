@@ -44,7 +44,14 @@
 			"ctft:black_bed_slab_from_crafting",
 			"ctft:black_bed_glass_pane_from_crafting",
 			"ctft:black_bed_pane_from_crafting",
-			"ctft:black_bed_glass_from_smelting"
+			"ctft:black_bed_glass_from_smelting",
+			"ctft:black_bed_stairs_from_stonecutter",
+			"ctft:black_bed_slab_from_stonecutter",
+			"ctft:black_bed_wall_from_stonecutter",
+			"ctft:black_bed_lever_from_crafting",
+			"ctft:black_bed_button_from_crafting",
+			"ctft:black_bed_pressure_plate_from_crafting",
+			"ctft:black_bed_fence_gate_from_crafting"
 		]
 	}
 }

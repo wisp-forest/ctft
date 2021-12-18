@@ -44,7 +44,14 @@
 			"ctft:tall_grass_slab_from_crafting",
 			"ctft:tall_grass_glass_pane_from_crafting",
 			"ctft:tall_grass_pane_from_crafting",
-			"ctft:tall_grass_glass_from_smelting"
+			"ctft:tall_grass_glass_from_smelting",
+			"ctft:tall_grass_stairs_from_stonecutter",
+			"ctft:tall_grass_slab_from_stonecutter",
+			"ctft:tall_grass_wall_from_stonecutter",
+			"ctft:tall_grass_lever_from_crafting",
+			"ctft:tall_grass_button_from_crafting",
+			"ctft:tall_grass_pressure_plate_from_crafting",
+			"ctft:tall_grass_fence_gate_from_crafting"
 		]
 	}
 }

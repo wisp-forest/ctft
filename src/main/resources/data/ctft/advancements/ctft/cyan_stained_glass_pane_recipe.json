@@ -44,7 +44,14 @@
 			"ctft:cyan_stained_glass_pane_slab_from_crafting",
 			"ctft:cyan_stained_glass_pane_glass_pane_from_crafting",
 			"ctft:cyan_stained_glass_pane_pane_from_crafting",
-			"ctft:cyan_stained_glass_pane_glass_from_smelting"
+			"ctft:cyan_stained_glass_pane_glass_from_smelting",
+			"ctft:cyan_stained_glass_pane_stairs_from_stonecutter",
+			"ctft:cyan_stained_glass_pane_slab_from_stonecutter",
+			"ctft:cyan_stained_glass_pane_wall_from_stonecutter",
+			"ctft:cyan_stained_glass_pane_lever_from_crafting",
+			"ctft:cyan_stained_glass_pane_button_from_crafting",
+			"ctft:cyan_stained_glass_pane_pressure_plate_from_crafting",
+			"ctft:cyan_stained_glass_pane_fence_gate_from_crafting"
 		]
 	}
 }

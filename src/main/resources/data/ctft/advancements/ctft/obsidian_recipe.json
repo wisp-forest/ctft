@@ -44,7 +44,14 @@
 			"ctft:obsidian_slab_from_crafting",
 			"ctft:obsidian_glass_pane_from_crafting",
 			"ctft:obsidian_pane_from_crafting",
-			"ctft:obsidian_glass_from_smelting"
+			"ctft:obsidian_glass_from_smelting",
+			"ctft:obsidian_stairs_from_stonecutter",
+			"ctft:obsidian_slab_from_stonecutter",
+			"ctft:obsidian_wall_from_stonecutter",
+			"ctft:obsidian_lever_from_crafting",
+			"ctft:obsidian_button_from_crafting",
+			"ctft:obsidian_pressure_plate_from_crafting",
+			"ctft:obsidian_fence_gate_from_crafting"
 		]
 	}
 }

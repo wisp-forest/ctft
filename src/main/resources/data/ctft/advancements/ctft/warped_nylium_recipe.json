@@ -44,7 +44,14 @@
 			"ctft:warped_nylium_slab_from_crafting",
 			"ctft:warped_nylium_glass_pane_from_crafting",
 			"ctft:warped_nylium_pane_from_crafting",
-			"ctft:warped_nylium_glass_from_smelting"
+			"ctft:warped_nylium_glass_from_smelting",
+			"ctft:warped_nylium_stairs_from_stonecutter",
+			"ctft:warped_nylium_slab_from_stonecutter",
+			"ctft:warped_nylium_wall_from_stonecutter",
+			"ctft:warped_nylium_lever_from_crafting",
+			"ctft:warped_nylium_button_from_crafting",
+			"ctft:warped_nylium_pressure_plate_from_crafting",
+			"ctft:warped_nylium_fence_gate_from_crafting"
 		]
 	}
 }

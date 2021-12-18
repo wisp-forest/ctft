@@ -44,7 +44,14 @@
 			"ctft:redstone_torch_slab_from_crafting",
 			"ctft:redstone_torch_glass_pane_from_crafting",
 			"ctft:redstone_torch_pane_from_crafting",
-			"ctft:redstone_torch_glass_from_smelting"
+			"ctft:redstone_torch_glass_from_smelting",
+			"ctft:redstone_torch_stairs_from_stonecutter",
+			"ctft:redstone_torch_slab_from_stonecutter",
+			"ctft:redstone_torch_wall_from_stonecutter",
+			"ctft:redstone_torch_lever_from_crafting",
+			"ctft:redstone_torch_button_from_crafting",
+			"ctft:redstone_torch_pressure_plate_from_crafting",
+			"ctft:redstone_torch_fence_gate_from_crafting"
 		]
 	}
 }

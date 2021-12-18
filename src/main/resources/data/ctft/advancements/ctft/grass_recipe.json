@@ -44,7 +44,14 @@
 			"ctft:grass_slab_from_crafting",
 			"ctft:grass_glass_pane_from_crafting",
 			"ctft:grass_pane_from_crafting",
-			"ctft:grass_glass_from_smelting"
+			"ctft:grass_glass_from_smelting",
+			"ctft:grass_stairs_from_stonecutter",
+			"ctft:grass_slab_from_stonecutter",
+			"ctft:grass_wall_from_stonecutter",
+			"ctft:grass_lever_from_crafting",
+			"ctft:grass_button_from_crafting",
+			"ctft:grass_pressure_plate_from_crafting",
+			"ctft:grass_fence_gate_from_crafting"
 		]
 	}
 }

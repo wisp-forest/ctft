@@ -44,7 +44,14 @@
 			"ctft:dead_bush_slab_from_crafting",
 			"ctft:dead_bush_glass_pane_from_crafting",
 			"ctft:dead_bush_pane_from_crafting",
-			"ctft:dead_bush_glass_from_smelting"
+			"ctft:dead_bush_glass_from_smelting",
+			"ctft:dead_bush_stairs_from_stonecutter",
+			"ctft:dead_bush_slab_from_stonecutter",
+			"ctft:dead_bush_wall_from_stonecutter",
+			"ctft:dead_bush_lever_from_crafting",
+			"ctft:dead_bush_button_from_crafting",
+			"ctft:dead_bush_pressure_plate_from_crafting",
+			"ctft:dead_bush_fence_gate_from_crafting"
 		]
 	}
 }

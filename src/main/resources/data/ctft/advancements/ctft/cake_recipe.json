@@ -44,7 +44,14 @@
 			"ctft:cake_slab_from_crafting",
 			"ctft:cake_glass_pane_from_crafting",
 			"ctft:cake_pane_from_crafting",
-			"ctft:cake_glass_from_smelting"
+			"ctft:cake_glass_from_smelting",
+			"ctft:cake_stairs_from_stonecutter",
+			"ctft:cake_slab_from_stonecutter",
+			"ctft:cake_wall_from_stonecutter",
+			"ctft:cake_lever_from_crafting",
+			"ctft:cake_button_from_crafting",
+			"ctft:cake_pressure_plate_from_crafting",
+			"ctft:cake_fence_gate_from_crafting"
 		]
 	}
 }

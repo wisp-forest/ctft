@@ -44,7 +44,14 @@
 			"ctft:honey_bottle_slab_from_crafting",
 			"ctft:honey_bottle_glass_pane_from_crafting",
 			"ctft:honey_bottle_pane_from_crafting",
-			"ctft:honey_bottle_glass_from_smelting"
+			"ctft:honey_bottle_glass_from_smelting",
+			"ctft:honey_bottle_stairs_from_stonecutter",
+			"ctft:honey_bottle_slab_from_stonecutter",
+			"ctft:honey_bottle_wall_from_stonecutter",
+			"ctft:honey_bottle_lever_from_crafting",
+			"ctft:honey_bottle_button_from_crafting",
+			"ctft:honey_bottle_pressure_plate_from_crafting",
+			"ctft:honey_bottle_fence_gate_from_crafting"
 		]
 	}
 }

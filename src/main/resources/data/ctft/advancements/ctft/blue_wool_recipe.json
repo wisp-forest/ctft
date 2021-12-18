@@ -44,7 +44,14 @@
 			"ctft:blue_wool_slab_from_crafting",
 			"ctft:blue_wool_glass_pane_from_crafting",
 			"ctft:blue_wool_pane_from_crafting",
-			"ctft:blue_wool_glass_from_smelting"
+			"ctft:blue_wool_glass_from_smelting",
+			"ctft:blue_wool_stairs_from_stonecutter",
+			"ctft:blue_wool_slab_from_stonecutter",
+			"ctft:blue_wool_wall_from_stonecutter",
+			"ctft:blue_wool_lever_from_crafting",
+			"ctft:blue_wool_button_from_crafting",
+			"ctft:blue_wool_pressure_plate_from_crafting",
+			"ctft:blue_wool_fence_gate_from_crafting"
 		]
 	}
 }

@@ -44,7 +44,14 @@
 			"ctft:lilac_slab_from_crafting",
 			"ctft:lilac_glass_pane_from_crafting",
 			"ctft:lilac_pane_from_crafting",
-			"ctft:lilac_glass_from_smelting"
+			"ctft:lilac_glass_from_smelting",
+			"ctft:lilac_stairs_from_stonecutter",
+			"ctft:lilac_slab_from_stonecutter",
+			"ctft:lilac_wall_from_stonecutter",
+			"ctft:lilac_lever_from_crafting",
+			"ctft:lilac_button_from_crafting",
+			"ctft:lilac_pressure_plate_from_crafting",
+			"ctft:lilac_fence_gate_from_crafting"
 		]
 	}
 }

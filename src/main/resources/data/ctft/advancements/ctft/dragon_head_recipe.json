@@ -44,7 +44,14 @@
 			"ctft:dragon_head_slab_from_crafting",
 			"ctft:dragon_head_glass_pane_from_crafting",
 			"ctft:dragon_head_pane_from_crafting",
-			"ctft:dragon_head_glass_from_smelting"
+			"ctft:dragon_head_glass_from_smelting",
+			"ctft:dragon_head_stairs_from_stonecutter",
+			"ctft:dragon_head_slab_from_stonecutter",
+			"ctft:dragon_head_wall_from_stonecutter",
+			"ctft:dragon_head_lever_from_crafting",
+			"ctft:dragon_head_button_from_crafting",
+			"ctft:dragon_head_pressure_plate_from_crafting",
+			"ctft:dragon_head_fence_gate_from_crafting"
 		]
 	}
 }

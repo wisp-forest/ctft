@@ -44,7 +44,14 @@
 			"ctft:conduit_slab_from_crafting",
 			"ctft:conduit_glass_pane_from_crafting",
 			"ctft:conduit_pane_from_crafting",
-			"ctft:conduit_glass_from_smelting"
+			"ctft:conduit_glass_from_smelting",
+			"ctft:conduit_stairs_from_stonecutter",
+			"ctft:conduit_slab_from_stonecutter",
+			"ctft:conduit_wall_from_stonecutter",
+			"ctft:conduit_lever_from_crafting",
+			"ctft:conduit_button_from_crafting",
+			"ctft:conduit_pressure_plate_from_crafting",
+			"ctft:conduit_fence_gate_from_crafting"
 		]
 	}
 }

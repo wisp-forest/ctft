@@ -44,7 +44,14 @@
 			"ctft:nether_wart_slab_from_crafting",
 			"ctft:nether_wart_glass_pane_from_crafting",
 			"ctft:nether_wart_pane_from_crafting",
-			"ctft:nether_wart_glass_from_smelting"
+			"ctft:nether_wart_glass_from_smelting",
+			"ctft:nether_wart_stairs_from_stonecutter",
+			"ctft:nether_wart_slab_from_stonecutter",
+			"ctft:nether_wart_wall_from_stonecutter",
+			"ctft:nether_wart_lever_from_crafting",
+			"ctft:nether_wart_button_from_crafting",
+			"ctft:nether_wart_pressure_plate_from_crafting",
+			"ctft:nether_wart_fence_gate_from_crafting"
 		]
 	}
 }

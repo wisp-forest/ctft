@@ -44,7 +44,14 @@
 			"ctft:packed_ice_slab_from_crafting",
 			"ctft:packed_ice_glass_pane_from_crafting",
 			"ctft:packed_ice_pane_from_crafting",
-			"ctft:packed_ice_glass_from_smelting"
+			"ctft:packed_ice_glass_from_smelting",
+			"ctft:packed_ice_stairs_from_stonecutter",
+			"ctft:packed_ice_slab_from_stonecutter",
+			"ctft:packed_ice_wall_from_stonecutter",
+			"ctft:packed_ice_lever_from_crafting",
+			"ctft:packed_ice_button_from_crafting",
+			"ctft:packed_ice_pressure_plate_from_crafting",
+			"ctft:packed_ice_fence_gate_from_crafting"
 		]
 	}
 }

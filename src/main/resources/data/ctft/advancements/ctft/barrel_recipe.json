@@ -44,7 +44,14 @@
 			"ctft:barrel_slab_from_crafting",
 			"ctft:barrel_glass_pane_from_crafting",
 			"ctft:barrel_pane_from_crafting",
-			"ctft:barrel_glass_from_smelting"
+			"ctft:barrel_glass_from_smelting",
+			"ctft:barrel_stairs_from_stonecutter",
+			"ctft:barrel_slab_from_stonecutter",
+			"ctft:barrel_wall_from_stonecutter",
+			"ctft:barrel_lever_from_crafting",
+			"ctft:barrel_button_from_crafting",
+			"ctft:barrel_pressure_plate_from_crafting",
+			"ctft:barrel_fence_gate_from_crafting"
 		]
 	}
 }

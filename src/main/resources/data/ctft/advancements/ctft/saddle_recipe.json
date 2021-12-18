@@ -44,7 +44,14 @@
 			"ctft:saddle_slab_from_crafting",
 			"ctft:saddle_glass_pane_from_crafting",
 			"ctft:saddle_pane_from_crafting",
-			"ctft:saddle_glass_from_smelting"
+			"ctft:saddle_glass_from_smelting",
+			"ctft:saddle_stairs_from_stonecutter",
+			"ctft:saddle_slab_from_stonecutter",
+			"ctft:saddle_wall_from_stonecutter",
+			"ctft:saddle_lever_from_crafting",
+			"ctft:saddle_button_from_crafting",
+			"ctft:saddle_pressure_plate_from_crafting",
+			"ctft:saddle_fence_gate_from_crafting"
 		]
 	}
 }

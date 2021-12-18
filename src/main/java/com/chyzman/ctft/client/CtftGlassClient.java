@@ -1,6 +1,6 @@
 package com.chyzman.ctft.client;
-
-import com.chyzman.ctft.Blocks.GlassInit;
+    
+import com.chyzman.ctft.Blocks.*;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;

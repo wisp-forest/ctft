@@ -44,7 +44,14 @@
 			"ctft:raw_gold_slab_from_crafting",
 			"ctft:raw_gold_glass_pane_from_crafting",
 			"ctft:raw_gold_pane_from_crafting",
-			"ctft:raw_gold_glass_from_smelting"
+			"ctft:raw_gold_glass_from_smelting",
+			"ctft:raw_gold_stairs_from_stonecutter",
+			"ctft:raw_gold_slab_from_stonecutter",
+			"ctft:raw_gold_wall_from_stonecutter",
+			"ctft:raw_gold_lever_from_crafting",
+			"ctft:raw_gold_button_from_crafting",
+			"ctft:raw_gold_pressure_plate_from_crafting",
+			"ctft:raw_gold_fence_gate_from_crafting"
 		]
 	}
 }

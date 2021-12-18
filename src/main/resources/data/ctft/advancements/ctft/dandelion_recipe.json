@@ -44,7 +44,14 @@
 			"ctft:dandelion_slab_from_crafting",
 			"ctft:dandelion_glass_pane_from_crafting",
 			"ctft:dandelion_pane_from_crafting",
-			"ctft:dandelion_glass_from_smelting"
+			"ctft:dandelion_glass_from_smelting",
+			"ctft:dandelion_stairs_from_stonecutter",
+			"ctft:dandelion_slab_from_stonecutter",
+			"ctft:dandelion_wall_from_stonecutter",
+			"ctft:dandelion_lever_from_crafting",
+			"ctft:dandelion_button_from_crafting",
+			"ctft:dandelion_pressure_plate_from_crafting",
+			"ctft:dandelion_fence_gate_from_crafting"
 		]
 	}
 }

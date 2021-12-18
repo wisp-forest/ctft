@@ -44,7 +44,14 @@
 			"ctft:comparator_slab_from_crafting",
 			"ctft:comparator_glass_pane_from_crafting",
 			"ctft:comparator_pane_from_crafting",
-			"ctft:comparator_glass_from_smelting"
+			"ctft:comparator_glass_from_smelting",
+			"ctft:comparator_stairs_from_stonecutter",
+			"ctft:comparator_slab_from_stonecutter",
+			"ctft:comparator_wall_from_stonecutter",
+			"ctft:comparator_lever_from_crafting",
+			"ctft:comparator_button_from_crafting",
+			"ctft:comparator_pressure_plate_from_crafting",
+			"ctft:comparator_fence_gate_from_crafting"
 		]
 	}
 }

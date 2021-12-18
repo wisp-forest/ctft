@@ -44,7 +44,14 @@
 			"ctft:painting_slab_from_crafting",
 			"ctft:painting_glass_pane_from_crafting",
 			"ctft:painting_pane_from_crafting",
-			"ctft:painting_glass_from_smelting"
+			"ctft:painting_glass_from_smelting",
+			"ctft:painting_stairs_from_stonecutter",
+			"ctft:painting_slab_from_stonecutter",
+			"ctft:painting_wall_from_stonecutter",
+			"ctft:painting_lever_from_crafting",
+			"ctft:painting_button_from_crafting",
+			"ctft:painting_pressure_plate_from_crafting",
+			"ctft:painting_fence_gate_from_crafting"
 		]
 	}
 }

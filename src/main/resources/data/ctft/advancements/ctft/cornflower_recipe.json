@@ -44,7 +44,14 @@
 			"ctft:cornflower_slab_from_crafting",
 			"ctft:cornflower_glass_pane_from_crafting",
 			"ctft:cornflower_pane_from_crafting",
-			"ctft:cornflower_glass_from_smelting"
+			"ctft:cornflower_glass_from_smelting",
+			"ctft:cornflower_stairs_from_stonecutter",
+			"ctft:cornflower_slab_from_stonecutter",
+			"ctft:cornflower_wall_from_stonecutter",
+			"ctft:cornflower_lever_from_crafting",
+			"ctft:cornflower_button_from_crafting",
+			"ctft:cornflower_pressure_plate_from_crafting",
+			"ctft:cornflower_fence_gate_from_crafting"
 		]
 	}
 }

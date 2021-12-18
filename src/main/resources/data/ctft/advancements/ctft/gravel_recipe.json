@@ -44,7 +44,14 @@
 			"ctft:gravel_slab_from_crafting",
 			"ctft:gravel_glass_pane_from_crafting",
 			"ctft:gravel_pane_from_crafting",
-			"ctft:gravel_glass_from_smelting"
+			"ctft:gravel_glass_from_smelting",
+			"ctft:gravel_stairs_from_stonecutter",
+			"ctft:gravel_slab_from_stonecutter",
+			"ctft:gravel_wall_from_stonecutter",
+			"ctft:gravel_lever_from_crafting",
+			"ctft:gravel_button_from_crafting",
+			"ctft:gravel_pressure_plate_from_crafting",
+			"ctft:gravel_fence_gate_from_crafting"
 		]
 	}
 }

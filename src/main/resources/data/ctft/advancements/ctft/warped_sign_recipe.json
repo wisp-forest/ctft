@@ -44,7 +44,14 @@
 			"ctft:warped_sign_slab_from_crafting",
 			"ctft:warped_sign_glass_pane_from_crafting",
 			"ctft:warped_sign_pane_from_crafting",
-			"ctft:warped_sign_glass_from_smelting"
+			"ctft:warped_sign_glass_from_smelting",
+			"ctft:warped_sign_stairs_from_stonecutter",
+			"ctft:warped_sign_slab_from_stonecutter",
+			"ctft:warped_sign_wall_from_stonecutter",
+			"ctft:warped_sign_lever_from_crafting",
+			"ctft:warped_sign_button_from_crafting",
+			"ctft:warped_sign_pressure_plate_from_crafting",
+			"ctft:warped_sign_fence_gate_from_crafting"
 		]
 	}
 }

@@ -44,7 +44,14 @@
 			"ctft:cauldron_slab_from_crafting",
 			"ctft:cauldron_glass_pane_from_crafting",
 			"ctft:cauldron_pane_from_crafting",
-			"ctft:cauldron_glass_from_smelting"
+			"ctft:cauldron_glass_from_smelting",
+			"ctft:cauldron_stairs_from_stonecutter",
+			"ctft:cauldron_slab_from_stonecutter",
+			"ctft:cauldron_wall_from_stonecutter",
+			"ctft:cauldron_lever_from_crafting",
+			"ctft:cauldron_button_from_crafting",
+			"ctft:cauldron_pressure_plate_from_crafting",
+			"ctft:cauldron_fence_gate_from_crafting"
 		]
 	}
 }

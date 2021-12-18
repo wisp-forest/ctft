@@ -44,7 +44,14 @@
 			"ctft:yellow_bed_slab_from_crafting",
 			"ctft:yellow_bed_glass_pane_from_crafting",
 			"ctft:yellow_bed_pane_from_crafting",
-			"ctft:yellow_bed_glass_from_smelting"
+			"ctft:yellow_bed_glass_from_smelting",
+			"ctft:yellow_bed_stairs_from_stonecutter",
+			"ctft:yellow_bed_slab_from_stonecutter",
+			"ctft:yellow_bed_wall_from_stonecutter",
+			"ctft:yellow_bed_lever_from_crafting",
+			"ctft:yellow_bed_button_from_crafting",
+			"ctft:yellow_bed_pressure_plate_from_crafting",
+			"ctft:yellow_bed_fence_gate_from_crafting"
 		]
 	}
 }

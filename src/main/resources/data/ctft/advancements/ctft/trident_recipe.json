@@ -44,7 +44,14 @@
 			"ctft:trident_slab_from_crafting",
 			"ctft:trident_glass_pane_from_crafting",
 			"ctft:trident_pane_from_crafting",
-			"ctft:trident_glass_from_smelting"
+			"ctft:trident_glass_from_smelting",
+			"ctft:trident_stairs_from_stonecutter",
+			"ctft:trident_slab_from_stonecutter",
+			"ctft:trident_wall_from_stonecutter",
+			"ctft:trident_lever_from_crafting",
+			"ctft:trident_button_from_crafting",
+			"ctft:trident_pressure_plate_from_crafting",
+			"ctft:trident_fence_gate_from_crafting"
 		]
 	}
 }

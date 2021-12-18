@@ -44,7 +44,14 @@
 			"ctft:observer_slab_from_crafting",
 			"ctft:observer_glass_pane_from_crafting",
 			"ctft:observer_pane_from_crafting",
-			"ctft:observer_glass_from_smelting"
+			"ctft:observer_glass_from_smelting",
+			"ctft:observer_stairs_from_stonecutter",
+			"ctft:observer_slab_from_stonecutter",
+			"ctft:observer_wall_from_stonecutter",
+			"ctft:observer_lever_from_crafting",
+			"ctft:observer_button_from_crafting",
+			"ctft:observer_pressure_plate_from_crafting",
+			"ctft:observer_fence_gate_from_crafting"
 		]
 	}
 }

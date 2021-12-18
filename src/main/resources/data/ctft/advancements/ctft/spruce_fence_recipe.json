@@ -44,7 +44,14 @@
 			"ctft:spruce_fence_slab_from_crafting",
 			"ctft:spruce_fence_glass_pane_from_crafting",
 			"ctft:spruce_fence_pane_from_crafting",
-			"ctft:spruce_fence_glass_from_smelting"
+			"ctft:spruce_fence_glass_from_smelting",
+			"ctft:spruce_fence_stairs_from_stonecutter",
+			"ctft:spruce_fence_slab_from_stonecutter",
+			"ctft:spruce_fence_wall_from_stonecutter",
+			"ctft:spruce_fence_lever_from_crafting",
+			"ctft:spruce_fence_button_from_crafting",
+			"ctft:spruce_fence_pressure_plate_from_crafting",
+			"ctft:spruce_fence_fence_gate_from_crafting"
 		]
 	}
 }

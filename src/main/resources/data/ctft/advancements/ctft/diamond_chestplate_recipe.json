@@ -44,7 +44,14 @@
 			"ctft:diamond_chestplate_slab_from_crafting",
 			"ctft:diamond_chestplate_glass_pane_from_crafting",
 			"ctft:diamond_chestplate_pane_from_crafting",
-			"ctft:diamond_chestplate_glass_from_smelting"
+			"ctft:diamond_chestplate_glass_from_smelting",
+			"ctft:diamond_chestplate_stairs_from_stonecutter",
+			"ctft:diamond_chestplate_slab_from_stonecutter",
+			"ctft:diamond_chestplate_wall_from_stonecutter",
+			"ctft:diamond_chestplate_lever_from_crafting",
+			"ctft:diamond_chestplate_button_from_crafting",
+			"ctft:diamond_chestplate_pressure_plate_from_crafting",
+			"ctft:diamond_chestplate_fence_gate_from_crafting"
 		]
 	}
 }

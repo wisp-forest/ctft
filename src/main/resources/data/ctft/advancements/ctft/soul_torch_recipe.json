@@ -44,7 +44,14 @@
 			"ctft:soul_torch_slab_from_crafting",
 			"ctft:soul_torch_glass_pane_from_crafting",
 			"ctft:soul_torch_pane_from_crafting",
-			"ctft:soul_torch_glass_from_smelting"
+			"ctft:soul_torch_glass_from_smelting",
+			"ctft:soul_torch_stairs_from_stonecutter",
+			"ctft:soul_torch_slab_from_stonecutter",
+			"ctft:soul_torch_wall_from_stonecutter",
+			"ctft:soul_torch_lever_from_crafting",
+			"ctft:soul_torch_button_from_crafting",
+			"ctft:soul_torch_pressure_plate_from_crafting",
+			"ctft:soul_torch_fence_gate_from_crafting"
 		]
 	}
 }

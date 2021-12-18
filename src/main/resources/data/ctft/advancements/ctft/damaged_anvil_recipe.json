@@ -44,7 +44,14 @@
 			"ctft:damaged_anvil_slab_from_crafting",
 			"ctft:damaged_anvil_glass_pane_from_crafting",
 			"ctft:damaged_anvil_pane_from_crafting",
-			"ctft:damaged_anvil_glass_from_smelting"
+			"ctft:damaged_anvil_glass_from_smelting",
+			"ctft:damaged_anvil_stairs_from_stonecutter",
+			"ctft:damaged_anvil_slab_from_stonecutter",
+			"ctft:damaged_anvil_wall_from_stonecutter",
+			"ctft:damaged_anvil_lever_from_crafting",
+			"ctft:damaged_anvil_button_from_crafting",
+			"ctft:damaged_anvil_pressure_plate_from_crafting",
+			"ctft:damaged_anvil_fence_gate_from_crafting"
 		]
 	}
 }

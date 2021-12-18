@@ -44,7 +44,14 @@
 			"ctft:exposed_copper_slab_from_crafting",
 			"ctft:exposed_copper_glass_pane_from_crafting",
 			"ctft:exposed_copper_pane_from_crafting",
-			"ctft:exposed_copper_glass_from_smelting"
+			"ctft:exposed_copper_glass_from_smelting",
+			"ctft:exposed_copper_stairs_from_stonecutter",
+			"ctft:exposed_copper_slab_from_stonecutter",
+			"ctft:exposed_copper_wall_from_stonecutter",
+			"ctft:exposed_copper_lever_from_crafting",
+			"ctft:exposed_copper_button_from_crafting",
+			"ctft:exposed_copper_pressure_plate_from_crafting",
+			"ctft:exposed_copper_fence_gate_from_crafting"
 		]
 	}
 }

@@ -44,7 +44,14 @@
 			"ctft:brewing_stand_slab_from_crafting",
 			"ctft:brewing_stand_glass_pane_from_crafting",
 			"ctft:brewing_stand_pane_from_crafting",
-			"ctft:brewing_stand_glass_from_smelting"
+			"ctft:brewing_stand_glass_from_smelting",
+			"ctft:brewing_stand_stairs_from_stonecutter",
+			"ctft:brewing_stand_slab_from_stonecutter",
+			"ctft:brewing_stand_wall_from_stonecutter",
+			"ctft:brewing_stand_lever_from_crafting",
+			"ctft:brewing_stand_button_from_crafting",
+			"ctft:brewing_stand_pressure_plate_from_crafting",
+			"ctft:brewing_stand_fence_gate_from_crafting"
 		]
 	}
 }

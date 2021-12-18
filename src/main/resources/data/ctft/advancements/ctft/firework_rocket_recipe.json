@@ -44,7 +44,14 @@
 			"ctft:firework_rocket_slab_from_crafting",
 			"ctft:firework_rocket_glass_pane_from_crafting",
 			"ctft:firework_rocket_pane_from_crafting",
-			"ctft:firework_rocket_glass_from_smelting"
+			"ctft:firework_rocket_glass_from_smelting",
+			"ctft:firework_rocket_stairs_from_stonecutter",
+			"ctft:firework_rocket_slab_from_stonecutter",
+			"ctft:firework_rocket_wall_from_stonecutter",
+			"ctft:firework_rocket_lever_from_crafting",
+			"ctft:firework_rocket_button_from_crafting",
+			"ctft:firework_rocket_pressure_plate_from_crafting",
+			"ctft:firework_rocket_fence_gate_from_crafting"
 		]
 	}
 }

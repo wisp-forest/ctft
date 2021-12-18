@@ -44,7 +44,14 @@
 			"ctft:rail_slab_from_crafting",
 			"ctft:rail_glass_pane_from_crafting",
 			"ctft:rail_pane_from_crafting",
-			"ctft:rail_glass_from_smelting"
+			"ctft:rail_glass_from_smelting",
+			"ctft:rail_stairs_from_stonecutter",
+			"ctft:rail_slab_from_stonecutter",
+			"ctft:rail_wall_from_stonecutter",
+			"ctft:rail_lever_from_crafting",
+			"ctft:rail_button_from_crafting",
+			"ctft:rail_pressure_plate_from_crafting",
+			"ctft:rail_fence_gate_from_crafting"
 		]
 	}
 }

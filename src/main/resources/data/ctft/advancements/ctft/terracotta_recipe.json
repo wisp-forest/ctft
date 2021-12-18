@@ -44,7 +44,14 @@
 			"ctft:terracotta_slab_from_crafting",
 			"ctft:terracotta_glass_pane_from_crafting",
 			"ctft:terracotta_pane_from_crafting",
-			"ctft:terracotta_glass_from_smelting"
+			"ctft:terracotta_glass_from_smelting",
+			"ctft:terracotta_stairs_from_stonecutter",
+			"ctft:terracotta_slab_from_stonecutter",
+			"ctft:terracotta_wall_from_stonecutter",
+			"ctft:terracotta_lever_from_crafting",
+			"ctft:terracotta_button_from_crafting",
+			"ctft:terracotta_pressure_plate_from_crafting",
+			"ctft:terracotta_fence_gate_from_crafting"
 		]
 	}
 }

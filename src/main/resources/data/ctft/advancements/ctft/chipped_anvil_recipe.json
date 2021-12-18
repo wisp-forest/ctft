@@ -44,7 +44,14 @@
 			"ctft:chipped_anvil_slab_from_crafting",
 			"ctft:chipped_anvil_glass_pane_from_crafting",
 			"ctft:chipped_anvil_pane_from_crafting",
-			"ctft:chipped_anvil_glass_from_smelting"
+			"ctft:chipped_anvil_glass_from_smelting",
+			"ctft:chipped_anvil_stairs_from_stonecutter",
+			"ctft:chipped_anvil_slab_from_stonecutter",
+			"ctft:chipped_anvil_wall_from_stonecutter",
+			"ctft:chipped_anvil_lever_from_crafting",
+			"ctft:chipped_anvil_button_from_crafting",
+			"ctft:chipped_anvil_pressure_plate_from_crafting",
+			"ctft:chipped_anvil_fence_gate_from_crafting"
 		]
 	}
 }

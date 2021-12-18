@@ -44,7 +44,14 @@
 			"ctft:glow_lichen_slab_from_crafting",
 			"ctft:glow_lichen_glass_pane_from_crafting",
 			"ctft:glow_lichen_pane_from_crafting",
-			"ctft:glow_lichen_glass_from_smelting"
+			"ctft:glow_lichen_glass_from_smelting",
+			"ctft:glow_lichen_stairs_from_stonecutter",
+			"ctft:glow_lichen_slab_from_stonecutter",
+			"ctft:glow_lichen_wall_from_stonecutter",
+			"ctft:glow_lichen_lever_from_crafting",
+			"ctft:glow_lichen_button_from_crafting",
+			"ctft:glow_lichen_pressure_plate_from_crafting",
+			"ctft:glow_lichen_fence_gate_from_crafting"
 		]
 	}
 }

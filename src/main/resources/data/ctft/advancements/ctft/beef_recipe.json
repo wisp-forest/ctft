@@ -44,7 +44,14 @@
 			"ctft:beef_slab_from_crafting",
 			"ctft:beef_glass_pane_from_crafting",
 			"ctft:beef_pane_from_crafting",
-			"ctft:beef_glass_from_smelting"
+			"ctft:beef_glass_from_smelting",
+			"ctft:beef_stairs_from_stonecutter",
+			"ctft:beef_slab_from_stonecutter",
+			"ctft:beef_wall_from_stonecutter",
+			"ctft:beef_lever_from_crafting",
+			"ctft:beef_button_from_crafting",
+			"ctft:beef_pressure_plate_from_crafting",
+			"ctft:beef_fence_gate_from_crafting"
 		]
 	}
 }

@@ -44,7 +44,14 @@
 			"ctft:rotten_flesh_slab_from_crafting",
 			"ctft:rotten_flesh_glass_pane_from_crafting",
 			"ctft:rotten_flesh_pane_from_crafting",
-			"ctft:rotten_flesh_glass_from_smelting"
+			"ctft:rotten_flesh_glass_from_smelting",
+			"ctft:rotten_flesh_stairs_from_stonecutter",
+			"ctft:rotten_flesh_slab_from_stonecutter",
+			"ctft:rotten_flesh_wall_from_stonecutter",
+			"ctft:rotten_flesh_lever_from_crafting",
+			"ctft:rotten_flesh_button_from_crafting",
+			"ctft:rotten_flesh_pressure_plate_from_crafting",
+			"ctft:rotten_flesh_fence_gate_from_crafting"
 		]
 	}
 }

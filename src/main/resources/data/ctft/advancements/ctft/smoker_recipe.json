@@ -44,7 +44,14 @@
 			"ctft:smoker_slab_from_crafting",
 			"ctft:smoker_glass_pane_from_crafting",
 			"ctft:smoker_pane_from_crafting",
-			"ctft:smoker_glass_from_smelting"
+			"ctft:smoker_glass_from_smelting",
+			"ctft:smoker_stairs_from_stonecutter",
+			"ctft:smoker_slab_from_stonecutter",
+			"ctft:smoker_wall_from_stonecutter",
+			"ctft:smoker_lever_from_crafting",
+			"ctft:smoker_button_from_crafting",
+			"ctft:smoker_pressure_plate_from_crafting",
+			"ctft:smoker_fence_gate_from_crafting"
 		]
 	}
 }

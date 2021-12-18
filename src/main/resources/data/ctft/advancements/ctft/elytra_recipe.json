@@ -44,7 +44,14 @@
 			"ctft:elytra_slab_from_crafting",
 			"ctft:elytra_glass_pane_from_crafting",
 			"ctft:elytra_pane_from_crafting",
-			"ctft:elytra_glass_from_smelting"
+			"ctft:elytra_glass_from_smelting",
+			"ctft:elytra_stairs_from_stonecutter",
+			"ctft:elytra_slab_from_stonecutter",
+			"ctft:elytra_wall_from_stonecutter",
+			"ctft:elytra_lever_from_crafting",
+			"ctft:elytra_button_from_crafting",
+			"ctft:elytra_pressure_plate_from_crafting",
+			"ctft:elytra_fence_gate_from_crafting"
 		]
 	}
 }

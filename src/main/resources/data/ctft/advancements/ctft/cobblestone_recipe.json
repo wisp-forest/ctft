@@ -44,7 +44,14 @@
 			"ctft:cobblestone_slab_from_crafting",
 			"ctft:cobblestone_glass_pane_from_crafting",
 			"ctft:cobblestone_pane_from_crafting",
-			"ctft:cobblestone_glass_from_smelting"
+			"ctft:cobblestone_glass_from_smelting",
+			"ctft:cobblestone_stairs_from_stonecutter",
+			"ctft:cobblestone_slab_from_stonecutter",
+			"ctft:cobblestone_wall_from_stonecutter",
+			"ctft:cobblestone_lever_from_crafting",
+			"ctft:cobblestone_button_from_crafting",
+			"ctft:cobblestone_pressure_plate_from_crafting",
+			"ctft:cobblestone_fence_gate_from_crafting"
 		]
 	}
 }

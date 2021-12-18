@@ -44,7 +44,14 @@
 			"ctft:structure_void_slab_from_crafting",
 			"ctft:structure_void_glass_pane_from_crafting",
 			"ctft:structure_void_pane_from_crafting",
-			"ctft:structure_void_glass_from_smelting"
+			"ctft:structure_void_glass_from_smelting",
+			"ctft:structure_void_stairs_from_stonecutter",
+			"ctft:structure_void_slab_from_stonecutter",
+			"ctft:structure_void_wall_from_stonecutter",
+			"ctft:structure_void_lever_from_crafting",
+			"ctft:structure_void_button_from_crafting",
+			"ctft:structure_void_pressure_plate_from_crafting",
+			"ctft:structure_void_fence_gate_from_crafting"
 		]
 	}
 }

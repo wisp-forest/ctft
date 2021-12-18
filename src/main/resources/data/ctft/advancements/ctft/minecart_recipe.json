@@ -44,7 +44,14 @@
 			"ctft:minecart_slab_from_crafting",
 			"ctft:minecart_glass_pane_from_crafting",
 			"ctft:minecart_pane_from_crafting",
-			"ctft:minecart_glass_from_smelting"
+			"ctft:minecart_glass_from_smelting",
+			"ctft:minecart_stairs_from_stonecutter",
+			"ctft:minecart_slab_from_stonecutter",
+			"ctft:minecart_wall_from_stonecutter",
+			"ctft:minecart_lever_from_crafting",
+			"ctft:minecart_button_from_crafting",
+			"ctft:minecart_pressure_plate_from_crafting",
+			"ctft:minecart_fence_gate_from_crafting"
 		]
 	}
 }

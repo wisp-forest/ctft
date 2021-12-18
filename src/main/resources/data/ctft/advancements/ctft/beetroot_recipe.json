@@ -44,7 +44,14 @@
 			"ctft:beetroot_slab_from_crafting",
 			"ctft:beetroot_glass_pane_from_crafting",
 			"ctft:beetroot_pane_from_crafting",
-			"ctft:beetroot_glass_from_smelting"
+			"ctft:beetroot_glass_from_smelting",
+			"ctft:beetroot_stairs_from_stonecutter",
+			"ctft:beetroot_slab_from_stonecutter",
+			"ctft:beetroot_wall_from_stonecutter",
+			"ctft:beetroot_lever_from_crafting",
+			"ctft:beetroot_button_from_crafting",
+			"ctft:beetroot_pressure_plate_from_crafting",
+			"ctft:beetroot_fence_gate_from_crafting"
 		]
 	}
 }

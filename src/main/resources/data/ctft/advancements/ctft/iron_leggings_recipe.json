@@ -44,7 +44,14 @@
 			"ctft:iron_leggings_slab_from_crafting",
 			"ctft:iron_leggings_glass_pane_from_crafting",
 			"ctft:iron_leggings_pane_from_crafting",
-			"ctft:iron_leggings_glass_from_smelting"
+			"ctft:iron_leggings_glass_from_smelting",
+			"ctft:iron_leggings_stairs_from_stonecutter",
+			"ctft:iron_leggings_slab_from_stonecutter",
+			"ctft:iron_leggings_wall_from_stonecutter",
+			"ctft:iron_leggings_lever_from_crafting",
+			"ctft:iron_leggings_button_from_crafting",
+			"ctft:iron_leggings_pressure_plate_from_crafting",
+			"ctft:iron_leggings_fence_gate_from_crafting"
 		]
 	}
 }

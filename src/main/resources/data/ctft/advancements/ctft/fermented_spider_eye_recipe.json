@@ -44,7 +44,14 @@
 			"ctft:fermented_spider_eye_slab_from_crafting",
 			"ctft:fermented_spider_eye_glass_pane_from_crafting",
 			"ctft:fermented_spider_eye_pane_from_crafting",
-			"ctft:fermented_spider_eye_glass_from_smelting"
+			"ctft:fermented_spider_eye_glass_from_smelting",
+			"ctft:fermented_spider_eye_stairs_from_stonecutter",
+			"ctft:fermented_spider_eye_slab_from_stonecutter",
+			"ctft:fermented_spider_eye_wall_from_stonecutter",
+			"ctft:fermented_spider_eye_lever_from_crafting",
+			"ctft:fermented_spider_eye_button_from_crafting",
+			"ctft:fermented_spider_eye_pressure_plate_from_crafting",
+			"ctft:fermented_spider_eye_fence_gate_from_crafting"
 		]
 	}
 }

@@ -44,7 +44,14 @@
 			"ctft:twisting_vines_slab_from_crafting",
 			"ctft:twisting_vines_glass_pane_from_crafting",
 			"ctft:twisting_vines_pane_from_crafting",
-			"ctft:twisting_vines_glass_from_smelting"
+			"ctft:twisting_vines_glass_from_smelting",
+			"ctft:twisting_vines_stairs_from_stonecutter",
+			"ctft:twisting_vines_slab_from_stonecutter",
+			"ctft:twisting_vines_wall_from_stonecutter",
+			"ctft:twisting_vines_lever_from_crafting",
+			"ctft:twisting_vines_button_from_crafting",
+			"ctft:twisting_vines_pressure_plate_from_crafting",
+			"ctft:twisting_vines_fence_gate_from_crafting"
 		]
 	}
 }

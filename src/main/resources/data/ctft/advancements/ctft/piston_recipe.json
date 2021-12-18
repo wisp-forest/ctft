@@ -44,7 +44,14 @@
 			"ctft:piston_slab_from_crafting",
 			"ctft:piston_glass_pane_from_crafting",
 			"ctft:piston_pane_from_crafting",
-			"ctft:piston_glass_from_smelting"
+			"ctft:piston_glass_from_smelting",
+			"ctft:piston_stairs_from_stonecutter",
+			"ctft:piston_slab_from_stonecutter",
+			"ctft:piston_wall_from_stonecutter",
+			"ctft:piston_lever_from_crafting",
+			"ctft:piston_button_from_crafting",
+			"ctft:piston_pressure_plate_from_crafting",
+			"ctft:piston_fence_gate_from_crafting"
 		]
 	}
 }

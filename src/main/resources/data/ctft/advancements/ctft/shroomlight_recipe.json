@@ -44,7 +44,14 @@
 			"ctft:shroomlight_slab_from_crafting",
 			"ctft:shroomlight_glass_pane_from_crafting",
 			"ctft:shroomlight_pane_from_crafting",
-			"ctft:shroomlight_glass_from_smelting"
+			"ctft:shroomlight_glass_from_smelting",
+			"ctft:shroomlight_stairs_from_stonecutter",
+			"ctft:shroomlight_slab_from_stonecutter",
+			"ctft:shroomlight_wall_from_stonecutter",
+			"ctft:shroomlight_lever_from_crafting",
+			"ctft:shroomlight_button_from_crafting",
+			"ctft:shroomlight_pressure_plate_from_crafting",
+			"ctft:shroomlight_fence_gate_from_crafting"
 		]
 	}
 }

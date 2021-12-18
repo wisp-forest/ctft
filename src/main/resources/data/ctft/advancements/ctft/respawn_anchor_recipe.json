@@ -44,7 +44,14 @@
 			"ctft:respawn_anchor_slab_from_crafting",
 			"ctft:respawn_anchor_glass_pane_from_crafting",
 			"ctft:respawn_anchor_pane_from_crafting",
-			"ctft:respawn_anchor_glass_from_smelting"
+			"ctft:respawn_anchor_glass_from_smelting",
+			"ctft:respawn_anchor_stairs_from_stonecutter",
+			"ctft:respawn_anchor_slab_from_stonecutter",
+			"ctft:respawn_anchor_wall_from_stonecutter",
+			"ctft:respawn_anchor_lever_from_crafting",
+			"ctft:respawn_anchor_button_from_crafting",
+			"ctft:respawn_anchor_pressure_plate_from_crafting",
+			"ctft:respawn_anchor_fence_gate_from_crafting"
 		]
 	}
 }

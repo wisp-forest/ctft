@@ -44,7 +44,14 @@
 			"ctft:crying_obsidian_slab_from_crafting",
 			"ctft:crying_obsidian_glass_pane_from_crafting",
 			"ctft:crying_obsidian_pane_from_crafting",
-			"ctft:crying_obsidian_glass_from_smelting"
+			"ctft:crying_obsidian_glass_from_smelting",
+			"ctft:crying_obsidian_stairs_from_stonecutter",
+			"ctft:crying_obsidian_slab_from_stonecutter",
+			"ctft:crying_obsidian_wall_from_stonecutter",
+			"ctft:crying_obsidian_lever_from_crafting",
+			"ctft:crying_obsidian_button_from_crafting",
+			"ctft:crying_obsidian_pressure_plate_from_crafting",
+			"ctft:crying_obsidian_fence_gate_from_crafting"
 		]
 	}
 }

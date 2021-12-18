@@ -44,7 +44,14 @@
 			"ctft:creeper_head_slab_from_crafting",
 			"ctft:creeper_head_glass_pane_from_crafting",
 			"ctft:creeper_head_pane_from_crafting",
-			"ctft:creeper_head_glass_from_smelting"
+			"ctft:creeper_head_glass_from_smelting",
+			"ctft:creeper_head_stairs_from_stonecutter",
+			"ctft:creeper_head_slab_from_stonecutter",
+			"ctft:creeper_head_wall_from_stonecutter",
+			"ctft:creeper_head_lever_from_crafting",
+			"ctft:creeper_head_button_from_crafting",
+			"ctft:creeper_head_pressure_plate_from_crafting",
+			"ctft:creeper_head_fence_gate_from_crafting"
 		]
 	}
 }

@@ -44,7 +44,14 @@
 			"ctft:dirt_path_slab_from_crafting",
 			"ctft:dirt_path_glass_pane_from_crafting",
 			"ctft:dirt_path_pane_from_crafting",
-			"ctft:dirt_path_glass_from_smelting"
+			"ctft:dirt_path_glass_from_smelting",
+			"ctft:dirt_path_stairs_from_stonecutter",
+			"ctft:dirt_path_slab_from_stonecutter",
+			"ctft:dirt_path_wall_from_stonecutter",
+			"ctft:dirt_path_lever_from_crafting",
+			"ctft:dirt_path_button_from_crafting",
+			"ctft:dirt_path_pressure_plate_from_crafting",
+			"ctft:dirt_path_fence_gate_from_crafting"
 		]
 	}
 }

@@ -44,7 +44,14 @@
 			"ctft:yellow_concrete_slab_from_crafting",
 			"ctft:yellow_concrete_glass_pane_from_crafting",
 			"ctft:yellow_concrete_pane_from_crafting",
-			"ctft:yellow_concrete_glass_from_smelting"
+			"ctft:yellow_concrete_glass_from_smelting",
+			"ctft:yellow_concrete_stairs_from_stonecutter",
+			"ctft:yellow_concrete_slab_from_stonecutter",
+			"ctft:yellow_concrete_wall_from_stonecutter",
+			"ctft:yellow_concrete_lever_from_crafting",
+			"ctft:yellow_concrete_button_from_crafting",
+			"ctft:yellow_concrete_pressure_plate_from_crafting",
+			"ctft:yellow_concrete_fence_gate_from_crafting"
 		]
 	}
 }

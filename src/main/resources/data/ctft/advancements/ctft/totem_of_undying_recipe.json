@@ -44,7 +44,14 @@
 			"ctft:totem_of_undying_slab_from_crafting",
 			"ctft:totem_of_undying_glass_pane_from_crafting",
 			"ctft:totem_of_undying_pane_from_crafting",
-			"ctft:totem_of_undying_glass_from_smelting"
+			"ctft:totem_of_undying_glass_from_smelting",
+			"ctft:totem_of_undying_stairs_from_stonecutter",
+			"ctft:totem_of_undying_slab_from_stonecutter",
+			"ctft:totem_of_undying_wall_from_stonecutter",
+			"ctft:totem_of_undying_lever_from_crafting",
+			"ctft:totem_of_undying_button_from_crafting",
+			"ctft:totem_of_undying_pressure_plate_from_crafting",
+			"ctft:totem_of_undying_fence_gate_from_crafting"
 		]
 	}
 }

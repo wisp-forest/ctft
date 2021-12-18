@@ -44,7 +44,14 @@
 			"ctft:lever_slab_from_crafting",
 			"ctft:lever_glass_pane_from_crafting",
 			"ctft:lever_pane_from_crafting",
-			"ctft:lever_glass_from_smelting"
+			"ctft:lever_glass_from_smelting",
+			"ctft:lever_stairs_from_stonecutter",
+			"ctft:lever_slab_from_stonecutter",
+			"ctft:lever_wall_from_stonecutter",
+			"ctft:lever_lever_from_crafting",
+			"ctft:lever_button_from_crafting",
+			"ctft:lever_pressure_plate_from_crafting",
+			"ctft:lever_fence_gate_from_crafting"
 		]
 	}
 }

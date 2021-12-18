@@ -44,7 +44,14 @@
 			"ctft:cobbled_deepslate_slab_from_crafting",
 			"ctft:cobbled_deepslate_glass_pane_from_crafting",
 			"ctft:cobbled_deepslate_pane_from_crafting",
-			"ctft:cobbled_deepslate_glass_from_smelting"
+			"ctft:cobbled_deepslate_glass_from_smelting",
+			"ctft:cobbled_deepslate_stairs_from_stonecutter",
+			"ctft:cobbled_deepslate_slab_from_stonecutter",
+			"ctft:cobbled_deepslate_wall_from_stonecutter",
+			"ctft:cobbled_deepslate_lever_from_crafting",
+			"ctft:cobbled_deepslate_button_from_crafting",
+			"ctft:cobbled_deepslate_pressure_plate_from_crafting",
+			"ctft:cobbled_deepslate_fence_gate_from_crafting"
 		]
 	}
 }

@@ -44,7 +44,14 @@
 			"ctft:globe_banner_pattern_slab_from_crafting",
 			"ctft:globe_banner_pattern_glass_pane_from_crafting",
 			"ctft:globe_banner_pattern_pane_from_crafting",
-			"ctft:globe_banner_pattern_glass_from_smelting"
+			"ctft:globe_banner_pattern_glass_from_smelting",
+			"ctft:globe_banner_pattern_stairs_from_stonecutter",
+			"ctft:globe_banner_pattern_slab_from_stonecutter",
+			"ctft:globe_banner_pattern_wall_from_stonecutter",
+			"ctft:globe_banner_pattern_lever_from_crafting",
+			"ctft:globe_banner_pattern_button_from_crafting",
+			"ctft:globe_banner_pattern_pressure_plate_from_crafting",
+			"ctft:globe_banner_pattern_fence_gate_from_crafting"
 		]
 	}
 }

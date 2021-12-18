@@ -44,7 +44,14 @@
 			"ctft:cooked_beef_slab_from_crafting",
 			"ctft:cooked_beef_glass_pane_from_crafting",
 			"ctft:cooked_beef_pane_from_crafting",
-			"ctft:cooked_beef_glass_from_smelting"
+			"ctft:cooked_beef_glass_from_smelting",
+			"ctft:cooked_beef_stairs_from_stonecutter",
+			"ctft:cooked_beef_slab_from_stonecutter",
+			"ctft:cooked_beef_wall_from_stonecutter",
+			"ctft:cooked_beef_lever_from_crafting",
+			"ctft:cooked_beef_button_from_crafting",
+			"ctft:cooked_beef_pressure_plate_from_crafting",
+			"ctft:cooked_beef_fence_gate_from_crafting"
 		]
 	}
 }

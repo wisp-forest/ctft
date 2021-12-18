@@ -44,7 +44,14 @@
 			"ctft:wet_sponge_slab_from_crafting",
 			"ctft:wet_sponge_glass_pane_from_crafting",
 			"ctft:wet_sponge_pane_from_crafting",
-			"ctft:wet_sponge_glass_from_smelting"
+			"ctft:wet_sponge_glass_from_smelting",
+			"ctft:wet_sponge_stairs_from_stonecutter",
+			"ctft:wet_sponge_slab_from_stonecutter",
+			"ctft:wet_sponge_wall_from_stonecutter",
+			"ctft:wet_sponge_lever_from_crafting",
+			"ctft:wet_sponge_button_from_crafting",
+			"ctft:wet_sponge_pressure_plate_from_crafting",
+			"ctft:wet_sponge_fence_gate_from_crafting"
 		]
 	}
 }

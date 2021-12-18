@@ -44,7 +44,14 @@
 			"ctft:ice_slab_from_crafting",
 			"ctft:ice_glass_pane_from_crafting",
 			"ctft:ice_pane_from_crafting",
-			"ctft:ice_glass_from_smelting"
+			"ctft:ice_glass_from_smelting",
+			"ctft:ice_stairs_from_stonecutter",
+			"ctft:ice_slab_from_stonecutter",
+			"ctft:ice_wall_from_stonecutter",
+			"ctft:ice_lever_from_crafting",
+			"ctft:ice_button_from_crafting",
+			"ctft:ice_pressure_plate_from_crafting",
+			"ctft:ice_fence_gate_from_crafting"
 		]
 	}
 }

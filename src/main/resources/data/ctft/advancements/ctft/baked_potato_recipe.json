@@ -44,7 +44,14 @@
 			"ctft:baked_potato_slab_from_crafting",
 			"ctft:baked_potato_glass_pane_from_crafting",
 			"ctft:baked_potato_pane_from_crafting",
-			"ctft:baked_potato_glass_from_smelting"
+			"ctft:baked_potato_glass_from_smelting",
+			"ctft:baked_potato_stairs_from_stonecutter",
+			"ctft:baked_potato_slab_from_stonecutter",
+			"ctft:baked_potato_wall_from_stonecutter",
+			"ctft:baked_potato_lever_from_crafting",
+			"ctft:baked_potato_button_from_crafting",
+			"ctft:baked_potato_pressure_plate_from_crafting",
+			"ctft:baked_potato_fence_gate_from_crafting"
 		]
 	}
 }

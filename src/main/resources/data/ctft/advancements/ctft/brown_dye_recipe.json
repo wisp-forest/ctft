@@ -44,7 +44,14 @@
 			"ctft:brown_dye_slab_from_crafting",
 			"ctft:brown_dye_glass_pane_from_crafting",
 			"ctft:brown_dye_pane_from_crafting",
-			"ctft:brown_dye_glass_from_smelting"
+			"ctft:brown_dye_glass_from_smelting",
+			"ctft:brown_dye_stairs_from_stonecutter",
+			"ctft:brown_dye_slab_from_stonecutter",
+			"ctft:brown_dye_wall_from_stonecutter",
+			"ctft:brown_dye_lever_from_crafting",
+			"ctft:brown_dye_button_from_crafting",
+			"ctft:brown_dye_pressure_plate_from_crafting",
+			"ctft:brown_dye_fence_gate_from_crafting"
 		]
 	}
 }

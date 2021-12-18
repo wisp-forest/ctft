@@ -44,7 +44,14 @@
 			"ctft:armor_stand_slab_from_crafting",
 			"ctft:armor_stand_glass_pane_from_crafting",
 			"ctft:armor_stand_pane_from_crafting",
-			"ctft:armor_stand_glass_from_smelting"
+			"ctft:armor_stand_glass_from_smelting",
+			"ctft:armor_stand_stairs_from_stonecutter",
+			"ctft:armor_stand_slab_from_stonecutter",
+			"ctft:armor_stand_wall_from_stonecutter",
+			"ctft:armor_stand_lever_from_crafting",
+			"ctft:armor_stand_button_from_crafting",
+			"ctft:armor_stand_pressure_plate_from_crafting",
+			"ctft:armor_stand_fence_gate_from_crafting"
 		]
 	}
 }

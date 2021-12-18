@@ -44,7 +44,14 @@
 			"ctft:netherite_ingot_slab_from_crafting",
 			"ctft:netherite_ingot_glass_pane_from_crafting",
 			"ctft:netherite_ingot_pane_from_crafting",
-			"ctft:netherite_ingot_glass_from_smelting"
+			"ctft:netherite_ingot_glass_from_smelting",
+			"ctft:netherite_ingot_stairs_from_stonecutter",
+			"ctft:netherite_ingot_slab_from_stonecutter",
+			"ctft:netherite_ingot_wall_from_stonecutter",
+			"ctft:netherite_ingot_lever_from_crafting",
+			"ctft:netherite_ingot_button_from_crafting",
+			"ctft:netherite_ingot_pressure_plate_from_crafting",
+			"ctft:netherite_ingot_fence_gate_from_crafting"
 		]
 	}
 }

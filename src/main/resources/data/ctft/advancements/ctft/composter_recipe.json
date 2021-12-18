@@ -44,7 +44,14 @@
 			"ctft:composter_slab_from_crafting",
 			"ctft:composter_glass_pane_from_crafting",
 			"ctft:composter_pane_from_crafting",
-			"ctft:composter_glass_from_smelting"
+			"ctft:composter_glass_from_smelting",
+			"ctft:composter_stairs_from_stonecutter",
+			"ctft:composter_slab_from_stonecutter",
+			"ctft:composter_wall_from_stonecutter",
+			"ctft:composter_lever_from_crafting",
+			"ctft:composter_button_from_crafting",
+			"ctft:composter_pressure_plate_from_crafting",
+			"ctft:composter_fence_gate_from_crafting"
 		]
 	}
 }

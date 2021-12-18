@@ -44,7 +44,14 @@
 			"ctft:nautilus_shell_slab_from_crafting",
 			"ctft:nautilus_shell_glass_pane_from_crafting",
 			"ctft:nautilus_shell_pane_from_crafting",
-			"ctft:nautilus_shell_glass_from_smelting"
+			"ctft:nautilus_shell_glass_from_smelting",
+			"ctft:nautilus_shell_stairs_from_stonecutter",
+			"ctft:nautilus_shell_slab_from_stonecutter",
+			"ctft:nautilus_shell_wall_from_stonecutter",
+			"ctft:nautilus_shell_lever_from_crafting",
+			"ctft:nautilus_shell_button_from_crafting",
+			"ctft:nautilus_shell_pressure_plate_from_crafting",
+			"ctft:nautilus_shell_fence_gate_from_crafting"
 		]
 	}
 }

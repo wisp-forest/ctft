@@ -44,7 +44,14 @@
 			"ctft:end_rod_slab_from_crafting",
 			"ctft:end_rod_glass_pane_from_crafting",
 			"ctft:end_rod_pane_from_crafting",
-			"ctft:end_rod_glass_from_smelting"
+			"ctft:end_rod_glass_from_smelting",
+			"ctft:end_rod_stairs_from_stonecutter",
+			"ctft:end_rod_slab_from_stonecutter",
+			"ctft:end_rod_wall_from_stonecutter",
+			"ctft:end_rod_lever_from_crafting",
+			"ctft:end_rod_button_from_crafting",
+			"ctft:end_rod_pressure_plate_from_crafting",
+			"ctft:end_rod_fence_gate_from_crafting"
 		]
 	}
 }

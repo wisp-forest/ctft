@@ -44,7 +44,14 @@
 			"ctft:item_frame_slab_from_crafting",
 			"ctft:item_frame_glass_pane_from_crafting",
 			"ctft:item_frame_pane_from_crafting",
-			"ctft:item_frame_glass_from_smelting"
+			"ctft:item_frame_glass_from_smelting",
+			"ctft:item_frame_stairs_from_stonecutter",
+			"ctft:item_frame_slab_from_stonecutter",
+			"ctft:item_frame_wall_from_stonecutter",
+			"ctft:item_frame_lever_from_crafting",
+			"ctft:item_frame_button_from_crafting",
+			"ctft:item_frame_pressure_plate_from_crafting",
+			"ctft:item_frame_fence_gate_from_crafting"
 		]
 	}
 }

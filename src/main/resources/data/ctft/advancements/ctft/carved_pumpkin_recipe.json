@@ -44,7 +44,14 @@
 			"ctft:carved_pumpkin_slab_from_crafting",
 			"ctft:carved_pumpkin_glass_pane_from_crafting",
 			"ctft:carved_pumpkin_pane_from_crafting",
-			"ctft:carved_pumpkin_glass_from_smelting"
+			"ctft:carved_pumpkin_glass_from_smelting",
+			"ctft:carved_pumpkin_stairs_from_stonecutter",
+			"ctft:carved_pumpkin_slab_from_stonecutter",
+			"ctft:carved_pumpkin_wall_from_stonecutter",
+			"ctft:carved_pumpkin_lever_from_crafting",
+			"ctft:carved_pumpkin_button_from_crafting",
+			"ctft:carved_pumpkin_pressure_plate_from_crafting",
+			"ctft:carved_pumpkin_fence_gate_from_crafting"
 		]
 	}
 }

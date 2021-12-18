@@ -44,7 +44,14 @@
 			"ctft:mushroom_stew_slab_from_crafting",
 			"ctft:mushroom_stew_glass_pane_from_crafting",
 			"ctft:mushroom_stew_pane_from_crafting",
-			"ctft:mushroom_stew_glass_from_smelting"
+			"ctft:mushroom_stew_glass_from_smelting",
+			"ctft:mushroom_stew_stairs_from_stonecutter",
+			"ctft:mushroom_stew_slab_from_stonecutter",
+			"ctft:mushroom_stew_wall_from_stonecutter",
+			"ctft:mushroom_stew_lever_from_crafting",
+			"ctft:mushroom_stew_button_from_crafting",
+			"ctft:mushroom_stew_pressure_plate_from_crafting",
+			"ctft:mushroom_stew_fence_gate_from_crafting"
 		]
 	}
 }

@@ -44,7 +44,14 @@
 			"ctft:spruce_trapdoor_slab_from_crafting",
 			"ctft:spruce_trapdoor_glass_pane_from_crafting",
 			"ctft:spruce_trapdoor_pane_from_crafting",
-			"ctft:spruce_trapdoor_glass_from_smelting"
+			"ctft:spruce_trapdoor_glass_from_smelting",
+			"ctft:spruce_trapdoor_stairs_from_stonecutter",
+			"ctft:spruce_trapdoor_slab_from_stonecutter",
+			"ctft:spruce_trapdoor_wall_from_stonecutter",
+			"ctft:spruce_trapdoor_lever_from_crafting",
+			"ctft:spruce_trapdoor_button_from_crafting",
+			"ctft:spruce_trapdoor_pressure_plate_from_crafting",
+			"ctft:spruce_trapdoor_fence_gate_from_crafting"
 		]
 	}
 }

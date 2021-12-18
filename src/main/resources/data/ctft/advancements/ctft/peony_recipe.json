@@ -44,7 +44,14 @@
 			"ctft:peony_slab_from_crafting",
 			"ctft:peony_glass_pane_from_crafting",
 			"ctft:peony_pane_from_crafting",
-			"ctft:peony_glass_from_smelting"
+			"ctft:peony_glass_from_smelting",
+			"ctft:peony_stairs_from_stonecutter",
+			"ctft:peony_slab_from_stonecutter",
+			"ctft:peony_wall_from_stonecutter",
+			"ctft:peony_lever_from_crafting",
+			"ctft:peony_button_from_crafting",
+			"ctft:peony_pressure_plate_from_crafting",
+			"ctft:peony_fence_gate_from_crafting"
 		]
 	}
 }

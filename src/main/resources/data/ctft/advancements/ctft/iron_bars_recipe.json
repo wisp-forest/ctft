@@ -44,7 +44,14 @@
 			"ctft:iron_bars_slab_from_crafting",
 			"ctft:iron_bars_glass_pane_from_crafting",
 			"ctft:iron_bars_pane_from_crafting",
-			"ctft:iron_bars_glass_from_smelting"
+			"ctft:iron_bars_glass_from_smelting",
+			"ctft:iron_bars_stairs_from_stonecutter",
+			"ctft:iron_bars_slab_from_stonecutter",
+			"ctft:iron_bars_wall_from_stonecutter",
+			"ctft:iron_bars_lever_from_crafting",
+			"ctft:iron_bars_button_from_crafting",
+			"ctft:iron_bars_pressure_plate_from_crafting",
+			"ctft:iron_bars_fence_gate_from_crafting"
 		]
 	}
 }

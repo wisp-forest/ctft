@@ -44,7 +44,14 @@
 			"ctft:purple_banner_slab_from_crafting",
 			"ctft:purple_banner_glass_pane_from_crafting",
 			"ctft:purple_banner_pane_from_crafting",
-			"ctft:purple_banner_glass_from_smelting"
+			"ctft:purple_banner_glass_from_smelting",
+			"ctft:purple_banner_stairs_from_stonecutter",
+			"ctft:purple_banner_slab_from_stonecutter",
+			"ctft:purple_banner_wall_from_stonecutter",
+			"ctft:purple_banner_lever_from_crafting",
+			"ctft:purple_banner_button_from_crafting",
+			"ctft:purple_banner_pressure_plate_from_crafting",
+			"ctft:purple_banner_fence_gate_from_crafting"
 		]
 	}
 }

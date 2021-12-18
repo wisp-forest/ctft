@@ -44,7 +44,14 @@
 			"ctft:light_blue_concrete_powder_slab_from_crafting",
 			"ctft:light_blue_concrete_powder_glass_pane_from_crafting",
 			"ctft:light_blue_concrete_powder_pane_from_crafting",
-			"ctft:light_blue_concrete_powder_glass_from_smelting"
+			"ctft:light_blue_concrete_powder_glass_from_smelting",
+			"ctft:light_blue_concrete_powder_stairs_from_stonecutter",
+			"ctft:light_blue_concrete_powder_slab_from_stonecutter",
+			"ctft:light_blue_concrete_powder_wall_from_stonecutter",
+			"ctft:light_blue_concrete_powder_lever_from_crafting",
+			"ctft:light_blue_concrete_powder_button_from_crafting",
+			"ctft:light_blue_concrete_powder_pressure_plate_from_crafting",
+			"ctft:light_blue_concrete_powder_fence_gate_from_crafting"
 		]
 	}
 }

@@ -44,7 +44,14 @@
 			"ctft:charcoal_slab_from_crafting",
 			"ctft:charcoal_glass_pane_from_crafting",
 			"ctft:charcoal_pane_from_crafting",
-			"ctft:charcoal_glass_from_smelting"
+			"ctft:charcoal_glass_from_smelting",
+			"ctft:charcoal_stairs_from_stonecutter",
+			"ctft:charcoal_slab_from_stonecutter",
+			"ctft:charcoal_wall_from_stonecutter",
+			"ctft:charcoal_lever_from_crafting",
+			"ctft:charcoal_button_from_crafting",
+			"ctft:charcoal_pressure_plate_from_crafting",
+			"ctft:charcoal_fence_gate_from_crafting"
 		]
 	}
 }

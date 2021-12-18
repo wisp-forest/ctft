@@ -44,7 +44,14 @@
 			"ctft:brown_mushroom_slab_from_crafting",
 			"ctft:brown_mushroom_glass_pane_from_crafting",
 			"ctft:brown_mushroom_pane_from_crafting",
-			"ctft:brown_mushroom_glass_from_smelting"
+			"ctft:brown_mushroom_glass_from_smelting",
+			"ctft:brown_mushroom_stairs_from_stonecutter",
+			"ctft:brown_mushroom_slab_from_stonecutter",
+			"ctft:brown_mushroom_wall_from_stonecutter",
+			"ctft:brown_mushroom_lever_from_crafting",
+			"ctft:brown_mushroom_button_from_crafting",
+			"ctft:brown_mushroom_pressure_plate_from_crafting",
+			"ctft:brown_mushroom_fence_gate_from_crafting"
 		]
 	}
 }

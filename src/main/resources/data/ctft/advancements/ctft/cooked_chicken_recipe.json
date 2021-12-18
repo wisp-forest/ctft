@@ -44,7 +44,14 @@
 			"ctft:cooked_chicken_slab_from_crafting",
 			"ctft:cooked_chicken_glass_pane_from_crafting",
 			"ctft:cooked_chicken_pane_from_crafting",
-			"ctft:cooked_chicken_glass_from_smelting"
+			"ctft:cooked_chicken_glass_from_smelting",
+			"ctft:cooked_chicken_stairs_from_stonecutter",
+			"ctft:cooked_chicken_slab_from_stonecutter",
+			"ctft:cooked_chicken_wall_from_stonecutter",
+			"ctft:cooked_chicken_lever_from_crafting",
+			"ctft:cooked_chicken_button_from_crafting",
+			"ctft:cooked_chicken_pressure_plate_from_crafting",
+			"ctft:cooked_chicken_fence_gate_from_crafting"
 		]
 	}
 }

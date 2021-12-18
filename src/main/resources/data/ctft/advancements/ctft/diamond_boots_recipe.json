@@ -44,7 +44,14 @@
 			"ctft:diamond_boots_slab_from_crafting",
 			"ctft:diamond_boots_glass_pane_from_crafting",
 			"ctft:diamond_boots_pane_from_crafting",
-			"ctft:diamond_boots_glass_from_smelting"
+			"ctft:diamond_boots_glass_from_smelting",
+			"ctft:diamond_boots_stairs_from_stonecutter",
+			"ctft:diamond_boots_slab_from_stonecutter",
+			"ctft:diamond_boots_wall_from_stonecutter",
+			"ctft:diamond_boots_lever_from_crafting",
+			"ctft:diamond_boots_button_from_crafting",
+			"ctft:diamond_boots_pressure_plate_from_crafting",
+			"ctft:diamond_boots_fence_gate_from_crafting"
 		]
 	}
 }

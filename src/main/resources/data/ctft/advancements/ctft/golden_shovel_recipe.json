@@ -44,7 +44,14 @@
 			"ctft:golden_shovel_slab_from_crafting",
 			"ctft:golden_shovel_glass_pane_from_crafting",
 			"ctft:golden_shovel_pane_from_crafting",
-			"ctft:golden_shovel_glass_from_smelting"
+			"ctft:golden_shovel_glass_from_smelting",
+			"ctft:golden_shovel_stairs_from_stonecutter",
+			"ctft:golden_shovel_slab_from_stonecutter",
+			"ctft:golden_shovel_wall_from_stonecutter",
+			"ctft:golden_shovel_lever_from_crafting",
+			"ctft:golden_shovel_button_from_crafting",
+			"ctft:golden_shovel_pressure_plate_from_crafting",
+			"ctft:golden_shovel_fence_gate_from_crafting"
 		]
 	}
 }

@@ -44,7 +44,14 @@
 			"ctft:cooked_cod_slab_from_crafting",
 			"ctft:cooked_cod_glass_pane_from_crafting",
 			"ctft:cooked_cod_pane_from_crafting",
-			"ctft:cooked_cod_glass_from_smelting"
+			"ctft:cooked_cod_glass_from_smelting",
+			"ctft:cooked_cod_stairs_from_stonecutter",
+			"ctft:cooked_cod_slab_from_stonecutter",
+			"ctft:cooked_cod_wall_from_stonecutter",
+			"ctft:cooked_cod_lever_from_crafting",
+			"ctft:cooked_cod_button_from_crafting",
+			"ctft:cooked_cod_pressure_plate_from_crafting",
+			"ctft:cooked_cod_fence_gate_from_crafting"
 		]
 	}
 }

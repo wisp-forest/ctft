@@ -44,7 +44,14 @@
 			"ctft:egg_slab_from_crafting",
 			"ctft:egg_glass_pane_from_crafting",
 			"ctft:egg_pane_from_crafting",
-			"ctft:egg_glass_from_smelting"
+			"ctft:egg_glass_from_smelting",
+			"ctft:egg_stairs_from_stonecutter",
+			"ctft:egg_slab_from_stonecutter",
+			"ctft:egg_wall_from_stonecutter",
+			"ctft:egg_lever_from_crafting",
+			"ctft:egg_button_from_crafting",
+			"ctft:egg_pressure_plate_from_crafting",
+			"ctft:egg_fence_gate_from_crafting"
 		]
 	}
 }

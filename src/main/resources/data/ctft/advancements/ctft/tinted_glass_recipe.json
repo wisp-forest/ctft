@@ -44,7 +44,14 @@
 			"ctft:tinted_glass_slab_from_crafting",
 			"ctft:tinted_glass_glass_pane_from_crafting",
 			"ctft:tinted_glass_pane_from_crafting",
-			"ctft:tinted_glass_glass_from_smelting"
+			"ctft:tinted_glass_glass_from_smelting",
+			"ctft:tinted_glass_stairs_from_stonecutter",
+			"ctft:tinted_glass_slab_from_stonecutter",
+			"ctft:tinted_glass_wall_from_stonecutter",
+			"ctft:tinted_glass_lever_from_crafting",
+			"ctft:tinted_glass_button_from_crafting",
+			"ctft:tinted_glass_pressure_plate_from_crafting",
+			"ctft:tinted_glass_fence_gate_from_crafting"
 		]
 	}
 }

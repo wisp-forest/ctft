@@ -44,7 +44,14 @@
 			"ctft:grindstone_slab_from_crafting",
 			"ctft:grindstone_glass_pane_from_crafting",
 			"ctft:grindstone_pane_from_crafting",
-			"ctft:grindstone_glass_from_smelting"
+			"ctft:grindstone_glass_from_smelting",
+			"ctft:grindstone_stairs_from_stonecutter",
+			"ctft:grindstone_slab_from_stonecutter",
+			"ctft:grindstone_wall_from_stonecutter",
+			"ctft:grindstone_lever_from_crafting",
+			"ctft:grindstone_button_from_crafting",
+			"ctft:grindstone_pressure_plate_from_crafting",
+			"ctft:grindstone_fence_gate_from_crafting"
 		]
 	}
 }

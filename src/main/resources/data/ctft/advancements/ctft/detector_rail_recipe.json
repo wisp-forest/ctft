@@ -44,7 +44,14 @@
 			"ctft:detector_rail_slab_from_crafting",
 			"ctft:detector_rail_glass_pane_from_crafting",
 			"ctft:detector_rail_pane_from_crafting",
-			"ctft:detector_rail_glass_from_smelting"
+			"ctft:detector_rail_glass_from_smelting",
+			"ctft:detector_rail_stairs_from_stonecutter",
+			"ctft:detector_rail_slab_from_stonecutter",
+			"ctft:detector_rail_wall_from_stonecutter",
+			"ctft:detector_rail_lever_from_crafting",
+			"ctft:detector_rail_button_from_crafting",
+			"ctft:detector_rail_pressure_plate_from_crafting",
+			"ctft:detector_rail_fence_gate_from_crafting"
 		]
 	}
 }

@@ -44,7 +44,14 @@
 			"ctft:clock_slab_from_crafting",
 			"ctft:clock_glass_pane_from_crafting",
 			"ctft:clock_pane_from_crafting",
-			"ctft:clock_glass_from_smelting"
+			"ctft:clock_glass_from_smelting",
+			"ctft:clock_stairs_from_stonecutter",
+			"ctft:clock_slab_from_stonecutter",
+			"ctft:clock_wall_from_stonecutter",
+			"ctft:clock_lever_from_crafting",
+			"ctft:clock_button_from_crafting",
+			"ctft:clock_pressure_plate_from_crafting",
+			"ctft:clock_fence_gate_from_crafting"
 		]
 	}
 }

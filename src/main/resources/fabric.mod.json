@@ -35,10 +35,19 @@
       "com.chyzman.ctft.client.CtftCrossbowSnowballClient",
       "com.chyzman.ctft.client.CtftCrossbowFireChargeClient",
       "com.chyzman.ctft.client.CtftGlassClient",
-      "com.chyzman.ctft.client.CtftGlassPaneClient"
+      "com.chyzman.ctft.client.CtftGlassPaneClient",
+      "com.chyzman.ctft.client.CtftLadderClient",
+      "com.chyzman.ctft.client.CtftDoorClient",
+      "com.chyzman.ctft.client.CtftTrapdoorClient"
     ],
     "main": [
       "com.chyzman.ctft.Ctft"
+    ],
+    "rei_plugins": [
+      "com.chyzman.ctft.compat.CtftReiCompat"
+    ],
+    "modmenu": [
+      "com.chyzman.ctft.util.CtftModMenuCompat"
     ]
   },
   "mixins": [

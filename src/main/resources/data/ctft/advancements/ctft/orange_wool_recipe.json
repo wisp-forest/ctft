@@ -44,7 +44,14 @@
 			"ctft:orange_wool_slab_from_crafting",
 			"ctft:orange_wool_glass_pane_from_crafting",
 			"ctft:orange_wool_pane_from_crafting",
-			"ctft:orange_wool_glass_from_smelting"
+			"ctft:orange_wool_glass_from_smelting",
+			"ctft:orange_wool_stairs_from_stonecutter",
+			"ctft:orange_wool_slab_from_stonecutter",
+			"ctft:orange_wool_wall_from_stonecutter",
+			"ctft:orange_wool_lever_from_crafting",
+			"ctft:orange_wool_button_from_crafting",
+			"ctft:orange_wool_pressure_plate_from_crafting",
+			"ctft:orange_wool_fence_gate_from_crafting"
 		]
 	}
 }

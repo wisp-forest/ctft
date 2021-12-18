@@ -44,7 +44,14 @@
 			"ctft:glowstone_slab_from_crafting",
 			"ctft:glowstone_glass_pane_from_crafting",
 			"ctft:glowstone_pane_from_crafting",
-			"ctft:glowstone_glass_from_smelting"
+			"ctft:glowstone_glass_from_smelting",
+			"ctft:glowstone_stairs_from_stonecutter",
+			"ctft:glowstone_slab_from_stonecutter",
+			"ctft:glowstone_wall_from_stonecutter",
+			"ctft:glowstone_lever_from_crafting",
+			"ctft:glowstone_button_from_crafting",
+			"ctft:glowstone_pressure_plate_from_crafting",
+			"ctft:glowstone_fence_gate_from_crafting"
 		]
 	}
 }

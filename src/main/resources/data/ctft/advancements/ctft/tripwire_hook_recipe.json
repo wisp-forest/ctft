@@ -44,7 +44,14 @@
 			"ctft:tripwire_hook_slab_from_crafting",
 			"ctft:tripwire_hook_glass_pane_from_crafting",
 			"ctft:tripwire_hook_pane_from_crafting",
-			"ctft:tripwire_hook_glass_from_smelting"
+			"ctft:tripwire_hook_glass_from_smelting",
+			"ctft:tripwire_hook_stairs_from_stonecutter",
+			"ctft:tripwire_hook_slab_from_stonecutter",
+			"ctft:tripwire_hook_wall_from_stonecutter",
+			"ctft:tripwire_hook_lever_from_crafting",
+			"ctft:tripwire_hook_button_from_crafting",
+			"ctft:tripwire_hook_pressure_plate_from_crafting",
+			"ctft:tripwire_hook_fence_gate_from_crafting"
 		]
 	}
 }

@@ -44,7 +44,14 @@
 			"ctft:polished_andesite_slab_from_crafting",
 			"ctft:polished_andesite_glass_pane_from_crafting",
 			"ctft:polished_andesite_pane_from_crafting",
-			"ctft:polished_andesite_glass_from_smelting"
+			"ctft:polished_andesite_glass_from_smelting",
+			"ctft:polished_andesite_stairs_from_stonecutter",
+			"ctft:polished_andesite_slab_from_stonecutter",
+			"ctft:polished_andesite_wall_from_stonecutter",
+			"ctft:polished_andesite_lever_from_crafting",
+			"ctft:polished_andesite_button_from_crafting",
+			"ctft:polished_andesite_pressure_plate_from_crafting",
+			"ctft:polished_andesite_fence_gate_from_crafting"
 		]
 	}
 }

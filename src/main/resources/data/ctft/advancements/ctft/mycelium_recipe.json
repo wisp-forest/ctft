@@ -44,7 +44,14 @@
 			"ctft:mycelium_slab_from_crafting",
 			"ctft:mycelium_glass_pane_from_crafting",
 			"ctft:mycelium_pane_from_crafting",
-			"ctft:mycelium_glass_from_smelting"
+			"ctft:mycelium_glass_from_smelting",
+			"ctft:mycelium_stairs_from_stonecutter",
+			"ctft:mycelium_slab_from_stonecutter",
+			"ctft:mycelium_wall_from_stonecutter",
+			"ctft:mycelium_lever_from_crafting",
+			"ctft:mycelium_button_from_crafting",
+			"ctft:mycelium_pressure_plate_from_crafting",
+			"ctft:mycelium_fence_gate_from_crafting"
 		]
 	}
 }

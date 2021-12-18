@@ -44,7 +44,14 @@
 			"ctft:acacia_door_slab_from_crafting",
 			"ctft:acacia_door_glass_pane_from_crafting",
 			"ctft:acacia_door_pane_from_crafting",
-			"ctft:acacia_door_glass_from_smelting"
+			"ctft:acacia_door_glass_from_smelting",
+			"ctft:acacia_door_stairs_from_stonecutter",
+			"ctft:acacia_door_slab_from_stonecutter",
+			"ctft:acacia_door_wall_from_stonecutter",
+			"ctft:acacia_door_lever_from_crafting",
+			"ctft:acacia_door_button_from_crafting",
+			"ctft:acacia_door_pressure_plate_from_crafting",
+			"ctft:acacia_door_fence_gate_from_crafting"
 		]
 	}
 }

@@ -44,7 +44,14 @@
 			"ctft:sugar_cane_slab_from_crafting",
 			"ctft:sugar_cane_glass_pane_from_crafting",
 			"ctft:sugar_cane_pane_from_crafting",
-			"ctft:sugar_cane_glass_from_smelting"
+			"ctft:sugar_cane_glass_from_smelting",
+			"ctft:sugar_cane_stairs_from_stonecutter",
+			"ctft:sugar_cane_slab_from_stonecutter",
+			"ctft:sugar_cane_wall_from_stonecutter",
+			"ctft:sugar_cane_lever_from_crafting",
+			"ctft:sugar_cane_button_from_crafting",
+			"ctft:sugar_cane_pressure_plate_from_crafting",
+			"ctft:sugar_cane_fence_gate_from_crafting"
 		]
 	}
 }

@@ -44,7 +44,14 @@
 			"ctft:ender_pearl_slab_from_crafting",
 			"ctft:ender_pearl_glass_pane_from_crafting",
 			"ctft:ender_pearl_pane_from_crafting",
-			"ctft:ender_pearl_glass_from_smelting"
+			"ctft:ender_pearl_glass_from_smelting",
+			"ctft:ender_pearl_stairs_from_stonecutter",
+			"ctft:ender_pearl_slab_from_stonecutter",
+			"ctft:ender_pearl_wall_from_stonecutter",
+			"ctft:ender_pearl_lever_from_crafting",
+			"ctft:ender_pearl_button_from_crafting",
+			"ctft:ender_pearl_pressure_plate_from_crafting",
+			"ctft:ender_pearl_fence_gate_from_crafting"
 		]
 	}
 }

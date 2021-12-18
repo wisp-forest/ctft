@@ -44,7 +44,14 @@
 			"ctft:cactus_slab_from_crafting",
 			"ctft:cactus_glass_pane_from_crafting",
 			"ctft:cactus_pane_from_crafting",
-			"ctft:cactus_glass_from_smelting"
+			"ctft:cactus_glass_from_smelting",
+			"ctft:cactus_stairs_from_stonecutter",
+			"ctft:cactus_slab_from_stonecutter",
+			"ctft:cactus_wall_from_stonecutter",
+			"ctft:cactus_lever_from_crafting",
+			"ctft:cactus_button_from_crafting",
+			"ctft:cactus_pressure_plate_from_crafting",
+			"ctft:cactus_fence_gate_from_crafting"
 		]
 	}
 }

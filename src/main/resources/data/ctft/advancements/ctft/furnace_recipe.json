@@ -44,7 +44,14 @@
 			"ctft:furnace_slab_from_crafting",
 			"ctft:furnace_glass_pane_from_crafting",
 			"ctft:furnace_pane_from_crafting",
-			"ctft:furnace_glass_from_smelting"
+			"ctft:furnace_glass_from_smelting",
+			"ctft:furnace_stairs_from_stonecutter",
+			"ctft:furnace_slab_from_stonecutter",
+			"ctft:furnace_wall_from_stonecutter",
+			"ctft:furnace_lever_from_crafting",
+			"ctft:furnace_button_from_crafting",
+			"ctft:furnace_pressure_plate_from_crafting",
+			"ctft:furnace_fence_gate_from_crafting"
 		]
 	}
 }

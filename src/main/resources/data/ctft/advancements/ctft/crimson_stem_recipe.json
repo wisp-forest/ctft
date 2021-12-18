@@ -44,7 +44,14 @@
 			"ctft:crimson_stem_slab_from_crafting",
 			"ctft:crimson_stem_glass_pane_from_crafting",
 			"ctft:crimson_stem_pane_from_crafting",
-			"ctft:crimson_stem_glass_from_smelting"
+			"ctft:crimson_stem_glass_from_smelting",
+			"ctft:crimson_stem_stairs_from_stonecutter",
+			"ctft:crimson_stem_slab_from_stonecutter",
+			"ctft:crimson_stem_wall_from_stonecutter",
+			"ctft:crimson_stem_lever_from_crafting",
+			"ctft:crimson_stem_button_from_crafting",
+			"ctft:crimson_stem_pressure_plate_from_crafting",
+			"ctft:crimson_stem_fence_gate_from_crafting"
 		]
 	}
 }

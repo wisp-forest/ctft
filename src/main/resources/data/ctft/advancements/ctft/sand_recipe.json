@@ -44,7 +44,14 @@
 			"ctft:sand_slab_from_crafting",
 			"ctft:sand_glass_pane_from_crafting",
 			"ctft:sand_pane_from_crafting",
-			"ctft:sand_glass_from_smelting"
+			"ctft:sand_glass_from_smelting",
+			"ctft:sand_stairs_from_stonecutter",
+			"ctft:sand_slab_from_stonecutter",
+			"ctft:sand_wall_from_stonecutter",
+			"ctft:sand_lever_from_crafting",
+			"ctft:sand_button_from_crafting",
+			"ctft:sand_pressure_plate_from_crafting",
+			"ctft:sand_fence_gate_from_crafting"
 		]
 	}
 }

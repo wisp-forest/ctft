@@ -44,7 +44,14 @@
 			"ctft:purpur_pillar_slab_from_crafting",
 			"ctft:purpur_pillar_glass_pane_from_crafting",
 			"ctft:purpur_pillar_pane_from_crafting",
-			"ctft:purpur_pillar_glass_from_smelting"
+			"ctft:purpur_pillar_glass_from_smelting",
+			"ctft:purpur_pillar_stairs_from_stonecutter",
+			"ctft:purpur_pillar_slab_from_stonecutter",
+			"ctft:purpur_pillar_wall_from_stonecutter",
+			"ctft:purpur_pillar_lever_from_crafting",
+			"ctft:purpur_pillar_button_from_crafting",
+			"ctft:purpur_pillar_pressure_plate_from_crafting",
+			"ctft:purpur_pillar_fence_gate_from_crafting"
 		]
 	}
 }

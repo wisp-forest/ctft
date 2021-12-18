@@ -44,7 +44,14 @@
 			"ctft:netherite_axe_slab_from_crafting",
 			"ctft:netherite_axe_glass_pane_from_crafting",
 			"ctft:netherite_axe_pane_from_crafting",
-			"ctft:netherite_axe_glass_from_smelting"
+			"ctft:netherite_axe_glass_from_smelting",
+			"ctft:netherite_axe_stairs_from_stonecutter",
+			"ctft:netherite_axe_slab_from_stonecutter",
+			"ctft:netherite_axe_wall_from_stonecutter",
+			"ctft:netherite_axe_lever_from_crafting",
+			"ctft:netherite_axe_button_from_crafting",
+			"ctft:netherite_axe_pressure_plate_from_crafting",
+			"ctft:netherite_axe_fence_gate_from_crafting"
 		]
 	}
 }

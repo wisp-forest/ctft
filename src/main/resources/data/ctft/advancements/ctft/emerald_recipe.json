@@ -44,7 +44,14 @@
 			"ctft:emerald_slab_from_crafting",
 			"ctft:emerald_glass_pane_from_crafting",
 			"ctft:emerald_pane_from_crafting",
-			"ctft:emerald_glass_from_smelting"
+			"ctft:emerald_glass_from_smelting",
+			"ctft:emerald_stairs_from_stonecutter",
+			"ctft:emerald_slab_from_stonecutter",
+			"ctft:emerald_wall_from_stonecutter",
+			"ctft:emerald_lever_from_crafting",
+			"ctft:emerald_button_from_crafting",
+			"ctft:emerald_pressure_plate_from_crafting",
+			"ctft:emerald_fence_gate_from_crafting"
 		]
 	}
 }

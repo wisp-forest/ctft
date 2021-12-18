@@ -44,7 +44,14 @@
 			"ctft:large_fern_slab_from_crafting",
 			"ctft:large_fern_glass_pane_from_crafting",
 			"ctft:large_fern_pane_from_crafting",
-			"ctft:large_fern_glass_from_smelting"
+			"ctft:large_fern_glass_from_smelting",
+			"ctft:large_fern_stairs_from_stonecutter",
+			"ctft:large_fern_slab_from_stonecutter",
+			"ctft:large_fern_wall_from_stonecutter",
+			"ctft:large_fern_lever_from_crafting",
+			"ctft:large_fern_button_from_crafting",
+			"ctft:large_fern_pressure_plate_from_crafting",
+			"ctft:large_fern_fence_gate_from_crafting"
 		]
 	}
 }

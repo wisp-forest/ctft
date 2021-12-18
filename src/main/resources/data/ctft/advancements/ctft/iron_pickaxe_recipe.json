@@ -44,7 +44,14 @@
 			"ctft:iron_pickaxe_slab_from_crafting",
 			"ctft:iron_pickaxe_glass_pane_from_crafting",
 			"ctft:iron_pickaxe_pane_from_crafting",
-			"ctft:iron_pickaxe_glass_from_smelting"
+			"ctft:iron_pickaxe_glass_from_smelting",
+			"ctft:iron_pickaxe_stairs_from_stonecutter",
+			"ctft:iron_pickaxe_slab_from_stonecutter",
+			"ctft:iron_pickaxe_wall_from_stonecutter",
+			"ctft:iron_pickaxe_lever_from_crafting",
+			"ctft:iron_pickaxe_button_from_crafting",
+			"ctft:iron_pickaxe_pressure_plate_from_crafting",
+			"ctft:iron_pickaxe_fence_gate_from_crafting"
 		]
 	}
 }

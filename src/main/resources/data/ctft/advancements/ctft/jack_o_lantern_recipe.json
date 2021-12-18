@@ -44,7 +44,14 @@
 			"ctft:jack_o_lantern_slab_from_crafting",
 			"ctft:jack_o_lantern_glass_pane_from_crafting",
 			"ctft:jack_o_lantern_pane_from_crafting",
-			"ctft:jack_o_lantern_glass_from_smelting"
+			"ctft:jack_o_lantern_glass_from_smelting",
+			"ctft:jack_o_lantern_stairs_from_stonecutter",
+			"ctft:jack_o_lantern_slab_from_stonecutter",
+			"ctft:jack_o_lantern_wall_from_stonecutter",
+			"ctft:jack_o_lantern_lever_from_crafting",
+			"ctft:jack_o_lantern_button_from_crafting",
+			"ctft:jack_o_lantern_pressure_plate_from_crafting",
+			"ctft:jack_o_lantern_fence_gate_from_crafting"
 		]
 	}
 }

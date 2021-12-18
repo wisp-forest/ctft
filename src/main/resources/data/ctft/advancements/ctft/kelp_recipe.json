@@ -44,7 +44,14 @@
 			"ctft:kelp_slab_from_crafting",
 			"ctft:kelp_glass_pane_from_crafting",
 			"ctft:kelp_pane_from_crafting",
-			"ctft:kelp_glass_from_smelting"
+			"ctft:kelp_glass_from_smelting",
+			"ctft:kelp_stairs_from_stonecutter",
+			"ctft:kelp_slab_from_stonecutter",
+			"ctft:kelp_wall_from_stonecutter",
+			"ctft:kelp_lever_from_crafting",
+			"ctft:kelp_button_from_crafting",
+			"ctft:kelp_pressure_plate_from_crafting",
+			"ctft:kelp_fence_gate_from_crafting"
 		]
 	}
 }

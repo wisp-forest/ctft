@@ -44,7 +44,14 @@
 			"ctft:rabbit_slab_from_crafting",
 			"ctft:rabbit_glass_pane_from_crafting",
 			"ctft:rabbit_pane_from_crafting",
-			"ctft:rabbit_glass_from_smelting"
+			"ctft:rabbit_glass_from_smelting",
+			"ctft:rabbit_stairs_from_stonecutter",
+			"ctft:rabbit_slab_from_stonecutter",
+			"ctft:rabbit_wall_from_stonecutter",
+			"ctft:rabbit_lever_from_crafting",
+			"ctft:rabbit_button_from_crafting",
+			"ctft:rabbit_pressure_plate_from_crafting",
+			"ctft:rabbit_fence_gate_from_crafting"
 		]
 	}
 }

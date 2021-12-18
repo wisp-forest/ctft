@@ -44,7 +44,14 @@
 			"ctft:netherrack_slab_from_crafting",
 			"ctft:netherrack_glass_pane_from_crafting",
 			"ctft:netherrack_pane_from_crafting",
-			"ctft:netherrack_glass_from_smelting"
+			"ctft:netherrack_glass_from_smelting",
+			"ctft:netherrack_stairs_from_stonecutter",
+			"ctft:netherrack_slab_from_stonecutter",
+			"ctft:netherrack_wall_from_stonecutter",
+			"ctft:netherrack_lever_from_crafting",
+			"ctft:netherrack_button_from_crafting",
+			"ctft:netherrack_pressure_plate_from_crafting",
+			"ctft:netherrack_fence_gate_from_crafting"
 		]
 	}
 }

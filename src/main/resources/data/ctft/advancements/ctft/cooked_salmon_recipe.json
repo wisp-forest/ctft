@@ -44,7 +44,14 @@
 			"ctft:cooked_salmon_slab_from_crafting",
 			"ctft:cooked_salmon_glass_pane_from_crafting",
 			"ctft:cooked_salmon_pane_from_crafting",
-			"ctft:cooked_salmon_glass_from_smelting"
+			"ctft:cooked_salmon_glass_from_smelting",
+			"ctft:cooked_salmon_stairs_from_stonecutter",
+			"ctft:cooked_salmon_slab_from_stonecutter",
+			"ctft:cooked_salmon_wall_from_stonecutter",
+			"ctft:cooked_salmon_lever_from_crafting",
+			"ctft:cooked_salmon_button_from_crafting",
+			"ctft:cooked_salmon_pressure_plate_from_crafting",
+			"ctft:cooked_salmon_fence_gate_from_crafting"
 		]
 	}
 }

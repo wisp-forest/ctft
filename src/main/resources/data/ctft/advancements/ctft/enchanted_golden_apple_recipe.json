@@ -44,7 +44,14 @@
 			"ctft:enchanted_golden_apple_slab_from_crafting",
 			"ctft:enchanted_golden_apple_glass_pane_from_crafting",
 			"ctft:enchanted_golden_apple_pane_from_crafting",
-			"ctft:enchanted_golden_apple_glass_from_smelting"
+			"ctft:enchanted_golden_apple_glass_from_smelting",
+			"ctft:enchanted_golden_apple_stairs_from_stonecutter",
+			"ctft:enchanted_golden_apple_slab_from_stonecutter",
+			"ctft:enchanted_golden_apple_wall_from_stonecutter",
+			"ctft:enchanted_golden_apple_lever_from_crafting",
+			"ctft:enchanted_golden_apple_button_from_crafting",
+			"ctft:enchanted_golden_apple_pressure_plate_from_crafting",
+			"ctft:enchanted_golden_apple_fence_gate_from_crafting"
 		]
 	}
 }

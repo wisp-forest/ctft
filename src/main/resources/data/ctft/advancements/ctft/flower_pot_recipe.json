@@ -44,7 +44,14 @@
 			"ctft:flower_pot_slab_from_crafting",
 			"ctft:flower_pot_glass_pane_from_crafting",
 			"ctft:flower_pot_pane_from_crafting",
-			"ctft:flower_pot_glass_from_smelting"
+			"ctft:flower_pot_glass_from_smelting",
+			"ctft:flower_pot_stairs_from_stonecutter",
+			"ctft:flower_pot_slab_from_stonecutter",
+			"ctft:flower_pot_wall_from_stonecutter",
+			"ctft:flower_pot_lever_from_crafting",
+			"ctft:flower_pot_button_from_crafting",
+			"ctft:flower_pot_pressure_plate_from_crafting",
+			"ctft:flower_pot_fence_gate_from_crafting"
 		]
 	}
 }

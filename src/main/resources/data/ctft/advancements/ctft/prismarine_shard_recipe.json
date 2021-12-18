@@ -44,7 +44,14 @@
 			"ctft:prismarine_shard_slab_from_crafting",
 			"ctft:prismarine_shard_glass_pane_from_crafting",
 			"ctft:prismarine_shard_pane_from_crafting",
-			"ctft:prismarine_shard_glass_from_smelting"
+			"ctft:prismarine_shard_glass_from_smelting",
+			"ctft:prismarine_shard_stairs_from_stonecutter",
+			"ctft:prismarine_shard_slab_from_stonecutter",
+			"ctft:prismarine_shard_wall_from_stonecutter",
+			"ctft:prismarine_shard_lever_from_crafting",
+			"ctft:prismarine_shard_button_from_crafting",
+			"ctft:prismarine_shard_pressure_plate_from_crafting",
+			"ctft:prismarine_shard_fence_gate_from_crafting"
 		]
 	}
 }

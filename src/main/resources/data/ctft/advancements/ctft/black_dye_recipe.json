@@ -44,7 +44,14 @@
 			"ctft:black_dye_slab_from_crafting",
 			"ctft:black_dye_glass_pane_from_crafting",
 			"ctft:black_dye_pane_from_crafting",
-			"ctft:black_dye_glass_from_smelting"
+			"ctft:black_dye_glass_from_smelting",
+			"ctft:black_dye_stairs_from_stonecutter",
+			"ctft:black_dye_slab_from_stonecutter",
+			"ctft:black_dye_wall_from_stonecutter",
+			"ctft:black_dye_lever_from_crafting",
+			"ctft:black_dye_button_from_crafting",
+			"ctft:black_dye_pressure_plate_from_crafting",
+			"ctft:black_dye_fence_gate_from_crafting"
 		]
 	}
 }

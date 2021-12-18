@@ -44,7 +44,14 @@
 			"ctft:warped_fence_gate_slab_from_crafting",
 			"ctft:warped_fence_gate_glass_pane_from_crafting",
 			"ctft:warped_fence_gate_pane_from_crafting",
-			"ctft:warped_fence_gate_glass_from_smelting"
+			"ctft:warped_fence_gate_glass_from_smelting",
+			"ctft:warped_fence_gate_stairs_from_stonecutter",
+			"ctft:warped_fence_gate_slab_from_stonecutter",
+			"ctft:warped_fence_gate_wall_from_stonecutter",
+			"ctft:warped_fence_gate_lever_from_crafting",
+			"ctft:warped_fence_gate_button_from_crafting",
+			"ctft:warped_fence_gate_pressure_plate_from_crafting",
+			"ctft:warped_fence_gate_fence_gate_from_crafting"
 		]
 	}
 }

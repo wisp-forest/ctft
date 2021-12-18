@@ -44,7 +44,14 @@
 			"ctft:clay_ball_slab_from_crafting",
 			"ctft:clay_ball_glass_pane_from_crafting",
 			"ctft:clay_ball_pane_from_crafting",
-			"ctft:clay_ball_glass_from_smelting"
+			"ctft:clay_ball_glass_from_smelting",
+			"ctft:clay_ball_stairs_from_stonecutter",
+			"ctft:clay_ball_slab_from_stonecutter",
+			"ctft:clay_ball_wall_from_stonecutter",
+			"ctft:clay_ball_lever_from_crafting",
+			"ctft:clay_ball_button_from_crafting",
+			"ctft:clay_ball_pressure_plate_from_crafting",
+			"ctft:clay_ball_fence_gate_from_crafting"
 		]
 	}
 }

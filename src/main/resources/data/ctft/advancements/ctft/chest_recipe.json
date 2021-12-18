@@ -44,7 +44,14 @@
 			"ctft:chest_slab_from_crafting",
 			"ctft:chest_glass_pane_from_crafting",
 			"ctft:chest_pane_from_crafting",
-			"ctft:chest_glass_from_smelting"
+			"ctft:chest_glass_from_smelting",
+			"ctft:chest_stairs_from_stonecutter",
+			"ctft:chest_slab_from_stonecutter",
+			"ctft:chest_wall_from_stonecutter",
+			"ctft:chest_lever_from_crafting",
+			"ctft:chest_button_from_crafting",
+			"ctft:chest_pressure_plate_from_crafting",
+			"ctft:chest_fence_gate_from_crafting"
 		]
 	}
 }

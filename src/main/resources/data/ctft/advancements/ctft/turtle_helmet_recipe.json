@@ -44,7 +44,14 @@
 			"ctft:turtle_helmet_slab_from_crafting",
 			"ctft:turtle_helmet_glass_pane_from_crafting",
 			"ctft:turtle_helmet_pane_from_crafting",
-			"ctft:turtle_helmet_glass_from_smelting"
+			"ctft:turtle_helmet_glass_from_smelting",
+			"ctft:turtle_helmet_stairs_from_stonecutter",
+			"ctft:turtle_helmet_slab_from_stonecutter",
+			"ctft:turtle_helmet_wall_from_stonecutter",
+			"ctft:turtle_helmet_lever_from_crafting",
+			"ctft:turtle_helmet_button_from_crafting",
+			"ctft:turtle_helmet_pressure_plate_from_crafting",
+			"ctft:turtle_helmet_fence_gate_from_crafting"
 		]
 	}
 }

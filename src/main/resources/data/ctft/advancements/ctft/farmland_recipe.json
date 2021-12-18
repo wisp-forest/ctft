@@ -44,7 +44,14 @@
 			"ctft:farmland_slab_from_crafting",
 			"ctft:farmland_glass_pane_from_crafting",
 			"ctft:farmland_pane_from_crafting",
-			"ctft:farmland_glass_from_smelting"
+			"ctft:farmland_glass_from_smelting",
+			"ctft:farmland_stairs_from_stonecutter",
+			"ctft:farmland_slab_from_stonecutter",
+			"ctft:farmland_wall_from_stonecutter",
+			"ctft:farmland_lever_from_crafting",
+			"ctft:farmland_button_from_crafting",
+			"ctft:farmland_pressure_plate_from_crafting",
+			"ctft:farmland_fence_gate_from_crafting"
 		]
 	}
 }

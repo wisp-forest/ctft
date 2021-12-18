@@ -44,7 +44,14 @@
 			"ctft:sticky_piston_slab_from_crafting",
 			"ctft:sticky_piston_glass_pane_from_crafting",
 			"ctft:sticky_piston_pane_from_crafting",
-			"ctft:sticky_piston_glass_from_smelting"
+			"ctft:sticky_piston_glass_from_smelting",
+			"ctft:sticky_piston_stairs_from_stonecutter",
+			"ctft:sticky_piston_slab_from_stonecutter",
+			"ctft:sticky_piston_wall_from_stonecutter",
+			"ctft:sticky_piston_lever_from_crafting",
+			"ctft:sticky_piston_button_from_crafting",
+			"ctft:sticky_piston_pressure_plate_from_crafting",
+			"ctft:sticky_piston_fence_gate_from_crafting"
 		]
 	}
 }

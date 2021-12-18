@@ -44,7 +44,14 @@
 			"ctft:cooked_porkchop_slab_from_crafting",
 			"ctft:cooked_porkchop_glass_pane_from_crafting",
 			"ctft:cooked_porkchop_pane_from_crafting",
-			"ctft:cooked_porkchop_glass_from_smelting"
+			"ctft:cooked_porkchop_glass_from_smelting",
+			"ctft:cooked_porkchop_stairs_from_stonecutter",
+			"ctft:cooked_porkchop_slab_from_stonecutter",
+			"ctft:cooked_porkchop_wall_from_stonecutter",
+			"ctft:cooked_porkchop_lever_from_crafting",
+			"ctft:cooked_porkchop_button_from_crafting",
+			"ctft:cooked_porkchop_pressure_plate_from_crafting",
+			"ctft:cooked_porkchop_fence_gate_from_crafting"
 		]
 	}
 }

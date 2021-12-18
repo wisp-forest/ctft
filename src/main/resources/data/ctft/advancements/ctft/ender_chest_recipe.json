@@ -44,7 +44,14 @@
 			"ctft:ender_chest_slab_from_crafting",
 			"ctft:ender_chest_glass_pane_from_crafting",
 			"ctft:ender_chest_pane_from_crafting",
-			"ctft:ender_chest_glass_from_smelting"
+			"ctft:ender_chest_glass_from_smelting",
+			"ctft:ender_chest_stairs_from_stonecutter",
+			"ctft:ender_chest_slab_from_stonecutter",
+			"ctft:ender_chest_wall_from_stonecutter",
+			"ctft:ender_chest_lever_from_crafting",
+			"ctft:ender_chest_button_from_crafting",
+			"ctft:ender_chest_pressure_plate_from_crafting",
+			"ctft:ender_chest_fence_gate_from_crafting"
 		]
 	}
 }

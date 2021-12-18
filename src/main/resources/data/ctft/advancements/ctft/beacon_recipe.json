@@ -44,7 +44,14 @@
 			"ctft:beacon_slab_from_crafting",
 			"ctft:beacon_glass_pane_from_crafting",
 			"ctft:beacon_pane_from_crafting",
-			"ctft:beacon_glass_from_smelting"
+			"ctft:beacon_glass_from_smelting",
+			"ctft:beacon_stairs_from_stonecutter",
+			"ctft:beacon_slab_from_stonecutter",
+			"ctft:beacon_wall_from_stonecutter",
+			"ctft:beacon_lever_from_crafting",
+			"ctft:beacon_button_from_crafting",
+			"ctft:beacon_pressure_plate_from_crafting",
+			"ctft:beacon_fence_gate_from_crafting"
 		]
 	}
 }

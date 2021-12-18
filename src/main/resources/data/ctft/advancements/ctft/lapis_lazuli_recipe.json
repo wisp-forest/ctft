@@ -44,7 +44,14 @@
 			"ctft:lapis_lazuli_slab_from_crafting",
 			"ctft:lapis_lazuli_glass_pane_from_crafting",
 			"ctft:lapis_lazuli_pane_from_crafting",
-			"ctft:lapis_lazuli_glass_from_smelting"
+			"ctft:lapis_lazuli_glass_from_smelting",
+			"ctft:lapis_lazuli_stairs_from_stonecutter",
+			"ctft:lapis_lazuli_slab_from_stonecutter",
+			"ctft:lapis_lazuli_wall_from_stonecutter",
+			"ctft:lapis_lazuli_lever_from_crafting",
+			"ctft:lapis_lazuli_button_from_crafting",
+			"ctft:lapis_lazuli_pressure_plate_from_crafting",
+			"ctft:lapis_lazuli_fence_gate_from_crafting"
 		]
 	}
 }

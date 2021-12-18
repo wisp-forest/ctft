@@ -44,7 +44,14 @@
 			"ctft:cracked_deepslate_tiles_slab_from_crafting",
 			"ctft:cracked_deepslate_tiles_glass_pane_from_crafting",
 			"ctft:cracked_deepslate_tiles_pane_from_crafting",
-			"ctft:cracked_deepslate_tiles_glass_from_smelting"
+			"ctft:cracked_deepslate_tiles_glass_from_smelting",
+			"ctft:cracked_deepslate_tiles_stairs_from_stonecutter",
+			"ctft:cracked_deepslate_tiles_slab_from_stonecutter",
+			"ctft:cracked_deepslate_tiles_wall_from_stonecutter",
+			"ctft:cracked_deepslate_tiles_lever_from_crafting",
+			"ctft:cracked_deepslate_tiles_button_from_crafting",
+			"ctft:cracked_deepslate_tiles_pressure_plate_from_crafting",
+			"ctft:cracked_deepslate_tiles_fence_gate_from_crafting"
 		]
 	}
 }

@@ -44,7 +44,14 @@
 			"ctft:smooth_basalt_slab_from_crafting",
 			"ctft:smooth_basalt_glass_pane_from_crafting",
 			"ctft:smooth_basalt_pane_from_crafting",
-			"ctft:smooth_basalt_glass_from_smelting"
+			"ctft:smooth_basalt_glass_from_smelting",
+			"ctft:smooth_basalt_stairs_from_stonecutter",
+			"ctft:smooth_basalt_slab_from_stonecutter",
+			"ctft:smooth_basalt_wall_from_stonecutter",
+			"ctft:smooth_basalt_lever_from_crafting",
+			"ctft:smooth_basalt_button_from_crafting",
+			"ctft:smooth_basalt_pressure_plate_from_crafting",
+			"ctft:smooth_basalt_fence_gate_from_crafting"
 		]
 	}
 }

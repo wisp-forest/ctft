@@ -44,7 +44,14 @@
 			"ctft:rabbit_hide_slab_from_crafting",
 			"ctft:rabbit_hide_glass_pane_from_crafting",
 			"ctft:rabbit_hide_pane_from_crafting",
-			"ctft:rabbit_hide_glass_from_smelting"
+			"ctft:rabbit_hide_glass_from_smelting",
+			"ctft:rabbit_hide_stairs_from_stonecutter",
+			"ctft:rabbit_hide_slab_from_stonecutter",
+			"ctft:rabbit_hide_wall_from_stonecutter",
+			"ctft:rabbit_hide_lever_from_crafting",
+			"ctft:rabbit_hide_button_from_crafting",
+			"ctft:rabbit_hide_pressure_plate_from_crafting",
+			"ctft:rabbit_hide_fence_gate_from_crafting"
 		]
 	}
 }

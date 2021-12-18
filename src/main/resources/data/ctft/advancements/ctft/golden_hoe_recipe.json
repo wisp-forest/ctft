@@ -44,7 +44,14 @@
 			"ctft:golden_hoe_slab_from_crafting",
 			"ctft:golden_hoe_glass_pane_from_crafting",
 			"ctft:golden_hoe_pane_from_crafting",
-			"ctft:golden_hoe_glass_from_smelting"
+			"ctft:golden_hoe_glass_from_smelting",
+			"ctft:golden_hoe_stairs_from_stonecutter",
+			"ctft:golden_hoe_slab_from_stonecutter",
+			"ctft:golden_hoe_wall_from_stonecutter",
+			"ctft:golden_hoe_lever_from_crafting",
+			"ctft:golden_hoe_button_from_crafting",
+			"ctft:golden_hoe_pressure_plate_from_crafting",
+			"ctft:golden_hoe_fence_gate_from_crafting"
 		]
 	}
 }

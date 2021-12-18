@@ -44,7 +44,14 @@
 			"ctft:magma_cream_slab_from_crafting",
 			"ctft:magma_cream_glass_pane_from_crafting",
 			"ctft:magma_cream_pane_from_crafting",
-			"ctft:magma_cream_glass_from_smelting"
+			"ctft:magma_cream_glass_from_smelting",
+			"ctft:magma_cream_stairs_from_stonecutter",
+			"ctft:magma_cream_slab_from_stonecutter",
+			"ctft:magma_cream_wall_from_stonecutter",
+			"ctft:magma_cream_lever_from_crafting",
+			"ctft:magma_cream_button_from_crafting",
+			"ctft:magma_cream_pressure_plate_from_crafting",
+			"ctft:magma_cream_fence_gate_from_crafting"
 		]
 	}
 }

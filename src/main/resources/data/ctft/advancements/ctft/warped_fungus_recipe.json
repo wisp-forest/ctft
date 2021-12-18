@@ -44,7 +44,14 @@
 			"ctft:warped_fungus_slab_from_crafting",
 			"ctft:warped_fungus_glass_pane_from_crafting",
 			"ctft:warped_fungus_pane_from_crafting",
-			"ctft:warped_fungus_glass_from_smelting"
+			"ctft:warped_fungus_glass_from_smelting",
+			"ctft:warped_fungus_stairs_from_stonecutter",
+			"ctft:warped_fungus_slab_from_stonecutter",
+			"ctft:warped_fungus_wall_from_stonecutter",
+			"ctft:warped_fungus_lever_from_crafting",
+			"ctft:warped_fungus_button_from_crafting",
+			"ctft:warped_fungus_pressure_plate_from_crafting",
+			"ctft:warped_fungus_fence_gate_from_crafting"
 		]
 	}
 }

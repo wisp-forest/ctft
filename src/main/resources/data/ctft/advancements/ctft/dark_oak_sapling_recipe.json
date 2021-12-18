@@ -44,7 +44,14 @@
 			"ctft:dark_oak_sapling_slab_from_crafting",
 			"ctft:dark_oak_sapling_glass_pane_from_crafting",
 			"ctft:dark_oak_sapling_pane_from_crafting",
-			"ctft:dark_oak_sapling_glass_from_smelting"
+			"ctft:dark_oak_sapling_glass_from_smelting",
+			"ctft:dark_oak_sapling_stairs_from_stonecutter",
+			"ctft:dark_oak_sapling_slab_from_stonecutter",
+			"ctft:dark_oak_sapling_wall_from_stonecutter",
+			"ctft:dark_oak_sapling_lever_from_crafting",
+			"ctft:dark_oak_sapling_button_from_crafting",
+			"ctft:dark_oak_sapling_pressure_plate_from_crafting",
+			"ctft:dark_oak_sapling_fence_gate_from_crafting"
 		]
 	}
 }

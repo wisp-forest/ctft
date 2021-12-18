@@ -44,7 +44,14 @@
 			"ctft:warped_hyphae_slab_from_crafting",
 			"ctft:warped_hyphae_glass_pane_from_crafting",
 			"ctft:warped_hyphae_pane_from_crafting",
-			"ctft:warped_hyphae_glass_from_smelting"
+			"ctft:warped_hyphae_glass_from_smelting",
+			"ctft:warped_hyphae_stairs_from_stonecutter",
+			"ctft:warped_hyphae_slab_from_stonecutter",
+			"ctft:warped_hyphae_wall_from_stonecutter",
+			"ctft:warped_hyphae_lever_from_crafting",
+			"ctft:warped_hyphae_button_from_crafting",
+			"ctft:warped_hyphae_pressure_plate_from_crafting",
+			"ctft:warped_hyphae_fence_gate_from_crafting"
 		]
 	}
 }

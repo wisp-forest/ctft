@@ -44,7 +44,14 @@
 			"ctft:light_slab_from_crafting",
 			"ctft:light_glass_pane_from_crafting",
 			"ctft:light_pane_from_crafting",
-			"ctft:light_glass_from_smelting"
+			"ctft:light_glass_from_smelting",
+			"ctft:light_stairs_from_stonecutter",
+			"ctft:light_slab_from_stonecutter",
+			"ctft:light_wall_from_stonecutter",
+			"ctft:light_lever_from_crafting",
+			"ctft:light_button_from_crafting",
+			"ctft:light_pressure_plate_from_crafting",
+			"ctft:light_fence_gate_from_crafting"
 		]
 	}
 }

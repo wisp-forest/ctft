@@ -44,7 +44,14 @@
 			"ctft:feather_slab_from_crafting",
 			"ctft:feather_glass_pane_from_crafting",
 			"ctft:feather_pane_from_crafting",
-			"ctft:feather_glass_from_smelting"
+			"ctft:feather_glass_from_smelting",
+			"ctft:feather_stairs_from_stonecutter",
+			"ctft:feather_slab_from_stonecutter",
+			"ctft:feather_wall_from_stonecutter",
+			"ctft:feather_lever_from_crafting",
+			"ctft:feather_button_from_crafting",
+			"ctft:feather_pressure_plate_from_crafting",
+			"ctft:feather_fence_gate_from_crafting"
 		]
 	}
 }

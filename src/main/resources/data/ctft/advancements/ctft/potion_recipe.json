@@ -44,7 +44,14 @@
 			"ctft:potion_slab_from_crafting",
 			"ctft:potion_glass_pane_from_crafting",
 			"ctft:potion_pane_from_crafting",
-			"ctft:potion_glass_from_smelting"
+			"ctft:potion_glass_from_smelting",
+			"ctft:potion_stairs_from_stonecutter",
+			"ctft:potion_slab_from_stonecutter",
+			"ctft:potion_wall_from_stonecutter",
+			"ctft:potion_lever_from_crafting",
+			"ctft:potion_button_from_crafting",
+			"ctft:potion_pressure_plate_from_crafting",
+			"ctft:potion_fence_gate_from_crafting"
 		]
 	}
 }

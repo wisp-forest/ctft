@@ -44,7 +44,14 @@
 			"ctft:map_slab_from_crafting",
 			"ctft:map_glass_pane_from_crafting",
 			"ctft:map_pane_from_crafting",
-			"ctft:map_glass_from_smelting"
+			"ctft:map_glass_from_smelting",
+			"ctft:map_stairs_from_stonecutter",
+			"ctft:map_slab_from_stonecutter",
+			"ctft:map_wall_from_stonecutter",
+			"ctft:map_lever_from_crafting",
+			"ctft:map_button_from_crafting",
+			"ctft:map_pressure_plate_from_crafting",
+			"ctft:map_fence_gate_from_crafting"
 		]
 	}
 }

@@ -44,7 +44,14 @@
 			"ctft:bee_nest_slab_from_crafting",
 			"ctft:bee_nest_glass_pane_from_crafting",
 			"ctft:bee_nest_pane_from_crafting",
-			"ctft:bee_nest_glass_from_smelting"
+			"ctft:bee_nest_glass_from_smelting",
+			"ctft:bee_nest_stairs_from_stonecutter",
+			"ctft:bee_nest_slab_from_stonecutter",
+			"ctft:bee_nest_wall_from_stonecutter",
+			"ctft:bee_nest_lever_from_crafting",
+			"ctft:bee_nest_button_from_crafting",
+			"ctft:bee_nest_pressure_plate_from_crafting",
+			"ctft:bee_nest_fence_gate_from_crafting"
 		]
 	}
 }

@@ -44,7 +44,14 @@
 			"ctft:redstone_lamp_slab_from_crafting",
 			"ctft:redstone_lamp_glass_pane_from_crafting",
 			"ctft:redstone_lamp_pane_from_crafting",
-			"ctft:redstone_lamp_glass_from_smelting"
+			"ctft:redstone_lamp_glass_from_smelting",
+			"ctft:redstone_lamp_stairs_from_stonecutter",
+			"ctft:redstone_lamp_slab_from_stonecutter",
+			"ctft:redstone_lamp_wall_from_stonecutter",
+			"ctft:redstone_lamp_lever_from_crafting",
+			"ctft:redstone_lamp_button_from_crafting",
+			"ctft:redstone_lamp_pressure_plate_from_crafting",
+			"ctft:redstone_lamp_fence_gate_from_crafting"
 		]
 	}
 }

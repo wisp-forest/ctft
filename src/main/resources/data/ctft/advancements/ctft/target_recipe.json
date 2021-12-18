@@ -44,7 +44,14 @@
 			"ctft:target_slab_from_crafting",
 			"ctft:target_glass_pane_from_crafting",
 			"ctft:target_pane_from_crafting",
-			"ctft:target_glass_from_smelting"
+			"ctft:target_glass_from_smelting",
+			"ctft:target_stairs_from_stonecutter",
+			"ctft:target_slab_from_stonecutter",
+			"ctft:target_wall_from_stonecutter",
+			"ctft:target_lever_from_crafting",
+			"ctft:target_button_from_crafting",
+			"ctft:target_pressure_plate_from_crafting",
+			"ctft:target_fence_gate_from_crafting"
 		]
 	}
 }

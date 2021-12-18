@@ -44,7 +44,14 @@
 			"ctft:azalea_leaves_flowers_slab_from_crafting",
 			"ctft:azalea_leaves_flowers_glass_pane_from_crafting",
 			"ctft:azalea_leaves_flowers_pane_from_crafting",
-			"ctft:azalea_leaves_flowers_glass_from_smelting"
+			"ctft:azalea_leaves_flowers_glass_from_smelting",
+			"ctft:azalea_leaves_flowers_stairs_from_stonecutter",
+			"ctft:azalea_leaves_flowers_slab_from_stonecutter",
+			"ctft:azalea_leaves_flowers_wall_from_stonecutter",
+			"ctft:azalea_leaves_flowers_lever_from_crafting",
+			"ctft:azalea_leaves_flowers_button_from_crafting",
+			"ctft:azalea_leaves_flowers_pressure_plate_from_crafting",
+			"ctft:azalea_leaves_flowers_fence_gate_from_crafting"
 		]
 	}
 }

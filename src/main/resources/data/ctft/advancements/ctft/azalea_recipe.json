@@ -44,7 +44,14 @@
 			"ctft:azalea_slab_from_crafting",
 			"ctft:azalea_glass_pane_from_crafting",
 			"ctft:azalea_pane_from_crafting",
-			"ctft:azalea_glass_from_smelting"
+			"ctft:azalea_glass_from_smelting",
+			"ctft:azalea_stairs_from_stonecutter",
+			"ctft:azalea_slab_from_stonecutter",
+			"ctft:azalea_wall_from_stonecutter",
+			"ctft:azalea_lever_from_crafting",
+			"ctft:azalea_button_from_crafting",
+			"ctft:azalea_pressure_plate_from_crafting",
+			"ctft:azalea_fence_gate_from_crafting"
 		]
 	}
 }

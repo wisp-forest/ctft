@@ -44,7 +44,14 @@
 			"ctft:nether_star_slab_from_crafting",
 			"ctft:nether_star_glass_pane_from_crafting",
 			"ctft:nether_star_pane_from_crafting",
-			"ctft:nether_star_glass_from_smelting"
+			"ctft:nether_star_glass_from_smelting",
+			"ctft:nether_star_stairs_from_stonecutter",
+			"ctft:nether_star_slab_from_stonecutter",
+			"ctft:nether_star_wall_from_stonecutter",
+			"ctft:nether_star_lever_from_crafting",
+			"ctft:nether_star_button_from_crafting",
+			"ctft:nether_star_pressure_plate_from_crafting",
+			"ctft:nether_star_fence_gate_from_crafting"
 		]
 	}
 }

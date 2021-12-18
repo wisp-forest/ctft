@@ -44,7 +44,14 @@
 			"ctft:diamond_sword_slab_from_crafting",
 			"ctft:diamond_sword_glass_pane_from_crafting",
 			"ctft:diamond_sword_pane_from_crafting",
-			"ctft:diamond_sword_glass_from_smelting"
+			"ctft:diamond_sword_glass_from_smelting",
+			"ctft:diamond_sword_stairs_from_stonecutter",
+			"ctft:diamond_sword_slab_from_stonecutter",
+			"ctft:diamond_sword_wall_from_stonecutter",
+			"ctft:diamond_sword_lever_from_crafting",
+			"ctft:diamond_sword_button_from_crafting",
+			"ctft:diamond_sword_pressure_plate_from_crafting",
+			"ctft:diamond_sword_fence_gate_from_crafting"
 		]
 	}
 }

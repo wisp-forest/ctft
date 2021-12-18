@@ -44,7 +44,14 @@
 			"ctft:oxeye_daisy_slab_from_crafting",
 			"ctft:oxeye_daisy_glass_pane_from_crafting",
 			"ctft:oxeye_daisy_pane_from_crafting",
-			"ctft:oxeye_daisy_glass_from_smelting"
+			"ctft:oxeye_daisy_glass_from_smelting",
+			"ctft:oxeye_daisy_stairs_from_stonecutter",
+			"ctft:oxeye_daisy_slab_from_stonecutter",
+			"ctft:oxeye_daisy_wall_from_stonecutter",
+			"ctft:oxeye_daisy_lever_from_crafting",
+			"ctft:oxeye_daisy_button_from_crafting",
+			"ctft:oxeye_daisy_pressure_plate_from_crafting",
+			"ctft:oxeye_daisy_fence_gate_from_crafting"
 		]
 	}
 }

@@ -44,7 +44,14 @@
 			"ctft:repeater_slab_from_crafting",
 			"ctft:repeater_glass_pane_from_crafting",
 			"ctft:repeater_pane_from_crafting",
-			"ctft:repeater_glass_from_smelting"
+			"ctft:repeater_glass_from_smelting",
+			"ctft:repeater_stairs_from_stonecutter",
+			"ctft:repeater_slab_from_stonecutter",
+			"ctft:repeater_wall_from_stonecutter",
+			"ctft:repeater_lever_from_crafting",
+			"ctft:repeater_button_from_crafting",
+			"ctft:repeater_pressure_plate_from_crafting",
+			"ctft:repeater_fence_gate_from_crafting"
 		]
 	}
 }

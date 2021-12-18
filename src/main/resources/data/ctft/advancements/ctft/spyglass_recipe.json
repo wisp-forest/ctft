@@ -44,7 +44,14 @@
 			"ctft:spyglass_slab_from_crafting",
 			"ctft:spyglass_glass_pane_from_crafting",
 			"ctft:spyglass_pane_from_crafting",
-			"ctft:spyglass_glass_from_smelting"
+			"ctft:spyglass_glass_from_smelting",
+			"ctft:spyglass_stairs_from_stonecutter",
+			"ctft:spyglass_slab_from_stonecutter",
+			"ctft:spyglass_wall_from_stonecutter",
+			"ctft:spyglass_lever_from_crafting",
+			"ctft:spyglass_button_from_crafting",
+			"ctft:spyglass_pressure_plate_from_crafting",
+			"ctft:spyglass_fence_gate_from_crafting"
 		]
 	}
 }

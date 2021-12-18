@@ -44,7 +44,14 @@
 			"ctft:chiseled_polished_blackstone_slab_from_crafting",
 			"ctft:chiseled_polished_blackstone_glass_pane_from_crafting",
 			"ctft:chiseled_polished_blackstone_pane_from_crafting",
-			"ctft:chiseled_polished_blackstone_glass_from_smelting"
+			"ctft:chiseled_polished_blackstone_glass_from_smelting",
+			"ctft:chiseled_polished_blackstone_stairs_from_stonecutter",
+			"ctft:chiseled_polished_blackstone_slab_from_stonecutter",
+			"ctft:chiseled_polished_blackstone_wall_from_stonecutter",
+			"ctft:chiseled_polished_blackstone_lever_from_crafting",
+			"ctft:chiseled_polished_blackstone_button_from_crafting",
+			"ctft:chiseled_polished_blackstone_pressure_plate_from_crafting",
+			"ctft:chiseled_polished_blackstone_fence_gate_from_crafting"
 		]
 	}
 }

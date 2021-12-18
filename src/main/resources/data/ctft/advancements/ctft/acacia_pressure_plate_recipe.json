@@ -44,7 +44,14 @@
 			"ctft:acacia_pressure_plate_slab_from_crafting",
 			"ctft:acacia_pressure_plate_glass_pane_from_crafting",
 			"ctft:acacia_pressure_plate_pane_from_crafting",
-			"ctft:acacia_pressure_plate_glass_from_smelting"
+			"ctft:acacia_pressure_plate_glass_from_smelting",
+			"ctft:acacia_pressure_plate_stairs_from_stonecutter",
+			"ctft:acacia_pressure_plate_slab_from_stonecutter",
+			"ctft:acacia_pressure_plate_wall_from_stonecutter",
+			"ctft:acacia_pressure_plate_lever_from_crafting",
+			"ctft:acacia_pressure_plate_button_from_crafting",
+			"ctft:acacia_pressure_plate_pressure_plate_from_crafting",
+			"ctft:acacia_pressure_plate_fence_gate_from_crafting"
 		]
 	}
 }

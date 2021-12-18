@@ -44,7 +44,14 @@
 			"ctft:white_carpet_slab_from_crafting",
 			"ctft:white_carpet_glass_pane_from_crafting",
 			"ctft:white_carpet_pane_from_crafting",
-			"ctft:white_carpet_glass_from_smelting"
+			"ctft:white_carpet_glass_from_smelting",
+			"ctft:white_carpet_stairs_from_stonecutter",
+			"ctft:white_carpet_slab_from_stonecutter",
+			"ctft:white_carpet_wall_from_stonecutter",
+			"ctft:white_carpet_lever_from_crafting",
+			"ctft:white_carpet_button_from_crafting",
+			"ctft:white_carpet_pressure_plate_from_crafting",
+			"ctft:white_carpet_fence_gate_from_crafting"
 		]
 	}
 }

@@ -44,7 +44,14 @@
 			"ctft:yellow_candle_slab_from_crafting",
 			"ctft:yellow_candle_glass_pane_from_crafting",
 			"ctft:yellow_candle_pane_from_crafting",
-			"ctft:yellow_candle_glass_from_smelting"
+			"ctft:yellow_candle_glass_from_smelting",
+			"ctft:yellow_candle_stairs_from_stonecutter",
+			"ctft:yellow_candle_slab_from_stonecutter",
+			"ctft:yellow_candle_wall_from_stonecutter",
+			"ctft:yellow_candle_lever_from_crafting",
+			"ctft:yellow_candle_button_from_crafting",
+			"ctft:yellow_candle_pressure_plate_from_crafting",
+			"ctft:yellow_candle_fence_gate_from_crafting"
 		]
 	}
 }

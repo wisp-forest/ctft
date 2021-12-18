@@ -44,7 +44,14 @@
 			"ctft:spawner_slab_from_crafting",
 			"ctft:spawner_glass_pane_from_crafting",
 			"ctft:spawner_pane_from_crafting",
-			"ctft:spawner_glass_from_smelting"
+			"ctft:spawner_glass_from_smelting",
+			"ctft:spawner_stairs_from_stonecutter",
+			"ctft:spawner_slab_from_stonecutter",
+			"ctft:spawner_wall_from_stonecutter",
+			"ctft:spawner_lever_from_crafting",
+			"ctft:spawner_button_from_crafting",
+			"ctft:spawner_pressure_plate_from_crafting",
+			"ctft:spawner_fence_gate_from_crafting"
 		]
 	}
 }

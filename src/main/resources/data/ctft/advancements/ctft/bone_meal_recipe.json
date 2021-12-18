@@ -44,7 +44,14 @@
 			"ctft:bone_meal_slab_from_crafting",
 			"ctft:bone_meal_glass_pane_from_crafting",
 			"ctft:bone_meal_pane_from_crafting",
-			"ctft:bone_meal_glass_from_smelting"
+			"ctft:bone_meal_glass_from_smelting",
+			"ctft:bone_meal_stairs_from_stonecutter",
+			"ctft:bone_meal_slab_from_stonecutter",
+			"ctft:bone_meal_wall_from_stonecutter",
+			"ctft:bone_meal_lever_from_crafting",
+			"ctft:bone_meal_button_from_crafting",
+			"ctft:bone_meal_pressure_plate_from_crafting",
+			"ctft:bone_meal_fence_gate_from_crafting"
 		]
 	}
 }

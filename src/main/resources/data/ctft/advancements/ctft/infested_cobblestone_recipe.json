@@ -44,7 +44,14 @@
 			"ctft:infested_cobblestone_slab_from_crafting",
 			"ctft:infested_cobblestone_glass_pane_from_crafting",
 			"ctft:infested_cobblestone_pane_from_crafting",
-			"ctft:infested_cobblestone_glass_from_smelting"
+			"ctft:infested_cobblestone_glass_from_smelting",
+			"ctft:infested_cobblestone_stairs_from_stonecutter",
+			"ctft:infested_cobblestone_slab_from_stonecutter",
+			"ctft:infested_cobblestone_wall_from_stonecutter",
+			"ctft:infested_cobblestone_lever_from_crafting",
+			"ctft:infested_cobblestone_button_from_crafting",
+			"ctft:infested_cobblestone_pressure_plate_from_crafting",
+			"ctft:infested_cobblestone_fence_gate_from_crafting"
 		]
 	}
 }

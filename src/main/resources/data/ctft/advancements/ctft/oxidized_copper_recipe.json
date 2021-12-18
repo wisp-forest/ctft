@@ -44,7 +44,14 @@
 			"ctft:oxidized_copper_slab_from_crafting",
 			"ctft:oxidized_copper_glass_pane_from_crafting",
 			"ctft:oxidized_copper_pane_from_crafting",
-			"ctft:oxidized_copper_glass_from_smelting"
+			"ctft:oxidized_copper_glass_from_smelting",
+			"ctft:oxidized_copper_stairs_from_stonecutter",
+			"ctft:oxidized_copper_slab_from_stonecutter",
+			"ctft:oxidized_copper_wall_from_stonecutter",
+			"ctft:oxidized_copper_lever_from_crafting",
+			"ctft:oxidized_copper_button_from_crafting",
+			"ctft:oxidized_copper_pressure_plate_from_crafting",
+			"ctft:oxidized_copper_fence_gate_from_crafting"
 		]
 	}
 }

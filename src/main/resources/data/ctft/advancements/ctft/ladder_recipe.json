@@ -44,7 +44,14 @@
 			"ctft:ladder_slab_from_crafting",
 			"ctft:ladder_glass_pane_from_crafting",
 			"ctft:ladder_pane_from_crafting",
-			"ctft:ladder_glass_from_smelting"
+			"ctft:ladder_glass_from_smelting",
+			"ctft:ladder_stairs_from_stonecutter",
+			"ctft:ladder_slab_from_stonecutter",
+			"ctft:ladder_wall_from_stonecutter",
+			"ctft:ladder_lever_from_crafting",
+			"ctft:ladder_button_from_crafting",
+			"ctft:ladder_pressure_plate_from_crafting",
+			"ctft:ladder_fence_gate_from_crafting"
 		]
 	}
 }

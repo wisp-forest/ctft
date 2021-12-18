@@ -44,7 +44,14 @@
 			"ctft:polar_bear_spawn_egg_slab_from_crafting",
 			"ctft:polar_bear_spawn_egg_glass_pane_from_crafting",
 			"ctft:polar_bear_spawn_egg_pane_from_crafting",
-			"ctft:polar_bear_spawn_egg_glass_from_smelting"
+			"ctft:polar_bear_spawn_egg_glass_from_smelting",
+			"ctft:polar_bear_spawn_egg_stairs_from_stonecutter",
+			"ctft:polar_bear_spawn_egg_slab_from_stonecutter",
+			"ctft:polar_bear_spawn_egg_wall_from_stonecutter",
+			"ctft:polar_bear_spawn_egg_lever_from_crafting",
+			"ctft:polar_bear_spawn_egg_button_from_crafting",
+			"ctft:polar_bear_spawn_egg_pressure_plate_from_crafting",
+			"ctft:polar_bear_spawn_egg_fence_gate_from_crafting"
 		]
 	}
 }

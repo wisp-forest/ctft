@@ -44,7 +44,14 @@
 			"ctft:crimson_fungus_slab_from_crafting",
 			"ctft:crimson_fungus_glass_pane_from_crafting",
 			"ctft:crimson_fungus_pane_from_crafting",
-			"ctft:crimson_fungus_glass_from_smelting"
+			"ctft:crimson_fungus_glass_from_smelting",
+			"ctft:crimson_fungus_stairs_from_stonecutter",
+			"ctft:crimson_fungus_slab_from_stonecutter",
+			"ctft:crimson_fungus_wall_from_stonecutter",
+			"ctft:crimson_fungus_lever_from_crafting",
+			"ctft:crimson_fungus_button_from_crafting",
+			"ctft:crimson_fungus_pressure_plate_from_crafting",
+			"ctft:crimson_fungus_fence_gate_from_crafting"
 		]
 	}
 }

@@ -44,7 +44,14 @@
 			"ctft:paper_slab_from_crafting",
 			"ctft:paper_glass_pane_from_crafting",
 			"ctft:paper_pane_from_crafting",
-			"ctft:paper_glass_from_smelting"
+			"ctft:paper_glass_from_smelting",
+			"ctft:paper_stairs_from_stonecutter",
+			"ctft:paper_slab_from_stonecutter",
+			"ctft:paper_wall_from_stonecutter",
+			"ctft:paper_lever_from_crafting",
+			"ctft:paper_button_from_crafting",
+			"ctft:paper_pressure_plate_from_crafting",
+			"ctft:paper_fence_gate_from_crafting"
 		]
 	}
 }

@@ -44,7 +44,14 @@
 			"ctft:diamond_horse_armor_slab_from_crafting",
 			"ctft:diamond_horse_armor_glass_pane_from_crafting",
 			"ctft:diamond_horse_armor_pane_from_crafting",
-			"ctft:diamond_horse_armor_glass_from_smelting"
+			"ctft:diamond_horse_armor_glass_from_smelting",
+			"ctft:diamond_horse_armor_stairs_from_stonecutter",
+			"ctft:diamond_horse_armor_slab_from_stonecutter",
+			"ctft:diamond_horse_armor_wall_from_stonecutter",
+			"ctft:diamond_horse_armor_lever_from_crafting",
+			"ctft:diamond_horse_armor_button_from_crafting",
+			"ctft:diamond_horse_armor_pressure_plate_from_crafting",
+			"ctft:diamond_horse_armor_fence_gate_from_crafting"
 		]
 	}
 }

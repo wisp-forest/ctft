@@ -44,7 +44,14 @@
 			"ctft:wheat_slab_from_crafting",
 			"ctft:wheat_glass_pane_from_crafting",
 			"ctft:wheat_pane_from_crafting",
-			"ctft:wheat_glass_from_smelting"
+			"ctft:wheat_glass_from_smelting",
+			"ctft:wheat_stairs_from_stonecutter",
+			"ctft:wheat_slab_from_stonecutter",
+			"ctft:wheat_wall_from_stonecutter",
+			"ctft:wheat_lever_from_crafting",
+			"ctft:wheat_button_from_crafting",
+			"ctft:wheat_pressure_plate_from_crafting",
+			"ctft:wheat_fence_gate_from_crafting"
 		]
 	}
 }

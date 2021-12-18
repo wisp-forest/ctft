@@ -44,7 +44,14 @@
 			"ctft:birch_planks_slab_from_crafting",
 			"ctft:birch_planks_glass_pane_from_crafting",
 			"ctft:birch_planks_pane_from_crafting",
-			"ctft:birch_planks_glass_from_smelting"
+			"ctft:birch_planks_glass_from_smelting",
+			"ctft:birch_planks_stairs_from_stonecutter",
+			"ctft:birch_planks_slab_from_stonecutter",
+			"ctft:birch_planks_wall_from_stonecutter",
+			"ctft:birch_planks_lever_from_crafting",
+			"ctft:birch_planks_button_from_crafting",
+			"ctft:birch_planks_pressure_plate_from_crafting",
+			"ctft:birch_planks_fence_gate_from_crafting"
 		]
 	}
 }

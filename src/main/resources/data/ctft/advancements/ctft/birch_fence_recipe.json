@@ -44,7 +44,14 @@
 			"ctft:birch_fence_slab_from_crafting",
 			"ctft:birch_fence_glass_pane_from_crafting",
 			"ctft:birch_fence_pane_from_crafting",
-			"ctft:birch_fence_glass_from_smelting"
+			"ctft:birch_fence_glass_from_smelting",
+			"ctft:birch_fence_stairs_from_stonecutter",
+			"ctft:birch_fence_slab_from_stonecutter",
+			"ctft:birch_fence_wall_from_stonecutter",
+			"ctft:birch_fence_lever_from_crafting",
+			"ctft:birch_fence_button_from_crafting",
+			"ctft:birch_fence_pressure_plate_from_crafting",
+			"ctft:birch_fence_fence_gate_from_crafting"
 		]
 	}
 }

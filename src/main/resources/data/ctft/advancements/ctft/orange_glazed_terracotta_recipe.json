@@ -44,7 +44,14 @@
 			"ctft:orange_glazed_terracotta_slab_from_crafting",
 			"ctft:orange_glazed_terracotta_glass_pane_from_crafting",
 			"ctft:orange_glazed_terracotta_pane_from_crafting",
-			"ctft:orange_glazed_terracotta_glass_from_smelting"
+			"ctft:orange_glazed_terracotta_glass_from_smelting",
+			"ctft:orange_glazed_terracotta_stairs_from_stonecutter",
+			"ctft:orange_glazed_terracotta_slab_from_stonecutter",
+			"ctft:orange_glazed_terracotta_wall_from_stonecutter",
+			"ctft:orange_glazed_terracotta_lever_from_crafting",
+			"ctft:orange_glazed_terracotta_button_from_crafting",
+			"ctft:orange_glazed_terracotta_pressure_plate_from_crafting",
+			"ctft:orange_glazed_terracotta_fence_gate_from_crafting"
 		]
 	}
 }

@@ -44,7 +44,14 @@
 			"ctft:chest_minecart_slab_from_crafting",
 			"ctft:chest_minecart_glass_pane_from_crafting",
 			"ctft:chest_minecart_pane_from_crafting",
-			"ctft:chest_minecart_glass_from_smelting"
+			"ctft:chest_minecart_glass_from_smelting",
+			"ctft:chest_minecart_stairs_from_stonecutter",
+			"ctft:chest_minecart_slab_from_stonecutter",
+			"ctft:chest_minecart_wall_from_stonecutter",
+			"ctft:chest_minecart_lever_from_crafting",
+			"ctft:chest_minecart_button_from_crafting",
+			"ctft:chest_minecart_pressure_plate_from_crafting",
+			"ctft:chest_minecart_fence_gate_from_crafting"
 		]
 	}
 }

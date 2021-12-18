@@ -44,7 +44,14 @@
 			"ctft:deepslate_redstone_ore_slab_from_crafting",
 			"ctft:deepslate_redstone_ore_glass_pane_from_crafting",
 			"ctft:deepslate_redstone_ore_pane_from_crafting",
-			"ctft:deepslate_redstone_ore_glass_from_smelting"
+			"ctft:deepslate_redstone_ore_glass_from_smelting",
+			"ctft:deepslate_redstone_ore_stairs_from_stonecutter",
+			"ctft:deepslate_redstone_ore_slab_from_stonecutter",
+			"ctft:deepslate_redstone_ore_wall_from_stonecutter",
+			"ctft:deepslate_redstone_ore_lever_from_crafting",
+			"ctft:deepslate_redstone_ore_button_from_crafting",
+			"ctft:deepslate_redstone_ore_pressure_plate_from_crafting",
+			"ctft:deepslate_redstone_ore_fence_gate_from_crafting"
 		]
 	}
 }

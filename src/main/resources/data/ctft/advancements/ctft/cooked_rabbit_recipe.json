@@ -44,7 +44,14 @@
 			"ctft:cooked_rabbit_slab_from_crafting",
 			"ctft:cooked_rabbit_glass_pane_from_crafting",
 			"ctft:cooked_rabbit_pane_from_crafting",
-			"ctft:cooked_rabbit_glass_from_smelting"
+			"ctft:cooked_rabbit_glass_from_smelting",
+			"ctft:cooked_rabbit_stairs_from_stonecutter",
+			"ctft:cooked_rabbit_slab_from_stonecutter",
+			"ctft:cooked_rabbit_wall_from_stonecutter",
+			"ctft:cooked_rabbit_lever_from_crafting",
+			"ctft:cooked_rabbit_button_from_crafting",
+			"ctft:cooked_rabbit_pressure_plate_from_crafting",
+			"ctft:cooked_rabbit_fence_gate_from_crafting"
 		]
 	}
 }

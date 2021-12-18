@@ -44,7 +44,14 @@
 			"ctft:beetroot_seeds_slab_from_crafting",
 			"ctft:beetroot_seeds_glass_pane_from_crafting",
 			"ctft:beetroot_seeds_pane_from_crafting",
-			"ctft:beetroot_seeds_glass_from_smelting"
+			"ctft:beetroot_seeds_glass_from_smelting",
+			"ctft:beetroot_seeds_stairs_from_stonecutter",
+			"ctft:beetroot_seeds_slab_from_stonecutter",
+			"ctft:beetroot_seeds_wall_from_stonecutter",
+			"ctft:beetroot_seeds_lever_from_crafting",
+			"ctft:beetroot_seeds_button_from_crafting",
+			"ctft:beetroot_seeds_pressure_plate_from_crafting",
+			"ctft:beetroot_seeds_fence_gate_from_crafting"
 		]
 	}
 }

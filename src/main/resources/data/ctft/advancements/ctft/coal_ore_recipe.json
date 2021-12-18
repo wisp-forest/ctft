@@ -44,7 +44,14 @@
 			"ctft:coal_ore_slab_from_crafting",
 			"ctft:coal_ore_glass_pane_from_crafting",
 			"ctft:coal_ore_pane_from_crafting",
-			"ctft:coal_ore_glass_from_smelting"
+			"ctft:coal_ore_glass_from_smelting",
+			"ctft:coal_ore_stairs_from_stonecutter",
+			"ctft:coal_ore_slab_from_stonecutter",
+			"ctft:coal_ore_wall_from_stonecutter",
+			"ctft:coal_ore_lever_from_crafting",
+			"ctft:coal_ore_button_from_crafting",
+			"ctft:coal_ore_pressure_plate_from_crafting",
+			"ctft:coal_ore_fence_gate_from_crafting"
 		]
 	}
 }

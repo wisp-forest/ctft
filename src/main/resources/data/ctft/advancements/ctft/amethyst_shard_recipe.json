@@ -44,7 +44,14 @@
 			"ctft:amethyst_shard_slab_from_crafting",
 			"ctft:amethyst_shard_glass_pane_from_crafting",
 			"ctft:amethyst_shard_pane_from_crafting",
-			"ctft:amethyst_shard_glass_from_smelting"
+			"ctft:amethyst_shard_glass_from_smelting",
+			"ctft:amethyst_shard_stairs_from_stonecutter",
+			"ctft:amethyst_shard_slab_from_stonecutter",
+			"ctft:amethyst_shard_wall_from_stonecutter",
+			"ctft:amethyst_shard_lever_from_crafting",
+			"ctft:amethyst_shard_button_from_crafting",
+			"ctft:amethyst_shard_pressure_plate_from_crafting",
+			"ctft:amethyst_shard_fence_gate_from_crafting"
 		]
 	}
 }

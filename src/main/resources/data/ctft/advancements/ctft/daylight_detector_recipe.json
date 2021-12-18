@@ -44,7 +44,14 @@
 			"ctft:daylight_detector_slab_from_crafting",
 			"ctft:daylight_detector_glass_pane_from_crafting",
 			"ctft:daylight_detector_pane_from_crafting",
-			"ctft:daylight_detector_glass_from_smelting"
+			"ctft:daylight_detector_glass_from_smelting",
+			"ctft:daylight_detector_stairs_from_stonecutter",
+			"ctft:daylight_detector_slab_from_stonecutter",
+			"ctft:daylight_detector_wall_from_stonecutter",
+			"ctft:daylight_detector_lever_from_crafting",
+			"ctft:daylight_detector_button_from_crafting",
+			"ctft:daylight_detector_pressure_plate_from_crafting",
+			"ctft:daylight_detector_fence_gate_from_crafting"
 		]
 	}
 }

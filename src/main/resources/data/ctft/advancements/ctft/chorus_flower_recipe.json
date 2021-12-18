@@ -44,7 +44,14 @@
 			"ctft:chorus_flower_slab_from_crafting",
 			"ctft:chorus_flower_glass_pane_from_crafting",
 			"ctft:chorus_flower_pane_from_crafting",
-			"ctft:chorus_flower_glass_from_smelting"
+			"ctft:chorus_flower_glass_from_smelting",
+			"ctft:chorus_flower_stairs_from_stonecutter",
+			"ctft:chorus_flower_slab_from_stonecutter",
+			"ctft:chorus_flower_wall_from_stonecutter",
+			"ctft:chorus_flower_lever_from_crafting",
+			"ctft:chorus_flower_button_from_crafting",
+			"ctft:chorus_flower_pressure_plate_from_crafting",
+			"ctft:chorus_flower_fence_gate_from_crafting"
 		]
 	}
 }

@@ -44,7 +44,14 @@
 			"ctft:dark_prismarine_slab_from_crafting",
 			"ctft:dark_prismarine_glass_pane_from_crafting",
 			"ctft:dark_prismarine_pane_from_crafting",
-			"ctft:dark_prismarine_glass_from_smelting"
+			"ctft:dark_prismarine_glass_from_smelting",
+			"ctft:dark_prismarine_stairs_from_stonecutter",
+			"ctft:dark_prismarine_slab_from_stonecutter",
+			"ctft:dark_prismarine_wall_from_stonecutter",
+			"ctft:dark_prismarine_lever_from_crafting",
+			"ctft:dark_prismarine_button_from_crafting",
+			"ctft:dark_prismarine_pressure_plate_from_crafting",
+			"ctft:dark_prismarine_fence_gate_from_crafting"
 		]
 	}
 }

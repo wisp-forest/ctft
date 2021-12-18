@@ -44,7 +44,14 @@
 			"ctft:gunpowder_slab_from_crafting",
 			"ctft:gunpowder_glass_pane_from_crafting",
 			"ctft:gunpowder_pane_from_crafting",
-			"ctft:gunpowder_glass_from_smelting"
+			"ctft:gunpowder_glass_from_smelting",
+			"ctft:gunpowder_stairs_from_stonecutter",
+			"ctft:gunpowder_slab_from_stonecutter",
+			"ctft:gunpowder_wall_from_stonecutter",
+			"ctft:gunpowder_lever_from_crafting",
+			"ctft:gunpowder_button_from_crafting",
+			"ctft:gunpowder_pressure_plate_from_crafting",
+			"ctft:gunpowder_fence_gate_from_crafting"
 		]
 	}
 }

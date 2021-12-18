@@ -44,7 +44,14 @@
 			"ctft:red_sandstone_wall_slab_from_crafting",
 			"ctft:red_sandstone_wall_glass_pane_from_crafting",
 			"ctft:red_sandstone_wall_pane_from_crafting",
-			"ctft:red_sandstone_wall_glass_from_smelting"
+			"ctft:red_sandstone_wall_glass_from_smelting",
+			"ctft:red_sandstone_wall_stairs_from_stonecutter",
+			"ctft:red_sandstone_wall_slab_from_stonecutter",
+			"ctft:red_sandstone_wall_wall_from_stonecutter",
+			"ctft:red_sandstone_wall_lever_from_crafting",
+			"ctft:red_sandstone_wall_button_from_crafting",
+			"ctft:red_sandstone_wall_pressure_plate_from_crafting",
+			"ctft:red_sandstone_wall_fence_gate_from_crafting"
 		]
 	}
 }

@@ -44,7 +44,14 @@
 			"ctft:redstone_slab_from_crafting",
 			"ctft:redstone_glass_pane_from_crafting",
 			"ctft:redstone_pane_from_crafting",
-			"ctft:redstone_glass_from_smelting"
+			"ctft:redstone_glass_from_smelting",
+			"ctft:redstone_stairs_from_stonecutter",
+			"ctft:redstone_slab_from_stonecutter",
+			"ctft:redstone_wall_from_stonecutter",
+			"ctft:redstone_lever_from_crafting",
+			"ctft:redstone_button_from_crafting",
+			"ctft:redstone_pressure_plate_from_crafting",
+			"ctft:redstone_fence_gate_from_crafting"
 		]
 	}
 }

@@ -44,7 +44,14 @@
 			"ctft:experience_bottle_slab_from_crafting",
 			"ctft:experience_bottle_glass_pane_from_crafting",
 			"ctft:experience_bottle_pane_from_crafting",
-			"ctft:experience_bottle_glass_from_smelting"
+			"ctft:experience_bottle_glass_from_smelting",
+			"ctft:experience_bottle_stairs_from_stonecutter",
+			"ctft:experience_bottle_slab_from_stonecutter",
+			"ctft:experience_bottle_wall_from_stonecutter",
+			"ctft:experience_bottle_lever_from_crafting",
+			"ctft:experience_bottle_button_from_crafting",
+			"ctft:experience_bottle_pressure_plate_from_crafting",
+			"ctft:experience_bottle_fence_gate_from_crafting"
 		]
 	}
 }

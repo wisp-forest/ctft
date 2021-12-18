@@ -44,7 +44,14 @@
 			"ctft:end_crystal_slab_from_crafting",
 			"ctft:end_crystal_glass_pane_from_crafting",
 			"ctft:end_crystal_pane_from_crafting",
-			"ctft:end_crystal_glass_from_smelting"
+			"ctft:end_crystal_glass_from_smelting",
+			"ctft:end_crystal_stairs_from_stonecutter",
+			"ctft:end_crystal_slab_from_stonecutter",
+			"ctft:end_crystal_wall_from_stonecutter",
+			"ctft:end_crystal_lever_from_crafting",
+			"ctft:end_crystal_button_from_crafting",
+			"ctft:end_crystal_pressure_plate_from_crafting",
+			"ctft:end_crystal_fence_gate_from_crafting"
 		]
 	}
 }

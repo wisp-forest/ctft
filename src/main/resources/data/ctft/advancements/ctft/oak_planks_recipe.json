@@ -44,7 +44,14 @@
 			"ctft:oak_planks_slab_from_crafting",
 			"ctft:oak_planks_glass_pane_from_crafting",
 			"ctft:oak_planks_pane_from_crafting",
-			"ctft:oak_planks_glass_from_smelting"
+			"ctft:oak_planks_glass_from_smelting",
+			"ctft:oak_planks_stairs_from_stonecutter",
+			"ctft:oak_planks_slab_from_stonecutter",
+			"ctft:oak_planks_wall_from_stonecutter",
+			"ctft:oak_planks_lever_from_crafting",
+			"ctft:oak_planks_button_from_crafting",
+			"ctft:oak_planks_pressure_plate_from_crafting",
+			"ctft:oak_planks_fence_gate_from_crafting"
 		]
 	}
 }

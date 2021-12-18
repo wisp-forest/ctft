@@ -44,7 +44,14 @@
 			"ctft:filled_map_slab_from_crafting",
 			"ctft:filled_map_glass_pane_from_crafting",
 			"ctft:filled_map_pane_from_crafting",
-			"ctft:filled_map_glass_from_smelting"
+			"ctft:filled_map_glass_from_smelting",
+			"ctft:filled_map_stairs_from_stonecutter",
+			"ctft:filled_map_slab_from_stonecutter",
+			"ctft:filled_map_wall_from_stonecutter",
+			"ctft:filled_map_lever_from_crafting",
+			"ctft:filled_map_button_from_crafting",
+			"ctft:filled_map_pressure_plate_from_crafting",
+			"ctft:filled_map_fence_gate_from_crafting"
 		]
 	}
 }

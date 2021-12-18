@@ -44,7 +44,14 @@
 			"ctft:fletching_table_slab_from_crafting",
 			"ctft:fletching_table_glass_pane_from_crafting",
 			"ctft:fletching_table_pane_from_crafting",
-			"ctft:fletching_table_glass_from_smelting"
+			"ctft:fletching_table_glass_from_smelting",
+			"ctft:fletching_table_stairs_from_stonecutter",
+			"ctft:fletching_table_slab_from_stonecutter",
+			"ctft:fletching_table_wall_from_stonecutter",
+			"ctft:fletching_table_lever_from_crafting",
+			"ctft:fletching_table_button_from_crafting",
+			"ctft:fletching_table_pressure_plate_from_crafting",
+			"ctft:fletching_table_fence_gate_from_crafting"
 		]
 	}
 }

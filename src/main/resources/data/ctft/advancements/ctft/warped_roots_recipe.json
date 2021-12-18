@@ -44,7 +44,14 @@
 			"ctft:warped_roots_slab_from_crafting",
 			"ctft:warped_roots_glass_pane_from_crafting",
 			"ctft:warped_roots_pane_from_crafting",
-			"ctft:warped_roots_glass_from_smelting"
+			"ctft:warped_roots_glass_from_smelting",
+			"ctft:warped_roots_stairs_from_stonecutter",
+			"ctft:warped_roots_slab_from_stonecutter",
+			"ctft:warped_roots_wall_from_stonecutter",
+			"ctft:warped_roots_lever_from_crafting",
+			"ctft:warped_roots_button_from_crafting",
+			"ctft:warped_roots_pressure_plate_from_crafting",
+			"ctft:warped_roots_fence_gate_from_crafting"
 		]
 	}
 }

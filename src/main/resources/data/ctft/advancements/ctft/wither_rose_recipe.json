@@ -44,7 +44,14 @@
 			"ctft:wither_rose_slab_from_crafting",
 			"ctft:wither_rose_glass_pane_from_crafting",
 			"ctft:wither_rose_pane_from_crafting",
-			"ctft:wither_rose_glass_from_smelting"
+			"ctft:wither_rose_glass_from_smelting",
+			"ctft:wither_rose_stairs_from_stonecutter",
+			"ctft:wither_rose_slab_from_stonecutter",
+			"ctft:wither_rose_wall_from_stonecutter",
+			"ctft:wither_rose_lever_from_crafting",
+			"ctft:wither_rose_button_from_crafting",
+			"ctft:wither_rose_pressure_plate_from_crafting",
+			"ctft:wither_rose_fence_gate_from_crafting"
 		]
 	}
 }

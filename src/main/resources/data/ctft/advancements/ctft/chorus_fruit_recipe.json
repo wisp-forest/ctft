@@ -44,7 +44,14 @@
 			"ctft:chorus_fruit_slab_from_crafting",
 			"ctft:chorus_fruit_glass_pane_from_crafting",
 			"ctft:chorus_fruit_pane_from_crafting",
-			"ctft:chorus_fruit_glass_from_smelting"
+			"ctft:chorus_fruit_glass_from_smelting",
+			"ctft:chorus_fruit_stairs_from_stonecutter",
+			"ctft:chorus_fruit_slab_from_stonecutter",
+			"ctft:chorus_fruit_wall_from_stonecutter",
+			"ctft:chorus_fruit_lever_from_crafting",
+			"ctft:chorus_fruit_button_from_crafting",
+			"ctft:chorus_fruit_pressure_plate_from_crafting",
+			"ctft:chorus_fruit_fence_gate_from_crafting"
 		]
 	}
 }

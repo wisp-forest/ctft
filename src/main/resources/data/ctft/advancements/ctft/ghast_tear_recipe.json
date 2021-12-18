@@ -44,7 +44,14 @@
 			"ctft:ghast_tear_slab_from_crafting",
 			"ctft:ghast_tear_glass_pane_from_crafting",
 			"ctft:ghast_tear_pane_from_crafting",
-			"ctft:ghast_tear_glass_from_smelting"
+			"ctft:ghast_tear_glass_from_smelting",
+			"ctft:ghast_tear_stairs_from_stonecutter",
+			"ctft:ghast_tear_slab_from_stonecutter",
+			"ctft:ghast_tear_wall_from_stonecutter",
+			"ctft:ghast_tear_lever_from_crafting",
+			"ctft:ghast_tear_button_from_crafting",
+			"ctft:ghast_tear_pressure_plate_from_crafting",
+			"ctft:ghast_tear_fence_gate_from_crafting"
 		]
 	}
 }

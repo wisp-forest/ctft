@@ -44,7 +44,14 @@
 			"ctft:bow_slab_from_crafting",
 			"ctft:bow_glass_pane_from_crafting",
 			"ctft:bow_pane_from_crafting",
-			"ctft:bow_glass_from_smelting"
+			"ctft:bow_glass_from_smelting",
+			"ctft:bow_stairs_from_stonecutter",
+			"ctft:bow_slab_from_stonecutter",
+			"ctft:bow_wall_from_stonecutter",
+			"ctft:bow_lever_from_crafting",
+			"ctft:bow_button_from_crafting",
+			"ctft:bow_pressure_plate_from_crafting",
+			"ctft:bow_fence_gate_from_crafting"
 		]
 	}
 }

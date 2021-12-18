@@ -44,7 +44,14 @@
 			"ctft:crossbow_slab_from_crafting",
 			"ctft:crossbow_glass_pane_from_crafting",
 			"ctft:crossbow_pane_from_crafting",
-			"ctft:crossbow_glass_from_smelting"
+			"ctft:crossbow_glass_from_smelting",
+			"ctft:crossbow_stairs_from_stonecutter",
+			"ctft:crossbow_slab_from_stonecutter",
+			"ctft:crossbow_wall_from_stonecutter",
+			"ctft:crossbow_lever_from_crafting",
+			"ctft:crossbow_button_from_crafting",
+			"ctft:crossbow_pressure_plate_from_crafting",
+			"ctft:crossbow_fence_gate_from_crafting"
 		]
 	}
 }

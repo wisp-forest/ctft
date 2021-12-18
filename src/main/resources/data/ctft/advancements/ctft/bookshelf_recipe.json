@@ -44,7 +44,14 @@
 			"ctft:bookshelf_slab_from_crafting",
 			"ctft:bookshelf_glass_pane_from_crafting",
 			"ctft:bookshelf_pane_from_crafting",
-			"ctft:bookshelf_glass_from_smelting"
+			"ctft:bookshelf_glass_from_smelting",
+			"ctft:bookshelf_stairs_from_stonecutter",
+			"ctft:bookshelf_slab_from_stonecutter",
+			"ctft:bookshelf_wall_from_stonecutter",
+			"ctft:bookshelf_lever_from_crafting",
+			"ctft:bookshelf_button_from_crafting",
+			"ctft:bookshelf_pressure_plate_from_crafting",
+			"ctft:bookshelf_fence_gate_from_crafting"
 		]
 	}
 }

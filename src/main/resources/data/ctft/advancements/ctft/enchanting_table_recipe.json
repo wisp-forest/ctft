@@ -44,7 +44,14 @@
 			"ctft:enchanting_table_slab_from_crafting",
 			"ctft:enchanting_table_glass_pane_from_crafting",
 			"ctft:enchanting_table_pane_from_crafting",
-			"ctft:enchanting_table_glass_from_smelting"
+			"ctft:enchanting_table_glass_from_smelting",
+			"ctft:enchanting_table_stairs_from_stonecutter",
+			"ctft:enchanting_table_slab_from_stonecutter",
+			"ctft:enchanting_table_wall_from_stonecutter",
+			"ctft:enchanting_table_lever_from_crafting",
+			"ctft:enchanting_table_button_from_crafting",
+			"ctft:enchanting_table_pressure_plate_from_crafting",
+			"ctft:enchanting_table_fence_gate_from_crafting"
 		]
 	}
 }

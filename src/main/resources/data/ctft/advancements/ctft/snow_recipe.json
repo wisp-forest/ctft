@@ -44,7 +44,14 @@
 			"ctft:snow_slab_from_crafting",
 			"ctft:snow_glass_pane_from_crafting",
 			"ctft:snow_pane_from_crafting",
-			"ctft:snow_glass_from_smelting"
+			"ctft:snow_glass_from_smelting",
+			"ctft:snow_stairs_from_stonecutter",
+			"ctft:snow_slab_from_stonecutter",
+			"ctft:snow_wall_from_stonecutter",
+			"ctft:snow_lever_from_crafting",
+			"ctft:snow_button_from_crafting",
+			"ctft:snow_pressure_plate_from_crafting",
+			"ctft:snow_fence_gate_from_crafting"
 		]
 	}
 }

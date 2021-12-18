@@ -44,7 +44,14 @@
 			"ctft:soul_campfire_slab_from_crafting",
 			"ctft:soul_campfire_glass_pane_from_crafting",
 			"ctft:soul_campfire_pane_from_crafting",
-			"ctft:soul_campfire_glass_from_smelting"
+			"ctft:soul_campfire_glass_from_smelting",
+			"ctft:soul_campfire_stairs_from_stonecutter",
+			"ctft:soul_campfire_slab_from_stonecutter",
+			"ctft:soul_campfire_wall_from_stonecutter",
+			"ctft:soul_campfire_lever_from_crafting",
+			"ctft:soul_campfire_button_from_crafting",
+			"ctft:soul_campfire_pressure_plate_from_crafting",
+			"ctft:soul_campfire_fence_gate_from_crafting"
 		]
 	}
 }

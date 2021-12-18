@@ -44,7 +44,14 @@
 			"ctft:loom_slab_from_crafting",
 			"ctft:loom_glass_pane_from_crafting",
 			"ctft:loom_pane_from_crafting",
-			"ctft:loom_glass_from_smelting"
+			"ctft:loom_glass_from_smelting",
+			"ctft:loom_stairs_from_stonecutter",
+			"ctft:loom_slab_from_stonecutter",
+			"ctft:loom_wall_from_stonecutter",
+			"ctft:loom_lever_from_crafting",
+			"ctft:loom_button_from_crafting",
+			"ctft:loom_pressure_plate_from_crafting",
+			"ctft:loom_fence_gate_from_crafting"
 		]
 	}
 }

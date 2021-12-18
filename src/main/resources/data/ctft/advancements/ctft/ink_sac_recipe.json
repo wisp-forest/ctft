@@ -44,7 +44,14 @@
 			"ctft:ink_sac_slab_from_crafting",
 			"ctft:ink_sac_glass_pane_from_crafting",
 			"ctft:ink_sac_pane_from_crafting",
-			"ctft:ink_sac_glass_from_smelting"
+			"ctft:ink_sac_glass_from_smelting",
+			"ctft:ink_sac_stairs_from_stonecutter",
+			"ctft:ink_sac_slab_from_stonecutter",
+			"ctft:ink_sac_wall_from_stonecutter",
+			"ctft:ink_sac_lever_from_crafting",
+			"ctft:ink_sac_button_from_crafting",
+			"ctft:ink_sac_pressure_plate_from_crafting",
+			"ctft:ink_sac_fence_gate_from_crafting"
 		]
 	}
 }

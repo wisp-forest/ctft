@@ -44,7 +44,14 @@
 			"ctft:lime_stained_glass_slab_from_crafting",
 			"ctft:lime_stained_glass_glass_pane_from_crafting",
 			"ctft:lime_stained_glass_pane_from_crafting",
-			"ctft:lime_stained_glass_glass_from_smelting"
+			"ctft:lime_stained_glass_glass_from_smelting",
+			"ctft:lime_stained_glass_stairs_from_stonecutter",
+			"ctft:lime_stained_glass_slab_from_stonecutter",
+			"ctft:lime_stained_glass_wall_from_stonecutter",
+			"ctft:lime_stained_glass_lever_from_crafting",
+			"ctft:lime_stained_glass_button_from_crafting",
+			"ctft:lime_stained_glass_pressure_plate_from_crafting",
+			"ctft:lime_stained_glass_fence_gate_from_crafting"
 		]
 	}
 }

@@ -44,7 +44,14 @@
 			"ctft:phantom_membrane_slab_from_crafting",
 			"ctft:phantom_membrane_glass_pane_from_crafting",
 			"ctft:phantom_membrane_pane_from_crafting",
-			"ctft:phantom_membrane_glass_from_smelting"
+			"ctft:phantom_membrane_glass_from_smelting",
+			"ctft:phantom_membrane_stairs_from_stonecutter",
+			"ctft:phantom_membrane_slab_from_stonecutter",
+			"ctft:phantom_membrane_wall_from_stonecutter",
+			"ctft:phantom_membrane_lever_from_crafting",
+			"ctft:phantom_membrane_button_from_crafting",
+			"ctft:phantom_membrane_pressure_plate_from_crafting",
+			"ctft:phantom_membrane_fence_gate_from_crafting"
 		]
 	}
 }

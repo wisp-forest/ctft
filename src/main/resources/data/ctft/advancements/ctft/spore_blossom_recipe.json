@@ -44,7 +44,14 @@
 			"ctft:spore_blossom_slab_from_crafting",
 			"ctft:spore_blossom_glass_pane_from_crafting",
 			"ctft:spore_blossom_pane_from_crafting",
-			"ctft:spore_blossom_glass_from_smelting"
+			"ctft:spore_blossom_glass_from_smelting",
+			"ctft:spore_blossom_stairs_from_stonecutter",
+			"ctft:spore_blossom_slab_from_stonecutter",
+			"ctft:spore_blossom_wall_from_stonecutter",
+			"ctft:spore_blossom_lever_from_crafting",
+			"ctft:spore_blossom_button_from_crafting",
+			"ctft:spore_blossom_pressure_plate_from_crafting",
+			"ctft:spore_blossom_fence_gate_from_crafting"
 		]
 	}
 }

@@ -44,7 +44,14 @@
 			"ctft:oak_trapdoor_slab_from_crafting",
 			"ctft:oak_trapdoor_glass_pane_from_crafting",
 			"ctft:oak_trapdoor_pane_from_crafting",
-			"ctft:oak_trapdoor_glass_from_smelting"
+			"ctft:oak_trapdoor_glass_from_smelting",
+			"ctft:oak_trapdoor_stairs_from_stonecutter",
+			"ctft:oak_trapdoor_slab_from_stonecutter",
+			"ctft:oak_trapdoor_wall_from_stonecutter",
+			"ctft:oak_trapdoor_lever_from_crafting",
+			"ctft:oak_trapdoor_button_from_crafting",
+			"ctft:oak_trapdoor_pressure_plate_from_crafting",
+			"ctft:oak_trapdoor_fence_gate_from_crafting"
 		]
 	}
 }

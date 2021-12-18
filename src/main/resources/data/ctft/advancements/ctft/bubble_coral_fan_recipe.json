@@ -44,7 +44,14 @@
 			"ctft:bubble_coral_fan_slab_from_crafting",
 			"ctft:bubble_coral_fan_glass_pane_from_crafting",
 			"ctft:bubble_coral_fan_pane_from_crafting",
-			"ctft:bubble_coral_fan_glass_from_smelting"
+			"ctft:bubble_coral_fan_glass_from_smelting",
+			"ctft:bubble_coral_fan_stairs_from_stonecutter",
+			"ctft:bubble_coral_fan_slab_from_stonecutter",
+			"ctft:bubble_coral_fan_wall_from_stonecutter",
+			"ctft:bubble_coral_fan_lever_from_crafting",
+			"ctft:bubble_coral_fan_button_from_crafting",
+			"ctft:bubble_coral_fan_pressure_plate_from_crafting",
+			"ctft:bubble_coral_fan_fence_gate_from_crafting"
 		]
 	}
 }

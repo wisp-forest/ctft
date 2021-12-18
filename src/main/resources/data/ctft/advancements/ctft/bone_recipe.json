@@ -44,7 +44,14 @@
 			"ctft:bone_slab_from_crafting",
 			"ctft:bone_glass_pane_from_crafting",
 			"ctft:bone_pane_from_crafting",
-			"ctft:bone_glass_from_smelting"
+			"ctft:bone_glass_from_smelting",
+			"ctft:bone_stairs_from_stonecutter",
+			"ctft:bone_slab_from_stonecutter",
+			"ctft:bone_wall_from_stonecutter",
+			"ctft:bone_lever_from_crafting",
+			"ctft:bone_button_from_crafting",
+			"ctft:bone_pressure_plate_from_crafting",
+			"ctft:bone_fence_gate_from_crafting"
 		]
 	}
 }

@@ -44,7 +44,14 @@
 			"ctft:lead_slab_from_crafting",
 			"ctft:lead_glass_pane_from_crafting",
 			"ctft:lead_pane_from_crafting",
-			"ctft:lead_glass_from_smelting"
+			"ctft:lead_glass_from_smelting",
+			"ctft:lead_stairs_from_stonecutter",
+			"ctft:lead_slab_from_stonecutter",
+			"ctft:lead_wall_from_stonecutter",
+			"ctft:lead_lever_from_crafting",
+			"ctft:lead_button_from_crafting",
+			"ctft:lead_pressure_plate_from_crafting",
+			"ctft:lead_fence_gate_from_crafting"
 		]
 	}
 }

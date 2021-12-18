@@ -44,7 +44,14 @@
 			"ctft:allium_slab_from_crafting",
 			"ctft:allium_glass_pane_from_crafting",
 			"ctft:allium_pane_from_crafting",
-			"ctft:allium_glass_from_smelting"
+			"ctft:allium_glass_from_smelting",
+			"ctft:allium_stairs_from_stonecutter",
+			"ctft:allium_slab_from_stonecutter",
+			"ctft:allium_wall_from_stonecutter",
+			"ctft:allium_lever_from_crafting",
+			"ctft:allium_button_from_crafting",
+			"ctft:allium_pressure_plate_from_crafting",
+			"ctft:allium_fence_gate_from_crafting"
 		]
 	}
 }

@@ -44,7 +44,14 @@
 			"ctft:infested_stone_slab_from_crafting",
 			"ctft:infested_stone_glass_pane_from_crafting",
 			"ctft:infested_stone_pane_from_crafting",
-			"ctft:infested_stone_glass_from_smelting"
+			"ctft:infested_stone_glass_from_smelting",
+			"ctft:infested_stone_stairs_from_stonecutter",
+			"ctft:infested_stone_slab_from_stonecutter",
+			"ctft:infested_stone_wall_from_stonecutter",
+			"ctft:infested_stone_lever_from_crafting",
+			"ctft:infested_stone_button_from_crafting",
+			"ctft:infested_stone_pressure_plate_from_crafting",
+			"ctft:infested_stone_fence_gate_from_crafting"
 		]
 	}
 }

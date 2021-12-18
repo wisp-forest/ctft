@@ -44,7 +44,14 @@
 			"ctft:amethyst_cluster_slab_from_crafting",
 			"ctft:amethyst_cluster_glass_pane_from_crafting",
 			"ctft:amethyst_cluster_pane_from_crafting",
-			"ctft:amethyst_cluster_glass_from_smelting"
+			"ctft:amethyst_cluster_glass_from_smelting",
+			"ctft:amethyst_cluster_stairs_from_stonecutter",
+			"ctft:amethyst_cluster_slab_from_stonecutter",
+			"ctft:amethyst_cluster_wall_from_stonecutter",
+			"ctft:amethyst_cluster_lever_from_crafting",
+			"ctft:amethyst_cluster_button_from_crafting",
+			"ctft:amethyst_cluster_pressure_plate_from_crafting",
+			"ctft:amethyst_cluster_fence_gate_from_crafting"
 		]
 	}
 }

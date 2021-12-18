@@ -44,7 +44,14 @@
 			"ctft:lodestone_slab_from_crafting",
 			"ctft:lodestone_glass_pane_from_crafting",
 			"ctft:lodestone_pane_from_crafting",
-			"ctft:lodestone_glass_from_smelting"
+			"ctft:lodestone_glass_from_smelting",
+			"ctft:lodestone_stairs_from_stonecutter",
+			"ctft:lodestone_slab_from_stonecutter",
+			"ctft:lodestone_wall_from_stonecutter",
+			"ctft:lodestone_lever_from_crafting",
+			"ctft:lodestone_button_from_crafting",
+			"ctft:lodestone_pressure_plate_from_crafting",
+			"ctft:lodestone_fence_gate_from_crafting"
 		]
 	}
 }

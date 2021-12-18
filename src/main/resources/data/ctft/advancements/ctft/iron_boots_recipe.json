@@ -44,7 +44,14 @@
 			"ctft:iron_boots_slab_from_crafting",
 			"ctft:iron_boots_glass_pane_from_crafting",
 			"ctft:iron_boots_pane_from_crafting",
-			"ctft:iron_boots_glass_from_smelting"
+			"ctft:iron_boots_glass_from_smelting",
+			"ctft:iron_boots_stairs_from_stonecutter",
+			"ctft:iron_boots_slab_from_stonecutter",
+			"ctft:iron_boots_wall_from_stonecutter",
+			"ctft:iron_boots_lever_from_crafting",
+			"ctft:iron_boots_button_from_crafting",
+			"ctft:iron_boots_pressure_plate_from_crafting",
+			"ctft:iron_boots_fence_gate_from_crafting"
 		]
 	}
 }

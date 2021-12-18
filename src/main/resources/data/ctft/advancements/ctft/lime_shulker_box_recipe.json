@@ -44,7 +44,14 @@
 			"ctft:lime_shulker_box_slab_from_crafting",
 			"ctft:lime_shulker_box_glass_pane_from_crafting",
 			"ctft:lime_shulker_box_pane_from_crafting",
-			"ctft:lime_shulker_box_glass_from_smelting"
+			"ctft:lime_shulker_box_glass_from_smelting",
+			"ctft:lime_shulker_box_stairs_from_stonecutter",
+			"ctft:lime_shulker_box_slab_from_stonecutter",
+			"ctft:lime_shulker_box_wall_from_stonecutter",
+			"ctft:lime_shulker_box_lever_from_crafting",
+			"ctft:lime_shulker_box_button_from_crafting",
+			"ctft:lime_shulker_box_pressure_plate_from_crafting",
+			"ctft:lime_shulker_box_fence_gate_from_crafting"
 		]
 	}
 }

@@ -44,7 +44,14 @@
 			"ctft:hanging_roots_slab_from_crafting",
 			"ctft:hanging_roots_glass_pane_from_crafting",
 			"ctft:hanging_roots_pane_from_crafting",
-			"ctft:hanging_roots_glass_from_smelting"
+			"ctft:hanging_roots_glass_from_smelting",
+			"ctft:hanging_roots_stairs_from_stonecutter",
+			"ctft:hanging_roots_slab_from_stonecutter",
+			"ctft:hanging_roots_wall_from_stonecutter",
+			"ctft:hanging_roots_lever_from_crafting",
+			"ctft:hanging_roots_button_from_crafting",
+			"ctft:hanging_roots_pressure_plate_from_crafting",
+			"ctft:hanging_roots_fence_gate_from_crafting"
 		]
 	}
 }

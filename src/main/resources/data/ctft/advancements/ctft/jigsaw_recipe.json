@@ -44,7 +44,14 @@
 			"ctft:jigsaw_slab_from_crafting",
 			"ctft:jigsaw_glass_pane_from_crafting",
 			"ctft:jigsaw_pane_from_crafting",
-			"ctft:jigsaw_glass_from_smelting"
+			"ctft:jigsaw_glass_from_smelting",
+			"ctft:jigsaw_stairs_from_stonecutter",
+			"ctft:jigsaw_slab_from_stonecutter",
+			"ctft:jigsaw_wall_from_stonecutter",
+			"ctft:jigsaw_lever_from_crafting",
+			"ctft:jigsaw_button_from_crafting",
+			"ctft:jigsaw_pressure_plate_from_crafting",
+			"ctft:jigsaw_fence_gate_from_crafting"
 		]
 	}
 }

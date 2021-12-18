@@ -44,7 +44,14 @@
 			"ctft:wooden_axe_slab_from_crafting",
 			"ctft:wooden_axe_glass_pane_from_crafting",
 			"ctft:wooden_axe_pane_from_crafting",
-			"ctft:wooden_axe_glass_from_smelting"
+			"ctft:wooden_axe_glass_from_smelting",
+			"ctft:wooden_axe_stairs_from_stonecutter",
+			"ctft:wooden_axe_slab_from_stonecutter",
+			"ctft:wooden_axe_wall_from_stonecutter",
+			"ctft:wooden_axe_lever_from_crafting",
+			"ctft:wooden_axe_button_from_crafting",
+			"ctft:wooden_axe_pressure_plate_from_crafting",
+			"ctft:wooden_axe_fence_gate_from_crafting"
 		]
 	}
 }

@@ -44,7 +44,14 @@
 			"ctft:carrot_on_a_stick_slab_from_crafting",
 			"ctft:carrot_on_a_stick_glass_pane_from_crafting",
 			"ctft:carrot_on_a_stick_pane_from_crafting",
-			"ctft:carrot_on_a_stick_glass_from_smelting"
+			"ctft:carrot_on_a_stick_glass_from_smelting",
+			"ctft:carrot_on_a_stick_stairs_from_stonecutter",
+			"ctft:carrot_on_a_stick_slab_from_stonecutter",
+			"ctft:carrot_on_a_stick_wall_from_stonecutter",
+			"ctft:carrot_on_a_stick_lever_from_crafting",
+			"ctft:carrot_on_a_stick_button_from_crafting",
+			"ctft:carrot_on_a_stick_pressure_plate_from_crafting",
+			"ctft:carrot_on_a_stick_fence_gate_from_crafting"
 		]
 	}
 }

@@ -44,7 +44,14 @@
 			"ctft:pumpkin_pie_slab_from_crafting",
 			"ctft:pumpkin_pie_glass_pane_from_crafting",
 			"ctft:pumpkin_pie_pane_from_crafting",
-			"ctft:pumpkin_pie_glass_from_smelting"
+			"ctft:pumpkin_pie_glass_from_smelting",
+			"ctft:pumpkin_pie_stairs_from_stonecutter",
+			"ctft:pumpkin_pie_slab_from_stonecutter",
+			"ctft:pumpkin_pie_wall_from_stonecutter",
+			"ctft:pumpkin_pie_lever_from_crafting",
+			"ctft:pumpkin_pie_button_from_crafting",
+			"ctft:pumpkin_pie_pressure_plate_from_crafting",
+			"ctft:pumpkin_pie_fence_gate_from_crafting"
 		]
 	}
 }

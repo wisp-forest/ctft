@@ -44,7 +44,14 @@
 			"ctft:music_disc_mellohi_slab_from_crafting",
 			"ctft:music_disc_mellohi_glass_pane_from_crafting",
 			"ctft:music_disc_mellohi_pane_from_crafting",
-			"ctft:music_disc_mellohi_glass_from_smelting"
+			"ctft:music_disc_mellohi_glass_from_smelting",
+			"ctft:music_disc_mellohi_stairs_from_stonecutter",
+			"ctft:music_disc_mellohi_slab_from_stonecutter",
+			"ctft:music_disc_mellohi_wall_from_stonecutter",
+			"ctft:music_disc_mellohi_lever_from_crafting",
+			"ctft:music_disc_mellohi_button_from_crafting",
+			"ctft:music_disc_mellohi_pressure_plate_from_crafting",
+			"ctft:music_disc_mellohi_fence_gate_from_crafting"
 		]
 	}
 }

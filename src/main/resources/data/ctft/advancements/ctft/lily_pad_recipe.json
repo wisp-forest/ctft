@@ -44,7 +44,14 @@
 			"ctft:lily_pad_slab_from_crafting",
 			"ctft:lily_pad_glass_pane_from_crafting",
 			"ctft:lily_pad_pane_from_crafting",
-			"ctft:lily_pad_glass_from_smelting"
+			"ctft:lily_pad_glass_from_smelting",
+			"ctft:lily_pad_stairs_from_stonecutter",
+			"ctft:lily_pad_slab_from_stonecutter",
+			"ctft:lily_pad_wall_from_stonecutter",
+			"ctft:lily_pad_lever_from_crafting",
+			"ctft:lily_pad_button_from_crafting",
+			"ctft:lily_pad_pressure_plate_from_crafting",
+			"ctft:lily_pad_fence_gate_from_crafting"
 		]
 	}
 }

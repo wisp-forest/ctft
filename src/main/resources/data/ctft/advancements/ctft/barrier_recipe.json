@@ -44,7 +44,14 @@
 			"ctft:barrier_slab_from_crafting",
 			"ctft:barrier_glass_pane_from_crafting",
 			"ctft:barrier_pane_from_crafting",
-			"ctft:barrier_glass_from_smelting"
+			"ctft:barrier_glass_from_smelting",
+			"ctft:barrier_stairs_from_stonecutter",
+			"ctft:barrier_slab_from_stonecutter",
+			"ctft:barrier_wall_from_stonecutter",
+			"ctft:barrier_lever_from_crafting",
+			"ctft:barrier_button_from_crafting",
+			"ctft:barrier_pressure_plate_from_crafting",
+			"ctft:barrier_fence_gate_from_crafting"
 		]
 	}
 }

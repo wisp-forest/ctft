@@ -44,7 +44,14 @@
 			"ctft:flint_and_steel_slab_from_crafting",
 			"ctft:flint_and_steel_glass_pane_from_crafting",
 			"ctft:flint_and_steel_pane_from_crafting",
-			"ctft:flint_and_steel_glass_from_smelting"
+			"ctft:flint_and_steel_glass_from_smelting",
+			"ctft:flint_and_steel_stairs_from_stonecutter",
+			"ctft:flint_and_steel_slab_from_stonecutter",
+			"ctft:flint_and_steel_wall_from_stonecutter",
+			"ctft:flint_and_steel_lever_from_crafting",
+			"ctft:flint_and_steel_button_from_crafting",
+			"ctft:flint_and_steel_pressure_plate_from_crafting",
+			"ctft:flint_and_steel_fence_gate_from_crafting"
 		]
 	}
 }

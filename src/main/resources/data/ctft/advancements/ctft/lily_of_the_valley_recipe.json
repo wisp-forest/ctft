@@ -44,7 +44,14 @@
 			"ctft:lily_of_the_valley_slab_from_crafting",
 			"ctft:lily_of_the_valley_glass_pane_from_crafting",
 			"ctft:lily_of_the_valley_pane_from_crafting",
-			"ctft:lily_of_the_valley_glass_from_smelting"
+			"ctft:lily_of_the_valley_glass_from_smelting",
+			"ctft:lily_of_the_valley_stairs_from_stonecutter",
+			"ctft:lily_of_the_valley_slab_from_stonecutter",
+			"ctft:lily_of_the_valley_wall_from_stonecutter",
+			"ctft:lily_of_the_valley_lever_from_crafting",
+			"ctft:lily_of_the_valley_button_from_crafting",
+			"ctft:lily_of_the_valley_pressure_plate_from_crafting",
+			"ctft:lily_of_the_valley_fence_gate_from_crafting"
 		]
 	}
 }

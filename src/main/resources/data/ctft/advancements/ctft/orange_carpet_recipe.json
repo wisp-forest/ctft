@@ -44,7 +44,14 @@
 			"ctft:orange_carpet_slab_from_crafting",
 			"ctft:orange_carpet_glass_pane_from_crafting",
 			"ctft:orange_carpet_pane_from_crafting",
-			"ctft:orange_carpet_glass_from_smelting"
+			"ctft:orange_carpet_glass_from_smelting",
+			"ctft:orange_carpet_stairs_from_stonecutter",
+			"ctft:orange_carpet_slab_from_stonecutter",
+			"ctft:orange_carpet_wall_from_stonecutter",
+			"ctft:orange_carpet_lever_from_crafting",
+			"ctft:orange_carpet_button_from_crafting",
+			"ctft:orange_carpet_pressure_plate_from_crafting",
+			"ctft:orange_carpet_fence_gate_from_crafting"
 		]
 	}
 }

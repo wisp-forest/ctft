@@ -44,7 +44,14 @@
 			"ctft:salmon_slab_from_crafting",
 			"ctft:salmon_glass_pane_from_crafting",
 			"ctft:salmon_pane_from_crafting",
-			"ctft:salmon_glass_from_smelting"
+			"ctft:salmon_glass_from_smelting",
+			"ctft:salmon_stairs_from_stonecutter",
+			"ctft:salmon_slab_from_stonecutter",
+			"ctft:salmon_wall_from_stonecutter",
+			"ctft:salmon_lever_from_crafting",
+			"ctft:salmon_button_from_crafting",
+			"ctft:salmon_pressure_plate_from_crafting",
+			"ctft:salmon_fence_gate_from_crafting"
 		]
 	}
 }

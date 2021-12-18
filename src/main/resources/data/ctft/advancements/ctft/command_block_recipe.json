@@ -44,7 +44,14 @@
 			"ctft:command_block_slab_from_crafting",
 			"ctft:command_block_glass_pane_from_crafting",
 			"ctft:command_block_pane_from_crafting",
-			"ctft:command_block_glass_from_smelting"
+			"ctft:command_block_glass_from_smelting",
+			"ctft:command_block_stairs_from_stonecutter",
+			"ctft:command_block_slab_from_stonecutter",
+			"ctft:command_block_wall_from_stonecutter",
+			"ctft:command_block_lever_from_crafting",
+			"ctft:command_block_button_from_crafting",
+			"ctft:command_block_pressure_plate_from_crafting",
+			"ctft:command_block_fence_gate_from_crafting"
 		]
 	}
 }

@@ -44,7 +44,14 @@
 			"ctft:black_wool_slab_from_crafting",
 			"ctft:black_wool_glass_pane_from_crafting",
 			"ctft:black_wool_pane_from_crafting",
-			"ctft:black_wool_glass_from_smelting"
+			"ctft:black_wool_glass_from_smelting",
+			"ctft:black_wool_stairs_from_stonecutter",
+			"ctft:black_wool_slab_from_stonecutter",
+			"ctft:black_wool_wall_from_stonecutter",
+			"ctft:black_wool_lever_from_crafting",
+			"ctft:black_wool_button_from_crafting",
+			"ctft:black_wool_pressure_plate_from_crafting",
+			"ctft:black_wool_fence_gate_from_crafting"
 		]
 	}
 }

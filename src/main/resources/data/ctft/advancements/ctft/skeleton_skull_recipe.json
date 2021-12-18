@@ -44,7 +44,14 @@
 			"ctft:skeleton_skull_slab_from_crafting",
 			"ctft:skeleton_skull_glass_pane_from_crafting",
 			"ctft:skeleton_skull_pane_from_crafting",
-			"ctft:skeleton_skull_glass_from_smelting"
+			"ctft:skeleton_skull_glass_from_smelting",
+			"ctft:skeleton_skull_stairs_from_stonecutter",
+			"ctft:skeleton_skull_slab_from_stonecutter",
+			"ctft:skeleton_skull_wall_from_stonecutter",
+			"ctft:skeleton_skull_lever_from_crafting",
+			"ctft:skeleton_skull_button_from_crafting",
+			"ctft:skeleton_skull_pressure_plate_from_crafting",
+			"ctft:skeleton_skull_fence_gate_from_crafting"
 		]
 	}
 }

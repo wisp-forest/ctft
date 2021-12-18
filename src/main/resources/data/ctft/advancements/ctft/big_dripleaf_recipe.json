@@ -44,7 +44,14 @@
 			"ctft:big_dripleaf_slab_from_crafting",
 			"ctft:big_dripleaf_glass_pane_from_crafting",
 			"ctft:big_dripleaf_pane_from_crafting",
-			"ctft:big_dripleaf_glass_from_smelting"
+			"ctft:big_dripleaf_glass_from_smelting",
+			"ctft:big_dripleaf_stairs_from_stonecutter",
+			"ctft:big_dripleaf_slab_from_stonecutter",
+			"ctft:big_dripleaf_wall_from_stonecutter",
+			"ctft:big_dripleaf_lever_from_crafting",
+			"ctft:big_dripleaf_button_from_crafting",
+			"ctft:big_dripleaf_pressure_plate_from_crafting",
+			"ctft:big_dripleaf_fence_gate_from_crafting"
 		]
 	}
 }

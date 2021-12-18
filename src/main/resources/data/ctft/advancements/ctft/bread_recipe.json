@@ -44,7 +44,14 @@
 			"ctft:bread_slab_from_crafting",
 			"ctft:bread_glass_pane_from_crafting",
 			"ctft:bread_pane_from_crafting",
-			"ctft:bread_glass_from_smelting"
+			"ctft:bread_glass_from_smelting",
+			"ctft:bread_stairs_from_stonecutter",
+			"ctft:bread_slab_from_stonecutter",
+			"ctft:bread_wall_from_stonecutter",
+			"ctft:bread_lever_from_crafting",
+			"ctft:bread_button_from_crafting",
+			"ctft:bread_pressure_plate_from_crafting",
+			"ctft:bread_fence_gate_from_crafting"
 		]
 	}
 }

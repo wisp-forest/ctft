@@ -44,7 +44,14 @@
 			"ctft:pufferfish_bucket_slab_from_crafting",
 			"ctft:pufferfish_bucket_glass_pane_from_crafting",
 			"ctft:pufferfish_bucket_pane_from_crafting",
-			"ctft:pufferfish_bucket_glass_from_smelting"
+			"ctft:pufferfish_bucket_glass_from_smelting",
+			"ctft:pufferfish_bucket_stairs_from_stonecutter",
+			"ctft:pufferfish_bucket_slab_from_stonecutter",
+			"ctft:pufferfish_bucket_wall_from_stonecutter",
+			"ctft:pufferfish_bucket_lever_from_crafting",
+			"ctft:pufferfish_bucket_button_from_crafting",
+			"ctft:pufferfish_bucket_pressure_plate_from_crafting",
+			"ctft:pufferfish_bucket_fence_gate_from_crafting"
 		]
 	}
 }

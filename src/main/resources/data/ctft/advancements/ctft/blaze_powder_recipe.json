@@ -44,7 +44,14 @@
 			"ctft:blaze_powder_slab_from_crafting",
 			"ctft:blaze_powder_glass_pane_from_crafting",
 			"ctft:blaze_powder_pane_from_crafting",
-			"ctft:blaze_powder_glass_from_smelting"
+			"ctft:blaze_powder_glass_from_smelting",
+			"ctft:blaze_powder_stairs_from_stonecutter",
+			"ctft:blaze_powder_slab_from_stonecutter",
+			"ctft:blaze_powder_wall_from_stonecutter",
+			"ctft:blaze_powder_lever_from_crafting",
+			"ctft:blaze_powder_button_from_crafting",
+			"ctft:blaze_powder_pressure_plate_from_crafting",
+			"ctft:blaze_powder_fence_gate_from_crafting"
 		]
 	}
 }

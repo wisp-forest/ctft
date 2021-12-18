@@ -44,7 +44,14 @@
 			"ctft:tuff_slab_from_crafting",
 			"ctft:tuff_glass_pane_from_crafting",
 			"ctft:tuff_pane_from_crafting",
-			"ctft:tuff_glass_from_smelting"
+			"ctft:tuff_glass_from_smelting",
+			"ctft:tuff_stairs_from_stonecutter",
+			"ctft:tuff_slab_from_stonecutter",
+			"ctft:tuff_wall_from_stonecutter",
+			"ctft:tuff_lever_from_crafting",
+			"ctft:tuff_button_from_crafting",
+			"ctft:tuff_pressure_plate_from_crafting",
+			"ctft:tuff_fence_gate_from_crafting"
 		]
 	}
 }

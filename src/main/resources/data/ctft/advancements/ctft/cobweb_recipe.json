@@ -44,7 +44,14 @@
 			"ctft:cobweb_slab_from_crafting",
 			"ctft:cobweb_glass_pane_from_crafting",
 			"ctft:cobweb_pane_from_crafting",
-			"ctft:cobweb_glass_from_smelting"
+			"ctft:cobweb_glass_from_smelting",
+			"ctft:cobweb_stairs_from_stonecutter",
+			"ctft:cobweb_slab_from_stonecutter",
+			"ctft:cobweb_wall_from_stonecutter",
+			"ctft:cobweb_lever_from_crafting",
+			"ctft:cobweb_button_from_crafting",
+			"ctft:cobweb_pressure_plate_from_crafting",
+			"ctft:cobweb_fence_gate_from_crafting"
 		]
 	}
 }

@@ -44,7 +44,14 @@
 			"ctft:carrot_slab_from_crafting",
 			"ctft:carrot_glass_pane_from_crafting",
 			"ctft:carrot_pane_from_crafting",
-			"ctft:carrot_glass_from_smelting"
+			"ctft:carrot_glass_from_smelting",
+			"ctft:carrot_stairs_from_stonecutter",
+			"ctft:carrot_slab_from_stonecutter",
+			"ctft:carrot_wall_from_stonecutter",
+			"ctft:carrot_lever_from_crafting",
+			"ctft:carrot_button_from_crafting",
+			"ctft:carrot_pressure_plate_from_crafting",
+			"ctft:carrot_fence_gate_from_crafting"
 		]
 	}
 }
