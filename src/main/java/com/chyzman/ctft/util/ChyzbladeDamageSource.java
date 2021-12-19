@@ -6,7 +6,7 @@ import net.minecraft.text.Text;
 import net.minecraft.text.TranslatableText;
 
 public class ChyzbladeDamageSource extends DamageSource {
-    private boolean isWorthy;
+    private boolean isWorthy = true;
 
     public ChyzbladeDamageSource() {
         super("player");
@@ -23,6 +23,11 @@ public class ChyzbladeDamageSource extends DamageSource {
         return isWorthy
                 ? new TranslatableText(baseKey, entity.getDisplayName(), livingEntity.getDisplayName())
                 : new TranslatableText(unworthyKey, entity.getDisplayName());
+    }
+
+    @Override
+    public boolean isSourceCreativePlayer() {
+        return true;
     }
 
     public DamageSource setUnworthy() {

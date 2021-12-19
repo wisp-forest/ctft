@@ -8,5 +8,6 @@ import net.fabricmc.api.Environment;
 public class CtftClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
+
     }
 }

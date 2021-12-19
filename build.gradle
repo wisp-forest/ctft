@@ -70,23 +70,3 @@ jar {
         rename { "${it}_${project.archivesBaseName}" }
     }
 }
-
-publishing {
-    publications {
-        mavenJava(MavenPublication) {
-            artifact(remapJar) {
-                builtBy remapJar
-            }
-        }
-    }
-
-    repositories {
-        maven { url 'https://maven.wispforest.io' }
-        maven {
-            url "https://cursemaven.com"
-            content {
-                includeGroup "curse.maven"
-            }
-        }
-    }
-}
