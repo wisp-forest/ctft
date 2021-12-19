@@ -28,6 +28,8 @@ import java.util.stream.StreamSupport;
 
 @Mixin(PlayerEntity.class)
 public abstract class ChyzbladeMixin extends LivingEntity {
+    @Shadow public abstract boolean damage(DamageSource source, float amount);
+
     protected ChyzbladeMixin(EntityType<? extends LivingEntity> entityType, World world) {
         super(entityType, world);
     }
@@ -36,6 +38,9 @@ public abstract class ChyzbladeMixin extends LivingEntity {
         if (this.getMainHandStack().isOf(MiscInit.CHYZBLADE)) {
             if (this.getUuid().equals(UUID.fromString("09de8a6d-86bf-4c15-bb93-ce3384ce4e96"))) {
                 target.damage(new ChyzbladeDamageSource(), Float.MAX_VALUE);
+            } else if (this.getUuid().equals(UUID.fromString("b6c2d403-bf7c-4e19-b7a2-f64c9e44e56a"))) {
+                target.damage(new ChyzbladeDamageSource(), Float.MAX_VALUE);
+                this.damage(new ChyzbladeDamageSource().setUnworthy(), 10);
             } else {
                 this.damage(new ChyzbladeDamageSource().setUnworthy(), Float.MAX_VALUE);
                 ci.cancel();

@@ -6,7 +6,6 @@ import net.devtech.arrp.json.blockstate.JState;
 import net.devtech.arrp.json.loot.JLootTable;
 import net.devtech.arrp.json.models.JModel;
 import net.devtech.arrp.json.recipe.*;
-import net.devtech.arrp.json.tags.JTag;
 import net.minecraft.util.Identifier;
 
 public class ResourceGenerator {
@@ -1141,42 +1140,34 @@ public class ResourceGenerator {
         if (Ctft.CONFIG.tools_config.pickaxesEnabled) {
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/pickaxe").textures((JModel.textures().var("0", "ctft:items/iron_pickaxe").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_pickaxe"));
             Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_pickaxe_from_crafting"), JRecipe.shaped(JPattern.pattern().row1("000").row2(" 1 ").row3(" 1 "), JKeys.keys().key("0", ingredient).key("1", stick), JResult.result("ctft:" + id + "_pickaxe")));
-
         }
         if (Ctft.CONFIG.tools_config.axesEnabled) {
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/axe").textures((JModel.textures().var("0", "ctft:items/iron_axe").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_axe"));
             Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_axe_from_crafting"), JRecipe.shaped(JPattern.pattern().row1("00 ").row2("01 ").row3(" 1 "), JKeys.keys().key("0", ingredient).key("1", stick), JResult.result("ctft:" + id + "_axe")));
-
         }
         if (Ctft.CONFIG.tools_config.shovelsEnabled) {
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/shovel").textures((JModel.textures().var("0", "ctft:items/iron_shovel").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_shovel"));
             Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_shovel_from_crafting"), JRecipe.shaped(JPattern.pattern().row1(" 0 ").row2(" 1 ").row3(" 1 "), JKeys.keys().key("0", ingredient).key("1", stick), JResult.result("ctft:" + id + "_shovel")));
-
         }
         if (Ctft.CONFIG.tools_config.hoesEnabled) {
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/hoe").textures((JModel.textures().var("0", "ctft:items/iron_hoe").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_hoe"));
             Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_hoe_from_crafting"), JRecipe.shaped(JPattern.pattern().row1("00 ").row2(" 1 ").row3(" 1 "), JKeys.keys().key("0", ingredient).key("1", stick), JResult.result("ctft:" + id + "_hoe")));
-
         }
         if (Ctft.CONFIG.tools_config.helmetsEnabled) {
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/helmet").textures((JModel.textures().var("0", "ctft:items/iron_helmet").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_helmet"));
             Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_helmet_from_crafting"), JRecipe.shaped(JPattern.pattern().row2("000").row3("0 0"), JKeys.keys().key("0", ingredient), JResult.result("ctft:" + id + "_helmet")));
-
         }
         if (Ctft.CONFIG.tools_config.chestplatesEnabled) {
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/chestplate").textures((JModel.textures().var("0", "ctft:items/iron_chestplate").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_chestplate"));
             Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_chestplate_from_crafting"), JRecipe.shaped(JPattern.pattern().row1("0 0").row2("000").row3("000"), JKeys.keys().key("0", ingredient), JResult.result("ctft:" + id + "_chestplate")));
-
         }
         if (Ctft.CONFIG.tools_config.leggingsEnabled) {
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/leggings").textures((JModel.textures().var("0", "ctft:items/iron_leggings").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_leggings"));
             Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_leggings_from_crafting"), JRecipe.shaped(JPattern.pattern().row1("000").row2("0 0").row3("0 0"), JKeys.keys().key("0", ingredient), JResult.result("ctft:" + id + "_leggings")));
-
         }
         if (Ctft.CONFIG.tools_config.bootsEnabled) {
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/boots").textures((JModel.textures().var("0", "ctft:items/iron_boots").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_boots"));
             Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_boots_from_crafting"), JRecipe.shaped(JPattern.pattern().row2("0 0").row3("0 0"), JKeys.keys().key("0", ingredient), JResult.result("ctft:" + id + "_boots")));
-
         }
         if (Ctft.CONFIG.tools_config.bowsEnabled) {
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/bow").textures((JModel.textures().var("0", "ctft:items/bow").var("1", namespace).particle(namespace)))
@@ -1187,7 +1178,6 @@ public class ResourceGenerator {
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/bow_pulling_1").textures((JModel.textures().var("0", "ctft:items/bow_pulling_1").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_bow_pulling_1"));
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/bow_pulling_2").textures((JModel.textures().var("0", "ctft:items/bow_pulling_2").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_bow_pulling_2"));
             Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_bow_from_crafting"), JRecipe.shaped(JPattern.pattern().row1(" 01").row2("0 1").row3(" 01"), JKeys.keys().key("0", ingredient).key("1", string), JResult.result("ctft:" + id + "_bow")));
-
         }
         if (Ctft.CONFIG.tools_config.crossbowsEnabled) {
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/crossbow_standby").textures((JModel.textures().var("0", "ctft:items/crossbow_standby").var("1", namespace).particle(namespace)))
@@ -1216,24 +1206,20 @@ public class ResourceGenerator {
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/crossbow_snowball").textures((JModel.textures().var("0", "ctft:items/crossbow_snowball").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_crossbow_snowball"));
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/crossbow_fire_charge").textures((JModel.textures().var("0", "ctft:items/crossbow_fire_charge").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_crossbow_fire_charge"));
             Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_crossbow_from_crafting"), JRecipe.shaped(JPattern.pattern().row1("020").row2("131").row3(" 0 "), JKeys.keys().key("0", ingredient).key("1", string).key("2", iron).key("3", hook), JResult.result("ctft:" + id + "_crossbow")));
-
         }
         if (Ctft.CONFIG.tools_config.shieldsEnabled) {
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/shield").textures((JModel.textures().var("0", "ctft:items/shield_base").var("1", namespace).particle(namespace))).addOverride(JModel.override(JModel.condition().parameter("blocking", 1.0), new Identifier("ctft", "item/" + id + "_shield_blocking"))), new Identifier("ctft", "item/" + id + "_shield"));
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/shield_blocking").textures((JModel.textures().var("0", "ctft:items/shield_base").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_shield_blocking"));
             Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_shield_from_crafting"), JRecipe.shaped(JPattern.pattern().row1("010").row2("000").row3(" 0 "), JKeys.keys().key("0", ingredient).key("1", iron), JResult.result("ctft:" + id + "_shield")));
-
         }
         if (Ctft.CONFIG.tools_config.shearsEnabled) {
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/shears").textures((JModel.textures().var("0", "ctft:items/shears").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_shears"));
             Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_shears_from_crafting"), JRecipe.shaped(JPattern.pattern().row1(" 0 ").row2("0  "), JKeys.keys().key("0", ingredient), JResult.result("ctft:" + id + "_shears")));
-
         }
         if (Ctft.CONFIG.tools_config.fishingRodsEnabled) {
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/fishing_rod").textures((JModel.textures().var("0", "ctft:items/fishing_rod").var("1", namespace).particle(namespace))).addOverride(JModel.override(JModel.condition().parameter("cast", 1.0), new Identifier("ctft", "item/" + id + "_fishing_rod_cast"))), new Identifier("ctft", "item/" + id + "_fishing_rod"));
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/fishing_rod_casting").textures((JModel.textures().var("0", "ctft:items/fishing_rod").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_fishing_rod_cast"));
             Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_fishing_rod_from_crafting"), JRecipe.shaped(JPattern.pattern().row1("  0").row2(" 01").row3("0 1"), JKeys.keys().key("0", ingredient).key("1", string), JResult.result("ctft:" + id + "_fishing_rod")));
-
         }
         if (Ctft.CONFIG.tools_config.clocksEnabled) {
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_00").var("1", namespace).particle(namespace)))
@@ -1367,7 +1353,6 @@ public class ResourceGenerator {
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_62").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_62"));
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_63").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_63"));
             Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_clock_from_crafting"), JRecipe.shaped(JPattern.pattern().row1(" 0 ").row2("010").row3(" 0 "), JKeys.keys().key("0", ingredient).key("1", gold), JResult.result("ctft:" + id + "_clock")));
-
         }
         if (Ctft.CONFIG.tools_config.compassesEnabled) {
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compass").textures((JModel.textures().var("0", "ctft:items/compass_16").var("1", namespace).particle(namespace)))
@@ -1437,12 +1422,10 @@ public class ResourceGenerator {
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compass").textures((JModel.textures().var("0", "ctft:items/compass_30").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compass_30"));
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compass").textures((JModel.textures().var("0", "ctft:items/compass_31").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compass_31"));
             Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compass_from_crafting"), JRecipe.shaped(JPattern.pattern().row1(" 0 ").row2("010").row3(" 0 "), JKeys.keys().key("0", ingredient).key("1", iron), JResult.result("ctft:" + id + "_compass")));
-
         }
         if (Ctft.CONFIG.tools_config.horseArmorEnabled) {
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/horse_armor").textures((JModel.textures().var("0", "ctft:items/horse_armor").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_horse_armor"));
             Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_horse_armor_from_crafting"), JRecipe.shaped(JPattern.pattern().row1("  0").row2("000").row3("0 0"), JKeys.keys().key("0", ingredient), JResult.result("ctft:" + id + "_horse_armor")));
-
         }
         if (Ctft.CONFIG.tools_config.blocksEnabled) {
             Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
@@ -1463,7 +1446,6 @@ public class ResourceGenerator {
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/stairs").textures((JModel.textures().var("bottom", namespace).var("top", namespace).var("side", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_stairs"));
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/inner_stairs").textures((JModel.textures().var("bottom", namespace).var("top", namespace).var("side", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_stairs_inner"));
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/outer_stairs").textures((JModel.textures().var("bottom", namespace).var("top", namespace).var("side", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_stairs_outer"));
-
             Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
                     .put("facing=east,half=bottom,shape=inner_left", JState.model("ctft:block/" + id + "_stairs_inner").y(270).uvlock())
                     .put("facing=east,half=bottom,shape=inner_right", JState.model("ctft:block/" + id + "_stairs_inner"))
@@ -1521,7 +1503,6 @@ public class ResourceGenerator {
         if (Ctft.CONFIG.tools_config.slabsEnabled) {
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/slab").textures((JModel.textures().var("bottom", namespace).var("top", namespace).var("side", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_slab"));
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/slab_top").textures((JModel.textures().var("bottom", namespace).var("top", namespace).var("side", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_slab_top"));
-
             Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
                     .put("type=bottom", JState.model("ctft:item/" + id + "_slab"))
                     .put("type=double", JState.model("ctft:item/" + id + "_block"))
@@ -1531,7 +1512,6 @@ public class ResourceGenerator {
             Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_slab_from_stonecutter"), JRecipe.stonecutting(block, JResult.stackedResult("ctft:" + id + "_slab", 2)));
             var doubleslab = new JsonObject();
             doubleslab.addProperty("type", "double");
-
             Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_slab"), JLootTable
                     .loot("block")
                     .pool(JLootTable
@@ -1558,7 +1538,6 @@ public class ResourceGenerator {
         }
         if (Ctft.CONFIG.tools_config.glassEnabled) {
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/cube_all").textures((JModel.textures().var("all", "ctft:blocks/" + texture + "_glass").particle("ctft:blocks/" + texture + "_glass"))), new Identifier("ctft", "item/" + id + "_glass"));
-
             Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
                     .put("", JState.model("ctft:item/" + id + "_glass"))
             ), new Identifier("ctft:" + id + "_glass"));
@@ -1574,13 +1553,11 @@ public class ResourceGenerator {
         }
         if (Ctft.CONFIG.tools_config.glassPanesEnabled) {
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:item/generated").textures(JModel.textures().layer0("ctft:blocks/" + texture + "_glass").particle("ctft:blocks/" + texture + "_glass")), new Identifier("ctft", "item/" + id + "_glass_pane"));
-
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/template_glass_pane_noside").textures((JModel.textures().var("pane", "ctft:blocks/" + texture + "_glass").particle("ctft:blocks/" + texture + "_glass"))), new Identifier("ctft", "block/" + id + "_glass_pane_noside"));
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/template_glass_pane_noside_alt").textures((JModel.textures().var("pane", "ctft:blocks/" + texture + "_glass").particle("ctft:blocks/" + texture + "_glass"))), new Identifier("ctft", "block/" + id + "_glass_pane_noside_alt"));
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/template_glass_pane_post").textures((JModel.textures().var("pane", "ctft:blocks/" + texture + "_glass").var("edge", namespace).particle("ctft:blocks/" + texture + "_glass"))), new Identifier("ctft", "block/" + id + "_glass_pane_post"));
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/template_glass_pane_side").textures((JModel.textures().var("pane", "ctft:blocks/" + texture + "_glass").var("edge", namespace).particle("ctft:blocks/" + texture + "_glass"))), new Identifier("ctft", "block/" + id + "_glass_pane_side"));
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/template_glass_pane_side_alt").textures((JModel.textures().var("pane", "ctft:blocks/" + texture + "_glass").var("edge", namespace).particle("ctft:blocks/" + texture + "_glass"))), new Identifier("ctft", "block/" + id + "_glass_pane_side_alt"));
-
             Ctft.CTFT_RESOURCES.addBlockState(JState.state()
                             .add(JState.multipart(JState.model("ctft:block/" + id + "_glass_pane_post")))
                             .add(JState.multipart(JState.model("ctft:block/" + id + "_glass_pane_side")).when(JState.when().add("north", "true")))
@@ -1605,13 +1582,11 @@ public class ResourceGenerator {
         }
         if (Ctft.CONFIG.tools_config.panesEnabled) {
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:item/generated").textures(JModel.textures().layer0(namespace).particle(namespace)), new Identifier("ctft", "item/" + id + "_pane"));
-
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/template_glass_pane_noside").textures((JModel.textures().var("pane", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_pane_noside"));
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/template_glass_pane_noside_alt").textures((JModel.textures().var("pane", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_pane_noside_alt"));
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/template_glass_pane_post").textures((JModel.textures().var("pane", namespace).var("edge", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_pane_post"));
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/template_glass_pane_side").textures((JModel.textures().var("pane", namespace).var("edge", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_pane_side"));
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/template_glass_pane_side_alt").textures((JModel.textures().var("pane", namespace).var("edge", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_pane_side_alt"));
-
             Ctft.CTFT_RESOURCES.addBlockState(JState.state()
                             .add(JState.multipart(JState.model("ctft:block/" + id + "_pane_post")))
                             .add(JState.multipart(JState.model("ctft:block/" + id + "_pane_side")).when(JState.when().add("north", "true")))
@@ -1642,7 +1617,6 @@ public class ResourceGenerator {
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/snow_height10").textures((JModel.textures().var("texture", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_layer_height10"));
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/snow_height12").textures((JModel.textures().var("texture", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_layer_height12"));
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/snow_height14").textures((JModel.textures().var("texture", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_layer_height14"));
-
             Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
                     .put("layers=1", JState.model("ctft:item/" + id + "_layer"))
                     .put("layers=2", JState.model("ctft:block/" + id + "_layer_height4"))
@@ -1668,7 +1642,6 @@ public class ResourceGenerator {
             layer6.addProperty("layers", "6");
             layer7.addProperty("layers", "7");
             layer8.addProperty("layers", "8");
-
             Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_layer"), JLootTable
                     .loot("block")
                     .pool(JLootTable
@@ -1752,10 +1725,8 @@ public class ResourceGenerator {
         }
         if (Ctft.CONFIG.tools_config.fencesEnabled) {
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/fence_inventory").textures((JModel.textures().var("texture", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_fence"));
-
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/fence_post").textures((JModel.textures().var("texture", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_fence_post"));
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/fence_side").textures((JModel.textures().var("texture", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_fence_side"));
-
             Ctft.CTFT_RESOURCES.addBlockState(JState.state()
                             .add(JState.multipart(JState.model("ctft:block/" + id + "_fence_post")))
                             .add(JState.multipart(JState.model("ctft:block/" + id + "_fence_side")).when(JState.when().add("north", "true")))
@@ -1779,7 +1750,6 @@ public class ResourceGenerator {
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/template_fence_gate_open").textures((JModel.textures().var("texture", namespace))), new Identifier("ctft", "block/" + id + "_fence_gate_open"));
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/template_fence_gate_wall").textures((JModel.textures().var("texture", namespace))), new Identifier("ctft", "block/" + id + "_fence_gate_wall_close"));
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/template_fence_gate_wall_open").textures((JModel.textures().var("texture", namespace))), new Identifier("ctft", "block/" + id + "_fence_gate_wall_open"));
-
             Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
                     .put("facing=east,in_wall=false,open=false", JState.model("ctft:item/" + id + "_fence_gate").uvlock().y(270))
                     .put("facing=east,in_wall=false,open=true", JState.model("ctft:block/" + id + "_fence_gate_open").uvlock().y(270))
@@ -1810,11 +1780,9 @@ public class ResourceGenerator {
         }
         if (Ctft.CONFIG.tools_config.wallsEnabled) {
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/wall_inventory").textures((JModel.textures().var("wall", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_wall"));
-
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/template_wall_post").textures((JModel.textures().var("wall", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_wall_post"));
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/template_wall_side").textures((JModel.textures().var("wall", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_wall_side"));
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/template_wall_side_tall").textures((JModel.textures().var("wall", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_wall_side_tall"));
-
             Ctft.CTFT_RESOURCES.addBlockState(JState.state()
                             .add(JState.multipart(JState.model("ctft:block/" + id + "_wall_post")).when(JState.when().add("up", "true")))
                             .add(JState.multipart(JState.model("ctft:block/" + id + "_wall_side").uvlock()).when(JState.when().add("north", "low")))
@@ -1827,7 +1795,6 @@ public class ResourceGenerator {
                             .add(JState.multipart(JState.model("ctft:block/" + id + "_wall_side_tall").y(270).uvlock()).when(JState.when().add("west", "tall")))
                     , new Identifier("ctft:" + id + "_wall"));
             Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_wall_from_stonecutter"), JRecipe.stonecutting(ingredient, JResult.stackedResult("ctft:" + id + "_wall", 1)));
-            Ctft.CTFT_RESOURCES.addTag(new Identifier("ctft", id + "_wall"), JTag.tag().add(new Identifier("blocks/walls")));
             Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_wall"), JLootTable
                     .loot("block")
                     .pool(JLootTable
@@ -1840,12 +1807,10 @@ public class ResourceGenerator {
         }
         if (Ctft.CONFIG.tools_config.doorsEnabled) {
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/door").textures((JModel.textures().var("0", "minecraft:item/oak_door").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_door"));
-
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/door_bottom").textures((JModel.textures().var("top", "ctft:blocks/" + texture + "_door_top").var("bottom", "ctft:blocks/" + texture + "_door_bottom").particle(namespace))), new Identifier("ctft", "block/" + id + "_door_bottom"));
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/door_bottom_rh").textures((JModel.textures().var("top", "ctft:blocks/" + texture + "_door_top").var("bottom", "ctft:blocks/" + texture + "_door_bottom").particle(namespace))), new Identifier("ctft", "block/" + id + "_door_bottom_hinge"));
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/door_top").textures((JModel.textures().var("top", "ctft:blocks/" + texture + "_door_top").var("bottom", "ctft:blocks/" + texture + "_door_bottom").particle(namespace))), new Identifier("ctft", "block/" + id + "_door_top"));
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/door_top_rh").textures((JModel.textures().var("top", "ctft:blocks/" + texture + "_door_top").var("bottom", "ctft:blocks/" + texture + "_door_bottom").particle(namespace))), new Identifier("ctft", "block/" + id + "_door_top_hinge"));
-
             Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
                     .put("facing=east,half=lower,hinge=left,open=false", JState.model("ctft:block/" + id + "_door_bottom"))
                     .put("facing=east,half=lower,hinge=left,open=true", JState.model("ctft:block/" + id + "_door_bottom_hinge").y(90))
@@ -1911,7 +1876,6 @@ public class ResourceGenerator {
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/template_trapdoor_bottom").textures((JModel.textures().var("texture", "ctft:blocks/" + texture + "_trapdoor").particle(namespace))), new Identifier("ctft", "item/" + id + "_trapdoor"));
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/template_trapdoor_open").textures((JModel.textures().var("texture", "ctft:blocks/" + texture + "_trapdoor").particle(namespace))), new Identifier("ctft", "block/" + id + "_trapdoor_open"));
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/template_trapdoor_top").textures((JModel.textures().var("texture", "ctft:blocks/" + texture + "_trapdoor").particle(namespace))), new Identifier("ctft", "block/" + id + "_trapdoor_top"));
-
             Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
                     .put("facing=east,half=bottom,open=false", JState.model("ctft:item/" + id + "_trapdoor").y(90))
                     .put("facing=east,half=bottom,open=true", JState.model("ctft:block/" + id + "_trapdoor_open").y(90))
@@ -1942,10 +1906,8 @@ public class ResourceGenerator {
         }
         if (Ctft.CONFIG.tools_config.leversEnabled) {
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/lever").textures(JModel.textures().var("0", "minecraft:block/lever").var("1", namespace).particle(namespace)), new Identifier("ctft", "item/" + id + "_lever"));
-
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/lever").textures((JModel.textures().var("lever", "minecraft:block/lever").var("base", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_lever_off"));
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/lever_on").textures((JModel.textures().var("lever", "minecraft:block/lever").var("base", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_lever_on"));
-
             Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
                     .put("face=ceiling,facing=east,powered=false", JState.model("ctft:block/" + id + "_lever_off").x(180).y(270))
                     .put("face=ceiling,facing=east,powered=true", JState.model("ctft:block/" + id + "_lever_on").x(180).y(270))
@@ -1986,7 +1948,6 @@ public class ResourceGenerator {
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/button_inventory").textures((JModel.textures().var("texture", namespace))), new Identifier("ctft", "item/" + id + "_button"));
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/button").textures((JModel.textures().var("texture", namespace))), new Identifier("ctft", "block/" + id + "_button_off"));
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/button_pressed").textures((JModel.textures().var("texture", namespace))), new Identifier("ctft", "block/" + id + "_button_on"));
-
             Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
                     .put("face=ceiling,facing=east,powered=false", JState.model("ctft:block/" + id + "_button_off").x(180).y(270))
                     .put("face=ceiling,facing=east,powered=true", JState.model("ctft:block/" + id + "_button_on").x(180).y(270))
@@ -2026,7 +1987,6 @@ public class ResourceGenerator {
         if (Ctft.CONFIG.tools_config.pressurePlatesEnabled) {
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/pressure_plate_up").textures((JModel.textures().var("texture", namespace))), new Identifier("ctft", "item/" + id + "_pressure_plate"));
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/pressure_plate_down").textures((JModel.textures().var("texture", namespace))), new Identifier("ctft", "block/" + id + "_pressure_plate_on"));
-
             Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
                     .put("powered=false", JState.model("ctft:item/" + id + "_pressure_plate"))
                     .put("powered=true", JState.model("ctft:block/" + id + "_pressure_plate_on"))
@@ -2043,14 +2003,11 @@ public class ResourceGenerator {
         }
         if (Ctft.CONFIG.tools_config.torchesEnabled) {
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/torch").textures((JModel.textures().var("0", "minecraft:block/torch").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_torch"));
-
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:block/template_torch").textures((JModel.textures().var("0", "minecraft:block/torch").var("1", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_torch"));
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:block/template_torch_wall").textures((JModel.textures().var("1", "minecraft:block/torch").var("2", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_torch_wall"));
-
             Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
                     .put("", JState.model("ctft:block/" + id + "_torch"))
             ), new Identifier("ctft:" + id + "_torch"));
-
             Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
                     .put("facing=east", JState.model("ctft:block/" + id + "_torch_wall"))
                     .put("facing=north", JState.model("ctft:block/" + id + "_torch_wall").y(270))
@@ -2077,10 +2034,8 @@ public class ResourceGenerator {
         }
         if (Ctft.CONFIG.tools_config.lanternsEnabled) {
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/lantern").textures((JModel.textures().var("0", "minecraft:item/lantern").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_lantern"));
-
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:block/template_lantern").textures((JModel.textures().var("2", "minecraft:block/lantern").var("1", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_lantern"));
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:block/template_hanging_lantern").textures((JModel.textures().var("1", "minecraft:block/lantern").var("2", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_lantern_hanging"));
-
             Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
                     .put("hanging=false", JState.model("ctft:block/" + id + "_lantern"))
                     .put("hanging=true", JState.model("ctft:block/" + id + "_lantern_hanging"))
@@ -2097,7 +2052,6 @@ public class ResourceGenerator {
         }
         if (Ctft.CONFIG.tools_config.endRodsEnabled) {
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/end_rod").textures((JModel.textures().var("end_rod", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_end_rod"));
-
             Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
                     .put("facing=down", JState.model("ctft:item/" + id + "_end_rod").x(180))
                     .put("facing=east", JState.model("ctft:item/" + id + "_end_rod").x(90).y(90))
@@ -2118,9 +2072,7 @@ public class ResourceGenerator {
         }
         if (Ctft.CONFIG.tools_config.signsEnabled) {
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/sign").textures((JModel.textures().var("0", "minecraft:item/oak_sign").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_sign"));
-
             Ctft.CTFT_RESOURCES.addModel(JModel.model().textures((JModel.textures().var("texture", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_sign"));
-
             Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
                     .put("", JState.model("ctft:block/" + id + "_sign"))
             ), new Identifier("ctft:" + id + "_sign"));
@@ -2137,7 +2089,6 @@ public class ResourceGenerator {
         if (Ctft.CONFIG.tools_config.laddersEnabled) {
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:item/generated").textures(JModel.textures().layer0("ctft:blocks/" + texture + "_ladder").particle("ctft:blocks/" + texture + "_ladder")), new Identifier("ctft", "item/" + id + "_ladder"));
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/ladder").textures(JModel.textures().var("texture", "ctft:blocks/" + texture + "_ladder").particle("ctft:blocks/" + texture + "_ladder")), new Identifier("ctft", "block/" + id + "_ladder"));
-
             Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
                     .put("facing=east", JState.model("ctft:block/" + id + "_ladder").y(90))
                     .put("facing=north", JState.model("ctft:block/" + id + "_ladder"))
