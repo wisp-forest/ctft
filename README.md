@@ -1,7 +1,6 @@
 # Craft This From That
-Make Anything out of literally Anything![^1]
+All The Items You Could Have Ever Not Wanted!
 
-[View on Curseforge](https://www.curseforge.com/minecraft/mc-mods/ctft)
-
-[View on Trello](https://trello.com/b/A4S8Dljs/craft-this-from-that)
-[^1]: not actually anything
+[![curseforge](https://img.shields.io/badge/-CurseForge-gray?style=for-the-badge&logo=curseforge&labelColor=orange)](https://www.curseforge.com/minecraft/mc-mods/ctft)
+[![release](https://img.shields.io/github/v/release/chyzman/ctft?logo=github&style=for-the-badge)](https://github.com/chyzman/ctft/)
+[![discord](https://img.shields.io/discord/825828008644313089?label=wisp%20forest&logo=discord&logoColor=white&style=for-the-badge)](https://discord.gg/ynSmPHfn7F)
