@@ -203,7 +203,7 @@ public class EndRodInit {
     public static final Block COBBLEDDEEPSLATEENDROD = register("cobbled_deepslate_end_rod", new CustomEndRodBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block COBBLEDDEEPSLATESLABENDROD = register("cobbled_deepslate_slab_end_rod", new CustomEndRodBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block COBBLEDDEEPSLATESTAIRSENDROD = register("cobbled_deepslate_stairs_end_rod", new CustomEndRodBlock(AbstractBlock.Settings.of(Material.METAL)));
-    public static final Block COBBLEDDEEPSLATEWALLENDROD = register("deepslate_wall_end_rod", new CustomEndRodBlock(AbstractBlock.Settings.of(Material.METAL)));
+    public static final Block COBBLEDDEEPSLATEWALLENDROD = register("cobbled_deepslate_wall_end_rod", new CustomEndRodBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block COBBLESTONEENDROD = register("cobblestone_end_rod", new CustomEndRodBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block COBBLESTONESLABENDROD = register("cobblestone_slab_end_rod", new CustomEndRodBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block COBBLESTONESTAIRSENDROD = register("cobblestone_stairs_end_rod", new CustomEndRodBlock(AbstractBlock.Settings.of(Material.METAL)));
@@ -404,7 +404,7 @@ public class EndRodInit {
     public static final Block FLOWERBANNERPATTERNENDROD = register("flower_banner_pattern_end_rod", new CustomEndRodBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block FLOWERPOTENDROD = register("flower_pot_end_rod", new CustomEndRodBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block FLOWERINGAZALEAENDROD = register("flowering_azalea_end_rod", new CustomEndRodBlock(AbstractBlock.Settings.of(Material.METAL)));
-    public static final Block FLOWERINGAZALEALEAVESENDROD = register("azalea_leaves_flowers_end_rod", new CustomEndRodBlock(AbstractBlock.Settings.of(Material.METAL)));
+    public static final Block FLOWERINGAZALEALEAVESENDROD = register("flowering_azalea_leaves_end_rod", new CustomEndRodBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block FOXSPAWNEGGENDROD = register("fox_spawn_egg_end_rod", new CustomEndRodBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block FURNACEENDROD = register("furnace_end_rod", new CustomEndRodBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block FURNACEMINECARTENDROD = register("furnace_minecart_end_rod", new CustomEndRodBlock(AbstractBlock.Settings.of(Material.METAL)));
@@ -1039,7 +1039,7 @@ public class EndRodInit {
     public static final Block WARPEDTRAPDOORENDROD = register("warped_trapdoor_end_rod", new CustomEndRodBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block WARPEDWARTBLOCKENDROD = register("warped_wart_block_end_rod", new CustomEndRodBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block WATERENDROD = register("water_bucket_end_rod", new CustomEndRodBlock(AbstractBlock.Settings.of(Material.METAL)));
-    public static final Block WAXEDBLOCKOFCOPPERENDROD = register("waxed_copper_end_rod", new CustomEndRodBlock(AbstractBlock.Settings.of(Material.METAL)));
+    public static final Block WAXEDBLOCKOFCOPPERENDROD = register("waxed_copper_block_end_rod", new CustomEndRodBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block WAXEDCUTCOPPERENDROD = register("waxed_cut_copper_end_rod", new CustomEndRodBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block WAXEDCUTCOPPERSLABENDROD = register("waxed_cut_copper_slab_end_rod", new CustomEndRodBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block WAXEDCUTCOPPERSTAIRSENDROD = register("waxed_cut_copper_stairs_end_rod", new CustomEndRodBlock(AbstractBlock.Settings.of(Material.METAL)));

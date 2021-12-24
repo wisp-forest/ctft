@@ -206,7 +206,7 @@ public class SlabItemInit {
     public static final Item COBBLEDDEEPSLATESLABITEM = register("cobbled_deepslate_slab", new CustomBlockItem(SlabInit.COBBLEDDEEPSLATESLAB, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item COBBLEDDEEPSLATESLABSLABITEM = register("cobbled_deepslate_slab_slab", new CustomBlockItem(SlabInit.COBBLEDDEEPSLATESLABSLAB, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item COBBLEDDEEPSLATESTAIRSSLABITEM = register("cobbled_deepslate_stairs_slab", new CustomBlockItem(SlabInit.COBBLEDDEEPSLATESTAIRSSLAB, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
-    public static final Item COBBLEDDEEPSLATEWALLSLABITEM = register("deepslate_wall_slab", new CustomBlockItem(SlabInit.COBBLEDDEEPSLATEWALLSLAB, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
+    public static final Item COBBLEDDEEPSLATEWALLSLABITEM = register("cobbled_deepslate_wall_slab", new CustomBlockItem(SlabInit.COBBLEDDEEPSLATEWALLSLAB, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item COBBLESTONESLABITEM = register("cobblestone_slab", new CustomBlockItem(SlabInit.COBBLESTONESLAB, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item COBBLESTONESLABSLABITEM = register("cobblestone_slab_slab", new CustomBlockItem(SlabInit.COBBLESTONESLABSLAB, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item COBBLESTONESTAIRSSLABITEM = register("cobblestone_stairs_slab", new CustomBlockItem(SlabInit.COBBLESTONESTAIRSSLAB, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
@@ -407,7 +407,7 @@ public class SlabItemInit {
     public static final Item FLOWERBANNERPATTERNSLABITEM = register("flower_banner_pattern_slab", new CustomBlockItem(SlabInit.FLOWERBANNERPATTERNSLAB, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item FLOWERPOTSLABITEM = register("flower_pot_slab", new CustomBlockItem(SlabInit.FLOWERPOTSLAB, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item FLOWERINGAZALEASLABITEM = register("flowering_azalea_slab", new CustomBlockItem(SlabInit.FLOWERINGAZALEASLAB, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
-    public static final Item FLOWERINGAZALEALEAVESSLABITEM = register("azalea_leaves_flowers_slab", new CustomBlockItem(SlabInit.FLOWERINGAZALEALEAVESSLAB, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
+    public static final Item FLOWERINGAZALEALEAVESSLABITEM = register("flowering_azalea_leaves_slab", new CustomBlockItem(SlabInit.FLOWERINGAZALEALEAVESSLAB, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item FOXSPAWNEGGSLABITEM = register("fox_spawn_egg_slab", new CustomBlockItem(SlabInit.FOXSPAWNEGGSLAB, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item FURNACESLABITEM = register("furnace_slab", new CustomBlockItem(SlabInit.FURNACESLAB, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item FURNACEMINECARTSLABITEM = register("furnace_minecart_slab", new CustomBlockItem(SlabInit.FURNACEMINECARTSLAB, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
@@ -1042,7 +1042,7 @@ public class SlabItemInit {
     public static final Item WARPEDTRAPDOORSLABITEM = register("warped_trapdoor_slab", new CustomBlockItem(SlabInit.WARPEDTRAPDOORSLAB, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item WARPEDWARTBLOCKSLABITEM = register("warped_wart_block_slab", new CustomBlockItem(SlabInit.WARPEDWARTBLOCKSLAB, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item WATERSLABITEM = register("water_bucket_slab", new CustomBlockItem(SlabInit.WATERSLAB, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
-    public static final Item WAXEDBLOCKOFCOPPERSLABITEM = register("waxed_copper_slab", new CustomBlockItem(SlabInit.WAXEDBLOCKOFCOPPERSLAB, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
+    public static final Item WAXEDBLOCKOFCOPPERSLABITEM = register("waxed_copper_block_slab", new CustomBlockItem(SlabInit.WAXEDBLOCKOFCOPPERSLAB, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item WAXEDCUTCOPPERSLABITEM = register("waxed_cut_copper_slab", new CustomBlockItem(SlabInit.WAXEDCUTCOPPERSLAB, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item WAXEDCUTCOPPERSLABSLABITEM = register("waxed_cut_copper_slab_slab", new CustomBlockItem(SlabInit.WAXEDCUTCOPPERSLABSLAB, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item WAXEDCUTCOPPERSTAIRSSLABITEM = register("waxed_cut_copper_stairs_slab", new CustomBlockItem(SlabInit.WAXEDCUTCOPPERSTAIRSSLAB, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));

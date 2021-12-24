@@ -203,7 +203,7 @@ public class LayerInit {
     public static final Block COBBLEDDEEPSLATELAYER = register("cobbled_deepslate_layer", new CustomSnowBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block COBBLEDDEEPSLATESLABLAYER = register("cobbled_deepslate_slab_layer", new CustomSnowBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block COBBLEDDEEPSLATESTAIRSLAYER = register("cobbled_deepslate_stairs_layer", new CustomSnowBlock(AbstractBlock.Settings.of(Material.METAL)));
-    public static final Block COBBLEDDEEPSLATEWALLLAYER = register("deepslate_wall_layer", new CustomSnowBlock(AbstractBlock.Settings.of(Material.METAL)));
+    public static final Block COBBLEDDEEPSLATEWALLLAYER = register("cobbled_deepslate_wall_layer", new CustomSnowBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block COBBLESTONELAYER = register("cobblestone_layer", new CustomSnowBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block COBBLESTONESLABLAYER = register("cobblestone_slab_layer", new CustomSnowBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block COBBLESTONESTAIRSLAYER = register("cobblestone_stairs_layer", new CustomSnowBlock(AbstractBlock.Settings.of(Material.METAL)));
@@ -404,7 +404,7 @@ public class LayerInit {
     public static final Block FLOWERBANNERPATTERNLAYER = register("flower_banner_pattern_layer", new CustomSnowBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block FLOWERPOTLAYER = register("flower_pot_layer", new CustomSnowBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block FLOWERINGAZALEALAYER = register("flowering_azalea_layer", new CustomSnowBlock(AbstractBlock.Settings.of(Material.METAL)));
-    public static final Block FLOWERINGAZALEALEAVESLAYER = register("azalea_leaves_flowers_layer", new CustomSnowBlock(AbstractBlock.Settings.of(Material.METAL)));
+    public static final Block FLOWERINGAZALEALEAVESLAYER = register("flowering_azalea_leaves_layer", new CustomSnowBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block FOXSPAWNEGGLAYER = register("fox_spawn_egg_layer", new CustomSnowBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block FURNACELAYER = register("furnace_layer", new CustomSnowBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block FURNACEMINECARTLAYER = register("furnace_minecart_layer", new CustomSnowBlock(AbstractBlock.Settings.of(Material.METAL)));
@@ -1039,7 +1039,7 @@ public class LayerInit {
     public static final Block WARPEDTRAPDOORLAYER = register("warped_trapdoor_layer", new CustomSnowBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block WARPEDWARTBLOCKLAYER = register("warped_wart_block_layer", new CustomSnowBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block WATERLAYER = register("water_bucket_layer", new CustomSnowBlock(AbstractBlock.Settings.of(Material.METAL)));
-    public static final Block WAXEDBLOCKOFCOPPERLAYER = register("waxed_copper_layer", new CustomSnowBlock(AbstractBlock.Settings.of(Material.METAL)));
+    public static final Block WAXEDBLOCKOFCOPPERLAYER = register("waxed_copper_block_layer", new CustomSnowBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block WAXEDCUTCOPPERLAYER = register("waxed_cut_copper_layer", new CustomSnowBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block WAXEDCUTCOPPERSLABLAYER = register("waxed_cut_copper_slab_layer", new CustomSnowBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block WAXEDCUTCOPPERSTAIRSLAYER = register("waxed_cut_copper_stairs_layer", new CustomSnowBlock(AbstractBlock.Settings.of(Material.METAL)));

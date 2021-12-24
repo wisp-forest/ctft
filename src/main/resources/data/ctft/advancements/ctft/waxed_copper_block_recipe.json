@@ -1,0 +1,68 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:waxed_copper_block"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:waxed_copper_block_sword_from_crafting",
+			"ctft:waxed_copper_block_pickaxe_from_crafting",
+			"ctft:waxed_copper_block_axe_from_crafting",
+			"ctft:waxed_copper_block_shovel_from_crafting",
+			"ctft:waxed_copper_block_hoe_from_crafting",
+			"ctft:waxed_copper_block_shield_from_crafting",
+			"ctft:waxed_copper_block_fishing_rod_from_crafting",
+			"ctft:waxed_copper_block_compass_from_crafting",
+			"ctft:waxed_copper_block_clock_from_crafting",
+			"ctft:waxed_copper_block_helmet_from_crafting",
+			"ctft:waxed_copper_block_chestplate_from_crafting",
+			"ctft:waxed_copper_block_leggings_from_crafting",
+			"ctft:waxed_copper_block_boots_from_crafting",
+			"ctft:waxed_copper_block_shears_from_crafting",
+			"ctft:waxed_copper_block_horse_armor_from_crafting",
+			"ctft:waxed_copper_block_bow_from_crafting",
+			"ctft:waxed_copper_block_crossbow_from_crafting",
+			"ctft:waxed_copper_block_block_from_material",
+			"ctft:waxed_copper_block_material_from_block",
+			"ctft:waxed_copper_block_stairs_from_crafting",
+			"ctft:waxed_copper_block_slab_from_crafting",
+			"ctft:waxed_copper_block_glass_pane_from_crafting",
+			"ctft:waxed_copper_block_pane_from_crafting",
+			"ctft:waxed_copper_block_glass_from_smelting",
+			"ctft:waxed_copper_block_stairs_from_stonecutter",
+			"ctft:waxed_copper_block_slab_from_stonecutter",
+			"ctft:waxed_copper_block_wall_from_stonecutter",
+			"ctft:waxed_copper_block_lever_from_crafting",
+			"ctft:waxed_copper_block_button_from_crafting",
+			"ctft:waxed_copper_block_pressure_plate_from_crafting",
+			"ctft:waxed_copper_block_fence_gate_from_crafting",
+			"ctft:waxed_copper_block_chain_from_stonecutter",
+			"ctft:waxed_copper_block_compressed1_from_block",
+			"ctft:waxed_copper_block_block_from_compressed1",
+			"ctft:waxed_copper_block_compressed2_from_compressed1",
+			"ctft:waxed_copper_block_compressed1_from_compressed2",
+			"ctft:waxed_copper_block_compressed3_from_compressed2",
+			"ctft:waxed_copper_block_compressed2_from_compressed3",
+			"ctft:waxed_copper_block_compressed4_from_compressed"3,
+			"ctft:waxed_copper_block_compressed3_from_compressed4",
+			"ctft:waxed_copper_block_compressed5_from_compressed4",
+			"ctft:waxed_copper_block_compressed4_from_compressed5"
+		]
+	}
+}

@@ -1,0 +1,68 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cobbled_deepslate_wall"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:cobbled_deepslate_wall_sword_from_crafting",
+			"ctft:cobbled_deepslate_wall_pickaxe_from_crafting",
+			"ctft:cobbled_deepslate_wall_axe_from_crafting",
+			"ctft:cobbled_deepslate_wall_shovel_from_crafting",
+			"ctft:cobbled_deepslate_wall_hoe_from_crafting",
+			"ctft:cobbled_deepslate_wall_shield_from_crafting",
+			"ctft:cobbled_deepslate_wall_fishing_rod_from_crafting",
+			"ctft:cobbled_deepslate_wall_compass_from_crafting",
+			"ctft:cobbled_deepslate_wall_clock_from_crafting",
+			"ctft:cobbled_deepslate_wall_helmet_from_crafting",
+			"ctft:cobbled_deepslate_wall_chestplate_from_crafting",
+			"ctft:cobbled_deepslate_wall_leggings_from_crafting",
+			"ctft:cobbled_deepslate_wall_boots_from_crafting",
+			"ctft:cobbled_deepslate_wall_shears_from_crafting",
+			"ctft:cobbled_deepslate_wall_horse_armor_from_crafting",
+			"ctft:cobbled_deepslate_wall_bow_from_crafting",
+			"ctft:cobbled_deepslate_wall_crossbow_from_crafting",
+			"ctft:cobbled_deepslate_wall_block_from_material",
+			"ctft:cobbled_deepslate_wall_material_from_block",
+			"ctft:cobbled_deepslate_wall_stairs_from_crafting",
+			"ctft:cobbled_deepslate_wall_slab_from_crafting",
+			"ctft:cobbled_deepslate_wall_glass_pane_from_crafting",
+			"ctft:cobbled_deepslate_wall_pane_from_crafting",
+			"ctft:cobbled_deepslate_wall_glass_from_smelting",
+			"ctft:cobbled_deepslate_wall_stairs_from_stonecutter",
+			"ctft:cobbled_deepslate_wall_slab_from_stonecutter",
+			"ctft:cobbled_deepslate_wall_wall_from_stonecutter",
+			"ctft:cobbled_deepslate_wall_lever_from_crafting",
+			"ctft:cobbled_deepslate_wall_button_from_crafting",
+			"ctft:cobbled_deepslate_wall_pressure_plate_from_crafting",
+			"ctft:cobbled_deepslate_wall_fence_gate_from_crafting",
+			"ctft:cobbled_deepslate_wall_chain_from_stonecutter",
+			"ctft:cobbled_deepslate_wall_compressed1_from_block",
+			"ctft:cobbled_deepslate_wall_block_from_compressed1",
+			"ctft:cobbled_deepslate_wall_compressed2_from_compressed1",
+			"ctft:cobbled_deepslate_wall_compressed1_from_compressed2",
+			"ctft:cobbled_deepslate_wall_compressed3_from_compressed2",
+			"ctft:cobbled_deepslate_wall_compressed2_from_compressed3",
+			"ctft:cobbled_deepslate_wall_compressed4_from_compressed"3,
+			"ctft:cobbled_deepslate_wall_compressed3_from_compressed4",
+			"ctft:cobbled_deepslate_wall_compressed5_from_compressed4",
+			"ctft:cobbled_deepslate_wall_compressed4_from_compressed5"
+		]
+	}
+}

@@ -203,7 +203,7 @@ public class LeverInit {
     public static final Block COBBLEDDEEPSLATELEVER = register("cobbled_deepslate_lever", new CustomLeverBlock(AbstractBlock.Settings.of(Material.METAL).noCollision()));
     public static final Block COBBLEDDEEPSLATESLABLEVER = register("cobbled_deepslate_slab_lever", new CustomLeverBlock(AbstractBlock.Settings.of(Material.METAL).noCollision()));
     public static final Block COBBLEDDEEPSLATESTAIRSLEVER = register("cobbled_deepslate_stairs_lever", new CustomLeverBlock(AbstractBlock.Settings.of(Material.METAL).noCollision()));
-    public static final Block COBBLEDDEEPSLATEWALLLEVER = register("deepslate_wall_lever", new CustomLeverBlock(AbstractBlock.Settings.of(Material.METAL).noCollision()));
+    public static final Block COBBLEDDEEPSLATEWALLLEVER = register("cobbled_deepslate_wall_lever", new CustomLeverBlock(AbstractBlock.Settings.of(Material.METAL).noCollision()));
     public static final Block COBBLESTONELEVER = register("cobblestone_lever", new CustomLeverBlock(AbstractBlock.Settings.of(Material.METAL).noCollision()));
     public static final Block COBBLESTONESLABLEVER = register("cobblestone_slab_lever", new CustomLeverBlock(AbstractBlock.Settings.of(Material.METAL).noCollision()));
     public static final Block COBBLESTONESTAIRSLEVER = register("cobblestone_stairs_lever", new CustomLeverBlock(AbstractBlock.Settings.of(Material.METAL).noCollision()));
@@ -404,7 +404,7 @@ public class LeverInit {
     public static final Block FLOWERBANNERPATTERNLEVER = register("flower_banner_pattern_lever", new CustomLeverBlock(AbstractBlock.Settings.of(Material.METAL).noCollision()));
     public static final Block FLOWERPOTLEVER = register("flower_pot_lever", new CustomLeverBlock(AbstractBlock.Settings.of(Material.METAL).noCollision()));
     public static final Block FLOWERINGAZALEALEVER = register("flowering_azalea_lever", new CustomLeverBlock(AbstractBlock.Settings.of(Material.METAL).noCollision()));
-    public static final Block FLOWERINGAZALEALEAVESLEVER = register("azalea_leaves_flowers_lever", new CustomLeverBlock(AbstractBlock.Settings.of(Material.METAL).noCollision()));
+    public static final Block FLOWERINGAZALEALEAVESLEVER = register("flowering_azalea_leaves_lever", new CustomLeverBlock(AbstractBlock.Settings.of(Material.METAL).noCollision()));
     public static final Block FOXSPAWNEGGLEVER = register("fox_spawn_egg_lever", new CustomLeverBlock(AbstractBlock.Settings.of(Material.METAL).noCollision()));
     public static final Block FURNACELEVER = register("furnace_lever", new CustomLeverBlock(AbstractBlock.Settings.of(Material.METAL).noCollision()));
     public static final Block FURNACEMINECARTLEVER = register("furnace_minecart_lever", new CustomLeverBlock(AbstractBlock.Settings.of(Material.METAL).noCollision()));
@@ -1039,7 +1039,7 @@ public class LeverInit {
     public static final Block WARPEDTRAPDOORLEVER = register("warped_trapdoor_lever", new CustomLeverBlock(AbstractBlock.Settings.of(Material.METAL).noCollision()));
     public static final Block WARPEDWARTBLOCKLEVER = register("warped_wart_block_lever", new CustomLeverBlock(AbstractBlock.Settings.of(Material.METAL).noCollision()));
     public static final Block WATERLEVER = register("water_bucket_lever", new CustomLeverBlock(AbstractBlock.Settings.of(Material.METAL).noCollision()));
-    public static final Block WAXEDBLOCKOFCOPPERLEVER = register("waxed_copper_lever", new CustomLeverBlock(AbstractBlock.Settings.of(Material.METAL).noCollision()));
+    public static final Block WAXEDBLOCKOFCOPPERLEVER = register("waxed_copper_block_lever", new CustomLeverBlock(AbstractBlock.Settings.of(Material.METAL).noCollision()));
     public static final Block WAXEDCUTCOPPERLEVER = register("waxed_cut_copper_lever", new CustomLeverBlock(AbstractBlock.Settings.of(Material.METAL).noCollision()));
     public static final Block WAXEDCUTCOPPERSLABLEVER = register("waxed_cut_copper_slab_lever", new CustomLeverBlock(AbstractBlock.Settings.of(Material.METAL).noCollision()));
     public static final Block WAXEDCUTCOPPERSTAIRSLEVER = register("waxed_cut_copper_stairs_lever", new CustomLeverBlock(AbstractBlock.Settings.of(Material.METAL).noCollision()));

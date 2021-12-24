@@ -51,7 +51,18 @@
 			"ctft:anvil_lever_from_crafting",
 			"ctft:anvil_button_from_crafting",
 			"ctft:anvil_pressure_plate_from_crafting",
-			"ctft:anvil_fence_gate_from_crafting"
+			"ctft:anvil_fence_gate_from_crafting",
+			"ctft:anvil_chain_from_stonecutter",
+			"ctft:anvil_compressed1_from_block",
+			"ctft:anvil_block_from_compressed1",
+			"ctft:anvil_compressed2_from_compressed1",
+			"ctft:anvil_compressed1_from_compressed2",
+			"ctft:anvil_compressed3_from_compressed2",
+			"ctft:anvil_compressed2_from_compressed3",
+			"ctft:anvil_compressed4_from_compressed"3,
+			"ctft:anvil_compressed3_from_compressed4",
+			"ctft:anvil_compressed5_from_compressed4",
+			"ctft:anvil_compressed4_from_compressed5"
 		]
 	}
 }

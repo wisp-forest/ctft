@@ -206,7 +206,7 @@ public class SignItemInit {
     public static final Item COBBLEDDEEPSLATESIGNITEM = register("cobbled_deepslate_sign", new CustomBlockItem(SignInit.COBBLEDDEEPSLATESIGN, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item COBBLEDDEEPSLATESLABSIGNITEM = register("cobbled_deepslate_slab_sign", new CustomBlockItem(SignInit.COBBLEDDEEPSLATESLABSIGN, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item COBBLEDDEEPSLATESTAIRSSIGNITEM = register("cobbled_deepslate_stairs_sign", new CustomBlockItem(SignInit.COBBLEDDEEPSLATESTAIRSSIGN, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
-    public static final Item COBBLEDDEEPSLATEWALLSIGNITEM = register("deepslate_wall_sign", new CustomBlockItem(SignInit.COBBLEDDEEPSLATEWALLSIGN, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
+    public static final Item COBBLEDDEEPSLATEWALLSIGNITEM = register("cobbled_deepslate_wall_sign", new CustomBlockItem(SignInit.COBBLEDDEEPSLATEWALLSIGN, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item COBBLESTONESIGNITEM = register("cobblestone_sign", new CustomBlockItem(SignInit.COBBLESTONESIGN, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item COBBLESTONESLABSIGNITEM = register("cobblestone_slab_sign", new CustomBlockItem(SignInit.COBBLESTONESLABSIGN, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item COBBLESTONESTAIRSSIGNITEM = register("cobblestone_stairs_sign", new CustomBlockItem(SignInit.COBBLESTONESTAIRSSIGN, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
@@ -407,7 +407,7 @@ public class SignItemInit {
     public static final Item FLOWERBANNERPATTERNSIGNITEM = register("flower_banner_pattern_sign", new CustomBlockItem(SignInit.FLOWERBANNERPATTERNSIGN, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item FLOWERPOTSIGNITEM = register("flower_pot_sign", new CustomBlockItem(SignInit.FLOWERPOTSIGN, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item FLOWERINGAZALEASIGNITEM = register("flowering_azalea_sign", new CustomBlockItem(SignInit.FLOWERINGAZALEASIGN, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
-    public static final Item FLOWERINGAZALEALEAVESSIGNITEM = register("azalea_leaves_flowers_sign", new CustomBlockItem(SignInit.FLOWERINGAZALEALEAVESSIGN, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
+    public static final Item FLOWERINGAZALEALEAVESSIGNITEM = register("flowering_azalea_leaves_sign", new CustomBlockItem(SignInit.FLOWERINGAZALEALEAVESSIGN, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item FOXSPAWNEGGSIGNITEM = register("fox_spawn_egg_sign", new CustomBlockItem(SignInit.FOXSPAWNEGGSIGN, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item FURNACESIGNITEM = register("furnace_sign", new CustomBlockItem(SignInit.FURNACESIGN, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item FURNACEMINECARTSIGNITEM = register("furnace_minecart_sign", new CustomBlockItem(SignInit.FURNACEMINECARTSIGN, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
@@ -1042,7 +1042,7 @@ public class SignItemInit {
     public static final Item WARPEDTRAPDOORSIGNITEM = register("warped_trapdoor_sign", new CustomBlockItem(SignInit.WARPEDTRAPDOORSIGN, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item WARPEDWARTBLOCKSIGNITEM = register("warped_wart_block_sign", new CustomBlockItem(SignInit.WARPEDWARTBLOCKSIGN, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item WATERSIGNITEM = register("water_bucket_sign", new CustomBlockItem(SignInit.WATERSIGN, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
-    public static final Item WAXEDBLOCKOFCOPPERSIGNITEM = register("waxed_copper_sign", new CustomBlockItem(SignInit.WAXEDBLOCKOFCOPPERSIGN, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
+    public static final Item WAXEDBLOCKOFCOPPERSIGNITEM = register("waxed_copper_block_sign", new CustomBlockItem(SignInit.WAXEDBLOCKOFCOPPERSIGN, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item WAXEDCUTCOPPERSIGNITEM = register("waxed_cut_copper_sign", new CustomBlockItem(SignInit.WAXEDCUTCOPPERSIGN, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item WAXEDCUTCOPPERSLABSIGNITEM = register("waxed_cut_copper_slab_sign", new CustomBlockItem(SignInit.WAXEDCUTCOPPERSLABSIGN, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item WAXEDCUTCOPPERSTAIRSSIGNITEM = register("waxed_cut_copper_stairs_sign", new CustomBlockItem(SignInit.WAXEDCUTCOPPERSTAIRSSIGN, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));

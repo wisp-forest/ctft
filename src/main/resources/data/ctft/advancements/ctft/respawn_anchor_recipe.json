@@ -51,7 +51,18 @@
 			"ctft:respawn_anchor_lever_from_crafting",
 			"ctft:respawn_anchor_button_from_crafting",
 			"ctft:respawn_anchor_pressure_plate_from_crafting",
-			"ctft:respawn_anchor_fence_gate_from_crafting"
+			"ctft:respawn_anchor_fence_gate_from_crafting",
+			"ctft:respawn_anchor_chain_from_stonecutter",
+			"ctft:respawn_anchor_compressed1_from_block",
+			"ctft:respawn_anchor_block_from_compressed1",
+			"ctft:respawn_anchor_compressed2_from_compressed1",
+			"ctft:respawn_anchor_compressed1_from_compressed2",
+			"ctft:respawn_anchor_compressed3_from_compressed2",
+			"ctft:respawn_anchor_compressed2_from_compressed3",
+			"ctft:respawn_anchor_compressed4_from_compressed"3,
+			"ctft:respawn_anchor_compressed3_from_compressed4",
+			"ctft:respawn_anchor_compressed5_from_compressed4",
+			"ctft:respawn_anchor_compressed4_from_compressed5"
 		]
 	}
 }

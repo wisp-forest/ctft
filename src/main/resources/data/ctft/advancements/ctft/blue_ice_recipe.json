@@ -51,7 +51,18 @@
 			"ctft:blue_ice_lever_from_crafting",
 			"ctft:blue_ice_button_from_crafting",
 			"ctft:blue_ice_pressure_plate_from_crafting",
-			"ctft:blue_ice_fence_gate_from_crafting"
+			"ctft:blue_ice_fence_gate_from_crafting",
+			"ctft:blue_ice_chain_from_stonecutter",
+			"ctft:blue_ice_compressed1_from_block",
+			"ctft:blue_ice_block_from_compressed1",
+			"ctft:blue_ice_compressed2_from_compressed1",
+			"ctft:blue_ice_compressed1_from_compressed2",
+			"ctft:blue_ice_compressed3_from_compressed2",
+			"ctft:blue_ice_compressed2_from_compressed3",
+			"ctft:blue_ice_compressed4_from_compressed"3,
+			"ctft:blue_ice_compressed3_from_compressed4",
+			"ctft:blue_ice_compressed5_from_compressed4",
+			"ctft:blue_ice_compressed4_from_compressed5"
 		]
 	}
 }

@@ -51,7 +51,18 @@
 			"ctft:end_stone_lever_from_crafting",
 			"ctft:end_stone_button_from_crafting",
 			"ctft:end_stone_pressure_plate_from_crafting",
-			"ctft:end_stone_fence_gate_from_crafting"
+			"ctft:end_stone_fence_gate_from_crafting",
+			"ctft:end_stone_chain_from_stonecutter",
+			"ctft:end_stone_compressed1_from_block",
+			"ctft:end_stone_block_from_compressed1",
+			"ctft:end_stone_compressed2_from_compressed1",
+			"ctft:end_stone_compressed1_from_compressed2",
+			"ctft:end_stone_compressed3_from_compressed2",
+			"ctft:end_stone_compressed2_from_compressed3",
+			"ctft:end_stone_compressed4_from_compressed"3,
+			"ctft:end_stone_compressed3_from_compressed4",
+			"ctft:end_stone_compressed5_from_compressed4",
+			"ctft:end_stone_compressed4_from_compressed5"
 		]
 	}
 }

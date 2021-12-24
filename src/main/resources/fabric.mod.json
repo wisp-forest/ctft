@@ -38,7 +38,8 @@
       "com.chyzman.ctft.client.CtftGlassPaneClient",
       "com.chyzman.ctft.client.CtftLadderClient",
       "com.chyzman.ctft.client.CtftDoorClient",
-      "com.chyzman.ctft.client.CtftTrapdoorClient"
+      "com.chyzman.ctft.client.CtftTrapdoorClient",
+      "com.chyzman.ctft.client.CtftChainClient"
     ],
     "main": [
       "com.chyzman.ctft.Ctft"

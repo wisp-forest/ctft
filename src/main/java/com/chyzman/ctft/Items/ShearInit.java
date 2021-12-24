@@ -208,7 +208,7 @@ public class ShearInit {
     public static final Item COBBLEDDEEPSLATESHEARS = register("cobbled_deepslate_shears", new CustomShearsItem(false, new Item.Settings().group(ItemGroup.SEARCH).maxDamage(172).rarity(Rarity.COMMON)));
     public static final Item COBBLEDDEEPSLATESLABSHEARS = register("cobbled_deepslate_slab_shears", new CustomShearsItem(false, new Item.Settings().group(ItemGroup.SEARCH).maxDamage(172).rarity(Rarity.COMMON)));
     public static final Item COBBLEDDEEPSLATESTAIRSSHEARS = register("cobbled_deepslate_stairs_shears", new CustomShearsItem(false, new Item.Settings().group(ItemGroup.SEARCH).maxDamage(172).rarity(Rarity.COMMON)));
-    public static final Item COBBLEDDEEPSLATEWALLSHEARS = register("deepslate_wall_shears", new CustomShearsItem(false, new Item.Settings().group(ItemGroup.SEARCH).maxDamage(172).rarity(Rarity.COMMON)));
+    public static final Item COBBLEDDEEPSLATEWALLSHEARS = register("cobbled_deepslate_wall_shears", new CustomShearsItem(false, new Item.Settings().group(ItemGroup.SEARCH).maxDamage(172).rarity(Rarity.COMMON)));
     public static final Item COBBLESTONESHEARS = register("cobblestone_shears", new CustomShearsItem(false, new Item.Settings().group(ItemGroup.SEARCH).maxDamage(131).rarity(Rarity.COMMON)));
     public static final Item COBBLESTONESLABSHEARS = register("cobblestone_slab_shears", new CustomShearsItem(false, new Item.Settings().group(ItemGroup.SEARCH).maxDamage(131).rarity(Rarity.COMMON)));
     public static final Item COBBLESTONESTAIRSSHEARS = register("cobblestone_stairs_shears", new CustomShearsItem(false, new Item.Settings().group(ItemGroup.SEARCH).maxDamage(131).rarity(Rarity.COMMON)));
@@ -409,7 +409,7 @@ public class ShearInit {
     public static final Item FLOWERBANNERPATTERNSHEARS = register("flower_banner_pattern_shears", new CustomShearsItem(false, new Item.Settings().group(ItemGroup.SEARCH).maxDamage(131).rarity(Rarity.COMMON)));
     public static final Item FLOWERPOTSHEARS = register("flower_pot_shears", new CustomShearsItem(false, new Item.Settings().group(ItemGroup.SEARCH).maxDamage(177).rarity(Rarity.COMMON)));
     public static final Item FLOWERINGAZALEASHEARS = register("flowering_azalea_shears", new CustomShearsItem(false, new Item.Settings().group(ItemGroup.SEARCH).maxDamage(59).rarity(Rarity.COMMON)));
-    public static final Item FLOWERINGAZALEALEAVESSHEARS = register("azalea_leaves_flowers_shears", new CustomShearsItem(false, new Item.Settings().group(ItemGroup.SEARCH).maxDamage(8).rarity(Rarity.COMMON)));
+    public static final Item FLOWERINGAZALEALEAVESSHEARS = register("flowering_azalea_leaves_shears", new CustomShearsItem(false, new Item.Settings().group(ItemGroup.SEARCH).maxDamage(8).rarity(Rarity.COMMON)));
     public static final Item FOXSPAWNEGGSHEARS = register("fox_spawn_egg_shears", new CustomShearsItem(false, new Item.Settings().group(ItemGroup.SEARCH).maxDamage(44).rarity(Rarity.COMMON)));
     public static final Item FURNACESHEARS = register("furnace_shears", new CustomShearsItem(false, new Item.Settings().group(ItemGroup.SEARCH).maxDamage(131).rarity(Rarity.COMMON)));
     public static final Item FURNACEMINECARTSHEARS = register("furnace_minecart_shears", new CustomShearsItem(false, new Item.Settings().group(ItemGroup.SEARCH).maxDamage(131).rarity(Rarity.COMMON)));
@@ -1044,7 +1044,7 @@ public class ShearInit {
     public static final Item WARPEDTRAPDOORSHEARS = register("warped_trapdoor_shears", new CustomShearsItem(false, new Item.Settings().group(ItemGroup.SEARCH).maxDamage(59).rarity(Rarity.COMMON)));
     public static final Item WARPEDWARTBLOCKSHEARS = register("warped_wart_block_shears", new CustomShearsItem(false, new Item.Settings().group(ItemGroup.SEARCH).maxDamage(8).rarity(Rarity.COMMON)));
     public static final Item WATERSHEARS = register("water_bucket_shears", new CustomShearsItem(false, new Item.Settings().group(ItemGroup.SEARCH).maxDamage(240).rarity(Rarity.COMMON)));
-    public static final Item WAXEDBLOCKOFCOPPERSHEARS = register("waxed_copper_shears", new CustomShearsItem(false, new Item.Settings().group(ItemGroup.SEARCH).maxDamage(190).rarity(Rarity.COMMON)));
+    public static final Item WAXEDBLOCKOFCOPPERSHEARS = register("waxed_copper_block_shears", new CustomShearsItem(false, new Item.Settings().group(ItemGroup.SEARCH).maxDamage(190).rarity(Rarity.COMMON)));
     public static final Item WAXEDCUTCOPPERSHEARS = register("waxed_cut_copper_shears", new CustomShearsItem(false, new Item.Settings().group(ItemGroup.SEARCH).maxDamage(190).rarity(Rarity.COMMON)));
     public static final Item WAXEDCUTCOPPERSLABSHEARS = register("waxed_cut_copper_slab_shears", new CustomShearsItem(false, new Item.Settings().group(ItemGroup.SEARCH).maxDamage(190).rarity(Rarity.COMMON)));
     public static final Item WAXEDCUTCOPPERSTAIRSSHEARS = register("waxed_cut_copper_stairs_shears", new CustomShearsItem(false, new Item.Settings().group(ItemGroup.SEARCH).maxDamage(190).rarity(Rarity.COMMON)));

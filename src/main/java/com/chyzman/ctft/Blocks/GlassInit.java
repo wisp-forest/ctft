@@ -203,7 +203,7 @@ public class GlassInit {
     public static final GlassBlock COBBLEDDEEPSLATEGLASS = register("cobbled_deepslate_glass", new GlassBlock(AbstractBlock.Settings.of(Material.GLASS).nonOpaque()));
     public static final GlassBlock COBBLEDDEEPSLATESLABGLASS = register("cobbled_deepslate_slab_glass", new GlassBlock(AbstractBlock.Settings.of(Material.GLASS).nonOpaque()));
     public static final GlassBlock COBBLEDDEEPSLATESTAIRSGLASS = register("cobbled_deepslate_stairs_glass", new GlassBlock(AbstractBlock.Settings.of(Material.GLASS).nonOpaque()));
-    public static final GlassBlock COBBLEDDEEPSLATEWALLGLASS = register("deepslate_wall_glass", new GlassBlock(AbstractBlock.Settings.of(Material.GLASS).nonOpaque()));
+    public static final GlassBlock COBBLEDDEEPSLATEWALLGLASS = register("cobbled_deepslate_wall_glass", new GlassBlock(AbstractBlock.Settings.of(Material.GLASS).nonOpaque()));
     public static final GlassBlock COBBLESTONEGLASS = register("cobblestone_glass", new GlassBlock(AbstractBlock.Settings.of(Material.GLASS).nonOpaque()));
     public static final GlassBlock COBBLESTONESLABGLASS = register("cobblestone_slab_glass", new GlassBlock(AbstractBlock.Settings.of(Material.GLASS).nonOpaque()));
     public static final GlassBlock COBBLESTONESTAIRSGLASS = register("cobblestone_stairs_glass", new GlassBlock(AbstractBlock.Settings.of(Material.GLASS).nonOpaque()));
@@ -404,7 +404,7 @@ public class GlassInit {
     public static final GlassBlock FLOWERBANNERPATTERNGLASS = register("flower_banner_pattern_glass", new GlassBlock(AbstractBlock.Settings.of(Material.GLASS).nonOpaque()));
     public static final GlassBlock FLOWERPOTGLASS = register("flower_pot_glass", new GlassBlock(AbstractBlock.Settings.of(Material.GLASS).nonOpaque()));
     public static final GlassBlock FLOWERINGAZALEAGLASS = register("flowering_azalea_glass", new GlassBlock(AbstractBlock.Settings.of(Material.GLASS).nonOpaque()));
-    public static final GlassBlock FLOWERINGAZALEALEAVESGLASS = register("azalea_leaves_flowers_glass", new GlassBlock(AbstractBlock.Settings.of(Material.GLASS).nonOpaque()));
+    public static final GlassBlock FLOWERINGAZALEALEAVESGLASS = register("flowering_azalea_leaves_glass", new GlassBlock(AbstractBlock.Settings.of(Material.GLASS).nonOpaque()));
     public static final GlassBlock FOXSPAWNEGGGLASS = register("fox_spawn_egg_glass", new GlassBlock(AbstractBlock.Settings.of(Material.GLASS).nonOpaque()));
     public static final GlassBlock FURNACEGLASS = register("furnace_glass", new GlassBlock(AbstractBlock.Settings.of(Material.GLASS).nonOpaque()));
     public static final GlassBlock FURNACEMINECARTGLASS = register("furnace_minecart_glass", new GlassBlock(AbstractBlock.Settings.of(Material.GLASS).nonOpaque()));
@@ -1039,7 +1039,7 @@ public class GlassInit {
     public static final GlassBlock WARPEDTRAPDOORGLASS = register("warped_trapdoor_glass", new GlassBlock(AbstractBlock.Settings.of(Material.GLASS).nonOpaque()));
     public static final GlassBlock WARPEDWARTBLOCKGLASS = register("warped_wart_block_glass", new GlassBlock(AbstractBlock.Settings.of(Material.GLASS).nonOpaque()));
     public static final GlassBlock WATERGLASS = register("water_bucket_glass", new GlassBlock(AbstractBlock.Settings.of(Material.GLASS).nonOpaque()));
-    public static final GlassBlock WAXEDBLOCKOFCOPPERGLASS = register("waxed_copper_glass", new GlassBlock(AbstractBlock.Settings.of(Material.GLASS).nonOpaque()));
+    public static final GlassBlock WAXEDBLOCKOFCOPPERGLASS = register("waxed_copper_block_glass", new GlassBlock(AbstractBlock.Settings.of(Material.GLASS).nonOpaque()));
     public static final GlassBlock WAXEDCUTCOPPERGLASS = register("waxed_cut_copper_glass", new GlassBlock(AbstractBlock.Settings.of(Material.GLASS).nonOpaque()));
     public static final GlassBlock WAXEDCUTCOPPERSLABGLASS = register("waxed_cut_copper_slab_glass", new GlassBlock(AbstractBlock.Settings.of(Material.GLASS).nonOpaque()));
     public static final GlassBlock WAXEDCUTCOPPERSTAIRSGLASS = register("waxed_cut_copper_stairs_glass", new GlassBlock(AbstractBlock.Settings.of(Material.GLASS).nonOpaque()));

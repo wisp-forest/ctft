@@ -51,7 +51,18 @@
 			"ctft:golden_hoe_lever_from_crafting",
 			"ctft:golden_hoe_button_from_crafting",
 			"ctft:golden_hoe_pressure_plate_from_crafting",
-			"ctft:golden_hoe_fence_gate_from_crafting"
+			"ctft:golden_hoe_fence_gate_from_crafting",
+			"ctft:golden_hoe_chain_from_stonecutter",
+			"ctft:golden_hoe_compressed1_from_block",
+			"ctft:golden_hoe_block_from_compressed1",
+			"ctft:golden_hoe_compressed2_from_compressed1",
+			"ctft:golden_hoe_compressed1_from_compressed2",
+			"ctft:golden_hoe_compressed3_from_compressed2",
+			"ctft:golden_hoe_compressed2_from_compressed3",
+			"ctft:golden_hoe_compressed4_from_compressed"3,
+			"ctft:golden_hoe_compressed3_from_compressed4",
+			"ctft:golden_hoe_compressed5_from_compressed4",
+			"ctft:golden_hoe_compressed4_from_compressed5"
 		]
 	}
 }

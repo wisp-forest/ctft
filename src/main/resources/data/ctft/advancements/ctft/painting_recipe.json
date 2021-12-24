@@ -51,7 +51,18 @@
 			"ctft:painting_lever_from_crafting",
 			"ctft:painting_button_from_crafting",
 			"ctft:painting_pressure_plate_from_crafting",
-			"ctft:painting_fence_gate_from_crafting"
+			"ctft:painting_fence_gate_from_crafting",
+			"ctft:painting_chain_from_stonecutter",
+			"ctft:painting_compressed1_from_block",
+			"ctft:painting_block_from_compressed1",
+			"ctft:painting_compressed2_from_compressed1",
+			"ctft:painting_compressed1_from_compressed2",
+			"ctft:painting_compressed3_from_compressed2",
+			"ctft:painting_compressed2_from_compressed3",
+			"ctft:painting_compressed4_from_compressed"3,
+			"ctft:painting_compressed3_from_compressed4",
+			"ctft:painting_compressed5_from_compressed4",
+			"ctft:painting_compressed4_from_compressed5"
 		]
 	}
 }

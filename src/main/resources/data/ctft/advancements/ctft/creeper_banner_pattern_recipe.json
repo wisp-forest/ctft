@@ -51,7 +51,18 @@
 			"ctft:creeper_banner_pattern_lever_from_crafting",
 			"ctft:creeper_banner_pattern_button_from_crafting",
 			"ctft:creeper_banner_pattern_pressure_plate_from_crafting",
-			"ctft:creeper_banner_pattern_fence_gate_from_crafting"
+			"ctft:creeper_banner_pattern_fence_gate_from_crafting",
+			"ctft:creeper_banner_pattern_chain_from_stonecutter",
+			"ctft:creeper_banner_pattern_compressed1_from_block",
+			"ctft:creeper_banner_pattern_block_from_compressed1",
+			"ctft:creeper_banner_pattern_compressed2_from_compressed1",
+			"ctft:creeper_banner_pattern_compressed1_from_compressed2",
+			"ctft:creeper_banner_pattern_compressed3_from_compressed2",
+			"ctft:creeper_banner_pattern_compressed2_from_compressed3",
+			"ctft:creeper_banner_pattern_compressed4_from_compressed"3,
+			"ctft:creeper_banner_pattern_compressed3_from_compressed4",
+			"ctft:creeper_banner_pattern_compressed5_from_compressed4",
+			"ctft:creeper_banner_pattern_compressed4_from_compressed5"
 		]
 	}
 }

@@ -51,7 +51,18 @@
 			"ctft:chicken_lever_from_crafting",
 			"ctft:chicken_button_from_crafting",
 			"ctft:chicken_pressure_plate_from_crafting",
-			"ctft:chicken_fence_gate_from_crafting"
+			"ctft:chicken_fence_gate_from_crafting",
+			"ctft:chicken_chain_from_stonecutter",
+			"ctft:chicken_compressed1_from_block",
+			"ctft:chicken_block_from_compressed1",
+			"ctft:chicken_compressed2_from_compressed1",
+			"ctft:chicken_compressed1_from_compressed2",
+			"ctft:chicken_compressed3_from_compressed2",
+			"ctft:chicken_compressed2_from_compressed3",
+			"ctft:chicken_compressed4_from_compressed"3,
+			"ctft:chicken_compressed3_from_compressed4",
+			"ctft:chicken_compressed5_from_compressed4",
+			"ctft:chicken_compressed4_from_compressed5"
 		]
 	}
 }

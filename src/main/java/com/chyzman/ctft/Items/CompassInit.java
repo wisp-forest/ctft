@@ -209,7 +209,7 @@ public class CompassInit {
     public static final Item COBBLEDDEEPSLATECOMPASS = register("cobbled_deepslate_compass", new CustomCompassItem(false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item COBBLEDDEEPSLATESLABCOMPASS = register("cobbled_deepslate_slab_compass", new CustomCompassItem(false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item COBBLEDDEEPSLATESTAIRSCOMPASS = register("cobbled_deepslate_stairs_compass", new CustomCompassItem(false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
-    public static final Item COBBLEDDEEPSLATEWALLCOMPASS = register("deepslate_wall_compass", new CustomCompassItem(false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
+    public static final Item COBBLEDDEEPSLATEWALLCOMPASS = register("cobbled_deepslate_wall_compass", new CustomCompassItem(false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item COBBLESTONECOMPASS = register("cobblestone_compass", new CustomCompassItem(false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item COBBLESTONESLABCOMPASS = register("cobblestone_slab_compass", new CustomCompassItem(false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item COBBLESTONESTAIRSCOMPASS = register("cobblestone_stairs_compass", new CustomCompassItem(false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
@@ -410,7 +410,7 @@ public class CompassInit {
     public static final Item FLOWERBANNERPATTERNCOMPASS = register("flower_banner_pattern_compass", new CustomCompassItem(false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item FLOWERPOTCOMPASS = register("flower_pot_compass", new CustomCompassItem(false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item FLOWERINGAZALEACOMPASS = register("flowering_azalea_compass", new CustomCompassItem(false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
-    public static final Item FLOWERINGAZALEALEAVESCOMPASS = register("azalea_leaves_flowers_compass", new CustomCompassItem(false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
+    public static final Item FLOWERINGAZALEALEAVESCOMPASS = register("flowering_azalea_leaves_compass", new CustomCompassItem(false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item FOXSPAWNEGGCOMPASS = register("fox_spawn_egg_compass", new CustomCompassItem(false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item FURNACECOMPASS = register("furnace_compass", new CustomCompassItem(false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item FURNACEMINECARTCOMPASS = register("furnace_minecart_compass", new CustomCompassItem(false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
@@ -1045,7 +1045,7 @@ public class CompassInit {
     public static final Item WARPEDTRAPDOORCOMPASS = register("warped_trapdoor_compass", new CustomCompassItem(false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item WARPEDWARTBLOCKCOMPASS = register("warped_wart_block_compass", new CustomCompassItem(false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item WATERCOMPASS = register("water_bucket_compass", new CustomCompassItem(false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
-    public static final Item WAXEDBLOCKOFCOPPERCOMPASS = register("waxed_copper_compass", new CustomCompassItem(false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
+    public static final Item WAXEDBLOCKOFCOPPERCOMPASS = register("waxed_copper_block_compass", new CustomCompassItem(false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item WAXEDCUTCOPPERCOMPASS = register("waxed_cut_copper_compass", new CustomCompassItem(false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item WAXEDCUTCOPPERSLABCOMPASS = register("waxed_cut_copper_slab_compass", new CustomCompassItem(false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item WAXEDCUTCOPPERSTAIRSCOMPASS = register("waxed_cut_copper_stairs_compass", new CustomCompassItem(false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));

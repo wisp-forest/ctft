@@ -203,7 +203,7 @@ public class BlockInit {
     public static final Block COBBLEDDEEPSLATEBLOCK = register("cobbled_deepslate_block", new Block(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block COBBLEDDEEPSLATESLABBLOCK = register("cobbled_deepslate_slab_block", new Block(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block COBBLEDDEEPSLATESTAIRSBLOCK = register("cobbled_deepslate_stairs_block", new Block(AbstractBlock.Settings.of(Material.METAL)));
-    public static final Block COBBLEDDEEPSLATEWALLBLOCK = register("deepslate_wall_block", new Block(AbstractBlock.Settings.of(Material.METAL)));
+    public static final Block COBBLEDDEEPSLATEWALLBLOCK = register("cobbled_deepslate_wall_block", new Block(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block COBBLESTONEBLOCK = register("cobblestone_block", new Block(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block COBBLESTONESLABBLOCK = register("cobblestone_slab_block", new Block(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block COBBLESTONESTAIRSBLOCK = register("cobblestone_stairs_block", new Block(AbstractBlock.Settings.of(Material.METAL)));
@@ -404,7 +404,7 @@ public class BlockInit {
     public static final Block FLOWERBANNERPATTERNBLOCK = register("flower_banner_pattern_block", new Block(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block FLOWERPOTBLOCK = register("flower_pot_block", new Block(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block FLOWERINGAZALEABLOCK = register("flowering_azalea_block", new Block(AbstractBlock.Settings.of(Material.METAL)));
-    public static final Block FLOWERINGAZALEALEAVESBLOCK = register("azalea_leaves_flowers_block", new Block(AbstractBlock.Settings.of(Material.METAL)));
+    public static final Block FLOWERINGAZALEALEAVESBLOCK = register("flowering_azalea_leaves_block", new Block(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block FOXSPAWNEGGBLOCK = register("fox_spawn_egg_block", new Block(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block FURNACEBLOCK = register("furnace_block", new Block(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block FURNACEMINECARTBLOCK = register("furnace_minecart_block", new Block(AbstractBlock.Settings.of(Material.METAL)));
@@ -1039,7 +1039,7 @@ public class BlockInit {
     public static final Block WARPEDTRAPDOORBLOCK = register("warped_trapdoor_block", new Block(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block WARPEDWARTBLOCKBLOCK = register("warped_wart_block_block", new Block(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block WATERBLOCK = register("water_bucket_block", new Block(AbstractBlock.Settings.of(Material.METAL)));
-    public static final Block WAXEDBLOCKOFCOPPERBLOCK = register("waxed_copper_block", new Block(AbstractBlock.Settings.of(Material.METAL)));
+    public static final Block WAXEDBLOCKOFCOPPERBLOCK = register("waxed_copper_block_block", new Block(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block WAXEDCUTCOPPERBLOCK = register("waxed_cut_copper_block", new Block(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block WAXEDCUTCOPPERSLABBLOCK = register("waxed_cut_copper_slab_block", new Block(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block WAXEDCUTCOPPERSTAIRSBLOCK = register("waxed_cut_copper_stairs_block", new Block(AbstractBlock.Settings.of(Material.METAL)));

@@ -51,7 +51,18 @@
 			"ctft:netherite_sword_lever_from_crafting",
 			"ctft:netherite_sword_button_from_crafting",
 			"ctft:netherite_sword_pressure_plate_from_crafting",
-			"ctft:netherite_sword_fence_gate_from_crafting"
+			"ctft:netherite_sword_fence_gate_from_crafting",
+			"ctft:netherite_sword_chain_from_stonecutter",
+			"ctft:netherite_sword_compressed1_from_block",
+			"ctft:netherite_sword_block_from_compressed1",
+			"ctft:netherite_sword_compressed2_from_compressed1",
+			"ctft:netherite_sword_compressed1_from_compressed2",
+			"ctft:netherite_sword_compressed3_from_compressed2",
+			"ctft:netherite_sword_compressed2_from_compressed3",
+			"ctft:netherite_sword_compressed4_from_compressed"3,
+			"ctft:netherite_sword_compressed3_from_compressed4",
+			"ctft:netherite_sword_compressed5_from_compressed4",
+			"ctft:netherite_sword_compressed4_from_compressed5"
 		]
 	}
 }

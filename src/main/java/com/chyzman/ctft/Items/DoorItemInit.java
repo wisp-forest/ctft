@@ -206,7 +206,7 @@ public class DoorItemInit {
     public static final Item COBBLEDDEEPSLATEDOORITEM = register("cobbled_deepslate_door", new CustomBlockItem(DoorInit.COBBLEDDEEPSLATEDOOR, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item COBBLEDDEEPSLATESLABDOORITEM = register("cobbled_deepslate_slab_door", new CustomBlockItem(DoorInit.COBBLEDDEEPSLATESLABDOOR, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item COBBLEDDEEPSLATESTAIRSDOORITEM = register("cobbled_deepslate_stairs_door", new CustomBlockItem(DoorInit.COBBLEDDEEPSLATESTAIRSDOOR, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
-    public static final Item COBBLEDDEEPSLATEWALLDOORITEM = register("deepslate_wall_door", new CustomBlockItem(DoorInit.COBBLEDDEEPSLATEWALLDOOR, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
+    public static final Item COBBLEDDEEPSLATEWALLDOORITEM = register("cobbled_deepslate_wall_door", new CustomBlockItem(DoorInit.COBBLEDDEEPSLATEWALLDOOR, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item COBBLESTONEDOORITEM = register("cobblestone_door", new CustomBlockItem(DoorInit.COBBLESTONEDOOR, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item COBBLESTONESLABDOORITEM = register("cobblestone_slab_door", new CustomBlockItem(DoorInit.COBBLESTONESLABDOOR, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item COBBLESTONESTAIRSDOORITEM = register("cobblestone_stairs_door", new CustomBlockItem(DoorInit.COBBLESTONESTAIRSDOOR, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
@@ -407,7 +407,7 @@ public class DoorItemInit {
     public static final Item FLOWERBANNERPATTERNDOORITEM = register("flower_banner_pattern_door", new CustomBlockItem(DoorInit.FLOWERBANNERPATTERNDOOR, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item FLOWERPOTDOORITEM = register("flower_pot_door", new CustomBlockItem(DoorInit.FLOWERPOTDOOR, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item FLOWERINGAZALEADOORITEM = register("flowering_azalea_door", new CustomBlockItem(DoorInit.FLOWERINGAZALEADOOR, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
-    public static final Item FLOWERINGAZALEALEAVESDOORITEM = register("azalea_leaves_flowers_door", new CustomBlockItem(DoorInit.FLOWERINGAZALEALEAVESDOOR, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
+    public static final Item FLOWERINGAZALEALEAVESDOORITEM = register("flowering_azalea_leaves_door", new CustomBlockItem(DoorInit.FLOWERINGAZALEALEAVESDOOR, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item FOXSPAWNEGGDOORITEM = register("fox_spawn_egg_door", new CustomBlockItem(DoorInit.FOXSPAWNEGGDOOR, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item FURNACEDOORITEM = register("furnace_door", new CustomBlockItem(DoorInit.FURNACEDOOR, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item FURNACEMINECARTDOORITEM = register("furnace_minecart_door", new CustomBlockItem(DoorInit.FURNACEMINECARTDOOR, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
@@ -1042,7 +1042,7 @@ public class DoorItemInit {
     public static final Item WARPEDTRAPDOORDOORITEM = register("warped_trapdoor_door", new CustomBlockItem(DoorInit.WARPEDTRAPDOORDOOR, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item WARPEDWARTBLOCKDOORITEM = register("warped_wart_block_door", new CustomBlockItem(DoorInit.WARPEDWARTBLOCKDOOR, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item WATERDOORITEM = register("water_bucket_door", new CustomBlockItem(DoorInit.WATERDOOR, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
-    public static final Item WAXEDBLOCKOFCOPPERDOORITEM = register("waxed_copper_door", new CustomBlockItem(DoorInit.WAXEDBLOCKOFCOPPERDOOR, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
+    public static final Item WAXEDBLOCKOFCOPPERDOORITEM = register("waxed_copper_block_door", new CustomBlockItem(DoorInit.WAXEDBLOCKOFCOPPERDOOR, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item WAXEDCUTCOPPERDOORITEM = register("waxed_cut_copper_door", new CustomBlockItem(DoorInit.WAXEDCUTCOPPERDOOR, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item WAXEDCUTCOPPERSLABDOORITEM = register("waxed_cut_copper_slab_door", new CustomBlockItem(DoorInit.WAXEDCUTCOPPERSLABDOOR, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item WAXEDCUTCOPPERSTAIRSDOORITEM = register("waxed_cut_copper_stairs_door", new CustomBlockItem(DoorInit.WAXEDCUTCOPPERSTAIRSDOOR, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));

@@ -51,7 +51,18 @@
 			"ctft:rabbit_spawn_egg_lever_from_crafting",
 			"ctft:rabbit_spawn_egg_button_from_crafting",
 			"ctft:rabbit_spawn_egg_pressure_plate_from_crafting",
-			"ctft:rabbit_spawn_egg_fence_gate_from_crafting"
+			"ctft:rabbit_spawn_egg_fence_gate_from_crafting",
+			"ctft:rabbit_spawn_egg_chain_from_stonecutter",
+			"ctft:rabbit_spawn_egg_compressed1_from_block",
+			"ctft:rabbit_spawn_egg_block_from_compressed1",
+			"ctft:rabbit_spawn_egg_compressed2_from_compressed1",
+			"ctft:rabbit_spawn_egg_compressed1_from_compressed2",
+			"ctft:rabbit_spawn_egg_compressed3_from_compressed2",
+			"ctft:rabbit_spawn_egg_compressed2_from_compressed3",
+			"ctft:rabbit_spawn_egg_compressed4_from_compressed"3,
+			"ctft:rabbit_spawn_egg_compressed3_from_compressed4",
+			"ctft:rabbit_spawn_egg_compressed5_from_compressed4",
+			"ctft:rabbit_spawn_egg_compressed4_from_compressed5"
 		]
 	}
 }

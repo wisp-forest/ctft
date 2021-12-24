@@ -203,7 +203,7 @@ public class TrapdoorInit {
     public static final Block COBBLEDDEEPSLATETRAPDOOR = register("cobbled_deepslate_trapdoor", new CustomTrapdoorBlock(AbstractBlock.Settings.of(Material.CARPET).nonOpaque()));
     public static final Block COBBLEDDEEPSLATESLABTRAPDOOR = register("cobbled_deepslate_slab_trapdoor", new CustomTrapdoorBlock(AbstractBlock.Settings.of(Material.CARPET).nonOpaque()));
     public static final Block COBBLEDDEEPSLATESTAIRSTRAPDOOR = register("cobbled_deepslate_stairs_trapdoor", new CustomTrapdoorBlock(AbstractBlock.Settings.of(Material.CARPET).nonOpaque()));
-    public static final Block COBBLEDDEEPSLATEWALLTRAPDOOR = register("deepslate_wall_trapdoor", new CustomTrapdoorBlock(AbstractBlock.Settings.of(Material.CARPET).nonOpaque()));
+    public static final Block COBBLEDDEEPSLATEWALLTRAPDOOR = register("cobbled_deepslate_wall_trapdoor", new CustomTrapdoorBlock(AbstractBlock.Settings.of(Material.CARPET).nonOpaque()));
     public static final Block COBBLESTONETRAPDOOR = register("cobblestone_trapdoor", new CustomTrapdoorBlock(AbstractBlock.Settings.of(Material.CARPET).nonOpaque()));
     public static final Block COBBLESTONESLABTRAPDOOR = register("cobblestone_slab_trapdoor", new CustomTrapdoorBlock(AbstractBlock.Settings.of(Material.CARPET).nonOpaque()));
     public static final Block COBBLESTONESTAIRSTRAPDOOR = register("cobblestone_stairs_trapdoor", new CustomTrapdoorBlock(AbstractBlock.Settings.of(Material.CARPET).nonOpaque()));
@@ -404,7 +404,7 @@ public class TrapdoorInit {
     public static final Block FLOWERBANNERPATTERNTRAPDOOR = register("flower_banner_pattern_trapdoor", new CustomTrapdoorBlock(AbstractBlock.Settings.of(Material.CARPET).nonOpaque()));
     public static final Block FLOWERPOTTRAPDOOR = register("flower_pot_trapdoor", new CustomTrapdoorBlock(AbstractBlock.Settings.of(Material.CARPET).nonOpaque()));
     public static final Block FLOWERINGAZALEATRAPDOOR = register("flowering_azalea_trapdoor", new CustomTrapdoorBlock(AbstractBlock.Settings.of(Material.CARPET).nonOpaque()));
-    public static final Block FLOWERINGAZALEALEAVESTRAPDOOR = register("azalea_leaves_flowers_trapdoor", new CustomTrapdoorBlock(AbstractBlock.Settings.of(Material.CARPET).nonOpaque()));
+    public static final Block FLOWERINGAZALEALEAVESTRAPDOOR = register("flowering_azalea_leaves_trapdoor", new CustomTrapdoorBlock(AbstractBlock.Settings.of(Material.CARPET).nonOpaque()));
     public static final Block FOXSPAWNEGGTRAPDOOR = register("fox_spawn_egg_trapdoor", new CustomTrapdoorBlock(AbstractBlock.Settings.of(Material.CARPET).nonOpaque()));
     public static final Block FURNACETRAPDOOR = register("furnace_trapdoor", new CustomTrapdoorBlock(AbstractBlock.Settings.of(Material.CARPET).nonOpaque()));
     public static final Block FURNACEMINECARTTRAPDOOR = register("furnace_minecart_trapdoor", new CustomTrapdoorBlock(AbstractBlock.Settings.of(Material.CARPET).nonOpaque()));
@@ -1039,7 +1039,7 @@ public class TrapdoorInit {
     public static final Block WARPEDTRAPDOORTRAPDOOR = register("warped_trapdoor_trapdoor", new CustomTrapdoorBlock(AbstractBlock.Settings.of(Material.CARPET).nonOpaque()));
     public static final Block WARPEDWARTBLOCKTRAPDOOR = register("warped_wart_block_trapdoor", new CustomTrapdoorBlock(AbstractBlock.Settings.of(Material.CARPET).nonOpaque()));
     public static final Block WATERTRAPDOOR = register("water_bucket_trapdoor", new CustomTrapdoorBlock(AbstractBlock.Settings.of(Material.CARPET).nonOpaque()));
-    public static final Block WAXEDBLOCKOFCOPPERTRAPDOOR = register("waxed_copper_trapdoor", new CustomTrapdoorBlock(AbstractBlock.Settings.of(Material.CARPET).nonOpaque()));
+    public static final Block WAXEDBLOCKOFCOPPERTRAPDOOR = register("waxed_copper_block_trapdoor", new CustomTrapdoorBlock(AbstractBlock.Settings.of(Material.CARPET).nonOpaque()));
     public static final Block WAXEDCUTCOPPERTRAPDOOR = register("waxed_cut_copper_trapdoor", new CustomTrapdoorBlock(AbstractBlock.Settings.of(Material.CARPET).nonOpaque()));
     public static final Block WAXEDCUTCOPPERSLABTRAPDOOR = register("waxed_cut_copper_slab_trapdoor", new CustomTrapdoorBlock(AbstractBlock.Settings.of(Material.CARPET).nonOpaque()));
     public static final Block WAXEDCUTCOPPERSTAIRSTRAPDOOR = register("waxed_cut_copper_stairs_trapdoor", new CustomTrapdoorBlock(AbstractBlock.Settings.of(Material.CARPET).nonOpaque()));

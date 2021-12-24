@@ -203,7 +203,7 @@ public class StairsInit {
     public static final Block COBBLEDDEEPSLATESTAIRS = register("cobbled_deepslate_stairs", new CustomStairsBlock(BlockInit.COBBLEDDEEPSLATEBLOCK.getDefaultState(), AbstractBlock.Settings.of(Material.METAL)));
     public static final Block COBBLEDDEEPSLATESLABSTAIRS = register("cobbled_deepslate_slab_stairs", new CustomStairsBlock(BlockInit.COBBLEDDEEPSLATESLABBLOCK.getDefaultState(), AbstractBlock.Settings.of(Material.METAL)));
     public static final Block COBBLEDDEEPSLATESTAIRSSTAIRS = register("cobbled_deepslate_stairs_stairs", new CustomStairsBlock(BlockInit.COBBLEDDEEPSLATESTAIRSBLOCK.getDefaultState(), AbstractBlock.Settings.of(Material.METAL)));
-    public static final Block COBBLEDDEEPSLATEWALLSTAIRS = register("deepslate_wall_stairs", new CustomStairsBlock(BlockInit.COBBLEDDEEPSLATEWALLBLOCK.getDefaultState(), AbstractBlock.Settings.of(Material.METAL)));
+    public static final Block COBBLEDDEEPSLATEWALLSTAIRS = register("cobbled_deepslate_wall_stairs", new CustomStairsBlock(BlockInit.COBBLEDDEEPSLATEWALLBLOCK.getDefaultState(), AbstractBlock.Settings.of(Material.METAL)));
     public static final Block COBBLESTONESTAIRS = register("cobblestone_stairs", new CustomStairsBlock(BlockInit.COBBLESTONEBLOCK.getDefaultState(), AbstractBlock.Settings.of(Material.METAL)));
     public static final Block COBBLESTONESLABSTAIRS = register("cobblestone_slab_stairs", new CustomStairsBlock(BlockInit.COBBLESTONESLABBLOCK.getDefaultState(), AbstractBlock.Settings.of(Material.METAL)));
     public static final Block COBBLESTONESTAIRSSTAIRS = register("cobblestone_stairs_stairs", new CustomStairsBlock(BlockInit.COBBLESTONESTAIRSBLOCK.getDefaultState(), AbstractBlock.Settings.of(Material.METAL)));
@@ -404,7 +404,7 @@ public class StairsInit {
     public static final Block FLOWERBANNERPATTERNSTAIRS = register("flower_banner_pattern_stairs", new CustomStairsBlock(BlockInit.FLOWERBANNERPATTERNBLOCK.getDefaultState(), AbstractBlock.Settings.of(Material.METAL)));
     public static final Block FLOWERPOTSTAIRS = register("flower_pot_stairs", new CustomStairsBlock(BlockInit.FLOWERPOTBLOCK.getDefaultState(), AbstractBlock.Settings.of(Material.METAL)));
     public static final Block FLOWERINGAZALEASTAIRS = register("flowering_azalea_stairs", new CustomStairsBlock(BlockInit.FLOWERINGAZALEABLOCK.getDefaultState(), AbstractBlock.Settings.of(Material.METAL)));
-    public static final Block FLOWERINGAZALEALEAVESSTAIRS = register("azalea_leaves_flowers_stairs", new CustomStairsBlock(BlockInit.FLOWERINGAZALEALEAVESBLOCK.getDefaultState(), AbstractBlock.Settings.of(Material.METAL)));
+    public static final Block FLOWERINGAZALEALEAVESSTAIRS = register("flowering_azalea_leaves_stairs", new CustomStairsBlock(BlockInit.FLOWERINGAZALEALEAVESBLOCK.getDefaultState(), AbstractBlock.Settings.of(Material.METAL)));
     public static final Block FOXSPAWNEGGSTAIRS = register("fox_spawn_egg_stairs", new CustomStairsBlock(BlockInit.FOXSPAWNEGGBLOCK.getDefaultState(), AbstractBlock.Settings.of(Material.METAL)));
     public static final Block FURNACESTAIRS = register("furnace_stairs", new CustomStairsBlock(BlockInit.FURNACEBLOCK.getDefaultState(), AbstractBlock.Settings.of(Material.METAL)));
     public static final Block FURNACEMINECARTSTAIRS = register("furnace_minecart_stairs", new CustomStairsBlock(BlockInit.FURNACEMINECARTBLOCK.getDefaultState(), AbstractBlock.Settings.of(Material.METAL)));
@@ -1039,7 +1039,7 @@ public class StairsInit {
     public static final Block WARPEDTRAPDOORSTAIRS = register("warped_trapdoor_stairs", new CustomStairsBlock(BlockInit.WARPEDTRAPDOORBLOCK.getDefaultState(), AbstractBlock.Settings.of(Material.METAL)));
     public static final Block WARPEDWARTBLOCKSTAIRS = register("warped_wart_block_stairs", new CustomStairsBlock(BlockInit.WARPEDWARTBLOCKBLOCK.getDefaultState(), AbstractBlock.Settings.of(Material.METAL)));
     public static final Block WATERSTAIRS = register("water_bucket_stairs", new CustomStairsBlock(BlockInit.WATERBLOCK.getDefaultState(), AbstractBlock.Settings.of(Material.METAL)));
-    public static final Block WAXEDBLOCKOFCOPPERSTAIRS = register("waxed_copper_stairs", new CustomStairsBlock(BlockInit.WAXEDBLOCKOFCOPPERBLOCK.getDefaultState(), AbstractBlock.Settings.of(Material.METAL)));
+    public static final Block WAXEDBLOCKOFCOPPERSTAIRS = register("waxed_copper_block_stairs", new CustomStairsBlock(BlockInit.WAXEDBLOCKOFCOPPERBLOCK.getDefaultState(), AbstractBlock.Settings.of(Material.METAL)));
     public static final Block WAXEDCUTCOPPERSTAIRS = register("waxed_cut_copper_stairs", new CustomStairsBlock(BlockInit.WAXEDCUTCOPPERBLOCK.getDefaultState(), AbstractBlock.Settings.of(Material.METAL)));
     public static final Block WAXEDCUTCOPPERSLABSTAIRS = register("waxed_cut_copper_slab_stairs", new CustomStairsBlock(BlockInit.WAXEDCUTCOPPERSLABBLOCK.getDefaultState(), AbstractBlock.Settings.of(Material.METAL)));
     public static final Block WAXEDCUTCOPPERSTAIRSSTAIRS = register("waxed_cut_copper_stairs_stairs", new CustomStairsBlock(BlockInit.WAXEDCUTCOPPERSTAIRSBLOCK.getDefaultState(), AbstractBlock.Settings.of(Material.METAL)));

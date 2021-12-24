@@ -51,7 +51,18 @@
 			"ctft:nether_quartz_ore_lever_from_crafting",
 			"ctft:nether_quartz_ore_button_from_crafting",
 			"ctft:nether_quartz_ore_pressure_plate_from_crafting",
-			"ctft:nether_quartz_ore_fence_gate_from_crafting"
+			"ctft:nether_quartz_ore_fence_gate_from_crafting",
+			"ctft:nether_quartz_ore_chain_from_stonecutter",
+			"ctft:nether_quartz_ore_compressed1_from_block",
+			"ctft:nether_quartz_ore_block_from_compressed1",
+			"ctft:nether_quartz_ore_compressed2_from_compressed1",
+			"ctft:nether_quartz_ore_compressed1_from_compressed2",
+			"ctft:nether_quartz_ore_compressed3_from_compressed2",
+			"ctft:nether_quartz_ore_compressed2_from_compressed3",
+			"ctft:nether_quartz_ore_compressed4_from_compressed"3,
+			"ctft:nether_quartz_ore_compressed3_from_compressed4",
+			"ctft:nether_quartz_ore_compressed5_from_compressed4",
+			"ctft:nether_quartz_ore_compressed4_from_compressed5"
 		]
 	}
 }

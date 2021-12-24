@@ -51,7 +51,18 @@
 			"ctft:shield_lever_from_crafting",
 			"ctft:shield_button_from_crafting",
 			"ctft:shield_pressure_plate_from_crafting",
-			"ctft:shield_fence_gate_from_crafting"
+			"ctft:shield_fence_gate_from_crafting",
+			"ctft:shield_chain_from_stonecutter",
+			"ctft:shield_compressed1_from_block",
+			"ctft:shield_block_from_compressed1",
+			"ctft:shield_compressed2_from_compressed1",
+			"ctft:shield_compressed1_from_compressed2",
+			"ctft:shield_compressed3_from_compressed2",
+			"ctft:shield_compressed2_from_compressed3",
+			"ctft:shield_compressed4_from_compressed"3,
+			"ctft:shield_compressed3_from_compressed4",
+			"ctft:shield_compressed5_from_compressed4",
+			"ctft:shield_compressed4_from_compressed5"
 		]
 	}
 }

@@ -208,7 +208,7 @@ public class ShieldInit {
     public static final Item COBBLEDDEEPSLATESHIELD = register("cobbled_deepslate_shield", new CustomShieldItem(false, new Item.Settings().group(ItemGroup.SEARCH).maxDamage(980).rarity(Rarity.COMMON)));
     public static final Item COBBLEDDEEPSLATESLABSHIELD = register("cobbled_deepslate_slab_shield", new CustomShieldItem(false, new Item.Settings().group(ItemGroup.SEARCH).maxDamage(980).rarity(Rarity.COMMON)));
     public static final Item COBBLEDDEEPSLATESTAIRSSHIELD = register("cobbled_deepslate_stairs_shield", new CustomShieldItem(false, new Item.Settings().group(ItemGroup.SEARCH).maxDamage(980).rarity(Rarity.COMMON)));
-    public static final Item COBBLEDDEEPSLATEWALLSHIELD = register("deepslate_wall_shield", new CustomShieldItem(false, new Item.Settings().group(ItemGroup.SEARCH).maxDamage(980).rarity(Rarity.COMMON)));
+    public static final Item COBBLEDDEEPSLATEWALLSHIELD = register("cobbled_deepslate_wall_shield", new CustomShieldItem(false, new Item.Settings().group(ItemGroup.SEARCH).maxDamage(980).rarity(Rarity.COMMON)));
     public static final Item COBBLESTONESHIELD = register("cobblestone_shield", new CustomShieldItem(false, new Item.Settings().group(ItemGroup.SEARCH).maxDamage(746).rarity(Rarity.COMMON)));
     public static final Item COBBLESTONESLABSHIELD = register("cobblestone_slab_shield", new CustomShieldItem(false, new Item.Settings().group(ItemGroup.SEARCH).maxDamage(746).rarity(Rarity.COMMON)));
     public static final Item COBBLESTONESTAIRSSHIELD = register("cobblestone_stairs_shield", new CustomShieldItem(false, new Item.Settings().group(ItemGroup.SEARCH).maxDamage(746).rarity(Rarity.COMMON)));
@@ -409,7 +409,7 @@ public class ShieldInit {
     public static final Item FLOWERBANNERPATTERNSHIELD = register("flower_banner_pattern_shield", new CustomShieldItem(false, new Item.Settings().group(ItemGroup.SEARCH).maxDamage(746).rarity(Rarity.COMMON)));
     public static final Item FLOWERPOTSHIELD = register("flower_pot_shield", new CustomShieldItem(false, new Item.Settings().group(ItemGroup.SEARCH).maxDamage(1008).rarity(Rarity.COMMON)));
     public static final Item FLOWERINGAZALEASHIELD = register("flowering_azalea_shield", new CustomShieldItem(false, new Item.Settings().group(ItemGroup.SEARCH).maxDamage(336).rarity(Rarity.COMMON)));
-    public static final Item FLOWERINGAZALEALEAVESSHIELD = register("azalea_leaves_flowers_shield", new CustomShieldItem(false, new Item.Settings().group(ItemGroup.SEARCH).maxDamage(45).rarity(Rarity.COMMON)));
+    public static final Item FLOWERINGAZALEALEAVESSHIELD = register("flowering_azalea_leaves_shield", new CustomShieldItem(false, new Item.Settings().group(ItemGroup.SEARCH).maxDamage(45).rarity(Rarity.COMMON)));
     public static final Item FOXSPAWNEGGSHIELD = register("fox_spawn_egg_shield", new CustomShieldItem(false, new Item.Settings().group(ItemGroup.SEARCH).maxDamage(250).rarity(Rarity.COMMON)));
     public static final Item FURNACESHIELD = register("furnace_shield", new CustomShieldItem(false, new Item.Settings().group(ItemGroup.SEARCH).maxDamage(746).rarity(Rarity.COMMON)));
     public static final Item FURNACEMINECARTSHIELD = register("furnace_minecart_shield", new CustomShieldItem(false, new Item.Settings().group(ItemGroup.SEARCH).maxDamage(746).rarity(Rarity.COMMON)));
@@ -1044,7 +1044,7 @@ public class ShieldInit {
     public static final Item WARPEDTRAPDOORSHIELD = register("warped_trapdoor_shield", new CustomShieldItem(false, new Item.Settings().group(ItemGroup.SEARCH).maxDamage(336).rarity(Rarity.COMMON)));
     public static final Item WARPEDWARTBLOCKSHIELD = register("warped_wart_block_shield", new CustomShieldItem(false, new Item.Settings().group(ItemGroup.SEARCH).maxDamage(45).rarity(Rarity.COMMON)));
     public static final Item WATERSHIELD = register("water_bucket_shield", new CustomShieldItem(false, new Item.Settings().group(ItemGroup.SEARCH).maxDamage(1368).rarity(Rarity.COMMON)));
-    public static final Item WAXEDBLOCKOFCOPPERSHIELD = register("waxed_copper_shield", new CustomShieldItem(false, new Item.Settings().group(ItemGroup.SEARCH).maxDamage(1083).rarity(Rarity.COMMON)));
+    public static final Item WAXEDBLOCKOFCOPPERSHIELD = register("waxed_copper_block_shield", new CustomShieldItem(false, new Item.Settings().group(ItemGroup.SEARCH).maxDamage(1083).rarity(Rarity.COMMON)));
     public static final Item WAXEDCUTCOPPERSHIELD = register("waxed_cut_copper_shield", new CustomShieldItem(false, new Item.Settings().group(ItemGroup.SEARCH).maxDamage(1083).rarity(Rarity.COMMON)));
     public static final Item WAXEDCUTCOPPERSLABSHIELD = register("waxed_cut_copper_slab_shield", new CustomShieldItem(false, new Item.Settings().group(ItemGroup.SEARCH).maxDamage(1083).rarity(Rarity.COMMON)));
     public static final Item WAXEDCUTCOPPERSTAIRSSHIELD = register("waxed_cut_copper_stairs_shield", new CustomShieldItem(false, new Item.Settings().group(ItemGroup.SEARCH).maxDamage(1083).rarity(Rarity.COMMON)));

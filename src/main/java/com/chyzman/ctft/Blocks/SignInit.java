@@ -204,7 +204,7 @@ public class SignInit {
     public static final Block COBBLEDDEEPSLATESIGN = register("cobbled_deepslate_sign", new SignBlock(AbstractBlock.Settings.of(Material.METAL).noCollision(), SignType.OAK));
     public static final Block COBBLEDDEEPSLATESLABSIGN = register("cobbled_deepslate_slab_sign", new SignBlock(AbstractBlock.Settings.of(Material.METAL).noCollision(), SignType.OAK));
     public static final Block COBBLEDDEEPSLATESTAIRSSIGN = register("cobbled_deepslate_stairs_sign", new SignBlock(AbstractBlock.Settings.of(Material.METAL).noCollision(), SignType.OAK));
-    public static final Block COBBLEDDEEPSLATEWALLSIGN = register("deepslate_wall_sign", new SignBlock(AbstractBlock.Settings.of(Material.METAL).noCollision(), SignType.OAK));
+    public static final Block COBBLEDDEEPSLATEWALLSIGN = register("cobbled_deepslate_wall_sign", new SignBlock(AbstractBlock.Settings.of(Material.METAL).noCollision(), SignType.OAK));
     public static final Block COBBLESTONESIGN = register("cobblestone_sign", new SignBlock(AbstractBlock.Settings.of(Material.METAL).noCollision(), SignType.OAK));
     public static final Block COBBLESTONESLABSIGN = register("cobblestone_slab_sign", new SignBlock(AbstractBlock.Settings.of(Material.METAL).noCollision(), SignType.OAK));
     public static final Block COBBLESTONESTAIRSSIGN = register("cobblestone_stairs_sign", new SignBlock(AbstractBlock.Settings.of(Material.METAL).noCollision(), SignType.OAK));
@@ -405,7 +405,7 @@ public class SignInit {
     public static final Block FLOWERBANNERPATTERNSIGN = register("flower_banner_pattern_sign", new SignBlock(AbstractBlock.Settings.of(Material.METAL).noCollision(), SignType.OAK));
     public static final Block FLOWERPOTSIGN = register("flower_pot_sign", new SignBlock(AbstractBlock.Settings.of(Material.METAL).noCollision(), SignType.OAK));
     public static final Block FLOWERINGAZALEASIGN = register("flowering_azalea_sign", new SignBlock(AbstractBlock.Settings.of(Material.METAL).noCollision(), SignType.OAK));
-    public static final Block FLOWERINGAZALEALEAVESSIGN = register("azalea_leaves_flowers_sign", new SignBlock(AbstractBlock.Settings.of(Material.METAL).noCollision(), SignType.OAK));
+    public static final Block FLOWERINGAZALEALEAVESSIGN = register("flowering_azalea_leaves_sign", new SignBlock(AbstractBlock.Settings.of(Material.METAL).noCollision(), SignType.OAK));
     public static final Block FOXSPAWNEGGSIGN = register("fox_spawn_egg_sign", new SignBlock(AbstractBlock.Settings.of(Material.METAL).noCollision(), SignType.OAK));
     public static final Block FURNACESIGN = register("furnace_sign", new SignBlock(AbstractBlock.Settings.of(Material.METAL).noCollision(), SignType.OAK));
     public static final Block FURNACEMINECARTSIGN = register("furnace_minecart_sign", new SignBlock(AbstractBlock.Settings.of(Material.METAL).noCollision(), SignType.OAK));
@@ -1040,7 +1040,7 @@ public class SignInit {
     public static final Block WARPEDTRAPDOORSIGN = register("warped_trapdoor_sign", new SignBlock(AbstractBlock.Settings.of(Material.METAL).noCollision(), SignType.OAK));
     public static final Block WARPEDWARTBLOCKSIGN = register("warped_wart_block_sign", new SignBlock(AbstractBlock.Settings.of(Material.METAL).noCollision(), SignType.OAK));
     public static final Block WATERSIGN = register("water_bucket_sign", new SignBlock(AbstractBlock.Settings.of(Material.METAL).noCollision(), SignType.OAK));
-    public static final Block WAXEDBLOCKOFCOPPERSIGN = register("waxed_copper_sign", new SignBlock(AbstractBlock.Settings.of(Material.METAL).noCollision(), SignType.OAK));
+    public static final Block WAXEDBLOCKOFCOPPERSIGN = register("waxed_copper_block_sign", new SignBlock(AbstractBlock.Settings.of(Material.METAL).noCollision(), SignType.OAK));
     public static final Block WAXEDCUTCOPPERSIGN = register("waxed_cut_copper_sign", new SignBlock(AbstractBlock.Settings.of(Material.METAL).noCollision(), SignType.OAK));
     public static final Block WAXEDCUTCOPPERSLABSIGN = register("waxed_cut_copper_slab_sign", new SignBlock(AbstractBlock.Settings.of(Material.METAL).noCollision(), SignType.OAK));
     public static final Block WAXEDCUTCOPPERSTAIRSSIGN = register("waxed_cut_copper_stairs_sign", new SignBlock(AbstractBlock.Settings.of(Material.METAL).noCollision(), SignType.OAK));

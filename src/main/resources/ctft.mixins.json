@@ -8,7 +8,9 @@
     "DebugWorldMixin",
     "FishingBobberEntityRendererMixin",
     "FishingBobberFix",
-    "SheepShearingMixin"
+    "PillagerCrossbowMixin",
+    "SheepShearingMixin",
+    "SkeletonBowMixin"
   ],
   "client": [
   ],

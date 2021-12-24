@@ -51,7 +51,18 @@
 			"ctft:spruce_trapdoor_lever_from_crafting",
 			"ctft:spruce_trapdoor_button_from_crafting",
 			"ctft:spruce_trapdoor_pressure_plate_from_crafting",
-			"ctft:spruce_trapdoor_fence_gate_from_crafting"
+			"ctft:spruce_trapdoor_fence_gate_from_crafting",
+			"ctft:spruce_trapdoor_chain_from_stonecutter",
+			"ctft:spruce_trapdoor_compressed1_from_block",
+			"ctft:spruce_trapdoor_block_from_compressed1",
+			"ctft:spruce_trapdoor_compressed2_from_compressed1",
+			"ctft:spruce_trapdoor_compressed1_from_compressed2",
+			"ctft:spruce_trapdoor_compressed3_from_compressed2",
+			"ctft:spruce_trapdoor_compressed2_from_compressed3",
+			"ctft:spruce_trapdoor_compressed4_from_compressed"3,
+			"ctft:spruce_trapdoor_compressed3_from_compressed4",
+			"ctft:spruce_trapdoor_compressed5_from_compressed4",
+			"ctft:spruce_trapdoor_compressed4_from_compressed5"
 		]
 	}
 }

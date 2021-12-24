@@ -206,7 +206,7 @@ public class PaneItemInit {
     public static final Item COBBLEDDEEPSLATEPANEITEM = register("cobbled_deepslate_pane", new CustomBlockItem(PaneInit.COBBLEDDEEPSLATEPANE, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item COBBLEDDEEPSLATESLABPANEITEM = register("cobbled_deepslate_slab_pane", new CustomBlockItem(PaneInit.COBBLEDDEEPSLATESLABPANE, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item COBBLEDDEEPSLATESTAIRSPANEITEM = register("cobbled_deepslate_stairs_pane", new CustomBlockItem(PaneInit.COBBLEDDEEPSLATESTAIRSPANE, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
-    public static final Item COBBLEDDEEPSLATEWALLPANEITEM = register("deepslate_wall_pane", new CustomBlockItem(PaneInit.COBBLEDDEEPSLATEWALLPANE, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
+    public static final Item COBBLEDDEEPSLATEWALLPANEITEM = register("cobbled_deepslate_wall_pane", new CustomBlockItem(PaneInit.COBBLEDDEEPSLATEWALLPANE, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item COBBLESTONEPANEITEM = register("cobblestone_pane", new CustomBlockItem(PaneInit.COBBLESTONEPANE, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item COBBLESTONESLABPANEITEM = register("cobblestone_slab_pane", new CustomBlockItem(PaneInit.COBBLESTONESLABPANE, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item COBBLESTONESTAIRSPANEITEM = register("cobblestone_stairs_pane", new CustomBlockItem(PaneInit.COBBLESTONESTAIRSPANE, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
@@ -407,7 +407,7 @@ public class PaneItemInit {
     public static final Item FLOWERBANNERPATTERNPANEITEM = register("flower_banner_pattern_pane", new CustomBlockItem(PaneInit.FLOWERBANNERPATTERNPANE, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item FLOWERPOTPANEITEM = register("flower_pot_pane", new CustomBlockItem(PaneInit.FLOWERPOTPANE, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item FLOWERINGAZALEAPANEITEM = register("flowering_azalea_pane", new CustomBlockItem(PaneInit.FLOWERINGAZALEAPANE, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
-    public static final Item FLOWERINGAZALEALEAVESPANEITEM = register("azalea_leaves_flowers_pane", new CustomBlockItem(PaneInit.FLOWERINGAZALEALEAVESPANE, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
+    public static final Item FLOWERINGAZALEALEAVESPANEITEM = register("flowering_azalea_leaves_pane", new CustomBlockItem(PaneInit.FLOWERINGAZALEALEAVESPANE, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item FOXSPAWNEGGPANEITEM = register("fox_spawn_egg_pane", new CustomBlockItem(PaneInit.FOXSPAWNEGGPANE, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item FURNACEPANEITEM = register("furnace_pane", new CustomBlockItem(PaneInit.FURNACEPANE, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item FURNACEMINECARTPANEITEM = register("furnace_minecart_pane", new CustomBlockItem(PaneInit.FURNACEMINECARTPANE, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
@@ -1042,7 +1042,7 @@ public class PaneItemInit {
     public static final Item WARPEDTRAPDOORPANEITEM = register("warped_trapdoor_pane", new CustomBlockItem(PaneInit.WARPEDTRAPDOORPANE, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item WARPEDWARTBLOCKPANEITEM = register("warped_wart_block_pane", new CustomBlockItem(PaneInit.WARPEDWARTBLOCKPANE, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item WATERPANEITEM = register("water_bucket_pane", new CustomBlockItem(PaneInit.WATERPANE, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
-    public static final Item WAXEDBLOCKOFCOPPERPANEITEM = register("waxed_copper_pane", new CustomBlockItem(PaneInit.WAXEDBLOCKOFCOPPERPANE, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
+    public static final Item WAXEDBLOCKOFCOPPERPANEITEM = register("waxed_copper_block_pane", new CustomBlockItem(PaneInit.WAXEDBLOCKOFCOPPERPANE, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item WAXEDCUTCOPPERPANEITEM = register("waxed_cut_copper_pane", new CustomBlockItem(PaneInit.WAXEDCUTCOPPERPANE, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item WAXEDCUTCOPPERSLABPANEITEM = register("waxed_cut_copper_slab_pane", new CustomBlockItem(PaneInit.WAXEDCUTCOPPERSLABPANE, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item WAXEDCUTCOPPERSTAIRSPANEITEM = register("waxed_cut_copper_stairs_pane", new CustomBlockItem(PaneInit.WAXEDCUTCOPPERSTAIRSPANE, false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));

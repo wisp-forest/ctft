@@ -73,6 +73,14 @@ public class CustomCrossbowItem extends CrossbowItem implements Vanishable {
     @Override
     public TypedActionResult<ItemStack> use(World world, PlayerEntity user, Hand hand) {
         ItemStack itemStack = user.getStackInHand(hand);
+        if (user.isSneaking() && this.isFood()) {
+            if (user.canConsume(this.getFoodComponent().isAlwaysEdible())) {
+                user.setCurrentHand(hand);
+                return TypedActionResult.consume(itemStack);
+            } else {
+                return TypedActionResult.fail(itemStack);
+            }
+        }
         if (CustomCrossbowItem.isCharged(itemStack)) {
             CustomCrossbowItem.shootAll(world, user, hand, itemStack, this.getSpeed(itemStack), 1.0f);
             CustomCrossbowItem.setCharged(itemStack, false);
@@ -394,4 +402,5 @@ public class CustomCrossbowItem extends CrossbowItem implements Vanishable {
     public int getRange() {
         return 8;
     }
+
 }

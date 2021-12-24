@@ -202,7 +202,7 @@ public class WallInit {
     public static final Block COBBLEDDEEPSLATEWALL = register("cobbled_deepslate_wall", new WallBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block COBBLEDDEEPSLATESLABWALL = register("cobbled_deepslate_slab_wall", new WallBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block COBBLEDDEEPSLATESTAIRSWALL = register("cobbled_deepslate_stairs_wall", new WallBlock(AbstractBlock.Settings.of(Material.METAL)));
-    public static final Block COBBLEDDEEPSLATEWALLWALL = register("deepslate_wall_wall", new WallBlock(AbstractBlock.Settings.of(Material.METAL)));
+    public static final Block COBBLEDDEEPSLATEWALLWALL = register("cobbled_deepslate_wall_wall", new WallBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block COBBLESTONEWALL = register("cobblestone_wall", new WallBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block COBBLESTONESLABWALL = register("cobblestone_slab_wall", new WallBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block COBBLESTONESTAIRSWALL = register("cobblestone_stairs_wall", new WallBlock(AbstractBlock.Settings.of(Material.METAL)));
@@ -403,7 +403,7 @@ public class WallInit {
     public static final Block FLOWERBANNERPATTERNWALL = register("flower_banner_pattern_wall", new WallBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block FLOWERPOTWALL = register("flower_pot_wall", new WallBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block FLOWERINGAZALEAWALL = register("flowering_azalea_wall", new WallBlock(AbstractBlock.Settings.of(Material.METAL)));
-    public static final Block FLOWERINGAZALEALEAVESWALL = register("azalea_leaves_flowers_wall", new WallBlock(AbstractBlock.Settings.of(Material.METAL)));
+    public static final Block FLOWERINGAZALEALEAVESWALL = register("flowering_azalea_leaves_wall", new WallBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block FOXSPAWNEGGWALL = register("fox_spawn_egg_wall", new WallBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block FURNACEWALL = register("furnace_wall", new WallBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block FURNACEMINECARTWALL = register("furnace_minecart_wall", new WallBlock(AbstractBlock.Settings.of(Material.METAL)));
@@ -1038,7 +1038,7 @@ public class WallInit {
     public static final Block WARPEDTRAPDOORWALL = register("warped_trapdoor_wall", new WallBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block WARPEDWARTBLOCKWALL = register("warped_wart_block_wall", new WallBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block WATERWALL = register("water_bucket_wall", new WallBlock(AbstractBlock.Settings.of(Material.METAL)));
-    public static final Block WAXEDBLOCKOFCOPPERWALL = register("waxed_copper_wall", new WallBlock(AbstractBlock.Settings.of(Material.METAL)));
+    public static final Block WAXEDBLOCKOFCOPPERWALL = register("waxed_copper_block_wall", new WallBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block WAXEDCUTCOPPERWALL = register("waxed_cut_copper_wall", new WallBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block WAXEDCUTCOPPERSLABWALL = register("waxed_cut_copper_slab_wall", new WallBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block WAXEDCUTCOPPERSTAIRSWALL = register("waxed_cut_copper_stairs_wall", new WallBlock(AbstractBlock.Settings.of(Material.METAL)));

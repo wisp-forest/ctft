@@ -51,7 +51,18 @@
 			"ctft:item_frame_lever_from_crafting",
 			"ctft:item_frame_button_from_crafting",
 			"ctft:item_frame_pressure_plate_from_crafting",
-			"ctft:item_frame_fence_gate_from_crafting"
+			"ctft:item_frame_fence_gate_from_crafting",
+			"ctft:item_frame_chain_from_stonecutter",
+			"ctft:item_frame_compressed1_from_block",
+			"ctft:item_frame_block_from_compressed1",
+			"ctft:item_frame_compressed2_from_compressed1",
+			"ctft:item_frame_compressed1_from_compressed2",
+			"ctft:item_frame_compressed3_from_compressed2",
+			"ctft:item_frame_compressed2_from_compressed3",
+			"ctft:item_frame_compressed4_from_compressed"3,
+			"ctft:item_frame_compressed3_from_compressed4",
+			"ctft:item_frame_compressed5_from_compressed4",
+			"ctft:item_frame_compressed4_from_compressed5"
 		]
 	}
 }

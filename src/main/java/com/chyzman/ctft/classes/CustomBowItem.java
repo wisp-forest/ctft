@@ -110,6 +110,14 @@ public class CustomBowItem extends BowItem implements Vanishable {
     public TypedActionResult<ItemStack> use(World world, PlayerEntity user, Hand hand) {
         boolean bl;
         ItemStack itemStack = user.getStackInHand(hand);
+        if (user.isSneaking() && this.isFood()) {
+            if (user.canConsume(this.getFoodComponent().isAlwaysEdible())) {
+                user.setCurrentHand(hand);
+                return TypedActionResult.consume(itemStack);
+            } else {
+                return TypedActionResult.fail(itemStack);
+            }
+        }
         boolean bl2 = bl = !user.getArrowType(itemStack).isEmpty();
         if (user.getAbilities().creativeMode || bl) {
             user.setCurrentHand(hand);

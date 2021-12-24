@@ -203,7 +203,7 @@ public class ButtonInit {
     public static final Block COBBLEDDEEPSLATEBUTTON = register("cobbled_deepslate_button", new CustomButtonBlock(AbstractBlock.Settings.of(Material.METAL).noCollision()));
     public static final Block COBBLEDDEEPSLATESLABBUTTON = register("cobbled_deepslate_slab_button", new CustomButtonBlock(AbstractBlock.Settings.of(Material.METAL).noCollision()));
     public static final Block COBBLEDDEEPSLATESTAIRSBUTTON = register("cobbled_deepslate_stairs_button", new CustomButtonBlock(AbstractBlock.Settings.of(Material.METAL).noCollision()));
-    public static final Block COBBLEDDEEPSLATEWALLBUTTON = register("deepslate_wall_button", new CustomButtonBlock(AbstractBlock.Settings.of(Material.METAL).noCollision()));
+    public static final Block COBBLEDDEEPSLATEWALLBUTTON = register("cobbled_deepslate_wall_button", new CustomButtonBlock(AbstractBlock.Settings.of(Material.METAL).noCollision()));
     public static final Block COBBLESTONEBUTTON = register("cobblestone_button", new CustomButtonBlock(AbstractBlock.Settings.of(Material.METAL).noCollision()));
     public static final Block COBBLESTONESLABBUTTON = register("cobblestone_slab_button", new CustomButtonBlock(AbstractBlock.Settings.of(Material.METAL).noCollision()));
     public static final Block COBBLESTONESTAIRSBUTTON = register("cobblestone_stairs_button", new CustomButtonBlock(AbstractBlock.Settings.of(Material.METAL).noCollision()));
@@ -404,7 +404,7 @@ public class ButtonInit {
     public static final Block FLOWERBANNERPATTERNBUTTON = register("flower_banner_pattern_button", new CustomButtonBlock(AbstractBlock.Settings.of(Material.METAL).noCollision()));
     public static final Block FLOWERPOTBUTTON = register("flower_pot_button", new CustomButtonBlock(AbstractBlock.Settings.of(Material.METAL).noCollision()));
     public static final Block FLOWERINGAZALEABUTTON = register("flowering_azalea_button", new CustomButtonBlock(AbstractBlock.Settings.of(Material.METAL).noCollision()));
-    public static final Block FLOWERINGAZALEALEAVESBUTTON = register("azalea_leaves_flowers_button", new CustomButtonBlock(AbstractBlock.Settings.of(Material.METAL).noCollision()));
+    public static final Block FLOWERINGAZALEALEAVESBUTTON = register("flowering_azalea_leaves_button", new CustomButtonBlock(AbstractBlock.Settings.of(Material.METAL).noCollision()));
     public static final Block FOXSPAWNEGGBUTTON = register("fox_spawn_egg_button", new CustomButtonBlock(AbstractBlock.Settings.of(Material.METAL).noCollision()));
     public static final Block FURNACEBUTTON = register("furnace_button", new CustomButtonBlock(AbstractBlock.Settings.of(Material.METAL).noCollision()));
     public static final Block FURNACEMINECARTBUTTON = register("furnace_minecart_button", new CustomButtonBlock(AbstractBlock.Settings.of(Material.METAL).noCollision()));
@@ -1039,7 +1039,7 @@ public class ButtonInit {
     public static final Block WARPEDTRAPDOORBUTTON = register("warped_trapdoor_button", new CustomButtonBlock(AbstractBlock.Settings.of(Material.METAL).noCollision()));
     public static final Block WARPEDWARTBLOCKBUTTON = register("warped_wart_block_button", new CustomButtonBlock(AbstractBlock.Settings.of(Material.METAL).noCollision()));
     public static final Block WATERBUTTON = register("water_bucket_button", new CustomButtonBlock(AbstractBlock.Settings.of(Material.METAL).noCollision()));
-    public static final Block WAXEDBLOCKOFCOPPERBUTTON = register("waxed_copper_button", new CustomButtonBlock(AbstractBlock.Settings.of(Material.METAL).noCollision()));
+    public static final Block WAXEDBLOCKOFCOPPERBUTTON = register("waxed_copper_block_button", new CustomButtonBlock(AbstractBlock.Settings.of(Material.METAL).noCollision()));
     public static final Block WAXEDCUTCOPPERBUTTON = register("waxed_cut_copper_button", new CustomButtonBlock(AbstractBlock.Settings.of(Material.METAL).noCollision()));
     public static final Block WAXEDCUTCOPPERSLABBUTTON = register("waxed_cut_copper_slab_button", new CustomButtonBlock(AbstractBlock.Settings.of(Material.METAL).noCollision()));
     public static final Block WAXEDCUTCOPPERSTAIRSBUTTON = register("waxed_cut_copper_stairs_button", new CustomButtonBlock(AbstractBlock.Settings.of(Material.METAL).noCollision()));

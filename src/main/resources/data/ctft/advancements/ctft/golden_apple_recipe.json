@@ -51,7 +51,18 @@
 			"ctft:golden_apple_lever_from_crafting",
 			"ctft:golden_apple_button_from_crafting",
 			"ctft:golden_apple_pressure_plate_from_crafting",
-			"ctft:golden_apple_fence_gate_from_crafting"
+			"ctft:golden_apple_fence_gate_from_crafting",
+			"ctft:golden_apple_chain_from_stonecutter",
+			"ctft:golden_apple_compressed1_from_block",
+			"ctft:golden_apple_block_from_compressed1",
+			"ctft:golden_apple_compressed2_from_compressed1",
+			"ctft:golden_apple_compressed1_from_compressed2",
+			"ctft:golden_apple_compressed3_from_compressed2",
+			"ctft:golden_apple_compressed2_from_compressed3",
+			"ctft:golden_apple_compressed4_from_compressed"3,
+			"ctft:golden_apple_compressed3_from_compressed4",
+			"ctft:golden_apple_compressed5_from_compressed4",
+			"ctft:golden_apple_compressed4_from_compressed5"
 		]
 	}
 }

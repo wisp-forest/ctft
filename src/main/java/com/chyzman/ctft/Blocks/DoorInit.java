@@ -203,7 +203,7 @@ public class DoorInit {
     public static final Block COBBLEDDEEPSLATEDOOR = register("cobbled_deepslate_door", new CustomDoorBlock(AbstractBlock.Settings.of(Material.CARPET).nonOpaque()));
     public static final Block COBBLEDDEEPSLATESLABDOOR = register("cobbled_deepslate_slab_door", new CustomDoorBlock(AbstractBlock.Settings.of(Material.CARPET).nonOpaque()));
     public static final Block COBBLEDDEEPSLATESTAIRSDOOR = register("cobbled_deepslate_stairs_door", new CustomDoorBlock(AbstractBlock.Settings.of(Material.CARPET).nonOpaque()));
-    public static final Block COBBLEDDEEPSLATEWALLDOOR = register("deepslate_wall_door", new CustomDoorBlock(AbstractBlock.Settings.of(Material.CARPET).nonOpaque()));
+    public static final Block COBBLEDDEEPSLATEWALLDOOR = register("cobbled_deepslate_wall_door", new CustomDoorBlock(AbstractBlock.Settings.of(Material.CARPET).nonOpaque()));
     public static final Block COBBLESTONEDOOR = register("cobblestone_door", new CustomDoorBlock(AbstractBlock.Settings.of(Material.CARPET).nonOpaque()));
     public static final Block COBBLESTONESLABDOOR = register("cobblestone_slab_door", new CustomDoorBlock(AbstractBlock.Settings.of(Material.CARPET).nonOpaque()));
     public static final Block COBBLESTONESTAIRSDOOR = register("cobblestone_stairs_door", new CustomDoorBlock(AbstractBlock.Settings.of(Material.CARPET).nonOpaque()));
@@ -404,7 +404,7 @@ public class DoorInit {
     public static final Block FLOWERBANNERPATTERNDOOR = register("flower_banner_pattern_door", new CustomDoorBlock(AbstractBlock.Settings.of(Material.CARPET).nonOpaque()));
     public static final Block FLOWERPOTDOOR = register("flower_pot_door", new CustomDoorBlock(AbstractBlock.Settings.of(Material.CARPET).nonOpaque()));
     public static final Block FLOWERINGAZALEADOOR = register("flowering_azalea_door", new CustomDoorBlock(AbstractBlock.Settings.of(Material.CARPET).nonOpaque()));
-    public static final Block FLOWERINGAZALEALEAVESDOOR = register("azalea_leaves_flowers_door", new CustomDoorBlock(AbstractBlock.Settings.of(Material.CARPET).nonOpaque()));
+    public static final Block FLOWERINGAZALEALEAVESDOOR = register("flowering_azalea_leaves_door", new CustomDoorBlock(AbstractBlock.Settings.of(Material.CARPET).nonOpaque()));
     public static final Block FOXSPAWNEGGDOOR = register("fox_spawn_egg_door", new CustomDoorBlock(AbstractBlock.Settings.of(Material.CARPET).nonOpaque()));
     public static final Block FURNACEDOOR = register("furnace_door", new CustomDoorBlock(AbstractBlock.Settings.of(Material.CARPET).nonOpaque()));
     public static final Block FURNACEMINECARTDOOR = register("furnace_minecart_door", new CustomDoorBlock(AbstractBlock.Settings.of(Material.CARPET).nonOpaque()));
@@ -1039,7 +1039,7 @@ public class DoorInit {
     public static final Block WARPEDTRAPDOORDOOR = register("warped_trapdoor_door", new CustomDoorBlock(AbstractBlock.Settings.of(Material.CARPET).nonOpaque()));
     public static final Block WARPEDWARTBLOCKDOOR = register("warped_wart_block_door", new CustomDoorBlock(AbstractBlock.Settings.of(Material.CARPET).nonOpaque()));
     public static final Block WATERDOOR = register("water_bucket_door", new CustomDoorBlock(AbstractBlock.Settings.of(Material.CARPET).nonOpaque()));
-    public static final Block WAXEDBLOCKOFCOPPERDOOR = register("waxed_copper_door", new CustomDoorBlock(AbstractBlock.Settings.of(Material.CARPET).nonOpaque()));
+    public static final Block WAXEDBLOCKOFCOPPERDOOR = register("waxed_copper_block_door", new CustomDoorBlock(AbstractBlock.Settings.of(Material.CARPET).nonOpaque()));
     public static final Block WAXEDCUTCOPPERDOOR = register("waxed_cut_copper_door", new CustomDoorBlock(AbstractBlock.Settings.of(Material.CARPET).nonOpaque()));
     public static final Block WAXEDCUTCOPPERSLABDOOR = register("waxed_cut_copper_slab_door", new CustomDoorBlock(AbstractBlock.Settings.of(Material.CARPET).nonOpaque()));
     public static final Block WAXEDCUTCOPPERSTAIRSDOOR = register("waxed_cut_copper_stairs_door", new CustomDoorBlock(AbstractBlock.Settings.of(Material.CARPET).nonOpaque()));

@@ -51,7 +51,18 @@
 			"ctft:dragon_breath_lever_from_crafting",
 			"ctft:dragon_breath_button_from_crafting",
 			"ctft:dragon_breath_pressure_plate_from_crafting",
-			"ctft:dragon_breath_fence_gate_from_crafting"
+			"ctft:dragon_breath_fence_gate_from_crafting",
+			"ctft:dragon_breath_chain_from_stonecutter",
+			"ctft:dragon_breath_compressed1_from_block",
+			"ctft:dragon_breath_block_from_compressed1",
+			"ctft:dragon_breath_compressed2_from_compressed1",
+			"ctft:dragon_breath_compressed1_from_compressed2",
+			"ctft:dragon_breath_compressed3_from_compressed2",
+			"ctft:dragon_breath_compressed2_from_compressed3",
+			"ctft:dragon_breath_compressed4_from_compressed"3,
+			"ctft:dragon_breath_compressed3_from_compressed4",
+			"ctft:dragon_breath_compressed5_from_compressed4",
+			"ctft:dragon_breath_compressed4_from_compressed5"
 		]
 	}
 }

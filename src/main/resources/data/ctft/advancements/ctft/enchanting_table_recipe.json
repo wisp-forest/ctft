@@ -51,7 +51,18 @@
 			"ctft:enchanting_table_lever_from_crafting",
 			"ctft:enchanting_table_button_from_crafting",
 			"ctft:enchanting_table_pressure_plate_from_crafting",
-			"ctft:enchanting_table_fence_gate_from_crafting"
+			"ctft:enchanting_table_fence_gate_from_crafting",
+			"ctft:enchanting_table_chain_from_stonecutter",
+			"ctft:enchanting_table_compressed1_from_block",
+			"ctft:enchanting_table_block_from_compressed1",
+			"ctft:enchanting_table_compressed2_from_compressed1",
+			"ctft:enchanting_table_compressed1_from_compressed2",
+			"ctft:enchanting_table_compressed3_from_compressed2",
+			"ctft:enchanting_table_compressed2_from_compressed3",
+			"ctft:enchanting_table_compressed4_from_compressed"3,
+			"ctft:enchanting_table_compressed3_from_compressed4",
+			"ctft:enchanting_table_compressed5_from_compressed4",
+			"ctft:enchanting_table_compressed4_from_compressed5"
 		]
 	}
 }

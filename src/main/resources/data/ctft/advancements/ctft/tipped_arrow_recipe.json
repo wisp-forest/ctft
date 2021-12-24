@@ -51,7 +51,18 @@
 			"ctft:tipped_arrow_lever_from_crafting",
 			"ctft:tipped_arrow_button_from_crafting",
 			"ctft:tipped_arrow_pressure_plate_from_crafting",
-			"ctft:tipped_arrow_fence_gate_from_crafting"
+			"ctft:tipped_arrow_fence_gate_from_crafting",
+			"ctft:tipped_arrow_chain_from_stonecutter",
+			"ctft:tipped_arrow_compressed1_from_block",
+			"ctft:tipped_arrow_block_from_compressed1",
+			"ctft:tipped_arrow_compressed2_from_compressed1",
+			"ctft:tipped_arrow_compressed1_from_compressed2",
+			"ctft:tipped_arrow_compressed3_from_compressed2",
+			"ctft:tipped_arrow_compressed2_from_compressed3",
+			"ctft:tipped_arrow_compressed4_from_compressed"3,
+			"ctft:tipped_arrow_compressed3_from_compressed4",
+			"ctft:tipped_arrow_compressed5_from_compressed4",
+			"ctft:tipped_arrow_compressed4_from_compressed5"
 		]
 	}
 }

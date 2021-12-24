@@ -51,7 +51,18 @@
 			"ctft:charcoal_lever_from_crafting",
 			"ctft:charcoal_button_from_crafting",
 			"ctft:charcoal_pressure_plate_from_crafting",
-			"ctft:charcoal_fence_gate_from_crafting"
+			"ctft:charcoal_fence_gate_from_crafting",
+			"ctft:charcoal_chain_from_stonecutter",
+			"ctft:charcoal_compressed1_from_block",
+			"ctft:charcoal_block_from_compressed1",
+			"ctft:charcoal_compressed2_from_compressed1",
+			"ctft:charcoal_compressed1_from_compressed2",
+			"ctft:charcoal_compressed3_from_compressed2",
+			"ctft:charcoal_compressed2_from_compressed3",
+			"ctft:charcoal_compressed4_from_compressed"3,
+			"ctft:charcoal_compressed3_from_compressed4",
+			"ctft:charcoal_compressed5_from_compressed4",
+			"ctft:charcoal_compressed4_from_compressed5"
 		]
 	}
 }

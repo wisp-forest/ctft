@@ -51,7 +51,18 @@
 			"ctft:grass_lever_from_crafting",
 			"ctft:grass_button_from_crafting",
 			"ctft:grass_pressure_plate_from_crafting",
-			"ctft:grass_fence_gate_from_crafting"
+			"ctft:grass_fence_gate_from_crafting",
+			"ctft:grass_chain_from_stonecutter",
+			"ctft:grass_compressed1_from_block",
+			"ctft:grass_block_from_compressed1",
+			"ctft:grass_compressed2_from_compressed1",
+			"ctft:grass_compressed1_from_compressed2",
+			"ctft:grass_compressed3_from_compressed2",
+			"ctft:grass_compressed2_from_compressed3",
+			"ctft:grass_compressed4_from_compressed"3,
+			"ctft:grass_compressed3_from_compressed4",
+			"ctft:grass_compressed5_from_compressed4",
+			"ctft:grass_compressed4_from_compressed5"
 		]
 	}
 }

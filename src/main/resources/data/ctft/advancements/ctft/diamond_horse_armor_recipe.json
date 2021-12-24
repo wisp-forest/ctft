@@ -51,7 +51,18 @@
 			"ctft:diamond_horse_armor_lever_from_crafting",
 			"ctft:diamond_horse_armor_button_from_crafting",
 			"ctft:diamond_horse_armor_pressure_plate_from_crafting",
-			"ctft:diamond_horse_armor_fence_gate_from_crafting"
+			"ctft:diamond_horse_armor_fence_gate_from_crafting",
+			"ctft:diamond_horse_armor_chain_from_stonecutter",
+			"ctft:diamond_horse_armor_compressed1_from_block",
+			"ctft:diamond_horse_armor_block_from_compressed1",
+			"ctft:diamond_horse_armor_compressed2_from_compressed1",
+			"ctft:diamond_horse_armor_compressed1_from_compressed2",
+			"ctft:diamond_horse_armor_compressed3_from_compressed2",
+			"ctft:diamond_horse_armor_compressed2_from_compressed3",
+			"ctft:diamond_horse_armor_compressed4_from_compressed"3,
+			"ctft:diamond_horse_armor_compressed3_from_compressed4",
+			"ctft:diamond_horse_armor_compressed5_from_compressed4",
+			"ctft:diamond_horse_armor_compressed4_from_compressed5"
 		]
 	}
 }

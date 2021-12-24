@@ -58,4 +58,5 @@ public class ChyzbladeItem extends MiningToolItem {
         tooltip.add(new LiteralText("Only The Worthy May Wield the Power Of True Chyz"));
         super.appendTooltip(stack, world, tooltip, context);
     }
+
 }

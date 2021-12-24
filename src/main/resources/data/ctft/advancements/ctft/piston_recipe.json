@@ -51,7 +51,18 @@
 			"ctft:piston_lever_from_crafting",
 			"ctft:piston_button_from_crafting",
 			"ctft:piston_pressure_plate_from_crafting",
-			"ctft:piston_fence_gate_from_crafting"
+			"ctft:piston_fence_gate_from_crafting",
+			"ctft:piston_chain_from_stonecutter",
+			"ctft:piston_compressed1_from_block",
+			"ctft:piston_block_from_compressed1",
+			"ctft:piston_compressed2_from_compressed1",
+			"ctft:piston_compressed1_from_compressed2",
+			"ctft:piston_compressed3_from_compressed2",
+			"ctft:piston_compressed2_from_compressed3",
+			"ctft:piston_compressed4_from_compressed"3,
+			"ctft:piston_compressed3_from_compressed4",
+			"ctft:piston_compressed5_from_compressed4",
+			"ctft:piston_compressed4_from_compressed5"
 		]
 	}
 }

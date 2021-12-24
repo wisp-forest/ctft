@@ -51,7 +51,18 @@
 			"ctft:packed_ice_lever_from_crafting",
 			"ctft:packed_ice_button_from_crafting",
 			"ctft:packed_ice_pressure_plate_from_crafting",
-			"ctft:packed_ice_fence_gate_from_crafting"
+			"ctft:packed_ice_fence_gate_from_crafting",
+			"ctft:packed_ice_chain_from_stonecutter",
+			"ctft:packed_ice_compressed1_from_block",
+			"ctft:packed_ice_block_from_compressed1",
+			"ctft:packed_ice_compressed2_from_compressed1",
+			"ctft:packed_ice_compressed1_from_compressed2",
+			"ctft:packed_ice_compressed3_from_compressed2",
+			"ctft:packed_ice_compressed2_from_compressed3",
+			"ctft:packed_ice_compressed4_from_compressed"3,
+			"ctft:packed_ice_compressed3_from_compressed4",
+			"ctft:packed_ice_compressed5_from_compressed4",
+			"ctft:packed_ice_compressed4_from_compressed5"
 		]
 	}
 }

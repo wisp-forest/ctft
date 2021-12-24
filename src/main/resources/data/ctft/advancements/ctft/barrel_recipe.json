@@ -51,7 +51,18 @@
 			"ctft:barrel_lever_from_crafting",
 			"ctft:barrel_button_from_crafting",
 			"ctft:barrel_pressure_plate_from_crafting",
-			"ctft:barrel_fence_gate_from_crafting"
+			"ctft:barrel_fence_gate_from_crafting",
+			"ctft:barrel_chain_from_stonecutter",
+			"ctft:barrel_compressed1_from_block",
+			"ctft:barrel_block_from_compressed1",
+			"ctft:barrel_compressed2_from_compressed1",
+			"ctft:barrel_compressed1_from_compressed2",
+			"ctft:barrel_compressed3_from_compressed2",
+			"ctft:barrel_compressed2_from_compressed3",
+			"ctft:barrel_compressed4_from_compressed"3,
+			"ctft:barrel_compressed3_from_compressed4",
+			"ctft:barrel_compressed5_from_compressed4",
+			"ctft:barrel_compressed4_from_compressed5"
 		]
 	}
 }

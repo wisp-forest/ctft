@@ -9,6 +9,7 @@ import me.shedaniel.autoconfig.annotation.ConfigEntry;
 import me.shedaniel.cloth.clothconfig.shadowed.blue.endless.jankson.Comment;
 
 @Config(name = "ctft")
+@Config.Gui.Background("ctft/icon.png")
 public class CtftConfig implements ConfigData {
 
     public CtftConfig() {
@@ -166,5 +167,14 @@ public class CtftConfig implements ConfigData {
         @ConfigEntry.Gui.RequiresRestart
         @Comment("Should Ctft Load Ladders?")
         public boolean laddersEnabled = true;
+
+        @ConfigEntry.Gui.RequiresRestart
+        @Comment("Should Ctft Load Chains?")
+        public boolean chainsEnabled = true;
+
+        @ConfigEntry.Gui.RequiresRestart
+        @ConfigEntry.BoundedDiscrete(min = 0, max = 15)
+        @Comment("How Many Layers Of Compression Should Ctft Make?")
+        public int compressionLevel = 15;
     }
 }

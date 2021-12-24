@@ -203,7 +203,7 @@ public class LadderInit {
     public static final Block COBBLEDDEEPSLATELADDER = register("cobbled_deepslate_ladder", new CustomLadderBlock(AbstractBlock.Settings.of(Material.METAL).noCollision().nonOpaque()));
     public static final Block COBBLEDDEEPSLATESLABLADDER = register("cobbled_deepslate_slab_ladder", new CustomLadderBlock(AbstractBlock.Settings.of(Material.METAL).noCollision().nonOpaque()));
     public static final Block COBBLEDDEEPSLATESTAIRSLADDER = register("cobbled_deepslate_stairs_ladder", new CustomLadderBlock(AbstractBlock.Settings.of(Material.METAL).noCollision().nonOpaque()));
-    public static final Block COBBLEDDEEPSLATEWALLLADDER = register("deepslate_wall_ladder", new CustomLadderBlock(AbstractBlock.Settings.of(Material.METAL).noCollision().nonOpaque()));
+    public static final Block COBBLEDDEEPSLATEWALLLADDER = register("cobbled_deepslate_wall_ladder", new CustomLadderBlock(AbstractBlock.Settings.of(Material.METAL).noCollision().nonOpaque()));
     public static final Block COBBLESTONELADDER = register("cobblestone_ladder", new CustomLadderBlock(AbstractBlock.Settings.of(Material.METAL).noCollision().nonOpaque()));
     public static final Block COBBLESTONESLABLADDER = register("cobblestone_slab_ladder", new CustomLadderBlock(AbstractBlock.Settings.of(Material.METAL).noCollision().nonOpaque()));
     public static final Block COBBLESTONESTAIRSLADDER = register("cobblestone_stairs_ladder", new CustomLadderBlock(AbstractBlock.Settings.of(Material.METAL).noCollision().nonOpaque()));
@@ -404,7 +404,7 @@ public class LadderInit {
     public static final Block FLOWERBANNERPATTERNLADDER = register("flower_banner_pattern_ladder", new CustomLadderBlock(AbstractBlock.Settings.of(Material.METAL).noCollision().nonOpaque()));
     public static final Block FLOWERPOTLADDER = register("flower_pot_ladder", new CustomLadderBlock(AbstractBlock.Settings.of(Material.METAL).noCollision().nonOpaque()));
     public static final Block FLOWERINGAZALEALADDER = register("flowering_azalea_ladder", new CustomLadderBlock(AbstractBlock.Settings.of(Material.METAL).noCollision().nonOpaque()));
-    public static final Block FLOWERINGAZALEALEAVESLADDER = register("azalea_leaves_flowers_ladder", new CustomLadderBlock(AbstractBlock.Settings.of(Material.METAL).noCollision().nonOpaque()));
+    public static final Block FLOWERINGAZALEALEAVESLADDER = register("flowering_azalea_leaves_ladder", new CustomLadderBlock(AbstractBlock.Settings.of(Material.METAL).noCollision().nonOpaque()));
     public static final Block FOXSPAWNEGGLADDER = register("fox_spawn_egg_ladder", new CustomLadderBlock(AbstractBlock.Settings.of(Material.METAL).noCollision().nonOpaque()));
     public static final Block FURNACELADDER = register("furnace_ladder", new CustomLadderBlock(AbstractBlock.Settings.of(Material.METAL).noCollision().nonOpaque()));
     public static final Block FURNACEMINECARTLADDER = register("furnace_minecart_ladder", new CustomLadderBlock(AbstractBlock.Settings.of(Material.METAL).noCollision().nonOpaque()));
@@ -1039,7 +1039,7 @@ public class LadderInit {
     public static final Block WARPEDTRAPDOORLADDER = register("warped_trapdoor_ladder", new CustomLadderBlock(AbstractBlock.Settings.of(Material.METAL).noCollision().nonOpaque()));
     public static final Block WARPEDWARTBLOCKLADDER = register("warped_wart_block_ladder", new CustomLadderBlock(AbstractBlock.Settings.of(Material.METAL).noCollision().nonOpaque()));
     public static final Block WATERLADDER = register("water_bucket_ladder", new CustomLadderBlock(AbstractBlock.Settings.of(Material.METAL).noCollision().nonOpaque()));
-    public static final Block WAXEDBLOCKOFCOPPERLADDER = register("waxed_copper_ladder", new CustomLadderBlock(AbstractBlock.Settings.of(Material.METAL).noCollision().nonOpaque()));
+    public static final Block WAXEDBLOCKOFCOPPERLADDER = register("waxed_copper_block_ladder", new CustomLadderBlock(AbstractBlock.Settings.of(Material.METAL).noCollision().nonOpaque()));
     public static final Block WAXEDCUTCOPPERLADDER = register("waxed_cut_copper_ladder", new CustomLadderBlock(AbstractBlock.Settings.of(Material.METAL).noCollision().nonOpaque()));
     public static final Block WAXEDCUTCOPPERSLABLADDER = register("waxed_cut_copper_slab_ladder", new CustomLadderBlock(AbstractBlock.Settings.of(Material.METAL).noCollision().nonOpaque()));
     public static final Block WAXEDCUTCOPPERSTAIRSLADDER = register("waxed_cut_copper_stairs_ladder", new CustomLadderBlock(AbstractBlock.Settings.of(Material.METAL).noCollision().nonOpaque()));

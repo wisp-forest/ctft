@@ -203,7 +203,7 @@ public class FenceGateInit {
     public static final Block COBBLEDDEEPSLATEFENCEGATE = register("cobbled_deepslate_fence_gate", new FenceGateBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block COBBLEDDEEPSLATESLABFENCEGATE = register("cobbled_deepslate_slab_fence_gate", new FenceGateBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block COBBLEDDEEPSLATESTAIRSFENCEGATE = register("cobbled_deepslate_stairs_fence_gate", new FenceGateBlock(AbstractBlock.Settings.of(Material.METAL)));
-    public static final Block COBBLEDDEEPSLATEWALLFENCEGATE = register("deepslate_wall_fence_gate", new FenceGateBlock(AbstractBlock.Settings.of(Material.METAL)));
+    public static final Block COBBLEDDEEPSLATEWALLFENCEGATE = register("cobbled_deepslate_wall_fence_gate", new FenceGateBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block COBBLESTONEFENCEGATE = register("cobblestone_fence_gate", new FenceGateBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block COBBLESTONESLABFENCEGATE = register("cobblestone_slab_fence_gate", new FenceGateBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block COBBLESTONESTAIRSFENCEGATE = register("cobblestone_stairs_fence_gate", new FenceGateBlock(AbstractBlock.Settings.of(Material.METAL)));
@@ -404,7 +404,7 @@ public class FenceGateInit {
     public static final Block FLOWERBANNERPATTERNFENCEGATE = register("flower_banner_pattern_fence_gate", new FenceGateBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block FLOWERPOTFENCEGATE = register("flower_pot_fence_gate", new FenceGateBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block FLOWERINGAZALEAFENCEGATE = register("flowering_azalea_fence_gate", new FenceGateBlock(AbstractBlock.Settings.of(Material.METAL)));
-    public static final Block FLOWERINGAZALEALEAVESFENCEGATE = register("azalea_leaves_flowers_fence_gate", new FenceGateBlock(AbstractBlock.Settings.of(Material.METAL)));
+    public static final Block FLOWERINGAZALEALEAVESFENCEGATE = register("flowering_azalea_leaves_fence_gate", new FenceGateBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block FOXSPAWNEGGFENCEGATE = register("fox_spawn_egg_fence_gate", new FenceGateBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block FURNACEFENCEGATE = register("furnace_fence_gate", new FenceGateBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block FURNACEMINECARTFENCEGATE = register("furnace_minecart_fence_gate", new FenceGateBlock(AbstractBlock.Settings.of(Material.METAL)));
@@ -1039,7 +1039,7 @@ public class FenceGateInit {
     public static final Block WARPEDTRAPDOORFENCEGATE = register("warped_trapdoor_fence_gate", new FenceGateBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block WARPEDWARTBLOCKFENCEGATE = register("warped_wart_block_fence_gate", new FenceGateBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block WATERFENCEGATE = register("water_bucket_fence_gate", new FenceGateBlock(AbstractBlock.Settings.of(Material.METAL)));
-    public static final Block WAXEDBLOCKOFCOPPERFENCEGATE = register("waxed_copper_fence_gate", new FenceGateBlock(AbstractBlock.Settings.of(Material.METAL)));
+    public static final Block WAXEDBLOCKOFCOPPERFENCEGATE = register("waxed_copper_block_fence_gate", new FenceGateBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block WAXEDCUTCOPPERFENCEGATE = register("waxed_cut_copper_fence_gate", new FenceGateBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block WAXEDCUTCOPPERSLABFENCEGATE = register("waxed_cut_copper_slab_fence_gate", new FenceGateBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block WAXEDCUTCOPPERSTAIRSFENCEGATE = register("waxed_cut_copper_stairs_fence_gate", new FenceGateBlock(AbstractBlock.Settings.of(Material.METAL)));

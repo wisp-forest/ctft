@@ -51,7 +51,18 @@
 			"ctft:soul_torch_lever_from_crafting",
 			"ctft:soul_torch_button_from_crafting",
 			"ctft:soul_torch_pressure_plate_from_crafting",
-			"ctft:soul_torch_fence_gate_from_crafting"
+			"ctft:soul_torch_fence_gate_from_crafting",
+			"ctft:soul_torch_chain_from_stonecutter",
+			"ctft:soul_torch_compressed1_from_block",
+			"ctft:soul_torch_block_from_compressed1",
+			"ctft:soul_torch_compressed2_from_compressed1",
+			"ctft:soul_torch_compressed1_from_compressed2",
+			"ctft:soul_torch_compressed3_from_compressed2",
+			"ctft:soul_torch_compressed2_from_compressed3",
+			"ctft:soul_torch_compressed4_from_compressed"3,
+			"ctft:soul_torch_compressed3_from_compressed4",
+			"ctft:soul_torch_compressed5_from_compressed4",
+			"ctft:soul_torch_compressed4_from_compressed5"
 		]
 	}
 }

@@ -204,7 +204,7 @@ public class ResourceGenerator {
         makeResources("cobbled_deepslate", "cobbled_deepslate", "minecraft");
         makeResources("cobbled_deepslate", "cobbled_deepslate_slab", "minecraft");
         makeResources("cobbled_deepslate", "cobbled_deepslate_stairs", "minecraft");
-        makeResources("cobbled_deepslate", "deepslate_wall", "minecraft");
+        makeResources("cobbled_deepslate", "cobbled_deepslate_wall", "minecraft");
         makeResources("cobblestone", "cobblestone", "minecraft");
         makeResources("cobblestone", "cobblestone_slab", "minecraft");
         makeResources("cobblestone", "cobblestone_stairs", "minecraft");
@@ -311,8 +311,8 @@ public class ResourceGenerator {
         makeResources("dead_horn_coral_block", "dead_horn_coral_block", "minecraft");
         makeResources("dead_horn_coral_fan", "dead_horn_coral_fan", "ctft");
         makeResources("dead_tube_coral", "dead_tube_coral", "ctft");
-        makeResources("dead_tube_coral_block", "dead_tube_coral_block", "minecraft");
-        makeResources("dead_tube_coral_fan", "dead_tube_coral_fan", "ctft");
+        makeResources("dead_tube_coral_block", "dead_tube_coral_block", "ctft");
+        makeResources("dead_tube_coral_fan", "dead_tube_coral_fan", "minecraft");
         makeResources("stick", "debug_stick", "ctft");
         makeResources("deepslate", "deepslate", "minecraft");
         makeResources("deepslate_bricks", "deepslate_brick_slab", "minecraft");
@@ -405,7 +405,7 @@ public class ResourceGenerator {
         makeResources("flower_banner_pattern", "flower_banner_pattern", "ctft");
         makeResources("flower_pot", "flower_pot", "ctft");
         makeResources("flowering_azalea_top", "flowering_azalea", "minecraft");
-        makeResources("flowering_azalea_leaves", "azalea_leaves_flowers", "ctft");
+        makeResources("flowering_azalea_leaves", "flowering_azalea_leaves", "ctft");
         makeResources("fox", "fox_spawn_egg", "ctft");
         makeResources("furnace_front", "furnace", "minecraft");
         makeResources("furnace_minecart", "furnace_minecart", "ctft");
@@ -1040,7 +1040,7 @@ public class ResourceGenerator {
         makeResources("warped_planks", "warped_trapdoor", "minecraft");
         makeResources("warped_wart_block", "warped_wart_block", "minecraft");
         makeResources("water_still", "water_bucket", "minecraft");
-        makeResources("copper_block", "waxed_copper", "minecraft");
+        makeResources("copper_block", "waxed_copper_block", "minecraft");
         makeResources("cut_copper", "waxed_cut_copper", "minecraft");
         makeResources("cut_copper", "waxed_cut_copper_slab", "minecraft");
         makeResources("cut_copper", "waxed_cut_copper_stairs", "minecraft");
@@ -2104,6 +2104,264 @@ public class ResourceGenerator {
                                     .entry()
                                     .type("minecraft:item")
                                     .name("ctft:" + id + "_ladder"))));
+        }
+        if (Ctft.CONFIG.tools_config.chainsEnabled) {
+            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/chain").textures(JModel.textures().var("1", namespace).particle(namespace)), new Identifier("ctft", "item/" + id + "_chain"));
+            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:block/chain").textures(JModel.textures().var("1", namespace).particle(namespace)), new Identifier("ctft", "block/" + id + "_chain"));
+            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
+                    .put("axis=x", JState.model("ctft:block/" + id + "_chain").x(90).y(90))
+                    .put("axis=y", JState.model("ctft:block/" + id + "_chain"))
+                    .put("axis=z", JState.model("ctft:block/" + id + "_chain").x(90))
+            ), new Identifier("ctft:" + id + "_chain"));
+            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_chain_from_stonecutter"), JRecipe.stonecutting(ingredient, JResult.stackedResult("ctft:" + id + "_chain", 1)));
+            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_chain"), JLootTable
+                    .loot("block")
+                    .pool(JLootTable.pool()
+                            .rolls(1)
+                            .entry(JLootTable
+                                    .entry()
+                                    .type("minecraft:item")
+                                    .name("ctft:" + id + "_chain"))));
+        }
+        if (Ctft.CONFIG.tools_config.compressionLevel >= 1) {
+            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compressed1").textures((JModel.textures().var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compressed1"));
+            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
+                    .put("", JState.model("ctft:item/" + id + "_compressed1"))
+            ), new Identifier("ctft:" + id + "_compressed1"));
+            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed1_from_block"), JRecipe.shaped(JPattern.pattern().row1("000").row2("000").row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("ctft:" + id + "_block")), JResult.result("ctft:" + id + "_compressed1")));
+            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_block_from_compressed1"), JRecipe.shapeless(JIngredients.ingredients().add(JIngredient.ingredient().item("ctft:" + id + "_compressed1")), JResult.stackedResult("minecraft:" + id + "_block", 9)));
+            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_compressed1"), JLootTable
+                    .loot("block")
+                    .pool(JLootTable.pool()
+                            .rolls(1)
+                            .entry(JLootTable
+                                    .entry()
+                                    .type("minecraft:item")
+                                    .name("ctft:" + id + "_compressed1"))));
+        }
+        if (Ctft.CONFIG.tools_config.compressionLevel >= 2) {
+            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compressed2").textures((JModel.textures().var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compressed2"));
+            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
+                    .put("", JState.model("ctft:item/" + id + "_compressed2"))
+            ), new Identifier("ctft:" + id + "_compressed2"));
+            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed2_from_compressed1"), JRecipe.shaped(JPattern.pattern().row1("000").row2("000").row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("ctft:" + id + "_compressed1")), JResult.result("ctft:" + id + "_compressed2")));
+            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed1_from_compressed2"), JRecipe.shapeless(JIngredients.ingredients().add(JIngredient.ingredient().item("ctft:" + id + "_compressed2")), JResult.stackedResult("minecraft:" + id + "_compressed1", 9)));
+            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_compressed2"), JLootTable
+                    .loot("block")
+                    .pool(JLootTable.pool()
+                            .rolls(1)
+                            .entry(JLootTable
+                                    .entry()
+                                    .type("minecraft:item")
+                                    .name("ctft:" + id + "_compressed2"))));
+        }
+        if (Ctft.CONFIG.tools_config.compressionLevel >= 3) {
+            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compressed3").textures((JModel.textures().var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compressed3"));
+            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
+                    .put("", JState.model("ctft:item/" + id + "_compressed3"))
+            ), new Identifier("ctft:" + id + "_compressed3"));
+            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed3_from_compressed2"), JRecipe.shaped(JPattern.pattern().row1("000").row2("000").row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("ctft:" + id + "_compressed2")), JResult.result("ctft:" + id + "_compressed3")));
+            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed2_from_compressed3"), JRecipe.shapeless(JIngredients.ingredients().add(JIngredient.ingredient().item("ctft:" + id + "_compressed3")), JResult.stackedResult("minecraft:" + id + "_compressed2", 9)));
+            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_compressed3"), JLootTable
+                    .loot("block")
+                    .pool(JLootTable.pool()
+                            .rolls(1)
+                            .entry(JLootTable
+                                    .entry()
+                                    .type("minecraft:item")
+                                    .name("ctft:" + id + "_compressed3"))));
+        }
+        if (Ctft.CONFIG.tools_config.compressionLevel >= 4) {
+            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compressed4").textures((JModel.textures().var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compressed4"));
+            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
+                    .put("", JState.model("ctft:item/" + id + "_compressed4"))
+            ), new Identifier("ctft:" + id + "_compressed4"));
+            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed4_from_compressed3"), JRecipe.shaped(JPattern.pattern().row1("000").row2("000").row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("ctft:" + id + "_compressed3")), JResult.result("ctft:" + id + "_compressed4")));
+            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed3_from_compressed4"), JRecipe.shapeless(JIngredients.ingredients().add(JIngredient.ingredient().item("ctft:" + id + "_compressed4")), JResult.stackedResult("minecraft:" + id + "_compressed3", 9)));
+            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_compressed4"), JLootTable
+                    .loot("block")
+                    .pool(JLootTable.pool()
+                            .rolls(1)
+                            .entry(JLootTable
+                                    .entry()
+                                    .type("minecraft:item")
+                                    .name("ctft:" + id + "_compressed4"))));
+        }
+        if (Ctft.CONFIG.tools_config.compressionLevel >= 5) {
+            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compressed5").textures((JModel.textures().var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compressed5"));
+            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
+                    .put("", JState.model("ctft:item/" + id + "_compressed5"))
+            ), new Identifier("ctft:" + id + "_compressed5"));
+            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed5_from_compressed4"), JRecipe.shaped(JPattern.pattern().row1("000").row2("000").row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("ctft:" + id + "_compressed4")), JResult.result("ctft:" + id + "_compressed5")));
+            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed4_from_compressed5"), JRecipe.shapeless(JIngredients.ingredients().add(JIngredient.ingredient().item("ctft:" + id + "_compressed5")), JResult.stackedResult("minecraft:" + id + "_compressed4", 9)));
+            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_compressed5"), JLootTable
+                    .loot("block")
+                    .pool(JLootTable.pool()
+                            .rolls(1)
+                            .entry(JLootTable
+                                    .entry()
+                                    .type("minecraft:item")
+                                    .name("ctft:" + id + "_compressed5"))));
+        }
+        if (Ctft.CONFIG.tools_config.compressionLevel >= 6) {
+            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compressed6").textures((JModel.textures().var("0", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compressed6"));
+            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
+                    .put("", JState.model("ctft:item/" + id + "_compressed6"))
+            ), new Identifier("ctft:" + id + "_compressed6"));
+            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed6_from_compressed5"), JRecipe.shaped(JPattern.pattern().row1("000").row2("000").row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("ctft:" + id + "_compressed5")), JResult.result("ctft:" + id + "_compressed6")));
+            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed5_from_compressed6"), JRecipe.shapeless(JIngredients.ingredients().add(JIngredient.ingredient().item("ctft:" + id + "_compressed6")), JResult.stackedResult("minecraft:" + id + "_compressed5", 9)));
+            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_compressed6"), JLootTable
+                    .loot("block")
+                    .pool(JLootTable.pool()
+                            .rolls(1)
+                            .entry(JLootTable
+                                    .entry()
+                                    .type("minecraft:item")
+                                    .name("ctft:" + id + "_compressed6"))));
+        }
+        if (Ctft.CONFIG.tools_config.compressionLevel >= 7) {
+            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compressed7").textures((JModel.textures().var("0", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compressed7"));
+            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
+                    .put("", JState.model("ctft:item/" + id + "_compressed7"))
+            ), new Identifier("ctft:" + id + "_compressed7"));
+            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed7_from_compressed6"), JRecipe.shaped(JPattern.pattern().row1("000").row2("000").row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("ctft:" + id + "_compressed6")), JResult.result("ctft:" + id + "_compressed7")));
+            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed6_from_compressed7"), JRecipe.shapeless(JIngredients.ingredients().add(JIngredient.ingredient().item("ctft:" + id + "_compressed7")), JResult.stackedResult("minecraft:" + id + "_compressed6", 9)));
+            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_compressed7"), JLootTable
+                    .loot("block")
+                    .pool(JLootTable.pool()
+                            .rolls(1)
+                            .entry(JLootTable
+                                    .entry()
+                                    .type("minecraft:item")
+                                    .name("ctft:" + id + "_compressed7"))));
+        }
+        if (Ctft.CONFIG.tools_config.compressionLevel >= 8) {
+            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compressed8").textures((JModel.textures().var("0", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compressed8"));
+            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
+                    .put("", JState.model("ctft:item/" + id + "_compressed8"))
+            ), new Identifier("ctft:" + id + "_compressed8"));
+            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed8_from_compressed7"), JRecipe.shaped(JPattern.pattern().row1("000").row2("000").row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("ctft:" + id + "_compressed7")), JResult.result("ctft:" + id + "_compressed8")));
+            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed7_from_compressed8"), JRecipe.shapeless(JIngredients.ingredients().add(JIngredient.ingredient().item("ctft:" + id + "_compressed8")), JResult.stackedResult("minecraft:" + id + "_compressed7", 9)));
+            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_compressed8"), JLootTable
+                    .loot("block")
+                    .pool(JLootTable.pool()
+                            .rolls(1)
+                            .entry(JLootTable
+                                    .entry()
+                                    .type("minecraft:item")
+                                    .name("ctft:" + id + "_compressed8"))));
+        }
+        if (Ctft.CONFIG.tools_config.compressionLevel >= 9) {
+            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compressed9").textures((JModel.textures().var("0", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compressed9"));
+            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
+                    .put("", JState.model("ctft:item/" + id + "_compressed9"))
+            ), new Identifier("ctft:" + id + "_compressed9"));
+            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed9_from_compressed8"), JRecipe.shaped(JPattern.pattern().row1("000").row2("000").row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("ctft:" + id + "_compressed8")), JResult.result("ctft:" + id + "_compressed9")));
+            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed8_from_compressed9"), JRecipe.shapeless(JIngredients.ingredients().add(JIngredient.ingredient().item("ctft:" + id + "_compressed9")), JResult.stackedResult("minecraft:" + id + "_compressed8", 9)));
+            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_compressed9"), JLootTable
+                    .loot("block")
+                    .pool(JLootTable.pool()
+                            .rolls(1)
+                            .entry(JLootTable
+                                    .entry()
+                                    .type("minecraft:item")
+                                    .name("ctft:" + id + "_compressed9"))));
+        }
+        if (Ctft.CONFIG.tools_config.compressionLevel >= 10) {
+            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compressed10").textures((JModel.textures().var("0", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compressed10"));
+            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
+                    .put("", JState.model("ctft:item/" + id + "_compressed10"))
+            ), new Identifier("ctft:" + id + "_compressed10"));
+            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed10_from_compressed9"), JRecipe.shaped(JPattern.pattern().row1("000").row2("000").row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("ctft:" + id + "_compressed9")), JResult.result("ctft:" + id + "_compressed10")));
+            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed9_from_compressed10"), JRecipe.shapeless(JIngredients.ingredients().add(JIngredient.ingredient().item("ctft:" + id + "_compressed10")), JResult.stackedResult("minecraft:" + id + "_compressed9", 9)));
+            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_compressed10"), JLootTable
+                    .loot("block")
+                    .pool(JLootTable.pool()
+                            .rolls(1)
+                            .entry(JLootTable
+                                    .entry()
+                                    .type("minecraft:item")
+                                    .name("ctft:" + id + "_compressed10"))));
+        }
+        if (Ctft.CONFIG.tools_config.compressionLevel >= 11) {
+            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compressed11").textures((JModel.textures().var("0", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compressed11"));
+            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
+                    .put("", JState.model("ctft:item/" + id + "_compressed11"))
+            ), new Identifier("ctft:" + id + "_compressed11"));
+            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed11_from_compressed10"), JRecipe.shaped(JPattern.pattern().row1("000").row2("000").row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("ctft:" + id + "_compressed10")), JResult.result("ctft:" + id + "_compressed11")));
+            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed10_from_compressed11"), JRecipe.shapeless(JIngredients.ingredients().add(JIngredient.ingredient().item("ctft:" + id + "_compressed11")), JResult.stackedResult("minecraft:" + id + "_compressed10", 9)));
+            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_compressed11"), JLootTable
+                    .loot("block")
+                    .pool(JLootTable.pool()
+                            .rolls(1)
+                            .entry(JLootTable
+                                    .entry()
+                                    .type("minecraft:item")
+                                    .name("ctft:" + id + "_compressed11"))));
+        }
+        if (Ctft.CONFIG.tools_config.compressionLevel >= 12) {
+            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compressed12").textures((JModel.textures().var("0", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compressed12"));
+            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
+                    .put("", JState.model("ctft:item/" + id + "_compressed12"))
+            ), new Identifier("ctft:" + id + "_compressed12"));
+            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed12_from_compressed11"), JRecipe.shaped(JPattern.pattern().row1("000").row2("000").row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("ctft:" + id + "_compressed11")), JResult.result("ctft:" + id + "_compressed12")));
+            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed11_from_compressed12"), JRecipe.shapeless(JIngredients.ingredients().add(JIngredient.ingredient().item("ctft:" + id + "_compressed12")), JResult.stackedResult("minecraft:" + id + "_compressed11", 9)));
+            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_compressed12"), JLootTable
+                    .loot("block")
+                    .pool(JLootTable.pool()
+                            .rolls(1)
+                            .entry(JLootTable
+                                    .entry()
+                                    .type("minecraft:item")
+                                    .name("ctft:" + id + "_compressed12"))));
+        }
+        if (Ctft.CONFIG.tools_config.compressionLevel >= 13) {
+            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compressed13").textures((JModel.textures().var("0", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compressed13"));
+            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
+                    .put("", JState.model("ctft:item/" + id + "_compressed13"))
+            ), new Identifier("ctft:" + id + "_compressed13"));
+            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed13_from_compressed12"), JRecipe.shaped(JPattern.pattern().row1("000").row2("000").row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("ctft:" + id + "_compressed12")), JResult.result("ctft:" + id + "_compressed13")));
+            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed12_from_compressed13"), JRecipe.shapeless(JIngredients.ingredients().add(JIngredient.ingredient().item("ctft:" + id + "_compressed13")), JResult.stackedResult("minecraft:" + id + "_compressed12", 9)));
+            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_compressed13"), JLootTable
+                    .loot("block")
+                    .pool(JLootTable.pool()
+                            .rolls(1)
+                            .entry(JLootTable
+                                    .entry()
+                                    .type("minecraft:item")
+                                    .name("ctft:" + id + "_compressed13"))));
+        }
+        if (Ctft.CONFIG.tools_config.compressionLevel >= 14) {
+            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compressed14").textures((JModel.textures().var("0", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compressed14"));
+            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
+                    .put("", JState.model("ctft:item/" + id + "_compressed14"))
+            ), new Identifier("ctft:" + id + "_compressed14"));
+            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed14_from_compressed13"), JRecipe.shaped(JPattern.pattern().row1("000").row2("000").row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("ctft:" + id + "_compressed13")), JResult.result("ctft:" + id + "_compressed14")));
+            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed13_from_compressed14"), JRecipe.shapeless(JIngredients.ingredients().add(JIngredient.ingredient().item("ctft:" + id + "_compressed14")), JResult.stackedResult("minecraft:" + id + "_compressed13", 9)));
+            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_compressed14"), JLootTable
+                    .loot("block")
+                    .pool(JLootTable.pool()
+                            .rolls(1)
+                            .entry(JLootTable
+                                    .entry()
+                                    .type("minecraft:item")
+                                    .name("ctft:" + id + "_compressed14"))));
+        }
+        if (Ctft.CONFIG.tools_config.compressionLevel >= 15) {
+            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compressed15").textures((JModel.textures().var("0", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compressed15"));
+            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
+                    .put("", JState.model("ctft:item/" + id + "_compressed15"))
+            ), new Identifier("ctft:" + id + "_compressed15"));
+            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed15_from_compressed14"), JRecipe.shaped(JPattern.pattern().row1("000").row2("000").row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("ctft:" + id + "_compressed14")), JResult.result("ctft:" + id + "_compressed15")));
+            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed15_from_compressed15"), JRecipe.shapeless(JIngredients.ingredients().add(JIngredient.ingredient().item("ctft:" + id + "_compressed15")), JResult.stackedResult("minecraft:" + id + "_compressed14", 9)));
+            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_compressed15"), JLootTable
+                    .loot("block")
+                    .pool(JLootTable.pool()
+                            .rolls(1)
+                            .entry(JLootTable
+                                    .entry()
+                                    .type("minecraft:item")
+                                    .name("ctft:" + id + "_compressed15"))));
         }
     }
 }

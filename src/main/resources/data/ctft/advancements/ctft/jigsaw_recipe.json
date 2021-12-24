@@ -51,7 +51,18 @@
 			"ctft:jigsaw_lever_from_crafting",
 			"ctft:jigsaw_button_from_crafting",
 			"ctft:jigsaw_pressure_plate_from_crafting",
-			"ctft:jigsaw_fence_gate_from_crafting"
+			"ctft:jigsaw_fence_gate_from_crafting",
+			"ctft:jigsaw_chain_from_stonecutter",
+			"ctft:jigsaw_compressed1_from_block",
+			"ctft:jigsaw_block_from_compressed1",
+			"ctft:jigsaw_compressed2_from_compressed1",
+			"ctft:jigsaw_compressed1_from_compressed2",
+			"ctft:jigsaw_compressed3_from_compressed2",
+			"ctft:jigsaw_compressed2_from_compressed3",
+			"ctft:jigsaw_compressed4_from_compressed"3,
+			"ctft:jigsaw_compressed3_from_compressed4",
+			"ctft:jigsaw_compressed5_from_compressed4",
+			"ctft:jigsaw_compressed4_from_compressed5"
 		]
 	}
 }

@@ -1,7 +1,6 @@
 package com.chyzman.ctft.classes;
 
 import com.chyzman.ctft.Ctft;
-import com.chyzman.ctft.Items.*;
 import com.chyzman.ctft.util.CtftRegistryHelper;
 import io.wispforest.owo.itemgroup.OwoItemGroup;
 import io.wispforest.owo.itemgroup.gui.ItemGroupButton;
@@ -130,7 +129,54 @@ public class CtftItemGroup extends OwoItemGroup {
         if(Ctft.CONFIG.tools_config.laddersEnabled) {
             this.addTab(Icon.of(Registry.ITEM.get(new Identifier("ctft","dirt_ladder"))), "ladders", TagFactory.ITEM.create(CtftRegistryHelper.id("ctft_ladders")));
         }
-        this.addTab(Icon.of(Registry.ITEM.get(new Identifier("minecraft", "chain"))), "chains", TagFactory.ITEM.create(CtftRegistryHelper.id("ctft_chains")));
+        if(Ctft.CONFIG.tools_config.chainsEnabled) {
+            this.addTab(Icon.of(Registry.ITEM.get(new Identifier("ctft", "dirt_chain"))), "chains", TagFactory.ITEM.create(CtftRegistryHelper.id("ctft_chains")));
+        }
+        if (Ctft.CONFIG.tools_config.compressionLevel >= 1) {
+            this.addTab(Icon.of(Registry.ITEM.get(new Identifier("ctft", "dirt_compressed1"))), "compressed1", TagFactory.ITEM.create(CtftRegistryHelper.id("ctft_compressed1")));
+        }
+        if (Ctft.CONFIG.tools_config.compressionLevel >= 2) {
+            this.addTab(Icon.of(Registry.ITEM.get(new Identifier("ctft", "dirt_compressed2"))), "compressed2", TagFactory.ITEM.create(CtftRegistryHelper.id("ctft_compressed2")));
+        }
+        if (Ctft.CONFIG.tools_config.compressionLevel >= 3) {
+            this.addTab(Icon.of(Registry.ITEM.get(new Identifier("ctft", "dirt_compressed3"))), "compressed3", TagFactory.ITEM.create(CtftRegistryHelper.id("ctft_compressed3")));
+        }
+        if (Ctft.CONFIG.tools_config.compressionLevel >= 4) {
+            this.addTab(Icon.of(Registry.ITEM.get(new Identifier("ctft", "dirt_compressed4"))), "compressed4", TagFactory.ITEM.create(CtftRegistryHelper.id("ctft_compressed4")));
+        }
+        if (Ctft.CONFIG.tools_config.compressionLevel >= 5) {
+            this.addTab(Icon.of(Registry.ITEM.get(new Identifier("ctft", "dirt_compressed5"))), "compressed5", TagFactory.ITEM.create(CtftRegistryHelper.id("ctft_compressed5")));
+        }
+        if (Ctft.CONFIG.tools_config.compressionLevel >= 6) {
+            this.addTab(Icon.of(Registry.ITEM.get(new Identifier("ctft", "dirt_compressed6"))), "compressed6", TagFactory.ITEM.create(CtftRegistryHelper.id("ctft_compressed6")));
+        }
+        if (Ctft.CONFIG.tools_config.compressionLevel >= 7) {
+            this.addTab(Icon.of(Registry.ITEM.get(new Identifier("ctft", "dirt_compressed7"))), "compressed7", TagFactory.ITEM.create(CtftRegistryHelper.id("ctft_compressed7")));
+        }
+        if (Ctft.CONFIG.tools_config.compressionLevel >= 8) {
+            this.addTab(Icon.of(Registry.ITEM.get(new Identifier("ctft", "dirt_compressed8"))), "compressed8", TagFactory.ITEM.create(CtftRegistryHelper.id("ctft_compressed8")));
+        }
+        if (Ctft.CONFIG.tools_config.compressionLevel >= 9) {
+            this.addTab(Icon.of(Registry.ITEM.get(new Identifier("ctft", "dirt_compressed9"))), "compressed9", TagFactory.ITEM.create(CtftRegistryHelper.id("ctft_compressed9")));
+        }
+        if (Ctft.CONFIG.tools_config.compressionLevel >= 10) {
+            this.addTab(Icon.of(Registry.ITEM.get(new Identifier("ctft", "dirt_compressed10"))), "compressed10", TagFactory.ITEM.create(CtftRegistryHelper.id("ctft_compressed10")));
+        }
+        if (Ctft.CONFIG.tools_config.compressionLevel >= 11) {
+            this.addTab(Icon.of(Registry.ITEM.get(new Identifier("ctft", "dirt_compressed11"))), "compressed11", TagFactory.ITEM.create(CtftRegistryHelper.id("ctft_compressed11")));
+        }
+        if (Ctft.CONFIG.tools_config.compressionLevel >= 12) {
+            this.addTab(Icon.of(Registry.ITEM.get(new Identifier("ctft", "dirt_compressed12"))), "compressed12", TagFactory.ITEM.create(CtftRegistryHelper.id("ctft_compressed12")));
+        }
+        if (Ctft.CONFIG.tools_config.compressionLevel >= 13) {
+            this.addTab(Icon.of(Registry.ITEM.get(new Identifier("ctft", "dirt_compressed13"))), "compressed13", TagFactory.ITEM.create(CtftRegistryHelper.id("ctft_compressed13")));
+        }
+        if (Ctft.CONFIG.tools_config.compressionLevel >= 14) {
+            this.addTab(Icon.of(Registry.ITEM.get(new Identifier("ctft", "dirt_compressed14"))), "compressed14", TagFactory.ITEM.create(CtftRegistryHelper.id("ctft_compressed14")));
+        }
+        if (Ctft.CONFIG.tools_config.compressionLevel >= 15) {
+            this.addTab(Icon.of(Registry.ITEM.get(new Identifier("ctft", "dirt_compressed15"))), "compressed15", TagFactory.ITEM.create(CtftRegistryHelper.id("ctft_compressed15")));
+        }
 
         this.setStackHeight(7);
         this.addButton(ItemGroupButton.github("https://github.com/chyzman/ctft"));

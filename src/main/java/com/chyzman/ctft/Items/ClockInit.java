@@ -209,7 +209,7 @@ public class ClockInit {
     public static final Item COBBLEDDEEPSLATECLOCK = register("cobbled_deepslate_clock", new CustomClockItem(false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item COBBLEDDEEPSLATESLABCLOCK = register("cobbled_deepslate_slab_clock", new CustomClockItem(false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item COBBLEDDEEPSLATESTAIRSCLOCK = register("cobbled_deepslate_stairs_clock", new CustomClockItem(false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
-    public static final Item COBBLEDDEEPSLATEWALLCLOCK = register("deepslate_wall_clock", new CustomClockItem(false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
+    public static final Item COBBLEDDEEPSLATEWALLCLOCK = register("cobbled_deepslate_wall_clock", new CustomClockItem(false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item COBBLESTONECLOCK = register("cobblestone_clock", new CustomClockItem(false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item COBBLESTONESLABCLOCK = register("cobblestone_slab_clock", new CustomClockItem(false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item COBBLESTONESTAIRSCLOCK = register("cobblestone_stairs_clock", new CustomClockItem(false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
@@ -410,7 +410,7 @@ public class ClockInit {
     public static final Item FLOWERBANNERPATTERNCLOCK = register("flower_banner_pattern_clock", new CustomClockItem(false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item FLOWERPOTCLOCK = register("flower_pot_clock", new CustomClockItem(false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item FLOWERINGAZALEACLOCK = register("flowering_azalea_clock", new CustomClockItem(false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
-    public static final Item FLOWERINGAZALEALEAVESCLOCK = register("azalea_leaves_flowers_clock", new CustomClockItem(false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
+    public static final Item FLOWERINGAZALEALEAVESCLOCK = register("flowering_azalea_leaves_clock", new CustomClockItem(false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item FOXSPAWNEGGCLOCK = register("fox_spawn_egg_clock", new CustomClockItem(false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item FURNACECLOCK = register("furnace_clock", new CustomClockItem(false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item FURNACEMINECARTCLOCK = register("furnace_minecart_clock", new CustomClockItem(false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
@@ -1045,7 +1045,7 @@ public class ClockInit {
     public static final Item WARPEDTRAPDOORCLOCK = register("warped_trapdoor_clock", new CustomClockItem(false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item WARPEDWARTBLOCKCLOCK = register("warped_wart_block_clock", new CustomClockItem(false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item WATERCLOCK = register("water_bucket_clock", new CustomClockItem(false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
-    public static final Item WAXEDBLOCKOFCOPPERCLOCK = register("waxed_copper_clock", new CustomClockItem(false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
+    public static final Item WAXEDBLOCKOFCOPPERCLOCK = register("waxed_copper_block_clock", new CustomClockItem(false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item WAXEDCUTCOPPERCLOCK = register("waxed_cut_copper_clock", new CustomClockItem(false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item WAXEDCUTCOPPERSLABCLOCK = register("waxed_cut_copper_slab_clock", new CustomClockItem(false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item WAXEDCUTCOPPERSTAIRSCLOCK = register("waxed_cut_copper_stairs_clock", new CustomClockItem(false, new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));

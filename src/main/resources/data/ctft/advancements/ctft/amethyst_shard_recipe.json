@@ -51,7 +51,18 @@
 			"ctft:amethyst_shard_lever_from_crafting",
 			"ctft:amethyst_shard_button_from_crafting",
 			"ctft:amethyst_shard_pressure_plate_from_crafting",
-			"ctft:amethyst_shard_fence_gate_from_crafting"
+			"ctft:amethyst_shard_fence_gate_from_crafting",
+			"ctft:amethyst_shard_chain_from_stonecutter",
+			"ctft:amethyst_shard_compressed1_from_block",
+			"ctft:amethyst_shard_block_from_compressed1",
+			"ctft:amethyst_shard_compressed2_from_compressed1",
+			"ctft:amethyst_shard_compressed1_from_compressed2",
+			"ctft:amethyst_shard_compressed3_from_compressed2",
+			"ctft:amethyst_shard_compressed2_from_compressed3",
+			"ctft:amethyst_shard_compressed4_from_compressed"3,
+			"ctft:amethyst_shard_compressed3_from_compressed4",
+			"ctft:amethyst_shard_compressed5_from_compressed4",
+			"ctft:amethyst_shard_compressed4_from_compressed5"
 		]
 	}
 }

@@ -51,7 +51,18 @@
 			"ctft:dead_fire_coral_lever_from_crafting",
 			"ctft:dead_fire_coral_button_from_crafting",
 			"ctft:dead_fire_coral_pressure_plate_from_crafting",
-			"ctft:dead_fire_coral_fence_gate_from_crafting"
+			"ctft:dead_fire_coral_fence_gate_from_crafting",
+			"ctft:dead_fire_coral_chain_from_stonecutter",
+			"ctft:dead_fire_coral_compressed1_from_block",
+			"ctft:dead_fire_coral_block_from_compressed1",
+			"ctft:dead_fire_coral_compressed2_from_compressed1",
+			"ctft:dead_fire_coral_compressed1_from_compressed2",
+			"ctft:dead_fire_coral_compressed3_from_compressed2",
+			"ctft:dead_fire_coral_compressed2_from_compressed3",
+			"ctft:dead_fire_coral_compressed4_from_compressed"3,
+			"ctft:dead_fire_coral_compressed3_from_compressed4",
+			"ctft:dead_fire_coral_compressed5_from_compressed4",
+			"ctft:dead_fire_coral_compressed4_from_compressed5"
 		]
 	}
 }

@@ -203,6 +203,87 @@ public class Ctft implements ModInitializer {
             LadderItemInit.INIT();
             FuelInit.LADDER();
         }
+        if(CONFIG.tools_config.chainsEnabled){
+            ChainInit.INIT();
+            ChainItemInit.INIT();
+            FuelInit.CHAIN();
+        }
+        if (Ctft.CONFIG.tools_config.compressionLevel >= 1) {
+            Compressed1Init.INIT();
+            Compressed1ItemInit.INIT();
+            FuelInit.COMPRESSED1();
+        }
+        if (Ctft.CONFIG.tools_config.compressionLevel >= 2) {
+            Compressed2Init.INIT();
+            Compressed2ItemInit.INIT();
+            FuelInit.COMPRESSED2();
+        }
+        if (Ctft.CONFIG.tools_config.compressionLevel >= 3) {
+            Compressed3Init.INIT();
+            Compressed3ItemInit.INIT();
+            FuelInit.COMPRESSED3();
+        }
+        if (Ctft.CONFIG.tools_config.compressionLevel >= 4) {
+            Compressed4Init.INIT();
+            Compressed4ItemInit.INIT();
+            FuelInit.COMPRESSED4();
+        }
+        if (Ctft.CONFIG.tools_config.compressionLevel >= 5) {
+            Compressed5Init.INIT();
+            Compressed5ItemInit.INIT();
+            FuelInit.COMPRESSED5();
+        }
+        if (Ctft.CONFIG.tools_config.compressionLevel >= 6) {
+            Compressed6Init.INIT();
+            Compressed6ItemInit.INIT();
+            FuelInit.COMPRESSED6();
+        }
+        if (Ctft.CONFIG.tools_config.compressionLevel >= 7) {
+            Compressed7Init.INIT();
+            Compressed7ItemInit.INIT();
+            FuelInit.COMPRESSED7();
+        }
+        if (Ctft.CONFIG.tools_config.compressionLevel >= 8) {
+            Compressed8Init.INIT();
+            Compressed8ItemInit.INIT();
+            FuelInit.COMPRESSED8();
+        }
+        if (Ctft.CONFIG.tools_config.compressionLevel >= 9) {
+            Compressed9Init.INIT();
+            Compressed9ItemInit.INIT();
+            FuelInit.COMPRESSED9();
+        }
+        if (Ctft.CONFIG.tools_config.compressionLevel >= 10) {
+            Compressed10Init.INIT();
+            Compressed10ItemInit.INIT();
+            FuelInit.COMPRESSED10();
+        }
+        if (Ctft.CONFIG.tools_config.compressionLevel >= 11) {
+            Compressed11Init.INIT();
+            Compressed11ItemInit.INIT();
+            FuelInit.COMPRESSED11();
+        }
+        if (Ctft.CONFIG.tools_config.compressionLevel >= 12) {
+            Compressed12Init.INIT();
+            Compressed12ItemInit.INIT();
+            FuelInit.COMPRESSED12();
+        }
+        if (Ctft.CONFIG.tools_config.compressionLevel >= 13) {
+            Compressed13Init.INIT();
+            Compressed13ItemInit.INIT();
+            FuelInit.COMPRESSED13();
+        }
+        if (Ctft.CONFIG.tools_config.compressionLevel >= 14) {
+            Compressed14Init.INIT();
+            Compressed14ItemInit.INIT();
+            FuelInit.COMPRESSED14();
+        }
+        if (Ctft.CONFIG.tools_config.compressionLevel >= 15) {
+            Compressed15Init.INIT();
+            Compressed15ItemInit.INIT();
+            FuelInit.COMPRESSED15();
+        }
+
         MiscInit.INIT();
         CTFT.initialize();
         ResourceGenerator.INIT();

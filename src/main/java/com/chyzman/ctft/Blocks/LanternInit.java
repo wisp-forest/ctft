@@ -203,7 +203,7 @@ public class LanternInit {
     public static final Block COBBLEDDEEPSLATELANTERN = register("cobbled_deepslate_lantern", new LanternBlock(AbstractBlock.Settings.of(Material.METAL).luminance(state -> 14)));
     public static final Block COBBLEDDEEPSLATESLABLANTERN = register("cobbled_deepslate_slab_lantern", new LanternBlock(AbstractBlock.Settings.of(Material.METAL).luminance(state -> 14)));
     public static final Block COBBLEDDEEPSLATESTAIRSLANTERN = register("cobbled_deepslate_stairs_lantern", new LanternBlock(AbstractBlock.Settings.of(Material.METAL).luminance(state -> 14)));
-    public static final Block COBBLEDDEEPSLATEWALLLANTERN = register("deepslate_wall_lantern", new LanternBlock(AbstractBlock.Settings.of(Material.METAL).luminance(state -> 14)));
+    public static final Block COBBLEDDEEPSLATEWALLLANTERN = register("cobbled_deepslate_wall_lantern", new LanternBlock(AbstractBlock.Settings.of(Material.METAL).luminance(state -> 14)));
     public static final Block COBBLESTONELANTERN = register("cobblestone_lantern", new LanternBlock(AbstractBlock.Settings.of(Material.METAL).luminance(state -> 14)));
     public static final Block COBBLESTONESLABLANTERN = register("cobblestone_slab_lantern", new LanternBlock(AbstractBlock.Settings.of(Material.METAL).luminance(state -> 14)));
     public static final Block COBBLESTONESTAIRSLANTERN = register("cobblestone_stairs_lantern", new LanternBlock(AbstractBlock.Settings.of(Material.METAL).luminance(state -> 14)));
@@ -404,7 +404,7 @@ public class LanternInit {
     public static final Block FLOWERBANNERPATTERNLANTERN = register("flower_banner_pattern_lantern", new LanternBlock(AbstractBlock.Settings.of(Material.METAL).luminance(state -> 14)));
     public static final Block FLOWERPOTLANTERN = register("flower_pot_lantern", new LanternBlock(AbstractBlock.Settings.of(Material.METAL).luminance(state -> 14)));
     public static final Block FLOWERINGAZALEALANTERN = register("flowering_azalea_lantern", new LanternBlock(AbstractBlock.Settings.of(Material.METAL).luminance(state -> 14)));
-    public static final Block FLOWERINGAZALEALEAVESLANTERN = register("azalea_leaves_flowers_lantern", new LanternBlock(AbstractBlock.Settings.of(Material.METAL).luminance(state -> 14)));
+    public static final Block FLOWERINGAZALEALEAVESLANTERN = register("flowering_azalea_leaves_lantern", new LanternBlock(AbstractBlock.Settings.of(Material.METAL).luminance(state -> 14)));
     public static final Block FOXSPAWNEGGLANTERN = register("fox_spawn_egg_lantern", new LanternBlock(AbstractBlock.Settings.of(Material.METAL).luminance(state -> 14)));
     public static final Block FURNACELANTERN = register("furnace_lantern", new LanternBlock(AbstractBlock.Settings.of(Material.METAL).luminance(state -> 14)));
     public static final Block FURNACEMINECARTLANTERN = register("furnace_minecart_lantern", new LanternBlock(AbstractBlock.Settings.of(Material.METAL).luminance(state -> 14)));
@@ -1039,7 +1039,7 @@ public class LanternInit {
     public static final Block WARPEDTRAPDOORLANTERN = register("warped_trapdoor_lantern", new LanternBlock(AbstractBlock.Settings.of(Material.METAL).luminance(state -> 14)));
     public static final Block WARPEDWARTBLOCKLANTERN = register("warped_wart_block_lantern", new LanternBlock(AbstractBlock.Settings.of(Material.METAL).luminance(state -> 14)));
     public static final Block WATERLANTERN = register("water_bucket_lantern", new LanternBlock(AbstractBlock.Settings.of(Material.METAL).luminance(state -> 14)));
-    public static final Block WAXEDBLOCKOFCOPPERLANTERN = register("waxed_copper_lantern", new LanternBlock(AbstractBlock.Settings.of(Material.METAL).luminance(state -> 14)));
+    public static final Block WAXEDBLOCKOFCOPPERLANTERN = register("waxed_copper_block_lantern", new LanternBlock(AbstractBlock.Settings.of(Material.METAL).luminance(state -> 14)));
     public static final Block WAXEDCUTCOPPERLANTERN = register("waxed_cut_copper_lantern", new LanternBlock(AbstractBlock.Settings.of(Material.METAL).luminance(state -> 14)));
     public static final Block WAXEDCUTCOPPERSLABLANTERN = register("waxed_cut_copper_slab_lantern", new LanternBlock(AbstractBlock.Settings.of(Material.METAL).luminance(state -> 14)));
     public static final Block WAXEDCUTCOPPERSTAIRSLANTERN = register("waxed_cut_copper_stairs_lantern", new LanternBlock(AbstractBlock.Settings.of(Material.METAL).luminance(state -> 14)));

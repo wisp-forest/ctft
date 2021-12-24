@@ -51,7 +51,18 @@
 			"ctft:cooked_rabbit_lever_from_crafting",
 			"ctft:cooked_rabbit_button_from_crafting",
 			"ctft:cooked_rabbit_pressure_plate_from_crafting",
-			"ctft:cooked_rabbit_fence_gate_from_crafting"
+			"ctft:cooked_rabbit_fence_gate_from_crafting",
+			"ctft:cooked_rabbit_chain_from_stonecutter",
+			"ctft:cooked_rabbit_compressed1_from_block",
+			"ctft:cooked_rabbit_block_from_compressed1",
+			"ctft:cooked_rabbit_compressed2_from_compressed1",
+			"ctft:cooked_rabbit_compressed1_from_compressed2",
+			"ctft:cooked_rabbit_compressed3_from_compressed2",
+			"ctft:cooked_rabbit_compressed2_from_compressed3",
+			"ctft:cooked_rabbit_compressed4_from_compressed"3,
+			"ctft:cooked_rabbit_compressed3_from_compressed4",
+			"ctft:cooked_rabbit_compressed5_from_compressed4",
+			"ctft:cooked_rabbit_compressed4_from_compressed5"
 		]
 	}
 }

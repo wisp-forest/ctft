@@ -51,7 +51,18 @@
 			"ctft:black_wool_lever_from_crafting",
 			"ctft:black_wool_button_from_crafting",
 			"ctft:black_wool_pressure_plate_from_crafting",
-			"ctft:black_wool_fence_gate_from_crafting"
+			"ctft:black_wool_fence_gate_from_crafting",
+			"ctft:black_wool_chain_from_stonecutter",
+			"ctft:black_wool_compressed1_from_block",
+			"ctft:black_wool_block_from_compressed1",
+			"ctft:black_wool_compressed2_from_compressed1",
+			"ctft:black_wool_compressed1_from_compressed2",
+			"ctft:black_wool_compressed3_from_compressed2",
+			"ctft:black_wool_compressed2_from_compressed3",
+			"ctft:black_wool_compressed4_from_compressed"3,
+			"ctft:black_wool_compressed3_from_compressed4",
+			"ctft:black_wool_compressed5_from_compressed4",
+			"ctft:black_wool_compressed4_from_compressed5"
 		]
 	}
 }

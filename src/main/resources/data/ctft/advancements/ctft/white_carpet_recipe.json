@@ -51,7 +51,18 @@
 			"ctft:white_carpet_lever_from_crafting",
 			"ctft:white_carpet_button_from_crafting",
 			"ctft:white_carpet_pressure_plate_from_crafting",
-			"ctft:white_carpet_fence_gate_from_crafting"
+			"ctft:white_carpet_fence_gate_from_crafting",
+			"ctft:white_carpet_chain_from_stonecutter",
+			"ctft:white_carpet_compressed1_from_block",
+			"ctft:white_carpet_block_from_compressed1",
+			"ctft:white_carpet_compressed2_from_compressed1",
+			"ctft:white_carpet_compressed1_from_compressed2",
+			"ctft:white_carpet_compressed3_from_compressed2",
+			"ctft:white_carpet_compressed2_from_compressed3",
+			"ctft:white_carpet_compressed4_from_compressed"3,
+			"ctft:white_carpet_compressed3_from_compressed4",
+			"ctft:white_carpet_compressed5_from_compressed4",
+			"ctft:white_carpet_compressed4_from_compressed5"
 		]
 	}
 }

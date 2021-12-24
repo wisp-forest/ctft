@@ -203,7 +203,7 @@ public class PaneInit {
     public static final Block COBBLEDDEEPSLATEPANE = register("cobbled_deepslate_pane", new CustomPaneBlock(BlockInit.COBBLEDDEEPSLATEBLOCK.getDefaultState(), AbstractBlock.Settings.of(Material.METAL)));
     public static final Block COBBLEDDEEPSLATESLABPANE = register("cobbled_deepslate_slab_pane", new CustomPaneBlock(BlockInit.COBBLEDDEEPSLATESLABBLOCK.getDefaultState(), AbstractBlock.Settings.of(Material.METAL)));
     public static final Block COBBLEDDEEPSLATESTAIRSPANE = register("cobbled_deepslate_stairs_pane", new CustomPaneBlock(BlockInit.COBBLEDDEEPSLATESTAIRSBLOCK.getDefaultState(), AbstractBlock.Settings.of(Material.METAL)));
-    public static final Block COBBLEDDEEPSLATEWALLPANE = register("deepslate_wall_pane", new CustomPaneBlock(BlockInit.COBBLEDDEEPSLATEWALLBLOCK.getDefaultState(), AbstractBlock.Settings.of(Material.METAL)));
+    public static final Block COBBLEDDEEPSLATEWALLPANE = register("cobbled_deepslate_wall_pane", new CustomPaneBlock(BlockInit.COBBLEDDEEPSLATEWALLBLOCK.getDefaultState(), AbstractBlock.Settings.of(Material.METAL)));
     public static final Block COBBLESTONEPANE = register("cobblestone_pane", new CustomPaneBlock(BlockInit.COBBLESTONEBLOCK.getDefaultState(), AbstractBlock.Settings.of(Material.METAL)));
     public static final Block COBBLESTONESLABPANE = register("cobblestone_slab_pane", new CustomPaneBlock(BlockInit.COBBLESTONESLABBLOCK.getDefaultState(), AbstractBlock.Settings.of(Material.METAL)));
     public static final Block COBBLESTONESTAIRSPANE = register("cobblestone_stairs_pane", new CustomPaneBlock(BlockInit.COBBLESTONESTAIRSBLOCK.getDefaultState(), AbstractBlock.Settings.of(Material.METAL)));
@@ -404,7 +404,7 @@ public class PaneInit {
     public static final Block FLOWERBANNERPATTERNPANE = register("flower_banner_pattern_pane", new CustomPaneBlock(BlockInit.FLOWERBANNERPATTERNBLOCK.getDefaultState(), AbstractBlock.Settings.of(Material.METAL)));
     public static final Block FLOWERPOTPANE = register("flower_pot_pane", new CustomPaneBlock(BlockInit.FLOWERPOTBLOCK.getDefaultState(), AbstractBlock.Settings.of(Material.METAL)));
     public static final Block FLOWERINGAZALEAPANE = register("flowering_azalea_pane", new CustomPaneBlock(BlockInit.FLOWERINGAZALEABLOCK.getDefaultState(), AbstractBlock.Settings.of(Material.METAL)));
-    public static final Block FLOWERINGAZALEALEAVESPANE = register("azalea_leaves_flowers_pane", new CustomPaneBlock(BlockInit.FLOWERINGAZALEALEAVESBLOCK.getDefaultState(), AbstractBlock.Settings.of(Material.METAL)));
+    public static final Block FLOWERINGAZALEALEAVESPANE = register("flowering_azalea_leaves_pane", new CustomPaneBlock(BlockInit.FLOWERINGAZALEALEAVESBLOCK.getDefaultState(), AbstractBlock.Settings.of(Material.METAL)));
     public static final Block FOXSPAWNEGGPANE = register("fox_spawn_egg_pane", new CustomPaneBlock(BlockInit.FOXSPAWNEGGBLOCK.getDefaultState(), AbstractBlock.Settings.of(Material.METAL)));
     public static final Block FURNACEPANE = register("furnace_pane", new CustomPaneBlock(BlockInit.FURNACEBLOCK.getDefaultState(), AbstractBlock.Settings.of(Material.METAL)));
     public static final Block FURNACEMINECARTPANE = register("furnace_minecart_pane", new CustomPaneBlock(BlockInit.FURNACEMINECARTBLOCK.getDefaultState(), AbstractBlock.Settings.of(Material.METAL)));
@@ -1039,7 +1039,7 @@ public class PaneInit {
     public static final Block WARPEDTRAPDOORPANE = register("warped_trapdoor_pane", new CustomPaneBlock(BlockInit.WARPEDTRAPDOORBLOCK.getDefaultState(), AbstractBlock.Settings.of(Material.METAL)));
     public static final Block WARPEDWARTBLOCKPANE = register("warped_wart_block_pane", new CustomPaneBlock(BlockInit.WARPEDWARTBLOCKBLOCK.getDefaultState(), AbstractBlock.Settings.of(Material.METAL)));
     public static final Block WATERPANE = register("water_bucket_pane", new CustomPaneBlock(BlockInit.WATERBLOCK.getDefaultState(), AbstractBlock.Settings.of(Material.METAL)));
-    public static final Block WAXEDBLOCKOFCOPPERPANE = register("waxed_copper_pane", new CustomPaneBlock(BlockInit.WAXEDBLOCKOFCOPPERBLOCK.getDefaultState(), AbstractBlock.Settings.of(Material.METAL)));
+    public static final Block WAXEDBLOCKOFCOPPERPANE = register("waxed_copper_block_pane", new CustomPaneBlock(BlockInit.WAXEDBLOCKOFCOPPERBLOCK.getDefaultState(), AbstractBlock.Settings.of(Material.METAL)));
     public static final Block WAXEDCUTCOPPERPANE = register("waxed_cut_copper_pane", new CustomPaneBlock(BlockInit.WAXEDCUTCOPPERBLOCK.getDefaultState(), AbstractBlock.Settings.of(Material.METAL)));
     public static final Block WAXEDCUTCOPPERSLABPANE = register("waxed_cut_copper_slab_pane", new CustomPaneBlock(BlockInit.WAXEDCUTCOPPERSLABBLOCK.getDefaultState(), AbstractBlock.Settings.of(Material.METAL)));
     public static final Block WAXEDCUTCOPPERSTAIRSPANE = register("waxed_cut_copper_stairs_pane", new CustomPaneBlock(BlockInit.WAXEDCUTCOPPERSTAIRSBLOCK.getDefaultState(), AbstractBlock.Settings.of(Material.METAL)));

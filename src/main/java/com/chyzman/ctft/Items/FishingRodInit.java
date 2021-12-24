@@ -207,7 +207,7 @@ public class FishingRodInit {
     public static final Item COBBLEDDEEPSLATEFISHINGROD = register("cobbled_deepslate_fishing_rod", new CustomFishingRodItem(false, new Item.Settings().group(ItemGroup.SEARCH).maxDamage(172).rarity(Rarity.COMMON)));
     public static final Item COBBLEDDEEPSLATESLABFISHINGROD = register("cobbled_deepslate_slab_fishing_rod", new CustomFishingRodItem(false, new Item.Settings().group(ItemGroup.SEARCH).maxDamage(172).rarity(Rarity.COMMON)));
     public static final Item COBBLEDDEEPSLATESTAIRSFISHINGROD = register("cobbled_deepslate_stairs_fishing_rod", new CustomFishingRodItem(false, new Item.Settings().group(ItemGroup.SEARCH).maxDamage(172).rarity(Rarity.COMMON)));
-    public static final Item COBBLEDDEEPSLATEWALLFISHINGROD = register("deepslate_wall_fishing_rod", new CustomFishingRodItem(false, new Item.Settings().group(ItemGroup.SEARCH).maxDamage(172).rarity(Rarity.COMMON)));
+    public static final Item COBBLEDDEEPSLATEWALLFISHINGROD = register("cobbled_deepslate_wall_fishing_rod", new CustomFishingRodItem(false, new Item.Settings().group(ItemGroup.SEARCH).maxDamage(172).rarity(Rarity.COMMON)));
     public static final Item COBBLESTONEFISHINGROD = register("cobblestone_fishing_rod", new CustomFishingRodItem(false, new Item.Settings().group(ItemGroup.SEARCH).maxDamage(131).rarity(Rarity.COMMON)));
     public static final Item COBBLESTONESLABFISHINGROD = register("cobblestone_slab_fishing_rod", new CustomFishingRodItem(false, new Item.Settings().group(ItemGroup.SEARCH).maxDamage(131).rarity(Rarity.COMMON)));
     public static final Item COBBLESTONESTAIRSFISHINGROD = register("cobblestone_stairs_fishing_rod", new CustomFishingRodItem(false, new Item.Settings().group(ItemGroup.SEARCH).maxDamage(131).rarity(Rarity.COMMON)));
@@ -408,7 +408,7 @@ public class FishingRodInit {
     public static final Item FLOWERBANNERPATTERNFISHINGROD = register("flower_banner_pattern_fishing_rod", new CustomFishingRodItem(false, new Item.Settings().group(ItemGroup.SEARCH).maxDamage(131).rarity(Rarity.COMMON)));
     public static final Item FLOWERPOTFISHINGROD = register("flower_pot_fishing_rod", new CustomFishingRodItem(false, new Item.Settings().group(ItemGroup.SEARCH).maxDamage(177).rarity(Rarity.COMMON)));
     public static final Item FLOWERINGAZALEAFISHINGROD = register("flowering_azalea_fishing_rod", new CustomFishingRodItem(false, new Item.Settings().group(ItemGroup.SEARCH).maxDamage(59).rarity(Rarity.COMMON)));
-    public static final Item FLOWERINGAZALEALEAVESFISHINGROD = register("azalea_leaves_flowers_fishing_rod", new CustomFishingRodItem(false, new Item.Settings().group(ItemGroup.SEARCH).maxDamage(8).rarity(Rarity.COMMON)));
+    public static final Item FLOWERINGAZALEALEAVESFISHINGROD = register("flowering_azalea_leaves_fishing_rod", new CustomFishingRodItem(false, new Item.Settings().group(ItemGroup.SEARCH).maxDamage(8).rarity(Rarity.COMMON)));
     public static final Item FOXSPAWNEGGFISHINGROD = register("fox_spawn_egg_fishing_rod", new CustomFishingRodItem(false, new Item.Settings().group(ItemGroup.SEARCH).maxDamage(44).rarity(Rarity.COMMON)));
     public static final Item FURNACEFISHINGROD = register("furnace_fishing_rod", new CustomFishingRodItem(false, new Item.Settings().group(ItemGroup.SEARCH).maxDamage(131).rarity(Rarity.COMMON)));
     public static final Item FURNACEMINECARTFISHINGROD = register("furnace_minecart_fishing_rod", new CustomFishingRodItem(false, new Item.Settings().group(ItemGroup.SEARCH).maxDamage(131).rarity(Rarity.COMMON)));
@@ -1043,7 +1043,7 @@ public class FishingRodInit {
     public static final Item WARPEDTRAPDOORFISHINGROD = register("warped_trapdoor_fishing_rod", new CustomFishingRodItem(false, new Item.Settings().group(ItemGroup.SEARCH).maxDamage(59).rarity(Rarity.COMMON)));
     public static final Item WARPEDWARTBLOCKFISHINGROD = register("warped_wart_block_fishing_rod", new CustomFishingRodItem(false, new Item.Settings().group(ItemGroup.SEARCH).maxDamage(8).rarity(Rarity.COMMON)));
     public static final Item WATERFISHINGROD = register("water_bucket_fishing_rod", new CustomFishingRodItem(false, new Item.Settings().group(ItemGroup.SEARCH).maxDamage(240).rarity(Rarity.COMMON)));
-    public static final Item WAXEDBLOCKOFCOPPERFISHINGROD = register("waxed_copper_fishing_rod", new CustomFishingRodItem(false, new Item.Settings().group(ItemGroup.SEARCH).maxDamage(190).rarity(Rarity.COMMON)));
+    public static final Item WAXEDBLOCKOFCOPPERFISHINGROD = register("waxed_copper_block_fishing_rod", new CustomFishingRodItem(false, new Item.Settings().group(ItemGroup.SEARCH).maxDamage(190).rarity(Rarity.COMMON)));
     public static final Item WAXEDCUTCOPPERFISHINGROD = register("waxed_cut_copper_fishing_rod", new CustomFishingRodItem(false, new Item.Settings().group(ItemGroup.SEARCH).maxDamage(190).rarity(Rarity.COMMON)));
     public static final Item WAXEDCUTCOPPERSLABFISHINGROD = register("waxed_cut_copper_slab_fishing_rod", new CustomFishingRodItem(false, new Item.Settings().group(ItemGroup.SEARCH).maxDamage(190).rarity(Rarity.COMMON)));
     public static final Item WAXEDCUTCOPPERSTAIRSFISHINGROD = register("waxed_cut_copper_stairs_fishing_rod", new CustomFishingRodItem(false, new Item.Settings().group(ItemGroup.SEARCH).maxDamage(190).rarity(Rarity.COMMON)));

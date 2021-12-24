@@ -51,7 +51,18 @@
 			"ctft:jukebox_lever_from_crafting",
 			"ctft:jukebox_button_from_crafting",
 			"ctft:jukebox_pressure_plate_from_crafting",
-			"ctft:jukebox_fence_gate_from_crafting"
+			"ctft:jukebox_fence_gate_from_crafting",
+			"ctft:jukebox_chain_from_stonecutter",
+			"ctft:jukebox_compressed1_from_block",
+			"ctft:jukebox_block_from_compressed1",
+			"ctft:jukebox_compressed2_from_compressed1",
+			"ctft:jukebox_compressed1_from_compressed2",
+			"ctft:jukebox_compressed3_from_compressed2",
+			"ctft:jukebox_compressed2_from_compressed3",
+			"ctft:jukebox_compressed4_from_compressed"3,
+			"ctft:jukebox_compressed3_from_compressed4",
+			"ctft:jukebox_compressed5_from_compressed4",
+			"ctft:jukebox_compressed4_from_compressed5"
 		]
 	}
 }

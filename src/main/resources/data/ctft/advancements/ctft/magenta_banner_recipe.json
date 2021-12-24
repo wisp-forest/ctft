@@ -51,7 +51,18 @@
 			"ctft:magenta_banner_lever_from_crafting",
 			"ctft:magenta_banner_button_from_crafting",
 			"ctft:magenta_banner_pressure_plate_from_crafting",
-			"ctft:magenta_banner_fence_gate_from_crafting"
+			"ctft:magenta_banner_fence_gate_from_crafting",
+			"ctft:magenta_banner_chain_from_stonecutter",
+			"ctft:magenta_banner_compressed1_from_block",
+			"ctft:magenta_banner_block_from_compressed1",
+			"ctft:magenta_banner_compressed2_from_compressed1",
+			"ctft:magenta_banner_compressed1_from_compressed2",
+			"ctft:magenta_banner_compressed3_from_compressed2",
+			"ctft:magenta_banner_compressed2_from_compressed3",
+			"ctft:magenta_banner_compressed4_from_compressed"3,
+			"ctft:magenta_banner_compressed3_from_compressed4",
+			"ctft:magenta_banner_compressed5_from_compressed4",
+			"ctft:magenta_banner_compressed4_from_compressed5"
 		]
 	}
 }
