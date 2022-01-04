@@ -8,9 +8,8 @@ import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.minecraft.client.render.RenderLayer;
 
 @Environment(EnvType.CLIENT)
-public class CtftGlassPaneClient implements ClientModInitializer {
-    @Override
-    public void onInitializeClient() {
+public class CtftGlassPaneClient{
+    public static void INIT() {
         BlockRenderLayerMap.INSTANCE.putBlock(GlassPaneInit.ACACIABOATGLASSPANE, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(GlassPaneInit.ACACIABUTTONGLASSPANE, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(GlassPaneInit.ACACIADOORGLASSPANE, RenderLayer.getCutout());
@@ -1109,5 +1108,6 @@ public class CtftGlassPaneClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(GlassPaneInit.ZOMBIEHORSESPAWNEGGGLASSPANE, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(GlassPaneInit.ZOMBIESPAWNEGGGLASSPANE, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(GlassPaneInit.ZOMBIEVILLAGERSPAWNEGGGLASSPANE, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(GlassPaneInit.ZOMBIFIEDPIGLINSPAWNEGGGLASSPANE, RenderLayer.getCutout());
     }
 }

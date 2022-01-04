@@ -12,6 +12,7 @@ repositories {
     maven { url 'https://maven.wispforest.io' }
     maven { url = uri("https://storage.googleapis.com/devan-maven/") }
     maven { url "https://cursemaven.com" }
+    maven { url "https://maven.terraformersmc.com/"}
 }
 
 dependencies {
@@ -30,13 +31,16 @@ dependencies {
 
     modImplementation include("curse.maven:ferritecore-fabric-459857:3550048")
 
-    modImplementation "curse.maven:modmenu-308702:3331339"
+    modRuntimeOnly "com.terraformersmc:modmenu:${project.modmenu_version}"
 
     modImplementation include("net.devtech:arrp:0.5.4")
 
     modApi("me.shedaniel.cloth:cloth-config-fabric:6.1.48") {
         exclude(group: "net.fabricmc.fabric-api")
     }
+
+    modApi "com.shnupbups:Piglib:1.1.1+fabric-mc1.18"
+    include "com.shnupbups:Piglib:1.1.1+fabric-mc1.18"
 }
 
 processResources {

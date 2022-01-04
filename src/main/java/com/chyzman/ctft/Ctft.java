@@ -3,11 +3,11 @@ package com.chyzman.ctft;
 import com.chyzman.ctft.Blocks.*;
 import com.chyzman.ctft.Registries.FuelInit;
 import com.chyzman.ctft.classes.CtftItemGroup;
-import com.chyzman.ctft.compat.CtftReiCompat;
+import com.chyzman.ctft.client.*;
 import com.chyzman.ctft.resources.ResourceGenerator;
+import com.chyzman.ctft.util.CtftAoeDig;
 import com.chyzman.ctft.util.CtftCommandHandler;
 import com.chyzman.ctft.util.CtftConfig;
-import com.chyzman.ctft.util.CtftModMenuCompat;
 import io.wispforest.owo.itemgroup.OwoItemGroup;
 import me.shedaniel.autoconfig.AutoConfig;
 import me.shedaniel.autoconfig.serializer.JanksonConfigSerializer;
@@ -32,266 +32,296 @@ public class Ctft implements ModInitializer {
 
     @Override
     public void onInitialize() {
+        log("Initializing Ctft....");
         AutoConfig.register(CtftConfig.class, JanksonConfigSerializer::new);
         CONFIG = AutoConfig.getConfigHolder(CtftConfig.class).getConfig();
         if(CONFIG.tools_config.swordsEnabled){
-            SwordInit.INIT();
+            ItemInit.genSwords();
             FuelInit.SWORD();
         }
         if(CONFIG.tools_config.pickaxesEnabled){
-            PickaxeInit.INIT();
+            ItemInit.genPickaxes();
             FuelInit.PICKAXE();
         }
         if(CONFIG.tools_config.axesEnabled){
-            AxeInit.INIT();
+            ItemInit.genAxes();
             FuelInit.AXE();
         }
         if(CONFIG.tools_config.shovelsEnabled){
-            ShovelInit.INIT();
+            ItemInit.genShovels();
             FuelInit.SHOVEL();
         }
         if(CONFIG.tools_config.hoesEnabled){
-            HoeInit.INIT();
+            ItemInit.genHoes();
             FuelInit.HOE();
         }
         if(CONFIG.tools_config.helmetsEnabled){
-            HelmetInit.INIT();
+            ItemInit.genHelmets();
             FuelInit.HELMET();
         }
         if(CONFIG.tools_config.chestplatesEnabled){
-            ChestplateInit.INIT();
+            ItemInit.genChestplates();
             FuelInit.CHESTPLATE();
         }
         if(CONFIG.tools_config.leggingsEnabled){
-            LeggingsInit.INIT();
+            ItemInit.genLeggings();
             FuelInit.LEGGINGS();
         }
         if(CONFIG.tools_config.bootsEnabled){
-            BootsInit.INIT();
+            ItemInit.genBoots();
             FuelInit.BOOTS();
         }
         if(CONFIG.tools_config.bowsEnabled){
-            BowInit.INIT();
+            ItemInit.genBows();
             FuelInit.BOW();
+            CtftBowClient.INIT();
         }
         if(CONFIG.tools_config.crossbowsEnabled){
-            CrossbowInit.INIT();
+            ItemInit.genCrossBows();
             FuelInit.CROSSBOW();
+            CtftCrossbowClient.INIT();
+            CtftCrossbowPullingClient.INIT();
+            CtftCrossbowPotionClient.INIT();
+            CtftCrossbowArrowClient.INIT();
+            CtftCrossbowEggClient.INIT();
+            CtftCrossbowEnderPearlClient.INIT();
+            CtftCrossbowExperienceBottleClient.INIT();
+            CtftCrossbowFireChargeClient.INIT();
+            CtftCrossbowFireworkClient.INIT();
+            CtftCrossbowSnowballClient.INIT();
+            CtftCrossbowTridentClient.INIT();
         }
         if(CONFIG.tools_config.shieldsEnabled){
-            ShieldInit.INIT();
+            ItemInit.genShields();
             FuelInit.SHIELD();
+            CtftShieldClient.INIT();
         }
         if(CONFIG.tools_config.shearsEnabled){
-            ShearInit.INIT();
+            ItemInit.genShears();
             FuelInit.SHEARS();
         }
         if(CONFIG.tools_config.fishingRodsEnabled){
-            FishingRodInit.INIT();
+            ItemInit.genFishingRods();
             FuelInit.FISHINGROD();
+            CtftFishingRodClient.INIT();
         }
         if(CONFIG.tools_config.clocksEnabled){
-            ClockInit.INIT();
+            ItemInit.genClocks();
             FuelInit.CLOCK();
+            CtftClockClient.INIT();
         }
         if(CONFIG.tools_config.compassesEnabled){
-            CompassInit.INIT();
+            ItemInit.genCompasses();
             FuelInit.COMPASS();
+            CtftCompassClient.INIT();
         }
         if(CONFIG.tools_config.horseArmorEnabled){
-            HorseArmorInit.INIT();
+            ItemInit.genHorseArmor();
             FuelInit.HORSEARMOR();
         }
         if(CONFIG.tools_config.blocksEnabled){
             BlockInit.INIT();
-            BlockItemInit.INIT();
+            ItemInit.genBlocks();
             FuelInit.BLOCK();
         }
         if(CONFIG.tools_config.stairsEnabled){
             StairsInit.INIT();
-            StairsItemInit.INIT();
+            ItemInit.genStairs();
             FuelInit.STAIR();
         }
         if(CONFIG.tools_config.slabsEnabled){
             SlabInit.INIT();
-            SlabItemInit.INIT();
+            ItemInit.genSlabs();
             FuelInit.SLAB();
         }
         if(CONFIG.tools_config.glassEnabled){
             GlassInit.INIT();
-            GlassItemInit.INIT();
+            ItemInit.genGlass();
             FuelInit.GLASS();
+            CtftGlassClient.INIT();
         }
         if(CONFIG.tools_config.glassPanesEnabled){
             GlassPaneInit.INIT();
-            GlassPaneItemInit.INIT();
+            ItemInit.genGlassPanes();
             FuelInit.GLASSPANE();
+            CtftGlassPaneClient.INIT();
         }
         if(CONFIG.tools_config.panesEnabled){
             PaneInit.INIT();
-            PaneItemInit.INIT();
+            ItemInit.genpanes();
             FuelInit.PANE();
         }
         if(CONFIG.tools_config.layersEnabled){
             LayerInit.INIT();
-            LayerItemInit.INIT();
+            ItemInit.genLayers();
             FuelInit.LAYER();
         }
         if(CONFIG.tools_config.fencesEnabled){
             FenceInit.INIT();
-            FenceItemInit.INIT();
+            ItemInit.genFences();
             FuelInit.FENCE();
         }
         if(CONFIG.tools_config.fenceGatesEnabled){
             FenceGateInit.INIT();
-            FenceGateItemInit.INIT();
+            ItemInit.genFenceGates();
             FuelInit.FENCEGATE();
         }
         if(CONFIG.tools_config.wallsEnabled){
             WallInit.INIT();
-            WallItemInit.INIT();
+            ItemInit.genWalls();
             FuelInit.WALL();
         }
         if(CONFIG.tools_config.doorsEnabled){
             DoorInit.INIT();
-            DoorItemInit.INIT();
+            ItemInit.genDoors();
             FuelInit.DOOR();
+            CtftDoorClient.INIT();
         }
         if(CONFIG.tools_config.trapDoorsEnabled){
             TrapdoorInit.INIT();
-            TrapdoorItemInit.INIT();
+            ItemInit.genTrapdoors();
             FuelInit.TRAPDOOR();
+            CtftTrapdoorClient.INIT();
         }
         if(CONFIG.tools_config.leversEnabled){
             LeverInit.INIT();
-            LeverItemInit.INIT();
+            ItemInit.genLevers();
             FuelInit.LEVER();
         }
         if(CONFIG.tools_config.buttonsEnabled){
             ButtonInit.INIT();
-            ButtonItemInit.INIT();
+            ItemInit.genButtons();
             FuelInit.BUTTON();
         }
         if(CONFIG.tools_config.pressurePlatesEnabled){
             PressurePlateInit.INIT();
-            PressurePlateItemInit.INIT();
+            ItemInit.genPressurePlates();
             FuelInit.PRESSUREPLATE();
         }
         if(CONFIG.tools_config.torchesEnabled){
             TorchInit.INIT();
             WallTorchInit.INIT();
-            TorchItemInit.INIT();
+            ItemInit.genLanterns();
             FuelInit.TORCH();
         }
         if(CONFIG.tools_config.lanternsEnabled){
             LanternInit.INIT();
-            LanternItemInit.INIT();
+            ItemInit.genLanterns();
             FuelInit.LANTERN();
         }
         if(CONFIG.tools_config.endRodsEnabled){
             EndRodInit.INIT();
-            EndRodItemInit.INIT();
+            ItemInit.genEndRods();
             FuelInit.ENDROD();
         }
         if(CONFIG.tools_config.signsEnabled){
             SignInit.INIT();
-            SignItemInit.INIT();
+            ItemInit.genSigns();
             FuelInit.SIGN();
         }
         if(CONFIG.tools_config.laddersEnabled){
             LadderInit.INIT();
-            LadderItemInit.INIT();
+            ItemInit.genLadders();
             FuelInit.LADDER();
         }
         if(CONFIG.tools_config.chainsEnabled){
             ChainInit.INIT();
-            ChainItemInit.INIT();
+            ItemInit.genChains();
             FuelInit.CHAIN();
+            CtftChainClient.INIT();
         }
         if (Ctft.CONFIG.tools_config.compressionLevel >= 1) {
             Compressed1Init.INIT();
-            Compressed1ItemInit.INIT();
+            ItemInit.genCompressed1();
             FuelInit.COMPRESSED1();
         }
         if (Ctft.CONFIG.tools_config.compressionLevel >= 2) {
             Compressed2Init.INIT();
-            Compressed2ItemInit.INIT();
+            ItemInit.genCompressed2();
             FuelInit.COMPRESSED2();
         }
         if (Ctft.CONFIG.tools_config.compressionLevel >= 3) {
             Compressed3Init.INIT();
-            Compressed3ItemInit.INIT();
+            ItemInit.genCompressed3();
             FuelInit.COMPRESSED3();
         }
         if (Ctft.CONFIG.tools_config.compressionLevel >= 4) {
             Compressed4Init.INIT();
-            Compressed4ItemInit.INIT();
+            ItemInit.genCompressed4();
             FuelInit.COMPRESSED4();
         }
         if (Ctft.CONFIG.tools_config.compressionLevel >= 5) {
             Compressed5Init.INIT();
-            Compressed5ItemInit.INIT();
+            ItemInit.genCompressed5();
             FuelInit.COMPRESSED5();
         }
         if (Ctft.CONFIG.tools_config.compressionLevel >= 6) {
             Compressed6Init.INIT();
-            Compressed6ItemInit.INIT();
+            ItemInit.genCompressed6();
             FuelInit.COMPRESSED6();
         }
         if (Ctft.CONFIG.tools_config.compressionLevel >= 7) {
             Compressed7Init.INIT();
-            Compressed7ItemInit.INIT();
+            ItemInit.genCompressed7();
             FuelInit.COMPRESSED7();
         }
         if (Ctft.CONFIG.tools_config.compressionLevel >= 8) {
             Compressed8Init.INIT();
-            Compressed8ItemInit.INIT();
+            ItemInit.genCompressed8();
             FuelInit.COMPRESSED8();
         }
         if (Ctft.CONFIG.tools_config.compressionLevel >= 9) {
             Compressed9Init.INIT();
-            Compressed9ItemInit.INIT();
+            ItemInit.genCompressed9();
             FuelInit.COMPRESSED9();
         }
         if (Ctft.CONFIG.tools_config.compressionLevel >= 10) {
             Compressed10Init.INIT();
-            Compressed10ItemInit.INIT();
+            ItemInit.genCompressed10();
             FuelInit.COMPRESSED10();
         }
         if (Ctft.CONFIG.tools_config.compressionLevel >= 11) {
             Compressed11Init.INIT();
-            Compressed11ItemInit.INIT();
+            ItemInit.genCompressed11();
             FuelInit.COMPRESSED11();
         }
         if (Ctft.CONFIG.tools_config.compressionLevel >= 12) {
             Compressed12Init.INIT();
-            Compressed12ItemInit.INIT();
+            ItemInit.genCompressed12();
             FuelInit.COMPRESSED12();
         }
         if (Ctft.CONFIG.tools_config.compressionLevel >= 13) {
             Compressed13Init.INIT();
-            Compressed13ItemInit.INIT();
+            ItemInit.genCompressed13();
             FuelInit.COMPRESSED13();
         }
         if (Ctft.CONFIG.tools_config.compressionLevel >= 14) {
             Compressed14Init.INIT();
-            Compressed14ItemInit.INIT();
+            ItemInit.genCompressed14();
             FuelInit.COMPRESSED14();
         }
         if (Ctft.CONFIG.tools_config.compressionLevel >= 15) {
             Compressed15Init.INIT();
-            Compressed15ItemInit.INIT();
+            ItemInit.genCompressed15();
             FuelInit.COMPRESSED15();
         }
-
+        if (Ctft.CONFIG.tools_config.kcolbsEnabled) {
+            KcolbInit.INIT();
+            ItemInit.genKcolbs();
+            FuelInit.KCOLB();
+            CtftKcolbClient.INIT();
+        }
+        CtftAoeDig.registerCommonEvents();
         MiscInit.INIT();
         CTFT.initialize();
-        ResourceGenerator.INIT();
-        RRPCallback.BEFORE_VANILLA.register(a -> a.add(CTFT_RESOURCES));
-        CommandRegistrationCallback.EVENT.register(CtftCommandHandler::register);
+        if(Registry.ITEM.getIds().stream().filter(id -> id.getNamespace().equals("ctft")).count() > 10) {
+            ResourceGenerator.INIT();
+            RRPCallback.BEFORE_VANILLA.register(a -> a.add(CTFT_RESOURCES));
+            CommandRegistrationCallback.EVENT.register(CtftCommandHandler::register);
+        }
+        log("Registered " + (Registry.ITEM.getIds().stream().filter(id -> id.getNamespace().equals("ctft")).count()) + " Items");
+        log("Registered " + (Registry.BLOCK.getIds().stream().filter(id -> id.getNamespace().equals("ctft")).count()) + " Blocks");
         log("Initialized Ctft....");
-        log("Initialized " +(Registry.ITEM.getIds().stream().filter(id -> id.getNamespace().equals("ctft")).count()) + " Items");
-        log("Initialized " +(Registry.BLOCK.getIds().stream().filter(id -> id.getNamespace().equals("ctft")).count()) + " Blocks");
     }
 
     public static Identifier id(String name) {

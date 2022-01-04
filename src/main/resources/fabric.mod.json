@@ -16,30 +16,7 @@
   "environment": "*",
   "entrypoints": {
     "client": [
-      "com.chyzman.ctft.client.CtftClient",
-      "com.chyzman.ctft.client.CtftBowClient",
-      "com.chyzman.ctft.client.CtftBowPullingClient",
-      "com.chyzman.ctft.client.CtftClockClient",
-      "com.chyzman.ctft.client.CtftShieldClient",
-      "com.chyzman.ctft.client.CtftFishingRodClient",
-      "com.chyzman.ctft.client.CtftCompassClient",
-      "com.chyzman.ctft.client.CtftCrossbowClient",
-      "com.chyzman.ctft.client.CtftCrossbowPullingClient",
-      "com.chyzman.ctft.client.CtftCrossbowArrowClient",
-      "com.chyzman.ctft.client.CtftCrossbowFireworkClient",
-      "com.chyzman.ctft.client.CtftCrossbowEnderPearlClient",
-      "com.chyzman.ctft.client.CtftCrossbowEggClient",
-      "com.chyzman.ctft.client.CtftCrossbowTridentClient",
-      "com.chyzman.ctft.client.CtftCrossbowExperienceBottleClient",
-      "com.chyzman.ctft.client.CtftCrossbowPotionClient",
-      "com.chyzman.ctft.client.CtftCrossbowSnowballClient",
-      "com.chyzman.ctft.client.CtftCrossbowFireChargeClient",
-      "com.chyzman.ctft.client.CtftGlassClient",
-      "com.chyzman.ctft.client.CtftGlassPaneClient",
-      "com.chyzman.ctft.client.CtftLadderClient",
-      "com.chyzman.ctft.client.CtftDoorClient",
-      "com.chyzman.ctft.client.CtftTrapdoorClient",
-      "com.chyzman.ctft.client.CtftChainClient"
+      "com.chyzman.ctft.client.CtftClient"
     ],
     "main": [
       "com.chyzman.ctft.Ctft"

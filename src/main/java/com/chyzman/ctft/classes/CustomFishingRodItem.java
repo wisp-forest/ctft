@@ -3,15 +3,20 @@ package com.chyzman.ctft.classes;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.FishingRodItem;
 import net.minecraft.item.ItemStack;
+import net.minecraft.text.Text;
+import net.minecraft.text.TranslatableText;
 import net.minecraft.util.Hand;
 import net.minecraft.util.TypedActionResult;
+import net.minecraft.util.registry.Registry;
 import net.minecraft.world.World;
 
 public class CustomFishingRodItem extends FishingRodItem {
     public boolean isfoil;
-    public CustomFishingRodItem(boolean isFoil, Settings settings) {
+    public String texturetype;
+    public CustomFishingRodItem(boolean isFoil, String textureType, Settings settings) {
         super(settings);
         isfoil = isFoil;
+        texturetype = textureType;
     }
     @Override
     public boolean hasGlint(ItemStack stack) {
@@ -30,5 +35,18 @@ public class CustomFishingRodItem extends FishingRodItem {
             }
         }
         return super.use(world, user, hand);
+    }
+    @Override
+    public Text getName(){
+        var baseitemname = (Registry.ITEM.getId(this.asItem())).getPath();
+        return (new TranslatableText("ctft.item.fishing_rod_preffix")
+                .append(new TranslatableText(this.texturetype + ".minecraft." + baseitemname
+                        .substring(0, baseitemname
+                                .lastIndexOf('_'))))
+                .append(new TranslatableText("ctft.item.fishing_rod_suffix")));
+    }
+    @Override
+    public Text getName(ItemStack stack) {
+        return this.getName();
     }
 }

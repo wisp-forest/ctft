@@ -8,9 +8,8 @@ import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.minecraft.client.render.RenderLayer;
 
 @Environment(EnvType.CLIENT)
-public class CtftTrapdoorClient implements ClientModInitializer {
-    @Override
-    public void onInitializeClient() {
+public class CtftTrapdoorClient{
+    public static void INIT() {
         BlockRenderLayerMap.INSTANCE.putBlock(TrapdoorInit.ACACIABOATTRAPDOOR, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(TrapdoorInit.ACACIABUTTONTRAPDOOR, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(TrapdoorInit.ACACIADOORTRAPDOOR, RenderLayer.getCutout());
@@ -1109,5 +1108,6 @@ public class CtftTrapdoorClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(TrapdoorInit.ZOMBIEHORSESPAWNEGGTRAPDOOR, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(TrapdoorInit.ZOMBIESPAWNEGGTRAPDOOR, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(TrapdoorInit.ZOMBIEVILLAGERSPAWNEGGTRAPDOOR, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(TrapdoorInit.ZOMBIFIEDPIGLINSPAWNEGGTRAPDOOR, RenderLayer.getCutout());
     }
 }

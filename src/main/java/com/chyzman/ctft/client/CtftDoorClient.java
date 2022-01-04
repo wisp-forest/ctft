@@ -8,9 +8,8 @@ import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.minecraft.client.render.RenderLayer;
 
 @Environment(EnvType.CLIENT)
-public class CtftDoorClient implements ClientModInitializer {
-    @Override
-    public void onInitializeClient() {
+public class CtftDoorClient{
+    public static void INIT() {
         BlockRenderLayerMap.INSTANCE.putBlock(DoorInit.ACACIABOATDOOR, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(DoorInit.ACACIABUTTONDOOR, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(DoorInit.ACACIADOORDOOR, RenderLayer.getCutout());
@@ -1109,5 +1108,6 @@ public class CtftDoorClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(DoorInit.ZOMBIEHORSESPAWNEGGDOOR, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(DoorInit.ZOMBIESPAWNEGGDOOR, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(DoorInit.ZOMBIEVILLAGERSPAWNEGGDOOR, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(DoorInit.ZOMBIFIEDPIGLINSPAWNEGGDOOR, RenderLayer.getCutout());
     }
 }

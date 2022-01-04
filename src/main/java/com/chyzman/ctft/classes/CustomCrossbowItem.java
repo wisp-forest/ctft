@@ -31,6 +31,7 @@ import net.minecraft.util.UseAction;
 import net.minecraft.util.math.Quaternion;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.util.math.Vec3f;
+import net.minecraft.util.registry.Registry;
 import net.minecraft.world.World;
 import org.jetbrains.annotations.Nullable;
 
@@ -48,12 +49,14 @@ public class CustomCrossbowItem extends CrossbowItem implements Vanishable {
     private final float UseDurationMultiplier;
     private final float VelocityMultiplier;
     public boolean isfoil;
+    public String texturetype;
 
-    public CustomCrossbowItem(float UseDurationMultiplier, float VelocityMultiplier, boolean isFoil, Item.Settings settings) {
+    public CustomCrossbowItem(float UseDurationMultiplier, float VelocityMultiplier, boolean isFoil, String textureType, Item.Settings settings) {
         super(settings);
         this.UseDurationMultiplier = UseDurationMultiplier;
         this.VelocityMultiplier = VelocityMultiplier;
         isfoil = isFoil;
+        texturetype = textureType;
     }
     @Override
     public boolean hasGlint(ItemStack stack) {
@@ -403,4 +406,17 @@ public class CustomCrossbowItem extends CrossbowItem implements Vanishable {
         return 8;
     }
 
+    @Override
+    public Text getName(){
+        var baseitemname = (Registry.ITEM.getId(this.asItem())).getPath();
+        return (new TranslatableText("ctft.item.crossbow_preffix")
+                .append(new TranslatableText(this.texturetype + ".minecraft." + baseitemname
+                        .substring(0, baseitemname
+                                .lastIndexOf('_'))))
+                .append(new TranslatableText("ctft.item.crossbow_suffix")));
+    }
+    @Override
+    public Text getName(ItemStack stack) {
+        return this.getName();
+    }
 }

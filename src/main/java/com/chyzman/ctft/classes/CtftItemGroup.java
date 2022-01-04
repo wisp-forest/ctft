@@ -177,10 +177,14 @@ public class CtftItemGroup extends OwoItemGroup {
         if (Ctft.CONFIG.tools_config.compressionLevel >= 15) {
             this.addTab(Icon.of(Registry.ITEM.get(new Identifier("ctft", "dirt_compressed15"))), "compressed15", TagFactory.ITEM.create(CtftRegistryHelper.id("ctft_compressed15")));
         }
+        if (Ctft.CONFIG.tools_config.kcolbsEnabled) {
+            this.addTab(Icon.of(Registry.ITEM.get(new Identifier("ctft", "dirt_kcolb"))), "kcolb", TagFactory.ITEM.create(CtftRegistryHelper.id("ctft_kcolbs")));
+        }
 
         this.setStackHeight(7);
         this.addButton(ItemGroupButton.github("https://github.com/chyzman/ctft"));
         this.addButton(ItemGroupButton.curseforge("https://www.curseforge.com/minecraft/mc-mods/ctft"));
+        this.addButton(ItemGroupButton.modrinth("https://modrinth.com/mod/ctft"));
     }
 
     @Override

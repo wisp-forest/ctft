@@ -12,10 +12,13 @@ import net.minecraft.nbt.NbtOps;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.sound.SoundCategory;
 import net.minecraft.sound.SoundEvents;
+import net.minecraft.text.Text;
+import net.minecraft.text.TranslatableText;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.Util;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.registry.Registry;
 import net.minecraft.util.registry.RegistryKey;
 import net.minecraft.world.World;
 import net.minecraft.world.poi.PointOfInterestType;
@@ -28,10 +31,11 @@ public class CustomCompassItem extends Item implements Vanishable {
     public static final String LODESTONE_DIMENSION_KEY = "LodestoneDimension";
     public static final String LODESTONE_TRACKED_KEY = "LodestoneTracked";
     public boolean isfoil;
-
-    public CustomCompassItem(boolean isFoil, Item.Settings settings) {
+    public String texturetype;
+    public CustomCompassItem(boolean isFoil, String textureType, Item.Settings settings) {
         super(settings);
         isfoil = isFoil;
+        texturetype = textureType;
     }
 
     public static boolean hasLodestone(ItemStack stack) {
@@ -102,7 +106,24 @@ public class CustomCompassItem extends Item implements Vanishable {
     }
 
     @Override
-    public String getTranslationKey(ItemStack stack) {
-        return CompassItem.hasLodestone(stack) ? Util.createTranslationKey("item", Identifier.tryParse(this.getTranslationKey() + "_lodestone")) : super.getTranslationKey(stack);
+    public Text getName(){
+        var baseitemname = (Registry.ITEM.getId(this.asItem())).getPath();
+        return (new TranslatableText("ctft.item.compass_preffix")
+                .append(new TranslatableText(this.texturetype + ".minecraft." + baseitemname
+                        .substring(0, baseitemname
+                                .lastIndexOf('_'))))
+                .append(new TranslatableText("ctft.item.compass_suffix")));
+    }
+    @Override
+    public Text getName(ItemStack stack) {
+        var baseitemname = (Registry.ITEM.getId(this.asItem())).getPath();
+        if(CompassItem.hasLodestone(stack)) {
+            return (new TranslatableText("ctft.item.lodestone_compass_preffix")
+                    .append(new TranslatableText(this.texturetype + ".minecraft." + baseitemname
+                            .substring(0, baseitemname
+                                    .lastIndexOf('_'))))
+                    .append(new TranslatableText("ctft.item.lodestone_compass_suffix")));
+        }
+        else return this.getName();
     }
 }

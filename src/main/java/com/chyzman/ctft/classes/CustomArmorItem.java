@@ -2,11 +2,13 @@ package com.chyzman.ctft.classes;
 
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.item.ArmorItem;
-import net.minecraft.item.ArmorMaterial;
-import net.minecraft.item.ItemStack;
+import net.minecraft.item.*;
+import net.minecraft.text.LiteralText;
+import net.minecraft.text.Text;
+import net.minecraft.text.TranslatableText;
 import net.minecraft.util.Hand;
 import net.minecraft.util.TypedActionResult;
+import net.minecraft.util.registry.Registry;
 import net.minecraft.world.World;
 
 public class CustomArmorItem extends ArmorItem {
@@ -32,5 +34,40 @@ public class CustomArmorItem extends ArmorItem {
             }
         }
         return super.use(world, user, hand);
+    }
+
+    @Override
+    public Text getName(){
+        var baseitemname = (Registry.ITEM.getId(this.asItem())).getPath();
+        String baseitem = "item.minecraft." + baseitemname
+                .substring(0, baseitemname
+                        .lastIndexOf('_'));
+        if(this.slot.equals(EquipmentSlot.HEAD)){
+            return (new TranslatableText("ctft.item.helmet_preffix")
+                    .append(new TranslatableText(baseitem))
+                    .append(new TranslatableText("ctft.item.helmet_suffix")));
+        }
+        else if(this.slot.equals(EquipmentSlot.CHEST)){
+            return (new TranslatableText("ctft.item.chestplate_preffix")
+                    .append(new TranslatableText(baseitem))
+                    .append(new TranslatableText("ctft.item.chestplate_suffix")));
+        }
+        else if(this.slot.equals(EquipmentSlot.LEGS)){
+            return (new TranslatableText("ctft.item.leggings_preffix")
+                    .append(new TranslatableText(baseitem))
+                    .append(new TranslatableText("ctft.item.leggings_suffix")));
+        }
+        else if(this.slot.equals(EquipmentSlot.FEET)){
+            return (new TranslatableText("ctft.item.boots_preffix")
+                    .append(new TranslatableText(baseitem))
+                    .append(new TranslatableText("ctft.item.boots_suffix")));
+        }
+        else {
+            return new LiteralText("how tf did u make an armor piece thats not a helmet, chestplate, leggings or boots?");
+        }
+    }
+    @Override
+    public Text getName(ItemStack stack) {
+        return this.getName();
     }
 }

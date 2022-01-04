@@ -10,7 +10,8 @@
     "FishingBobberFix",
     "PillagerCrossbowMixin",
     "SheepShearingMixin",
-    "SkeletonBowMixin"
+    "SkeletonBowMixin",
+    "WorldRendererInvoker"
   ],
   "client": [
   ],

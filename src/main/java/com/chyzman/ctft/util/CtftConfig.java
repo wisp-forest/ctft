@@ -1,15 +1,12 @@
 package com.chyzman.ctft.util;
 
-import com.chyzman.ctft.Blocks.*;
-import com.chyzman.ctft.Ctft;
-import com.chyzman.ctft.Items.*;
 import me.shedaniel.autoconfig.ConfigData;
 import me.shedaniel.autoconfig.annotation.Config;
 import me.shedaniel.autoconfig.annotation.ConfigEntry;
 import me.shedaniel.cloth.clothconfig.shadowed.blue.endless.jankson.Comment;
 
 @Config(name = "ctft")
-@Config.Gui.Background("ctft/icon.png")
+@Config.Gui.Background("ctft:textures/item/ctft.png")
 public class CtftConfig implements ConfigData {
 
     public CtftConfig() {
@@ -171,6 +168,10 @@ public class CtftConfig implements ConfigData {
         @ConfigEntry.Gui.RequiresRestart
         @Comment("Should Ctft Load Chains?")
         public boolean chainsEnabled = true;
+
+        @ConfigEntry.Gui.RequiresRestart
+        @Comment("Should Ctft Load Kcolbs?")
+        public boolean kcolbsEnabled = true;
 
         @ConfigEntry.Gui.RequiresRestart
         @ConfigEntry.BoundedDiscrete(min = 0, max = 15)

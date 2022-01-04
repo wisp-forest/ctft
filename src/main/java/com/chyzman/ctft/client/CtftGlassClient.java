@@ -1,5 +1,6 @@
 package com.chyzman.ctft.client;
     
+import com.chyzman.ctft.Items.*;
 import com.chyzman.ctft.Blocks.*;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.api.EnvType;
@@ -8,9 +9,8 @@ import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.minecraft.client.render.RenderLayer;
 
 @Environment(EnvType.CLIENT)
-public class CtftGlassClient implements ClientModInitializer {
-    @Override
-    public void onInitializeClient() {
+public class CtftGlassClient{
+    public static void INIT() {
         BlockRenderLayerMap.INSTANCE.putBlock(GlassInit.ACACIABOATGLASS, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(GlassInit.ACACIABUTTONGLASS, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(GlassInit.ACACIADOORGLASS, RenderLayer.getCutout());
@@ -1109,5 +1109,6 @@ public class CtftGlassClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(GlassInit.ZOMBIEHORSESPAWNEGGGLASS, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(GlassInit.ZOMBIESPAWNEGGGLASS, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(GlassInit.ZOMBIEVILLAGERSPAWNEGGGLASS, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(GlassInit.ZOMBIFIEDPIGLINSPAWNEGGGLASS, RenderLayer.getCutout());
     }
 }
