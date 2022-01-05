@@ -1107,5 +1107,6 @@ public class EndRodInit {
     public static final Block ZOMBIEHORSESPAWNEGGENDROD = register("zombie_horse_spawn_egg_end_rod", new CustomEndRodBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block ZOMBIESPAWNEGGENDROD = register("zombie_spawn_egg_end_rod", new CustomEndRodBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block ZOMBIEVILLAGERSPAWNEGGENDROD = register("zombie_villager_spawn_egg_end_rod", new CustomEndRodBlock(AbstractBlock.Settings.of(Material.METAL)));
+    public static final Block ZOMBIFIEDPIGLINSPAWNEGGENDROD = register("zombified_piglin_spawn_egg_end_rod", new CustomEndRodBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static void INIT(){log("Loaded End Rods...");}
 }

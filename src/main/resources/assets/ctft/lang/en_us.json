@@ -153,6 +153,9 @@
     "ctft.item.compass_preffix": "",
     "ctft.item.compass_suffix": " Compass",
 
+    "ctft.item.lodestone_compass_preffix": "",
+    "ctft.item.lodestone_compass_suffix": " Lodestone Compass",
+
     "ctft.item.horse_armor_preffix": "",
     "ctft.item.horse_armor_suffix": " Horse Armor",
 
@@ -213,6 +216,9 @@
     "ctft.item.torch_preffix": "",
     "ctft.item.torch_suffix": " Torch",
 
+    "ctft.item.lantern_preffix": "",
+    "ctft.item.lantern_suffix": " Lantern",
+
     "ctft.item.chain_preffix": "",
     "ctft.item.chain_suffix": " Chain",
 
@@ -259,5 +265,8 @@
     "ctft.item.compressed14_suffix": "",
 
     "ctft.item.compressed15_preffix": "Block of Block of Block of Block of Block of Block of Block of Block of Block of Block of Block of Block of Block of Block of Block of Block of ",
-    "ctft.item.compressed15_suffix": ""
+    "ctft.item.compressed15_suffix": "",
+
+    "ctft.item.kcolb_preffix": "",
+    "ctft.item.kcolb_suffix": " Kcolb"
 }

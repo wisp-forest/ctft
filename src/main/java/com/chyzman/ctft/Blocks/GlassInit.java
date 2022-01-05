@@ -1107,5 +1107,6 @@ public class GlassInit {
     public static final GlassBlock ZOMBIEHORSESPAWNEGGGLASS = register("zombie_horse_spawn_egg_glass", new GlassBlock(AbstractBlock.Settings.of(Material.GLASS).nonOpaque()));
     public static final GlassBlock ZOMBIESPAWNEGGGLASS = register("zombie_spawn_egg_glass", new GlassBlock(AbstractBlock.Settings.of(Material.GLASS).nonOpaque()));
     public static final GlassBlock ZOMBIEVILLAGERSPAWNEGGGLASS = register("zombie_villager_spawn_egg_glass", new GlassBlock(AbstractBlock.Settings.of(Material.GLASS).nonOpaque()));
+    public static final GlassBlock ZOMBIFIEDPIGLINSPAWNEGGGLASS = register("zombified_piglin_spawn_egg_glass", new GlassBlock(AbstractBlock.Settings.of(Material.GLASS).nonOpaque()));
     public static void INIT(){log("Loaded Glass...");}
 }

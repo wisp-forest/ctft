@@ -1107,5 +1107,6 @@ public class LadderInit {
     public static final Block ZOMBIEHORSESPAWNEGGLADDER = register("zombie_horse_spawn_egg_ladder", new CustomLadderBlock(AbstractBlock.Settings.of(Material.METAL).noCollision().nonOpaque()));
     public static final Block ZOMBIESPAWNEGGLADDER = register("zombie_spawn_egg_ladder", new CustomLadderBlock(AbstractBlock.Settings.of(Material.METAL).noCollision().nonOpaque()));
     public static final Block ZOMBIEVILLAGERSPAWNEGGLADDER = register("zombie_villager_spawn_egg_ladder", new CustomLadderBlock(AbstractBlock.Settings.of(Material.METAL).noCollision().nonOpaque()));
+    public static final Block ZOMBIFIEDPIGLINSPAWNEGGLADDER = register("zombified_piglin_spawn_egg_ladder", new CustomLadderBlock(AbstractBlock.Settings.of(Material.METAL).noCollision().nonOpaque()));
     public static void INIT(){log("Loaded Ladders...");}
 }

@@ -1109,7 +1109,8 @@ public enum CtftArmorTiers implements ArmorMaterial {
     ZombieHeadArmorMaterial("ctft/zombie_head", 59, new int[]{1, 2, 2, 1}, 15, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0F, 0.0F, () -> Ingredient.ofItems(Items.ZOMBIE_HEAD)),
     ZombieHorseSpawnEggArmorMaterial("ctft/zombiehorse", 44, new int[]{1, 2, 2, 1}, 10, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0F, 0.0F, () -> Ingredient.ofItems(Items.ZOMBIE_HORSE_SPAWN_EGG)),
     ZombieSpawnEggArmorMaterial("ctft/zombie", 44, new int[]{1, 2, 2, 1}, 10, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0F, 0.0F, () -> Ingredient.ofItems(Items.ZOMBIE_SPAWN_EGG)),
-    ZombieVillagerSpawnEggArmorMaterial("ctft/zombievillager", 44, new int[]{1, 2, 2, 1}, 10, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0F, 0.0F, () -> Ingredient.ofItems(Items.ZOMBIE_VILLAGER_SPAWN_EGG));
+    ZombieVillagerSpawnEggArmorMaterial("ctft/zombievillager", 44, new int[]{1, 2, 2, 1}, 10, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0F, 0.0F, () -> Ingredient.ofItems(Items.ZOMBIE_VILLAGER_SPAWN_EGG)),
+    ZombifiedPiglinSpawnEggArmorMaterial("ctft/zombifiedpiglin", 44, new int[]{1, 2, 2, 1}, 10, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0F, 0.0F, () -> Ingredient.ofItems(Items.ZOMBIFIED_PIGLIN_SPAWN_EGG));
     
 
     private static final int[] HEALTH_PER_SLOT = new int[]{1, 1, 1, 1};

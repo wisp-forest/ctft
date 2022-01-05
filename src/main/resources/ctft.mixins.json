@@ -11,7 +11,9 @@
     "PillagerCrossbowMixin",
     "SheepShearingMixin",
     "SkeletonBowMixin",
-    "WorldRendererInvoker"
+    "WorldRendererInvoker",
+    "accessor.BlockEntityTypeAccessor",
+    "accessor.SignTypeInvoker"
   ],
   "client": [
   ],

@@ -12,10 +12,12 @@ import net.minecraft.util.registry.Registry;
 import net.minecraft.world.World;
 
 public class CustomArmorItem extends ArmorItem {
-    public  boolean isfoil;
-    public CustomArmorItem(ArmorMaterial material, EquipmentSlot slot, boolean isFoil, Settings settings) {
+    public boolean isfoil;
+    public String texturetype;
+    public CustomArmorItem(ArmorMaterial material, EquipmentSlot slot, boolean isFoil, String textureType, Settings settings) {
         super(material, slot, settings);
         isfoil = isFoil;
+        texturetype = textureType;
     }
     @Override
     public boolean hasGlint(ItemStack stack) {
@@ -39,7 +41,7 @@ public class CustomArmorItem extends ArmorItem {
     @Override
     public Text getName(){
         var baseitemname = (Registry.ITEM.getId(this.asItem())).getPath();
-        String baseitem = "item.minecraft." + baseitemname
+        String baseitem = this.texturetype + ".minecraft." + baseitemname
                 .substring(0, baseitemname
                         .lastIndexOf('_'));
         if(this.slot.equals(EquipmentSlot.HEAD)){

@@ -1107,5 +1107,6 @@ public class StairsInit {
     public static final Block ZOMBIEHORSESPAWNEGGSTAIRS = register("zombie_horse_spawn_egg_stairs", new CustomStairsBlock(BlockInit.ZOMBIEHORSESPAWNEGGBLOCK.getDefaultState(), AbstractBlock.Settings.of(Material.METAL)));
     public static final Block ZOMBIESPAWNEGGSTAIRS = register("zombie_spawn_egg_stairs", new CustomStairsBlock(BlockInit.ZOMBIESPAWNEGGBLOCK.getDefaultState(), AbstractBlock.Settings.of(Material.METAL)));
     public static final Block ZOMBIEVILLAGERSPAWNEGGSTAIRS = register("zombie_villager_spawn_egg_stairs", new CustomStairsBlock(BlockInit.ZOMBIEVILLAGERSPAWNEGGBLOCK.getDefaultState(), AbstractBlock.Settings.of(Material.METAL)));
+    public static final Block ZOMBIFIEDPIGLINSPAWNEGGSTAIRS = register("zombified_piglin_spawn_egg_stairs", new CustomStairsBlock(BlockInit.ZOMBIFIEDPIGLINSPAWNEGGBLOCK.getDefaultState(), AbstractBlock.Settings.of(Material.METAL)));
     public static void INIT(){log("Loaded Stairs...");}
 }

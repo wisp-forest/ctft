@@ -42,6 +42,9 @@ public class CustomFishingRodItem extends FishingRodItem {
         return (new TranslatableText("ctft.item.fishing_rod_preffix")
                 .append(new TranslatableText(this.texturetype + ".minecraft." + baseitemname
                         .substring(0, baseitemname
+                                .lastIndexOf('_')).substring(0, baseitemname
+                                .substring(0, baseitemname
+                                        .lastIndexOf('_'))
                                 .lastIndexOf('_'))))
                 .append(new TranslatableText("ctft.item.fishing_rod_suffix")));
     }

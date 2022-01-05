@@ -1107,5 +1107,6 @@ public class SlabInit {
     public static final Block ZOMBIEHORSESPAWNEGGSLAB = register("zombie_horse_spawn_egg_slab", new SlabBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block ZOMBIESPAWNEGGSLAB = register("zombie_spawn_egg_slab", new SlabBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block ZOMBIEVILLAGERSPAWNEGGSLAB = register("zombie_villager_spawn_egg_slab", new SlabBlock(AbstractBlock.Settings.of(Material.METAL)));
+    public static final Block ZOMBIFIEDPIGLINSPAWNEGGSLAB = register("zombified_piglin_spawn_egg_slab", new SlabBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static void INIT(){log("Loaded Slabs...");}
 }

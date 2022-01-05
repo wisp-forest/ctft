@@ -1107,5 +1107,6 @@ public class LeverInit {
     public static final Block ZOMBIEHORSESPAWNEGGLEVER = register("zombie_horse_spawn_egg_lever", new CustomLeverBlock(AbstractBlock.Settings.of(Material.METAL).noCollision()));
     public static final Block ZOMBIESPAWNEGGLEVER = register("zombie_spawn_egg_lever", new CustomLeverBlock(AbstractBlock.Settings.of(Material.METAL).noCollision()));
     public static final Block ZOMBIEVILLAGERSPAWNEGGLEVER = register("zombie_villager_spawn_egg_lever", new CustomLeverBlock(AbstractBlock.Settings.of(Material.METAL).noCollision()));
+    public static final Block ZOMBIFIEDPIGLINSPAWNEGGLEVER = register("zombified_piglin_spawn_egg_lever", new CustomLeverBlock(AbstractBlock.Settings.of(Material.METAL).noCollision()));
     public static void INIT(){log("Loaded Levers...");}
 }

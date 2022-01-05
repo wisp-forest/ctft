@@ -1,17 +1,20 @@
 package com.chyzman.ctft.resources;
 
 import com.chyzman.ctft.Ctft;
+import com.chyzman.ctft.mixin.accessor.SignTypeInvoker;
 import com.google.gson.JsonObject;
 import io.wispforest.owo.util.TagInjector;
 import net.devtech.arrp.json.blockstate.JState;
 import net.devtech.arrp.json.loot.JLootTable;
 import net.devtech.arrp.json.models.JModel;
 import net.devtech.arrp.json.recipe.*;
+import net.minecraft.client.MinecraftClient;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 import java.util.HashSet;
 import java.util.List;
+import java.util.Random;
 
 public class ResourceGenerator {
     static HashSet<String> piglin_loved = new HashSet<>(List.of("gold_block", "gilded_blackstone", "light_weighted_pressure_plate", "gold_ingot", "bell", "clock", "golden_carrot", "glistering_melon_slice", "golden_apple", "enchanted_golden_apple", "golden_helmet", "golden_chestplate", "golden_leggings", "golden_boots", "golden_horse_armor", "golden_sword", "golden_pickaxe", "golden_shovel", "golden_axe", "golden_hoe", "raw_gold", "raw_gold_block", "gold_ore", "nether_gold_ore", "deepslate_gold_ore"));
@@ -1116,6 +1119,7 @@ public class ResourceGenerator {
         makeResources("zombiehorse", "zombie_horse_spawn_egg", "ctft");
         makeResources("zombie", "zombie_spawn_egg", "ctft");
         makeResources("zombievillager", "zombie_villager_spawn_egg", "ctft");
+        makeResources("zombifiedpiglin", "zombified_piglin_spawn_egg", "ctft");
     }
 
     public static void makeResources(String texture, String id, String namespace) {
@@ -1144,6 +1148,7 @@ public class ResourceGenerator {
         if (Ctft.CONFIG.tools_config.swordsEnabled) {
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/sword").textures((JModel.textures().var("0", "ctft:items/iron_sword").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_sword"));
             Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_sword_from_crafting"), JRecipe.shaped(JPattern.pattern().row1(" 0 ").row2(" 0 ").row3(" 1 "), JKeys.keys().key("0", ingredient).key("1", stick), JResult.result("ctft:" + id + "_sword")));
+            TagInjector.injectItems(new Identifier("ctft","ctft_swords"), Registry.ITEM.get(new Identifier("ctft", id + "_sword")));
             if(piglin_loved.contains(id)) {
                 TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_sword")));
             }
@@ -1158,6 +1163,7 @@ public class ResourceGenerator {
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/pickaxe").textures((JModel.textures().var("0", "ctft:items/iron_pickaxe").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_pickaxe"));
             Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_pickaxe_from_crafting"), JRecipe.shaped(JPattern.pattern().row1("000").row2(" 1 ").row3(" 1 "), JKeys.keys().key("0", ingredient).key("1", stick), JResult.result("ctft:" + id + "_pickaxe")));
             TagInjector.injectItems(new Identifier("minecraft","cluster_max_harvestables"), Registry.ITEM.get(new Identifier("ctft", id + "_pickaxe")));
+            TagInjector.injectItems(new Identifier("ctft","ctft_pickaxes"), Registry.ITEM.get(new Identifier("ctft", id + "_pickaxe")));
             if(piglin_loved.contains(id)) {
                 TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_pickaxe")));
             }
@@ -1171,6 +1177,7 @@ public class ResourceGenerator {
         if (Ctft.CONFIG.tools_config.axesEnabled) {
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/axe").textures((JModel.textures().var("0", "ctft:items/iron_axe").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_axe"));
             Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_axe_from_crafting"), JRecipe.shaped(JPattern.pattern().row1("00 ").row2("01 ").row3(" 1 "), JKeys.keys().key("0", ingredient).key("1", stick), JResult.result("ctft:" + id + "_axe")));
+            TagInjector.injectItems(new Identifier("ctft","ctft_axes"), Registry.ITEM.get(new Identifier("ctft", id + "_axe")));
             if(piglin_loved.contains(id)) {
                 TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_axe")));
             }
@@ -1184,6 +1191,7 @@ public class ResourceGenerator {
         if (Ctft.CONFIG.tools_config.shovelsEnabled) {
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/shovel").textures((JModel.textures().var("0", "ctft:items/iron_shovel").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_shovel"));
             Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_shovel_from_crafting"), JRecipe.shaped(JPattern.pattern().row1(" 0 ").row2(" 1 ").row3(" 1 "), JKeys.keys().key("0", ingredient).key("1", stick), JResult.result("ctft:" + id + "_shovel")));
+            TagInjector.injectItems(new Identifier("ctft","ctft_shovels"), Registry.ITEM.get(new Identifier("ctft", id + "_shovel")));
             if(piglin_loved.contains(id)) {
                 TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_shovel")));
                 if(freeze_immune_wearables.contains(id)) {
@@ -1197,6 +1205,7 @@ public class ResourceGenerator {
         if (Ctft.CONFIG.tools_config.hoesEnabled) {
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/hoe").textures((JModel.textures().var("0", "ctft:items/iron_hoe").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_hoe"));
             Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_hoe_from_crafting"), JRecipe.shaped(JPattern.pattern().row1("00 ").row2(" 1 ").row3(" 1 "), JKeys.keys().key("0", ingredient).key("1", stick), JResult.result("ctft:" + id + "_hoe")));
+            TagInjector.injectItems(new Identifier("ctft","ctft_hoes"), Registry.ITEM.get(new Identifier("ctft", id + "_hoe")));
             if(piglin_loved.contains(id)) {
                 TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_hoe")));
             }
@@ -1210,6 +1219,7 @@ public class ResourceGenerator {
         if (Ctft.CONFIG.tools_config.helmetsEnabled) {
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/helmet").textures((JModel.textures().var("0", "ctft:items/iron_helmet").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_helmet"));
             Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_helmet_from_crafting"), JRecipe.shaped(JPattern.pattern().row2("000").row3("0 0"), JKeys.keys().key("0", ingredient), JResult.result("ctft:" + id + "_helmet")));
+            TagInjector.injectItems(new Identifier("ctft","ctft_helmets"), Registry.ITEM.get(new Identifier("ctft", id + "_helmet")));
             if(piglin_loved.contains(id)) {
                 TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_helmet")));
                 TagInjector.injectItems(new Identifier("piglib","piglin_safe_armor"), Registry.ITEM.get(new Identifier("ctft", id + "_helmet")));
@@ -1224,6 +1234,7 @@ public class ResourceGenerator {
         if (Ctft.CONFIG.tools_config.chestplatesEnabled) {
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/chestplate").textures((JModel.textures().var("0", "ctft:items/iron_chestplate").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_chestplate"));
             Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_chestplate_from_crafting"), JRecipe.shaped(JPattern.pattern().row1("0 0").row2("000").row3("000"), JKeys.keys().key("0", ingredient), JResult.result("ctft:" + id + "_chestplate")));
+            TagInjector.injectItems(new Identifier("ctft","ctft_chestplates"), Registry.ITEM.get(new Identifier("ctft", id + "_chestplate")));
             if(piglin_loved.contains(id)) {
                 TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_chestplate")));
                 TagInjector.injectItems(new Identifier("piglib","piglin_safe_armor"), Registry.ITEM.get(new Identifier("ctft", id + "_chestplate")));
@@ -1238,6 +1249,7 @@ public class ResourceGenerator {
         if (Ctft.CONFIG.tools_config.leggingsEnabled) {
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/leggings").textures((JModel.textures().var("0", "ctft:items/iron_leggings").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_leggings"));
             Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_leggings_from_crafting"), JRecipe.shaped(JPattern.pattern().row1("000").row2("0 0").row3("0 0"), JKeys.keys().key("0", ingredient), JResult.result("ctft:" + id + "_leggings")));
+            TagInjector.injectItems(new Identifier("ctft","ctft_leggings"), Registry.ITEM.get(new Identifier("ctft", id + "_leggings")));
             if(piglin_loved.contains(id)) {
                 TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_leggings")));
                 TagInjector.injectItems(new Identifier("piglib","piglin_safe_armor"), Registry.ITEM.get(new Identifier("ctft", id + "_leggings")));
@@ -1252,6 +1264,7 @@ public class ResourceGenerator {
         if (Ctft.CONFIG.tools_config.bootsEnabled) {
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/boots").textures((JModel.textures().var("0", "ctft:items/iron_boots").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_boots"));
             Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_boots_from_crafting"), JRecipe.shaped(JPattern.pattern().row2("0 0").row3("0 0"), JKeys.keys().key("0", ingredient), JResult.result("ctft:" + id + "_boots")));
+            TagInjector.injectItems(new Identifier("ctft","ctft_boots"), Registry.ITEM.get(new Identifier("ctft", id + "_boots")));
             if(piglin_loved.contains(id)) {
                 TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_boots")));
                 TagInjector.injectItems(new Identifier("piglib","piglin_safe_armor"), Registry.ITEM.get(new Identifier("ctft", id + "_boots")));
@@ -1272,6 +1285,7 @@ public class ResourceGenerator {
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/bow_pulling_1").textures((JModel.textures().var("0", "ctft:items/bow_pulling_1").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_bow_pulling_1"));
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/bow_pulling_2").textures((JModel.textures().var("0", "ctft:items/bow_pulling_2").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_bow_pulling_2"));
             Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_bow_from_crafting"), JRecipe.shaped(JPattern.pattern().row1(" 01").row2("0 1").row3(" 01"), JKeys.keys().key("0", ingredient).key("1", string), JResult.result("ctft:" + id + "_bow")));
+            TagInjector.injectItems(new Identifier("ctft","ctft_bows"), Registry.ITEM.get(new Identifier("ctft", id + "_bow")));
             if(piglin_loved.contains(id)) {
                 TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_bow")));
             }
@@ -1309,6 +1323,7 @@ public class ResourceGenerator {
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/crossbow_snowball").textures((JModel.textures().var("0", "ctft:items/crossbow_snowball").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_crossbow_snowball"));
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/crossbow_fire_charge").textures((JModel.textures().var("0", "ctft:items/crossbow_fire_charge").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_crossbow_fire_charge"));
             Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_crossbow_from_crafting"), JRecipe.shaped(JPattern.pattern().row1("020").row2("131").row3(" 0 "), JKeys.keys().key("0", ingredient).key("1", string).key("2", iron).key("3", hook), JResult.result("ctft:" + id + "_crossbow")));
+            TagInjector.injectItems(new Identifier("ctft","ctft_crossbows"), Registry.ITEM.get(new Identifier("ctft", id + "_crossbow")));
             if(piglin_loved.contains(id)) {
                 TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_crossbow")));
             }
@@ -1323,6 +1338,7 @@ public class ResourceGenerator {
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/shield").textures((JModel.textures().var("0", "ctft:items/shield_base").var("1", namespace).particle(namespace))).addOverride(JModel.override(JModel.condition().parameter("blocking", 1.0), new Identifier("ctft", "item/" + id + "_shield_blocking"))), new Identifier("ctft", "item/" + id + "_shield"));
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/shield_blocking").textures((JModel.textures().var("0", "ctft:items/shield_base").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_shield_blocking"));
             Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_shield_from_crafting"), JRecipe.shaped(JPattern.pattern().row1("010").row2("000").row3(" 0 "), JKeys.keys().key("0", ingredient).key("1", iron), JResult.result("ctft:" + id + "_shield")));
+            TagInjector.injectItems(new Identifier("ctft","ctft_shields"), Registry.ITEM.get(new Identifier("ctft", id + "_shield")));
             if(piglin_loved.contains(id)) {
                 TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_shield")));
             }
@@ -1336,6 +1352,7 @@ public class ResourceGenerator {
         if (Ctft.CONFIG.tools_config.shearsEnabled) {
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/shears").textures((JModel.textures().var("0", "ctft:items/shears").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_shears"));
             Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_shears_from_crafting"), JRecipe.shaped(JPattern.pattern().row1(" 0 ").row2("0  "), JKeys.keys().key("0", ingredient), JResult.result("ctft:" + id + "_shears")));
+            TagInjector.injectItems(new Identifier("ctft","ctft_shears"), Registry.ITEM.get(new Identifier("ctft", id + "_shears")));
             if(piglin_loved.contains(id)) {
                 TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_shears")));
             }
@@ -1350,6 +1367,7 @@ public class ResourceGenerator {
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/fishing_rod").textures((JModel.textures().var("0", "ctft:items/fishing_rod").var("1", namespace).particle(namespace))).addOverride(JModel.override(JModel.condition().parameter("cast", 1.0), new Identifier("ctft", "item/" + id + "_fishing_rod_cast"))), new Identifier("ctft", "item/" + id + "_fishing_rod"));
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/fishing_rod_casting").textures((JModel.textures().var("0", "ctft:items/fishing_rod").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_fishing_rod_cast"));
             Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_fishing_rod_from_crafting"), JRecipe.shaped(JPattern.pattern().row1("  0").row2(" 01").row3("0 1"), JKeys.keys().key("0", ingredient).key("1", string), JResult.result("ctft:" + id + "_fishing_rod")));
+            TagInjector.injectItems(new Identifier("ctft","ctft_fishing_rods"), Registry.ITEM.get(new Identifier("ctft", id + "_fishing_rod")));
             if(piglin_loved.contains(id)) {
                 TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_fishing_rod")));
             }
@@ -1492,6 +1510,7 @@ public class ResourceGenerator {
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_62").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_62"));
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_63").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_63"));
             Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_clock_from_crafting"), JRecipe.shaped(JPattern.pattern().row1(" 0 ").row2("010").row3(" 0 "), JKeys.keys().key("0", ingredient).key("1", gold), JResult.result("ctft:" + id + "_clock")));
+            TagInjector.injectItems(new Identifier("ctft","ctft_clocks"), Registry.ITEM.get(new Identifier("ctft", id + "_clock")));
             if(piglin_loved.contains(id)) {
                 TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_clock")));
             }
@@ -1570,6 +1589,7 @@ public class ResourceGenerator {
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compass").textures((JModel.textures().var("0", "ctft:items/compass_30").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compass_30"));
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compass").textures((JModel.textures().var("0", "ctft:items/compass_31").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compass_31"));
             Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compass_from_crafting"), JRecipe.shaped(JPattern.pattern().row1(" 0 ").row2("010").row3(" 0 "), JKeys.keys().key("0", ingredient).key("1", iron), JResult.result("ctft:" + id + "_compass")));
+            TagInjector.injectItems(new Identifier("ctft","ctft_compasses"), Registry.ITEM.get(new Identifier("ctft", id + "_compass")));
             if(piglin_loved.contains(id)) {
                 TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_compass")));
             }
@@ -1583,6 +1603,7 @@ public class ResourceGenerator {
         if (Ctft.CONFIG.tools_config.horseArmorEnabled) {
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/horse_armor").textures((JModel.textures().var("0", "ctft:items/horse_armor").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_horse_armor"));
             Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_horse_armor_from_crafting"), JRecipe.shaped(JPattern.pattern().row1("  0").row2("000").row3("0 0"), JKeys.keys().key("0", ingredient), JResult.result("ctft:" + id + "_horse_armor")));
+            TagInjector.injectItems(new Identifier("ctft","ctft_horse_armor"), Registry.ITEM.get(new Identifier("ctft", id + "_horse_armor")));
             if(piglin_loved.contains(id)) {
                 TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_horse_armor")));
             }
@@ -1607,6 +1628,7 @@ public class ResourceGenerator {
                                     .entry()
                                     .type("minecraft:item")
                                     .name("ctft:" + id + "_block"))));
+            TagInjector.injectItems(new Identifier("ctft","ctft_blocks"), Registry.ITEM.get(new Identifier("ctft", id + "_block")));
             if(piglin_loved.contains(id)) {
                 TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_block")));
             }
@@ -1674,6 +1696,7 @@ public class ResourceGenerator {
                                     .entry()
                                     .type("minecraft:item")
                                     .name("ctft:" + id + "_stairs"))));
+            TagInjector.injectItems(new Identifier("ctft","ctft_stairs"), Registry.ITEM.get(new Identifier("ctft", id + "_stairs")));
             if(piglin_loved.contains(id)) {
                 TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_stairs")));
             }
@@ -1719,6 +1742,7 @@ public class ResourceGenerator {
                             )
                     )
             );
+            TagInjector.injectItems(new Identifier("ctft","ctft_slabs"), Registry.ITEM.get(new Identifier("ctft", id + "_slab")));
             if(piglin_loved.contains(id)) {
                 TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_slab")));
             }
@@ -1743,6 +1767,7 @@ public class ResourceGenerator {
                                     .entry()
                                     .type("minecraft:item")
                                     .name("ctft:" + id + "_glass"))));
+            TagInjector.injectItems(new Identifier("ctft","ctft_glass"), Registry.ITEM.get(new Identifier("ctft", id + "_glass")));
             if(piglin_loved.contains(id)) {
                 TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_glass")));
             }
@@ -1781,6 +1806,7 @@ public class ResourceGenerator {
                                     .entry()
                                     .type("minecraft:item")
                                     .name("ctft:" + id + "_glass_pane"))));
+            TagInjector.injectItems(new Identifier("ctft","ctft_glass_panes"), Registry.ITEM.get(new Identifier("ctft", id + "_glass_pane")));
             if(piglin_loved.contains(id)) {
                 TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_glass_pane")));
             }
@@ -1819,6 +1845,7 @@ public class ResourceGenerator {
                                     .entry()
                                     .type("minecraft:item")
                                     .name("ctft:" + id + "_pane"))));
+            TagInjector.injectItems(new Identifier("ctft","ctft_panes"), Registry.ITEM.get(new Identifier("ctft", id + "_pane")));
             if(piglin_loved.contains(id)) {
                 TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_pane")));
             }
@@ -1942,6 +1969,7 @@ public class ResourceGenerator {
             if (Ctft.CONFIG.tools_config.slabsEnabled) {
                 Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_slab_from_layer"), JRecipe.shaped(JPattern.pattern().row2(" 00").row3(" 00"), JKeys.keys().key("0", layer), JResult.stackedResult("ctft:" + id + "_slab", 1)));
             }
+            TagInjector.injectItems(new Identifier("ctft","ctft_layers"), Registry.ITEM.get(new Identifier("ctft", id + "_layer")));
             if(piglin_loved.contains(id)) {
                 TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_layer")));
             }
@@ -1974,6 +2002,7 @@ public class ResourceGenerator {
                                     .type("minecraft:item")
                                     .name("ctft:" + id + "_fence"))));
             TagInjector.injectBlocks(new Identifier("minecraft","fences"), Registry.BLOCK.get(new Identifier("ctft", id + "_fence")));
+            TagInjector.injectItems(new Identifier("ctft","ctft_fences"), Registry.ITEM.get(new Identifier("ctft", id + "_fence")));
             if(piglin_loved.contains(id)) {
                 TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_fence")));
             }
@@ -2016,6 +2045,7 @@ public class ResourceGenerator {
                                     .entry()
                                     .type("minecraft:item")
                                     .name("ctft:" + id + "_fence_gate"))));
+            TagInjector.injectItems(new Identifier("ctft","ctft_fence_gates"), Registry.ITEM.get(new Identifier("ctft", id + "_fence_gate")));
             if(piglin_loved.contains(id)) {
                 TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_fence_gate")));
             }
@@ -2053,6 +2083,7 @@ public class ResourceGenerator {
                                     .type("minecraft:item")
                                     .name("ctft:" + id + "_wall"))));
             TagInjector.injectBlocks(new Identifier("minecraft","walls"), Registry.BLOCK.get(new Identifier("ctft", id + "_wall")));
+            TagInjector.injectItems(new Identifier("ctft","ctft_walls"), Registry.ITEM.get(new Identifier("ctft", id + "_wall")));
             if(piglin_loved.contains(id)) {
                 TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_wall")));
             }
@@ -2129,6 +2160,7 @@ public class ResourceGenerator {
                             )
                     )
             );
+            TagInjector.injectItems(new Identifier("ctft","ctft_doors"), Registry.ITEM.get(new Identifier("ctft", id + "_door")));
             if(piglin_loved.contains(id)) {
                 TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_door")));
             }
@@ -2170,6 +2202,7 @@ public class ResourceGenerator {
                                     .entry()
                                     .type("minecraft:item")
                                     .name("ctft:" + id + "_trapdoor"))));
+            TagInjector.injectItems(new Identifier("ctft","ctft_trapdoors"), Registry.ITEM.get(new Identifier("ctft", id + "_trapdoor")));
             if(piglin_loved.contains(id)) {
                 TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_trapdoor")));
             }
@@ -2219,6 +2252,7 @@ public class ResourceGenerator {
                                     .entry()
                                     .type("minecraft:item")
                                     .name("ctft:" + id + "_lever"))));
+            TagInjector.injectItems(new Identifier("ctft","ctft_levers"), Registry.ITEM.get(new Identifier("ctft", id + "_lever")));
             if(piglin_loved.contains(id)) {
                 TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_lever")));
             }
@@ -2268,6 +2302,7 @@ public class ResourceGenerator {
                                     .entry()
                                     .type("minecraft:item")
                                     .name("ctft:" + id + "_button"))));
+            TagInjector.injectItems(new Identifier("ctft","ctft_buttons"), Registry.ITEM.get(new Identifier("ctft", id + "_button")));
             if(piglin_loved.contains(id)) {
                 TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_button")));
             }
@@ -2294,6 +2329,7 @@ public class ResourceGenerator {
                                     .entry()
                                     .type("minecraft:item")
                                     .name("ctft:" + id + "_pressure_plate"))));
+            TagInjector.injectItems(new Identifier("ctft","ctft_pressure_plates"), Registry.ITEM.get(new Identifier("ctft", id + "_pressure_plate")));
             if(piglin_loved.contains(id)) {
                 TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_pressure_plate")));
             }
@@ -2328,6 +2364,7 @@ public class ResourceGenerator {
                                     .entry()
                                     .type("minecraft:item")
                                     .name("ctft:" + id + "_torch"))));
+            TagInjector.injectItems(new Identifier("ctft","ctft_torches"), Registry.ITEM.get(new Identifier("ctft", id + "_torch")));
             if(piglin_loved.contains(id)) {
                 TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_torch")));
             }
@@ -2355,6 +2392,7 @@ public class ResourceGenerator {
                                     .entry()
                                     .type("minecraft:item")
                                     .name("ctft:" + id + "_lantern"))));
+            TagInjector.injectItems(new Identifier("ctft","ctft_lanterns"), Registry.ITEM.get(new Identifier("ctft", id + "_lantern")));
             if(piglin_loved.contains(id)) {
                 TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_lantern")));
             }
@@ -2384,6 +2422,7 @@ public class ResourceGenerator {
                                     .entry()
                                     .type("minecraft:item")
                                     .name("ctft:" + id + "_end_rod"))));
+            TagInjector.injectItems(new Identifier("ctft","ctft_end_rods"), Registry.ITEM.get(new Identifier("ctft", id + "_end_rod")));
             if(piglin_loved.contains(id)) {
                 TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_end_rod")));
             }
@@ -2395,11 +2434,16 @@ public class ResourceGenerator {
             }
         }
         if (Ctft.CONFIG.tools_config.signsEnabled) {
+            SignTypeInvoker.ctft$invokeRegister(SignTypeInvoker.ctft$invokeNew(id));
             Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/sign").textures((JModel.textures().var("0", "minecraft:item/oak_sign").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_sign"));
             Ctft.CTFT_RESOURCES.addModel(JModel.model().textures((JModel.textures().var("texture", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_sign"));
+            Ctft.CTFT_RESOURCES.addModel(JModel.model().textures((JModel.textures().var("texture", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_wallsign"));
             Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
                     .put("", JState.model("ctft:block/" + id + "_sign"))
             ), new Identifier("ctft:" + id + "_sign"));
+            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
+                    .put("", JState.model("ctft:block/" + id + "_wallsign"))
+            ), new Identifier("ctft:" + id + "_wallsign"));
             Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_sign_from_crafting"), JRecipe.shaped(JPattern.pattern().row1("000").row2("000").row3(" 1 "), JKeys.keys().key("0", ingredient).key("1", stick), JResult.stackedResult("ctft:" + id + "_sign", 3)));
             Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_sign"), JLootTable
                     .loot("block")
@@ -2409,6 +2453,15 @@ public class ResourceGenerator {
                                     .entry()
                                     .type("minecraft:item")
                                     .name("ctft:" + id + "_sign"))));
+            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_wallsign"), JLootTable
+                    .loot("block")
+                    .pool(JLootTable.pool()
+                            .rolls(1)
+                            .entry(JLootTable
+                                    .entry()
+                                    .type("minecraft:item")
+                                    .name("ctft:" + id + "_sign"))));
+            TagInjector.injectItems(new Identifier("ctft","ctft_signs"), Registry.ITEM.get(new Identifier("ctft", id + "_sign")));
             if(piglin_loved.contains(id)) {
                 TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_sign")));
             }
@@ -2438,6 +2491,7 @@ public class ResourceGenerator {
                                     .type("minecraft:item")
                                     .name("ctft:" + id + "_ladder"))));
             TagInjector.injectBlocks(new Identifier("minecraft","climbable"), Registry.BLOCK.get(new Identifier("ctft", id + "_ladder")));
+            TagInjector.injectItems(new Identifier("ctft","ctft_ladders"), Registry.ITEM.get(new Identifier("ctft", id + "_ladder")));
             if(piglin_loved.contains(id)) {
                 TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_ladder")));
             }
@@ -2465,6 +2519,7 @@ public class ResourceGenerator {
                                     .entry()
                                     .type("minecraft:item")
                                     .name("ctft:" + id + "_chain"))));
+            TagInjector.injectItems(new Identifier("ctft","ctft_chains"), Registry.ITEM.get(new Identifier("ctft", id + "_chain")));
             if(piglin_loved.contains(id)) {
                 TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_chain")));
             }
@@ -2490,6 +2545,7 @@ public class ResourceGenerator {
                                     .entry()
                                     .type("minecraft:item")
                                     .name("ctft:" + id + "_compressed1"))));
+            TagInjector.injectItems(new Identifier("ctft","ctft_compressed1"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed1")));
             if(piglin_loved.contains(id)) {
                 TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed1")));
             }
@@ -2515,6 +2571,7 @@ public class ResourceGenerator {
                                     .entry()
                                     .type("minecraft:item")
                                     .name("ctft:" + id + "_compressed2"))));
+            TagInjector.injectItems(new Identifier("ctft","ctft_compressed2"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed2")));
             if(piglin_loved.contains(id)) {
                 TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed2")));
             }
@@ -2540,6 +2597,7 @@ public class ResourceGenerator {
                                     .entry()
                                     .type("minecraft:item")
                                     .name("ctft:" + id + "_compressed3"))));
+            TagInjector.injectItems(new Identifier("ctft","ctft_compressed3"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed3")));
             if(piglin_loved.contains(id)) {
                 TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed3")));
             }
@@ -2565,6 +2623,7 @@ public class ResourceGenerator {
                                     .entry()
                                     .type("minecraft:item")
                                     .name("ctft:" + id + "_compressed4"))));
+            TagInjector.injectItems(new Identifier("ctft","ctft_compressed4"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed4")));
             if(piglin_loved.contains(id)) {
                 TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed4")));
             }
@@ -2590,6 +2649,7 @@ public class ResourceGenerator {
                                     .entry()
                                     .type("minecraft:item")
                                     .name("ctft:" + id + "_compressed5"))));
+            TagInjector.injectItems(new Identifier("ctft","ctft_compressed5"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed5")));
             if(piglin_loved.contains(id)) {
                 TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed5")));
             }
@@ -2615,6 +2675,7 @@ public class ResourceGenerator {
                                     .entry()
                                     .type("minecraft:item")
                                     .name("ctft:" + id + "_compressed6"))));
+            TagInjector.injectItems(new Identifier("ctft","ctft_compressed6"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed6")));
             if(piglin_loved.contains(id)) {
                 TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed6")));
             }
@@ -2640,6 +2701,7 @@ public class ResourceGenerator {
                                     .entry()
                                     .type("minecraft:item")
                                     .name("ctft:" + id + "_compressed7"))));
+            TagInjector.injectItems(new Identifier("ctft","ctft_compressed7"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed7")));
             if(piglin_loved.contains(id)) {
                 TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed7")));
             }
@@ -2665,6 +2727,7 @@ public class ResourceGenerator {
                                     .entry()
                                     .type("minecraft:item")
                                     .name("ctft:" + id + "_compressed8"))));
+            TagInjector.injectItems(new Identifier("ctft","ctft_compressed8"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed8")));
             if(piglin_loved.contains(id)) {
                 TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed8")));
             }
@@ -2690,6 +2753,7 @@ public class ResourceGenerator {
                                     .entry()
                                     .type("minecraft:item")
                                     .name("ctft:" + id + "_compressed9"))));
+            TagInjector.injectItems(new Identifier("ctft","ctft_compressed9"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed9")));
             if(piglin_loved.contains(id)) {
                 TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed9")));
             }
@@ -2715,6 +2779,7 @@ public class ResourceGenerator {
                                     .entry()
                                     .type("minecraft:item")
                                     .name("ctft:" + id + "_compressed10"))));
+            TagInjector.injectItems(new Identifier("ctft","ctft_compressed10"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed10")));
             if(piglin_loved.contains(id)) {
                 TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed10")));
             }
@@ -2741,6 +2806,7 @@ public class ResourceGenerator {
                                     .type("minecraft:item")
                                     .name("ctft:" + id + "_compressed11"))));
 
+            TagInjector.injectItems(new Identifier("ctft","ctft_compressed11"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed11")));
             if(piglin_loved.contains(id)) {
                 TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed11")));
             }
@@ -2766,6 +2832,7 @@ public class ResourceGenerator {
                                     .entry()
                                     .type("minecraft:item")
                                     .name("ctft:" + id + "_compressed12"))));
+            TagInjector.injectItems(new Identifier("ctft","ctft_compressed12"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed12")));
             if(piglin_loved.contains(id)) {
                 TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed12")));
             }
@@ -2791,6 +2858,7 @@ public class ResourceGenerator {
                                     .entry()
                                     .type("minecraft:item")
                                     .name("ctft:" + id + "_compressed13"))));
+            TagInjector.injectItems(new Identifier("ctft","ctft_compressed13"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed13")));
             if(piglin_loved.contains(id)) {
                 TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed13")));
             }
@@ -2816,6 +2884,7 @@ public class ResourceGenerator {
                                     .entry()
                                     .type("minecraft:item")
                                     .name("ctft:" + id + "_compressed14"))));
+            TagInjector.injectItems(new Identifier("ctft","ctft_compressed14"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed14")));
             if(piglin_loved.contains(id)) {
                 TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed14")));
             }
@@ -2866,6 +2935,7 @@ public class ResourceGenerator {
                                     .entry()
                                     .type("minecraft:item")
                                     .name("ctft:" + id + "_kcolb"))));
+            TagInjector.injectItems(new Identifier("ctft","ctft_kcolbs"), Registry.ITEM.get(new Identifier("ctft", id + "_kcolb")));
             if(piglin_loved.contains(id)) {
                 TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_kcolb")));
             }

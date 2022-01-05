@@ -1107,5 +1107,6 @@ public class TrapdoorInit {
     public static final Block ZOMBIEHORSESPAWNEGGTRAPDOOR = register("zombie_horse_spawn_egg_trapdoor", new CustomTrapdoorBlock(AbstractBlock.Settings.of(Material.CARPET).nonOpaque()));
     public static final Block ZOMBIESPAWNEGGTRAPDOOR = register("zombie_spawn_egg_trapdoor", new CustomTrapdoorBlock(AbstractBlock.Settings.of(Material.CARPET).nonOpaque()));
     public static final Block ZOMBIEVILLAGERSPAWNEGGTRAPDOOR = register("zombie_villager_spawn_egg_trapdoor", new CustomTrapdoorBlock(AbstractBlock.Settings.of(Material.CARPET).nonOpaque()));
+    public static final Block ZOMBIFIEDPIGLINSPAWNEGGTRAPDOOR = register("zombified_piglin_spawn_egg_trapdoor", new CustomTrapdoorBlock(AbstractBlock.Settings.of(Material.CARPET).nonOpaque()));
     public static void INIT(){log("Loaded Trapdoors...");}
 }

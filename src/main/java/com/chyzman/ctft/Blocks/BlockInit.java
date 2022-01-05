@@ -1107,5 +1107,6 @@ public class BlockInit {
     public static final Block ZOMBIEHORSESPAWNEGGBLOCK = register("zombie_horse_spawn_egg_block", new Block(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block ZOMBIESPAWNEGGBLOCK = register("zombie_spawn_egg_block", new Block(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block ZOMBIEVILLAGERSPAWNEGGBLOCK = register("zombie_villager_spawn_egg_block", new Block(AbstractBlock.Settings.of(Material.METAL)));
+    public static final Block ZOMBIFIEDPIGLINSPAWNEGGBLOCK = register("zombified_piglin_spawn_egg_block", new Block(AbstractBlock.Settings.of(Material.METAL)));
     public static void INIT(){log("Loaded Blocks...");}
 }

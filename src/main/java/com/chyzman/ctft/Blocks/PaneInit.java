@@ -1107,5 +1107,6 @@ public class PaneInit {
     public static final Block ZOMBIEHORSESPAWNEGGPANE = register("zombie_horse_spawn_egg_pane", new CustomPaneBlock(BlockInit.ZOMBIEHORSESPAWNEGGBLOCK.getDefaultState(), AbstractBlock.Settings.of(Material.METAL)));
     public static final Block ZOMBIESPAWNEGGPANE = register("zombie_spawn_egg_pane", new CustomPaneBlock(BlockInit.ZOMBIESPAWNEGGBLOCK.getDefaultState(), AbstractBlock.Settings.of(Material.METAL)));
     public static final Block ZOMBIEVILLAGERSPAWNEGGPANE = register("zombie_villager_spawn_egg_pane", new CustomPaneBlock(BlockInit.ZOMBIEVILLAGERSPAWNEGGBLOCK.getDefaultState(), AbstractBlock.Settings.of(Material.METAL)));
+    public static final Block ZOMBIFIEDPIGLINSPAWNEGGPANE = register("zombified_piglin_spawn_egg_pane", new CustomPaneBlock(BlockInit.ZOMBIFIEDPIGLINSPAWNEGGBLOCK.getDefaultState(), AbstractBlock.Settings.of(Material.METAL)));
     public static void INIT(){log("Loaded Panes...");}
 }

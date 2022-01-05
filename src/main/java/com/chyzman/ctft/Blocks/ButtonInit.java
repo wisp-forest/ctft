@@ -1107,5 +1107,6 @@ public class ButtonInit {
     public static final Block ZOMBIEHORSESPAWNEGGBUTTON = register("zombie_horse_spawn_egg_button", new CustomButtonBlock(AbstractBlock.Settings.of(Material.METAL).noCollision()));
     public static final Block ZOMBIESPAWNEGGBUTTON = register("zombie_spawn_egg_button", new CustomButtonBlock(AbstractBlock.Settings.of(Material.METAL).noCollision()));
     public static final Block ZOMBIEVILLAGERSPAWNEGGBUTTON = register("zombie_villager_spawn_egg_button", new CustomButtonBlock(AbstractBlock.Settings.of(Material.METAL).noCollision()));
+    public static final Block ZOMBIFIEDPIGLINSPAWNEGGBUTTON = register("zombified_piglin_spawn_egg_button", new CustomButtonBlock(AbstractBlock.Settings.of(Material.METAL).noCollision()));
     public static void INIT(){log("Loaded Buttons...");}
 }

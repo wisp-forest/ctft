@@ -28,7 +28,7 @@ public class CustomBlockItem extends BlockItem {
         return (new TranslatableText("ctft.item."+ this.type +"_preffix")
                 .append(new TranslatableText( this.texturetype + ".minecraft." + baseitemname
                         .substring(0, baseitemname
-                                .lastIndexOf('_'))))
+                                .lastIndexOf('_' + this.type))))
                 .append(new TranslatableText("ctft.item."+ this.type +"_suffix")));
     }
     @Override

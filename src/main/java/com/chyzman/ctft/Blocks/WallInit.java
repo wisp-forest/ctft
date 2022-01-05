@@ -1106,5 +1106,6 @@ public class WallInit {
     public static final Block ZOMBIEHORSESPAWNEGGWALL = register("zombie_horse_spawn_egg_wall", new WallBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block ZOMBIESPAWNEGGWALL = register("zombie_spawn_egg_wall", new WallBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block ZOMBIEVILLAGERSPAWNEGGWALL = register("zombie_villager_spawn_egg_wall", new WallBlock(AbstractBlock.Settings.of(Material.METAL)));
+    public static final Block ZOMBIFIEDPIGLINSPAWNEGGWALL = register("zombified_piglin_spawn_egg_wall", new WallBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static void INIT(){log("Loaded Walls...");}
 }

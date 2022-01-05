@@ -1107,5 +1107,6 @@ public class ChainInit {
     public static final Block ZOMBIEHORSESPAWNEGGCHAIN = register("zombie_horse_spawn_egg_chain", new ChainBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block ZOMBIESPAWNEGGCHAIN = register("zombie_spawn_egg_chain", new ChainBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block ZOMBIEVILLAGERSPAWNEGGCHAIN = register("zombie_villager_spawn_egg_chain", new ChainBlock(AbstractBlock.Settings.of(Material.METAL)));
+    public static final Block ZOMBIFIEDPIGLINSPAWNEGGCHAIN = register("zombified_piglin_spawn_egg_chain", new ChainBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static void INIT(){log("Loaded Chains...");}
 }

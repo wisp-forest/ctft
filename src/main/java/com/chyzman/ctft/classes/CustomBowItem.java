@@ -25,13 +25,14 @@ public class CustomBowItem extends BowItem implements Vanishable {
     public final float VelocityMultiplier;
     public final float AccuracyMultiplier;
     public boolean isfoil;
-
-    public CustomBowItem(float UseDuration, float Velocity, float accuracyMultiplier, boolean isFoil, Item.Settings settings) {
+    public String texturetype;
+    public CustomBowItem(float UseDuration, float Velocity, float accuracyMultiplier, boolean isFoil, String textureType, Item.Settings settings) {
         super(settings);
         this.UseDurationMultiplier = UseDuration;
         this.VelocityMultiplier = Velocity;
         this.AccuracyMultiplier = accuracyMultiplier;
         isfoil = isFoil;
+        texturetype = textureType;
     }
     @Override
     public boolean hasGlint(ItemStack stack) {
@@ -143,7 +144,7 @@ public class CustomBowItem extends BowItem implements Vanishable {
     public Text getName(){
         var baseitemname = (Registry.ITEM.getId(this.asItem())).getPath();
         return (new TranslatableText("ctft.item.bow_preffix")
-                .append(new TranslatableText("item.minecraft." + baseitemname
+                .append(new TranslatableText(this.texturetype + ".minecraft." + baseitemname
                         .substring(0, baseitemname
                                 .lastIndexOf('_'))))
                 .append(new TranslatableText("ctft.item.bow_suffix")));

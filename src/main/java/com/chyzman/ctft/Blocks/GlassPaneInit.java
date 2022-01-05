@@ -1107,5 +1107,6 @@ public class GlassPaneInit {
     public static final Block ZOMBIEHORSESPAWNEGGGLASSPANE = register("zombie_horse_spawn_egg_glass_pane", new CustomPaneBlock(BlockInit.ZOMBIEHORSESPAWNEGGBLOCK.getDefaultState(), AbstractBlock.Settings.of(Material.GLASS).nonOpaque()));
     public static final Block ZOMBIESPAWNEGGGLASSPANE = register("zombie_spawn_egg_glass_pane", new CustomPaneBlock(BlockInit.ZOMBIESPAWNEGGBLOCK.getDefaultState(), AbstractBlock.Settings.of(Material.GLASS).nonOpaque()));
     public static final Block ZOMBIEVILLAGERSPAWNEGGGLASSPANE = register("zombie_villager_spawn_egg_glass_pane", new CustomPaneBlock(BlockInit.ZOMBIEVILLAGERSPAWNEGGBLOCK.getDefaultState(), AbstractBlock.Settings.of(Material.GLASS).nonOpaque()));
+    public static final Block ZOMBIFIEDPIGLINSPAWNEGGGLASSPANE = register("zombified_piglin_spawn_egg_glass_pane", new CustomPaneBlock(BlockInit.ZOMBIFIEDPIGLINSPAWNEGGBLOCK.getDefaultState(), AbstractBlock.Settings.of(Material.GLASS).nonOpaque()));
     public static void INIT(){log("Loaded Glass Panes...");}
 }

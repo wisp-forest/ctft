@@ -1107,5 +1107,6 @@ public class DoorInit {
     public static final Block ZOMBIEHORSESPAWNEGGDOOR = register("zombie_horse_spawn_egg_door", new CustomDoorBlock(AbstractBlock.Settings.of(Material.CARPET).nonOpaque()));
     public static final Block ZOMBIESPAWNEGGDOOR = register("zombie_spawn_egg_door", new CustomDoorBlock(AbstractBlock.Settings.of(Material.CARPET).nonOpaque()));
     public static final Block ZOMBIEVILLAGERSPAWNEGGDOOR = register("zombie_villager_spawn_egg_door", new CustomDoorBlock(AbstractBlock.Settings.of(Material.CARPET).nonOpaque()));
+    public static final Block ZOMBIFIEDPIGLINSPAWNEGGDOOR = register("zombified_piglin_spawn_egg_door", new CustomDoorBlock(AbstractBlock.Settings.of(Material.CARPET).nonOpaque()));
     public static void INIT(){log("Loaded Doors...");}
 }

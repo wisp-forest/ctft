@@ -1107,5 +1107,6 @@ public class KcolbInit {
     public static final Block ZOMBIEHORSESPAWNEGGKCOLB = register("zombie_horse_spawn_egg_kcolb", new GlassBlock(AbstractBlock.Settings.of(Material.METAL).nonOpaque()));
     public static final Block ZOMBIESPAWNEGGKCOLB = register("zombie_spawn_egg_kcolb", new GlassBlock(AbstractBlock.Settings.of(Material.METAL).nonOpaque()));
     public static final Block ZOMBIEVILLAGERSPAWNEGGKCOLB = register("zombie_villager_spawn_egg_kcolb", new GlassBlock(AbstractBlock.Settings.of(Material.METAL).nonOpaque()));
+    public static final Block ZOMBIFIEDPIGLINSPAWNEGGKCOLB = register("zombified_piglin_spawn_egg_kcolb", new GlassBlock(AbstractBlock.Settings.of(Material.METAL).nonOpaque()));
     public static void INIT(){log("Loaded Kcolbs...");}
 }

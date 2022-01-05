@@ -1107,5 +1107,6 @@ public class Compressed4Init {
     public static final Block ZOMBIEHORSESPAWNEGGCOMPRESSED4 = register("zombie_horse_spawn_egg_compressed4", new Block(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block ZOMBIESPAWNEGGCOMPRESSED4 = register("zombie_spawn_egg_compressed4", new Block(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block ZOMBIEVILLAGERSPAWNEGGCOMPRESSED4 = register("zombie_villager_spawn_egg_compressed4", new Block(AbstractBlock.Settings.of(Material.METAL)));
+    public static final Block ZOMBIFIEDPIGLINSPAWNEGGCOMPRESSED4 = register("zombified_piglin_spawn_egg_compressed4", new Block(AbstractBlock.Settings.of(Material.METAL)));
     public static void INIT(){log("Loaded Blocks of Blocks of Blocks of Blocks of Blocks...");}
 }

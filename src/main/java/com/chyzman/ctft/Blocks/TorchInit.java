@@ -1108,5 +1108,6 @@ public class TorchInit {
     public static final Block ZOMBIEHORSESPAWNEGGTORCH = register("zombie_horse_spawn_egg_torch", new CustomTorchBlock(AbstractBlock.Settings.of(Material.METAL).noCollision().breakInstantly().luminance(state -> 14), ParticleTypes.FLAME));
     public static final Block ZOMBIESPAWNEGGTORCH = register("zombie_spawn_egg_torch", new CustomTorchBlock(AbstractBlock.Settings.of(Material.METAL).noCollision().breakInstantly().luminance(state -> 14), ParticleTypes.FLAME));
     public static final Block ZOMBIEVILLAGERSPAWNEGGTORCH = register("zombie_villager_spawn_egg_torch", new CustomTorchBlock(AbstractBlock.Settings.of(Material.METAL).noCollision().breakInstantly().luminance(state -> 14), ParticleTypes.FLAME));
+    public static final Block ZOMBIFIEDPIGLINSPAWNEGGTORCH = register("zombified_piglin_spawn_egg_torch", new CustomTorchBlock(AbstractBlock.Settings.of(Material.METAL).noCollision().breakInstantly().luminance(state -> 14), ParticleTypes.FLAME));
     public static void INIT(){log("Loaded Torches...");}
 }

@@ -1105,7 +1105,8 @@ public enum CtftTiers implements ToolMaterial {
     ZombieHeadMaterial(0, 59, 2.0F, 0.0F, 15, () -> Ingredient.ofItems(Items.ZOMBIE_HEAD)),
     ZombieHorseSpawnEggMaterial(4, 44, 1.9F, 0.0F, 10, () -> Ingredient.ofItems(Items.ZOMBIE_HORSE_SPAWN_EGG)),
     ZombieSpawnEggMaterial(4, 44, 1.9F, 0.0F, 10, () -> Ingredient.ofItems(Items.ZOMBIE_SPAWN_EGG)),
-    ZombieVillagerSpawnEggMaterial(4, 44, 1.9F, 0.0F, 10, () -> Ingredient.ofItems(Items.ZOMBIE_VILLAGER_SPAWN_EGG));
+    ZombieVillagerSpawnEggMaterial(4, 44, 1.9F, 0.0F, 10, () -> Ingredient.ofItems(Items.ZOMBIE_VILLAGER_SPAWN_EGG)),
+    ZombifiedPiglinSpawnEggMaterial(4, 44, 1.9F, 0.0F, 10, () -> Ingredient.ofItems(Items.ZOMBIFIED_PIGLIN_SPAWN_EGG));
     
 
     private final int level;

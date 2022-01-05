@@ -1107,5 +1107,6 @@ public class PressurePlateInit {
     public static final Block ZOMBIEHORSESPAWNEGGPRESSUREPLATE = register("zombie_horse_spawn_egg_pressure_plate", new CustomPressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING, AbstractBlock.Settings.of(Material.METAL).noCollision()));
     public static final Block ZOMBIESPAWNEGGPRESSUREPLATE = register("zombie_spawn_egg_pressure_plate", new CustomPressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING, AbstractBlock.Settings.of(Material.METAL).noCollision()));
     public static final Block ZOMBIEVILLAGERSPAWNEGGPRESSUREPLATE = register("zombie_villager_spawn_egg_pressure_plate", new CustomPressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING, AbstractBlock.Settings.of(Material.METAL).noCollision()));
+    public static final Block ZOMBIFIEDPIGLINSPAWNEGGPRESSUREPLATE = register("zombified_piglin_spawn_egg_pressure_plate", new CustomPressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING, AbstractBlock.Settings.of(Material.METAL).noCollision()));
     public static void INIT(){log("Loaded Pressure Plates...");}
 }

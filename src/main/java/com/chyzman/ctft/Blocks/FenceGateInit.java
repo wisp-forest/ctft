@@ -1107,5 +1107,6 @@ public class FenceGateInit {
     public static final Block ZOMBIEHORSESPAWNEGGFENCEGATE = register("zombie_horse_spawn_egg_fence_gate", new FenceGateBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block ZOMBIESPAWNEGGFENCEGATE = register("zombie_spawn_egg_fence_gate", new FenceGateBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block ZOMBIEVILLAGERSPAWNEGGFENCEGATE = register("zombie_villager_spawn_egg_fence_gate", new FenceGateBlock(AbstractBlock.Settings.of(Material.METAL)));
+    public static final Block ZOMBIFIEDPIGLINSPAWNEGGFENCEGATE = register("zombified_piglin_spawn_egg_fence_gate", new FenceGateBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static void INIT(){log("Loaded Fence Gates...");}
 }

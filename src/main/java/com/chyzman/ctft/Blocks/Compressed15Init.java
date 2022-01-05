@@ -1107,5 +1107,6 @@ public class Compressed15Init {
     public static final Block ZOMBIEHORSESPAWNEGGCOMPRESSED15 = register("zombie_horse_spawn_egg_compressed15", new Block(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block ZOMBIESPAWNEGGCOMPRESSED15 = register("zombie_spawn_egg_compressed15", new Block(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block ZOMBIEVILLAGERSPAWNEGGCOMPRESSED15 = register("zombie_villager_spawn_egg_compressed15", new Block(AbstractBlock.Settings.of(Material.METAL)));
+    public static final Block ZOMBIFIEDPIGLINSPAWNEGGCOMPRESSED15 = register("zombified_piglin_spawn_egg_compressed15", new Block(AbstractBlock.Settings.of(Material.METAL)));
     public static void INIT(){log("Loaded Blocks of Blocks of Blocks of Blocks of Blocks of Blocks of Blocks of Blocks of Blocks of Blocks of Blocks of Blocks of Blocks of Blocks of Blocks of Blocks...");}
 }

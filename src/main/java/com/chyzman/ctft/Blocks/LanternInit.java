@@ -1107,5 +1107,6 @@ public class LanternInit {
     public static final Block ZOMBIEHORSESPAWNEGGLANTERN = register("zombie_horse_spawn_egg_lantern", new LanternBlock(AbstractBlock.Settings.of(Material.METAL).luminance(state -> 14)));
     public static final Block ZOMBIESPAWNEGGLANTERN = register("zombie_spawn_egg_lantern", new LanternBlock(AbstractBlock.Settings.of(Material.METAL).luminance(state -> 14)));
     public static final Block ZOMBIEVILLAGERSPAWNEGGLANTERN = register("zombie_villager_spawn_egg_lantern", new LanternBlock(AbstractBlock.Settings.of(Material.METAL).luminance(state -> 14)));
+    public static final Block ZOMBIFIEDPIGLINSPAWNEGGLANTERN = register("zombified_piglin_spawn_egg_lantern", new LanternBlock(AbstractBlock.Settings.of(Material.METAL).luminance(state -> 14)));
     public static void INIT(){log("Loaded Lanterns...");}
 }

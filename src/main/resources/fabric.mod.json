@@ -11,7 +11,7 @@
     "website": "https://www.curseforge.com/minecraft/mc-mods/ctft",
     "repo": "https://github.com/chyzman/ctft"
   },
-  "license": "MIT",
+  "license": "ARR",
   "icon": "assets/ctft/icon.png",
   "environment": "*",
   "entrypoints": {
