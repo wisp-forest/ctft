@@ -1,8 +1,8 @@
 package com.chyzman.ctft.Items;
 
+import com.chyzman.ctft.classes.CustomCrossbowItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
-import com.chyzman.ctft.classes.CustomCrossbowItem;
 import net.minecraft.util.Rarity;
 import net.minecraft.util.registry.Registry;
 
@@ -13,6 +13,7 @@ public class CrossbowInit {
     private static Item register(String name, Item item) {
         return Registry.register(Registry.ITEM, id(name), item);
     }
+
     public static final Item ACACIABOATCROSSBOW = register("acacia_boat_crossbow", new CustomCrossbowItem(1.0f, 1.0f, false, "item", new Item.Settings().group(ItemGroup.SEARCH).maxCount(1).rarity(Rarity.COMMON).maxDamage(295)));
     public static final Item ACACIABUTTONCROSSBOW = register("acacia_button_crossbow", new CustomCrossbowItem(1.0f, 0.5f, false, "block", new Item.Settings().group(ItemGroup.SEARCH).maxCount(1).rarity(Rarity.COMMON).maxDamage(59)));
     public static final Item ACACIADOORCROSSBOW = register("acacia_door_crossbow", new CustomCrossbowItem(1.0f, 1.0f, false, "block", new Item.Settings().group(ItemGroup.SEARCH).maxCount(1).rarity(Rarity.COMMON).maxDamage(354)));
@@ -1112,5 +1113,6 @@ public class CrossbowInit {
     public static final Item ZOMBIESPAWNEGGCROSSBOW = register("zombie_spawn_egg_crossbow", new CustomCrossbowItem(0.2f, 1.0f, false, "item", new Item.Settings().group(ItemGroup.SEARCH).maxCount(1).rarity(Rarity.COMMON).maxDamage(44)));
     public static final Item ZOMBIEVILLAGERSPAWNEGGCROSSBOW = register("zombie_villager_spawn_egg_crossbow", new CustomCrossbowItem(0.2f, 1.0f, false, "item", new Item.Settings().group(ItemGroup.SEARCH).maxCount(1).rarity(Rarity.COMMON).maxDamage(44)));
     public static final Item ZOMBIFIEDPIGLINSPAWNEGGCROSSBOW = register("zombified_piglin_spawn_egg_crossbow", new CustomCrossbowItem(0.2f, 1.0f, false, "item", new Item.Settings().group(ItemGroup.SEARCH).maxCount(1).rarity(Rarity.COMMON).maxDamage(44)));
+
     public static void INIT() {log("Loaded Crossbows...");}
-    }
+}

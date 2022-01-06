@@ -12,6 +12,7 @@ import static com.chyzman.ctft.Ctft.log;
 
 public class SlabItemInit {
     private static Item register(String name, Item item) {return Registry.register(Registry.ITEM, id(name), item);}
+
     public static final Item ACACIABOATSLABITEM = register("acacia_boat_slab", new CustomBlockItem(SlabInit.ACACIABOATSLAB, false, "slab", "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ACACIABUTTONSLABITEM = register("acacia_button_slab", new CustomBlockItem(SlabInit.ACACIABUTTONSLAB, false, "slab", "block", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ACACIADOORSLABITEM = register("acacia_door_slab", new CustomBlockItem(SlabInit.ACACIADOORSLAB, false, "slab", "block", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
@@ -1111,5 +1112,6 @@ public class SlabItemInit {
     public static final Item ZOMBIESPAWNEGGSLABITEM = register("zombie_spawn_egg_slab", new CustomBlockItem(SlabInit.ZOMBIESPAWNEGGSLAB, false, "slab", "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ZOMBIEVILLAGERSPAWNEGGSLABITEM = register("zombie_villager_spawn_egg_slab", new CustomBlockItem(SlabInit.ZOMBIEVILLAGERSPAWNEGGSLAB, false, "slab", "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ZOMBIFIEDPIGLINSPAWNEGGSLABITEM = register("zombified_piglin_spawn_egg_slab", new CustomBlockItem(SlabInit.ZOMBIFIEDPIGLINSPAWNEGGSLAB, false, "slab", "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
+
     public static void INIT() {log("Loaded Slab Items...");}
 }

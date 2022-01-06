@@ -1,6 +1,6 @@
 package com.chyzman.ctft.Items;
 
-import com.chyzman.ctft.Blocks.*;
+import com.chyzman.ctft.Blocks.ChainInit;
 import com.chyzman.ctft.classes.CustomBlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -12,6 +12,7 @@ import static com.chyzman.ctft.Ctft.log;
 
 public class ChainItemInit {
     private static Item register(String name, Item item) {return Registry.register(Registry.ITEM, id(name), item);}
+
     public static final Item ACACIABOATCHAINITEM = register("acacia_boat_chain", new CustomBlockItem(ChainInit.ACACIABOATCHAIN, false, "chain", "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ACACIABUTTONCHAINITEM = register("acacia_button_chain", new CustomBlockItem(ChainInit.ACACIABUTTONCHAIN, false, "chain", "block", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ACACIADOORCHAINITEM = register("acacia_door_chain", new CustomBlockItem(ChainInit.ACACIADOORCHAIN, false, "chain", "block", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
@@ -1111,5 +1112,6 @@ public class ChainItemInit {
     public static final Item ZOMBIESPAWNEGGCHAINITEM = register("zombie_spawn_egg_chain", new CustomBlockItem(ChainInit.ZOMBIESPAWNEGGCHAIN, false, "chain", "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ZOMBIEVILLAGERSPAWNEGGCHAINITEM = register("zombie_villager_spawn_egg_chain", new CustomBlockItem(ChainInit.ZOMBIEVILLAGERSPAWNEGGCHAIN, false, "chain", "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ZOMBIFIEDPIGLINSPAWNEGGCHAINITEM = register("zombified_piglin_spawn_egg_chain", new CustomBlockItem(ChainInit.ZOMBIFIEDPIGLINSPAWNEGGCHAIN, false, "chain", "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
+
     public static void INIT() {log("Loaded Chain Items...");}
 }

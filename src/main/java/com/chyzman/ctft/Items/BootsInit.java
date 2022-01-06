@@ -2,9 +2,9 @@ package com.chyzman.ctft.Items;
 
 import com.chyzman.ctft.Registries.CtftArmorTiers;
 import com.chyzman.ctft.classes.CustomArmorItem;
+import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
-import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.util.Rarity;
 import net.minecraft.util.registry.Registry;
 
@@ -15,6 +15,7 @@ public class BootsInit {
     private static Item register(String name, Item item) {
         return Registry.register(Registry.ITEM, id(name), item);
     }
+
     public static final Item ACACIABOATBOOTS = register("acacia_boat_boots", new CustomArmorItem(CtftArmorTiers.AcaciaBoatArmorMaterial, EquipmentSlot.FEET, false, "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ACACIABUTTONBOOTS = register("acacia_button_boots", new CustomArmorItem(CtftArmorTiers.AcaciaButtonArmorMaterial, EquipmentSlot.FEET, false, "block", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ACACIADOORBOOTS = register("acacia_door_boots", new CustomArmorItem(CtftArmorTiers.AcaciaDoorArmorMaterial, EquipmentSlot.FEET, false, "block", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
@@ -1114,5 +1115,6 @@ public class BootsInit {
     public static final Item ZOMBIESPAWNEGGBOOTS = register("zombie_spawn_egg_boots", new CustomArmorItem(CtftArmorTiers.ZombieSpawnEggArmorMaterial, EquipmentSlot.FEET, false, "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ZOMBIEVILLAGERSPAWNEGGBOOTS = register("zombie_villager_spawn_egg_boots", new CustomArmorItem(CtftArmorTiers.ZombieVillagerSpawnEggArmorMaterial, EquipmentSlot.FEET, false, "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ZOMBIFIEDPIGLINSPAWNEGGBOOTS = register("zombified_piglin_spawn_egg_boots", new CustomArmorItem(CtftArmorTiers.ZombifiedPiglinSpawnEggArmorMaterial, EquipmentSlot.FEET, false, "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
+
     public static void INIT() {log("Loaded Boots...");}
-    }
+}

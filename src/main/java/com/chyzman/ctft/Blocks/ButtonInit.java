@@ -1,7 +1,9 @@
 package com.chyzman.ctft.Blocks;
 
-import com.chyzman.ctft.classes.*;
-import net.minecraft.block.*;
+import com.chyzman.ctft.classes.CustomButtonBlock;
+import net.minecraft.block.AbstractBlock;
+import net.minecraft.block.Block;
+import net.minecraft.block.Material;
 import net.minecraft.util.registry.Registry;
 
 import static com.chyzman.ctft.Ctft.id;
@@ -9,6 +11,7 @@ import static com.chyzman.ctft.Ctft.log;
 
 public class ButtonInit {
     private static Block register(String name, Block block) {return Registry.register(Registry.BLOCK, id(name), block);}
+
     public static final Block ACACIABOATBUTTON = register("acacia_boat_button", new CustomButtonBlock(AbstractBlock.Settings.of(Material.METAL).noCollision()));
     public static final Block ACACIABUTTONBUTTON = register("acacia_button_button", new CustomButtonBlock(AbstractBlock.Settings.of(Material.METAL).noCollision()));
     public static final Block ACACIADOORBUTTON = register("acacia_door_button", new CustomButtonBlock(AbstractBlock.Settings.of(Material.METAL).noCollision()));
@@ -1108,5 +1111,6 @@ public class ButtonInit {
     public static final Block ZOMBIESPAWNEGGBUTTON = register("zombie_spawn_egg_button", new CustomButtonBlock(AbstractBlock.Settings.of(Material.METAL).noCollision()));
     public static final Block ZOMBIEVILLAGERSPAWNEGGBUTTON = register("zombie_villager_spawn_egg_button", new CustomButtonBlock(AbstractBlock.Settings.of(Material.METAL).noCollision()));
     public static final Block ZOMBIFIEDPIGLINSPAWNEGGBUTTON = register("zombified_piglin_spawn_egg_button", new CustomButtonBlock(AbstractBlock.Settings.of(Material.METAL).noCollision()));
-    public static void INIT(){log("Loaded Buttons...");}
+
+    public static void INIT() {log("Loaded Buttons...");}
 }

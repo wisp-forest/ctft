@@ -2,9 +2,9 @@ package com.chyzman.ctft.Items;
 
 import com.chyzman.ctft.Registries.CtftArmorTiers;
 import com.chyzman.ctft.classes.CustomArmorItem;
+import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
-import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.util.Rarity;
 import net.minecraft.util.registry.Registry;
 
@@ -15,6 +15,7 @@ public class ChestplateInit {
     private static Item register(String name, Item item) {
         return Registry.register(Registry.ITEM, id(name), item);
     }
+
     public static final Item ACACIABOATCHESTPLATE = register("acacia_boat_chestplate", new CustomArmorItem(CtftArmorTiers.AcaciaBoatArmorMaterial, EquipmentSlot.CHEST, false, "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ACACIABUTTONCHESTPLATE = register("acacia_button_chestplate", new CustomArmorItem(CtftArmorTiers.AcaciaButtonArmorMaterial, EquipmentSlot.CHEST, false, "block", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ACACIADOORCHESTPLATE = register("acacia_door_chestplate", new CustomArmorItem(CtftArmorTiers.AcaciaDoorArmorMaterial, EquipmentSlot.CHEST, false, "block", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
@@ -1114,5 +1115,6 @@ public class ChestplateInit {
     public static final Item ZOMBIESPAWNEGGCHESTPLATE = register("zombie_spawn_egg_chestplate", new CustomArmorItem(CtftArmorTiers.ZombieSpawnEggArmorMaterial, EquipmentSlot.CHEST, false, "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ZOMBIEVILLAGERSPAWNEGGCHESTPLATE = register("zombie_villager_spawn_egg_chestplate", new CustomArmorItem(CtftArmorTiers.ZombieVillagerSpawnEggArmorMaterial, EquipmentSlot.CHEST, false, "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ZOMBIFIEDPIGLINSPAWNEGGCHESTPLATE = register("zombified_piglin_spawn_egg_chestplate", new CustomArmorItem(CtftArmorTiers.ZombifiedPiglinSpawnEggArmorMaterial, EquipmentSlot.CHEST, false, "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
+
     public static void INIT() {log("Loaded Chestplates...");}
-    }
+}

@@ -1,6 +1,9 @@
 package com.chyzman.ctft.Blocks;
 
-import net.minecraft.block.*;
+import net.minecraft.block.AbstractBlock;
+import net.minecraft.block.Block;
+import net.minecraft.block.FenceBlock;
+import net.minecraft.block.Material;
 import net.minecraft.util.registry.Registry;
 
 import static com.chyzman.ctft.Ctft.id;
@@ -8,6 +11,7 @@ import static com.chyzman.ctft.Ctft.log;
 
 public class FenceInit {
     private static Block register(String name, Block block) {return Registry.register(Registry.BLOCK, id(name), block);}
+
     public static final Block ACACIABOATFENCE = register("acacia_boat_fence", new FenceBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block ACACIABUTTONFENCE = register("acacia_button_fence", new FenceBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block ACACIADOORFENCE = register("acacia_door_fence", new FenceBlock(AbstractBlock.Settings.of(Material.METAL)));
@@ -1107,5 +1111,6 @@ public class FenceInit {
     public static final Block ZOMBIESPAWNEGGFENCE = register("zombie_spawn_egg_fence", new FenceBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block ZOMBIEVILLAGERSPAWNEGGFENCE = register("zombie_villager_spawn_egg_fence", new FenceBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block ZOMBIFIEDPIGLINSPAWNEGGFENCE = register("zombified_piglin_spawn_egg_fence", new FenceBlock(AbstractBlock.Settings.of(Material.METAL)));
-    public static void INIT(){log("Loaded Fences...");}
+
+    public static void INIT() {log("Loaded Fences...");}
 }

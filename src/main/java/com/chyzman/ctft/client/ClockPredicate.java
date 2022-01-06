@@ -22,14 +22,14 @@ public class ClockPredicate implements UnclampedModelPredicateProvider {
             return 0.0f;
         }
         if (clientWorld == null && entity.world instanceof ClientWorld) {
-            clientWorld = (ClientWorld)entity.world;
+            clientWorld = (ClientWorld) entity.world;
         }
         if (clientWorld == null) {
             return 0.0f;
         }
-        double d = clientWorld.getDimension().isNatural() ? (double)clientWorld.getSkyAngle(1.0f) : Math.random();
+        double d = clientWorld.getDimension().isNatural() ? (double) clientWorld.getSkyAngle(1.0f) : Math.random();
         d = this.getTime(clientWorld, d);
-        return (float)d;
+        return (float) d;
     }
 
     private double getTime(World world, double skyAngle) {

@@ -1,6 +1,5 @@
 package com.chyzman.ctft.Registries;
 
-import java.util.function.Supplier;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.ArmorMaterial;
 import net.minecraft.item.Items;
@@ -1111,7 +1110,7 @@ public enum CtftArmorTiers implements ArmorMaterial {
     ZombieSpawnEggArmorMaterial("ctft/zombie", 44, new int[]{1, 2, 2, 1}, 10, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0F, 0.0F, () -> Ingredient.ofItems(Items.ZOMBIE_SPAWN_EGG)),
     ZombieVillagerSpawnEggArmorMaterial("ctft/zombievillager", 44, new int[]{1, 2, 2, 1}, 10, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0F, 0.0F, () -> Ingredient.ofItems(Items.ZOMBIE_VILLAGER_SPAWN_EGG)),
     ZombifiedPiglinSpawnEggArmorMaterial("ctft/zombifiedpiglin", 44, new int[]{1, 2, 2, 1}, 10, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0F, 0.0F, () -> Ingredient.ofItems(Items.ZOMBIFIED_PIGLIN_SPAWN_EGG));
-    
+
 
     private static final int[] HEALTH_PER_SLOT = new int[]{1, 1, 1, 1};
     private final String name;
@@ -1134,17 +1133,17 @@ public enum CtftArmorTiers implements ArmorMaterial {
         this.repairIngredient = new Lazy<>(ingredient);
     }
 
-    public int getDurability(EquipmentSlot Slot) { return HEALTH_PER_SLOT[Slot.getEntitySlotId()] * this.durabilityMultiplier; }
+    public int getDurability(EquipmentSlot Slot) {return HEALTH_PER_SLOT[Slot.getEntitySlotId()] * this.durabilityMultiplier;}
 
-    public int getProtectionAmount(EquipmentSlot Slot) { return this.slotProtections[Slot.getEntitySlotId()]; }
+    public int getProtectionAmount(EquipmentSlot Slot) {return this.slotProtections[Slot.getEntitySlotId()];}
 
-    public int getEnchantability() { return this.enchantmentValue; }
+    public int getEnchantability() {return this.enchantmentValue;}
 
-    public SoundEvent getEquipSound() { return this.sound; }
+    public SoundEvent getEquipSound() {return this.sound;}
 
-    public Ingredient getRepairIngredient() { return this.repairIngredient.get(); }
+    public Ingredient getRepairIngredient() {return this.repairIngredient.get();}
 
-    public String getName() { return this.name; }
+    public String getName() {return this.name;}
 
     public float getToughness() {return this.toughness;}
 

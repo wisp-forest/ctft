@@ -1,6 +1,6 @@
 package com.chyzman.ctft.Items;
 
-import com.chyzman.ctft.Blocks.*;
+import com.chyzman.ctft.Blocks.DoorInit;
 import com.chyzman.ctft.classes.CustomBlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -12,6 +12,7 @@ import static com.chyzman.ctft.Ctft.log;
 
 public class DoorItemInit {
     private static Item register(String name, Item item) {return Registry.register(Registry.ITEM, id(name), item);}
+
     public static final Item ACACIABOATDOORITEM = register("acacia_boat_door", new CustomBlockItem(DoorInit.ACACIABOATDOOR, false, "door", "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ACACIABUTTONDOORITEM = register("acacia_button_door", new CustomBlockItem(DoorInit.ACACIABUTTONDOOR, false, "door", "block", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ACACIADOORDOORITEM = register("acacia_door_door", new CustomBlockItem(DoorInit.ACACIADOORDOOR, false, "door", "block", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
@@ -1111,5 +1112,6 @@ public class DoorItemInit {
     public static final Item ZOMBIESPAWNEGGDOORITEM = register("zombie_spawn_egg_door", new CustomBlockItem(DoorInit.ZOMBIESPAWNEGGDOOR, false, "door", "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ZOMBIEVILLAGERSPAWNEGGDOORITEM = register("zombie_villager_spawn_egg_door", new CustomBlockItem(DoorInit.ZOMBIEVILLAGERSPAWNEGGDOOR, false, "door", "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ZOMBIFIEDPIGLINSPAWNEGGDOORITEM = register("zombified_piglin_spawn_egg_door", new CustomBlockItem(DoorInit.ZOMBIFIEDPIGLINSPAWNEGGDOOR, false, "door", "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
+
     public static void INIT() {log("Loaded Door Items...");}
 }

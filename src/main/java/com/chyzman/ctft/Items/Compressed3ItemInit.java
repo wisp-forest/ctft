@@ -12,6 +12,7 @@ import static com.chyzman.ctft.Ctft.log;
 
 public class Compressed3ItemInit {
     private static Item register(String name, Item item) {return Registry.register(Registry.ITEM, id(name), item);}
+
     public static final Item ACACIABOATCOMPRESSED3ITEM = register("acacia_boat_compressed3", new CustomBlockItem(Compressed3Init.ACACIABOATCOMPRESSED3, false, "compressed3", "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ACACIABUTTONCOMPRESSED3ITEM = register("acacia_button_compressed3", new CustomBlockItem(Compressed3Init.ACACIABUTTONCOMPRESSED3, false, "compressed3", "block", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ACACIADOORCOMPRESSED3ITEM = register("acacia_door_compressed3", new CustomBlockItem(Compressed3Init.ACACIADOORCOMPRESSED3, false, "compressed3", "block", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
@@ -1111,5 +1112,6 @@ public class Compressed3ItemInit {
     public static final Item ZOMBIESPAWNEGGCOMPRESSED3ITEM = register("zombie_spawn_egg_compressed3", new CustomBlockItem(Compressed3Init.ZOMBIESPAWNEGGCOMPRESSED3, false, "compressed3", "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ZOMBIEVILLAGERSPAWNEGGCOMPRESSED3ITEM = register("zombie_villager_spawn_egg_compressed3", new CustomBlockItem(Compressed3Init.ZOMBIEVILLAGERSPAWNEGGCOMPRESSED3, false, "compressed3", "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ZOMBIFIEDPIGLINSPAWNEGGCOMPRESSED3ITEM = register("zombified_piglin_spawn_egg_compressed3", new CustomBlockItem(Compressed3Init.ZOMBIFIEDPIGLINSPAWNEGGCOMPRESSED3, false, "compressed3", "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
+
     public static void INIT() {log("Loaded Block of Block of Block of Block Items...");}
 }

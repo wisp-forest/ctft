@@ -18,19 +18,22 @@ public class CustomBlockItem extends BlockItem {
         type = Type;
         texturetype = textureType;
     }
+
     @Override
     public boolean hasGlint(ItemStack stack) {
         return isfoil || super.hasGlint(stack);
     }
+
     @Override
-    public Text getName(){
+    public Text getName() {
         var baseitemname = (Registry.ITEM.getId(this.asItem())).getPath();
-        return (new TranslatableText("ctft.item."+ this.type +"_preffix")
-                .append(new TranslatableText( this.texturetype + ".minecraft." + baseitemname
+        return (new TranslatableText("ctft.item." + this.type + "_preffix")
+                .append(new TranslatableText(this.texturetype + ".minecraft." + baseitemname
                         .substring(0, baseitemname
                                 .lastIndexOf('_' + this.type))))
-                .append(new TranslatableText("ctft.item."+ this.type +"_suffix")));
+                .append(new TranslatableText("ctft.item." + this.type + "_suffix")));
     }
+
     @Override
     public Text getName(ItemStack stack) {
         return this.getName();

@@ -12,6 +12,7 @@ import static com.chyzman.ctft.Ctft.log;
 
 public class WallItemInit {
     private static Item register(String name, Item item) {return Registry.register(Registry.ITEM, id(name), item);}
+
     public static final Item ACACIABOATWALLITEM = register("acacia_boat_wall", new CustomBlockItem(WallInit.ACACIABOATWALL, false, "wall", "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ACACIABUTTONWALLITEM = register("acacia_button_wall", new CustomBlockItem(WallInit.ACACIABUTTONWALL, false, "wall", "block", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ACACIADOORWALLITEM = register("acacia_door_wall", new CustomBlockItem(WallInit.ACACIADOORWALL, false, "wall", "block", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
@@ -1111,5 +1112,6 @@ public class WallItemInit {
     public static final Item ZOMBIESPAWNEGGWALLITEM = register("zombie_spawn_egg_wall", new CustomBlockItem(WallInit.ZOMBIESPAWNEGGWALL, false, "wall", "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ZOMBIEVILLAGERSPAWNEGGWALLITEM = register("zombie_villager_spawn_egg_wall", new CustomBlockItem(WallInit.ZOMBIEVILLAGERSPAWNEGGWALL, false, "wall", "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ZOMBIFIEDPIGLINSPAWNEGGWALLITEM = register("zombified_piglin_spawn_egg_wall", new CustomBlockItem(WallInit.ZOMBIFIEDPIGLINSPAWNEGGWALL, false, "wall", "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
+
     public static void INIT() {log("Loaded Wall Items...");}
 }

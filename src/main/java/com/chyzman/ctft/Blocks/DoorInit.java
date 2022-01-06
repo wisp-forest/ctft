@@ -1,7 +1,9 @@
 package com.chyzman.ctft.Blocks;
 
-import com.chyzman.ctft.classes.*;
-import net.minecraft.block.*;
+import com.chyzman.ctft.classes.CustomDoorBlock;
+import net.minecraft.block.AbstractBlock;
+import net.minecraft.block.Block;
+import net.minecraft.block.Material;
 import net.minecraft.util.registry.Registry;
 
 import static com.chyzman.ctft.Ctft.id;
@@ -9,6 +11,7 @@ import static com.chyzman.ctft.Ctft.log;
 
 public class DoorInit {
     private static Block register(String name, Block block) {return Registry.register(Registry.BLOCK, id(name), block);}
+
     public static final Block ACACIABOATDOOR = register("acacia_boat_door", new CustomDoorBlock(AbstractBlock.Settings.of(Material.CARPET).nonOpaque()));
     public static final Block ACACIABUTTONDOOR = register("acacia_button_door", new CustomDoorBlock(AbstractBlock.Settings.of(Material.CARPET).nonOpaque()));
     public static final Block ACACIADOORDOOR = register("acacia_door_door", new CustomDoorBlock(AbstractBlock.Settings.of(Material.CARPET).nonOpaque()));
@@ -1108,5 +1111,6 @@ public class DoorInit {
     public static final Block ZOMBIESPAWNEGGDOOR = register("zombie_spawn_egg_door", new CustomDoorBlock(AbstractBlock.Settings.of(Material.CARPET).nonOpaque()));
     public static final Block ZOMBIEVILLAGERSPAWNEGGDOOR = register("zombie_villager_spawn_egg_door", new CustomDoorBlock(AbstractBlock.Settings.of(Material.CARPET).nonOpaque()));
     public static final Block ZOMBIFIEDPIGLINSPAWNEGGDOOR = register("zombified_piglin_spawn_egg_door", new CustomDoorBlock(AbstractBlock.Settings.of(Material.CARPET).nonOpaque()));
-    public static void INIT(){log("Loaded Doors...");}
+
+    public static void INIT() {log("Loaded Doors...");}
 }

@@ -13,6 +13,7 @@ public class FishingRodInit {
     private static Item register(String name, Item item) {
         return Registry.register(Registry.ITEM, id(name), item);
     }
+
     public static final Item ACACIABOATFISHINGROD = register("acacia_boat_fishing_rod", new CustomFishingRodItem(false, "item", new Item.Settings().group(ItemGroup.SEARCH).maxDamage(295).rarity(Rarity.COMMON)));
     public static final Item ACACIABUTTONFISHINGROD = register("acacia_button_fishing_rod", new CustomFishingRodItem(false, "block", new Item.Settings().group(ItemGroup.SEARCH).maxDamage(59).rarity(Rarity.COMMON)));
     public static final Item ACACIADOORFISHINGROD = register("acacia_door_fishing_rod", new CustomFishingRodItem(false, "block", new Item.Settings().group(ItemGroup.SEARCH).maxDamage(354).rarity(Rarity.COMMON)));
@@ -1112,5 +1113,6 @@ public class FishingRodInit {
     public static final Item ZOMBIESPAWNEGGFISHINGROD = register("zombie_spawn_egg_fishing_rod", new CustomFishingRodItem(false, "item", new Item.Settings().group(ItemGroup.SEARCH).maxDamage(44).rarity(Rarity.COMMON)));
     public static final Item ZOMBIEVILLAGERSPAWNEGGFISHINGROD = register("zombie_villager_spawn_egg_fishing_rod", new CustomFishingRodItem(false, "item", new Item.Settings().group(ItemGroup.SEARCH).maxDamage(44).rarity(Rarity.COMMON)));
     public static final Item ZOMBIFIEDPIGLINSPAWNEGGFISHINGROD = register("zombified_piglin_spawn_egg_fishing_rod", new CustomFishingRodItem(false, "item", new Item.Settings().group(ItemGroup.SEARCH).maxDamage(44).rarity(Rarity.COMMON)));
+
     public static void INIT() {log("Loaded Fishing Rods...");}
-    }
+}

@@ -1,7 +1,8 @@
 package com.chyzman.ctft.Blocks;
 
-import com.chyzman.ctft.classes.*;
-import net.minecraft.block.*;
+import net.minecraft.block.AbstractBlock;
+import net.minecraft.block.Block;
+import net.minecraft.block.Material;
 import net.minecraft.util.registry.Registry;
 
 import static com.chyzman.ctft.Ctft.id;
@@ -9,6 +10,7 @@ import static com.chyzman.ctft.Ctft.log;
 
 public class Compressed4Init {
     private static Block register(String name, Block block) {return Registry.register(Registry.BLOCK, id(name), block);}
+
     public static final Block ACACIABOATCOMPRESSED4 = register("acacia_boat_compressed4", new Block(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block ACACIABUTTONCOMPRESSED4 = register("acacia_button_compressed4", new Block(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block ACACIADOORCOMPRESSED4 = register("acacia_door_compressed4", new Block(AbstractBlock.Settings.of(Material.METAL)));
@@ -1108,5 +1110,6 @@ public class Compressed4Init {
     public static final Block ZOMBIESPAWNEGGCOMPRESSED4 = register("zombie_spawn_egg_compressed4", new Block(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block ZOMBIEVILLAGERSPAWNEGGCOMPRESSED4 = register("zombie_villager_spawn_egg_compressed4", new Block(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block ZOMBIFIEDPIGLINSPAWNEGGCOMPRESSED4 = register("zombified_piglin_spawn_egg_compressed4", new Block(AbstractBlock.Settings.of(Material.METAL)));
-    public static void INIT(){log("Loaded Blocks of Blocks of Blocks of Blocks of Blocks...");}
+
+    public static void INIT() {log("Loaded Blocks of Blocks of Blocks of Blocks of Blocks...");}
 }

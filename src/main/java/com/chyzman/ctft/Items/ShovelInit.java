@@ -1,9 +1,9 @@
 package com.chyzman.ctft.Items;
 
-import com.chyzman.ctft.Registries.*;
+import com.chyzman.ctft.Registries.CtftTiers;
+import com.chyzman.ctft.classes.CustomShovelItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
-import com.chyzman.ctft.classes.*;
 import net.minecraft.util.Rarity;
 import net.minecraft.util.registry.Registry;
 
@@ -14,6 +14,7 @@ public class ShovelInit {
     private static Item register(String name, Item item) {
         return Registry.register(Registry.ITEM, id(name), item);
     }
+
     public static final Item ACACIABOATSHOVEL = register("acacia_boat_shovel", new CustomShovelItem(CtftTiers.AcaciaBoatMaterial, 2.5f, 1.0f, false, "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ACACIABUTTONSHOVEL = register("acacia_button_shovel", new CustomShovelItem(CtftTiers.AcaciaButtonMaterial, 2.5f, 1.0f, false, "block", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ACACIADOORSHOVEL = register("acacia_door_shovel", new CustomShovelItem(CtftTiers.AcaciaDoorMaterial, 2.5f, 1.0f, false, "block", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
@@ -1113,5 +1114,6 @@ public class ShovelInit {
     public static final Item ZOMBIESPAWNEGGSHOVEL = register("zombie_spawn_egg_shovel", new CustomShovelItem(CtftTiers.ZombieSpawnEggMaterial, 1.0f, 1.0f, false, "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ZOMBIEVILLAGERSPAWNEGGSHOVEL = register("zombie_villager_spawn_egg_shovel", new CustomShovelItem(CtftTiers.ZombieVillagerSpawnEggMaterial, 1.0f, 1.0f, false, "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ZOMBIFIEDPIGLINSPAWNEGGSHOVEL = register("zombified_piglin_spawn_egg_shovel", new CustomShovelItem(CtftTiers.ZombifiedPiglinSpawnEggMaterial, 1.0f, 1.0f, false, "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
+
     public static void INIT() {log("Loaded Shovels...");}
-    }
+}

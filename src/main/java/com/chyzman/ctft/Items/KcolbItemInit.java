@@ -12,6 +12,7 @@ import static com.chyzman.ctft.Ctft.log;
 
 public class KcolbItemInit {
     private static Item register(String name, Item item) {return Registry.register(Registry.ITEM, id(name), item);}
+
     public static final Item ACACIABOATKCOLBITEM = register("acacia_boat_kcolb", new CustomBlockItem(KcolbInit.ACACIABOATKCOLB, false, "kcolb", "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ACACIABUTTONKCOLBITEM = register("acacia_button_kcolb", new CustomBlockItem(KcolbInit.ACACIABUTTONKCOLB, false, "kcolb", "block", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ACACIADOORKCOLBITEM = register("acacia_door_kcolb", new CustomBlockItem(KcolbInit.ACACIADOORKCOLB, false, "kcolb", "block", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
@@ -1111,5 +1112,6 @@ public class KcolbItemInit {
     public static final Item ZOMBIESPAWNEGGKCOLBITEM = register("zombie_spawn_egg_kcolb", new CustomBlockItem(KcolbInit.ZOMBIESPAWNEGGKCOLB, false, "kcolb", "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ZOMBIEVILLAGERSPAWNEGGKCOLBITEM = register("zombie_villager_spawn_egg_kcolb", new CustomBlockItem(KcolbInit.ZOMBIEVILLAGERSPAWNEGGKCOLB, false, "kcolb", "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ZOMBIFIEDPIGLINSPAWNEGGKCOLBITEM = register("zombified_piglin_spawn_egg_kcolb", new CustomBlockItem(KcolbInit.ZOMBIFIEDPIGLINSPAWNEGGKCOLB, false, "kcolb", "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
+
     public static void INIT() {log("Loaded Kcolb Items...");}
 }

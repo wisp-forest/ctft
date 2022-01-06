@@ -405,5 +405,5 @@ public class CtftFoods {
     public static final FoodComponent SuspiciousStewNineFood = (new FoodComponent.Builder()).hunger(54).saturationModifier(0.06666666666666667F).alwaysEdible().build();
     public static final FoodComponent SweetBerriesNineFood = (new FoodComponent.Builder()).hunger(18).saturationModifier(0.011111111111111112F).build();
     public static final FoodComponent TropicalFishNineFood = (new FoodComponent.Builder()).hunger(9).saturationModifier(0.011111111111111112F).build();
-    
+
 }

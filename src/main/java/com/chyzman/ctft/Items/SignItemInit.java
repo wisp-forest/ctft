@@ -1,6 +1,7 @@
 package com.chyzman.ctft.Items;
 
-import com.chyzman.ctft.Blocks.*;
+import com.chyzman.ctft.Blocks.SignInit;
+import com.chyzman.ctft.Blocks.WallSignInit;
 import com.chyzman.ctft.classes.CustomSignItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -12,6 +13,7 @@ import static com.chyzman.ctft.Ctft.log;
 
 public class SignItemInit {
     private static Item register(String name, Item item) {return Registry.register(Registry.ITEM, id(name), item);}
+
     public static final Item ACACIABOATSIGNITEM = register("acacia_boat_sign", new CustomSignItem(SignInit.ACACIABOATSIGN, WallSignInit.ACACIABOATWALLSIGN, false, "item", new Item.Settings().group(ItemGroup.SEARCH).maxCount(16).rarity(Rarity.COMMON)));
     public static final Item ACACIABUTTONSIGNITEM = register("acacia_button_sign", new CustomSignItem(SignInit.ACACIABUTTONSIGN, WallSignInit.ACACIABUTTONWALLSIGN, false, "block", new Item.Settings().group(ItemGroup.SEARCH).maxCount(16).rarity(Rarity.COMMON)));
     public static final Item ACACIADOORSIGNITEM = register("acacia_door_sign", new CustomSignItem(SignInit.ACACIADOORSIGN, WallSignInit.ACACIADOORWALLSIGN, false, "block", new Item.Settings().group(ItemGroup.SEARCH).maxCount(16).rarity(Rarity.COMMON)));
@@ -37,7 +39,7 @@ public class SignItemInit {
     public static final Item ANDESITESTAIRSSIGNITEM = register("andesite_stairs_sign", new CustomSignItem(SignInit.ANDESITESTAIRSSIGN, WallSignInit.ANDESITESTAIRSWALLSIGN, false, "block", new Item.Settings().group(ItemGroup.SEARCH).maxCount(16).rarity(Rarity.COMMON)));
     public static final Item ANDESITEWALLSIGNITEM = register("andesite_wall_sign", new CustomSignItem(SignInit.ANDESITEWALLSIGN, WallSignInit.ANDESITEWALLWALLSIGN, false, "block", new Item.Settings().group(ItemGroup.SEARCH).maxCount(16).rarity(Rarity.COMMON)));
     public static final Item ANVILSIGNITEM = register("anvil_sign", new CustomSignItem(SignInit.ANVILSIGN, WallSignInit.ANVILWALLSIGN, false, "block", new Item.Settings().group(ItemGroup.SEARCH).maxCount(16).rarity(Rarity.COMMON)));
-    public static final Item APPLESIGNITEM = register("apple_sign", new CustomSignItem(SignInit.APPLESIGN, WallSignInit.APPLEWALLSIGN, false, "item", new Item.Settings().group(ItemGroup.SEARCH).maxCount(16).rarity(Rarity.COMMON).food(CtftFoods.AppleTwoFood)));
+    public static final Item APPLESIGNITEM = register("apple_sign", new CustomSignItem(SignInit.APPLESIGN, WallSignInit.APPLEWALLSIGN, false, "item", new Item.Settings().group(ItemGroup.SEARCH).maxCount(16).rarity(Rarity.COMMON).food(com.chyzman.ctft.Items.CtftFoods.AppleTwoFood)));
     public static final Item ARMORSTANDSIGNITEM = register("armor_stand_sign", new CustomSignItem(SignInit.ARMORSTANDSIGN, WallSignInit.ARMORSTANDWALLSIGN, false, "item", new Item.Settings().group(ItemGroup.SEARCH).maxCount(16).rarity(Rarity.COMMON)));
     public static final Item ARROWSIGNITEM = register("arrow_sign", new CustomSignItem(SignInit.ARROWSIGN, WallSignInit.ARROWWALLSIGN, false, "item", new Item.Settings().group(ItemGroup.SEARCH).maxCount(16).rarity(Rarity.COMMON)));
     public static final Item AXOLOTLSPAWNEGGSIGNITEM = register("axolotl_spawn_egg_sign", new CustomSignItem(SignInit.AXOLOTLSPAWNEGGSIGN, WallSignInit.AXOLOTLSPAWNEGGWALLSIGN, false, "item", new Item.Settings().group(ItemGroup.SEARCH).maxCount(16).rarity(Rarity.COMMON)));
@@ -1111,5 +1113,6 @@ public class SignItemInit {
     public static final Item ZOMBIESPAWNEGGSIGNITEM = register("zombie_spawn_egg_sign", new CustomSignItem(SignInit.ZOMBIESPAWNEGGSIGN, WallSignInit.ZOMBIESPAWNEGGWALLSIGN, false, "item", new Item.Settings().group(ItemGroup.SEARCH).maxCount(16).rarity(Rarity.COMMON)));
     public static final Item ZOMBIEVILLAGERSPAWNEGGSIGNITEM = register("zombie_villager_spawn_egg_sign", new CustomSignItem(SignInit.ZOMBIEVILLAGERSPAWNEGGSIGN, WallSignInit.ZOMBIEVILLAGERSPAWNEGGWALLSIGN, false, "item", new Item.Settings().group(ItemGroup.SEARCH).maxCount(16).rarity(Rarity.COMMON)));
     public static final Item ZOMBIFIEDPIGLINSPAWNEGGSIGNITEM = register("zombified_piglin_spawn_egg_sign", new CustomSignItem(SignInit.ZOMBIFIEDPIGLINSPAWNEGGSIGN, WallSignInit.ZOMBIFIEDPIGLINSPAWNEGGWALLSIGN, false, "item", new Item.Settings().group(ItemGroup.SEARCH).maxCount(16).rarity(Rarity.COMMON)));
+
     public static void INIT() {log("Loaded Sign Items...");}
 }

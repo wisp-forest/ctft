@@ -1,6 +1,6 @@
 package com.chyzman.ctft.Items;
 
-import com.chyzman.ctft.Blocks.*;
+import com.chyzman.ctft.Blocks.TrapdoorInit;
 import com.chyzman.ctft.classes.CustomBlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -12,6 +12,7 @@ import static com.chyzman.ctft.Ctft.log;
 
 public class TrapdoorItemInit {
     private static Item register(String name, Item item) {return Registry.register(Registry.ITEM, id(name), item);}
+
     public static final Item ACACIABOATTRAPDOORITEM = register("acacia_boat_trapdoor", new CustomBlockItem(TrapdoorInit.ACACIABOATTRAPDOOR, false, "trapdoor", "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ACACIABUTTONTRAPDOORITEM = register("acacia_button_trapdoor", new CustomBlockItem(TrapdoorInit.ACACIABUTTONTRAPDOOR, false, "trapdoor", "block", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ACACIADOORTRAPDOORITEM = register("acacia_door_trapdoor", new CustomBlockItem(TrapdoorInit.ACACIADOORTRAPDOOR, false, "trapdoor", "block", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
@@ -1111,5 +1112,6 @@ public class TrapdoorItemInit {
     public static final Item ZOMBIESPAWNEGGTRAPDOORITEM = register("zombie_spawn_egg_trapdoor", new CustomBlockItem(TrapdoorInit.ZOMBIESPAWNEGGTRAPDOOR, false, "trapdoor", "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ZOMBIEVILLAGERSPAWNEGGTRAPDOORITEM = register("zombie_villager_spawn_egg_trapdoor", new CustomBlockItem(TrapdoorInit.ZOMBIEVILLAGERSPAWNEGGTRAPDOOR, false, "trapdoor", "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ZOMBIFIEDPIGLINSPAWNEGGTRAPDOORITEM = register("zombified_piglin_spawn_egg_trapdoor", new CustomBlockItem(TrapdoorInit.ZOMBIFIEDPIGLINSPAWNEGGTRAPDOOR, false, "trapdoor", "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
+
     public static void INIT() {log("Loaded Trapdoor Items...");}
 }

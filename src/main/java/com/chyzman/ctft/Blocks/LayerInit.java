@@ -1,7 +1,9 @@
 package com.chyzman.ctft.Blocks;
 
-import com.chyzman.ctft.classes.*;
-import net.minecraft.block.*;
+import com.chyzman.ctft.classes.CustomSnowBlock;
+import net.minecraft.block.AbstractBlock;
+import net.minecraft.block.Block;
+import net.minecraft.block.Material;
 import net.minecraft.util.registry.Registry;
 
 import static com.chyzman.ctft.Ctft.id;
@@ -9,6 +11,7 @@ import static com.chyzman.ctft.Ctft.log;
 
 public class LayerInit {
     private static Block register(String name, Block block) {return Registry.register(Registry.BLOCK, id(name), block);}
+
     public static final Block ACACIABOATLAYER = register("acacia_boat_layer", new CustomSnowBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block ACACIABUTTONLAYER = register("acacia_button_layer", new CustomSnowBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block ACACIADOORLAYER = register("acacia_door_layer", new CustomSnowBlock(AbstractBlock.Settings.of(Material.METAL)));
@@ -1108,5 +1111,6 @@ public class LayerInit {
     public static final Block ZOMBIESPAWNEGGLAYER = register("zombie_spawn_egg_layer", new CustomSnowBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block ZOMBIEVILLAGERSPAWNEGGLAYER = register("zombie_villager_spawn_egg_layer", new CustomSnowBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block ZOMBIFIEDPIGLINSPAWNEGGLAYER = register("zombified_piglin_spawn_egg_layer", new CustomSnowBlock(AbstractBlock.Settings.of(Material.METAL)));
-    public static void INIT(){log("Loaded Layers...");}
+
+    public static void INIT() {log("Loaded Layers...");}
 }

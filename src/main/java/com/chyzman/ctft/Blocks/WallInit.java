@@ -1,6 +1,9 @@
 package com.chyzman.ctft.Blocks;
 
-import net.minecraft.block.*;
+import net.minecraft.block.AbstractBlock;
+import net.minecraft.block.Block;
+import net.minecraft.block.Material;
+import net.minecraft.block.WallBlock;
 import net.minecraft.util.registry.Registry;
 
 import static com.chyzman.ctft.Ctft.id;
@@ -8,6 +11,7 @@ import static com.chyzman.ctft.Ctft.log;
 
 public class WallInit {
     private static Block register(String name, Block block) {return Registry.register(Registry.BLOCK, id(name), block);}
+
     public static final Block ACACIABOATWALL = register("acacia_boat_wall", new WallBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block ACACIABUTTONWALL = register("acacia_button_wall", new WallBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block ACACIADOORWALL = register("acacia_door_wall", new WallBlock(AbstractBlock.Settings.of(Material.METAL)));
@@ -1107,5 +1111,6 @@ public class WallInit {
     public static final Block ZOMBIESPAWNEGGWALL = register("zombie_spawn_egg_wall", new WallBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block ZOMBIEVILLAGERSPAWNEGGWALL = register("zombie_villager_spawn_egg_wall", new WallBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block ZOMBIFIEDPIGLINSPAWNEGGWALL = register("zombified_piglin_spawn_egg_wall", new WallBlock(AbstractBlock.Settings.of(Material.METAL)));
-    public static void INIT(){log("Loaded Walls...");}
+
+    public static void INIT() {log("Loaded Walls...");}
 }

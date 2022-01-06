@@ -1,6 +1,6 @@
 package com.chyzman.ctft.Items;
 
-import com.chyzman.ctft.Blocks.*;
+import com.chyzman.ctft.Blocks.LeverInit;
 import com.chyzman.ctft.classes.CustomBlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -12,6 +12,7 @@ import static com.chyzman.ctft.Ctft.log;
 
 public class LeverItemInit {
     private static Item register(String name, Item item) {return Registry.register(Registry.ITEM, id(name), item);}
+
     public static final Item ACACIABOATLEVERITEM = register("acacia_boat_lever", new CustomBlockItem(LeverInit.ACACIABOATLEVER, false, "lever", "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ACACIABUTTONLEVERITEM = register("acacia_button_lever", new CustomBlockItem(LeverInit.ACACIABUTTONLEVER, false, "lever", "block", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ACACIADOORLEVERITEM = register("acacia_door_lever", new CustomBlockItem(LeverInit.ACACIADOORLEVER, false, "lever", "block", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
@@ -1111,5 +1112,6 @@ public class LeverItemInit {
     public static final Item ZOMBIESPAWNEGGLEVERITEM = register("zombie_spawn_egg_lever", new CustomBlockItem(LeverInit.ZOMBIESPAWNEGGLEVER, false, "lever", "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ZOMBIEVILLAGERSPAWNEGGLEVERITEM = register("zombie_villager_spawn_egg_lever", new CustomBlockItem(LeverInit.ZOMBIEVILLAGERSPAWNEGGLEVER, false, "lever", "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ZOMBIFIEDPIGLINSPAWNEGGLEVERITEM = register("zombified_piglin_spawn_egg_lever", new CustomBlockItem(LeverInit.ZOMBIFIEDPIGLINSPAWNEGGLEVER, false, "lever", "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
+
     public static void INIT() {log("Loaded Lever Items...");}
 }

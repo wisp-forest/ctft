@@ -1,7 +1,9 @@
 package com.chyzman.ctft.Blocks;
 
-import com.chyzman.ctft.classes.*;
-import net.minecraft.block.*;
+import com.chyzman.ctft.classes.CustomEndRodBlock;
+import net.minecraft.block.AbstractBlock;
+import net.minecraft.block.Block;
+import net.minecraft.block.Material;
 import net.minecraft.util.registry.Registry;
 
 import static com.chyzman.ctft.Ctft.id;
@@ -9,6 +11,7 @@ import static com.chyzman.ctft.Ctft.log;
 
 public class EndRodInit {
     private static Block register(String name, Block block) {return Registry.register(Registry.BLOCK, id(name), block);}
+
     public static final Block ACACIABOATENDROD = register("acacia_boat_end_rod", new CustomEndRodBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block ACACIABUTTONENDROD = register("acacia_button_end_rod", new CustomEndRodBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block ACACIADOORENDROD = register("acacia_door_end_rod", new CustomEndRodBlock(AbstractBlock.Settings.of(Material.METAL)));
@@ -1108,5 +1111,6 @@ public class EndRodInit {
     public static final Block ZOMBIESPAWNEGGENDROD = register("zombie_spawn_egg_end_rod", new CustomEndRodBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block ZOMBIEVILLAGERSPAWNEGGENDROD = register("zombie_villager_spawn_egg_end_rod", new CustomEndRodBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block ZOMBIFIEDPIGLINSPAWNEGGENDROD = register("zombified_piglin_spawn_egg_end_rod", new CustomEndRodBlock(AbstractBlock.Settings.of(Material.METAL)));
-    public static void INIT(){log("Loaded End Rods...");}
+
+    public static void INIT() {log("Loaded End Rods...");}
 }

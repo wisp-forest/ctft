@@ -1,11 +1,12 @@
 package com.chyzman.ctft.Registries;
 
-import com.chyzman.ctft.Items.*;
 import com.chyzman.ctft.Blocks.*;
+import com.chyzman.ctft.Items.*;
 import net.fabricmc.fabric.api.registry.FuelRegistry;
+
 import static com.chyzman.ctft.Ctft.log;
 
-public class FuelInit{
+public class FuelInit {
     public static void SWORD() {
         FuelRegistry.INSTANCE.add(SwordInit.ACACIABOATSWORD, 400);
         FuelRegistry.INSTANCE.add(SwordInit.ACACIABUTTONSWORD, 200);
@@ -191,8 +192,9 @@ public class FuelInit{
         FuelRegistry.INSTANCE.add(SwordInit.YELLOWBANNERSWORD, 600);
         FuelRegistry.INSTANCE.add(SwordInit.YELLOWCARPETSWORD, 134);
         FuelRegistry.INSTANCE.add(SwordInit.YELLOWWOOLSWORD, 200);
-       log("Registered Sword Fuels...");
+        log("Registered Sword Fuels...");
     }
+
     public static void PICKAXE() {
         FuelRegistry.INSTANCE.add(PickaxeInit.ACACIABOATPICKAXE, 600);
         FuelRegistry.INSTANCE.add(PickaxeInit.ACACIABUTTONPICKAXE, 300);
@@ -378,8 +380,9 @@ public class FuelInit{
         FuelRegistry.INSTANCE.add(PickaxeInit.YELLOWBANNERPICKAXE, 900);
         FuelRegistry.INSTANCE.add(PickaxeInit.YELLOWCARPETPICKAXE, 201);
         FuelRegistry.INSTANCE.add(PickaxeInit.YELLOWWOOLPICKAXE, 300);
-       log("Registered Pickaxe Fuels...");
+        log("Registered Pickaxe Fuels...");
     }
+
     public static void AXE() {
         FuelRegistry.INSTANCE.add(AxeInit.ACACIABOATAXE, 600);
         FuelRegistry.INSTANCE.add(AxeInit.ACACIABUTTONAXE, 300);
@@ -565,8 +568,9 @@ public class FuelInit{
         FuelRegistry.INSTANCE.add(AxeInit.YELLOWBANNERAXE, 900);
         FuelRegistry.INSTANCE.add(AxeInit.YELLOWCARPETAXE, 201);
         FuelRegistry.INSTANCE.add(AxeInit.YELLOWWOOLAXE, 300);
-       log("Registered Axe Fuels...");
+        log("Registered Axe Fuels...");
     }
+
     public static void SHOVEL() {
         FuelRegistry.INSTANCE.add(ShovelInit.ACACIABOATSHOVEL, 200);
         FuelRegistry.INSTANCE.add(ShovelInit.ACACIABUTTONSHOVEL, 100);
@@ -752,8 +756,9 @@ public class FuelInit{
         FuelRegistry.INSTANCE.add(ShovelInit.YELLOWBANNERSHOVEL, 300);
         FuelRegistry.INSTANCE.add(ShovelInit.YELLOWCARPETSHOVEL, 67);
         FuelRegistry.INSTANCE.add(ShovelInit.YELLOWWOOLSHOVEL, 100);
-       log("Registered Shovel Fuels...");
+        log("Registered Shovel Fuels...");
     }
+
     public static void HOE() {
         FuelRegistry.INSTANCE.add(HoeInit.ACACIABOATHOE, 400);
         FuelRegistry.INSTANCE.add(HoeInit.ACACIABUTTONHOE, 200);
@@ -939,8 +944,9 @@ public class FuelInit{
         FuelRegistry.INSTANCE.add(HoeInit.YELLOWBANNERHOE, 600);
         FuelRegistry.INSTANCE.add(HoeInit.YELLOWCARPETHOE, 134);
         FuelRegistry.INSTANCE.add(HoeInit.YELLOWWOOLHOE, 200);
-       log("Registered Hoe Fuels...");
+        log("Registered Hoe Fuels...");
     }
+
     public static void SHEARS() {
         FuelRegistry.INSTANCE.add(ShearInit.ACACIABOATSHEARS, 400);
         FuelRegistry.INSTANCE.add(ShearInit.ACACIABUTTONSHEARS, 200);
@@ -1126,8 +1132,9 @@ public class FuelInit{
         FuelRegistry.INSTANCE.add(ShearInit.YELLOWBANNERSHEARS, 600);
         FuelRegistry.INSTANCE.add(ShearInit.YELLOWCARPETSHEARS, 134);
         FuelRegistry.INSTANCE.add(ShearInit.YELLOWWOOLSHEARS, 200);
-       log("Registered Shear Fuels...");
+        log("Registered Shear Fuels...");
     }
+
     public static void SHIELD() {
         FuelRegistry.INSTANCE.add(ShieldInit.ACACIABOATSHIELD, 1200);
         FuelRegistry.INSTANCE.add(ShieldInit.ACACIABUTTONSHIELD, 600);
@@ -1313,8 +1320,9 @@ public class FuelInit{
         FuelRegistry.INSTANCE.add(ShieldInit.YELLOWBANNERSHIELD, 1800);
         FuelRegistry.INSTANCE.add(ShieldInit.YELLOWCARPETSHIELD, 402);
         FuelRegistry.INSTANCE.add(ShieldInit.YELLOWWOOLSHIELD, 600);
-       log("Registered Shield Fuels...");
+        log("Registered Shield Fuels...");
     }
+
     public static void HELMET() {
         FuelRegistry.INSTANCE.add(HelmetInit.ACACIABOATHELMET, 1000);
         FuelRegistry.INSTANCE.add(HelmetInit.ACACIABUTTONHELMET, 500);
@@ -1500,8 +1508,9 @@ public class FuelInit{
         FuelRegistry.INSTANCE.add(HelmetInit.YELLOWBANNERHELMET, 1500);
         FuelRegistry.INSTANCE.add(HelmetInit.YELLOWCARPETHELMET, 335);
         FuelRegistry.INSTANCE.add(HelmetInit.YELLOWWOOLHELMET, 500);
-       log("Registered Helmet Fuels...");
+        log("Registered Helmet Fuels...");
     }
+
     public static void CHESTPLATE() {
         FuelRegistry.INSTANCE.add(ChestplateInit.ACACIABOATCHESTPLATE, 1600);
         FuelRegistry.INSTANCE.add(ChestplateInit.ACACIABUTTONCHESTPLATE, 800);
@@ -1687,8 +1696,9 @@ public class FuelInit{
         FuelRegistry.INSTANCE.add(ChestplateInit.YELLOWBANNERCHESTPLATE, 2400);
         FuelRegistry.INSTANCE.add(ChestplateInit.YELLOWCARPETCHESTPLATE, 536);
         FuelRegistry.INSTANCE.add(ChestplateInit.YELLOWWOOLCHESTPLATE, 800);
-       log("Registered Chestplate Fuels...");
+        log("Registered Chestplate Fuels...");
     }
+
     public static void LEGGINGS() {
         FuelRegistry.INSTANCE.add(LeggingsInit.ACACIABOATLEGGINGS, 1400);
         FuelRegistry.INSTANCE.add(LeggingsInit.ACACIABUTTONLEGGINGS, 700);
@@ -1874,8 +1884,9 @@ public class FuelInit{
         FuelRegistry.INSTANCE.add(LeggingsInit.YELLOWBANNERLEGGINGS, 2100);
         FuelRegistry.INSTANCE.add(LeggingsInit.YELLOWCARPETLEGGINGS, 469);
         FuelRegistry.INSTANCE.add(LeggingsInit.YELLOWWOOLLEGGINGS, 700);
-       log("Registered Legging Fuels...");
+        log("Registered Legging Fuels...");
     }
+
     public static void BOOTS() {
         FuelRegistry.INSTANCE.add(BootsInit.ACACIABOATBOOTS, 800);
         FuelRegistry.INSTANCE.add(BootsInit.ACACIABUTTONBOOTS, 400);
@@ -2061,8 +2072,9 @@ public class FuelInit{
         FuelRegistry.INSTANCE.add(BootsInit.YELLOWBANNERBOOTS, 1200);
         FuelRegistry.INSTANCE.add(BootsInit.YELLOWCARPETBOOTS, 268);
         FuelRegistry.INSTANCE.add(BootsInit.YELLOWWOOLBOOTS, 400);
-       log("Registered Boot Fuels...");
+        log("Registered Boot Fuels...");
     }
+
     public static void FISHINGROD() {
         FuelRegistry.INSTANCE.add(FishingRodInit.ACACIABOATFISHINGROD, 600);
         FuelRegistry.INSTANCE.add(FishingRodInit.ACACIABUTTONFISHINGROD, 300);
@@ -2248,8 +2260,9 @@ public class FuelInit{
         FuelRegistry.INSTANCE.add(FishingRodInit.YELLOWBANNERFISHINGROD, 900);
         FuelRegistry.INSTANCE.add(FishingRodInit.YELLOWCARPETFISHINGROD, 201);
         FuelRegistry.INSTANCE.add(FishingRodInit.YELLOWWOOLFISHINGROD, 300);
-       log("Registered Fishing Rod Fuels...");
+        log("Registered Fishing Rod Fuels...");
     }
+
     public static void BOW() {
         FuelRegistry.INSTANCE.add(BowInit.ACACIABOATBOW, 600);
         FuelRegistry.INSTANCE.add(BowInit.ACACIABUTTONBOW, 300);
@@ -2435,8 +2448,9 @@ public class FuelInit{
         FuelRegistry.INSTANCE.add(BowInit.YELLOWBANNERBOW, 900);
         FuelRegistry.INSTANCE.add(BowInit.YELLOWCARPETBOW, 201);
         FuelRegistry.INSTANCE.add(BowInit.YELLOWWOOLBOW, 300);
-       log("Registered Fuels...");
+        log("Registered Fuels...");
     }
+
     public static void CLOCK() {
         FuelRegistry.INSTANCE.add(ClockInit.ACACIABOATCLOCK, 800);
         FuelRegistry.INSTANCE.add(ClockInit.ACACIABUTTONCLOCK, 400);
@@ -2622,8 +2636,9 @@ public class FuelInit{
         FuelRegistry.INSTANCE.add(ClockInit.YELLOWBANNERCLOCK, 1200);
         FuelRegistry.INSTANCE.add(ClockInit.YELLOWCARPETCLOCK, 268);
         FuelRegistry.INSTANCE.add(ClockInit.YELLOWWOOLCLOCK, 400);
-       log("Registered Clock Fuels...");
+        log("Registered Clock Fuels...");
     }
+
     public static void COMPASS() {
         FuelRegistry.INSTANCE.add(CompassInit.ACACIABOATCOMPASS, 800);
         FuelRegistry.INSTANCE.add(CompassInit.ACACIABUTTONCOMPASS, 400);
@@ -2809,8 +2824,9 @@ public class FuelInit{
         FuelRegistry.INSTANCE.add(CompassInit.YELLOWBANNERCOMPASS, 1200);
         FuelRegistry.INSTANCE.add(CompassInit.YELLOWCARPETCOMPASS, 268);
         FuelRegistry.INSTANCE.add(CompassInit.YELLOWWOOLCOMPASS, 400);
-       log("Registered Compass Fuels...");
+        log("Registered Compass Fuels...");
     }
+
     public static void CROSSBOW() {
         FuelRegistry.INSTANCE.add(CrossbowInit.ACACIABOATCROSSBOW, 600);
         FuelRegistry.INSTANCE.add(CrossbowInit.ACACIABUTTONCROSSBOW, 300);
@@ -2996,8 +3012,9 @@ public class FuelInit{
         FuelRegistry.INSTANCE.add(CrossbowInit.YELLOWBANNERCROSSBOW, 900);
         FuelRegistry.INSTANCE.add(CrossbowInit.YELLOWCARPETCROSSBOW, 201);
         FuelRegistry.INSTANCE.add(CrossbowInit.YELLOWWOOLCROSSBOW, 300);
-       log("Registered Compass Fuels...");
+        log("Registered Compass Fuels...");
     }
+
     public static void HORSEARMOR() {
         FuelRegistry.INSTANCE.add(HorseArmorInit.ACACIABOATHORSEARMOR, 1200);
         FuelRegistry.INSTANCE.add(HorseArmorInit.ACACIABUTTONHORSEARMOR, 600);
@@ -3183,8 +3200,9 @@ public class FuelInit{
         FuelRegistry.INSTANCE.add(HorseArmorInit.YELLOWBANNERHORSEARMOR, 1800);
         FuelRegistry.INSTANCE.add(HorseArmorInit.YELLOWCARPETHORSEARMOR, 402);
         FuelRegistry.INSTANCE.add(HorseArmorInit.YELLOWWOOLHORSEARMOR, 600);
-       log("Registered Horse Armor Fuels...");
+        log("Registered Horse Armor Fuels...");
     }
+
     public static void BLOCK() {
         FuelRegistry.INSTANCE.add(BlockInit.ACACIABOATBLOCK, 1800);
         FuelRegistry.INSTANCE.add(BlockInit.ACACIABUTTONBLOCK, 900);
@@ -3370,8 +3388,9 @@ public class FuelInit{
         FuelRegistry.INSTANCE.add(BlockInit.YELLOWBANNERBLOCK, 2700);
         FuelRegistry.INSTANCE.add(BlockInit.YELLOWCARPETBLOCK, 603);
         FuelRegistry.INSTANCE.add(BlockInit.YELLOWWOOLBLOCK, 900);
-       log("Registered Block Fuels...");
+        log("Registered Block Fuels...");
     }
+
     public static void STAIR() {
         FuelRegistry.INSTANCE.add(StairsInit.ACACIABOATSTAIRS, 1200);
         FuelRegistry.INSTANCE.add(StairsInit.ACACIABUTTONSTAIRS, 600);
@@ -3557,8 +3576,9 @@ public class FuelInit{
         FuelRegistry.INSTANCE.add(StairsInit.YELLOWBANNERSTAIRS, 1800);
         FuelRegistry.INSTANCE.add(StairsInit.YELLOWCARPETSTAIRS, 402);
         FuelRegistry.INSTANCE.add(StairsInit.YELLOWWOOLSTAIRS, 600);
-       log("Registered Stairs Fuels...");
+        log("Registered Stairs Fuels...");
     }
+
     public static void SLAB() {
         FuelRegistry.INSTANCE.add(SlabInit.ACACIABOATSLAB, 600);
         FuelRegistry.INSTANCE.add(SlabInit.ACACIABUTTONSLAB, 300);
@@ -3744,8 +3764,9 @@ public class FuelInit{
         FuelRegistry.INSTANCE.add(SlabInit.YELLOWBANNERSLAB, 900);
         FuelRegistry.INSTANCE.add(SlabInit.YELLOWCARPETSLAB, 201);
         FuelRegistry.INSTANCE.add(SlabInit.YELLOWWOOLSLAB, 300);
-       log("Registered Slab Fuels...");
+        log("Registered Slab Fuels...");
     }
+
     public static void GLASS() {
         FuelRegistry.INSTANCE.add(GlassInit.ACACIABOATGLASS, 1800);
         FuelRegistry.INSTANCE.add(GlassInit.ACACIABUTTONGLASS, 900);
@@ -3931,8 +3952,9 @@ public class FuelInit{
         FuelRegistry.INSTANCE.add(GlassInit.YELLOWBANNERGLASS, 2700);
         FuelRegistry.INSTANCE.add(GlassInit.YELLOWCARPETGLASS, 603);
         FuelRegistry.INSTANCE.add(GlassInit.YELLOWWOOLGLASS, 900);
-       log("Registered Glass Fuels...");
+        log("Registered Glass Fuels...");
     }
+
     public static void GLASSPANE() {
         FuelRegistry.INSTANCE.add(SlabInit.ACACIABOATSLAB, 600);
         FuelRegistry.INSTANCE.add(SlabInit.ACACIABUTTONSLAB, 300);
@@ -4118,8 +4140,9 @@ public class FuelInit{
         FuelRegistry.INSTANCE.add(SlabInit.YELLOWBANNERSLAB, 900);
         FuelRegistry.INSTANCE.add(SlabInit.YELLOWCARPETSLAB, 201);
         FuelRegistry.INSTANCE.add(SlabInit.YELLOWWOOLSLAB, 300);
-       log("Registered Glass Pane Fuels...");
+        log("Registered Glass Pane Fuels...");
     }
+
     public static void PANE() {
         FuelRegistry.INSTANCE.add(PaneInit.ACACIABOATPANE, 600);
         FuelRegistry.INSTANCE.add(PaneInit.ACACIABUTTONPANE, 300);
@@ -4305,8 +4328,9 @@ public class FuelInit{
         FuelRegistry.INSTANCE.add(PaneInit.YELLOWBANNERPANE, 900);
         FuelRegistry.INSTANCE.add(PaneInit.YELLOWCARPETPANE, 201);
         FuelRegistry.INSTANCE.add(PaneInit.YELLOWWOOLPANE, 300);
-       log("Registered Pane Fuels...");
+        log("Registered Pane Fuels...");
     }
+
     public static void WALL() {
         FuelRegistry.INSTANCE.add(WallInit.ACACIABOATWALL, 200);
         FuelRegistry.INSTANCE.add(WallInit.ACACIABUTTONWALL, 100);
@@ -4492,8 +4516,9 @@ public class FuelInit{
         FuelRegistry.INSTANCE.add(WallInit.YELLOWBANNERWALL, 300);
         FuelRegistry.INSTANCE.add(WallInit.YELLOWCARPETWALL, 67);
         FuelRegistry.INSTANCE.add(WallInit.YELLOWWOOLWALL, 100);
-       log("Registered Wall Fuels...");
+        log("Registered Wall Fuels...");
     }
+
     public static void FENCE() {
         FuelRegistry.INSTANCE.add(FenceInit.ACACIABOATFENCE, 200);
         FuelRegistry.INSTANCE.add(FenceInit.ACACIABUTTONFENCE, 100);
@@ -4679,8 +4704,9 @@ public class FuelInit{
         FuelRegistry.INSTANCE.add(FenceInit.YELLOWBANNERFENCE, 300);
         FuelRegistry.INSTANCE.add(FenceInit.YELLOWCARPETFENCE, 67);
         FuelRegistry.INSTANCE.add(FenceInit.YELLOWWOOLFENCE, 100);
-       log("Registered Fence Fuels...");
+        log("Registered Fence Fuels...");
     }
+
     public static void LAYER() {
         FuelRegistry.INSTANCE.add(LayerInit.ACACIABOATLAYER, 100);
         FuelRegistry.INSTANCE.add(LayerInit.ACACIABUTTONLAYER, 50);
@@ -4866,8 +4892,9 @@ public class FuelInit{
         FuelRegistry.INSTANCE.add(LayerInit.YELLOWBANNERLAYER, 150);
         FuelRegistry.INSTANCE.add(LayerInit.YELLOWCARPETLAYER, 33);
         FuelRegistry.INSTANCE.add(LayerInit.YELLOWWOOLLAYER, 50);
-       log("Registered Layer Fuels...");
+        log("Registered Layer Fuels...");
     }
+
     public static void LEVER() {
         FuelRegistry.INSTANCE.add(LeverItemInit.ACACIABOATLEVERITEM, 200);
         FuelRegistry.INSTANCE.add(LeverItemInit.ACACIABUTTONLEVERITEM, 100);
@@ -5053,8 +5080,9 @@ public class FuelInit{
         FuelRegistry.INSTANCE.add(LeverItemInit.YELLOWBANNERLEVERITEM, 300);
         FuelRegistry.INSTANCE.add(LeverItemInit.YELLOWCARPETLEVERITEM, 67);
         FuelRegistry.INSTANCE.add(LeverItemInit.YELLOWWOOLLEVERITEM, 100);
-       log("Registered Lever Fuels...");
+        log("Registered Lever Fuels...");
     }
+
     public static void BUTTON() {
         FuelRegistry.INSTANCE.add(ButtonItemInit.ACACIABOATBUTTONITEM, 200);
         FuelRegistry.INSTANCE.add(ButtonItemInit.ACACIABUTTONBUTTONITEM, 100);
@@ -5240,8 +5268,9 @@ public class FuelInit{
         FuelRegistry.INSTANCE.add(ButtonItemInit.YELLOWBANNERBUTTONITEM, 300);
         FuelRegistry.INSTANCE.add(ButtonItemInit.YELLOWCARPETBUTTONITEM, 67);
         FuelRegistry.INSTANCE.add(ButtonItemInit.YELLOWWOOLBUTTONITEM, 100);
-       log("Registered Button Fuels...");
+        log("Registered Button Fuels...");
     }
+
     public static void PRESSUREPLATE() {
         FuelRegistry.INSTANCE.add(PressurePlateItemInit.ACACIABOATPRESSUREPLATEITEM, 400);
         FuelRegistry.INSTANCE.add(PressurePlateItemInit.ACACIABUTTONPRESSUREPLATEITEM, 200);
@@ -5427,8 +5456,9 @@ public class FuelInit{
         FuelRegistry.INSTANCE.add(PressurePlateItemInit.YELLOWBANNERPRESSUREPLATEITEM, 600);
         FuelRegistry.INSTANCE.add(PressurePlateItemInit.YELLOWCARPETPRESSUREPLATEITEM, 134);
         FuelRegistry.INSTANCE.add(PressurePlateItemInit.YELLOWWOOLPRESSUREPLATEITEM, 200);
-       log("Registered Pressure Plate Fuels...");
+        log("Registered Pressure Plate Fuels...");
     }
+
     public static void ENDROD() {
         FuelRegistry.INSTANCE.add(EndRodItemInit.ACACIABOATENDRODITEM, 200);
         FuelRegistry.INSTANCE.add(EndRodItemInit.ACACIABUTTONENDRODITEM, 100);
@@ -5614,8 +5644,9 @@ public class FuelInit{
         FuelRegistry.INSTANCE.add(EndRodItemInit.YELLOWBANNERENDRODITEM, 300);
         FuelRegistry.INSTANCE.add(EndRodItemInit.YELLOWCARPETENDRODITEM, 67);
         FuelRegistry.INSTANCE.add(EndRodItemInit.YELLOWWOOLENDRODITEM, 100);
-       log("Registered End Rod Fuels...");
+        log("Registered End Rod Fuels...");
     }
+
     public static void DOOR() {
         FuelRegistry.INSTANCE.add(DoorItemInit.ACACIABOATDOORITEM, 200);
         FuelRegistry.INSTANCE.add(DoorItemInit.ACACIABUTTONDOORITEM, 100);
@@ -5801,8 +5832,9 @@ public class FuelInit{
         FuelRegistry.INSTANCE.add(DoorItemInit.YELLOWBANNERDOORITEM, 300);
         FuelRegistry.INSTANCE.add(DoorItemInit.YELLOWCARPETDOORITEM, 67);
         FuelRegistry.INSTANCE.add(DoorItemInit.YELLOWWOOLDOORITEM, 100);
-       log("Registered Door Fuels...");
+        log("Registered Door Fuels...");
     }
+
     public static void TRAPDOOR() {
         FuelRegistry.INSTANCE.add(TrapdoorItemInit.ACACIABOATTRAPDOORITEM, 200);
         FuelRegistry.INSTANCE.add(TrapdoorItemInit.ACACIABUTTONTRAPDOORITEM, 100);
@@ -5988,8 +6020,9 @@ public class FuelInit{
         FuelRegistry.INSTANCE.add(TrapdoorItemInit.YELLOWBANNERTRAPDOORITEM, 300);
         FuelRegistry.INSTANCE.add(TrapdoorItemInit.YELLOWCARPETTRAPDOORITEM, 67);
         FuelRegistry.INSTANCE.add(TrapdoorItemInit.YELLOWWOOLTRAPDOORITEM, 100);
-       log("Registered Trapdoor Fuels...");
+        log("Registered Trapdoor Fuels...");
     }
+
     public static void SIGN() {
         FuelRegistry.INSTANCE.add(SignItemInit.ACACIABOATSIGNITEM, 400);
         FuelRegistry.INSTANCE.add(SignItemInit.ACACIABUTTONSIGNITEM, 200);
@@ -6175,8 +6208,9 @@ public class FuelInit{
         FuelRegistry.INSTANCE.add(SignItemInit.YELLOWBANNERSIGNITEM, 600);
         FuelRegistry.INSTANCE.add(SignItemInit.YELLOWCARPETSIGNITEM, 134);
         FuelRegistry.INSTANCE.add(SignItemInit.YELLOWWOOLSIGNITEM, 200);
-       log("Registered Sign Fuels...");
+        log("Registered Sign Fuels...");
     }
+
     public static void LADDER() {
         FuelRegistry.INSTANCE.add(LadderItemInit.ACACIABOATLADDERITEM, 400);
         FuelRegistry.INSTANCE.add(LadderItemInit.ACACIABUTTONLADDERITEM, 200);
@@ -6362,8 +6396,9 @@ public class FuelInit{
         FuelRegistry.INSTANCE.add(LadderItemInit.YELLOWBANNERLADDERITEM, 600);
         FuelRegistry.INSTANCE.add(LadderItemInit.YELLOWCARPETLADDERITEM, 134);
         FuelRegistry.INSTANCE.add(LadderItemInit.YELLOWWOOLLADDERITEM, 200);
-       log("Registered Ladder Fuels...");
+        log("Registered Ladder Fuels...");
     }
+
     public static void TORCH() {
         FuelRegistry.INSTANCE.add(TorchItemInit.ACACIABOATTORCHITEM, 200);
         FuelRegistry.INSTANCE.add(TorchItemInit.ACACIABUTTONTORCHITEM, 100);
@@ -6549,8 +6584,9 @@ public class FuelInit{
         FuelRegistry.INSTANCE.add(TorchItemInit.YELLOWBANNERTORCHITEM, 300);
         FuelRegistry.INSTANCE.add(TorchItemInit.YELLOWCARPETTORCHITEM, 67);
         FuelRegistry.INSTANCE.add(TorchItemInit.YELLOWWOOLTORCHITEM, 100);
-       log("Registered Torch Fuels...");
+        log("Registered Torch Fuels...");
     }
+
     public static void LANTERN() {
         FuelRegistry.INSTANCE.add(LanternItemInit.ACACIABOATLANTERNITEM, 1600);
         FuelRegistry.INSTANCE.add(LanternItemInit.ACACIABUTTONLANTERNITEM, 800);
@@ -6736,8 +6772,9 @@ public class FuelInit{
         FuelRegistry.INSTANCE.add(LanternItemInit.YELLOWBANNERLANTERNITEM, 2400);
         FuelRegistry.INSTANCE.add(LanternItemInit.YELLOWCARPETLANTERNITEM, 536);
         FuelRegistry.INSTANCE.add(LanternItemInit.YELLOWWOOLLANTERNITEM, 800);
-       log("Registered Lantern Fuels...");
+        log("Registered Lantern Fuels...");
     }
+
     public static void CHAIN() {
         FuelRegistry.INSTANCE.add(ChainItemInit.ACACIABOATCHAINITEM, 200);
         FuelRegistry.INSTANCE.add(ChainItemInit.ACACIABUTTONCHAINITEM, 100);
@@ -6923,8 +6960,9 @@ public class FuelInit{
         FuelRegistry.INSTANCE.add(ChainItemInit.YELLOWBANNERCHAINITEM, 300);
         FuelRegistry.INSTANCE.add(ChainItemInit.YELLOWCARPETCHAINITEM, 67);
         FuelRegistry.INSTANCE.add(ChainItemInit.YELLOWWOOLCHAINITEM, 100);
-       log("Registered Chain Fuels...");
+        log("Registered Chain Fuels...");
     }
+
     public static void COMPRESSED1() {
         FuelRegistry.INSTANCE.add(Compressed1ItemInit.ACACIABOATCOMPRESSED1ITEM, 16200);
         FuelRegistry.INSTANCE.add(Compressed1ItemInit.ACACIABUTTONCOMPRESSED1ITEM, 8100);
@@ -7110,8 +7148,9 @@ public class FuelInit{
         FuelRegistry.INSTANCE.add(Compressed1ItemInit.YELLOWBANNERCOMPRESSED1ITEM, 24300);
         FuelRegistry.INSTANCE.add(Compressed1ItemInit.YELLOWCARPETCOMPRESSED1ITEM, 5427);
         FuelRegistry.INSTANCE.add(Compressed1ItemInit.YELLOWWOOLCOMPRESSED1ITEM, 8100);
-       log("Registered Block of Block Fuels...");
+        log("Registered Block of Block Fuels...");
     }
+
     public static void COMPRESSED2() {
         FuelRegistry.INSTANCE.add(Compressed2ItemInit.ACACIABOATCOMPRESSED2ITEM, 32767);
         FuelRegistry.INSTANCE.add(Compressed2ItemInit.ACACIABUTTONCOMPRESSED2ITEM, 32767);
@@ -7297,8 +7336,9 @@ public class FuelInit{
         FuelRegistry.INSTANCE.add(Compressed2ItemInit.YELLOWBANNERCOMPRESSED2ITEM, 32767);
         FuelRegistry.INSTANCE.add(Compressed2ItemInit.YELLOWCARPETCOMPRESSED2ITEM, 32767);
         FuelRegistry.INSTANCE.add(Compressed2ItemInit.YELLOWWOOLCOMPRESSED2ITEM, 32767);
-       log("Registered Block of Block of Block Fuels...");
+        log("Registered Block of Block of Block Fuels...");
     }
+
     public static void COMPRESSED3() {
         FuelRegistry.INSTANCE.add(Compressed3ItemInit.ACACIABOATCOMPRESSED3ITEM, 32767);
         FuelRegistry.INSTANCE.add(Compressed3ItemInit.ACACIABUTTONCOMPRESSED3ITEM, 32767);
@@ -7484,8 +7524,9 @@ public class FuelInit{
         FuelRegistry.INSTANCE.add(Compressed3ItemInit.YELLOWBANNERCOMPRESSED3ITEM, 32767);
         FuelRegistry.INSTANCE.add(Compressed3ItemInit.YELLOWCARPETCOMPRESSED3ITEM, 32767);
         FuelRegistry.INSTANCE.add(Compressed3ItemInit.YELLOWWOOLCOMPRESSED3ITEM, 32767);
-       log("Registered Block of Block of Block of Block Fuels...");
+        log("Registered Block of Block of Block of Block Fuels...");
     }
+
     public static void COMPRESSED4() {
         FuelRegistry.INSTANCE.add(Compressed4ItemInit.ACACIABOATCOMPRESSED4ITEM, 32767);
         FuelRegistry.INSTANCE.add(Compressed4ItemInit.ACACIABUTTONCOMPRESSED4ITEM, 32767);
@@ -7671,8 +7712,9 @@ public class FuelInit{
         FuelRegistry.INSTANCE.add(Compressed4ItemInit.YELLOWBANNERCOMPRESSED4ITEM, 32767);
         FuelRegistry.INSTANCE.add(Compressed4ItemInit.YELLOWCARPETCOMPRESSED4ITEM, 32767);
         FuelRegistry.INSTANCE.add(Compressed4ItemInit.YELLOWWOOLCOMPRESSED4ITEM, 32767);
-       log("Registered Block of Block of Block of Block of Block Fuels...");
+        log("Registered Block of Block of Block of Block of Block Fuels...");
     }
+
     public static void COMPRESSED5() {
         FuelRegistry.INSTANCE.add(Compressed5ItemInit.ACACIABOATCOMPRESSED5ITEM, 32767);
         FuelRegistry.INSTANCE.add(Compressed5ItemInit.ACACIABUTTONCOMPRESSED5ITEM, 32767);
@@ -7858,8 +7900,9 @@ public class FuelInit{
         FuelRegistry.INSTANCE.add(Compressed5ItemInit.YELLOWBANNERCOMPRESSED5ITEM, 32767);
         FuelRegistry.INSTANCE.add(Compressed5ItemInit.YELLOWCARPETCOMPRESSED5ITEM, 32767);
         FuelRegistry.INSTANCE.add(Compressed5ItemInit.YELLOWWOOLCOMPRESSED5ITEM, 32767);
-       log("Registered Block of Block of Block of Block of Block of Block Fuels...");
+        log("Registered Block of Block of Block of Block of Block of Block Fuels...");
     }
+
     public static void COMPRESSED6() {
         FuelRegistry.INSTANCE.add(Compressed6ItemInit.ACACIABOATCOMPRESSED6ITEM, 32767);
         FuelRegistry.INSTANCE.add(Compressed6ItemInit.ACACIABUTTONCOMPRESSED6ITEM, 32767);
@@ -8045,8 +8088,9 @@ public class FuelInit{
         FuelRegistry.INSTANCE.add(Compressed6ItemInit.YELLOWBANNERCOMPRESSED6ITEM, 32767);
         FuelRegistry.INSTANCE.add(Compressed6ItemInit.YELLOWCARPETCOMPRESSED6ITEM, 32767);
         FuelRegistry.INSTANCE.add(Compressed6ItemInit.YELLOWWOOLCOMPRESSED6ITEM, 32767);
-       log("Registered Block of Block of Block of Block of Block of Block of Block Fuels...");
+        log("Registered Block of Block of Block of Block of Block of Block of Block Fuels...");
     }
+
     public static void COMPRESSED7() {
         FuelRegistry.INSTANCE.add(Compressed7ItemInit.ACACIABOATCOMPRESSED7ITEM, 32767);
         FuelRegistry.INSTANCE.add(Compressed7ItemInit.ACACIABUTTONCOMPRESSED7ITEM, 32767);
@@ -8232,8 +8276,9 @@ public class FuelInit{
         FuelRegistry.INSTANCE.add(Compressed7ItemInit.YELLOWBANNERCOMPRESSED7ITEM, 32767);
         FuelRegistry.INSTANCE.add(Compressed7ItemInit.YELLOWCARPETCOMPRESSED7ITEM, 32767);
         FuelRegistry.INSTANCE.add(Compressed7ItemInit.YELLOWWOOLCOMPRESSED7ITEM, 32767);
-       log("Registered Block of Block of Block of Block of Block of Block of Block of Block Fuels...");
+        log("Registered Block of Block of Block of Block of Block of Block of Block of Block Fuels...");
     }
+
     public static void COMPRESSED8() {
         FuelRegistry.INSTANCE.add(Compressed8ItemInit.ACACIABOATCOMPRESSED8ITEM, 32767);
         FuelRegistry.INSTANCE.add(Compressed8ItemInit.ACACIABUTTONCOMPRESSED8ITEM, 32767);
@@ -8419,8 +8464,9 @@ public class FuelInit{
         FuelRegistry.INSTANCE.add(Compressed8ItemInit.YELLOWBANNERCOMPRESSED8ITEM, 32767);
         FuelRegistry.INSTANCE.add(Compressed8ItemInit.YELLOWCARPETCOMPRESSED8ITEM, 32767);
         FuelRegistry.INSTANCE.add(Compressed8ItemInit.YELLOWWOOLCOMPRESSED8ITEM, 32767);
-       log("Registered Block of Block of Block of Block of Block of Block of Block of Block of Block Fuels...");
+        log("Registered Block of Block of Block of Block of Block of Block of Block of Block of Block Fuels...");
     }
+
     public static void COMPRESSED9() {
         FuelRegistry.INSTANCE.add(Compressed9ItemInit.ACACIABOATCOMPRESSED9ITEM, 32767);
         FuelRegistry.INSTANCE.add(Compressed9ItemInit.ACACIABUTTONCOMPRESSED9ITEM, 32767);
@@ -8606,8 +8652,9 @@ public class FuelInit{
         FuelRegistry.INSTANCE.add(Compressed9ItemInit.YELLOWBANNERCOMPRESSED9ITEM, 32767);
         FuelRegistry.INSTANCE.add(Compressed9ItemInit.YELLOWCARPETCOMPRESSED9ITEM, 32767);
         FuelRegistry.INSTANCE.add(Compressed9ItemInit.YELLOWWOOLCOMPRESSED9ITEM, 32767);
-       log("Registered Block of Block of Block of Block of Block of Block of Block of Block of Block of Block Fuels...");
+        log("Registered Block of Block of Block of Block of Block of Block of Block of Block of Block of Block Fuels...");
     }
+
     public static void COMPRESSED10() {
         FuelRegistry.INSTANCE.add(Compressed10ItemInit.ACACIABOATCOMPRESSED10ITEM, 32767);
         FuelRegistry.INSTANCE.add(Compressed10ItemInit.ACACIABUTTONCOMPRESSED10ITEM, 32767);
@@ -8793,8 +8840,9 @@ public class FuelInit{
         FuelRegistry.INSTANCE.add(Compressed10ItemInit.YELLOWBANNERCOMPRESSED10ITEM, 32767);
         FuelRegistry.INSTANCE.add(Compressed10ItemInit.YELLOWCARPETCOMPRESSED10ITEM, 32767);
         FuelRegistry.INSTANCE.add(Compressed10ItemInit.YELLOWWOOLCOMPRESSED10ITEM, 32767);
-       log("Registered Block of Block of Block of Block of Block of Block of Block of Block of Block of Block of Block Fuels...");
+        log("Registered Block of Block of Block of Block of Block of Block of Block of Block of Block of Block of Block Fuels...");
     }
+
     public static void COMPRESSED11() {
         FuelRegistry.INSTANCE.add(Compressed11ItemInit.ACACIABOATCOMPRESSED11ITEM, 32767);
         FuelRegistry.INSTANCE.add(Compressed11ItemInit.ACACIABUTTONCOMPRESSED11ITEM, 32767);
@@ -8980,8 +9028,9 @@ public class FuelInit{
         FuelRegistry.INSTANCE.add(Compressed11ItemInit.YELLOWBANNERCOMPRESSED11ITEM, 32767);
         FuelRegistry.INSTANCE.add(Compressed11ItemInit.YELLOWCARPETCOMPRESSED11ITEM, 32767);
         FuelRegistry.INSTANCE.add(Compressed11ItemInit.YELLOWWOOLCOMPRESSED11ITEM, 32767);
-       log("Registered Block of Block of Block of Block of Block of Block of Block of Block of Block of Block of Block of Block Fuels...");
+        log("Registered Block of Block of Block of Block of Block of Block of Block of Block of Block of Block of Block of Block Fuels...");
     }
+
     public static void COMPRESSED12() {
         FuelRegistry.INSTANCE.add(Compressed12ItemInit.ACACIABOATCOMPRESSED12ITEM, 32767);
         FuelRegistry.INSTANCE.add(Compressed12ItemInit.ACACIABUTTONCOMPRESSED12ITEM, 32767);
@@ -9167,8 +9216,9 @@ public class FuelInit{
         FuelRegistry.INSTANCE.add(Compressed12ItemInit.YELLOWBANNERCOMPRESSED12ITEM, 32767);
         FuelRegistry.INSTANCE.add(Compressed12ItemInit.YELLOWCARPETCOMPRESSED12ITEM, 32767);
         FuelRegistry.INSTANCE.add(Compressed12ItemInit.YELLOWWOOLCOMPRESSED12ITEM, 32767);
-       log("Registered Block of Block of Block of Block of Block of Block of Block of Block of Block of Block of Block of Block of Block Fuels...");
+        log("Registered Block of Block of Block of Block of Block of Block of Block of Block of Block of Block of Block of Block of Block Fuels...");
     }
+
     public static void COMPRESSED13() {
         FuelRegistry.INSTANCE.add(Compressed13ItemInit.ACACIABOATCOMPRESSED13ITEM, 32767);
         FuelRegistry.INSTANCE.add(Compressed13ItemInit.ACACIABUTTONCOMPRESSED13ITEM, 32767);
@@ -9354,8 +9404,9 @@ public class FuelInit{
         FuelRegistry.INSTANCE.add(Compressed13ItemInit.YELLOWBANNERCOMPRESSED13ITEM, 32767);
         FuelRegistry.INSTANCE.add(Compressed13ItemInit.YELLOWCARPETCOMPRESSED13ITEM, 32767);
         FuelRegistry.INSTANCE.add(Compressed13ItemInit.YELLOWWOOLCOMPRESSED13ITEM, 32767);
-       log("Registered Block of Block of Block of Block of Block of Block of Block of Block of Block of Block of Block of Block of Block of Block Fuels...");
+        log("Registered Block of Block of Block of Block of Block of Block of Block of Block of Block of Block of Block of Block of Block of Block Fuels...");
     }
+
     public static void COMPRESSED14() {
         FuelRegistry.INSTANCE.add(Compressed14ItemInit.ACACIABOATCOMPRESSED14ITEM, 32767);
         FuelRegistry.INSTANCE.add(Compressed14ItemInit.ACACIABUTTONCOMPRESSED14ITEM, 32767);
@@ -9541,8 +9592,9 @@ public class FuelInit{
         FuelRegistry.INSTANCE.add(Compressed14ItemInit.YELLOWBANNERCOMPRESSED14ITEM, 32767);
         FuelRegistry.INSTANCE.add(Compressed14ItemInit.YELLOWCARPETCOMPRESSED14ITEM, 32767);
         FuelRegistry.INSTANCE.add(Compressed14ItemInit.YELLOWWOOLCOMPRESSED14ITEM, 32767);
-       log("Registered Block of Block of Block of Block of Block of Block of Block of Block of Block of Block of Block of Block of Block of Block of Block Fuels...");
+        log("Registered Block of Block of Block of Block of Block of Block of Block of Block of Block of Block of Block of Block of Block of Block of Block Fuels...");
     }
+
     public static void COMPRESSED15() {
         FuelRegistry.INSTANCE.add(Compressed15ItemInit.ACACIABOATCOMPRESSED15ITEM, 32767);
         FuelRegistry.INSTANCE.add(Compressed15ItemInit.ACACIABUTTONCOMPRESSED15ITEM, 32767);
@@ -9728,8 +9780,9 @@ public class FuelInit{
         FuelRegistry.INSTANCE.add(Compressed15ItemInit.YELLOWBANNERCOMPRESSED15ITEM, 32767);
         FuelRegistry.INSTANCE.add(Compressed15ItemInit.YELLOWCARPETCOMPRESSED15ITEM, 32767);
         FuelRegistry.INSTANCE.add(Compressed15ItemInit.YELLOWWOOLCOMPRESSED15ITEM, 32767);
-       log("Registered Block of Block of Block of Block of Block of Block of Block of Block of Block of Block of Block of Block of Block of Block of Block of Block Fuels...");
+        log("Registered Block of Block of Block of Block of Block of Block of Block of Block of Block of Block of Block of Block of Block of Block of Block of Block Fuels...");
     }
+
     public static void KCOLB() {
         FuelRegistry.INSTANCE.add(KcolbItemInit.ACACIABOATKCOLBITEM, 1800);
         FuelRegistry.INSTANCE.add(KcolbItemInit.ACACIABUTTONKCOLBITEM, 900);
@@ -9915,8 +9968,9 @@ public class FuelInit{
         FuelRegistry.INSTANCE.add(KcolbItemInit.YELLOWBANNERKCOLBITEM, 2700);
         FuelRegistry.INSTANCE.add(KcolbItemInit.YELLOWCARPETKCOLBITEM, 603);
         FuelRegistry.INSTANCE.add(KcolbItemInit.YELLOWWOOLKCOLBITEM, 900);
-       log("Registered Kcolb Fuels...");
+        log("Registered Kcolb Fuels...");
     }
+
     public static void FENCEGATE() {
         FuelRegistry.INSTANCE.add(FenceGateItemInit.ACACIABOATFENCEGATEITEM, 400);
         FuelRegistry.INSTANCE.add(FenceGateItemInit.ACACIABUTTONFENCEGATEITEM, 200);
@@ -10102,6 +10156,6 @@ public class FuelInit{
         FuelRegistry.INSTANCE.add(FenceGateItemInit.YELLOWBANNERFENCEGATEITEM, 600);
         FuelRegistry.INSTANCE.add(FenceGateItemInit.YELLOWCARPETFENCEGATEITEM, 134);
         FuelRegistry.INSTANCE.add(FenceGateItemInit.YELLOWWOOLFENCEGATEITEM, 200);
-       log("Registered Fence Gate Fuels...");
+        log("Registered Fence Gate Fuels...");
     }
 }

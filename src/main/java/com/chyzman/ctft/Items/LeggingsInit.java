@@ -2,9 +2,9 @@ package com.chyzman.ctft.Items;
 
 import com.chyzman.ctft.Registries.CtftArmorTiers;
 import com.chyzman.ctft.classes.CustomArmorItem;
+import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
-import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.util.Rarity;
 import net.minecraft.util.registry.Registry;
 
@@ -15,6 +15,7 @@ public class LeggingsInit {
     private static Item register(String name, Item item) {
         return Registry.register(Registry.ITEM, id(name), item);
     }
+
     public static final Item ACACIABOATLEGGINGS = register("acacia_boat_leggings", new CustomArmorItem(CtftArmorTiers.AcaciaBoatArmorMaterial, EquipmentSlot.LEGS, false, "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ACACIABUTTONLEGGINGS = register("acacia_button_leggings", new CustomArmorItem(CtftArmorTiers.AcaciaButtonArmorMaterial, EquipmentSlot.LEGS, false, "block", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ACACIADOORLEGGINGS = register("acacia_door_leggings", new CustomArmorItem(CtftArmorTiers.AcaciaDoorArmorMaterial, EquipmentSlot.LEGS, false, "block", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
@@ -1114,5 +1115,6 @@ public class LeggingsInit {
     public static final Item ZOMBIESPAWNEGGLEGGINGS = register("zombie_spawn_egg_leggings", new CustomArmorItem(CtftArmorTiers.ZombieSpawnEggArmorMaterial, EquipmentSlot.LEGS, false, "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ZOMBIEVILLAGERSPAWNEGGLEGGINGS = register("zombie_villager_spawn_egg_leggings", new CustomArmorItem(CtftArmorTiers.ZombieVillagerSpawnEggArmorMaterial, EquipmentSlot.LEGS, false, "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ZOMBIFIEDPIGLINSPAWNEGGLEGGINGS = register("zombified_piglin_spawn_egg_leggings", new CustomArmorItem(CtftArmorTiers.ZombifiedPiglinSpawnEggArmorMaterial, EquipmentSlot.LEGS, false, "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
+
     public static void INIT() {log("Loaded Leggings...");}
-    }
+}

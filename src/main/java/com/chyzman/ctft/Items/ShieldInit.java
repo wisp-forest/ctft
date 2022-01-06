@@ -1,9 +1,8 @@
 package com.chyzman.ctft.Items;
 
-import com.chyzman.ctft.Registries.*;
+import com.chyzman.ctft.classes.CustomShieldItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
-import com.chyzman.ctft.classes.*;
 import net.minecraft.util.Rarity;
 import net.minecraft.util.registry.Registry;
 
@@ -14,6 +13,7 @@ public class ShieldInit {
     private static Item register(String name, Item item) {
         return Registry.register(Registry.ITEM, id(name), item);
     }
+
     public static final Item ACACIABOATSHIELD = register("acacia_boat_shield", new CustomShieldItem(false, "item", new Item.Settings().group(ItemGroup.SEARCH).maxDamage(1681).rarity(Rarity.COMMON)));
     public static final Item ACACIABUTTONSHIELD = register("acacia_button_shield", new CustomShieldItem(false, "block", new Item.Settings().group(ItemGroup.SEARCH).maxDamage(336).rarity(Rarity.COMMON)));
     public static final Item ACACIADOORSHIELD = register("acacia_door_shield", new CustomShieldItem(false, "block", new Item.Settings().group(ItemGroup.SEARCH).maxDamage(2017).rarity(Rarity.COMMON)));
@@ -1113,5 +1113,6 @@ public class ShieldInit {
     public static final Item ZOMBIESPAWNEGGSHIELD = register("zombie_spawn_egg_shield", new CustomShieldItem(false, "item", new Item.Settings().group(ItemGroup.SEARCH).maxDamage(250).rarity(Rarity.COMMON)));
     public static final Item ZOMBIEVILLAGERSPAWNEGGSHIELD = register("zombie_villager_spawn_egg_shield", new CustomShieldItem(false, "item", new Item.Settings().group(ItemGroup.SEARCH).maxDamage(250).rarity(Rarity.COMMON)));
     public static final Item ZOMBIFIEDPIGLINSPAWNEGGSHIELD = register("zombified_piglin_spawn_egg_shield", new CustomShieldItem(false, "item", new Item.Settings().group(ItemGroup.SEARCH).maxDamage(250).rarity(Rarity.COMMON)));
+
     public static void INIT() {log("Loaded Shields...");}
-    }
+}

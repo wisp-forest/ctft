@@ -16,19 +16,22 @@ public class CustomSignItem extends SignItem {
         isfoil = isFoil;
         texturetype = textureType;
     }
+
     @Override
     public boolean hasGlint(ItemStack stack) {
         return isfoil || super.hasGlint(stack);
     }
+
     @Override
-    public Text getName(){
+    public Text getName() {
         var baseitemname = (Registry.ITEM.getId(this.asItem())).getPath();
         return (new TranslatableText("ctft.item.sign_preffix")
-                .append(new TranslatableText( this.texturetype + ".minecraft." + baseitemname
+                .append(new TranslatableText(this.texturetype + ".minecraft." + baseitemname
                         .substring(0, baseitemname
                                 .lastIndexOf('_'))))
                 .append(new TranslatableText("ctft.item.sign_suffix")));
     }
+
     @Override
     public Text getName(ItemStack stack) {
         return this.getName();

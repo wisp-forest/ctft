@@ -1,10 +1,10 @@
 package com.chyzman.ctft.Items;
 
-import com.chyzman.ctft.Blocks.*;
+import com.chyzman.ctft.Blocks.TorchInit;
+import com.chyzman.ctft.Blocks.WallTorchInit;
 import com.chyzman.ctft.classes.CustomWallStandingBlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
-import net.minecraft.item.WallStandingBlockItem;
 import net.minecraft.util.Rarity;
 import net.minecraft.util.registry.Registry;
 
@@ -13,6 +13,7 @@ import static com.chyzman.ctft.Ctft.log;
 
 public class TorchItemInit {
     private static Item register(String name, Item item) {return Registry.register(Registry.ITEM, id(name), item);}
+
     public static final Item ACACIABOATTORCHITEM = register("acacia_boat_torch", new CustomWallStandingBlockItem(TorchInit.ACACIABOATTORCH, WallTorchInit.ACACIABOATWALLTORCH, false, "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ACACIABUTTONTORCHITEM = register("acacia_button_torch", new CustomWallStandingBlockItem(TorchInit.ACACIABUTTONTORCH, WallTorchInit.ACACIABUTTONWALLTORCH, false, "block", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ACACIADOORTORCHITEM = register("acacia_door_torch", new CustomWallStandingBlockItem(TorchInit.ACACIADOORTORCH, WallTorchInit.ACACIADOORWALLTORCH, false, "block", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
@@ -1112,5 +1113,6 @@ public class TorchItemInit {
     public static final Item ZOMBIESPAWNEGGTORCHITEM = register("zombie_spawn_egg_torch", new CustomWallStandingBlockItem(TorchInit.ZOMBIESPAWNEGGTORCH, WallTorchInit.ZOMBIESPAWNEGGWALLTORCH, false, "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ZOMBIEVILLAGERSPAWNEGGTORCHITEM = register("zombie_villager_spawn_egg_torch", new CustomWallStandingBlockItem(TorchInit.ZOMBIEVILLAGERSPAWNEGGTORCH, WallTorchInit.ZOMBIEVILLAGERSPAWNEGGWALLTORCH, false, "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ZOMBIFIEDPIGLINSPAWNEGGTORCHITEM = register("zombified_piglin_spawn_egg_torch", new CustomWallStandingBlockItem(TorchInit.ZOMBIFIEDPIGLINSPAWNEGGTORCH, WallTorchInit.ZOMBIFIEDPIGLINSPAWNEGGWALLTORCH, false, "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
+
     public static void INIT() {log("Loaded Torch Items...");}
 }

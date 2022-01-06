@@ -1,7 +1,10 @@
 package com.chyzman.ctft.Blocks;
 
-import com.chyzman.ctft.classes.*;
-import net.minecraft.block.*;
+import com.chyzman.ctft.classes.CustomPressurePlateBlock;
+import net.minecraft.block.AbstractBlock;
+import net.minecraft.block.Block;
+import net.minecraft.block.Material;
+import net.minecraft.block.PressurePlateBlock;
 import net.minecraft.util.registry.Registry;
 
 import static com.chyzman.ctft.Ctft.id;
@@ -9,6 +12,7 @@ import static com.chyzman.ctft.Ctft.log;
 
 public class PressurePlateInit {
     private static Block register(String name, Block block) {return Registry.register(Registry.BLOCK, id(name), block);}
+
     public static final Block ACACIABOATPRESSUREPLATE = register("acacia_boat_pressure_plate", new CustomPressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING, AbstractBlock.Settings.of(Material.METAL).noCollision()));
     public static final Block ACACIABUTTONPRESSUREPLATE = register("acacia_button_pressure_plate", new CustomPressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING, AbstractBlock.Settings.of(Material.METAL).noCollision()));
     public static final Block ACACIADOORPRESSUREPLATE = register("acacia_door_pressure_plate", new CustomPressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING, AbstractBlock.Settings.of(Material.METAL).noCollision()));
@@ -1108,5 +1112,6 @@ public class PressurePlateInit {
     public static final Block ZOMBIESPAWNEGGPRESSUREPLATE = register("zombie_spawn_egg_pressure_plate", new CustomPressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING, AbstractBlock.Settings.of(Material.METAL).noCollision()));
     public static final Block ZOMBIEVILLAGERSPAWNEGGPRESSUREPLATE = register("zombie_villager_spawn_egg_pressure_plate", new CustomPressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING, AbstractBlock.Settings.of(Material.METAL).noCollision()));
     public static final Block ZOMBIFIEDPIGLINSPAWNEGGPRESSUREPLATE = register("zombified_piglin_spawn_egg_pressure_plate", new CustomPressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING, AbstractBlock.Settings.of(Material.METAL).noCollision()));
-    public static void INIT(){log("Loaded Pressure Plates...");}
+
+    public static void INIT() {log("Loaded Pressure Plates...");}
 }

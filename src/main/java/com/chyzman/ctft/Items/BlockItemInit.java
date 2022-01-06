@@ -2,7 +2,6 @@ package com.chyzman.ctft.Items;
 
 import com.chyzman.ctft.Blocks.BlockInit;
 import com.chyzman.ctft.classes.CustomBlockItem;
-import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Rarity;
@@ -13,6 +12,7 @@ import static com.chyzman.ctft.Ctft.log;
 
 public class BlockItemInit {
     private static Item register(String name, Item item) {return Registry.register(Registry.ITEM, id(name), item);}
+
     public static final Item ACACIABOATBLOCKITEM = register("acacia_boat_block", new CustomBlockItem(BlockInit.ACACIABOATBLOCK, false, "block", "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ACACIABUTTONBLOCKITEM = register("acacia_button_block", new CustomBlockItem(BlockInit.ACACIABUTTONBLOCK, false, "block", "block", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ACACIADOORBLOCKITEM = register("acacia_door_block", new CustomBlockItem(BlockInit.ACACIADOORBLOCK, false, "block", "block", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
@@ -1112,5 +1112,6 @@ public class BlockItemInit {
     public static final Item ZOMBIESPAWNEGGBLOCKITEM = register("zombie_spawn_egg_block", new CustomBlockItem(BlockInit.ZOMBIESPAWNEGGBLOCK, false, "block", "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ZOMBIEVILLAGERSPAWNEGGBLOCKITEM = register("zombie_villager_spawn_egg_block", new CustomBlockItem(BlockInit.ZOMBIEVILLAGERSPAWNEGGBLOCK, false, "block", "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ZOMBIFIEDPIGLINSPAWNEGGBLOCKITEM = register("zombified_piglin_spawn_egg_block", new CustomBlockItem(BlockInit.ZOMBIFIEDPIGLINSPAWNEGGBLOCK, false, "block", "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
+
     public static void INIT() {log("Loaded Block Items...");}
 }

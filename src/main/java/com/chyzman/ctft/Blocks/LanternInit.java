@@ -1,7 +1,9 @@
 package com.chyzman.ctft.Blocks;
 
-import com.chyzman.ctft.classes.*;
-import net.minecraft.block.*;
+import net.minecraft.block.AbstractBlock;
+import net.minecraft.block.Block;
+import net.minecraft.block.LanternBlock;
+import net.minecraft.block.Material;
 import net.minecraft.util.registry.Registry;
 
 import static com.chyzman.ctft.Ctft.id;
@@ -9,6 +11,7 @@ import static com.chyzman.ctft.Ctft.log;
 
 public class LanternInit {
     private static Block register(String name, Block block) {return Registry.register(Registry.BLOCK, id(name), block);}
+
     public static final Block ACACIABOATLANTERN = register("acacia_boat_lantern", new LanternBlock(AbstractBlock.Settings.of(Material.METAL).luminance(state -> 14)));
     public static final Block ACACIABUTTONLANTERN = register("acacia_button_lantern", new LanternBlock(AbstractBlock.Settings.of(Material.METAL).luminance(state -> 14)));
     public static final Block ACACIADOORLANTERN = register("acacia_door_lantern", new LanternBlock(AbstractBlock.Settings.of(Material.METAL).luminance(state -> 14)));
@@ -1108,5 +1111,6 @@ public class LanternInit {
     public static final Block ZOMBIESPAWNEGGLANTERN = register("zombie_spawn_egg_lantern", new LanternBlock(AbstractBlock.Settings.of(Material.METAL).luminance(state -> 14)));
     public static final Block ZOMBIEVILLAGERSPAWNEGGLANTERN = register("zombie_villager_spawn_egg_lantern", new LanternBlock(AbstractBlock.Settings.of(Material.METAL).luminance(state -> 14)));
     public static final Block ZOMBIFIEDPIGLINSPAWNEGGLANTERN = register("zombified_piglin_spawn_egg_lantern", new LanternBlock(AbstractBlock.Settings.of(Material.METAL).luminance(state -> 14)));
-    public static void INIT(){log("Loaded Lanterns...");}
+
+    public static void INIT() {log("Loaded Lanterns...");}
 }

@@ -1,7 +1,9 @@
 package com.chyzman.ctft.Blocks;
 
-import com.chyzman.ctft.classes.*;
-import net.minecraft.block.*;
+import com.chyzman.ctft.classes.CustomPaneBlock;
+import net.minecraft.block.AbstractBlock;
+import net.minecraft.block.Block;
+import net.minecraft.block.Material;
 import net.minecraft.util.registry.Registry;
 
 import static com.chyzman.ctft.Ctft.id;
@@ -9,6 +11,7 @@ import static com.chyzman.ctft.Ctft.log;
 
 public class PaneInit {
     private static Block register(String name, Block block) {return Registry.register(Registry.BLOCK, id(name), block);}
+
     public static final Block ACACIABOATPANE = register("acacia_boat_pane", new CustomPaneBlock(BlockInit.ACACIABOATBLOCK.getDefaultState(), AbstractBlock.Settings.of(Material.METAL)));
     public static final Block ACACIABUTTONPANE = register("acacia_button_pane", new CustomPaneBlock(BlockInit.ACACIABUTTONBLOCK.getDefaultState(), AbstractBlock.Settings.of(Material.METAL)));
     public static final Block ACACIADOORPANE = register("acacia_door_pane", new CustomPaneBlock(BlockInit.ACACIADOORBLOCK.getDefaultState(), AbstractBlock.Settings.of(Material.METAL)));
@@ -1108,5 +1111,6 @@ public class PaneInit {
     public static final Block ZOMBIESPAWNEGGPANE = register("zombie_spawn_egg_pane", new CustomPaneBlock(BlockInit.ZOMBIESPAWNEGGBLOCK.getDefaultState(), AbstractBlock.Settings.of(Material.METAL)));
     public static final Block ZOMBIEVILLAGERSPAWNEGGPANE = register("zombie_villager_spawn_egg_pane", new CustomPaneBlock(BlockInit.ZOMBIEVILLAGERSPAWNEGGBLOCK.getDefaultState(), AbstractBlock.Settings.of(Material.METAL)));
     public static final Block ZOMBIFIEDPIGLINSPAWNEGGPANE = register("zombified_piglin_spawn_egg_pane", new CustomPaneBlock(BlockInit.ZOMBIFIEDPIGLINSPAWNEGGBLOCK.getDefaultState(), AbstractBlock.Settings.of(Material.METAL)));
-    public static void INIT(){log("Loaded Panes...");}
+
+    public static void INIT() {log("Loaded Panes...");}
 }

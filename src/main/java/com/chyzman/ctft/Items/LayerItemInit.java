@@ -12,6 +12,7 @@ import static com.chyzman.ctft.Ctft.log;
 
 public class LayerItemInit {
     private static Item register(String name, Item item) {return Registry.register(Registry.ITEM, id(name), item);}
+
     public static final Item ACACIABOATLAYERITEM = register("acacia_boat_layer", new CustomBlockItem(LayerInit.ACACIABOATLAYER, false, "layer", "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ACACIABUTTONLAYERITEM = register("acacia_button_layer", new CustomBlockItem(LayerInit.ACACIABUTTONLAYER, false, "layer", "block", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ACACIADOORLAYERITEM = register("acacia_door_layer", new CustomBlockItem(LayerInit.ACACIADOORLAYER, false, "layer", "block", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
@@ -1111,5 +1112,6 @@ public class LayerItemInit {
     public static final Item ZOMBIESPAWNEGGLAYERITEM = register("zombie_spawn_egg_layer", new CustomBlockItem(LayerInit.ZOMBIESPAWNEGGLAYER, false, "layer", "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ZOMBIEVILLAGERSPAWNEGGLAYERITEM = register("zombie_villager_spawn_egg_layer", new CustomBlockItem(LayerInit.ZOMBIEVILLAGERSPAWNEGGLAYER, false, "layer", "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ZOMBIFIEDPIGLINSPAWNEGGLAYERITEM = register("zombified_piglin_spawn_egg_layer", new CustomBlockItem(LayerInit.ZOMBIFIEDPIGLINSPAWNEGGLAYER, false, "layer", "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
+
     public static void INIT() {log("Loaded Layer Items...");}
 }

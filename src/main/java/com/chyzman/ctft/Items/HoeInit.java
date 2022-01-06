@@ -1,9 +1,9 @@
 package com.chyzman.ctft.Items;
 
-import com.chyzman.ctft.Registries.*;
+import com.chyzman.ctft.Registries.CtftTiers;
+import com.chyzman.ctft.classes.CustomHoeItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
-import com.chyzman.ctft.classes.*;
 import net.minecraft.util.Rarity;
 import net.minecraft.util.registry.Registry;
 
@@ -11,7 +11,8 @@ import static com.chyzman.ctft.Ctft.id;
 import static com.chyzman.ctft.Ctft.log;
 
 public class HoeInit {
-    private static Item register(String name, Item item) { return Registry.register(Registry.ITEM, id(name), item); }
+    private static Item register(String name, Item item) {return Registry.register(Registry.ITEM, id(name), item);}
+
     public static final Item ACACIABOATHOE = register("acacia_boat_hoe", new CustomHoeItem(CtftTiers.AcaciaBoatMaterial, 1, 1.0f, false, "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ACACIABUTTONHOE = register("acacia_button_hoe", new CustomHoeItem(CtftTiers.AcaciaButtonMaterial, 1, 1.0f, false, "block", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ACACIADOORHOE = register("acacia_door_hoe", new CustomHoeItem(CtftTiers.AcaciaDoorMaterial, 1, 1.0f, false, "block", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
@@ -1111,5 +1112,6 @@ public class HoeInit {
     public static final Item ZOMBIESPAWNEGGHOE = register("zombie_spawn_egg_hoe", new CustomHoeItem(CtftTiers.ZombieSpawnEggMaterial, 1, 1.0f, false, "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ZOMBIEVILLAGERSPAWNEGGHOE = register("zombie_villager_spawn_egg_hoe", new CustomHoeItem(CtftTiers.ZombieVillagerSpawnEggMaterial, 1, 1.0f, false, "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ZOMBIFIEDPIGLINSPAWNEGGHOE = register("zombified_piglin_spawn_egg_hoe", new CustomHoeItem(CtftTiers.ZombifiedPiglinSpawnEggMaterial, 1, 1.0f, false, "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
+
     public static void INIT() {log("Loaded Hoes...");}
-    }
+}

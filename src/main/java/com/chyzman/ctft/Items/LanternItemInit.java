@@ -1,6 +1,6 @@
 package com.chyzman.ctft.Items;
 
-import com.chyzman.ctft.Blocks.*;
+import com.chyzman.ctft.Blocks.LanternInit;
 import com.chyzman.ctft.classes.CustomBlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -12,6 +12,7 @@ import static com.chyzman.ctft.Ctft.log;
 
 public class LanternItemInit {
     private static Item register(String name, Item item) {return Registry.register(Registry.ITEM, id(name), item);}
+
     public static final Item ACACIABOATLANTERNITEM = register("acacia_boat_lantern", new CustomBlockItem(LanternInit.ACACIABOATLANTERN, false, "lantern", "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ACACIABUTTONLANTERNITEM = register("acacia_button_lantern", new CustomBlockItem(LanternInit.ACACIABUTTONLANTERN, false, "lantern", "block", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ACACIADOORLANTERNITEM = register("acacia_door_lantern", new CustomBlockItem(LanternInit.ACACIADOORLANTERN, false, "lantern", "block", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
@@ -1111,5 +1112,6 @@ public class LanternItemInit {
     public static final Item ZOMBIESPAWNEGGLANTERNITEM = register("zombie_spawn_egg_lantern", new CustomBlockItem(LanternInit.ZOMBIESPAWNEGGLANTERN, false, "lantern", "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ZOMBIEVILLAGERSPAWNEGGLANTERNITEM = register("zombie_villager_spawn_egg_lantern", new CustomBlockItem(LanternInit.ZOMBIEVILLAGERSPAWNEGGLANTERN, false, "lantern", "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ZOMBIFIEDPIGLINSPAWNEGGLANTERNITEM = register("zombified_piglin_spawn_egg_lantern", new CustomBlockItem(LanternInit.ZOMBIFIEDPIGLINSPAWNEGGLANTERN, false, "lantern", "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
+
     public static void INIT() {log("Loaded Lantern Items...");}
 }

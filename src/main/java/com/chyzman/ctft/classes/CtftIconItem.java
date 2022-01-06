@@ -1,11 +1,8 @@
 package com.chyzman.ctft.classes;
 
-import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.MinecartItem;
-import net.minecraft.recipe.RecipeManager;
 import net.minecraft.text.LiteralText;
 import net.minecraft.text.Text;
 import net.minecraft.util.registry.Registry;

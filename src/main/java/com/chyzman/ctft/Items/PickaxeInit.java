@@ -1,9 +1,9 @@
 package com.chyzman.ctft.Items;
 
-import com.chyzman.ctft.Registries.*;
+import com.chyzman.ctft.Registries.CtftTiers;
+import com.chyzman.ctft.classes.CustomPickaxeItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
-import com.chyzman.ctft.classes.*;
 import net.minecraft.util.Rarity;
 import net.minecraft.util.registry.Registry;
 
@@ -14,6 +14,7 @@ public class PickaxeInit {
     private static Item register(String name, Item item) {
         return Registry.register(Registry.ITEM, id(name), item);
     }
+
     public static final Item ACACIABOATPICKAXE = register("acacia_boat_pickaxe", new CustomPickaxeItem(CtftTiers.AcaciaBoatMaterial, 2, 1.2f, false, "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ACACIABUTTONPICKAXE = register("acacia_button_pickaxe", new CustomPickaxeItem(CtftTiers.AcaciaButtonMaterial, 2, 1.2f, false, "block", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ACACIADOORPICKAXE = register("acacia_door_pickaxe", new CustomPickaxeItem(CtftTiers.AcaciaDoorMaterial, 2, 1.2f, false, "block", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
@@ -1113,5 +1114,6 @@ public class PickaxeInit {
     public static final Item ZOMBIESPAWNEGGPICKAXE = register("zombie_spawn_egg_pickaxe", new CustomPickaxeItem(CtftTiers.ZombieSpawnEggMaterial, 1, 1.2f, false, "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ZOMBIEVILLAGERSPAWNEGGPICKAXE = register("zombie_villager_spawn_egg_pickaxe", new CustomPickaxeItem(CtftTiers.ZombieVillagerSpawnEggMaterial, 1, 1.2f, false, "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ZOMBIFIEDPIGLINSPAWNEGGPICKAXE = register("zombified_piglin_spawn_egg_pickaxe", new CustomPickaxeItem(CtftTiers.ZombifiedPiglinSpawnEggMaterial, 1, 1.2f, false, "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
+
     public static void INIT() {log("Loaded Pickaxes...");}
-    }
+}

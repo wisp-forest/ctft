@@ -1,9 +1,8 @@
 package com.chyzman.ctft.Items;
 
-import com.chyzman.ctft.Registries.*;
+import com.chyzman.ctft.classes.CustomShearsItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
-import com.chyzman.ctft.classes.*;
 import net.minecraft.util.Rarity;
 import net.minecraft.util.registry.Registry;
 
@@ -14,6 +13,7 @@ public class ShearInit {
     private static Item register(String name, Item item) {
         return Registry.register(Registry.ITEM, id(name), item);
     }
+
     public static final Item ACACIABOATSHEARS = register("acacia_boat_shears", new CustomShearsItem(false, "item", new Item.Settings().group(ItemGroup.SEARCH).maxDamage(295).rarity(Rarity.COMMON)));
     public static final Item ACACIABUTTONSHEARS = register("acacia_button_shears", new CustomShearsItem(false, "block", new Item.Settings().group(ItemGroup.SEARCH).maxDamage(59).rarity(Rarity.COMMON)));
     public static final Item ACACIADOORSHEARS = register("acacia_door_shears", new CustomShearsItem(false, "block", new Item.Settings().group(ItemGroup.SEARCH).maxDamage(354).rarity(Rarity.COMMON)));
@@ -1113,5 +1113,6 @@ public class ShearInit {
     public static final Item ZOMBIESPAWNEGGSHEARS = register("zombie_spawn_egg_shears", new CustomShearsItem(false, "item", new Item.Settings().group(ItemGroup.SEARCH).maxDamage(44).rarity(Rarity.COMMON)));
     public static final Item ZOMBIEVILLAGERSPAWNEGGSHEARS = register("zombie_villager_spawn_egg_shears", new CustomShearsItem(false, "item", new Item.Settings().group(ItemGroup.SEARCH).maxDamage(44).rarity(Rarity.COMMON)));
     public static final Item ZOMBIFIEDPIGLINSPAWNEGGSHEARS = register("zombified_piglin_spawn_egg_shears", new CustomShearsItem(false, "item", new Item.Settings().group(ItemGroup.SEARCH).maxDamage(44).rarity(Rarity.COMMON)));
+
     public static void INIT() {log("Loaded Shears...");}
-    }
+}

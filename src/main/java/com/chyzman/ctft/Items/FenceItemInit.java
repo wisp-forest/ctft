@@ -12,6 +12,7 @@ import static com.chyzman.ctft.Ctft.log;
 
 public class FenceItemInit {
     private static Item register(String name, Item item) {return Registry.register(Registry.ITEM, id(name), item);}
+
     public static final Item ACACIABOATFENCEITEM = register("acacia_boat_fence", new CustomBlockItem(FenceInit.ACACIABOATFENCE, false, "fence", "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ACACIABUTTONFENCEITEM = register("acacia_button_fence", new CustomBlockItem(FenceInit.ACACIABUTTONFENCE, false, "fence", "block", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ACACIADOORFENCEITEM = register("acacia_door_fence", new CustomBlockItem(FenceInit.ACACIADOORFENCE, false, "fence", "block", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
@@ -1111,5 +1112,6 @@ public class FenceItemInit {
     public static final Item ZOMBIESPAWNEGGFENCEITEM = register("zombie_spawn_egg_fence", new CustomBlockItem(FenceInit.ZOMBIESPAWNEGGFENCE, false, "fence", "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ZOMBIEVILLAGERSPAWNEGGFENCEITEM = register("zombie_villager_spawn_egg_fence", new CustomBlockItem(FenceInit.ZOMBIEVILLAGERSPAWNEGGFENCE, false, "fence", "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ZOMBIFIEDPIGLINSPAWNEGGFENCEITEM = register("zombified_piglin_spawn_egg_fence", new CustomBlockItem(FenceInit.ZOMBIFIEDPIGLINSPAWNEGGFENCE, false, "fence", "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
+
     public static void INIT() {log("Loaded Fence Items...");}
 }

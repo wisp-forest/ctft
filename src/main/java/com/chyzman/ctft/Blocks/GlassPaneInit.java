@@ -1,7 +1,9 @@
 package com.chyzman.ctft.Blocks;
 
-import com.chyzman.ctft.classes.*;
-import net.minecraft.block.*;
+import com.chyzman.ctft.classes.CustomPaneBlock;
+import net.minecraft.block.AbstractBlock;
+import net.minecraft.block.Block;
+import net.minecraft.block.Material;
 import net.minecraft.util.registry.Registry;
 
 import static com.chyzman.ctft.Ctft.id;
@@ -9,6 +11,7 @@ import static com.chyzman.ctft.Ctft.log;
 
 public class GlassPaneInit {
     private static Block register(String name, Block block) {return Registry.register(Registry.BLOCK, id(name), block);}
+
     public static final Block ACACIABOATGLASSPANE = register("acacia_boat_glass_pane", new CustomPaneBlock(BlockInit.ACACIABOATBLOCK.getDefaultState(), AbstractBlock.Settings.of(Material.GLASS).nonOpaque()));
     public static final Block ACACIABUTTONGLASSPANE = register("acacia_button_glass_pane", new CustomPaneBlock(BlockInit.ACACIABUTTONBLOCK.getDefaultState(), AbstractBlock.Settings.of(Material.GLASS).nonOpaque()));
     public static final Block ACACIADOORGLASSPANE = register("acacia_door_glass_pane", new CustomPaneBlock(BlockInit.ACACIADOORBLOCK.getDefaultState(), AbstractBlock.Settings.of(Material.GLASS).nonOpaque()));
@@ -1108,5 +1111,6 @@ public class GlassPaneInit {
     public static final Block ZOMBIESPAWNEGGGLASSPANE = register("zombie_spawn_egg_glass_pane", new CustomPaneBlock(BlockInit.ZOMBIESPAWNEGGBLOCK.getDefaultState(), AbstractBlock.Settings.of(Material.GLASS).nonOpaque()));
     public static final Block ZOMBIEVILLAGERSPAWNEGGGLASSPANE = register("zombie_villager_spawn_egg_glass_pane", new CustomPaneBlock(BlockInit.ZOMBIEVILLAGERSPAWNEGGBLOCK.getDefaultState(), AbstractBlock.Settings.of(Material.GLASS).nonOpaque()));
     public static final Block ZOMBIFIEDPIGLINSPAWNEGGGLASSPANE = register("zombified_piglin_spawn_egg_glass_pane", new CustomPaneBlock(BlockInit.ZOMBIFIEDPIGLINSPAWNEGGBLOCK.getDefaultState(), AbstractBlock.Settings.of(Material.GLASS).nonOpaque()));
-    public static void INIT(){log("Loaded Glass Panes...");}
+
+    public static void INIT() {log("Loaded Glass Panes...");}
 }

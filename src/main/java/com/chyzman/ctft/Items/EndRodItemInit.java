@@ -1,6 +1,6 @@
 package com.chyzman.ctft.Items;
 
-import com.chyzman.ctft.Blocks.*;
+import com.chyzman.ctft.Blocks.EndRodInit;
 import com.chyzman.ctft.classes.CustomBlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -12,6 +12,7 @@ import static com.chyzman.ctft.Ctft.log;
 
 public class EndRodItemInit {
     private static Item register(String name, Item item) {return Registry.register(Registry.ITEM, id(name), item);}
+
     public static final Item ACACIABOATENDRODITEM = register("acacia_boat_end_rod", new CustomBlockItem(EndRodInit.ACACIABOATENDROD, false, "end_rod", "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ACACIABUTTONENDRODITEM = register("acacia_button_end_rod", new CustomBlockItem(EndRodInit.ACACIABUTTONENDROD, false, "end_rod", "block", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ACACIADOORENDRODITEM = register("acacia_door_end_rod", new CustomBlockItem(EndRodInit.ACACIADOORENDROD, false, "end_rod", "block", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
@@ -1111,5 +1112,6 @@ public class EndRodItemInit {
     public static final Item ZOMBIESPAWNEGGENDRODITEM = register("zombie_spawn_egg_end_rod", new CustomBlockItem(EndRodInit.ZOMBIESPAWNEGGENDROD, false, "end_rod", "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ZOMBIEVILLAGERSPAWNEGGENDRODITEM = register("zombie_villager_spawn_egg_end_rod", new CustomBlockItem(EndRodInit.ZOMBIEVILLAGERSPAWNEGGENDROD, false, "end_rod", "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ZOMBIFIEDPIGLINSPAWNEGGENDRODITEM = register("zombified_piglin_spawn_egg_end_rod", new CustomBlockItem(EndRodInit.ZOMBIFIEDPIGLINSPAWNEGGENDROD, false, "end_rod", "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
+
     public static void INIT() {log("Loaded End Rod Items...");}
 }

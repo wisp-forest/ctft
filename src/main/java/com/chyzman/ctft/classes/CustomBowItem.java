@@ -1,6 +1,5 @@
 package com.chyzman.ctft.classes;
 
-import java.util.function.Predicate;
 import net.minecraft.enchantment.EnchantmentHelper;
 import net.minecraft.enchantment.Enchantments;
 import net.minecraft.entity.LivingEntity;
@@ -18,6 +17,8 @@ import net.minecraft.util.UseAction;
 import net.minecraft.util.registry.Registry;
 import net.minecraft.world.World;
 
+import java.util.function.Predicate;
+
 public class CustomBowItem extends BowItem implements Vanishable {
     public static final int field_30855 = 20;
     public static final int RANGE = 15;
@@ -26,6 +27,7 @@ public class CustomBowItem extends BowItem implements Vanishable {
     public final float AccuracyMultiplier;
     public boolean isfoil;
     public String texturetype;
+
     public CustomBowItem(float UseDuration, float Velocity, float accuracyMultiplier, boolean isFoil, String textureType, Item.Settings settings) {
         super(settings);
         this.UseDurationMultiplier = UseDuration;
@@ -34,10 +36,12 @@ public class CustomBowItem extends BowItem implements Vanishable {
         isfoil = isFoil;
         texturetype = textureType;
     }
+
     @Override
     public boolean hasGlint(ItemStack stack) {
         return isfoil || super.hasGlint(stack);
     }
+
     @Override
     public void onStoppedUsing(ItemStack stack, World world, LivingEntity user, int remainingUseTicks) {
         boolean bl2;
@@ -54,21 +58,21 @@ public class CustomBowItem extends BowItem implements Vanishable {
         if (itemStack.isEmpty()) {
             itemStack = new ItemStack(Items.ARROW);
         }
-        if ((double)(f = BowItem.getPullProgress(i = this.getMaxUseTime(stack) - remainingUseTicks)) < 0.1) {
+        if ((double) (f = BowItem.getPullProgress(i = this.getMaxUseTime(stack) - remainingUseTicks)) < 0.1) {
             return;
         }
         boolean bl3 = bl2 = bl && itemStack.isOf(Items.ARROW);
         if (!world.isClient) {
             int k;
             int j;
-            ArrowItem arrowItem = (ArrowItem)(itemStack.getItem() instanceof ArrowItem ? itemStack.getItem() : Items.ARROW);
+            ArrowItem arrowItem = (ArrowItem) (itemStack.getItem() instanceof ArrowItem ? itemStack.getItem() : Items.ARROW);
             PersistentProjectileEntity persistentProjectileEntity = arrowItem.createArrow(world, itemStack, playerEntity);
             persistentProjectileEntity.setVelocity(playerEntity, playerEntity.getPitch(), playerEntity.getYaw(), 0.0f, f * 3.0f * VelocityMultiplier, AccuracyMultiplier);
             if (f == 1.0f) {
                 persistentProjectileEntity.setCritical(true);
             }
             if ((j = EnchantmentHelper.getLevel(Enchantments.POWER, stack)) > 0) {
-                persistentProjectileEntity.setDamage(persistentProjectileEntity.getDamage() + (double)j * 0.5 + 0.5);
+                persistentProjectileEntity.setDamage(persistentProjectileEntity.getDamage() + (double) j * 0.5 + 0.5);
             }
             if ((k = EnchantmentHelper.getLevel(Enchantments.PUNCH, stack)) > 0) {
                 persistentProjectileEntity.setPunch(k);
@@ -93,7 +97,7 @@ public class CustomBowItem extends BowItem implements Vanishable {
     }
 
     public float getPullProgressbutitscustom(int useTicks) {
-        float f = (float)useTicks / 20.0f * UseDurationMultiplier;
+        float f = (float) useTicks / 20.0f * UseDurationMultiplier;
         if ((f = (f * f + f * 2.0f) / 3.0f) > 1.0f) {
             f = 1.0f;
         }
@@ -141,7 +145,7 @@ public class CustomBowItem extends BowItem implements Vanishable {
     }
 
     @Override
-    public Text getName(){
+    public Text getName() {
         var baseitemname = (Registry.ITEM.getId(this.asItem())).getPath();
         return (new TranslatableText("ctft.item.bow_preffix")
                 .append(new TranslatableText(this.texturetype + ".minecraft." + baseitemname
@@ -149,6 +153,7 @@ public class CustomBowItem extends BowItem implements Vanishable {
                                 .lastIndexOf('_'))))
                 .append(new TranslatableText("ctft.item.bow_suffix")));
     }
+
     @Override
     public Text getName(ItemStack stack) {
         return this.getName();

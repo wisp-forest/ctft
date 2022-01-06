@@ -1,7 +1,9 @@
 package com.chyzman.ctft.Blocks;
 
-import com.chyzman.ctft.classes.*;
-import net.minecraft.block.*;
+import com.chyzman.ctft.classes.CustomLadderBlock;
+import net.minecraft.block.AbstractBlock;
+import net.minecraft.block.Block;
+import net.minecraft.block.Material;
 import net.minecraft.util.registry.Registry;
 
 import static com.chyzman.ctft.Ctft.id;
@@ -9,6 +11,7 @@ import static com.chyzman.ctft.Ctft.log;
 
 public class LadderInit {
     private static Block register(String name, Block block) {return Registry.register(Registry.BLOCK, id(name), block);}
+
     public static final Block ACACIABOATLADDER = register("acacia_boat_ladder", new CustomLadderBlock(AbstractBlock.Settings.of(Material.METAL).noCollision().nonOpaque()));
     public static final Block ACACIABUTTONLADDER = register("acacia_button_ladder", new CustomLadderBlock(AbstractBlock.Settings.of(Material.METAL).noCollision().nonOpaque()));
     public static final Block ACACIADOORLADDER = register("acacia_door_ladder", new CustomLadderBlock(AbstractBlock.Settings.of(Material.METAL).noCollision().nonOpaque()));
@@ -1108,5 +1111,6 @@ public class LadderInit {
     public static final Block ZOMBIESPAWNEGGLADDER = register("zombie_spawn_egg_ladder", new CustomLadderBlock(AbstractBlock.Settings.of(Material.METAL).noCollision().nonOpaque()));
     public static final Block ZOMBIEVILLAGERSPAWNEGGLADDER = register("zombie_villager_spawn_egg_ladder", new CustomLadderBlock(AbstractBlock.Settings.of(Material.METAL).noCollision().nonOpaque()));
     public static final Block ZOMBIFIEDPIGLINSPAWNEGGLADDER = register("zombified_piglin_spawn_egg_ladder", new CustomLadderBlock(AbstractBlock.Settings.of(Material.METAL).noCollision().nonOpaque()));
-    public static void INIT(){log("Loaded Ladders...");}
+
+    public static void INIT() {log("Loaded Ladders...");}
 }

@@ -12,6 +12,7 @@ import static com.chyzman.ctft.Ctft.log;
 
 public class GlassItemInit {
     private static Item register(String name, Item item) {return Registry.register(Registry.ITEM, id(name), item);}
+
     public static final Item ACACIABOATGLASSITEM = register("acacia_boat_glass", new CustomBlockItem(GlassInit.ACACIABOATGLASS, false, "glass", "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ACACIABUTTONGLASSITEM = register("acacia_button_glass", new CustomBlockItem(GlassInit.ACACIABUTTONGLASS, false, "glass", "block", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ACACIADOORGLASSITEM = register("acacia_door_glass", new CustomBlockItem(GlassInit.ACACIADOORGLASS, false, "glass", "block", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
@@ -1111,5 +1112,6 @@ public class GlassItemInit {
     public static final Item ZOMBIESPAWNEGGGLASSITEM = register("zombie_spawn_egg_glass", new CustomBlockItem(GlassInit.ZOMBIESPAWNEGGGLASS, false, "glass", "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ZOMBIEVILLAGERSPAWNEGGGLASSITEM = register("zombie_villager_spawn_egg_glass", new CustomBlockItem(GlassInit.ZOMBIEVILLAGERSPAWNEGGGLASS, false, "glass", "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ZOMBIFIEDPIGLINSPAWNEGGGLASSITEM = register("zombified_piglin_spawn_egg_glass", new CustomBlockItem(GlassInit.ZOMBIFIEDPIGLINSPAWNEGGGLASS, false, "glass", "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
+
     public static void INIT() {log("Loaded Glass Items...");}
 }

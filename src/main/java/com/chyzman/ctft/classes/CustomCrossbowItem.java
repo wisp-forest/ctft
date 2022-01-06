@@ -1,15 +1,12 @@
 package com.chyzman.ctft.classes;
 
 import com.google.common.collect.Lists;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
-import java.util.function.Predicate;
 import net.minecraft.advancement.criterion.Criteria;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.enchantment.EnchantmentHelper;
 import net.minecraft.enchantment.Enchantments;
-import net.minecraft.entity.*;
+import net.minecraft.entity.CrossbowUser;
+import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.projectile.*;
 import net.minecraft.entity.projectile.thrown.*;
@@ -35,6 +32,11 @@ import net.minecraft.util.registry.Registry;
 import net.minecraft.world.World;
 import org.jetbrains.annotations.Nullable;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
+import java.util.function.Predicate;
+
 public class CustomCrossbowItem extends CrossbowItem implements Vanishable {
     private static final String CHARGED_KEY = "Charged";
     private static final String CHARGED_PROJECTILES_KEY = "ChargedProjectiles";
@@ -58,6 +60,7 @@ public class CustomCrossbowItem extends CrossbowItem implements Vanishable {
         isfoil = isFoil;
         texturetype = textureType;
     }
+
     @Override
     public boolean hasGlint(ItemStack stack) {
         return isfoil || super.hasGlint(stack);
@@ -121,7 +124,7 @@ public class CustomCrossbowItem extends CrossbowItem implements Vanishable {
     private static boolean loadProjectiles(LivingEntity shooter, ItemStack projectile) {
         int i = EnchantmentHelper.getLevel(Enchantments.MULTISHOT, projectile);
         int j = i == 0 ? 1 : 3;
-        boolean bl = shooter instanceof PlayerEntity && ((PlayerEntity)shooter).getAbilities().creativeMode;
+        boolean bl = shooter instanceof PlayerEntity && ((PlayerEntity) shooter).getAbilities().creativeMode;
         ItemStack itemStack = shooter.getArrowType(projectile);
         ItemStack itemStack2 = itemStack.copy();
         for (int k = 0; k < j; ++k) {
@@ -148,7 +151,7 @@ public class CustomCrossbowItem extends CrossbowItem implements Vanishable {
         if (!(bl || creative || simulated)) {
             itemStack = projectile.split(1);
             if (projectile.isEmpty() && shooter instanceof PlayerEntity) {
-                ((PlayerEntity)shooter).getInventory().removeOne(projectile);
+                ((PlayerEntity) shooter).getInventory().removeOne(projectile);
             }
         } else {
             itemStack = projectile.copy();
@@ -208,7 +211,7 @@ public class CustomCrossbowItem extends CrossbowItem implements Vanishable {
             return;
         }
         boolean firework = projectile.isOf(Items.FIREWORK_ROCKET);
-        boolean potion = projectile.isOf(Items.LINGERING_POTION)||projectile.isOf(Items.SPLASH_POTION);
+        boolean potion = projectile.isOf(Items.LINGERING_POTION) || projectile.isOf(Items.SPLASH_POTION);
         boolean xpbottle = projectile.isOf(Items.EXPERIENCE_BOTTLE);
         boolean trident = projectile.isOf(Items.TRIDENT);
         boolean snowball = projectile.isOf(Items.SNOWBALL);
@@ -216,7 +219,7 @@ public class CustomCrossbowItem extends CrossbowItem implements Vanishable {
         boolean fireball = projectile.isOf(Items.FIRE_CHARGE);
         boolean enderpearl = projectile.isOf(Items.ENDER_PEARL);
         if (firework) {
-            projectileEntity = new FireworkRocketEntity(world, projectile, shooter, shooter.getX(), shooter.getEyeY() - (double)0.15f, shooter.getZ(), true);
+            projectileEntity = new FireworkRocketEntity(world, projectile, shooter, shooter.getX(), shooter.getEyeY() - (double) 0.15f, shooter.getZ(), true);
         } else if (potion) {
             var potiontype = new PotionEntity(world, shooter);
             potiontype.setItem(projectile);
@@ -226,24 +229,24 @@ public class CustomCrossbowItem extends CrossbowItem implements Vanishable {
         } else if (trident) {
             projectileEntity = new TridentEntity(world, shooter, projectile);
             if (creative || simulated != 0.0f) {
-                ((PersistentProjectileEntity)projectileEntity).pickupType = PersistentProjectileEntity.PickupPermission.CREATIVE_ONLY;
+                ((PersistentProjectileEntity) projectileEntity).pickupType = PersistentProjectileEntity.PickupPermission.CREATIVE_ONLY;
             }
         } else if (snowball) {
             projectileEntity = new SnowballEntity(world, shooter);
         } else if (egg) {
             projectileEntity = new EggEntity(world, shooter);
         } else if (fireball) {
-            projectileEntity = new SmallFireballEntity(world, shooter, shooter.getX(), shooter.getEyeY() - (double)0.15f, shooter.getZ());
+            projectileEntity = new SmallFireballEntity(world, shooter, shooter.getX(), shooter.getEyeY() - (double) 0.15f, shooter.getZ());
         } else if (enderpearl) {
             projectileEntity = new EnderPearlEntity(world, shooter);
         } else {
             projectileEntity = CustomCrossbowItem.createArrow(world, shooter, crossbow, projectile);
             if (creative || simulated != 0.0f) {
-                ((PersistentProjectileEntity)projectileEntity).pickupType = PersistentProjectileEntity.PickupPermission.CREATIVE_ONLY;
+                ((PersistentProjectileEntity) projectileEntity).pickupType = PersistentProjectileEntity.PickupPermission.CREATIVE_ONLY;
             }
         }
         if (shooter instanceof CrossbowUser) {
-            CrossbowUser crossbowUser = (CrossbowUser)((Object)shooter);
+            CrossbowUser crossbowUser = (CrossbowUser) ((Object) shooter);
             crossbowUser.shoot(crossbowUser.getTarget(), crossbow, projectileEntity, simulated);
         } else {
             Vec3d crossbowUser = shooter.getOppositeRotationVector(1.0f);
@@ -259,7 +262,7 @@ public class CustomCrossbowItem extends CrossbowItem implements Vanishable {
     }
 
     private static PersistentProjectileEntity createArrow(World world, LivingEntity entity, ItemStack crossbow, ItemStack arrow) {
-        ArrowItem arrowItem = (ArrowItem)(arrow.getItem() instanceof ArrowItem ? arrow.getItem() : Items.ARROW);
+        ArrowItem arrowItem = (ArrowItem) (arrow.getItem() instanceof ArrowItem ? arrow.getItem() : Items.ARROW);
         PersistentProjectileEntity persistentProjectileEntity = arrowItem.createArrow(world, arrow, entity);
         if (entity instanceof PlayerEntity) {
             persistentProjectileEntity.setCritical(true);
@@ -268,7 +271,7 @@ public class CustomCrossbowItem extends CrossbowItem implements Vanishable {
         persistentProjectileEntity.setShotFromCrossbow(true);
         int i = EnchantmentHelper.getLevel(Enchantments.PIERCING, crossbow);
         if (i > 0) {
-            persistentProjectileEntity.setPierceLevel((byte)i);
+            persistentProjectileEntity.setPierceLevel((byte) i);
         }
         return persistentProjectileEntity;
     }
@@ -279,7 +282,7 @@ public class CustomCrossbowItem extends CrossbowItem implements Vanishable {
         for (int i = 0; i < list.size(); ++i) {
             boolean bl;
             ItemStack itemStack = list.get(i);
-            boolean bl2 = bl = entity instanceof PlayerEntity && ((PlayerEntity)entity).getAbilities().creativeMode;
+            boolean bl2 = bl = entity instanceof PlayerEntity && ((PlayerEntity) entity).getAbilities().creativeMode;
             if (itemStack.isEmpty()) continue;
             if (i == 0) {
                 CustomCrossbowItem.shoot(world, entity, hand, stack, itemStack, fs[i], bl, speed, divergence, 0.0f);
@@ -307,7 +310,7 @@ public class CustomCrossbowItem extends CrossbowItem implements Vanishable {
 
     private static void postShoot(World world, LivingEntity entity, ItemStack stack) {
         if (entity instanceof ServerPlayerEntity) {
-            ServerPlayerEntity serverPlayerEntity = (ServerPlayerEntity)entity;
+            ServerPlayerEntity serverPlayerEntity = (ServerPlayerEntity) entity;
             if (!world.isClient) {
                 Criteria.SHOT_CROSSBOW.trigger(serverPlayerEntity, stack);
             }
@@ -322,7 +325,7 @@ public class CustomCrossbowItem extends CrossbowItem implements Vanishable {
             int i = EnchantmentHelper.getLevel(Enchantments.QUICK_CHARGE, stack);
             SoundEvent soundEvent = this.getQuickChargeSound(i);
             SoundEvent soundEvent2 = i == 0 ? SoundEvents.ITEM_CROSSBOW_LOADING_MIDDLE : null;
-            float f = (float)(stack.getMaxUseTime() - remainingUseTicks) / (float) CustomCrossbowItem.getPullTime(stack);
+            float f = (float) (stack.getMaxUseTime() - remainingUseTicks) / (float) CustomCrossbowItem.getPullTime(stack);
             if (f < 0.2f) {
                 this.charged = false;
                 this.loaded = false;
@@ -345,7 +348,7 @@ public class CustomCrossbowItem extends CrossbowItem implements Vanishable {
 
     public int getPullTimebutitscustom(ItemStack stack) {
         int i = EnchantmentHelper.getLevel(Enchantments.QUICK_CHARGE, stack);
-        return i == 0 ? (int)(25 * UseDurationMultiplier) : (int)(((25 - 5) * UseDurationMultiplier) * i);
+        return i == 0 ? (int) (25 * UseDurationMultiplier) : (int) (((25 - 5) * UseDurationMultiplier) * i);
     }
 
     @Override
@@ -369,7 +372,7 @@ public class CustomCrossbowItem extends CrossbowItem implements Vanishable {
     }
 
     private static float getPullProgress(int useTicks, ItemStack stack) {
-        float f = (float)useTicks / (float) CustomCrossbowItem.getPullTime(stack);
+        float f = (float) useTicks / (float) CustomCrossbowItem.getPullTime(stack);
         if (f > 1.0f) {
             f = 1.0f;
         }
@@ -389,7 +392,7 @@ public class CustomCrossbowItem extends CrossbowItem implements Vanishable {
             Items.FIREWORK_ROCKET.appendTooltip(itemStack, world, list2, context);
             if (!list2.isEmpty()) {
                 for (int i = 0; i < list2.size(); ++i) {
-                    list2.set(i, new LiteralText("  ").append((Text)list2.get(i)).formatted(Formatting.GRAY));
+                    list2.set(i, new LiteralText("  ").append((Text) list2.get(i)).formatted(Formatting.GRAY));
                 }
                 tooltip.addAll(list2);
             }
@@ -407,7 +410,7 @@ public class CustomCrossbowItem extends CrossbowItem implements Vanishable {
     }
 
     @Override
-    public Text getName(){
+    public Text getName() {
         var baseitemname = (Registry.ITEM.getId(this.asItem())).getPath();
         return (new TranslatableText("ctft.item.crossbow_preffix")
                 .append(new TranslatableText(this.texturetype + ".minecraft." + baseitemname
@@ -415,6 +418,7 @@ public class CustomCrossbowItem extends CrossbowItem implements Vanishable {
                                 .lastIndexOf('_'))))
                 .append(new TranslatableText("ctft.item.crossbow_suffix")));
     }
+
     @Override
     public Text getName(ItemStack stack) {
         return this.getName();

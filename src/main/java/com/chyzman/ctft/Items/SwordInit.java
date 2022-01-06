@@ -1,9 +1,9 @@
 package com.chyzman.ctft.Items;
 
-import com.chyzman.ctft.Registries.*;
+import com.chyzman.ctft.Registries.CtftTiers;
+import com.chyzman.ctft.classes.CustomSwordItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
-import com.chyzman.ctft.classes.*;
 import net.minecraft.util.Rarity;
 import net.minecraft.util.registry.Registry;
 
@@ -14,6 +14,7 @@ public class SwordInit {
     private static Item register(String name, Item item) {
         return Registry.register(Registry.ITEM, id(name), item);
     }
+
     public static final Item ACACIABOATSWORD = register("acacia_boat_sword", new CustomSwordItem(CtftTiers.AcaciaBoatMaterial, 4, 1.6f, false, "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ACACIABUTTONSWORD = register("acacia_button_sword", new CustomSwordItem(CtftTiers.AcaciaButtonMaterial, 4, 1.6f, false, "block", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ACACIADOORSWORD = register("acacia_door_sword", new CustomSwordItem(CtftTiers.AcaciaDoorMaterial, 4, 1.6f, false, "block", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
@@ -1113,5 +1114,6 @@ public class SwordInit {
     public static final Item ZOMBIESPAWNEGGSWORD = register("zombie_spawn_egg_sword", new CustomSwordItem(CtftTiers.ZombieSpawnEggMaterial, 2, 1.6f, false, "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ZOMBIEVILLAGERSPAWNEGGSWORD = register("zombie_villager_spawn_egg_sword", new CustomSwordItem(CtftTiers.ZombieVillagerSpawnEggMaterial, 2, 1.6f, false, "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ZOMBIFIEDPIGLINSPAWNEGGSWORD = register("zombified_piglin_spawn_egg_sword", new CustomSwordItem(CtftTiers.ZombifiedPiglinSpawnEggMaterial, 2, 1.6f, false, "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
+
     public static void INIT() {log("Loaded Swords...");}
-    }
+}

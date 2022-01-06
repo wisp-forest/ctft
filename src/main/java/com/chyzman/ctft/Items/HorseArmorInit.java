@@ -3,8 +3,6 @@ package com.chyzman.ctft.Items;
 import com.chyzman.ctft.classes.CustomHorseArmorItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
-import net.minecraft.item.HorseArmorItem;
-import net.minecraft.util.Identifier;
 import net.minecraft.util.Rarity;
 import net.minecraft.util.registry.Registry;
 
@@ -15,6 +13,7 @@ public class HorseArmorInit {
     private static Item register(String name, Item item) {
         return Registry.register(Registry.ITEM, id(name), item);
     }
+
     public static final Item ACACIABOATHORSEARMOR = register("acacia_boat_horse_armor", new CustomHorseArmorItem(3, "ctft_acacia_boat", false, "item", new Item.Settings().group(ItemGroup.SEARCH).maxCount(1).rarity(Rarity.COMMON)));
     public static final Item ACACIABUTTONHORSEARMOR = register("acacia_button_horse_armor", new CustomHorseArmorItem(3, "ctft_acacia_button", false, "block", new Item.Settings().group(ItemGroup.SEARCH).maxCount(1).rarity(Rarity.COMMON)));
     public static final Item ACACIADOORHORSEARMOR = register("acacia_door_horse_armor", new CustomHorseArmorItem(3, "ctft_acacia_door", false, "block", new Item.Settings().group(ItemGroup.SEARCH).maxCount(1).rarity(Rarity.COMMON)));
@@ -1114,5 +1113,6 @@ public class HorseArmorInit {
     public static final Item ZOMBIESPAWNEGGHORSEARMOR = register("zombie_spawn_egg_horse_armor", new CustomHorseArmorItem(3, "ctft_zombie_spawn_egg", false, "item", new Item.Settings().group(ItemGroup.SEARCH).maxCount(1).rarity(Rarity.COMMON)));
     public static final Item ZOMBIEVILLAGERSPAWNEGGHORSEARMOR = register("zombie_villager_spawn_egg_horse_armor", new CustomHorseArmorItem(3, "ctft_zombie_villager_spawn_egg", false, "item", new Item.Settings().group(ItemGroup.SEARCH).maxCount(1).rarity(Rarity.COMMON)));
     public static final Item ZOMBIFIEDPIGLINSPAWNEGGHORSEARMOR = register("zombified_piglin_spawn_egg_horse_armor", new CustomHorseArmorItem(3, "ctft_zombified_piglin_spawn_egg", false, "item", new Item.Settings().group(ItemGroup.SEARCH).maxCount(1).rarity(Rarity.COMMON)));
+
     public static void INIT() {log("Loaded Horse Armor...");}
-    }
+}

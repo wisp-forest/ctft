@@ -1,7 +1,9 @@
 package com.chyzman.ctft.Blocks;
 
-import com.chyzman.ctft.classes.*;
-import net.minecraft.block.*;
+import com.chyzman.ctft.classes.CustomStairsBlock;
+import net.minecraft.block.AbstractBlock;
+import net.minecraft.block.Block;
+import net.minecraft.block.Material;
 import net.minecraft.util.registry.Registry;
 
 import static com.chyzman.ctft.Ctft.id;
@@ -9,6 +11,7 @@ import static com.chyzman.ctft.Ctft.log;
 
 public class StairsInit {
     private static Block register(String name, Block block) {return Registry.register(Registry.BLOCK, id(name), block);}
+
     public static final Block ACACIABOATSTAIRS = register("acacia_boat_stairs", new CustomStairsBlock(BlockInit.ACACIABOATBLOCK.getDefaultState(), AbstractBlock.Settings.of(Material.METAL)));
     public static final Block ACACIABUTTONSTAIRS = register("acacia_button_stairs", new CustomStairsBlock(BlockInit.ACACIABUTTONBLOCK.getDefaultState(), AbstractBlock.Settings.of(Material.METAL)));
     public static final Block ACACIADOORSTAIRS = register("acacia_door_stairs", new CustomStairsBlock(BlockInit.ACACIADOORBLOCK.getDefaultState(), AbstractBlock.Settings.of(Material.METAL)));
@@ -1108,5 +1111,6 @@ public class StairsInit {
     public static final Block ZOMBIESPAWNEGGSTAIRS = register("zombie_spawn_egg_stairs", new CustomStairsBlock(BlockInit.ZOMBIESPAWNEGGBLOCK.getDefaultState(), AbstractBlock.Settings.of(Material.METAL)));
     public static final Block ZOMBIEVILLAGERSPAWNEGGSTAIRS = register("zombie_villager_spawn_egg_stairs", new CustomStairsBlock(BlockInit.ZOMBIEVILLAGERSPAWNEGGBLOCK.getDefaultState(), AbstractBlock.Settings.of(Material.METAL)));
     public static final Block ZOMBIFIEDPIGLINSPAWNEGGSTAIRS = register("zombified_piglin_spawn_egg_stairs", new CustomStairsBlock(BlockInit.ZOMBIFIEDPIGLINSPAWNEGGBLOCK.getDefaultState(), AbstractBlock.Settings.of(Material.METAL)));
-    public static void INIT(){log("Loaded Stairs...");}
+
+    public static void INIT() {log("Loaded Stairs...");}
 }

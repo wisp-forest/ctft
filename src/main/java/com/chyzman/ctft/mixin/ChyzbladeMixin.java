@@ -22,7 +22,8 @@ public abstract class ChyzbladeMixin extends LivingEntity {
     @Shadow
     public abstract boolean damage(DamageSource source, float amount);
 
-    @Shadow public abstract Text getName();
+    @Shadow
+    public abstract Text getName();
 
     protected ChyzbladeMixin(EntityType<? extends LivingEntity> entityType, World world) {
         super(entityType, world);

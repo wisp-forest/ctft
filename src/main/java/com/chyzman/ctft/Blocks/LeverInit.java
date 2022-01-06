@@ -1,7 +1,9 @@
 package com.chyzman.ctft.Blocks;
 
-import com.chyzman.ctft.classes.*;
-import net.minecraft.block.*;
+import com.chyzman.ctft.classes.CustomLeverBlock;
+import net.minecraft.block.AbstractBlock;
+import net.minecraft.block.Block;
+import net.minecraft.block.Material;
 import net.minecraft.util.registry.Registry;
 
 import static com.chyzman.ctft.Ctft.id;
@@ -9,6 +11,7 @@ import static com.chyzman.ctft.Ctft.log;
 
 public class LeverInit {
     private static Block register(String name, Block block) {return Registry.register(Registry.BLOCK, id(name), block);}
+
     public static final Block ACACIABOATLEVER = register("acacia_boat_lever", new CustomLeverBlock(AbstractBlock.Settings.of(Material.METAL).noCollision()));
     public static final Block ACACIABUTTONLEVER = register("acacia_button_lever", new CustomLeverBlock(AbstractBlock.Settings.of(Material.METAL).noCollision()));
     public static final Block ACACIADOORLEVER = register("acacia_door_lever", new CustomLeverBlock(AbstractBlock.Settings.of(Material.METAL).noCollision()));
@@ -1108,5 +1111,6 @@ public class LeverInit {
     public static final Block ZOMBIESPAWNEGGLEVER = register("zombie_spawn_egg_lever", new CustomLeverBlock(AbstractBlock.Settings.of(Material.METAL).noCollision()));
     public static final Block ZOMBIEVILLAGERSPAWNEGGLEVER = register("zombie_villager_spawn_egg_lever", new CustomLeverBlock(AbstractBlock.Settings.of(Material.METAL).noCollision()));
     public static final Block ZOMBIFIEDPIGLINSPAWNEGGLEVER = register("zombified_piglin_spawn_egg_lever", new CustomLeverBlock(AbstractBlock.Settings.of(Material.METAL).noCollision()));
-    public static void INIT(){log("Loaded Levers...");}
+
+    public static void INIT() {log("Loaded Levers...");}
 }

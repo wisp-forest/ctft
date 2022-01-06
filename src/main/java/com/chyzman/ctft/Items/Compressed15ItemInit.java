@@ -12,6 +12,7 @@ import static com.chyzman.ctft.Ctft.log;
 
 public class Compressed15ItemInit {
     private static Item register(String name, Item item) {return Registry.register(Registry.ITEM, id(name), item);}
+
     public static final Item ACACIABOATCOMPRESSED15ITEM = register("acacia_boat_compressed15", new CustomBlockItem(Compressed15Init.ACACIABOATCOMPRESSED15, false, "compressed15", "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ACACIABUTTONCOMPRESSED15ITEM = register("acacia_button_compressed15", new CustomBlockItem(Compressed15Init.ACACIABUTTONCOMPRESSED15, false, "compressed15", "block", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ACACIADOORCOMPRESSED15ITEM = register("acacia_door_compressed15", new CustomBlockItem(Compressed15Init.ACACIADOORCOMPRESSED15, false, "compressed15", "block", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
@@ -1111,5 +1112,6 @@ public class Compressed15ItemInit {
     public static final Item ZOMBIESPAWNEGGCOMPRESSED15ITEM = register("zombie_spawn_egg_compressed15", new CustomBlockItem(Compressed15Init.ZOMBIESPAWNEGGCOMPRESSED15, false, "compressed15", "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ZOMBIEVILLAGERSPAWNEGGCOMPRESSED15ITEM = register("zombie_villager_spawn_egg_compressed15", new CustomBlockItem(Compressed15Init.ZOMBIEVILLAGERSPAWNEGGCOMPRESSED15, false, "compressed15", "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ZOMBIFIEDPIGLINSPAWNEGGCOMPRESSED15ITEM = register("zombified_piglin_spawn_egg_compressed15", new CustomBlockItem(Compressed15Init.ZOMBIFIEDPIGLINSPAWNEGGCOMPRESSED15, false, "compressed15", "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
+
     public static void INIT() {log("Loaded Block of Block of Block of Block of Block of Block of Block of Block of Block of Block of Block of Block of Block of Block of Block of Block Items...");}
 }

@@ -1,6 +1,6 @@
 package com.chyzman.ctft.Items;
 
-import com.chyzman.ctft.Blocks.*;
+import com.chyzman.ctft.Blocks.LadderInit;
 import com.chyzman.ctft.classes.CustomBlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -12,6 +12,7 @@ import static com.chyzman.ctft.Ctft.log;
 
 public class LadderItemInit {
     private static Item register(String name, Item item) {return Registry.register(Registry.ITEM, id(name), item);}
+
     public static final Item ACACIABOATLADDERITEM = register("acacia_boat_ladder", new CustomBlockItem(LadderInit.ACACIABOATLADDER, false, "ladder", "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ACACIABUTTONLADDERITEM = register("acacia_button_ladder", new CustomBlockItem(LadderInit.ACACIABUTTONLADDER, false, "ladder", "block", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ACACIADOORLADDERITEM = register("acacia_door_ladder", new CustomBlockItem(LadderInit.ACACIADOORLADDER, false, "ladder", "block", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
@@ -1111,5 +1112,6 @@ public class LadderItemInit {
     public static final Item ZOMBIESPAWNEGGLADDERITEM = register("zombie_spawn_egg_ladder", new CustomBlockItem(LadderInit.ZOMBIESPAWNEGGLADDER, false, "ladder", "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ZOMBIEVILLAGERSPAWNEGGLADDERITEM = register("zombie_villager_spawn_egg_ladder", new CustomBlockItem(LadderInit.ZOMBIEVILLAGERSPAWNEGGLADDER, false, "ladder", "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ZOMBIFIEDPIGLINSPAWNEGGLADDERITEM = register("zombified_piglin_spawn_egg_ladder", new CustomBlockItem(LadderInit.ZOMBIFIEDPIGLINSPAWNEGGLADDER, false, "ladder", "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
+
     public static void INIT() {log("Loaded Ladder Items...");}
 }

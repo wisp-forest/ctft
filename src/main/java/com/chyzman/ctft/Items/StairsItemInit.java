@@ -2,7 +2,6 @@ package com.chyzman.ctft.Items;
 
 import com.chyzman.ctft.Blocks.StairsInit;
 import com.chyzman.ctft.classes.CustomBlockItem;
-import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Rarity;
@@ -13,6 +12,7 @@ import static com.chyzman.ctft.Ctft.log;
 
 public class StairsItemInit {
     private static Item register(String name, Item item) {return Registry.register(Registry.ITEM, id(name), item);}
+
     public static final Item ACACIABOATSTAIRSITEM = register("acacia_boat_stairs", new CustomBlockItem(StairsInit.ACACIABOATSTAIRS, false, "stairs", "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ACACIABUTTONSTAIRSITEM = register("acacia_button_stairs", new CustomBlockItem(StairsInit.ACACIABUTTONSTAIRS, false, "stairs", "block", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ACACIADOORSTAIRSITEM = register("acacia_door_stairs", new CustomBlockItem(StairsInit.ACACIADOORSTAIRS, false, "stairs", "block", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
@@ -1112,5 +1112,6 @@ public class StairsItemInit {
     public static final Item ZOMBIESPAWNEGGSTAIRSITEM = register("zombie_spawn_egg_stairs", new CustomBlockItem(StairsInit.ZOMBIESPAWNEGGSTAIRS, false, "stairs", "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ZOMBIEVILLAGERSPAWNEGGSTAIRSITEM = register("zombie_villager_spawn_egg_stairs", new CustomBlockItem(StairsInit.ZOMBIEVILLAGERSPAWNEGGSTAIRS, false, "stairs", "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ZOMBIFIEDPIGLINSPAWNEGGSTAIRSITEM = register("zombified_piglin_spawn_egg_stairs", new CustomBlockItem(StairsInit.ZOMBIFIEDPIGLINSPAWNEGGSTAIRS, false, "stairs", "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
+
     public static void INIT() {log("Loaded Stairs Items...");}
 }

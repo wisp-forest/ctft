@@ -1,10 +1,8 @@
 package com.chyzman.ctft.Items;
 
-import com.chyzman.ctft.Ctft;
 import com.chyzman.ctft.classes.CustomClockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
-import net.minecraft.item.Item;
 import net.minecraft.util.Rarity;
 import net.minecraft.util.registry.Registry;
 
@@ -15,6 +13,7 @@ public class ClockInit {
     private static Item register(String name, Item item) {
         return Registry.register(Registry.ITEM, id(name), item);
     }
+
     public static final Item ACACIABOATCLOCK = register("acacia_boat_clock", new CustomClockItem(false, "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ACACIABUTTONCLOCK = register("acacia_button_clock", new CustomClockItem(false, "block", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ACACIADOORCLOCK = register("acacia_door_clock", new CustomClockItem(false, "block", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
@@ -1114,5 +1113,6 @@ public class ClockInit {
     public static final Item ZOMBIESPAWNEGGCLOCK = register("zombie_spawn_egg_clock", new CustomClockItem(false, "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ZOMBIEVILLAGERSPAWNEGGCLOCK = register("zombie_villager_spawn_egg_clock", new CustomClockItem(false, "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ZOMBIFIEDPIGLINSPAWNEGGCLOCK = register("zombified_piglin_spawn_egg_clock", new CustomClockItem(false, "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
+
     public static void INIT() {log("Loaded Clocks...");}
-    }
+}

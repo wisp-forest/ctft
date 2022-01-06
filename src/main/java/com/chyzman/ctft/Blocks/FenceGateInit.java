@@ -1,7 +1,9 @@
 package com.chyzman.ctft.Blocks;
 
-import com.chyzman.ctft.classes.*;
-import net.minecraft.block.*;
+import net.minecraft.block.AbstractBlock;
+import net.minecraft.block.Block;
+import net.minecraft.block.FenceGateBlock;
+import net.minecraft.block.Material;
 import net.minecraft.util.registry.Registry;
 
 import static com.chyzman.ctft.Ctft.id;
@@ -9,6 +11,7 @@ import static com.chyzman.ctft.Ctft.log;
 
 public class FenceGateInit {
     private static Block register(String name, Block block) {return Registry.register(Registry.BLOCK, id(name), block);}
+
     public static final Block ACACIABOATFENCEGATE = register("acacia_boat_fence_gate", new FenceGateBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block ACACIABUTTONFENCEGATE = register("acacia_button_fence_gate", new FenceGateBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block ACACIADOORFENCEGATE = register("acacia_door_fence_gate", new FenceGateBlock(AbstractBlock.Settings.of(Material.METAL)));
@@ -1108,5 +1111,6 @@ public class FenceGateInit {
     public static final Block ZOMBIESPAWNEGGFENCEGATE = register("zombie_spawn_egg_fence_gate", new FenceGateBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block ZOMBIEVILLAGERSPAWNEGGFENCEGATE = register("zombie_villager_spawn_egg_fence_gate", new FenceGateBlock(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block ZOMBIFIEDPIGLINSPAWNEGGFENCEGATE = register("zombified_piglin_spawn_egg_fence_gate", new FenceGateBlock(AbstractBlock.Settings.of(Material.METAL)));
-    public static void INIT(){log("Loaded Fence Gates...");}
+
+    public static void INIT() {log("Loaded Fence Gates...");}
 }

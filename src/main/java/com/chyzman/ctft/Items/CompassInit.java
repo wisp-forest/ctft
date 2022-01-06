@@ -1,10 +1,8 @@
 package com.chyzman.ctft.Items;
 
-import com.chyzman.ctft.Ctft;
+import com.chyzman.ctft.classes.CustomCompassItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
-import com.chyzman.ctft.classes.CustomCompassItem;
-import net.minecraft.item.CompassItem;
 import net.minecraft.util.Rarity;
 import net.minecraft.util.registry.Registry;
 
@@ -15,6 +13,7 @@ public class CompassInit {
     private static Item register(String name, Item item) {
         return Registry.register(Registry.ITEM, id(name), item);
     }
+
     public static final Item ACACIABOATCOMPASS = register("acacia_boat_compass", new CustomCompassItem(false, "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ACACIABUTTONCOMPASS = register("acacia_button_compass", new CustomCompassItem(false, "block", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ACACIADOORCOMPASS = register("acacia_door_compass", new CustomCompassItem(false, "block", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
@@ -1114,5 +1113,6 @@ public class CompassInit {
     public static final Item ZOMBIESPAWNEGGCOMPASS = register("zombie_spawn_egg_compass", new CustomCompassItem(false, "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ZOMBIEVILLAGERSPAWNEGGCOMPASS = register("zombie_villager_spawn_egg_compass", new CustomCompassItem(false, "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ZOMBIFIEDPIGLINSPAWNEGGCOMPASS = register("zombified_piglin_spawn_egg_compass", new CustomCompassItem(false, "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
+
     public static void INIT() {log("Loaded Compasses...");}
-    }
+}

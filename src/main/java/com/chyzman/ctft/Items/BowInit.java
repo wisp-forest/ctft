@@ -1,8 +1,8 @@
 package com.chyzman.ctft.Items;
 
+import com.chyzman.ctft.classes.CustomBowItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
-import com.chyzman.ctft.classes.CustomBowItem;
 import net.minecraft.util.Rarity;
 import net.minecraft.util.registry.Registry;
 
@@ -13,6 +13,7 @@ public class BowInit {
     private static Item register(String name, Item item) {
         return Registry.register(Registry.ITEM, id(name), item);
     }
+
     public static final Item ACACIABOATBOW = register("acacia_boat_bow", new CustomBowItem(1.0f, 1.0f, 1.0f, false, "item", new Item.Settings().group(ItemGroup.SEARCH).maxCount(1).rarity(Rarity.COMMON).maxDamage(295)));
     public static final Item ACACIABUTTONBOW = register("acacia_button_bow", new CustomBowItem(1.0f, 0.5f, 2.0f, false, "block", new Item.Settings().group(ItemGroup.SEARCH).maxCount(1).rarity(Rarity.COMMON).maxDamage(59)));
     public static final Item ACACIADOORBOW = register("acacia_door_bow", new CustomBowItem(1.0f, 1.0f, 1.0f, false, "block", new Item.Settings().group(ItemGroup.SEARCH).maxCount(1).rarity(Rarity.COMMON).maxDamage(354)));
@@ -1112,5 +1113,6 @@ public class BowInit {
     public static final Item ZOMBIESPAWNEGGBOW = register("zombie_spawn_egg_bow", new CustomBowItem(0.2f, 1.0f, 1.0f, false, "item", new Item.Settings().group(ItemGroup.SEARCH).maxCount(1).rarity(Rarity.COMMON).maxDamage(44)));
     public static final Item ZOMBIEVILLAGERSPAWNEGGBOW = register("zombie_villager_spawn_egg_bow", new CustomBowItem(0.2f, 1.0f, 1.0f, false, "item", new Item.Settings().group(ItemGroup.SEARCH).maxCount(1).rarity(Rarity.COMMON).maxDamage(44)));
     public static final Item ZOMBIFIEDPIGLINSPAWNEGGBOW = register("zombified_piglin_spawn_egg_bow", new CustomBowItem(0.2f, 1.0f, 1.0f, false, "item", new Item.Settings().group(ItemGroup.SEARCH).maxCount(1).rarity(Rarity.COMMON).maxDamage(44)));
+
     public static void INIT() {log("Loaded Bows...");}
-    }
+}

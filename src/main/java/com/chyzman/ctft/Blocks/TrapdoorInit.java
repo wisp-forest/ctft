@@ -1,7 +1,9 @@
 package com.chyzman.ctft.Blocks;
 
-import com.chyzman.ctft.classes.*;
-import net.minecraft.block.*;
+import com.chyzman.ctft.classes.CustomTrapdoorBlock;
+import net.minecraft.block.AbstractBlock;
+import net.minecraft.block.Block;
+import net.minecraft.block.Material;
 import net.minecraft.util.registry.Registry;
 
 import static com.chyzman.ctft.Ctft.id;
@@ -9,6 +11,7 @@ import static com.chyzman.ctft.Ctft.log;
 
 public class TrapdoorInit {
     private static Block register(String name, Block block) {return Registry.register(Registry.BLOCK, id(name), block);}
+
     public static final Block ACACIABOATTRAPDOOR = register("acacia_boat_trapdoor", new CustomTrapdoorBlock(AbstractBlock.Settings.of(Material.CARPET).nonOpaque()));
     public static final Block ACACIABUTTONTRAPDOOR = register("acacia_button_trapdoor", new CustomTrapdoorBlock(AbstractBlock.Settings.of(Material.CARPET).nonOpaque()));
     public static final Block ACACIADOORTRAPDOOR = register("acacia_door_trapdoor", new CustomTrapdoorBlock(AbstractBlock.Settings.of(Material.CARPET).nonOpaque()));
@@ -1108,5 +1111,6 @@ public class TrapdoorInit {
     public static final Block ZOMBIESPAWNEGGTRAPDOOR = register("zombie_spawn_egg_trapdoor", new CustomTrapdoorBlock(AbstractBlock.Settings.of(Material.CARPET).nonOpaque()));
     public static final Block ZOMBIEVILLAGERSPAWNEGGTRAPDOOR = register("zombie_villager_spawn_egg_trapdoor", new CustomTrapdoorBlock(AbstractBlock.Settings.of(Material.CARPET).nonOpaque()));
     public static final Block ZOMBIFIEDPIGLINSPAWNEGGTRAPDOOR = register("zombified_piglin_spawn_egg_trapdoor", new CustomTrapdoorBlock(AbstractBlock.Settings.of(Material.CARPET).nonOpaque()));
-    public static void INIT(){log("Loaded Trapdoors...");}
+
+    public static void INIT() {log("Loaded Trapdoors...");}
 }

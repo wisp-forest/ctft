@@ -2,8 +2,6 @@ package com.chyzman.ctft.util;
 
 import com.mojang.brigadier.CommandDispatcher;
 import com.mojang.brigadier.arguments.StringArgumentType;
-import com.mojang.brigadier.context.CommandContext;
-import com.mojang.brigadier.exceptions.CommandSyntaxException;
 import net.minecraft.command.argument.EntityArgumentType;
 import net.minecraft.item.ItemStack;
 import net.minecraft.server.command.ServerCommandSource;
@@ -24,26 +22,27 @@ public class CtftCommandHandler {
                 .then(
                         argument("targets", EntityArgumentType.players())
                                 .then(argument("item", StringArgumentType.string())
-                                        .suggests((serverCommandSourceCommandContext, suggestionsBuilder) -> { Registry.ITEM
-                                                .getIds()
-                                                .stream()
-                                                .filter(id -> id
-                                                        .getNamespace()
-                                                        .equals("minecraft"))
-                                                .map(Identifier::getPath)
-                                                .forEach(suggestionsBuilder::suggest);
+                                        .suggests((serverCommandSourceCommandContext, suggestionsBuilder) -> {
+                                            Registry.ITEM
+                                                    .getIds()
+                                                    .stream()
+                                                    .filter(id -> id
+                                                            .getNamespace()
+                                                            .equals("minecraft"))
+                                                    .map(Identifier::getPath)
+                                                    .forEach(suggestionsBuilder::suggest);
                                             return suggestionsBuilder.buildFuture();
                                         }).executes(context -> execute(
                                                 EntityArgumentType.getPlayers(context, "targets"),
-                                                StringArgumentType.getString(context,"item"))
+                                                StringArgumentType.getString(context, "item"))
                                         )
                                 )
                 )
         );
     }
 
-    private static int execute( Collection<ServerPlayerEntity> targets, String item){
-        for(ServerPlayerEntity serverPlayerEntity : targets) {
+    private static int execute(Collection<ServerPlayerEntity> targets, String item) {
+        for (ServerPlayerEntity serverPlayerEntity : targets) {
             serverPlayerEntity.getInventory().setStack(0, new ItemStack(Registry.ITEM.get(new Identifier("ctft", item + "_sword"))));
             serverPlayerEntity.getInventory().setStack(1, new ItemStack(Registry.ITEM.get(new Identifier("ctft", item + "_pickaxe"))));
             serverPlayerEntity.getInventory().setStack(2, new ItemStack(Registry.ITEM.get(new Identifier("ctft", item + "_axe"))));

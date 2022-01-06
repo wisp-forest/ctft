@@ -1,7 +1,8 @@
 package com.chyzman.ctft.Blocks;
 
-import com.chyzman.ctft.classes.*;
-import net.minecraft.block.*;
+import net.minecraft.block.AbstractBlock;
+import net.minecraft.block.GlassBlock;
+import net.minecraft.block.Material;
 import net.minecraft.util.registry.Registry;
 
 import static com.chyzman.ctft.Ctft.id;
@@ -9,6 +10,7 @@ import static com.chyzman.ctft.Ctft.log;
 
 public class GlassInit {
     private static GlassBlock register(String name, GlassBlock block) {return Registry.register(Registry.BLOCK, id(name), block);}
+
     public static final GlassBlock ACACIABOATGLASS = register("acacia_boat_glass", new GlassBlock(AbstractBlock.Settings.of(Material.GLASS).nonOpaque()));
     public static final GlassBlock ACACIABUTTONGLASS = register("acacia_button_glass", new GlassBlock(AbstractBlock.Settings.of(Material.GLASS).nonOpaque()));
     public static final GlassBlock ACACIADOORGLASS = register("acacia_door_glass", new GlassBlock(AbstractBlock.Settings.of(Material.GLASS).nonOpaque()));
@@ -1108,5 +1110,6 @@ public class GlassInit {
     public static final GlassBlock ZOMBIESPAWNEGGGLASS = register("zombie_spawn_egg_glass", new GlassBlock(AbstractBlock.Settings.of(Material.GLASS).nonOpaque()));
     public static final GlassBlock ZOMBIEVILLAGERSPAWNEGGGLASS = register("zombie_villager_spawn_egg_glass", new GlassBlock(AbstractBlock.Settings.of(Material.GLASS).nonOpaque()));
     public static final GlassBlock ZOMBIFIEDPIGLINSPAWNEGGGLASS = register("zombified_piglin_spawn_egg_glass", new GlassBlock(AbstractBlock.Settings.of(Material.GLASS).nonOpaque()));
-    public static void INIT(){log("Loaded Glass...");}
+
+    public static void INIT() {log("Loaded Glass...");}
 }

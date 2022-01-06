@@ -1,7 +1,9 @@
 package com.chyzman.ctft.Blocks;
 
-import com.chyzman.ctft.classes.*;
-import net.minecraft.block.*;
+import com.chyzman.ctft.classes.CustomTorchBlock;
+import net.minecraft.block.AbstractBlock;
+import net.minecraft.block.Block;
+import net.minecraft.block.Material;
 import net.minecraft.particle.ParticleTypes;
 import net.minecraft.util.registry.Registry;
 
@@ -10,6 +12,7 @@ import static com.chyzman.ctft.Ctft.log;
 
 public class TorchInit {
     private static Block register(String name, Block block) {return Registry.register(Registry.BLOCK, id(name), block);}
+
     public static final Block ACACIABOATTORCH = register("acacia_boat_torch", new CustomTorchBlock(AbstractBlock.Settings.of(Material.METAL).noCollision().breakInstantly().luminance(state -> 14), ParticleTypes.FLAME));
     public static final Block ACACIABUTTONTORCH = register("acacia_button_torch", new CustomTorchBlock(AbstractBlock.Settings.of(Material.METAL).noCollision().breakInstantly().luminance(state -> 14), ParticleTypes.FLAME));
     public static final Block ACACIADOORTORCH = register("acacia_door_torch", new CustomTorchBlock(AbstractBlock.Settings.of(Material.METAL).noCollision().breakInstantly().luminance(state -> 14), ParticleTypes.FLAME));
@@ -1109,5 +1112,6 @@ public class TorchInit {
     public static final Block ZOMBIESPAWNEGGTORCH = register("zombie_spawn_egg_torch", new CustomTorchBlock(AbstractBlock.Settings.of(Material.METAL).noCollision().breakInstantly().luminance(state -> 14), ParticleTypes.FLAME));
     public static final Block ZOMBIEVILLAGERSPAWNEGGTORCH = register("zombie_villager_spawn_egg_torch", new CustomTorchBlock(AbstractBlock.Settings.of(Material.METAL).noCollision().breakInstantly().luminance(state -> 14), ParticleTypes.FLAME));
     public static final Block ZOMBIFIEDPIGLINSPAWNEGGTORCH = register("zombified_piglin_spawn_egg_torch", new CustomTorchBlock(AbstractBlock.Settings.of(Material.METAL).noCollision().breakInstantly().luminance(state -> 14), ParticleTypes.FLAME));
-    public static void INIT(){log("Loaded Torches...");}
+
+    public static void INIT() {log("Loaded Torches...");}
 }

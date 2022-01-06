@@ -1,7 +1,8 @@
 package com.chyzman.ctft.Blocks;
 
-import com.chyzman.ctft.classes.*;
-import net.minecraft.block.*;
+import net.minecraft.block.AbstractBlock;
+import net.minecraft.block.Block;
+import net.minecraft.block.Material;
 import net.minecraft.util.registry.Registry;
 
 import static com.chyzman.ctft.Ctft.id;
@@ -9,6 +10,7 @@ import static com.chyzman.ctft.Ctft.log;
 
 public class BlockInit {
     private static Block register(String name, Block block) {return Registry.register(Registry.BLOCK, id(name), block);}
+
     public static final Block ACACIABOATBLOCK = register("acacia_boat_block", new Block(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block ACACIABUTTONBLOCK = register("acacia_button_block", new Block(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block ACACIADOORBLOCK = register("acacia_door_block", new Block(AbstractBlock.Settings.of(Material.METAL)));
@@ -1108,5 +1110,6 @@ public class BlockInit {
     public static final Block ZOMBIESPAWNEGGBLOCK = register("zombie_spawn_egg_block", new Block(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block ZOMBIEVILLAGERSPAWNEGGBLOCK = register("zombie_villager_spawn_egg_block", new Block(AbstractBlock.Settings.of(Material.METAL)));
     public static final Block ZOMBIFIEDPIGLINSPAWNEGGBLOCK = register("zombified_piglin_spawn_egg_block", new Block(AbstractBlock.Settings.of(Material.METAL)));
-    public static void INIT(){log("Loaded Blocks...");}
+
+    public static void INIT() {log("Loaded Blocks...");}
 }

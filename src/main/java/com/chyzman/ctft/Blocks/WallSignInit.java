@@ -1,9 +1,10 @@
 package com.chyzman.ctft.Blocks;
 
-import com.chyzman.ctft.classes.*;
-import net.minecraft.block.*;
 import com.chyzman.ctft.mixin.accessor.SignTypeInvoker;
-import net.minecraft.util.SignType;
+import net.minecraft.block.AbstractBlock;
+import net.minecraft.block.Block;
+import net.minecraft.block.Material;
+import net.minecraft.block.WallSignBlock;
 import net.minecraft.util.registry.Registry;
 
 import static com.chyzman.ctft.Ctft.id;
@@ -11,6 +12,7 @@ import static com.chyzman.ctft.Ctft.log;
 
 public class WallSignInit {
     private static Block register(String name, Block block) {return Registry.register(Registry.BLOCK, id(name), block);}
+
     public static final Block ACACIABOATWALLSIGN = register("acacia_boat_wallsign", new WallSignBlock(AbstractBlock.Settings.of(Material.METAL).noCollision(), SignTypeInvoker.ctft$invokeNew("acacia_boat")));
     public static final Block ACACIABUTTONWALLSIGN = register("acacia_button_wallsign", new WallSignBlock(AbstractBlock.Settings.of(Material.METAL).noCollision(), SignTypeInvoker.ctft$invokeNew("acacia_button")));
     public static final Block ACACIADOORWALLSIGN = register("acacia_door_wallsign", new WallSignBlock(AbstractBlock.Settings.of(Material.METAL).noCollision(), SignTypeInvoker.ctft$invokeNew("acacia_door")));
@@ -1110,5 +1112,6 @@ public class WallSignInit {
     public static final Block ZOMBIESPAWNEGGWALLSIGN = register("zombie_spawn_egg_wallsign", new WallSignBlock(AbstractBlock.Settings.of(Material.METAL).noCollision(), SignTypeInvoker.ctft$invokeNew("zombie_spawn_egg")));
     public static final Block ZOMBIEVILLAGERSPAWNEGGWALLSIGN = register("zombie_villager_spawn_egg_wallsign", new WallSignBlock(AbstractBlock.Settings.of(Material.METAL).noCollision(), SignTypeInvoker.ctft$invokeNew("zombie_villager_spawn_egg")));
     public static final Block ZOMBIFIEDPIGLINSPAWNEGGWALLSIGN = register("zombified_piglin_spawn_egg_wallsign", new WallSignBlock(AbstractBlock.Settings.of(Material.METAL).noCollision(), SignTypeInvoker.ctft$invokeNew("zombified_piglin_spawn_egg")));
-    public static void INIT(){log("Loaded Wall Signs...");}
+
+    public static void INIT() {log("Loaded Wall Signs...");}
 }

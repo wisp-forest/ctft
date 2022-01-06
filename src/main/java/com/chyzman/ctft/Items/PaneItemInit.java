@@ -12,6 +12,7 @@ import static com.chyzman.ctft.Ctft.log;
 
 public class PaneItemInit {
     private static Item register(String name, Item item) {return Registry.register(Registry.ITEM, id(name), item);}
+
     public static final Item ACACIABOATPANEITEM = register("acacia_boat_pane", new CustomBlockItem(PaneInit.ACACIABOATPANE, false, "pane", "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ACACIABUTTONPANEITEM = register("acacia_button_pane", new CustomBlockItem(PaneInit.ACACIABUTTONPANE, false, "pane", "block", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ACACIADOORPANEITEM = register("acacia_door_pane", new CustomBlockItem(PaneInit.ACACIADOORPANE, false, "pane", "block", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
@@ -1111,5 +1112,6 @@ public class PaneItemInit {
     public static final Item ZOMBIESPAWNEGGPANEITEM = register("zombie_spawn_egg_pane", new CustomBlockItem(PaneInit.ZOMBIESPAWNEGGPANE, false, "pane", "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ZOMBIEVILLAGERSPAWNEGGPANEITEM = register("zombie_villager_spawn_egg_pane", new CustomBlockItem(PaneInit.ZOMBIEVILLAGERSPAWNEGGPANE, false, "pane", "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ZOMBIFIEDPIGLINSPAWNEGGPANEITEM = register("zombified_piglin_spawn_egg_pane", new CustomBlockItem(PaneInit.ZOMBIFIEDPIGLINSPAWNEGGPANE, false, "pane", "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
+
     public static void INIT() {log("Loaded Pane Items...");}
 }

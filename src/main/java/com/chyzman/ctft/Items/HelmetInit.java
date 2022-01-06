@@ -2,9 +2,9 @@ package com.chyzman.ctft.Items;
 
 import com.chyzman.ctft.Registries.CtftArmorTiers;
 import com.chyzman.ctft.classes.CustomArmorItem;
+import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
-import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.util.Rarity;
 import net.minecraft.util.registry.Registry;
 
@@ -15,6 +15,7 @@ public class HelmetInit {
     private static Item register(String name, Item item) {
         return Registry.register(Registry.ITEM, id(name), item);
     }
+
     public static final Item ACACIABOATHELMET = register("acacia_boat_helmet", new CustomArmorItem(CtftArmorTiers.AcaciaBoatArmorMaterial, EquipmentSlot.HEAD, false, "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ACACIABUTTONHELMET = register("acacia_button_helmet", new CustomArmorItem(CtftArmorTiers.AcaciaButtonArmorMaterial, EquipmentSlot.HEAD, false, "block", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ACACIADOORHELMET = register("acacia_door_helmet", new CustomArmorItem(CtftArmorTiers.AcaciaDoorArmorMaterial, EquipmentSlot.HEAD, false, "block", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
@@ -1114,5 +1115,6 @@ public class HelmetInit {
     public static final Item ZOMBIESPAWNEGGHELMET = register("zombie_spawn_egg_helmet", new CustomArmorItem(CtftArmorTiers.ZombieSpawnEggArmorMaterial, EquipmentSlot.HEAD, false, "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ZOMBIEVILLAGERSPAWNEGGHELMET = register("zombie_villager_spawn_egg_helmet", new CustomArmorItem(CtftArmorTiers.ZombieVillagerSpawnEggArmorMaterial, EquipmentSlot.HEAD, false, "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ZOMBIFIEDPIGLINSPAWNEGGHELMET = register("zombified_piglin_spawn_egg_helmet", new CustomArmorItem(CtftArmorTiers.ZombifiedPiglinSpawnEggArmorMaterial, EquipmentSlot.HEAD, false, "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
+
     public static void INIT() {log("Loaded Helmets...");}
-    }
+}

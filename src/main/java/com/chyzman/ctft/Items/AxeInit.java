@@ -1,9 +1,9 @@
 package com.chyzman.ctft.Items;
 
-import com.chyzman.ctft.Registries.*;
+import com.chyzman.ctft.Registries.CtftTiers;
+import com.chyzman.ctft.classes.CustomAxeItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
-import com.chyzman.ctft.classes.*;
 import net.minecraft.util.Rarity;
 import net.minecraft.util.registry.Registry;
 
@@ -14,6 +14,7 @@ public class AxeInit {
     private static Item register(String name, Item item) {
         return Registry.register(Registry.ITEM, id(name), item);
     }
+
     public static final Item ACACIABOATAXE = register("acacia_boat_axe", new CustomAxeItem(CtftTiers.AcaciaBoatMaterial, 7.0f, 0.8f, false, "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ACACIABUTTONAXE = register("acacia_button_axe", new CustomAxeItem(CtftTiers.AcaciaButtonMaterial, 7.0f, 0.8f, false, "block", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ACACIADOORAXE = register("acacia_door_axe", new CustomAxeItem(CtftTiers.AcaciaDoorMaterial, 7.0f, 0.8f, false, "block", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
@@ -1113,5 +1114,6 @@ public class AxeInit {
     public static final Item ZOMBIESPAWNEGGAXE = register("zombie_spawn_egg_axe", new CustomAxeItem(CtftTiers.ZombieSpawnEggMaterial, 4.0f, 0.8f, false, "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ZOMBIEVILLAGERSPAWNEGGAXE = register("zombie_villager_spawn_egg_axe", new CustomAxeItem(CtftTiers.ZombieVillagerSpawnEggMaterial, 4.0f, 0.8f, false, "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ZOMBIFIEDPIGLINSPAWNEGGAXE = register("zombified_piglin_spawn_egg_axe", new CustomAxeItem(CtftTiers.ZombifiedPiglinSpawnEggMaterial, 4.0f, 0.8f, false, "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
-        public static void INIT() {log("Loaded Axes...");}
-    }
+
+    public static void INIT() {log("Loaded Axes...");}
+}

@@ -1,6 +1,6 @@
 package com.chyzman.ctft.Items;
 
-import com.chyzman.ctft.Blocks.*;
+import com.chyzman.ctft.Blocks.FenceGateInit;
 import com.chyzman.ctft.classes.CustomBlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -12,6 +12,7 @@ import static com.chyzman.ctft.Ctft.log;
 
 public class FenceGateItemInit {
     private static Item register(String name, Item item) {return Registry.register(Registry.ITEM, id(name), item);}
+
     public static final Item ACACIABOATFENCEGATEITEM = register("acacia_boat_fence_gate", new CustomBlockItem(FenceGateInit.ACACIABOATFENCEGATE, false, "fence_gate", "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ACACIABUTTONFENCEGATEITEM = register("acacia_button_fence_gate", new CustomBlockItem(FenceGateInit.ACACIABUTTONFENCEGATE, false, "fence_gate", "block", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ACACIADOORFENCEGATEITEM = register("acacia_door_fence_gate", new CustomBlockItem(FenceGateInit.ACACIADOORFENCEGATE, false, "fence_gate", "block", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
@@ -1111,5 +1112,6 @@ public class FenceGateItemInit {
     public static final Item ZOMBIESPAWNEGGFENCEGATEITEM = register("zombie_spawn_egg_fence_gate", new CustomBlockItem(FenceGateInit.ZOMBIESPAWNEGGFENCEGATE, false, "fence_gate", "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ZOMBIEVILLAGERSPAWNEGGFENCEGATEITEM = register("zombie_villager_spawn_egg_fence_gate", new CustomBlockItem(FenceGateInit.ZOMBIEVILLAGERSPAWNEGGFENCEGATE, false, "fence_gate", "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
     public static final Item ZOMBIFIEDPIGLINSPAWNEGGFENCEGATEITEM = register("zombified_piglin_spawn_egg_fence_gate", new CustomBlockItem(FenceGateInit.ZOMBIFIEDPIGLINSPAWNEGGFENCEGATE, false, "fence_gate", "item", new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.COMMON)));
+
     public static void INIT() {log("Loaded Fence Gate Items...");}
 }
