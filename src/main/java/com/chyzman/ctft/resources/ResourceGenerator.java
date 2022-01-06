@@ -1144,1806 +1144,1807 @@ public class ResourceGenerator {
 
         Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/cube_all").textures((JModel.textures().var("all", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_block"));
 
-        if (Ctft.CONFIG.tools_config.swordsEnabled) {
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/sword").textures((JModel.textures().var("0", "ctft:items/iron_sword").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_sword"));
-            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_sword_from_crafting"), JRecipe.shaped(JPattern.pattern().row1(" 0 ").row2(" 0 ").row3(" 1 "), JKeys.keys().key("0", ingredient).key("1", stick), JResult.result("ctft:" + id + "_sword")));
-            TagInjector.injectItems(new Identifier("ctft", "ctft_swords"), Registry.ITEM.get(new Identifier("ctft", id + "_sword")));
-            if (piglin_loved.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_sword")));
-            }
-            if (freeze_immune_wearables.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_sword")));
-            }
-            if (piglin_repellents.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_sword")));
-            }
-        }
-        if (Ctft.CONFIG.tools_config.pickaxesEnabled) {
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/pickaxe").textures((JModel.textures().var("0", "ctft:items/iron_pickaxe").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_pickaxe"));
-            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_pickaxe_from_crafting"), JRecipe.shaped(JPattern.pattern().row1("000").row2(" 1 ").row3(" 1 "), JKeys.keys().key("0", ingredient).key("1", stick), JResult.result("ctft:" + id + "_pickaxe")));
-            TagInjector.injectItems(new Identifier("minecraft", "cluster_max_harvestables"), Registry.ITEM.get(new Identifier("ctft", id + "_pickaxe")));
-            TagInjector.injectItems(new Identifier("ctft", "ctft_pickaxes"), Registry.ITEM.get(new Identifier("ctft", id + "_pickaxe")));
-            if (piglin_loved.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_pickaxe")));
-            }
-            if (freeze_immune_wearables.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_pickaxe")));
-            }
-            if (piglin_repellents.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_pickaxe")));
-            }
-        }
-        if (Ctft.CONFIG.tools_config.axesEnabled) {
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/axe").textures((JModel.textures().var("0", "ctft:items/iron_axe").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_axe"));
-            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_axe_from_crafting"), JRecipe.shaped(JPattern.pattern().row1("00 ").row2("01 ").row3(" 1 "), JKeys.keys().key("0", ingredient).key("1", stick), JResult.result("ctft:" + id + "_axe")));
-            TagInjector.injectItems(new Identifier("ctft", "ctft_axes"), Registry.ITEM.get(new Identifier("ctft", id + "_axe")));
-            if (piglin_loved.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_axe")));
-            }
-            if (freeze_immune_wearables.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_axe")));
-            }
-            if (piglin_repellents.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_axe")));
-            }
-        }
-        if (Ctft.CONFIG.tools_config.shovelsEnabled) {
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/shovel").textures((JModel.textures().var("0", "ctft:items/iron_shovel").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_shovel"));
-            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_shovel_from_crafting"), JRecipe.shaped(JPattern.pattern().row1(" 0 ").row2(" 1 ").row3(" 1 "), JKeys.keys().key("0", ingredient).key("1", stick), JResult.result("ctft:" + id + "_shovel")));
-            TagInjector.injectItems(new Identifier("ctft", "ctft_shovels"), Registry.ITEM.get(new Identifier("ctft", id + "_shovel")));
-            if (piglin_loved.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_shovel")));
-                if (freeze_immune_wearables.contains(id)) {
-                    TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_shovel")));
-                }
-                if (piglin_repellents.contains(id)) {
-                    TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_shovel")));
-                }
-            }
-        }
-        if (Ctft.CONFIG.tools_config.hoesEnabled) {
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/hoe").textures((JModel.textures().var("0", "ctft:items/iron_hoe").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_hoe"));
-            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_hoe_from_crafting"), JRecipe.shaped(JPattern.pattern().row1("00 ").row2(" 1 ").row3(" 1 "), JKeys.keys().key("0", ingredient).key("1", stick), JResult.result("ctft:" + id + "_hoe")));
-            TagInjector.injectItems(new Identifier("ctft", "ctft_hoes"), Registry.ITEM.get(new Identifier("ctft", id + "_hoe")));
-            if (piglin_loved.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_hoe")));
-            }
-            if (freeze_immune_wearables.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_hoe")));
-            }
-            if (piglin_repellents.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_hoe")));
-            }
-        }
-        if (Ctft.CONFIG.tools_config.helmetsEnabled) {
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/helmet").textures((JModel.textures().var("0", "ctft:items/iron_helmet").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_helmet"));
-            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_helmet_from_crafting"), JRecipe.shaped(JPattern.pattern().row2("000").row3("0 0"), JKeys.keys().key("0", ingredient), JResult.result("ctft:" + id + "_helmet")));
-            TagInjector.injectItems(new Identifier("ctft", "ctft_helmets"), Registry.ITEM.get(new Identifier("ctft", id + "_helmet")));
-            if (piglin_loved.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_helmet")));
-                TagInjector.injectItems(new Identifier("piglib", "piglin_safe_armor"), Registry.ITEM.get(new Identifier("ctft", id + "_helmet")));
-            }
-            if (freeze_immune_wearables.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_helmet")));
-            }
-            if (piglin_repellents.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_helmet")));
-            }
-        }
-        if (Ctft.CONFIG.tools_config.chestplatesEnabled) {
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/chestplate").textures((JModel.textures().var("0", "ctft:items/iron_chestplate").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_chestplate"));
-            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_chestplate_from_crafting"), JRecipe.shaped(JPattern.pattern().row1("0 0").row2("000").row3("000"), JKeys.keys().key("0", ingredient), JResult.result("ctft:" + id + "_chestplate")));
-            TagInjector.injectItems(new Identifier("ctft", "ctft_chestplates"), Registry.ITEM.get(new Identifier("ctft", id + "_chestplate")));
-            if (piglin_loved.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_chestplate")));
-                TagInjector.injectItems(new Identifier("piglib", "piglin_safe_armor"), Registry.ITEM.get(new Identifier("ctft", id + "_chestplate")));
-            }
-            if (freeze_immune_wearables.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_chestplate")));
-            }
-            if (piglin_repellents.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_chestplate")));
-            }
-        }
-        if (Ctft.CONFIG.tools_config.leggingsEnabled) {
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/leggings").textures((JModel.textures().var("0", "ctft:items/iron_leggings").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_leggings"));
-            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_leggings_from_crafting"), JRecipe.shaped(JPattern.pattern().row1("000").row2("0 0").row3("0 0"), JKeys.keys().key("0", ingredient), JResult.result("ctft:" + id + "_leggings")));
-            TagInjector.injectItems(new Identifier("ctft", "ctft_leggings"), Registry.ITEM.get(new Identifier("ctft", id + "_leggings")));
-            if (piglin_loved.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_leggings")));
-                TagInjector.injectItems(new Identifier("piglib", "piglin_safe_armor"), Registry.ITEM.get(new Identifier("ctft", id + "_leggings")));
-            }
-            if (freeze_immune_wearables.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_leggings")));
-            }
-            if (piglin_repellents.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_leggings")));
-            }
-        }
-        if (Ctft.CONFIG.tools_config.bootsEnabled) {
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/boots").textures((JModel.textures().var("0", "ctft:items/iron_boots").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_boots"));
-            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_boots_from_crafting"), JRecipe.shaped(JPattern.pattern().row2("0 0").row3("0 0"), JKeys.keys().key("0", ingredient), JResult.result("ctft:" + id + "_boots")));
-            TagInjector.injectItems(new Identifier("ctft", "ctft_boots"), Registry.ITEM.get(new Identifier("ctft", id + "_boots")));
-            if (piglin_loved.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_boots")));
-                TagInjector.injectItems(new Identifier("piglib", "piglin_safe_armor"), Registry.ITEM.get(new Identifier("ctft", id + "_boots")));
-            }
-            if (freeze_immune_wearables.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_boots")));
-            }
-            if (piglin_repellents.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_boots")));
-            }
-        }
-        if (Ctft.CONFIG.tools_config.bowsEnabled) {
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/bow").textures((JModel.textures().var("0", "ctft:items/bow").var("1", namespace).particle(namespace)))
-                    .addOverride(JModel.override(JModel.condition().parameter("pulling", 1.0), new Identifier("ctft", "item/" + id + "_bow_pulling_0")))
-                    .addOverride(JModel.override(JModel.condition().parameter("pulling", 1.0).parameter("pull", 0.65), new Identifier("ctft", "item/" + id + "_bow_pulling_1")))
-                    .addOverride(JModel.override(JModel.condition().parameter("pulling", 1.0).parameter("pull", 0.9), new Identifier("ctft", "item/" + id + "_bow_pulling_2"))), new Identifier("ctft", "item/" + id + "_bow"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/bow_pulling_0").textures((JModel.textures().var("0", "ctft:items/bow_pulling_0").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_bow_pulling_0"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/bow_pulling_1").textures((JModel.textures().var("0", "ctft:items/bow_pulling_1").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_bow_pulling_1"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/bow_pulling_2").textures((JModel.textures().var("0", "ctft:items/bow_pulling_2").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_bow_pulling_2"));
-            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_bow_from_crafting"), JRecipe.shaped(JPattern.pattern().row1(" 01").row2("0 1").row3(" 01"), JKeys.keys().key("0", ingredient).key("1", string), JResult.result("ctft:" + id + "_bow")));
-            TagInjector.injectItems(new Identifier("ctft", "ctft_bows"), Registry.ITEM.get(new Identifier("ctft", id + "_bow")));
-            if (piglin_loved.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_bow")));
-            }
-            if (freeze_immune_wearables.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_bow")));
-            }
-            if (piglin_repellents.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_bow")));
-            }
-        }
-        if (Ctft.CONFIG.tools_config.crossbowsEnabled) {
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/crossbow_standby").textures((JModel.textures().var("0", "ctft:items/crossbow_standby").var("1", namespace).particle(namespace)))
-                    .addOverride(JModel.override(JModel.condition().parameter("pulling", 1.0), new Identifier("ctft", "item/" + id + "_crossbow_pulling_0")))
-                    .addOverride(JModel.override(JModel.condition().parameter("pulling", 1.0).parameter("pull", 0.58), new Identifier("ctft", "item/" + id + "_crossbow_pulling_1")))
-                    .addOverride(JModel.override(JModel.condition().parameter("pulling", 1.0).parameter("pull", 1.0), new Identifier("ctft", "item/" + id + "_crossbow_pulling_2")))
-                    .addOverride(JModel.override(JModel.condition().parameter("charged", 1.0), new Identifier("ctft", "item/" + id + "_crossbow_arrow")))
-                    .addOverride(JModel.override(JModel.condition().parameter("charged", 1.0).parameter("firework", 1.0), new Identifier("ctft", "item/" + id + "_crossbow_firework")))
-                    .addOverride(JModel.override(JModel.condition().parameter("charged", 1.0).parameter("ender_pearl", 1.0), new Identifier("ctft", "item/" + id + "_crossbow_ender_pearl")))
-                    .addOverride(JModel.override(JModel.condition().parameter("charged", 1.0).parameter("potion", 1.0), new Identifier("ctft", "item/" + id + "_crossbow_potion")))
-                    .addOverride(JModel.override(JModel.condition().parameter("charged", 1.0).parameter("experience_bottle", 1.0), new Identifier("ctft", "item/" + id + "_crossbow_experience_bottle")))
-                    .addOverride(JModel.override(JModel.condition().parameter("charged", 1.0).parameter("trident", 1.0), new Identifier("ctft", "item/" + id + "_crossbow_trident")))
-                    .addOverride(JModel.override(JModel.condition().parameter("charged", 1.0).parameter("egg", 1.0), new Identifier("ctft", "item/" + id + "_crossbow_egg")))
-                    .addOverride(JModel.override(JModel.condition().parameter("charged", 1.0).parameter("snowball", 1.0), new Identifier("ctft", "item/" + id + "_crossbow_snowball")))
-                    .addOverride(JModel.override(JModel.condition().parameter("charged", 1.0).parameter("fire_charge", 1.0), new Identifier("ctft", "item/" + id + "_crossbow_fire_charge"))), new Identifier("ctft", "item/" + id + "_crossbow"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/crossbow_pulling_0").textures((JModel.textures().var("0", "ctft:items/crossbow_pulling_0").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_crossbow_pulling_0"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/crossbow_pulling_1").textures((JModel.textures().var("0", "ctft:items/crossbow_pulling_1").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_crossbow_pulling_1"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/crossbow_pulling_2").textures((JModel.textures().var("0", "ctft:items/crossbow_pulling_2").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_crossbow_pulling_2"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/crossbow_arrow").textures((JModel.textures().var("0", "ctft:items/crossbow_arrow").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_crossbow_arrow"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/crossbow_firework").textures((JModel.textures().var("0", "ctft:items/crossbow_firework").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_crossbow_firework"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/crossbow_ender_pearl").textures((JModel.textures().var("0", "ctft:items/crossbow_ender_pearl").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_crossbow_ender_pearl"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/crossbow_potion").textures((JModel.textures().var("0", "ctft:items/crossbow_potion").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_crossbow_potion"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/crossbow_experience_bottle").textures((JModel.textures().var("0", "ctft:items/crossbow_experience_bottle").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_crossbow_experience_bottle"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/crossbow_trident").textures((JModel.textures().var("0", "ctft:items/crossbow_trident").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_crossbow_trident"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/crossbow_egg").textures((JModel.textures().var("0", "ctft:items/crossbow_egg").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_crossbow_egg"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/crossbow_snowball").textures((JModel.textures().var("0", "ctft:items/crossbow_snowball").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_crossbow_snowball"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/crossbow_fire_charge").textures((JModel.textures().var("0", "ctft:items/crossbow_fire_charge").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_crossbow_fire_charge"));
-            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_crossbow_from_crafting"), JRecipe.shaped(JPattern.pattern().row1("020").row2("131").row3(" 0 "), JKeys.keys().key("0", ingredient).key("1", string).key("2", iron).key("3", hook), JResult.result("ctft:" + id + "_crossbow")));
-            TagInjector.injectItems(new Identifier("ctft", "ctft_crossbows"), Registry.ITEM.get(new Identifier("ctft", id + "_crossbow")));
-            if (piglin_loved.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_crossbow")));
-            }
-            if (freeze_immune_wearables.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_crossbow")));
-            }
-            if (piglin_repellents.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_crossbow")));
-            }
-        }
-        if (Ctft.CONFIG.tools_config.shieldsEnabled) {
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/shield").textures((JModel.textures().var("0", "ctft:items/shield_base").var("1", namespace).particle(namespace))).addOverride(JModel.override(JModel.condition().parameter("blocking", 1.0), new Identifier("ctft", "item/" + id + "_shield_blocking"))), new Identifier("ctft", "item/" + id + "_shield"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/shield_blocking").textures((JModel.textures().var("0", "ctft:items/shield_base").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_shield_blocking"));
-            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_shield_from_crafting"), JRecipe.shaped(JPattern.pattern().row1("010").row2("000").row3(" 0 "), JKeys.keys().key("0", ingredient).key("1", iron), JResult.result("ctft:" + id + "_shield")));
-            TagInjector.injectItems(new Identifier("ctft", "ctft_shields"), Registry.ITEM.get(new Identifier("ctft", id + "_shield")));
-            if (piglin_loved.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_shield")));
-            }
-            if (freeze_immune_wearables.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_shield")));
-            }
-            if (piglin_repellents.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_shield")));
-            }
-        }
-        if (Ctft.CONFIG.tools_config.shearsEnabled) {
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/shears").textures((JModel.textures().var("0", "ctft:items/shears").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_shears"));
-            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_shears_from_crafting"), JRecipe.shaped(JPattern.pattern().row1(" 0 ").row2("0  "), JKeys.keys().key("0", ingredient), JResult.result("ctft:" + id + "_shears")));
-            TagInjector.injectItems(new Identifier("ctft", "ctft_shears"), Registry.ITEM.get(new Identifier("ctft", id + "_shears")));
-            if (piglin_loved.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_shears")));
-            }
-            if (freeze_immune_wearables.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_shears")));
-            }
-            if (piglin_repellents.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_shears")));
-            }
-        }
-        if (Ctft.CONFIG.tools_config.fishingRodsEnabled) {
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/fishing_rod").textures((JModel.textures().var("0", "ctft:items/fishing_rod").var("1", namespace).particle(namespace))).addOverride(JModel.override(JModel.condition().parameter("cast", 1.0), new Identifier("ctft", "item/" + id + "_fishing_rod_cast"))), new Identifier("ctft", "item/" + id + "_fishing_rod"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/fishing_rod_casting").textures((JModel.textures().var("0", "ctft:items/fishing_rod").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_fishing_rod_cast"));
-            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_fishing_rod_from_crafting"), JRecipe.shaped(JPattern.pattern().row1("  0").row2(" 01").row3("0 1"), JKeys.keys().key("0", ingredient).key("1", string), JResult.result("ctft:" + id + "_fishing_rod")));
-            TagInjector.injectItems(new Identifier("ctft", "ctft_fishing_rods"), Registry.ITEM.get(new Identifier("ctft", id + "_fishing_rod")));
-            if (piglin_loved.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_fishing_rod")));
-            }
-            if (freeze_immune_wearables.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_fishing_rod")));
-            }
-            if (piglin_repellents.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_fishing_rod")));
-            }
-        }
-        if (Ctft.CONFIG.tools_config.clocksEnabled) {
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_00").var("1", namespace).particle(namespace)))
-                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.0000000), new Identifier("ctft", "item/" + id + "_clock_00")))
-                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.0078125), new Identifier("ctft", "item/" + id + "_clock_01")))
-                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.0234375), new Identifier("ctft", "item/" + id + "_clock_02")))
-                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.0390625), new Identifier("ctft", "item/" + id + "_clock_03")))
-                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.0546875), new Identifier("ctft", "item/" + id + "_clock_04")))
-                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.0703125), new Identifier("ctft", "item/" + id + "_clock_05")))
-                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.0859375), new Identifier("ctft", "item/" + id + "_clock_06")))
-                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.1015625), new Identifier("ctft", "item/" + id + "_clock_07")))
-                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.1171875), new Identifier("ctft", "item/" + id + "_clock_08")))
-                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.1328125), new Identifier("ctft", "item/" + id + "_clock_09")))
-                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.1484375), new Identifier("ctft", "item/" + id + "_clock_10")))
-                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.1640625), new Identifier("ctft", "item/" + id + "_clock_11")))
-                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.1796875), new Identifier("ctft", "item/" + id + "_clock_12")))
-                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.1953125), new Identifier("ctft", "item/" + id + "_clock_13")))
-                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.2109375), new Identifier("ctft", "item/" + id + "_clock_14")))
-                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.2265625), new Identifier("ctft", "item/" + id + "_clock_15")))
-                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.2421875), new Identifier("ctft", "item/" + id + "_clock_16")))
-                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.2578125), new Identifier("ctft", "item/" + id + "_clock_17")))
-                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.2734375), new Identifier("ctft", "item/" + id + "_clock_18")))
-                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.2890625), new Identifier("ctft", "item/" + id + "_clock_19")))
-                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.3046875), new Identifier("ctft", "item/" + id + "_clock_20")))
-                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.3203125), new Identifier("ctft", "item/" + id + "_clock_21")))
-                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.3359375), new Identifier("ctft", "item/" + id + "_clock_22")))
-                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.3515625), new Identifier("ctft", "item/" + id + "_clock_23")))
-                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.3671875), new Identifier("ctft", "item/" + id + "_clock_24")))
-                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.3828125), new Identifier("ctft", "item/" + id + "_clock_25")))
-                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.3984375), new Identifier("ctft", "item/" + id + "_clock_26")))
-                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.4140625), new Identifier("ctft", "item/" + id + "_clock_27")))
-                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.4296875), new Identifier("ctft", "item/" + id + "_clock_28")))
-                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.4453125), new Identifier("ctft", "item/" + id + "_clock_29")))
-                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.4609375), new Identifier("ctft", "item/" + id + "_clock_30")))
-                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.4765625), new Identifier("ctft", "item/" + id + "_clock_31")))
-                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.4921875), new Identifier("ctft", "item/" + id + "_clock_32")))
-                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.5078125), new Identifier("ctft", "item/" + id + "_clock_33")))
-                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.5234375), new Identifier("ctft", "item/" + id + "_clock_34")))
-                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.5390625), new Identifier("ctft", "item/" + id + "_clock_35")))
-                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.5546875), new Identifier("ctft", "item/" + id + "_clock_36")))
-                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.5703125), new Identifier("ctft", "item/" + id + "_clock_37")))
-                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.5859375), new Identifier("ctft", "item/" + id + "_clock_38")))
-                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.6015625), new Identifier("ctft", "item/" + id + "_clock_39")))
-                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.6171875), new Identifier("ctft", "item/" + id + "_clock_40")))
-                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.6328125), new Identifier("ctft", "item/" + id + "_clock_41")))
-                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.6484375), new Identifier("ctft", "item/" + id + "_clock_42")))
-                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.6640625), new Identifier("ctft", "item/" + id + "_clock_43")))
-                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.6796875), new Identifier("ctft", "item/" + id + "_clock_44")))
-                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.6953125), new Identifier("ctft", "item/" + id + "_clock_45")))
-                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.7109375), new Identifier("ctft", "item/" + id + "_clock_46")))
-                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.7265625), new Identifier("ctft", "item/" + id + "_clock_47")))
-                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.7421875), new Identifier("ctft", "item/" + id + "_clock_48")))
-                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.7578125), new Identifier("ctft", "item/" + id + "_clock_49")))
-                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.7734375), new Identifier("ctft", "item/" + id + "_clock_50")))
-                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.7890625), new Identifier("ctft", "item/" + id + "_clock_51")))
-                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.8046875), new Identifier("ctft", "item/" + id + "_clock_52")))
-                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.8203125), new Identifier("ctft", "item/" + id + "_clock_53")))
-                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.8359375), new Identifier("ctft", "item/" + id + "_clock_54")))
-                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.8515625), new Identifier("ctft", "item/" + id + "_clock_55")))
-                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.8671875), new Identifier("ctft", "item/" + id + "_clock_56")))
-                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.8828125), new Identifier("ctft", "item/" + id + "_clock_57")))
-                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.8984375), new Identifier("ctft", "item/" + id + "_clock_58")))
-                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.9140625), new Identifier("ctft", "item/" + id + "_clock_59")))
-                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.9296875), new Identifier("ctft", "item/" + id + "_clock_60")))
-                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.9453125), new Identifier("ctft", "item/" + id + "_clock_61")))
-                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.9609375), new Identifier("ctft", "item/" + id + "_clock_62")))
-                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.9765625), new Identifier("ctft", "item/" + id + "_clock_63")))
-                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.9921875), new Identifier("ctft", "item/" + id + "_clock_00"))), new Identifier("ctft", "item/" + id + "_clock"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_00").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_00"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_01").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_01"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_02").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_02"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_03").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_03"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_04").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_04"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_05").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_05"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_06").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_06"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_07").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_07"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_08").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_08"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_09").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_09"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_10").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_10"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_11").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_11"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_12").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_12"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_13").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_13"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_14").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_14"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_15").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_15"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_16").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_16"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_17").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_17"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_18").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_18"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_19").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_19"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_20").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_20"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_21").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_21"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_22").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_22"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_23").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_23"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_24").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_24"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_25").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_25"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_26").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_26"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_27").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_27"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_28").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_28"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_29").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_29"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_30").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_30"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_31").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_31"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_32").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_32"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_33").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_33"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_34").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_34"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_35").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_35"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_36").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_36"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_37").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_37"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_38").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_38"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_39").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_39"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_40").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_40"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_41").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_41"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_42").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_42"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_43").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_43"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_44").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_44"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_45").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_45"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_46").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_46"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_47").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_47"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_48").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_48"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_49").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_49"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_50").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_50"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_51").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_51"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_52").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_52"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_53").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_53"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_54").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_54"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_55").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_55"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_56").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_56"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_57").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_57"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_58").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_58"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_59").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_59"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_60").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_60"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_61").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_61"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_62").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_62"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_63").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_63"));
-            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_clock_from_crafting"), JRecipe.shaped(JPattern.pattern().row1(" 0 ").row2("010").row3(" 0 "), JKeys.keys().key("0", ingredient).key("1", gold), JResult.result("ctft:" + id + "_clock")));
-            TagInjector.injectItems(new Identifier("ctft", "ctft_clocks"), Registry.ITEM.get(new Identifier("ctft", id + "_clock")));
-            if (piglin_loved.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_clock")));
-            }
-            if (freeze_immune_wearables.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_clock")));
-            }
-            if (piglin_repellents.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_clock")));
-            }
-        }
-        if (Ctft.CONFIG.tools_config.compassesEnabled) {
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compass").textures((JModel.textures().var("0", "ctft:items/compass_16").var("1", namespace).particle(namespace)))
-                    .addOverride(JModel.override(JModel.condition().parameter("angle", 0.000000), new Identifier("ctft", "item/" + id + "_compass_16")))
-                    .addOverride(JModel.override(JModel.condition().parameter("angle", 0.015625), new Identifier("ctft", "item/" + id + "_compass_17")))
-                    .addOverride(JModel.override(JModel.condition().parameter("angle", 0.046875), new Identifier("ctft", "item/" + id + "_compass_18")))
-                    .addOverride(JModel.override(JModel.condition().parameter("angle", 0.078125), new Identifier("ctft", "item/" + id + "_compass_19")))
-                    .addOverride(JModel.override(JModel.condition().parameter("angle", 0.109375), new Identifier("ctft", "item/" + id + "_compass_20")))
-                    .addOverride(JModel.override(JModel.condition().parameter("angle", 0.140625), new Identifier("ctft", "item/" + id + "_compass_21")))
-                    .addOverride(JModel.override(JModel.condition().parameter("angle", 0.171875), new Identifier("ctft", "item/" + id + "_compass_22")))
-                    .addOverride(JModel.override(JModel.condition().parameter("angle", 0.203125), new Identifier("ctft", "item/" + id + "_compass_23")))
-                    .addOverride(JModel.override(JModel.condition().parameter("angle", 0.234375), new Identifier("ctft", "item/" + id + "_compass_24")))
-                    .addOverride(JModel.override(JModel.condition().parameter("angle", 0.265625), new Identifier("ctft", "item/" + id + "_compass_25")))
-                    .addOverride(JModel.override(JModel.condition().parameter("angle", 0.296875), new Identifier("ctft", "item/" + id + "_compass_26")))
-                    .addOverride(JModel.override(JModel.condition().parameter("angle", 0.328125), new Identifier("ctft", "item/" + id + "_compass_27")))
-                    .addOverride(JModel.override(JModel.condition().parameter("angle", 0.359375), new Identifier("ctft", "item/" + id + "_compass_28")))
-                    .addOverride(JModel.override(JModel.condition().parameter("angle", 0.390625), new Identifier("ctft", "item/" + id + "_compass_29")))
-                    .addOverride(JModel.override(JModel.condition().parameter("angle", 0.421875), new Identifier("ctft", "item/" + id + "_compass_30")))
-                    .addOverride(JModel.override(JModel.condition().parameter("angle", 0.453125), new Identifier("ctft", "item/" + id + "_compass_31")))
-                    .addOverride(JModel.override(JModel.condition().parameter("angle", 0.484375), new Identifier("ctft", "item/" + id + "_compass_00")))
-                    .addOverride(JModel.override(JModel.condition().parameter("angle", 0.515625), new Identifier("ctft", "item/" + id + "_compass_01")))
-                    .addOverride(JModel.override(JModel.condition().parameter("angle", 0.546875), new Identifier("ctft", "item/" + id + "_compass_02")))
-                    .addOverride(JModel.override(JModel.condition().parameter("angle", 0.578125), new Identifier("ctft", "item/" + id + "_compass_03")))
-                    .addOverride(JModel.override(JModel.condition().parameter("angle", 0.609375), new Identifier("ctft", "item/" + id + "_compass_04")))
-                    .addOverride(JModel.override(JModel.condition().parameter("angle", 0.640625), new Identifier("ctft", "item/" + id + "_compass_05")))
-                    .addOverride(JModel.override(JModel.condition().parameter("angle", 0.671875), new Identifier("ctft", "item/" + id + "_compass_06")))
-                    .addOverride(JModel.override(JModel.condition().parameter("angle", 0.703125), new Identifier("ctft", "item/" + id + "_compass_07")))
-                    .addOverride(JModel.override(JModel.condition().parameter("angle", 0.734375), new Identifier("ctft", "item/" + id + "_compass_08")))
-                    .addOverride(JModel.override(JModel.condition().parameter("angle", 0.765625), new Identifier("ctft", "item/" + id + "_compass_09")))
-                    .addOverride(JModel.override(JModel.condition().parameter("angle", 0.796875), new Identifier("ctft", "item/" + id + "_compass_10")))
-                    .addOverride(JModel.override(JModel.condition().parameter("angle", 0.828125), new Identifier("ctft", "item/" + id + "_compass_11")))
-                    .addOverride(JModel.override(JModel.condition().parameter("angle", 0.859375), new Identifier("ctft", "item/" + id + "_compass_12")))
-                    .addOverride(JModel.override(JModel.condition().parameter("angle", 0.890625), new Identifier("ctft", "item/" + id + "_compass_13")))
-                    .addOverride(JModel.override(JModel.condition().parameter("angle", 0.921875), new Identifier("ctft", "item/" + id + "_compass_14")))
-                    .addOverride(JModel.override(JModel.condition().parameter("angle", 0.953125), new Identifier("ctft", "item/" + id + "_compass_15")))
-                    .addOverride(JModel.override(JModel.condition().parameter("angle", 0.984375), new Identifier("ctft", "item/" + id + "_compass_16"))), new Identifier("ctft", "item/" + id + "_compass"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compass").textures((JModel.textures().var("0", "ctft:items/compass_00").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compass_00"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compass").textures((JModel.textures().var("0", "ctft:items/compass_01").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compass_01"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compass").textures((JModel.textures().var("0", "ctft:items/compass_02").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compass_02"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compass").textures((JModel.textures().var("0", "ctft:items/compass_03").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compass_03"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compass").textures((JModel.textures().var("0", "ctft:items/compass_04").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compass_04"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compass").textures((JModel.textures().var("0", "ctft:items/compass_05").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compass_05"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compass").textures((JModel.textures().var("0", "ctft:items/compass_06").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compass_06"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compass").textures((JModel.textures().var("0", "ctft:items/compass_07").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compass_07"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compass").textures((JModel.textures().var("0", "ctft:items/compass_08").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compass_08"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compass").textures((JModel.textures().var("0", "ctft:items/compass_09").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compass_09"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compass").textures((JModel.textures().var("0", "ctft:items/compass_10").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compass_10"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compass").textures((JModel.textures().var("0", "ctft:items/compass_11").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compass_11"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compass").textures((JModel.textures().var("0", "ctft:items/compass_12").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compass_12"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compass").textures((JModel.textures().var("0", "ctft:items/compass_13").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compass_13"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compass").textures((JModel.textures().var("0", "ctft:items/compass_14").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compass_14"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compass").textures((JModel.textures().var("0", "ctft:items/compass_15").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compass_15"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compass").textures((JModel.textures().var("0", "ctft:items/compass_16").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compass_16"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compass").textures((JModel.textures().var("0", "ctft:items/compass_17").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compass_17"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compass").textures((JModel.textures().var("0", "ctft:items/compass_18").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compass_18"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compass").textures((JModel.textures().var("0", "ctft:items/compass_19").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compass_19"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compass").textures((JModel.textures().var("0", "ctft:items/compass_20").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compass_20"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compass").textures((JModel.textures().var("0", "ctft:items/compass_21").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compass_21"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compass").textures((JModel.textures().var("0", "ctft:items/compass_22").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compass_22"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compass").textures((JModel.textures().var("0", "ctft:items/compass_23").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compass_23"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compass").textures((JModel.textures().var("0", "ctft:items/compass_24").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compass_24"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compass").textures((JModel.textures().var("0", "ctft:items/compass_25").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compass_25"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compass").textures((JModel.textures().var("0", "ctft:items/compass_26").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compass_26"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compass").textures((JModel.textures().var("0", "ctft:items/compass_27").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compass_27"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compass").textures((JModel.textures().var("0", "ctft:items/compass_28").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compass_28"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compass").textures((JModel.textures().var("0", "ctft:items/compass_29").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compass_29"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compass").textures((JModel.textures().var("0", "ctft:items/compass_30").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compass_30"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compass").textures((JModel.textures().var("0", "ctft:items/compass_31").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compass_31"));
-            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compass_from_crafting"), JRecipe.shaped(JPattern.pattern().row1(" 0 ").row2("010").row3(" 0 "), JKeys.keys().key("0", ingredient).key("1", iron), JResult.result("ctft:" + id + "_compass")));
-            TagInjector.injectItems(new Identifier("ctft", "ctft_compasses"), Registry.ITEM.get(new Identifier("ctft", id + "_compass")));
-            if (piglin_loved.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_compass")));
-            }
-            if (freeze_immune_wearables.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_compass")));
-            }
-            if (piglin_repellents.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_compass")));
-            }
-        }
-        if (Ctft.CONFIG.tools_config.horseArmorEnabled) {
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/horse_armor").textures((JModel.textures().var("0", "ctft:items/horse_armor").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_horse_armor"));
-            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_horse_armor_from_crafting"), JRecipe.shaped(JPattern.pattern().row1("  0").row2("000").row3("0 0"), JKeys.keys().key("0", ingredient), JResult.result("ctft:" + id + "_horse_armor")));
-            TagInjector.injectItems(new Identifier("ctft", "ctft_horse_armor"), Registry.ITEM.get(new Identifier("ctft", id + "_horse_armor")));
-            if (piglin_loved.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_horse_armor")));
-            }
-            if (freeze_immune_wearables.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_horse_armor")));
-            }
-            if (piglin_repellents.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_horse_armor")));
-            }
-        }
-        if (Ctft.CONFIG.tools_config.blocksEnabled) {
-            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
-                    .put("", JState.model("ctft:item/" + id + "_block"))
-            ), new Identifier("ctft:" + id + "_block"));
-            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_block_from_material"), JRecipe.shaped(JPattern.pattern().row1("000").row2("000").row3("000"), JKeys.keys().key("0", ingredient), JResult.result("ctft:" + id + "_block")));
-            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_material_from_block"), JRecipe.shapeless(JIngredients.ingredients().add(block), JResult.stackedResult("minecraft:" + id, 9)));
-            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_block"), JLootTable
-                    .loot("block")
-                    .pool(JLootTable.pool()
-                            .rolls(1)
-                            .entry(JLootTable
-                                    .entry()
-                                    .type("minecraft:item")
-                                    .name("ctft:" + id + "_block"))));
-            TagInjector.injectItems(new Identifier("ctft", "ctft_blocks"), Registry.ITEM.get(new Identifier("ctft", id + "_block")));
-            if (piglin_loved.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_block")));
-            }
-            if (freeze_immune_wearables.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_block")));
-            }
-            if (piglin_repellents.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_block")));
-            }
-        }
-        if (Ctft.CONFIG.tools_config.stairsEnabled) {
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/stairs").textures((JModel.textures().var("bottom", namespace).var("top", namespace).var("side", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_stairs"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/inner_stairs").textures((JModel.textures().var("bottom", namespace).var("top", namespace).var("side", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_stairs_inner"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/outer_stairs").textures((JModel.textures().var("bottom", namespace).var("top", namespace).var("side", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_stairs_outer"));
-            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
-                    .put("facing=east,half=bottom,shape=inner_left", JState.model("ctft:block/" + id + "_stairs_inner").y(270).uvlock())
-                    .put("facing=east,half=bottom,shape=inner_right", JState.model("ctft:block/" + id + "_stairs_inner"))
-                    .put("facing=east,half=bottom,shape=outer_left", JState.model("ctft:block/" + id + "_stairs_outer").y(270).uvlock())
-                    .put("facing=east,half=bottom,shape=outer_right", JState.model("ctft:block/" + id + "_stairs_outer"))
-                    .put("facing=east,half=bottom,shape=straight", JState.model("ctft:item/" + id + "_stairs"))
-                    .put("facing=east,half=top,shape=inner_left", JState.model("ctft:block/" + id + "_stairs_inner").x(180).uvlock())
-                    .put("facing=east,half=top,shape=inner_right", JState.model("ctft:block/" + id + "_stairs_inner").x(180).y(90).uvlock())
-                    .put("facing=east,half=top,shape=outer_left", JState.model("ctft:block/" + id + "_stairs_outer").x(180).uvlock())
-                    .put("facing=east,half=top,shape=outer_right", JState.model("ctft:block/" + id + "_stairs_outer").x(180).y(90).uvlock())
-                    .put("facing=east,half=top,shape=straight", JState.model("ctft:item/" + id + "_stairs").x(180).uvlock())
-                    .put("facing=north,half=bottom,shape=inner_left", JState.model("ctft:block/" + id + "_stairs_inner").y(180).uvlock())
-                    .put("facing=north,half=bottom,shape=inner_right", JState.model("ctft:block/" + id + "_stairs_inner").y(270).uvlock())
-                    .put("facing=north,half=bottom,shape=outer_left", JState.model("ctft:block/" + id + "_stairs_outer").y(180).uvlock())
-                    .put("facing=north,half=bottom,shape=outer_right", JState.model("ctft:block/" + id + "_stairs_outer").y(270).uvlock())
-                    .put("facing=north,half=bottom,shape=straight", JState.model("ctft:item/" + id + "_stairs").y(270).uvlock())
-                    .put("facing=north,half=top,shape=inner_left", JState.model("ctft:block/" + id + "_stairs_inner").x(180).y(270).uvlock())
-                    .put("facing=north,half=top,shape=inner_right", JState.model("ctft:block/" + id + "_stairs_inner").x(180).uvlock())
-                    .put("facing=north,half=top,shape=outer_left", JState.model("ctft:block/" + id + "_stairs_outer").x(180).y(270).uvlock())
-                    .put("facing=north,half=top,shape=outer_right", JState.model("ctft:block/" + id + "_stairs_outer").x(180).uvlock())
-                    .put("facing=north,half=top,shape=straight", JState.model("ctft:item/" + id + "_stairs").x(180).y(270).uvlock())
-                    .put("facing=south,half=bottom,shape=inner_left", JState.model("ctft:block/" + id + "_stairs_inner"))
-                    .put("facing=south,half=bottom,shape=inner_right", JState.model("ctft:block/" + id + "_stairs_inner").y(90).uvlock())
-                    .put("facing=south,half=bottom,shape=outer_left", JState.model("ctft:block/" + id + "_stairs_outer"))
-                    .put("facing=south,half=bottom,shape=outer_right", JState.model("ctft:block/" + id + "_stairs_outer").y(90).uvlock())
-                    .put("facing=south,half=bottom,shape=straight", JState.model("ctft:item/" + id + "_stairs").y(90).uvlock())
-                    .put("facing=south,half=top,shape=inner_left", JState.model("ctft:block/" + id + "_stairs_inner").x(180).y(90).uvlock())
-                    .put("facing=south,half=top,shape=inner_right", JState.model("ctft:block/" + id + "_stairs_inner").x(180).y(180).uvlock())
-                    .put("facing=south,half=top,shape=outer_left", JState.model("ctft:block/" + id + "_stairs_outer").x(180).y(90).uvlock())
-                    .put("facing=south,half=top,shape=outer_right", JState.model("ctft:block/" + id + "_stairs_outer").x(180).y(180).uvlock())
-                    .put("facing=south,half=top,shape=straight", JState.model("ctft:item/" + id + "_stairs").x(180).y(90).uvlock())
-                    .put("facing=west,half=bottom,shape=inner_left", JState.model("ctft:block/" + id + "_stairs_inner").y(90).uvlock())
-                    .put("facing=west,half=bottom,shape=inner_right", JState.model("ctft:block/" + id + "_stairs_inner").y(180).uvlock())
-                    .put("facing=west,half=bottom,shape=outer_left", JState.model("ctft:block/" + id + "_stairs_outer").y(90).uvlock())
-                    .put("facing=west,half=bottom,shape=outer_right", JState.model("ctft:block/" + id + "_stairs_outer").y(180).uvlock())
-                    .put("facing=west,half=bottom,shape=straight", JState.model("ctft:item/" + id + "_stairs").y(180).uvlock())
-                    .put("facing=west,half=top,shape=inner_left", JState.model("ctft:block/" + id + "_stairs_inner").x(180).y(180).uvlock())
-                    .put("facing=west,half=top,shape=inner_right", JState.model("ctft:block/" + id + "_stairs_inner").x(180).y(270).uvlock())
-                    .put("facing=west,half=top,shape=outer_left", JState.model("ctft:block/" + id + "_stairs_outer").x(180).y(180).uvlock())
-                    .put("facing=west,half=top,shape=outer_right", JState.model("ctft:block/" + id + "_stairs_outer").x(180).y(270).uvlock())
-                    .put("facing=west,half=top,shape=straight", JState.model("ctft:item/" + id + "_stairs").x(180).y(180).uvlock())
-            ), new Identifier("ctft:" + id + "_stairs"));
-            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_stairs_from_crafting"), JRecipe.shaped(JPattern.pattern().row1("0  ").row2("00 ").row3("000"), JKeys.keys().key("0", ingredient), JResult.stackedResult("ctft:" + id + "_stairs", 4)));
-            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_stairs_from_stonecutter"), JRecipe.stonecutting(block, JResult.stackedResult("ctft:" + id + "_stairs", 1)));
-            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_stairs"), JLootTable
-                    .loot("block")
-                    .pool(JLootTable
-                            .pool()
-                            .rolls(1)
-                            .entry(JLootTable
-                                    .entry()
-                                    .type("minecraft:item")
-                                    .name("ctft:" + id + "_stairs"))));
-            TagInjector.injectItems(new Identifier("ctft", "ctft_stairs"), Registry.ITEM.get(new Identifier("ctft", id + "_stairs")));
-            if (piglin_loved.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_stairs")));
-            }
-            if (freeze_immune_wearables.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_stairs")));
-            }
-            if (piglin_repellents.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_stairs")));
-            }
-        }
-        if (Ctft.CONFIG.tools_config.slabsEnabled) {
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/slab").textures((JModel.textures().var("bottom", namespace).var("top", namespace).var("side", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_slab"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/slab_top").textures((JModel.textures().var("bottom", namespace).var("top", namespace).var("side", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_slab_top"));
-            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
-                    .put("type=bottom", JState.model("ctft:item/" + id + "_slab"))
-                    .put("type=double", JState.model("ctft:item/" + id + "_block"))
-                    .put("type=top", JState.model("ctft:block/" + id + "_slab_top"))
-            ), new Identifier("ctft:" + id + "_slab"));
-            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_slab_from_crafting"), JRecipe.shaped(JPattern.pattern().row3("000"), JKeys.keys().key("0", block), JResult.stackedResult("ctft:" + id + "_slab", 6)));
-            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_slab_from_stonecutter"), JRecipe.stonecutting(block, JResult.stackedResult("ctft:" + id + "_slab", 2)));
-            var doubleslab = new JsonObject();
-            doubleslab.addProperty("type", "double");
-            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_slab"), JLootTable
-                    .loot("block")
-                    .pool(JLootTable
-                            .pool()
-                            .rolls(1)
-                            .entry(JLootTable.entry()
-                                    .type("minecraft:item")
-                                    .function(JLootTable
-                                            .function("minecraft:set_count")
-                                            .condition(JLootTable
-                                                    .condition("minecraft:block_state_property")
-                                                    .parameter("block", "ctft:" + id + "_slab")
-                                                    .parameter("properties", doubleslab)
-                                            ).parameter("count", 2)
-                                            .parameter("add", false)
-                                    )
-                                    .name("ctft:" + id + "_slab")
-                                    .function(JLootTable
-                                            .function("minecraft:explosion_decay")
-                                    )
-                            )
-                    )
-            );
-            TagInjector.injectItems(new Identifier("ctft", "ctft_slabs"), Registry.ITEM.get(new Identifier("ctft", id + "_slab")));
-            if (piglin_loved.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_slab")));
-            }
-            if (freeze_immune_wearables.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_slab")));
-            }
-            if (piglin_repellents.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_slab")));
-            }
-        }
-        if (Ctft.CONFIG.tools_config.glassEnabled) {
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/cube_all").textures((JModel.textures().var("all", "ctft:blocks/" + texture + "_glass").particle("ctft:blocks/" + texture + "_glass"))), new Identifier("ctft", "item/" + id + "_glass"));
-            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
-                    .put("", JState.model("ctft:item/" + id + "_glass"))
-            ), new Identifier("ctft:" + id + "_glass"));
-            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_glass_from_smelting"), JRecipe.smelting(block, JResult.result("ctft:" + id + "_glass")).cookingTime(200).experience(0.1f));
-            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_glass"), JLootTable
-                    .loot("block")
-                    .pool(JLootTable.pool()
-                            .rolls(1)
-                            .entry(JLootTable
-                                    .entry()
-                                    .type("minecraft:item")
-                                    .name("ctft:" + id + "_glass"))));
-            TagInjector.injectItems(new Identifier("ctft", "ctft_glass"), Registry.ITEM.get(new Identifier("ctft", id + "_glass")));
-            if (piglin_loved.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_glass")));
-            }
-            if (freeze_immune_wearables.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_glass")));
-            }
-            if (piglin_repellents.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_glass")));
-            }
-        }
-        if (Ctft.CONFIG.tools_config.glassPanesEnabled) {
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:item/generated").textures(JModel.textures().layer0("ctft:blocks/" + texture + "_glass").particle("ctft:blocks/" + texture + "_glass")), new Identifier("ctft", "item/" + id + "_glass_pane"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/template_glass_pane_noside").textures((JModel.textures().var("pane", "ctft:blocks/" + texture + "_glass").particle("ctft:blocks/" + texture + "_glass"))), new Identifier("ctft", "block/" + id + "_glass_pane_noside"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/template_glass_pane_noside_alt").textures((JModel.textures().var("pane", "ctft:blocks/" + texture + "_glass").particle("ctft:blocks/" + texture + "_glass"))), new Identifier("ctft", "block/" + id + "_glass_pane_noside_alt"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/template_glass_pane_post").textures((JModel.textures().var("pane", "ctft:blocks/" + texture + "_glass").var("edge", namespace).particle("ctft:blocks/" + texture + "_glass"))), new Identifier("ctft", "block/" + id + "_glass_pane_post"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/template_glass_pane_side").textures((JModel.textures().var("pane", "ctft:blocks/" + texture + "_glass").var("edge", namespace).particle("ctft:blocks/" + texture + "_glass"))), new Identifier("ctft", "block/" + id + "_glass_pane_side"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/template_glass_pane_side_alt").textures((JModel.textures().var("pane", "ctft:blocks/" + texture + "_glass").var("edge", namespace).particle("ctft:blocks/" + texture + "_glass"))), new Identifier("ctft", "block/" + id + "_glass_pane_side_alt"));
-            Ctft.CTFT_RESOURCES.addBlockState(JState.state()
-                            .add(JState.multipart(JState.model("ctft:block/" + id + "_glass_pane_post")))
-                            .add(JState.multipart(JState.model("ctft:block/" + id + "_glass_pane_side")).when(JState.when().add("north", "true")))
-                            .add(JState.multipart(JState.model("ctft:block/" + id + "_glass_pane_side").y(90)).when(JState.when().add("east", "true")))
-                            .add(JState.multipart(JState.model("ctft:block/" + id + "_glass_pane_side_alt")).when(JState.when().add("south", "true")))
-                            .add(JState.multipart(JState.model("ctft:block/" + id + "_glass_pane_side_alt").y(90)).when(JState.when().add("west", "true")))
-                            .add(JState.multipart(JState.model("ctft:block/" + id + "_glass_pane_noside")).when(JState.when().add("north", "false")))
-                            .add(JState.multipart(JState.model("ctft:block/" + id + "_glass_pane_noside_alt")).when(JState.when().add("east", "false")))
-                            .add(JState.multipart(JState.model("ctft:block/" + id + "_glass_pane_noside_alt").y(90)).when(JState.when().add("south", "false")))
-                            .add(JState.multipart(JState.model("ctft:block/" + id + "_glass_pane_noside").y(270)).when(JState.when().add("west", "false")))
-                    , new Identifier("ctft:" + id + "_glass_pane"));
-            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_glass_pane_from_crafting"), JRecipe.shaped(JPattern.pattern().row2("000").row3("000"), JKeys.keys().key("0", glass), JResult.stackedResult("ctft:" + id + "_glass_pane", 16)));
-            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_glass_pane"), JLootTable
-                    .loot("block")
-                    .pool(JLootTable
-                            .pool()
-                            .rolls(1)
-                            .entry(JLootTable
-                                    .entry()
-                                    .type("minecraft:item")
-                                    .name("ctft:" + id + "_glass_pane"))));
-            TagInjector.injectItems(new Identifier("ctft", "ctft_glass_panes"), Registry.ITEM.get(new Identifier("ctft", id + "_glass_pane")));
-            if (piglin_loved.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_glass_pane")));
-            }
-            if (freeze_immune_wearables.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_glass_pane")));
-            }
-            if (piglin_repellents.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_glass_pane")));
-            }
-        }
-        if (Ctft.CONFIG.tools_config.panesEnabled) {
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:item/generated").textures(JModel.textures().layer0(namespace).particle(namespace)), new Identifier("ctft", "item/" + id + "_pane"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/template_glass_pane_noside").textures((JModel.textures().var("pane", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_pane_noside"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/template_glass_pane_noside_alt").textures((JModel.textures().var("pane", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_pane_noside_alt"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/template_glass_pane_post").textures((JModel.textures().var("pane", namespace).var("edge", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_pane_post"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/template_glass_pane_side").textures((JModel.textures().var("pane", namespace).var("edge", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_pane_side"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/template_glass_pane_side_alt").textures((JModel.textures().var("pane", namespace).var("edge", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_pane_side_alt"));
-            Ctft.CTFT_RESOURCES.addBlockState(JState.state()
-                            .add(JState.multipart(JState.model("ctft:block/" + id + "_pane_post")))
-                            .add(JState.multipart(JState.model("ctft:block/" + id + "_pane_side")).when(JState.when().add("north", "true")))
-                            .add(JState.multipart(JState.model("ctft:block/" + id + "_pane_side").y(90)).when(JState.when().add("east", "true")))
-                            .add(JState.multipart(JState.model("ctft:block/" + id + "_pane_side_alt")).when(JState.when().add("south", "true")))
-                            .add(JState.multipart(JState.model("ctft:block/" + id + "_pane_side_alt").y(90)).when(JState.when().add("west", "true")))
-                            .add(JState.multipart(JState.model("ctft:block/" + id + "_pane_noside")).when(JState.when().add("north", "false")))
-                            .add(JState.multipart(JState.model("ctft:block/" + id + "_pane_noside_alt")).when(JState.when().add("east", "false")))
-                            .add(JState.multipart(JState.model("ctft:block/" + id + "_pane_noside_alt").y(90)).when(JState.when().add("south", "false")))
-                            .add(JState.multipart(JState.model("ctft:block/" + id + "_pane_noside").y(270)).when(JState.when().add("west", "false")))
-                    , new Identifier("ctft:" + id + "_pane"));
-            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_pane_from_crafting"), JRecipe.shaped(JPattern.pattern().row2("000").row3("000"), JKeys.keys().key("0", block), JResult.stackedResult("ctft:" + id + "_pane", 16)));
-            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_pane"), JLootTable
-                    .loot("block")
-                    .pool(JLootTable
-                            .pool()
-                            .rolls(1)
-                            .entry(JLootTable
-                                    .entry()
-                                    .type("minecraft:item")
-                                    .name("ctft:" + id + "_pane"))));
-            TagInjector.injectItems(new Identifier("ctft", "ctft_panes"), Registry.ITEM.get(new Identifier("ctft", id + "_pane")));
-            if (piglin_loved.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_pane")));
-            }
-            if (freeze_immune_wearables.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_pane")));
-            }
-            if (piglin_repellents.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_pane")));
-            }
-        }
-        if (Ctft.CONFIG.tools_config.layersEnabled) {
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/snow_height2").textures((JModel.textures().var("texture", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_layer"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/snow_height4").textures((JModel.textures().var("texture", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_layer_height4"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/snow_height6").textures((JModel.textures().var("texture", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_layer_height6"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/snow_height8").textures((JModel.textures().var("texture", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_layer_height8"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/snow_height10").textures((JModel.textures().var("texture", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_layer_height10"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/snow_height12").textures((JModel.textures().var("texture", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_layer_height12"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/snow_height14").textures((JModel.textures().var("texture", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_layer_height14"));
-            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
-                    .put("layers=1", JState.model("ctft:item/" + id + "_layer"))
-                    .put("layers=2", JState.model("ctft:block/" + id + "_layer_height4"))
-                    .put("layers=3", JState.model("ctft:block/" + id + "_layer_height6"))
-                    .put("layers=4", JState.model("ctft:block/" + id + "_layer_height8"))
-                    .put("layers=5", JState.model("ctft:block/" + id + "_layer_height10"))
-                    .put("layers=6", JState.model("ctft:block/" + id + "_layer_height12"))
-                    .put("layers=7", JState.model("ctft:block/" + id + "_layer_height14"))
-                    .put("layers=8", JState.model("ctft:item/" + id + "_block"))
-            ), new Identifier("ctft:" + id + "_layer"));
-            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_layer_from_crafting"), JRecipe.shaped(JPattern.pattern().row3("000"), JKeys.keys().key("0", slab), JResult.stackedResult("ctft:" + id + "_layer", 12)));
-            var layer2 = new JsonObject();
-            var layer3 = new JsonObject();
-            var layer4 = new JsonObject();
-            var layer5 = new JsonObject();
-            var layer6 = new JsonObject();
-            var layer7 = new JsonObject();
-            var layer8 = new JsonObject();
-            layer2.addProperty("layers", "2");
-            layer3.addProperty("layers", "3");
-            layer4.addProperty("layers", "4");
-            layer5.addProperty("layers", "5");
-            layer6.addProperty("layers", "6");
-            layer7.addProperty("layers", "7");
-            layer8.addProperty("layers", "8");
-            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_layer"), JLootTable
-                    .loot("block")
-                    .pool(JLootTable
-                            .pool()
-                            .rolls(1)
-                            .entry(JLootTable.entry()
-                                    .type("minecraft:item")
-                                    .function(JLootTable
-                                            .function("minecraft:set_count")
-                                            .condition(JLootTable
-                                                    .condition("minecraft:block_state_property")
-                                                    .parameter("block", "ctft:" + id + "_layer")
-                                                    .parameter("properties", layer2)
-                                            ).parameter("count", 2)
-                                            .parameter("add", false)
-                                    )
-                                    .function(JLootTable
-                                            .function("minecraft:set_count")
-                                            .condition(JLootTable
-                                                    .condition("minecraft:block_state_property")
-                                                    .parameter("block", "ctft:" + id + "_layer")
-                                                    .parameter("properties", layer3)
-                                            ).parameter("count", 3)
-                                            .parameter("add", false)
-                                    )
-                                    .function(JLootTable
-                                            .function("minecraft:set_count")
-                                            .condition(JLootTable
-                                                    .condition("minecraft:block_state_property")
-                                                    .parameter("block", "ctft:" + id + "_layer")
-                                                    .parameter("properties", layer4)
-                                            ).parameter("count", 4)
-                                            .parameter("add", false)
-                                    )
-                                    .function(JLootTable
-                                            .function("minecraft:set_count")
-                                            .condition(JLootTable
-                                                    .condition("minecraft:block_state_property")
-                                                    .parameter("block", "ctft:" + id + "_layer")
-                                                    .parameter("properties", layer5)
-                                            ).parameter("count", 5)
-                                            .parameter("add", false)
-                                    )
-                                    .function(JLootTable
-                                            .function("minecraft:set_count")
-                                            .condition(JLootTable
-                                                    .condition("minecraft:block_state_property")
-                                                    .parameter("block", "ctft:" + id + "_layer")
-                                                    .parameter("properties", layer6)
-                                            ).parameter("count", 6)
-                                            .parameter("add", false)
-                                    )
-                                    .function(JLootTable
-                                            .function("minecraft:set_count")
-                                            .condition(JLootTable
-                                                    .condition("minecraft:block_state_property")
-                                                    .parameter("block", "ctft:" + id + "_layer")
-                                                    .parameter("properties", layer7)
-                                            ).parameter("count", 7)
-                                            .parameter("add", false)
-                                    )
-                                    .function(JLootTable
-                                            .function("minecraft:set_count")
-                                            .condition(JLootTable
-                                                    .condition("minecraft:block_state_property")
-                                                    .parameter("block", "ctft:" + id + "_layer")
-                                                    .parameter("properties", layer8)
-                                            ).parameter("count", 8)
-                                            .parameter("add", false)
-                                    )
-                                    .name("ctft:" + id + "_layer")
-                                    .function(JLootTable
-                                            .function("minecraft:explosion_decay")
-                                    )
-                            )
-                    )
-            );
-            if (Ctft.CONFIG.tools_config.slabsEnabled) {
-                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_slab_from_layer"), JRecipe.shaped(JPattern.pattern().row2(" 00").row3(" 00"), JKeys.keys().key("0", layer), JResult.stackedResult("ctft:" + id + "_slab", 1)));
-            }
-            TagInjector.injectItems(new Identifier("ctft", "ctft_layers"), Registry.ITEM.get(new Identifier("ctft", id + "_layer")));
-            if (piglin_loved.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_layer")));
-            }
-            if (freeze_immune_wearables.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_layer")));
-            }
-            if (piglin_repellents.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_layer")));
-            }
-        }
-        if (Ctft.CONFIG.tools_config.fencesEnabled) {
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/fence_inventory").textures((JModel.textures().var("texture", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_fence"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/fence_post").textures((JModel.textures().var("texture", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_fence_post"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/fence_side").textures((JModel.textures().var("texture", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_fence_side"));
-            Ctft.CTFT_RESOURCES.addBlockState(JState.state()
-                            .add(JState.multipart(JState.model("ctft:block/" + id + "_fence_post")))
-                            .add(JState.multipart(JState.model("ctft:block/" + id + "_fence_side")).when(JState.when().add("north", "true")))
-                            .add(JState.multipart(JState.model("ctft:block/" + id + "_fence_side").y(90)).when(JState.when().add("east", "true")))
-                            .add(JState.multipart(JState.model("ctft:block/" + id + "_fence_side").y(180)).when(JState.when().add("south", "true")))
-                            .add(JState.multipart(JState.model("ctft:block/" + id + "_fence_side").y(270)).when(JState.when().add("west", "true")))
-                    , new Identifier("ctft:" + id + "_fence"));
-            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_fence_from_crafting"), JRecipe.shaped(JPattern.pattern().row2("010").row3("010"), JKeys.keys().key("0", ingredient).key("1", stick), JResult.stackedResult("ctft:" + id + "_fence", 3)));
-            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_fence"), JLootTable
-                    .loot("block")
-                    .pool(JLootTable
-                            .pool()
-                            .rolls(1)
-                            .entry(JLootTable
-                                    .entry()
-                                    .type("minecraft:item")
-                                    .name("ctft:" + id + "_fence"))));
-            TagInjector.injectBlocks(new Identifier("minecraft", "fences"), Registry.BLOCK.get(new Identifier("ctft", id + "_fence")));
-            TagInjector.injectItems(new Identifier("ctft", "ctft_fences"), Registry.ITEM.get(new Identifier("ctft", id + "_fence")));
-            if (piglin_loved.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_fence")));
-            }
-            if (freeze_immune_wearables.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_fence")));
-            }
-            if (piglin_repellents.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_fence")));
-            }
-        }
-        if (Ctft.CONFIG.tools_config.fenceGatesEnabled) {
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/template_fence_gate").textures((JModel.textures().var("texture", namespace))), new Identifier("ctft", "item/" + id + "_fence_gate"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/template_fence_gate_open").textures((JModel.textures().var("texture", namespace))), new Identifier("ctft", "block/" + id + "_fence_gate_open"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/template_fence_gate_wall").textures((JModel.textures().var("texture", namespace))), new Identifier("ctft", "block/" + id + "_fence_gate_wall_close"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/template_fence_gate_wall_open").textures((JModel.textures().var("texture", namespace))), new Identifier("ctft", "block/" + id + "_fence_gate_wall_open"));
-            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
-                    .put("facing=east,in_wall=false,open=false", JState.model("ctft:item/" + id + "_fence_gate").uvlock().y(270))
-                    .put("facing=east,in_wall=false,open=true", JState.model("ctft:block/" + id + "_fence_gate_open").uvlock().y(270))
-                    .put("facing=east,in_wall=true,open=false", JState.model("ctft:block/" + id + "_fence_gate_wall_close").uvlock().y(270))
-                    .put("facing=east,in_wall=true,open=true", JState.model("ctft:block/" + id + "_fence_gate_wall_open").uvlock().y(270))
-                    .put("facing=north,in_wall=false,open=false", JState.model("ctft:item/" + id + "_fence_gate").uvlock().y(180))
-                    .put("facing=north,in_wall=false,open=true", JState.model("ctft:block/" + id + "_fence_gate_open").uvlock().y(180))
-                    .put("facing=north,in_wall=true,open=false", JState.model("ctft:block/" + id + "_fence_gate_wall_close").uvlock().y(180))
-                    .put("facing=north,in_wall=true,open=true", JState.model("ctft:block/" + id + "_fence_gate_wall_open").uvlock().y(180))
-                    .put("facing=south,in_wall=false,open=false", JState.model("ctft:item/" + id + "_fence_gate").uvlock())
-                    .put("facing=south,in_wall=false,open=true", JState.model("ctft:block/" + id + "_fence_gate_open").uvlock())
-                    .put("facing=south,in_wall=true,open=false", JState.model("ctft:block/" + id + "_fence_gate_wall_close").uvlock())
-                    .put("facing=south,in_wall=true,open=true", JState.model("ctft:block/" + id + "_fence_gate_wall_open").uvlock())
-                    .put("facing=west,in_wall=false,open=false", JState.model("ctft:item/" + id + "_fence_gate").uvlock().y(90))
-                    .put("facing=west,in_wall=false,open=true", JState.model("ctft:block/" + id + "_fence_gate_open").uvlock().y(90))
-                    .put("facing=west,in_wall=true,open=false", JState.model("ctft:block/" + id + "_fence_gate_wall_close").uvlock().y(90))
-                    .put("facing=west,in_wall=true,open=true", JState.model("ctft:block/" + id + "_fence_gate_wall_open").uvlock().y(90))
-            ), new Identifier("ctft:" + id + "_fence_gate"));
-            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_fence_gate_from_crafting"), JRecipe.shaped(JPattern.pattern().row2("101").row3("101"), JKeys.keys().key("0", ingredient).key("1", stick), JResult.result("ctft:" + id + "_fence_gate")));
-            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_fence_gate"), JLootTable
-                    .loot("block")
-                    .pool(JLootTable.pool()
-                            .rolls(1)
-                            .entry(JLootTable
-                                    .entry()
-                                    .type("minecraft:item")
-                                    .name("ctft:" + id + "_fence_gate"))));
-            TagInjector.injectItems(new Identifier("ctft", "ctft_fence_gates"), Registry.ITEM.get(new Identifier("ctft", id + "_fence_gate")));
-            if (piglin_loved.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_fence_gate")));
-            }
-            if (freeze_immune_wearables.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_fence_gate")));
-            }
-            if (piglin_repellents.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_fence_gate")));
-            }
-        }
-        if (Ctft.CONFIG.tools_config.wallsEnabled) {
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/wall_inventory").textures((JModel.textures().var("wall", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_wall"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/template_wall_post").textures((JModel.textures().var("wall", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_wall_post"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/template_wall_side").textures((JModel.textures().var("wall", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_wall_side"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/template_wall_side_tall").textures((JModel.textures().var("wall", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_wall_side_tall"));
-            Ctft.CTFT_RESOURCES.addBlockState(JState.state()
-                            .add(JState.multipart(JState.model("ctft:block/" + id + "_wall_post")).when(JState.when().add("up", "true")))
-                            .add(JState.multipart(JState.model("ctft:block/" + id + "_wall_side").uvlock()).when(JState.when().add("north", "low")))
-                            .add(JState.multipart(JState.model("ctft:block/" + id + "_wall_side").y(90).uvlock()).when(JState.when().add("east", "low")))
-                            .add(JState.multipart(JState.model("ctft:block/" + id + "_wall_side").y(180).uvlock()).when(JState.when().add("south", "low")))
-                            .add(JState.multipart(JState.model("ctft:block/" + id + "_wall_side").y(270).uvlock()).when(JState.when().add("west", "low")))
-                            .add(JState.multipart(JState.model("ctft:block/" + id + "_wall_side_tall").uvlock()).when(JState.when().add("north", "tall")))
-                            .add(JState.multipart(JState.model("ctft:block/" + id + "_wall_side_tall").y(90).uvlock()).when(JState.when().add("east", "tall")))
-                            .add(JState.multipart(JState.model("ctft:block/" + id + "_wall_side_tall").y(180).uvlock()).when(JState.when().add("south", "tall")))
-                            .add(JState.multipart(JState.model("ctft:block/" + id + "_wall_side_tall").y(270).uvlock()).when(JState.when().add("west", "tall")))
-                    , new Identifier("ctft:" + id + "_wall"));
-            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_wall_from_stonecutter"), JRecipe.stonecutting(ingredient, JResult.stackedResult("ctft:" + id + "_wall", 1)));
-            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_wall"), JLootTable
-                    .loot("block")
-                    .pool(JLootTable
-                            .pool()
-                            .rolls(1)
-                            .entry(JLootTable
-                                    .entry()
-                                    .type("minecraft:item")
-                                    .name("ctft:" + id + "_wall"))));
-            TagInjector.injectBlocks(new Identifier("minecraft", "walls"), Registry.BLOCK.get(new Identifier("ctft", id + "_wall")));
-            TagInjector.injectItems(new Identifier("ctft", "ctft_walls"), Registry.ITEM.get(new Identifier("ctft", id + "_wall")));
-            if (piglin_loved.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_wall")));
-            }
-            if (freeze_immune_wearables.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_wall")));
-            }
-            if (piglin_repellents.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_wall")));
-            }
-        }
-        if (Ctft.CONFIG.tools_config.doorsEnabled) {
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/door").textures((JModel.textures().var("0", "minecraft:item/oak_door").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_door"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/door_bottom").textures((JModel.textures().var("top", "ctft:blocks/" + texture + "_door_top").var("bottom", "ctft:blocks/" + texture + "_door_bottom").particle(namespace))), new Identifier("ctft", "block/" + id + "_door_bottom"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/door_bottom_rh").textures((JModel.textures().var("top", "ctft:blocks/" + texture + "_door_top").var("bottom", "ctft:blocks/" + texture + "_door_bottom").particle(namespace))), new Identifier("ctft", "block/" + id + "_door_bottom_hinge"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/door_top").textures((JModel.textures().var("top", "ctft:blocks/" + texture + "_door_top").var("bottom", "ctft:blocks/" + texture + "_door_bottom").particle(namespace))), new Identifier("ctft", "block/" + id + "_door_top"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/door_top_rh").textures((JModel.textures().var("top", "ctft:blocks/" + texture + "_door_top").var("bottom", "ctft:blocks/" + texture + "_door_bottom").particle(namespace))), new Identifier("ctft", "block/" + id + "_door_top_hinge"));
-            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
-                    .put("facing=east,half=lower,hinge=left,open=false", JState.model("ctft:block/" + id + "_door_bottom"))
-                    .put("facing=east,half=lower,hinge=left,open=true", JState.model("ctft:block/" + id + "_door_bottom_hinge").y(90))
-                    .put("facing=east,half=lower,hinge=right,open=false", JState.model("ctft:block/" + id + "_door_bottom_hinge"))
-                    .put("facing=east,half=lower,hinge=right,open=true", JState.model("ctft:block/" + id + "_door_bottom").y(270))
-                    .put("facing=east,half=upper,hinge=left,open=false", JState.model("ctft:block/" + id + "_door_top"))
-                    .put("facing=east,half=upper,hinge=left,open=true", JState.model("ctft:block/" + id + "_door_top_hinge").y(90))
-                    .put("facing=east,half=upper,hinge=right,open=false", JState.model("ctft:block/" + id + "_door_top_hinge"))
-                    .put("facing=east,half=upper,hinge=right,open=true", JState.model("ctft:block/" + id + "_door_top").y(270))
-                    .put("facing=north,half=lower,hinge=left,open=false", JState.model("ctft:block/" + id + "_door_bottom").y(270))
-                    .put("facing=north,half=lower,hinge=left,open=true", JState.model("ctft:block/" + id + "_door_bottom_hinge"))
-                    .put("facing=north,half=lower,hinge=right,open=false", JState.model("ctft:block/" + id + "_door_bottom_hinge").y(270))
-                    .put("facing=north,half=lower,hinge=right,open=true", JState.model("ctft:block/" + id + "_door_bottom").y(180))
-                    .put("facing=north,half=upper,hinge=left,open=false", JState.model("ctft:block/" + id + "_door_top").y(270))
-                    .put("facing=north,half=upper,hinge=left,open=true", JState.model("ctft:block/" + id + "_door_top_hinge"))
-                    .put("facing=north,half=upper,hinge=right,open=false", JState.model("ctft:block/" + id + "_door_top_hinge").y(270))
-                    .put("facing=north,half=upper,hinge=right,open=true", JState.model("ctft:block/" + id + "_door_top").y(180))
-                    .put("facing=south,half=lower,hinge=left,open=false", JState.model("ctft:block/" + id + "_door_bottom").y(90))
-                    .put("facing=south,half=lower,hinge=left,open=true", JState.model("ctft:block/" + id + "_door_bottom_hinge").y(180))
-                    .put("facing=south,half=lower,hinge=right,open=false", JState.model("ctft:block/" + id + "_door_bottom_hinge").y(90))
-                    .put("facing=south,half=lower,hinge=right,open=true", JState.model("ctft:block/" + id + "_door_bottom"))
-                    .put("facing=south,half=upper,hinge=left,open=false", JState.model("ctft:block/" + id + "_door_top").y(90))
-                    .put("facing=south,half=upper,hinge=left,open=true", JState.model("ctft:block/" + id + "_door_top_hinge").y(180))
-                    .put("facing=south,half=upper,hinge=right,open=false", JState.model("ctft:block/" + id + "_door_top_hinge").y(90))
-                    .put("facing=south,half=upper,hinge=right,open=true", JState.model("ctft:block/" + id + "_door_top"))
-                    .put("facing=west,half=lower,hinge=left,open=false", JState.model("ctft:block/" + id + "_door_bottom").y(180))
-                    .put("facing=west,half=lower,hinge=left,open=true", JState.model("ctft:block/" + id + "_door_bottom_hinge").y(270))
-                    .put("facing=west,half=lower,hinge=right,open=false", JState.model("ctft:block/" + id + "_door_bottom_hinge").y(180))
-                    .put("facing=west,half=lower,hinge=right,open=true", JState.model("ctft:block/" + id + "_door_bottom").y(90))
-                    .put("facing=west,half=upper,hinge=left,open=false", JState.model("ctft:block/" + id + "_door_top").y(180))
-                    .put("facing=west,half=upper,hinge=left,open=true", JState.model("ctft:block/" + id + "_door_top_hinge").y(270))
-                    .put("facing=west,half=upper,hinge=right,open=false", JState.model("ctft:block/" + id + "_door_top_hinge").y(180))
-                    .put("facing=west,half=upper,hinge=right,open=true", JState.model("ctft:block/" + id + "_door_top").y(90))
-            ), new Identifier("ctft:" + id + "_door"));
-            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_door_from_crafting"), JRecipe.shaped(JPattern.pattern().row1("00 ").row2("00 ").row3("00 "), JKeys.keys().key("0", ingredient), JResult.stackedResult("ctft:" + id + "_door", 3)));
-            var upperdoor = new JsonObject();
-            upperdoor.addProperty("half", "upper");
-            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_door"), JLootTable
-                    .loot("block")
-                    .pool(JLootTable
-                            .pool()
-                            .rolls(1)
-                            .entry(JLootTable.entry()
-                                    .type("minecraft:item")
-                                    .function(JLootTable
-                                            .function("minecraft:set_count")
-                                            .condition(JLootTable
-                                                    .condition("minecraft:block_state_property")
-                                                    .parameter("block", "ctft:" + id + "_door")
-                                                    .parameter("properties", upperdoor)
-                                            ).parameter("count", 0)
-                                            .parameter("add", false)
-                                    )
-                                    .name("ctft:" + id + "_door")
-                                    .function(JLootTable
-                                            .function("minecraft:explosion_decay")
-                                    )
-                            )
-                    )
-            );
-            TagInjector.injectItems(new Identifier("ctft", "ctft_doors"), Registry.ITEM.get(new Identifier("ctft", id + "_door")));
-            if (piglin_loved.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_door")));
-            }
-            if (freeze_immune_wearables.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_door")));
-            }
-            if (piglin_repellents.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_door")));
-            }
-        }
-        if (Ctft.CONFIG.tools_config.trapDoorsEnabled) {
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/template_trapdoor_bottom").textures((JModel.textures().var("texture", "ctft:blocks/" + texture + "_trapdoor").particle(namespace))), new Identifier("ctft", "item/" + id + "_trapdoor"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/template_trapdoor_open").textures((JModel.textures().var("texture", "ctft:blocks/" + texture + "_trapdoor").particle(namespace))), new Identifier("ctft", "block/" + id + "_trapdoor_open"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/template_trapdoor_top").textures((JModel.textures().var("texture", "ctft:blocks/" + texture + "_trapdoor").particle(namespace))), new Identifier("ctft", "block/" + id + "_trapdoor_top"));
-            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
-                    .put("facing=east,half=bottom,open=false", JState.model("ctft:item/" + id + "_trapdoor").y(90))
-                    .put("facing=east,half=bottom,open=true", JState.model("ctft:block/" + id + "_trapdoor_open").y(90))
-                    .put("facing=east,half=top,open=false", JState.model("ctft:block/" + id + "_trapdoor_top").y(90))
-                    .put("facing=east,half=top,open=true", JState.model("ctft:block/" + id + "_trapdoor_open").x(180).y(270))
-                    .put("facing=north,half=bottom,open=false", JState.model("ctft:item/" + id + "_trapdoor"))
-                    .put("facing=north,half=bottom,open=true", JState.model("ctft:block/" + id + "_trapdoor_open"))
-                    .put("facing=north,half=top,open=false", JState.model("ctft:block/" + id + "_trapdoor_top"))
-                    .put("facing=north,half=top,open=true", JState.model("ctft:block/" + id + "_trapdoor_open").x(180).y(180))
-                    .put("facing=south,half=bottom,open=false", JState.model("ctft:item/" + id + "_trapdoor").y(180))
-                    .put("facing=south,half=bottom,open=true", JState.model("ctft:block/" + id + "_trapdoor_open").y(180))
-                    .put("facing=south,half=top,open=false", JState.model("ctft:block/" + id + "_trapdoor_top").y(180))
-                    .put("facing=south,half=top,open=true", JState.model("ctft:block/" + id + "_trapdoor_open").x(180))
-                    .put("facing=west,half=bottom,open=false", JState.model("ctft:item/" + id + "_trapdoor").y(270))
-                    .put("facing=west,half=bottom,open=true", JState.model("ctft:block/" + id + "_trapdoor_open").y(270))
-                    .put("facing=west,half=top,open=false", JState.model("ctft:block/" + id + "_trapdoor_top").y(270))
-                    .put("facing=west,half=top,open=true", JState.model("ctft:block/" + id + "_trapdoor_open").x(180).y(90))
-            ), new Identifier("ctft:" + id + "_trapdoor"));
-            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_trapdoor_from_crafting"), JRecipe.shaped(JPattern.pattern().row2("000").row3("000"), JKeys.keys().key("0", ingredient), JResult.stackedResult("ctft:" + id + "_trapdoor", 2)));
-            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_trapdoor"), JLootTable
-                    .loot("block")
-                    .pool(JLootTable.pool()
-                            .rolls(1)
-                            .entry(JLootTable
-                                    .entry()
-                                    .type("minecraft:item")
-                                    .name("ctft:" + id + "_trapdoor"))));
-            TagInjector.injectItems(new Identifier("ctft", "ctft_trapdoors"), Registry.ITEM.get(new Identifier("ctft", id + "_trapdoor")));
-            if (piglin_loved.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_trapdoor")));
-            }
-            if (freeze_immune_wearables.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_trapdoor")));
-            }
-            if (piglin_repellents.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_trapdoor")));
-            }
-        }
-        if (Ctft.CONFIG.tools_config.leversEnabled) {
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/lever").textures(JModel.textures().var("0", "minecraft:block/lever").var("1", namespace).particle(namespace)), new Identifier("ctft", "item/" + id + "_lever"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/lever").textures((JModel.textures().var("lever", "minecraft:block/lever").var("base", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_lever_off"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/lever_on").textures((JModel.textures().var("lever", "minecraft:block/lever").var("base", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_lever_on"));
-            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
-                    .put("face=ceiling,facing=east,powered=false", JState.model("ctft:block/" + id + "_lever_off").x(180).y(270))
-                    .put("face=ceiling,facing=east,powered=true", JState.model("ctft:block/" + id + "_lever_on").x(180).y(270))
-                    .put("face=ceiling,facing=north,powered=false", JState.model("ctft:block/" + id + "_lever_off").x(180).y(180))
-                    .put("face=ceiling,facing=north,powered=true", JState.model("ctft:block/" + id + "_lever_on").x(180).y(180))
-                    .put("face=ceiling,facing=south,powered=false", JState.model("ctft:block/" + id + "_lever_off").x(180))
-                    .put("face=ceiling,facing=south,powered=true", JState.model("ctft:block/" + id + "_lever_on").x(180))
-                    .put("face=ceiling,facing=west,powered=false", JState.model("ctft:block/" + id + "_lever_off").x(180).y(90))
-                    .put("face=ceiling,facing=west,powered=true", JState.model("ctft:block/" + id + "_lever_on").x(180).y(90))
-                    .put("face=floor,facing=east,powered=false", JState.model("ctft:block/" + id + "_lever_off").y(90))
-                    .put("face=floor,facing=east,powered=true", JState.model("ctft:block/" + id + "_lever_on").y(90))
-                    .put("face=floor,facing=north,powered=false", JState.model("ctft:block/" + id + "_lever_off"))
-                    .put("face=floor,facing=north,powered=true", JState.model("ctft:block/" + id + "_lever_on"))
-                    .put("face=floor,facing=south,powered=false", JState.model("ctft:block/" + id + "_lever_off").y(180))
-                    .put("face=floor,facing=south,powered=true", JState.model("ctft:block/" + id + "_lever_on").y(180))
-                    .put("face=floor,facing=west,powered=false", JState.model("ctft:block/" + id + "_lever_off").y(270))
-                    .put("face=floor,facing=west,powered=true", JState.model("ctft:block/" + id + "_lever_on").y(270))
-                    .put("face=wall,facing=east,powered=false", JState.model("ctft:block/" + id + "_lever_off").x(90).y(90))
-                    .put("face=wall,facing=east,powered=true", JState.model("ctft:block/" + id + "_lever_on").x(90).y(90))
-                    .put("face=wall,facing=north,powered=false", JState.model("ctft:block/" + id + "_lever_off").x(90))
-                    .put("face=wall,facing=north,powered=true", JState.model("ctft:block/" + id + "_lever_on").x(90))
-                    .put("face=wall,facing=south,powered=false", JState.model("ctft:block/" + id + "_lever_off").x(90).y(180))
-                    .put("face=wall,facing=south,powered=true", JState.model("ctft:block/" + id + "_lever_on").x(90).y(180))
-                    .put("face=wall,facing=west,powered=false", JState.model("ctft:block/" + id + "_lever_off").x(90).y(270))
-                    .put("face=wall,facing=west,powered=true", JState.model("ctft:block/" + id + "_lever_on").x(90).y(270))
-            ), new Identifier("ctft:" + id + "_lever"));
-            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_lever_from_crafting"), JRecipe.shaped(JPattern.pattern().row2(" 0 ").row3(" 1 "), JKeys.keys().key("0", stick).key("1", ingredient), JResult.result("ctft:" + id + "_lever")));
-            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_lever"), JLootTable
-                    .loot("block")
-                    .pool(JLootTable.pool()
-                            .rolls(1)
-                            .entry(JLootTable
-                                    .entry()
-                                    .type("minecraft:item")
-                                    .name("ctft:" + id + "_lever"))));
-            TagInjector.injectItems(new Identifier("ctft", "ctft_levers"), Registry.ITEM.get(new Identifier("ctft", id + "_lever")));
-            if (piglin_loved.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_lever")));
-            }
-            if (freeze_immune_wearables.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_lever")));
-            }
-            if (piglin_repellents.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_lever")));
-            }
-        }
-        if (Ctft.CONFIG.tools_config.buttonsEnabled) {
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/button_inventory").textures((JModel.textures().var("texture", namespace))), new Identifier("ctft", "item/" + id + "_button"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/button").textures((JModel.textures().var("texture", namespace))), new Identifier("ctft", "block/" + id + "_button_off"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/button_pressed").textures((JModel.textures().var("texture", namespace))), new Identifier("ctft", "block/" + id + "_button_on"));
-            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
-                    .put("face=ceiling,facing=east,powered=false", JState.model("ctft:block/" + id + "_button_off").x(180).y(270))
-                    .put("face=ceiling,facing=east,powered=true", JState.model("ctft:block/" + id + "_button_on").x(180).y(270))
-                    .put("face=ceiling,facing=north,powered=false", JState.model("ctft:block/" + id + "_button_off").x(180).y(180))
-                    .put("face=ceiling,facing=north,powered=true", JState.model("ctft:block/" + id + "_button_on").x(180).y(180))
-                    .put("face=ceiling,facing=south,powered=false", JState.model("ctft:block/" + id + "_button_off").x(180))
-                    .put("face=ceiling,facing=south,powered=true", JState.model("ctft:block/" + id + "_button_on").x(180))
-                    .put("face=ceiling,facing=west,powered=false", JState.model("ctft:block/" + id + "_button_off").x(180).y(90))
-                    .put("face=ceiling,facing=west,powered=true", JState.model("ctft:block/" + id + "_button_on").x(180).y(90))
-                    .put("face=floor,facing=east,powered=false", JState.model("ctft:block/" + id + "_button_off").y(90))
-                    .put("face=floor,facing=east,powered=true", JState.model("ctft:block/" + id + "_button_on").y(90))
-                    .put("face=floor,facing=north,powered=false", JState.model("ctft:block/" + id + "_button_off"))
-                    .put("face=floor,facing=north,powered=true", JState.model("ctft:block/" + id + "_button_on"))
-                    .put("face=floor,facing=south,powered=false", JState.model("ctft:block/" + id + "_button_off").y(180))
-                    .put("face=floor,facing=south,powered=true", JState.model("ctft:block/" + id + "_button_on").y(180))
-                    .put("face=floor,facing=west,powered=false", JState.model("ctft:block/" + id + "_button_off").y(270))
-                    .put("face=floor,facing=west,powered=true", JState.model("ctft:block/" + id + "_button_on").y(270))
-                    .put("face=wall,facing=east,powered=false", JState.model("ctft:block/" + id + "_button_off").x(90).y(90))
-                    .put("face=wall,facing=east,powered=true", JState.model("ctft:block/" + id + "_button_on").x(90).y(90))
-                    .put("face=wall,facing=north,powered=false", JState.model("ctft:block/" + id + "_button_off").x(90))
-                    .put("face=wall,facing=north,powered=true", JState.model("ctft:block/" + id + "_button_on").x(90))
-                    .put("face=wall,facing=south,powered=false", JState.model("ctft:block/" + id + "_button_off").x(90).y(180))
-                    .put("face=wall,facing=south,powered=true", JState.model("ctft:block/" + id + "_button_on").x(90).y(180))
-                    .put("face=wall,facing=west,powered=false", JState.model("ctft:block/" + id + "_button_off").x(90).y(270))
-                    .put("face=wall,facing=west,powered=true", JState.model("ctft:block/" + id + "_button_on").x(90).y(270))
-            ), new Identifier("ctft:" + id + "_button"));
-            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_button_from_stonecutter"), JRecipe.stonecutting(ingredient, JResult.stackedResult("ctft:" + id + "_button", 1)));
-            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_button"), JLootTable
-                    .loot("block")
-                    .pool(JLootTable.pool()
-                            .rolls(1)
-                            .entry(JLootTable
-                                    .entry()
-                                    .type("minecraft:item")
-                                    .name("ctft:" + id + "_button"))));
-            TagInjector.injectItems(new Identifier("ctft", "ctft_buttons"), Registry.ITEM.get(new Identifier("ctft", id + "_button")));
-            if (piglin_loved.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_button")));
-            }
-            if (freeze_immune_wearables.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_button")));
-            }
-            if (piglin_repellents.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_button")));
-            }
-        }
-        if (Ctft.CONFIG.tools_config.pressurePlatesEnabled) {
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/pressure_plate_up").textures((JModel.textures().var("texture", namespace))), new Identifier("ctft", "item/" + id + "_pressure_plate"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/pressure_plate_down").textures((JModel.textures().var("texture", namespace))), new Identifier("ctft", "block/" + id + "_pressure_plate_on"));
-            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
-                    .put("powered=false", JState.model("ctft:item/" + id + "_pressure_plate"))
-                    .put("powered=true", JState.model("ctft:block/" + id + "_pressure_plate_on"))
-            ), new Identifier("ctft:" + id + "_pressure_plate"));
-            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_pressure_plate_from_crafting"), JRecipe.shaped(JPattern.pattern().row3("00 "), JKeys.keys().key("0", ingredient), JResult.result("ctft:" + id + "_pressure_plate")));
-            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_pressure_plate"), JLootTable
-                    .loot("block")
-                    .pool(JLootTable.pool()
-                            .rolls(1)
-                            .entry(JLootTable
-                                    .entry()
-                                    .type("minecraft:item")
-                                    .name("ctft:" + id + "_pressure_plate"))));
-            TagInjector.injectItems(new Identifier("ctft", "ctft_pressure_plates"), Registry.ITEM.get(new Identifier("ctft", id + "_pressure_plate")));
-            if (piglin_loved.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_pressure_plate")));
-            }
-        }
-        if (Ctft.CONFIG.tools_config.torchesEnabled) {
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/torch").textures((JModel.textures().var("0", "minecraft:block/torch").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_torch"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:block/template_torch").textures((JModel.textures().var("0", "minecraft:block/torch").var("1", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_torch"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:block/template_torch_wall").textures((JModel.textures().var("1", "minecraft:block/torch").var("2", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_torch_wall"));
-            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
-                    .put("", JState.model("ctft:block/" + id + "_torch"))
-            ), new Identifier("ctft:" + id + "_torch"));
-            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
-                    .put("facing=east", JState.model("ctft:block/" + id + "_torch_wall"))
-                    .put("facing=north", JState.model("ctft:block/" + id + "_torch_wall").y(270))
-                    .put("facing=south", JState.model("ctft:block/" + id + "_torch_wall").y(90))
-                    .put("facing=west", JState.model("ctft:block/" + id + "_torch_wall").y(180))
-            ), new Identifier("ctft:" + id + "_walltorch"));
-            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_torch_from_crafting"), JRecipe.shaped(JPattern.pattern().row1(" 1 ").row2(" 0 "), JKeys.keys().key("0", ingredient).key("1", coal), JResult.stackedResult("ctft:" + id + "_torch", 4)));
-            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_torch"), JLootTable
-                    .loot("block")
-                    .pool(JLootTable.pool()
-                            .rolls(1)
-                            .entry(JLootTable
-                                    .entry()
-                                    .type("minecraft:item")
-                                    .name("ctft:" + id + "_torch"))));
-            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_walltorch"), JLootTable
-                    .loot("block")
-                    .pool(JLootTable.pool()
-                            .rolls(1)
-                            .entry(JLootTable
-                                    .entry()
-                                    .type("minecraft:item")
-                                    .name("ctft:" + id + "_torch"))));
-            TagInjector.injectItems(new Identifier("ctft", "ctft_torches"), Registry.ITEM.get(new Identifier("ctft", id + "_torch")));
-            if (piglin_loved.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_torch")));
-            }
-            if (freeze_immune_wearables.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_torch")));
-            }
-            if (piglin_repellents.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_torch")));
-            }
-        }
-        if (Ctft.CONFIG.tools_config.lanternsEnabled) {
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/lantern").textures((JModel.textures().var("0", "minecraft:item/lantern").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_lantern"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:block/template_lantern").textures((JModel.textures().var("2", "minecraft:block/lantern").var("1", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_lantern"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:block/template_hanging_lantern").textures((JModel.textures().var("1", "minecraft:block/lantern").var("2", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_lantern_hanging"));
-            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
-                    .put("hanging=false", JState.model("ctft:block/" + id + "_lantern"))
-                    .put("hanging=true", JState.model("ctft:block/" + id + "_lantern_hanging"))
-            ), new Identifier("ctft:" + id + "_lantern"));
-            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_lantern_from_crafting"), JRecipe.shaped(JPattern.pattern().row1("000").row2("010").row3("000"), JKeys.keys().key("1", torch).key("0", ingredient), JResult.result("ctft:" + id + "_lantern")));
-            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_lantern"), JLootTable
-                    .loot("block")
-                    .pool(JLootTable.pool()
-                            .rolls(1)
-                            .entry(JLootTable
-                                    .entry()
-                                    .type("minecraft:item")
-                                    .name("ctft:" + id + "_lantern"))));
-            TagInjector.injectItems(new Identifier("ctft", "ctft_lanterns"), Registry.ITEM.get(new Identifier("ctft", id + "_lantern")));
-            if (piglin_loved.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_lantern")));
-            }
-            if (freeze_immune_wearables.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_lantern")));
-            }
-            if (piglin_repellents.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_lantern")));
-            }
-        }
-        if (Ctft.CONFIG.tools_config.endRodsEnabled) {
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/end_rod").textures((JModel.textures().var("end_rod", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_end_rod"));
-            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
-                    .put("facing=down", JState.model("ctft:item/" + id + "_end_rod").x(180))
-                    .put("facing=east", JState.model("ctft:item/" + id + "_end_rod").x(90).y(90))
-                    .put("facing=north", JState.model("ctft:item/" + id + "_end_rod").x(90))
-                    .put("facing=south", JState.model("ctft:item/" + id + "_end_rod").x(90).y(180))
-                    .put("facing=up", JState.model("ctft:item/" + id + "_end_rod"))
-                    .put("facing=west", JState.model("ctft:item/" + id + "_end_rod").x(90).y(270))
-            ), new Identifier("ctft:" + id + "_end_rod"));
-            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_end_rod_from_stonecutter"), JRecipe.stonecutting(ingredient, JResult.stackedResult("ctft:" + id + "_end_rod", 1)));
-            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_end_rod"), JLootTable
-                    .loot("block")
-                    .pool(JLootTable.pool()
-                            .rolls(1)
-                            .entry(JLootTable
-                                    .entry()
-                                    .type("minecraft:item")
-                                    .name("ctft:" + id + "_end_rod"))));
-            TagInjector.injectItems(new Identifier("ctft", "ctft_end_rods"), Registry.ITEM.get(new Identifier("ctft", id + "_end_rod")));
-            if (piglin_loved.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_end_rod")));
-            }
-            if (freeze_immune_wearables.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_end_rod")));
-            }
-            if (piglin_repellents.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_end_rod")));
-            }
-        }
-        if (Ctft.CONFIG.tools_config.signsEnabled) {
-            SignTypeInvoker.ctft$invokeRegister(SignTypeInvoker.ctft$invokeNew(id));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/sign").textures((JModel.textures().var("0", "minecraft:item/oak_sign").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_sign"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().textures((JModel.textures().var("texture", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_sign"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().textures((JModel.textures().var("texture", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_wallsign"));
-            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
-                    .put("", JState.model("ctft:block/" + id + "_sign"))
-            ), new Identifier("ctft:" + id + "_sign"));
-            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
-                    .put("", JState.model("ctft:block/" + id + "_wallsign"))
-            ), new Identifier("ctft:" + id + "_wallsign"));
-            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_sign_from_crafting"), JRecipe.shaped(JPattern.pattern().row1("000").row2("000").row3(" 1 "), JKeys.keys().key("0", ingredient).key("1", stick), JResult.stackedResult("ctft:" + id + "_sign", 3)));
-            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_sign"), JLootTable
-                    .loot("block")
-                    .pool(JLootTable.pool()
-                            .rolls(1)
-                            .entry(JLootTable
-                                    .entry()
-                                    .type("minecraft:item")
-                                    .name("ctft:" + id + "_sign"))));
-            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_wallsign"), JLootTable
-                    .loot("block")
-                    .pool(JLootTable.pool()
-                            .rolls(1)
-                            .entry(JLootTable
-                                    .entry()
-                                    .type("minecraft:item")
-                                    .name("ctft:" + id + "_sign"))));
-            TagInjector.injectItems(new Identifier("ctft", "ctft_signs"), Registry.ITEM.get(new Identifier("ctft", id + "_sign")));
-            if (piglin_loved.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_sign")));
-            }
-            if (freeze_immune_wearables.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_sign")));
-            }
-            if (piglin_repellents.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_sign")));
-            }
-        }
-        if (Ctft.CONFIG.tools_config.laddersEnabled) {
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:item/generated").textures(JModel.textures().layer0("ctft:blocks/" + texture + "_ladder").particle("ctft:blocks/" + texture + "_ladder")), new Identifier("ctft", "item/" + id + "_ladder"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/ladder").textures(JModel.textures().var("texture", "ctft:blocks/" + texture + "_ladder").particle("ctft:blocks/" + texture + "_ladder")), new Identifier("ctft", "block/" + id + "_ladder"));
-            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
-                    .put("facing=east", JState.model("ctft:block/" + id + "_ladder").y(90))
-                    .put("facing=north", JState.model("ctft:block/" + id + "_ladder"))
-                    .put("facing=south", JState.model("ctft:block/" + id + "_ladder").y(180))
-                    .put("facing=west", JState.model("ctft:block/" + id + "_ladder").y(270))
-            ), new Identifier("ctft:" + id + "_ladder"));
-            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_ladder_from_crafting"), JRecipe.shaped(JPattern.pattern().row1("0 0").row2("000").row3("0 0"), JKeys.keys().key("0", ingredient), JResult.stackedResult("ctft:" + id + "_ladder", 3)));
-            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_ladder"), JLootTable
-                    .loot("block")
-                    .pool(JLootTable.pool()
-                            .rolls(1)
-                            .entry(JLootTable
-                                    .entry()
-                                    .type("minecraft:item")
-                                    .name("ctft:" + id + "_ladder"))));
-            TagInjector.injectBlocks(new Identifier("minecraft", "climbable"), Registry.BLOCK.get(new Identifier("ctft", id + "_ladder")));
-            TagInjector.injectItems(new Identifier("ctft", "ctft_ladders"), Registry.ITEM.get(new Identifier("ctft", id + "_ladder")));
-            if (piglin_loved.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_ladder")));
-            }
-            if (freeze_immune_wearables.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_ladder")));
-            }
-            if (piglin_repellents.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_ladder")));
-            }
-        }
-        if (Ctft.CONFIG.tools_config.chainsEnabled) {
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/chain").textures(JModel.textures().var("1", namespace).particle(namespace)), new Identifier("ctft", "item/" + id + "_chain"));
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:block/chain").textures(JModel.textures().var("1", namespace).particle(namespace)), new Identifier("ctft", "block/" + id + "_chain"));
-            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
-                    .put("axis=x", JState.model("ctft:block/" + id + "_chain").x(90).y(90))
-                    .put("axis=y", JState.model("ctft:block/" + id + "_chain"))
-                    .put("axis=z", JState.model("ctft:block/" + id + "_chain").x(90))
-            ), new Identifier("ctft:" + id + "_chain"));
-            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_chain_from_stonecutter"), JRecipe.stonecutting(ingredient, JResult.stackedResult("ctft:" + id + "_chain", 1)));
-            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_chain"), JLootTable
-                    .loot("block")
-                    .pool(JLootTable.pool()
-                            .rolls(1)
-                            .entry(JLootTable
-                                    .entry()
-                                    .type("minecraft:item")
-                                    .name("ctft:" + id + "_chain"))));
-            TagInjector.injectItems(new Identifier("ctft", "ctft_chains"), Registry.ITEM.get(new Identifier("ctft", id + "_chain")));
-            if (piglin_loved.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_chain")));
-            }
-            if (freeze_immune_wearables.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_chain")));
-            }
-            if (piglin_repellents.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_chain")));
-            }
-        }
-        if (Ctft.CONFIG.tools_config.compressionLevel >= 1) {
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compressed1").textures((JModel.textures().var("0", "ctft:blocks/" + texture + "_compressed").particle("ctft:blocks/" + texture + "_compressed"))), new Identifier("ctft", "item/" + id + "_compressed1"));
-            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
-                    .put("", JState.model("ctft:item/" + id + "_compressed1"))
-            ), new Identifier("ctft:" + id + "_compressed1"));
-            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed1_from_block"), JRecipe.shaped(JPattern.pattern().row1("000").row2("000").row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("ctft:" + id + "_block")), JResult.result("ctft:" + id + "_compressed1")));
-            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_block_from_compressed1"), JRecipe.shapeless(JIngredients.ingredients().add(JIngredient.ingredient().item("ctft:" + id + "_compressed1")), JResult.stackedResult("ctft:" + id + "_block", 9)));
-            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_compressed1"), JLootTable
-                    .loot("block")
-                    .pool(JLootTable.pool()
-                            .rolls(1)
-                            .entry(JLootTable
-                                    .entry()
-                                    .type("minecraft:item")
-                                    .name("ctft:" + id + "_compressed1"))));
-            TagInjector.injectItems(new Identifier("ctft", "ctft_compressed1"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed1")));
-            if (piglin_loved.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed1")));
-            }
-            if (freeze_immune_wearables.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed1")));
-            }
-            if (piglin_repellents.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed1")));
-            }
-        }
-        if (Ctft.CONFIG.tools_config.compressionLevel >= 2) {
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compressed2").textures((JModel.textures().var("0", "ctft:blocks/" + texture + "_compressed").particle("ctft:blocks/" + texture + "_compressed"))), new Identifier("ctft", "item/" + id + "_compressed2"));
-            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
-                    .put("", JState.model("ctft:item/" + id + "_compressed2"))
-            ), new Identifier("ctft:" + id + "_compressed2"));
-            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed2_from_compressed1"), JRecipe.shaped(JPattern.pattern().row1("000").row2("000").row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("ctft:" + id + "_compressed1")), JResult.result("ctft:" + id + "_compressed2")));
-            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed1_from_compressed2"), JRecipe.shapeless(JIngredients.ingredients().add(JIngredient.ingredient().item("ctft:" + id + "_compressed2")), JResult.stackedResult("ctft:" + id + "_compressed1", 9)));
-            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_compressed2"), JLootTable
-                    .loot("block")
-                    .pool(JLootTable.pool()
-                            .rolls(1)
-                            .entry(JLootTable
-                                    .entry()
-                                    .type("minecraft:item")
-                                    .name("ctft:" + id + "_compressed2"))));
-            TagInjector.injectItems(new Identifier("ctft", "ctft_compressed2"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed2")));
-            if (piglin_loved.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed2")));
-            }
-            if (freeze_immune_wearables.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed2")));
-            }
-            if (piglin_repellents.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed2")));
-            }
-        }
-        if (Ctft.CONFIG.tools_config.compressionLevel >= 3) {
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compressed3").textures((JModel.textures().var("0", "ctft:blocks/" + texture + "_compressed").particle("ctft:blocks/" + texture + "_compressed"))), new Identifier("ctft", "item/" + id + "_compressed3"));
-            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
-                    .put("", JState.model("ctft:item/" + id + "_compressed3"))
-            ), new Identifier("ctft:" + id + "_compressed3"));
-            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed3_from_compressed2"), JRecipe.shaped(JPattern.pattern().row1("000").row2("000").row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("ctft:" + id + "_compressed2")), JResult.result("ctft:" + id + "_compressed3")));
-            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed2_from_compressed3"), JRecipe.shapeless(JIngredients.ingredients().add(JIngredient.ingredient().item("ctft:" + id + "_compressed3")), JResult.stackedResult("ctft:" + id + "_compressed2", 9)));
-            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_compressed3"), JLootTable
-                    .loot("block")
-                    .pool(JLootTable.pool()
-                            .rolls(1)
-                            .entry(JLootTable
-                                    .entry()
-                                    .type("minecraft:item")
-                                    .name("ctft:" + id + "_compressed3"))));
-            TagInjector.injectItems(new Identifier("ctft", "ctft_compressed3"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed3")));
-            if (piglin_loved.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed3")));
-            }
-            if (freeze_immune_wearables.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed3")));
-            }
-            if (piglin_repellents.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed3")));
-            }
-        }
-        if (Ctft.CONFIG.tools_config.compressionLevel >= 4) {
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compressed4").textures((JModel.textures().var("0", "ctft:blocks/" + texture + "_compressed").particle("ctft:blocks/" + texture + "_compressed"))), new Identifier("ctft", "item/" + id + "_compressed4"));
-            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
-                    .put("", JState.model("ctft:item/" + id + "_compressed4"))
-            ), new Identifier("ctft:" + id + "_compressed4"));
-            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed4_from_compressed3"), JRecipe.shaped(JPattern.pattern().row1("000").row2("000").row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("ctft:" + id + "_compressed3")), JResult.result("ctft:" + id + "_compressed4")));
-            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed3_from_compressed4"), JRecipe.shapeless(JIngredients.ingredients().add(JIngredient.ingredient().item("ctft:" + id + "_compressed4")), JResult.stackedResult("ctft:" + id + "_compressed3", 9)));
-            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_compressed4"), JLootTable
-                    .loot("block")
-                    .pool(JLootTable.pool()
-                            .rolls(1)
-                            .entry(JLootTable
-                                    .entry()
-                                    .type("minecraft:item")
-                                    .name("ctft:" + id + "_compressed4"))));
-            TagInjector.injectItems(new Identifier("ctft", "ctft_compressed4"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed4")));
-            if (piglin_loved.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed4")));
-            }
-            if (freeze_immune_wearables.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed4")));
-            }
-            if (piglin_repellents.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed4")));
-            }
-        }
-        if (Ctft.CONFIG.tools_config.compressionLevel >= 5) {
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compressed5").textures((JModel.textures().var("0", "ctft:blocks/" + texture + "_compressed").particle("ctft:blocks/" + texture + "_compressed"))), new Identifier("ctft", "item/" + id + "_compressed5"));
-            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
-                    .put("", JState.model("ctft:item/" + id + "_compressed5"))
-            ), new Identifier("ctft:" + id + "_compressed5"));
-            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed5_from_compressed4"), JRecipe.shaped(JPattern.pattern().row1("000").row2("000").row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("ctft:" + id + "_compressed4")), JResult.result("ctft:" + id + "_compressed5")));
-            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed4_from_compressed5"), JRecipe.shapeless(JIngredients.ingredients().add(JIngredient.ingredient().item("ctft:" + id + "_compressed5")), JResult.stackedResult("ctft:" + id + "_compressed4", 9)));
-            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_compressed5"), JLootTable
-                    .loot("block")
-                    .pool(JLootTable.pool()
-                            .rolls(1)
-                            .entry(JLootTable
-                                    .entry()
-                                    .type("minecraft:item")
-                                    .name("ctft:" + id + "_compressed5"))));
-            TagInjector.injectItems(new Identifier("ctft", "ctft_compressed5"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed5")));
-            if (piglin_loved.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed5")));
-            }
-            if (freeze_immune_wearables.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed5")));
-            }
-            if (piglin_repellents.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed5")));
-            }
-        }
-        if (Ctft.CONFIG.tools_config.compressionLevel >= 6) {
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compressed6").textures((JModel.textures().var("0", "ctft:blocks/" + texture + "_compressed").particle("ctft:blocks/" + texture + "_compressed"))), new Identifier("ctft", "item/" + id + "_compressed6"));
-            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
-                    .put("", JState.model("ctft:item/" + id + "_compressed6"))
-            ), new Identifier("ctft:" + id + "_compressed6"));
-            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed6_from_compressed5"), JRecipe.shaped(JPattern.pattern().row1("000").row2("000").row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("ctft:" + id + "_compressed5")), JResult.result("ctft:" + id + "_compressed6")));
-            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed5_from_compressed6"), JRecipe.shapeless(JIngredients.ingredients().add(JIngredient.ingredient().item("ctft:" + id + "_compressed6")), JResult.stackedResult("ctft:" + id + "_compressed5", 9)));
-            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_compressed6"), JLootTable
-                    .loot("block")
-                    .pool(JLootTable.pool()
-                            .rolls(1)
-                            .entry(JLootTable
-                                    .entry()
-                                    .type("minecraft:item")
-                                    .name("ctft:" + id + "_compressed6"))));
-            TagInjector.injectItems(new Identifier("ctft", "ctft_compressed6"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed6")));
-            if (piglin_loved.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed6")));
-            }
-            if (freeze_immune_wearables.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed6")));
-            }
-            if (piglin_repellents.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed6")));
-            }
-        }
-        if (Ctft.CONFIG.tools_config.compressionLevel >= 7) {
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compressed7").textures((JModel.textures().var("0", "ctft:blocks/" + texture + "_compressed").particle("ctft:blocks/" + texture + "_compressed"))), new Identifier("ctft", "item/" + id + "_compressed7"));
-            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
-                    .put("", JState.model("ctft:item/" + id + "_compressed7"))
-            ), new Identifier("ctft:" + id + "_compressed7"));
-            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed7_from_compressed6"), JRecipe.shaped(JPattern.pattern().row1("000").row2("000").row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("ctft:" + id + "_compressed6")), JResult.result("ctft:" + id + "_compressed7")));
-            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed6_from_compressed7"), JRecipe.shapeless(JIngredients.ingredients().add(JIngredient.ingredient().item("ctft:" + id + "_compressed7")), JResult.stackedResult("ctft:" + id + "_compressed6", 9)));
-            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_compressed7"), JLootTable
-                    .loot("block")
-                    .pool(JLootTable.pool()
-                            .rolls(1)
-                            .entry(JLootTable
-                                    .entry()
-                                    .type("minecraft:item")
-                                    .name("ctft:" + id + "_compressed7"))));
-            TagInjector.injectItems(new Identifier("ctft", "ctft_compressed7"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed7")));
-            if (piglin_loved.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed7")));
-            }
-            if (freeze_immune_wearables.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed7")));
-            }
-            if (piglin_repellents.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed7")));
-            }
-        }
-        if (Ctft.CONFIG.tools_config.compressionLevel >= 8) {
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compressed8").textures((JModel.textures().var("0", "ctft:blocks/" + texture + "_compressed").particle("ctft:blocks/" + texture + "_compressed"))), new Identifier("ctft", "item/" + id + "_compressed8"));
-            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
-                    .put("", JState.model("ctft:item/" + id + "_compressed8"))
-            ), new Identifier("ctft:" + id + "_compressed8"));
-            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed8_from_compressed7"), JRecipe.shaped(JPattern.pattern().row1("000").row2("000").row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("ctft:" + id + "_compressed7")), JResult.result("ctft:" + id + "_compressed8")));
-            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed7_from_compressed8"), JRecipe.shapeless(JIngredients.ingredients().add(JIngredient.ingredient().item("ctft:" + id + "_compressed8")), JResult.stackedResult("ctft:" + id + "_compressed7", 9)));
-            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_compressed8"), JLootTable
-                    .loot("block")
-                    .pool(JLootTable.pool()
-                            .rolls(1)
-                            .entry(JLootTable
-                                    .entry()
-                                    .type("minecraft:item")
-                                    .name("ctft:" + id + "_compressed8"))));
-            TagInjector.injectItems(new Identifier("ctft", "ctft_compressed8"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed8")));
-            if (piglin_loved.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed8")));
-            }
-            if (freeze_immune_wearables.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed8")));
-            }
-            if (piglin_repellents.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed8")));
-            }
-        }
-        if (Ctft.CONFIG.tools_config.compressionLevel >= 9) {
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compressed9").textures((JModel.textures().var("0", "ctft:blocks/" + texture + "_compressed").particle("ctft:blocks/" + texture + "_compressed"))), new Identifier("ctft", "item/" + id + "_compressed9"));
-            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
-                    .put("", JState.model("ctft:item/" + id + "_compressed9"))
-            ), new Identifier("ctft:" + id + "_compressed9"));
-            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed9_from_compressed8"), JRecipe.shaped(JPattern.pattern().row1("000").row2("000").row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("ctft:" + id + "_compressed8")), JResult.result("ctft:" + id + "_compressed9")));
-            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed8_from_compressed9"), JRecipe.shapeless(JIngredients.ingredients().add(JIngredient.ingredient().item("ctft:" + id + "_compressed9")), JResult.stackedResult("ctft:" + id + "_compressed8", 9)));
-            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_compressed9"), JLootTable
-                    .loot("block")
-                    .pool(JLootTable.pool()
-                            .rolls(1)
-                            .entry(JLootTable
-                                    .entry()
-                                    .type("minecraft:item")
-                                    .name("ctft:" + id + "_compressed9"))));
-            TagInjector.injectItems(new Identifier("ctft", "ctft_compressed9"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed9")));
-            if (piglin_loved.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed9")));
-            }
-            if (freeze_immune_wearables.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed9")));
-            }
-            if (piglin_repellents.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed9")));
-            }
-        }
-        if (Ctft.CONFIG.tools_config.compressionLevel >= 10) {
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compressed10").textures((JModel.textures().var("0", "ctft:blocks/" + texture + "_compressed").particle("ctft:blocks/" + texture + "_compressed"))), new Identifier("ctft", "item/" + id + "_compressed10"));
-            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
-                    .put("", JState.model("ctft:item/" + id + "_compressed10"))
-            ), new Identifier("ctft:" + id + "_compressed10"));
-            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed10_from_compressed9"), JRecipe.shaped(JPattern.pattern().row1("000").row2("000").row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("ctft:" + id + "_compressed9")), JResult.result("ctft:" + id + "_compressed10")));
-            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed9_from_compressed10"), JRecipe.shapeless(JIngredients.ingredients().add(JIngredient.ingredient().item("ctft:" + id + "_compressed10")), JResult.stackedResult("ctft:" + id + "_compressed9", 9)));
-            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_compressed10"), JLootTable
-                    .loot("block")
-                    .pool(JLootTable.pool()
-                            .rolls(1)
-                            .entry(JLootTable
-                                    .entry()
-                                    .type("minecraft:item")
-                                    .name("ctft:" + id + "_compressed10"))));
-            TagInjector.injectItems(new Identifier("ctft", "ctft_compressed10"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed10")));
-            if (piglin_loved.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed10")));
-            }
-            if (freeze_immune_wearables.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed10")));
-            }
-            if (piglin_repellents.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed10")));
-            }
-        }
-        if (Ctft.CONFIG.tools_config.compressionLevel >= 11) {
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compressed11").textures((JModel.textures().var("0", "ctft:blocks/" + texture + "_compressed").particle("ctft:blocks/" + texture + "_compressed"))), new Identifier("ctft", "item/" + id + "_compressed11"));
-            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
-                    .put("", JState.model("ctft:item/" + id + "_compressed11"))
-            ), new Identifier("ctft:" + id + "_compressed11"));
-            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed11_from_compressed10"), JRecipe.shaped(JPattern.pattern().row1("000").row2("000").row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("ctft:" + id + "_compressed10")), JResult.result("ctft:" + id + "_compressed11")));
-            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed10_from_compressed11"), JRecipe.shapeless(JIngredients.ingredients().add(JIngredient.ingredient().item("ctft:" + id + "_compressed11")), JResult.stackedResult("ctft:" + id + "_compressed10", 9)));
-            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_compressed11"), JLootTable
-                    .loot("block")
-                    .pool(JLootTable.pool()
-                            .rolls(1)
-                            .entry(JLootTable
-                                    .entry()
-                                    .type("minecraft:item")
-                                    .name("ctft:" + id + "_compressed11"))));
-
-            TagInjector.injectItems(new Identifier("ctft", "ctft_compressed11"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed11")));
-            if (piglin_loved.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed11")));
-            }
-            if (freeze_immune_wearables.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed11")));
-            }
-            if (piglin_repellents.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed11")));
-            }
-        }
-        if (Ctft.CONFIG.tools_config.compressionLevel >= 12) {
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compressed12").textures((JModel.textures().var("0", "ctft:blocks/" + texture + "_compressed").particle("ctft:blocks/" + texture + "_compressed"))), new Identifier("ctft", "item/" + id + "_compressed12"));
-            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
-                    .put("", JState.model("ctft:item/" + id + "_compressed12"))
-            ), new Identifier("ctft:" + id + "_compressed12"));
-            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed12_from_compressed11"), JRecipe.shaped(JPattern.pattern().row1("000").row2("000").row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("ctft:" + id + "_compressed11")), JResult.result("ctft:" + id + "_compressed12")));
-            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed11_from_compressed12"), JRecipe.shapeless(JIngredients.ingredients().add(JIngredient.ingredient().item("ctft:" + id + "_compressed12")), JResult.stackedResult("ctft:" + id + "_compressed11", 9)));
-            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_compressed12"), JLootTable
-                    .loot("block")
-                    .pool(JLootTable.pool()
-                            .rolls(1)
-                            .entry(JLootTable
-                                    .entry()
-                                    .type("minecraft:item")
-                                    .name("ctft:" + id + "_compressed12"))));
-            TagInjector.injectItems(new Identifier("ctft", "ctft_compressed12"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed12")));
-            if (piglin_loved.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed12")));
-            }
-            if (freeze_immune_wearables.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed12")));
-            }
-            if (piglin_repellents.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed12")));
-            }
-        }
-        if (Ctft.CONFIG.tools_config.compressionLevel >= 13) {
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compressed13").textures((JModel.textures().var("0", "ctft:blocks/" + texture + "_compressed").particle("ctft:blocks/" + texture + "_compressed"))), new Identifier("ctft", "item/" + id + "_compressed13"));
-            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
-                    .put("", JState.model("ctft:item/" + id + "_compressed13"))
-            ), new Identifier("ctft:" + id + "_compressed13"));
-            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed13_from_compressed12"), JRecipe.shaped(JPattern.pattern().row1("000").row2("000").row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("ctft:" + id + "_compressed12")), JResult.result("ctft:" + id + "_compressed13")));
-            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed12_from_compressed13"), JRecipe.shapeless(JIngredients.ingredients().add(JIngredient.ingredient().item("ctft:" + id + "_compressed13")), JResult.stackedResult("ctft:" + id + "_compressed12", 9)));
-            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_compressed13"), JLootTable
-                    .loot("block")
-                    .pool(JLootTable.pool()
-                            .rolls(1)
-                            .entry(JLootTable
-                                    .entry()
-                                    .type("minecraft:item")
-                                    .name("ctft:" + id + "_compressed13"))));
-            TagInjector.injectItems(new Identifier("ctft", "ctft_compressed13"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed13")));
-            if (piglin_loved.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed13")));
-            }
-            if (freeze_immune_wearables.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed13")));
-            }
-            if (piglin_repellents.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed13")));
-            }
-        }
-        if (Ctft.CONFIG.tools_config.compressionLevel >= 14) {
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compressed14").textures((JModel.textures().var("0", "ctft:blocks/" + texture + "_compressed").particle("ctft:blocks/" + texture + "_compressed"))), new Identifier("ctft", "item/" + id + "_compressed14"));
-            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
-                    .put("", JState.model("ctft:item/" + id + "_compressed14"))
-            ), new Identifier("ctft:" + id + "_compressed14"));
-            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed14_from_compressed13"), JRecipe.shaped(JPattern.pattern().row1("000").row2("000").row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("ctft:" + id + "_compressed13")), JResult.result("ctft:" + id + "_compressed14")));
-            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed13_from_compressed14"), JRecipe.shapeless(JIngredients.ingredients().add(JIngredient.ingredient().item("ctft:" + id + "_compressed14")), JResult.stackedResult("ctft:" + id + "_compressed13", 9)));
-            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_compressed14"), JLootTable
-                    .loot("block")
-                    .pool(JLootTable.pool()
-                            .rolls(1)
-                            .entry(JLootTable
-                                    .entry()
-                                    .type("minecraft:item")
-                                    .name("ctft:" + id + "_compressed14"))));
-            TagInjector.injectItems(new Identifier("ctft", "ctft_compressed14"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed14")));
-            if (piglin_loved.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed14")));
-            }
-            if (freeze_immune_wearables.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed14")));
-            }
-            if (piglin_repellents.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed14")));
-            }
-        }
-        if (Ctft.CONFIG.tools_config.compressionLevel >= 15) {
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compressed15").textures((JModel.textures().var("0", "ctft:blocks/" + texture + "_compressed").particle("ctft:blocks/" + texture + "_compressed"))), new Identifier("ctft", "item/" + id + "_compressed15"));
-            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
-                    .put("", JState.model("ctft:item/" + id + "_compressed15"))
-            ), new Identifier("ctft:" + id + "_compressed15"));
-            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed15_from_compressed14"), JRecipe.shaped(JPattern.pattern().row1("000").row2("000").row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("ctft:" + id + "_compressed14")), JResult.result("ctft:" + id + "_compressed15")));
-            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed15_from_compressed15"), JRecipe.shapeless(JIngredients.ingredients().add(JIngredient.ingredient().item("ctft:" + id + "_compressed15")), JResult.stackedResult("ctft:" + id + "_compressed14", 9)));
-            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_compressed15"), JLootTable
-                    .loot("block")
-                    .pool(JLootTable.pool()
-                            .rolls(1)
-                            .entry(JLootTable
-                                    .entry()
-                                    .type("minecraft:item")
-                                    .name("ctft:" + id + "_compressed15"))));
-            if (piglin_loved.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed15")));
-            }
-            if (freeze_immune_wearables.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed15")));
-            }
-            if (piglin_repellents.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed15")));
-            }
-        }
-        if (Ctft.CONFIG.tools_config.kcolbsEnabled) {
-            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/kcolb").textures((JModel.textures().var("0", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_kcolb"));
-            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
-                    .put("", JState.model("ctft:item/" + id + "_kcolb"))
-            ), new Identifier("ctft:" + id + "_kcolb"));
-            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_kcolb_from_stonecutter"), JRecipe.stonecutting(block, JResult.stackedResult("ctft:" + id + "_kcolb", 1)));
-            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_block_from_kcolb"), JRecipe.shapeless(JIngredients.ingredients().add(JIngredient.ingredient().item("ctft:" + id + "_kcolb")), JResult.stackedResult("ctft:" + id + "_block", 1)));
-            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_kcolb"), JLootTable
-                    .loot("block")
-                    .pool(JLootTable.pool()
-                            .rolls(1)
-                            .entry(JLootTable
-                                    .entry()
-                                    .type("minecraft:item")
-                                    .name("ctft:" + id + "_kcolb"))));
-            TagInjector.injectItems(new Identifier("ctft", "ctft_kcolbs"), Registry.ITEM.get(new Identifier("ctft", id + "_kcolb")));
-            if (piglin_loved.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_kcolb")));
-            }
-            if (freeze_immune_wearables.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_kcolb")));
-            }
-            if (piglin_repellents.contains(id)) {
-                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_kcolb")));
-            }
-        }
+//        if (Ctft.CONFIG.tools_config.swordsEnabled) {
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/sword").textures((JModel.textures().var("0", "ctft:items/iron_sword").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_sword"));
+//            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_sword_from_crafting"), JRecipe.shaped(JPattern.pattern().row1(" 0 ").row2(" 0 ").row3(" 1 "), JKeys.keys().key("0", ingredient).key("1", stick), JResult.result("ctft:" + id + "_sword")));
+//            TagInjector.injectItems(new Identifier("ctft", "ctft_swords"), Registry.ITEM.get(new Identifier("ctft", id + "_sword")));
+//            if (piglin_loved.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_sword")));
+//            }
+//            if (freeze_immune_wearables.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_sword")));
+//            }
+//            if (piglin_repellents.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_sword")));
+//            }
+//        }
+//        if (Ctft.CONFIG.tools_config.pickaxesEnabled) {
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/pickaxe").textures((JModel.textures().var("0", "ctft:items/iron_pickaxe").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_pickaxe"));
+//            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_pickaxe_from_crafting"), JRecipe.shaped(JPattern.pattern().row1("000").row2(" 1 ").row3(" 1 "), JKeys.keys().key("0", ingredient).key("1", stick), JResult.result("ctft:" + id + "_pickaxe")));
+//            TagInjector.injectItems(new Identifier("minecraft", "cluster_max_harvestables"), Registry.ITEM.get(new Identifier("ctft", id + "_pickaxe")));
+//            TagInjector.injectItems(new Identifier("ctft", "ctft_pickaxes"), Registry.ITEM.get(new Identifier("ctft", id + "_pickaxe")));
+//            if (piglin_loved.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_pickaxe")));
+//            }
+//            if (freeze_immune_wearables.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_pickaxe")));
+//            }
+//            if (piglin_repellents.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_pickaxe")));
+//            }
+//        }
+//        if (Ctft.CONFIG.tools_config.axesEnabled) {
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/axe").textures((JModel.textures().var("0", "ctft:items/iron_axe").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_axe"));
+//            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_axe_from_crafting"), JRecipe.shaped(JPattern.pattern().row1("00 ").row2("01 ").row3(" 1 "), JKeys.keys().key("0", ingredient).key("1", stick), JResult.result("ctft:" + id + "_axe")));
+//            TagInjector.injectItems(new Identifier("ctft", "ctft_axes"), Registry.ITEM.get(new Identifier("ctft", id + "_axe")));
+//            if (piglin_loved.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_axe")));
+//            }
+//            if (freeze_immune_wearables.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_axe")));
+//            }
+//            if (piglin_repellents.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_axe")));
+//            }
+//        }
+//        if (Ctft.CONFIG.tools_config.shovelsEnabled) {
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/shovel").textures((JModel.textures().var("0", "ctft:items/iron_shovel").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_shovel"));
+//            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_shovel_from_crafting"), JRecipe.shaped(JPattern.pattern().row1(" 0 ").row2(" 1 ").row3(" 1 "), JKeys.keys().key("0", ingredient).key("1", stick), JResult.result("ctft:" + id + "_shovel")));
+//            TagInjector.injectItems(new Identifier("ctft", "ctft_shovels"), Registry.ITEM.get(new Identifier("ctft", id + "_shovel")));
+//            if (piglin_loved.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_shovel")));
+//                if (freeze_immune_wearables.contains(id)) {
+//                    TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_shovel")));
+//                }
+//                if (piglin_repellents.contains(id)) {
+//                    TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_shovel")));
+//                }
+//            }
+//        }
+//        if (Ctft.CONFIG.tools_config.hoesEnabled) {
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/hoe").textures((JModel.textures().var("0", "ctft:items/iron_hoe").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_hoe"));
+//            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_hoe_from_crafting"), JRecipe.shaped(JPattern.pattern().row1("00 ").row2(" 1 ").row3(" 1 "), JKeys.keys().key("0", ingredient).key("1", stick), JResult.result("ctft:" + id + "_hoe")));
+//            TagInjector.injectItems(new Identifier("ctft", "ctft_hoes"), Registry.ITEM.get(new Identifier("ctft", id + "_hoe")));
+//            if (piglin_loved.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_hoe")));
+//            }
+//            if (freeze_immune_wearables.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_hoe")));
+//            }
+//            if (piglin_repellents.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_hoe")));
+//            }
+//        }
+//        if (Ctft.CONFIG.tools_config.helmetsEnabled) {
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/helmet").textures((JModel.textures().var("0", "ctft:items/iron_helmet").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_helmet"));
+//            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_helmet_from_crafting"), JRecipe.shaped(JPattern.pattern().row2("000").row3("0 0"), JKeys.keys().key("0", ingredient), JResult.result("ctft:" + id + "_helmet")));
+//            TagInjector.injectItems(new Identifier("ctft", "ctft_helmets"), Registry.ITEM.get(new Identifier("ctft", id + "_helmet")));
+//            if (piglin_loved.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_helmet")));
+//                TagInjector.injectItems(new Identifier("piglib", "piglin_safe_armor"), Registry.ITEM.get(new Identifier("ctft", id + "_helmet")));
+//            }
+//            if (freeze_immune_wearables.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_helmet")));
+//            }
+//            if (piglin_repellents.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_helmet")));
+//            }
+//        }
+//        if (Ctft.CONFIG.tools_config.chestplatesEnabled) {
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/chestplate").textures((JModel.textures().var("0", "ctft:items/iron_chestplate").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_chestplate"));
+//            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_chestplate_from_crafting"), JRecipe.shaped(JPattern.pattern().row1("0 0").row2("000").row3("000"), JKeys.keys().key("0", ingredient), JResult.result("ctft:" + id + "_chestplate")));
+//            TagInjector.injectItems(new Identifier("ctft", "ctft_chestplates"), Registry.ITEM.get(new Identifier("ctft", id + "_chestplate")));
+//            if (piglin_loved.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_chestplate")));
+//                TagInjector.injectItems(new Identifier("piglib", "piglin_safe_armor"), Registry.ITEM.get(new Identifier("ctft", id + "_chestplate")));
+//            }
+//            if (freeze_immune_wearables.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_chestplate")));
+//            }
+//            if (piglin_repellents.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_chestplate")));
+//            }
+//        }
+//        if (Ctft.CONFIG.tools_config.leggingsEnabled) {
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/leggings").textures((JModel.textures().var("0", "ctft:items/iron_leggings").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_leggings"));
+//            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_leggings_from_crafting"), JRecipe.shaped(JPattern.pattern().row1("000").row2("0 0").row3("0 0"), JKeys.keys().key("0", ingredient), JResult.result("ctft:" + id + "_leggings")));
+//            TagInjector.injectItems(new Identifier("ctft", "ctft_leggings"), Registry.ITEM.get(new Identifier("ctft", id + "_leggings")));
+//            if (piglin_loved.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_leggings")));
+//                TagInjector.injectItems(new Identifier("piglib", "piglin_safe_armor"), Registry.ITEM.get(new Identifier("ctft", id + "_leggings")));
+//            }
+//            if (freeze_immune_wearables.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_leggings")));
+//            }
+//            if (piglin_repellents.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_leggings")));
+//            }
+//        }
+//        if (Ctft.CONFIG.tools_config.bootsEnabled) {
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/boots").textures((JModel.textures().var("0", "ctft:items/iron_boots").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_boots"));
+//            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_boots_from_crafting"), JRecipe.shaped(JPattern.pattern().row2("0 0").row3("0 0"), JKeys.keys().key("0", ingredient), JResult.result("ctft:" + id + "_boots")));
+//            TagInjector.injectItems(new Identifier("ctft", "ctft_boots"), Registry.ITEM.get(new Identifier("ctft", id + "_boots")));
+//            if (piglin_loved.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_boots")));
+//                TagInjector.injectItems(new Identifier("piglib", "piglin_safe_armor"), Registry.ITEM.get(new Identifier("ctft", id + "_boots")));
+//            }
+//            if (freeze_immune_wearables.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_boots")));
+//            }
+//            if (piglin_repellents.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_boots")));
+//            }
+//        }
+//        if (Ctft.CONFIG.tools_config.bowsEnabled) {
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/bow").textures((JModel.textures().var("0", "ctft:items/bow").var("1", namespace).particle(namespace)))
+//                    .addOverride(JModel.override(JModel.condition().parameter("pulling", 1.0), new Identifier("ctft", "item/" + id + "_bow_pulling_0")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("pulling", 1.0).parameter("pull", 0.65), new Identifier("ctft", "item/" + id + "_bow_pulling_1")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("pulling", 1.0).parameter("pull", 0.9), new Identifier("ctft", "item/" + id + "_bow_pulling_2"))), new Identifier("ctft", "item/" + id + "_bow"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/bow_pulling_0").textures((JModel.textures().var("0", "ctft:items/bow_pulling_0").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_bow_pulling_0"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/bow_pulling_1").textures((JModel.textures().var("0", "ctft:items/bow_pulling_1").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_bow_pulling_1"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/bow_pulling_2").textures((JModel.textures().var("0", "ctft:items/bow_pulling_2").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_bow_pulling_2"));
+//            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_bow_from_crafting"), JRecipe.shaped(JPattern.pattern().row1(" 01").row2("0 1").row3(" 01"), JKeys.keys().key("0", ingredient).key("1", string), JResult.result("ctft:" + id + "_bow")));
+//            TagInjector.injectItems(new Identifier("ctft", "ctft_bows"), Registry.ITEM.get(new Identifier("ctft", id + "_bow")));
+//            if (piglin_loved.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_bow")));
+//            }
+//            if (freeze_immune_wearables.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_bow")));
+//            }
+//            if (piglin_repellents.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_bow")));
+//            }
+//        }
+//        if (Ctft.CONFIG.tools_config.crossbowsEnabled) {
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/crossbow_standby").textures((JModel.textures().var("0", "ctft:items/crossbow_standby").var("1", namespace).particle(namespace)))
+//                    .addOverride(JModel.override(JModel.condition().parameter("pulling", 1.0), new Identifier("ctft", "item/" + id + "_crossbow_pulling_0")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("pulling", 1.0).parameter("pull", 0.58), new Identifier("ctft", "item/" + id + "_crossbow_pulling_1")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("pulling", 1.0).parameter("pull", 1.0), new Identifier("ctft", "item/" + id + "_crossbow_pulling_2")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("charged", 1.0), new Identifier("ctft", "item/" + id + "_crossbow_arrow")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("charged", 1.0).parameter("firework", 1.0), new Identifier("ctft", "item/" + id + "_crossbow_firework")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("charged", 1.0).parameter("ender_pearl", 1.0), new Identifier("ctft", "item/" + id + "_crossbow_ender_pearl")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("charged", 1.0).parameter("potion", 1.0), new Identifier("ctft", "item/" + id + "_crossbow_potion")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("charged", 1.0).parameter("experience_bottle", 1.0), new Identifier("ctft", "item/" + id + "_crossbow_experience_bottle")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("charged", 1.0).parameter("trident", 1.0), new Identifier("ctft", "item/" + id + "_crossbow_trident")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("charged", 1.0).parameter("egg", 1.0), new Identifier("ctft", "item/" + id + "_crossbow_egg")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("charged", 1.0).parameter("snowball", 1.0), new Identifier("ctft", "item/" + id + "_crossbow_snowball")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("charged", 1.0).parameter("fire_charge", 1.0), new Identifier("ctft", "item/" + id + "_crossbow_fire_charge"))), new Identifier("ctft", "item/" + id + "_crossbow"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/crossbow_pulling_0").textures((JModel.textures().var("0", "ctft:items/crossbow_pulling_0").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_crossbow_pulling_0"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/crossbow_pulling_1").textures((JModel.textures().var("0", "ctft:items/crossbow_pulling_1").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_crossbow_pulling_1"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/crossbow_pulling_2").textures((JModel.textures().var("0", "ctft:items/crossbow_pulling_2").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_crossbow_pulling_2"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/crossbow_arrow").textures((JModel.textures().var("0", "ctft:items/crossbow_arrow").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_crossbow_arrow"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/crossbow_firework").textures((JModel.textures().var("0", "ctft:items/crossbow_firework").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_crossbow_firework"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/crossbow_ender_pearl").textures((JModel.textures().var("0", "ctft:items/crossbow_ender_pearl").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_crossbow_ender_pearl"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/crossbow_potion").textures((JModel.textures().var("0", "ctft:items/crossbow_potion").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_crossbow_potion"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/crossbow_experience_bottle").textures((JModel.textures().var("0", "ctft:items/crossbow_experience_bottle").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_crossbow_experience_bottle"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/crossbow_trident").textures((JModel.textures().var("0", "ctft:items/crossbow_trident").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_crossbow_trident"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/crossbow_egg").textures((JModel.textures().var("0", "ctft:items/crossbow_egg").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_crossbow_egg"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/crossbow_snowball").textures((JModel.textures().var("0", "ctft:items/crossbow_snowball").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_crossbow_snowball"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/crossbow_fire_charge").textures((JModel.textures().var("0", "ctft:items/crossbow_fire_charge").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_crossbow_fire_charge"));
+//            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_crossbow_from_crafting"), JRecipe.shaped(JPattern.pattern().row1("020").row2("131").row3(" 0 "), JKeys.keys().key("0", ingredient).key("1", string).key("2", iron).key("3", hook), JResult.result("ctft:" + id + "_crossbow")));
+//            TagInjector.injectItems(new Identifier("ctft", "ctft_crossbows"), Registry.ITEM.get(new Identifier("ctft", id + "_crossbow")));
+//            if (piglin_loved.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_crossbow")));
+//            }
+//            if (freeze_immune_wearables.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_crossbow")));
+//            }
+//            if (piglin_repellents.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_crossbow")));
+//            }
+//        }
+//        if (Ctft.CONFIG.tools_config.shieldsEnabled) {
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/shield").textures((JModel.textures().var("0", "ctft:items/shield_base").var("1", namespace).particle(namespace))).addOverride(JModel.override(JModel.condition().parameter("blocking", 1.0), new Identifier("ctft", "item/" + id + "_shield_blocking"))), new Identifier("ctft", "item/" + id + "_shield"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/shield_blocking").textures((JModel.textures().var("0", "ctft:items/shield_base").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_shield_blocking"));
+//            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_shield_from_crafting"), JRecipe.shaped(JPattern.pattern().row1("010").row2("000").row3(" 0 "), JKeys.keys().key("0", ingredient).key("1", iron), JResult.result("ctft:" + id + "_shield")));
+//            TagInjector.injectItems(new Identifier("ctft", "ctft_shields"), Registry.ITEM.get(new Identifier("ctft", id + "_shield")));
+//            if (piglin_loved.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_shield")));
+//            }
+//            if (freeze_immune_wearables.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_shield")));
+//            }
+//            if (piglin_repellents.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_shield")));
+//            }
+//        }
+//        if (Ctft.CONFIG.tools_config.shearsEnabled) {
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/shears").textures((JModel.textures().var("0", "ctft:items/shears").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_shears"));
+//            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_shears_from_crafting"), JRecipe.shaped(JPattern.pattern().row1(" 0 ").row2("0  "), JKeys.keys().key("0", ingredient), JResult.result("ctft:" + id + "_shears")));
+//            TagInjector.injectItems(new Identifier("ctft", "ctft_shears"), Registry.ITEM.get(new Identifier("ctft", id + "_shears")));
+//            if (piglin_loved.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_shears")));
+//            }
+//            if (freeze_immune_wearables.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_shears")));
+//            }
+//            if (piglin_repellents.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_shears")));
+//            }
+//        }
+//        if (Ctft.CONFIG.tools_config.fishingRodsEnabled) {
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/fishing_rod").textures((JModel.textures().var("0", "ctft:items/fishing_rod").var("1", namespace).particle(namespace))).addOverride(JModel.override(JModel.condition().parameter("cast", 1.0), new Identifier("ctft", "item/" + id + "_fishing_rod_cast"))), new Identifier("ctft", "item/" + id + "_fishing_rod"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/fishing_rod_casting").textures((JModel.textures().var("0", "ctft:items/fishing_rod").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_fishing_rod_cast"));
+//            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_fishing_rod_from_crafting"), JRecipe.shaped(JPattern.pattern().row1("  0").row2(" 01").row3("0 1"), JKeys.keys().key("0", ingredient).key("1", string), JResult.result("ctft:" + id + "_fishing_rod")));
+//            TagInjector.injectItems(new Identifier("ctft", "ctft_fishing_rods"), Registry.ITEM.get(new Identifier("ctft", id + "_fishing_rod")));
+//            if (piglin_loved.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_fishing_rod")));
+//            }
+//            if (freeze_immune_wearables.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_fishing_rod")));
+//            }
+//            if (piglin_repellents.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_fishing_rod")));
+//            }
+//        }
+//        if (Ctft.CONFIG.tools_config.clocksEnabled) {
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_00").var("1", namespace).particle(namespace)))
+//                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.0000000), new Identifier("ctft", "item/" + id + "_clock_00")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.0078125), new Identifier("ctft", "item/" + id + "_clock_01")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.0234375), new Identifier("ctft", "item/" + id + "_clock_02")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.0390625), new Identifier("ctft", "item/" + id + "_clock_03")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.0546875), new Identifier("ctft", "item/" + id + "_clock_04")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.0703125), new Identifier("ctft", "item/" + id + "_clock_05")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.0859375), new Identifier("ctft", "item/" + id + "_clock_06")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.1015625), new Identifier("ctft", "item/" + id + "_clock_07")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.1171875), new Identifier("ctft", "item/" + id + "_clock_08")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.1328125), new Identifier("ctft", "item/" + id + "_clock_09")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.1484375), new Identifier("ctft", "item/" + id + "_clock_10")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.1640625), new Identifier("ctft", "item/" + id + "_clock_11")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.1796875), new Identifier("ctft", "item/" + id + "_clock_12")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.1953125), new Identifier("ctft", "item/" + id + "_clock_13")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.2109375), new Identifier("ctft", "item/" + id + "_clock_14")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.2265625), new Identifier("ctft", "item/" + id + "_clock_15")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.2421875), new Identifier("ctft", "item/" + id + "_clock_16")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.2578125), new Identifier("ctft", "item/" + id + "_clock_17")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.2734375), new Identifier("ctft", "item/" + id + "_clock_18")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.2890625), new Identifier("ctft", "item/" + id + "_clock_19")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.3046875), new Identifier("ctft", "item/" + id + "_clock_20")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.3203125), new Identifier("ctft", "item/" + id + "_clock_21")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.3359375), new Identifier("ctft", "item/" + id + "_clock_22")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.3515625), new Identifier("ctft", "item/" + id + "_clock_23")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.3671875), new Identifier("ctft", "item/" + id + "_clock_24")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.3828125), new Identifier("ctft", "item/" + id + "_clock_25")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.3984375), new Identifier("ctft", "item/" + id + "_clock_26")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.4140625), new Identifier("ctft", "item/" + id + "_clock_27")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.4296875), new Identifier("ctft", "item/" + id + "_clock_28")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.4453125), new Identifier("ctft", "item/" + id + "_clock_29")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.4609375), new Identifier("ctft", "item/" + id + "_clock_30")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.4765625), new Identifier("ctft", "item/" + id + "_clock_31")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.4921875), new Identifier("ctft", "item/" + id + "_clock_32")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.5078125), new Identifier("ctft", "item/" + id + "_clock_33")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.5234375), new Identifier("ctft", "item/" + id + "_clock_34")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.5390625), new Identifier("ctft", "item/" + id + "_clock_35")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.5546875), new Identifier("ctft", "item/" + id + "_clock_36")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.5703125), new Identifier("ctft", "item/" + id + "_clock_37")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.5859375), new Identifier("ctft", "item/" + id + "_clock_38")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.6015625), new Identifier("ctft", "item/" + id + "_clock_39")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.6171875), new Identifier("ctft", "item/" + id + "_clock_40")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.6328125), new Identifier("ctft", "item/" + id + "_clock_41")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.6484375), new Identifier("ctft", "item/" + id + "_clock_42")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.6640625), new Identifier("ctft", "item/" + id + "_clock_43")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.6796875), new Identifier("ctft", "item/" + id + "_clock_44")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.6953125), new Identifier("ctft", "item/" + id + "_clock_45")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.7109375), new Identifier("ctft", "item/" + id + "_clock_46")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.7265625), new Identifier("ctft", "item/" + id + "_clock_47")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.7421875), new Identifier("ctft", "item/" + id + "_clock_48")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.7578125), new Identifier("ctft", "item/" + id + "_clock_49")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.7734375), new Identifier("ctft", "item/" + id + "_clock_50")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.7890625), new Identifier("ctft", "item/" + id + "_clock_51")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.8046875), new Identifier("ctft", "item/" + id + "_clock_52")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.8203125), new Identifier("ctft", "item/" + id + "_clock_53")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.8359375), new Identifier("ctft", "item/" + id + "_clock_54")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.8515625), new Identifier("ctft", "item/" + id + "_clock_55")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.8671875), new Identifier("ctft", "item/" + id + "_clock_56")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.8828125), new Identifier("ctft", "item/" + id + "_clock_57")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.8984375), new Identifier("ctft", "item/" + id + "_clock_58")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.9140625), new Identifier("ctft", "item/" + id + "_clock_59")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.9296875), new Identifier("ctft", "item/" + id + "_clock_60")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.9453125), new Identifier("ctft", "item/" + id + "_clock_61")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.9609375), new Identifier("ctft", "item/" + id + "_clock_62")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.9765625), new Identifier("ctft", "item/" + id + "_clock_63")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("time", 0.9921875), new Identifier("ctft", "item/" + id + "_clock_00"))), new Identifier("ctft", "item/" + id + "_clock"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_00").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_00"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_01").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_01"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_02").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_02"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_03").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_03"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_04").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_04"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_05").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_05"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_06").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_06"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_07").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_07"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_08").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_08"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_09").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_09"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_10").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_10"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_11").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_11"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_12").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_12"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_13").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_13"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_14").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_14"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_15").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_15"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_16").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_16"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_17").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_17"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_18").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_18"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_19").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_19"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_20").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_20"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_21").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_21"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_22").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_22"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_23").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_23"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_24").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_24"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_25").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_25"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_26").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_26"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_27").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_27"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_28").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_28"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_29").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_29"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_30").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_30"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_31").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_31"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_32").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_32"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_33").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_33"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_34").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_34"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_35").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_35"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_36").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_36"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_37").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_37"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_38").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_38"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_39").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_39"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_40").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_40"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_41").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_41"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_42").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_42"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_43").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_43"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_44").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_44"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_45").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_45"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_46").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_46"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_47").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_47"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_48").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_48"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_49").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_49"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_50").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_50"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_51").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_51"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_52").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_52"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_53").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_53"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_54").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_54"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_55").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_55"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_56").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_56"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_57").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_57"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_58").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_58"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_59").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_59"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_60").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_60"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_61").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_61"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_62").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_62"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_63").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_clock_63"));
+//            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_clock_from_crafting"), JRecipe.shaped(JPattern.pattern().row1(" 0 ").row2("010").row3(" 0 "), JKeys.keys().key("0", ingredient).key("1", gold), JResult.result("ctft:" + id + "_clock")));
+//            TagInjector.injectItems(new Identifier("ctft", "ctft_clocks"), Registry.ITEM.get(new Identifier("ctft", id + "_clock")));
+//            if (piglin_loved.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_clock")));
+//            }
+//            if (freeze_immune_wearables.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_clock")));
+//            }
+//            if (piglin_repellents.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_clock")));
+//            }
+//        }
+//        if (Ctft.CONFIG.tools_config.compassesEnabled) {
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compass").textures((JModel.textures().var("0", "ctft:items/compass_16").var("1", namespace).particle(namespace)))
+//                    .addOverride(JModel.override(JModel.condition().parameter("angle", 0.000000), new Identifier("ctft", "item/" + id + "_compass_16")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("angle", 0.015625), new Identifier("ctft", "item/" + id + "_compass_17")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("angle", 0.046875), new Identifier("ctft", "item/" + id + "_compass_18")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("angle", 0.078125), new Identifier("ctft", "item/" + id + "_compass_19")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("angle", 0.109375), new Identifier("ctft", "item/" + id + "_compass_20")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("angle", 0.140625), new Identifier("ctft", "item/" + id + "_compass_21")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("angle", 0.171875), new Identifier("ctft", "item/" + id + "_compass_22")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("angle", 0.203125), new Identifier("ctft", "item/" + id + "_compass_23")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("angle", 0.234375), new Identifier("ctft", "item/" + id + "_compass_24")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("angle", 0.265625), new Identifier("ctft", "item/" + id + "_compass_25")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("angle", 0.296875), new Identifier("ctft", "item/" + id + "_compass_26")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("angle", 0.328125), new Identifier("ctft", "item/" + id + "_compass_27")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("angle", 0.359375), new Identifier("ctft", "item/" + id + "_compass_28")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("angle", 0.390625), new Identifier("ctft", "item/" + id + "_compass_29")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("angle", 0.421875), new Identifier("ctft", "item/" + id + "_compass_30")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("angle", 0.453125), new Identifier("ctft", "item/" + id + "_compass_31")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("angle", 0.484375), new Identifier("ctft", "item/" + id + "_compass_00")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("angle", 0.515625), new Identifier("ctft", "item/" + id + "_compass_01")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("angle", 0.546875), new Identifier("ctft", "item/" + id + "_compass_02")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("angle", 0.578125), new Identifier("ctft", "item/" + id + "_compass_03")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("angle", 0.609375), new Identifier("ctft", "item/" + id + "_compass_04")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("angle", 0.640625), new Identifier("ctft", "item/" + id + "_compass_05")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("angle", 0.671875), new Identifier("ctft", "item/" + id + "_compass_06")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("angle", 0.703125), new Identifier("ctft", "item/" + id + "_compass_07")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("angle", 0.734375), new Identifier("ctft", "item/" + id + "_compass_08")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("angle", 0.765625), new Identifier("ctft", "item/" + id + "_compass_09")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("angle", 0.796875), new Identifier("ctft", "item/" + id + "_compass_10")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("angle", 0.828125), new Identifier("ctft", "item/" + id + "_compass_11")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("angle", 0.859375), new Identifier("ctft", "item/" + id + "_compass_12")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("angle", 0.890625), new Identifier("ctft", "item/" + id + "_compass_13")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("angle", 0.921875), new Identifier("ctft", "item/" + id + "_compass_14")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("angle", 0.953125), new Identifier("ctft", "item/" + id + "_compass_15")))
+//                    .addOverride(JModel.override(JModel.condition().parameter("angle", 0.984375), new Identifier("ctft", "item/" + id + "_compass_16"))), new Identifier("ctft", "item/" + id + "_compass"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compass").textures((JModel.textures().var("0", "ctft:items/compass_00").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compass_00"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compass").textures((JModel.textures().var("0", "ctft:items/compass_01").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compass_01"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compass").textures((JModel.textures().var("0", "ctft:items/compass_02").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compass_02"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compass").textures((JModel.textures().var("0", "ctft:items/compass_03").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compass_03"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compass").textures((JModel.textures().var("0", "ctft:items/compass_04").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compass_04"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compass").textures((JModel.textures().var("0", "ctft:items/compass_05").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compass_05"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compass").textures((JModel.textures().var("0", "ctft:items/compass_06").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compass_06"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compass").textures((JModel.textures().var("0", "ctft:items/compass_07").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compass_07"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compass").textures((JModel.textures().var("0", "ctft:items/compass_08").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compass_08"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compass").textures((JModel.textures().var("0", "ctft:items/compass_09").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compass_09"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compass").textures((JModel.textures().var("0", "ctft:items/compass_10").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compass_10"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compass").textures((JModel.textures().var("0", "ctft:items/compass_11").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compass_11"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compass").textures((JModel.textures().var("0", "ctft:items/compass_12").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compass_12"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compass").textures((JModel.textures().var("0", "ctft:items/compass_13").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compass_13"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compass").textures((JModel.textures().var("0", "ctft:items/compass_14").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compass_14"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compass").textures((JModel.textures().var("0", "ctft:items/compass_15").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compass_15"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compass").textures((JModel.textures().var("0", "ctft:items/compass_16").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compass_16"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compass").textures((JModel.textures().var("0", "ctft:items/compass_17").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compass_17"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compass").textures((JModel.textures().var("0", "ctft:items/compass_18").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compass_18"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compass").textures((JModel.textures().var("0", "ctft:items/compass_19").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compass_19"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compass").textures((JModel.textures().var("0", "ctft:items/compass_20").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compass_20"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compass").textures((JModel.textures().var("0", "ctft:items/compass_21").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compass_21"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compass").textures((JModel.textures().var("0", "ctft:items/compass_22").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compass_22"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compass").textures((JModel.textures().var("0", "ctft:items/compass_23").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compass_23"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compass").textures((JModel.textures().var("0", "ctft:items/compass_24").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compass_24"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compass").textures((JModel.textures().var("0", "ctft:items/compass_25").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compass_25"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compass").textures((JModel.textures().var("0", "ctft:items/compass_26").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compass_26"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compass").textures((JModel.textures().var("0", "ctft:items/compass_27").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compass_27"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compass").textures((JModel.textures().var("0", "ctft:items/compass_28").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compass_28"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compass").textures((JModel.textures().var("0", "ctft:items/compass_29").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compass_29"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compass").textures((JModel.textures().var("0", "ctft:items/compass_30").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compass_30"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compass").textures((JModel.textures().var("0", "ctft:items/compass_31").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_compass_31"));
+//            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compass_from_crafting"), JRecipe.shaped(JPattern.pattern().row1(" 0 ").row2("010").row3(" 0 "), JKeys.keys().key("0", ingredient).key("1", iron), JResult.result("ctft:" + id + "_compass")));
+//            TagInjector.injectItems(new Identifier("ctft", "ctft_compasses"), Registry.ITEM.get(new Identifier("ctft", id + "_compass")));
+//            if (piglin_loved.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_compass")));
+//            }
+//            if (freeze_immune_wearables.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_compass")));
+//            }
+//            if (piglin_repellents.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_compass")));
+//            }
+//        }
+//        if (Ctft.CONFIG.tools_config.horseArmorEnabled) {
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/horse_armor").textures((JModel.textures().var("0", "ctft:items/horse_armor").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_horse_armor"));
+//            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_horse_armor_from_crafting"), JRecipe.shaped(JPattern.pattern().row1("  0").row2("000").row3("0 0"), JKeys.keys().key("0", ingredient), JResult.result("ctft:" + id + "_horse_armor")));
+//            TagInjector.injectItems(new Identifier("ctft", "ctft_horse_armor"), Registry.ITEM.get(new Identifier("ctft", id + "_horse_armor")));
+//            if (piglin_loved.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_horse_armor")));
+//            }
+//            if (freeze_immune_wearables.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_horse_armor")));
+//            }
+//            if (piglin_repellents.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_horse_armor")));
+//            }
+//        }
+//        if (Ctft.CONFIG.tools_config.blocksEnabled) {
+//            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
+//                    .put("", JState.model("ctft:item/" + id + "_block"))
+//            ), new Identifier("ctft:" + id + "_block"));
+//            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_block_from_material"), JRecipe.shaped(JPattern.pattern().row1("000").row2("000").row3("000"), JKeys.keys().key("0", ingredient), JResult.result("ctft:" + id + "_block")));
+//            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_material_from_block"), JRecipe.shapeless(JIngredients.ingredients().add(block), JResult.stackedResult("minecraft:" + id, 9)));
+//            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_block"), JLootTable
+//                    .loot("block")
+//                    .pool(JLootTable.pool()
+//                            .rolls(1)
+//                            .entry(JLootTable
+//                                    .entry()
+//                                    .type("minecraft:item")
+//                                    .name("ctft:" + id + "_block"))));
+//            TagInjector.injectItems(new Identifier("ctft", "ctft_blocks"), Registry.ITEM.get(new Identifier("ctft", id + "_block")));
+//            if (piglin_loved.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_block")));
+//            }
+//            if (freeze_immune_wearables.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_block")));
+//            }
+//            if (piglin_repellents.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_block")));
+//            }
+//        }
+//        if (Ctft.CONFIG.tools_config.stairsEnabled) {
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/stairs").textures((JModel.textures().var("bottom", namespace).var("top", namespace).var("side", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_stairs"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/inner_stairs").textures((JModel.textures().var("bottom", namespace).var("top", namespace).var("side", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_stairs_inner"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/outer_stairs").textures((JModel.textures().var("bottom", namespace).var("top", namespace).var("side", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_stairs_outer"));
+//            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
+//                    .put("facing=east,half=bottom,shape=inner_left", JState.model("ctft:block/" + id + "_stairs_inner").y(270).uvlock())
+//                    .put("facing=east,half=bottom,shape=inner_right", JState.model("ctft:block/" + id + "_stairs_inner"))
+//                    .put("facing=east,half=bottom,shape=outer_left", JState.model("ctft:block/" + id + "_stairs_outer").y(270).uvlock())
+//                    .put("facing=east,half=bottom,shape=outer_right", JState.model("ctft:block/" + id + "_stairs_outer"))
+//                    .put("facing=east,half=bottom,shape=straight", JState.model("ctft:item/" + id + "_stairs"))
+//                    .put("facing=east,half=top,shape=inner_left", JState.model("ctft:block/" + id + "_stairs_inner").x(180).uvlock())
+//                    .put("facing=east,half=top,shape=inner_right", JState.model("ctft:block/" + id + "_stairs_inner").x(180).y(90).uvlock())
+//                    .put("facing=east,half=top,shape=outer_left", JState.model("ctft:block/" + id + "_stairs_outer").x(180).uvlock())
+//                    .put("facing=east,half=top,shape=outer_right", JState.model("ctft:block/" + id + "_stairs_outer").x(180).y(90).uvlock())
+//                    .put("facing=east,half=top,shape=straight", JState.model("ctft:item/" + id + "_stairs").x(180).uvlock())
+//                    .put("facing=north,half=bottom,shape=inner_left", JState.model("ctft:block/" + id + "_stairs_inner").y(180).uvlock())
+//                    .put("facing=north,half=bottom,shape=inner_right", JState.model("ctft:block/" + id + "_stairs_inner").y(270).uvlock())
+//                    .put("facing=north,half=bottom,shape=outer_left", JState.model("ctft:block/" + id + "_stairs_outer").y(180).uvlock())
+//                    .put("facing=north,half=bottom,shape=outer_right", JState.model("ctft:block/" + id + "_stairs_outer").y(270).uvlock())
+//                    .put("facing=north,half=bottom,shape=straight", JState.model("ctft:item/" + id + "_stairs").y(270).uvlock())
+//                    .put("facing=north,half=top,shape=inner_left", JState.model("ctft:block/" + id + "_stairs_inner").x(180).y(270).uvlock())
+//                    .put("facing=north,half=top,shape=inner_right", JState.model("ctft:block/" + id + "_stairs_inner").x(180).uvlock())
+//                    .put("facing=north,half=top,shape=outer_left", JState.model("ctft:block/" + id + "_stairs_outer").x(180).y(270).uvlock())
+//                    .put("facing=north,half=top,shape=outer_right", JState.model("ctft:block/" + id + "_stairs_outer").x(180).uvlock())
+//                    .put("facing=north,half=top,shape=straight", JState.model("ctft:item/" + id + "_stairs").x(180).y(270).uvlock())
+//                    .put("facing=south,half=bottom,shape=inner_left", JState.model("ctft:block/" + id + "_stairs_inner"))
+//                    .put("facing=south,half=bottom,shape=inner_right", JState.model("ctft:block/" + id + "_stairs_inner").y(90).uvlock())
+//                    .put("facing=south,half=bottom,shape=outer_left", JState.model("ctft:block/" + id + "_stairs_outer"))
+//                    .put("facing=south,half=bottom,shape=outer_right", JState.model("ctft:block/" + id + "_stairs_outer").y(90).uvlock())
+//                    .put("facing=south,half=bottom,shape=straight", JState.model("ctft:item/" + id + "_stairs").y(90).uvlock())
+//                    .put("facing=south,half=top,shape=inner_left", JState.model("ctft:block/" + id + "_stairs_inner").x(180).y(90).uvlock())
+//                    .put("facing=south,half=top,shape=inner_right", JState.model("ctft:block/" + id + "_stairs_inner").x(180).y(180).uvlock())
+//                    .put("facing=south,half=top,shape=outer_left", JState.model("ctft:block/" + id + "_stairs_outer").x(180).y(90).uvlock())
+//                    .put("facing=south,half=top,shape=outer_right", JState.model("ctft:block/" + id + "_stairs_outer").x(180).y(180).uvlock())
+//                    .put("facing=south,half=top,shape=straight", JState.model("ctft:item/" + id + "_stairs").x(180).y(90).uvlock())
+//                    .put("facing=west,half=bottom,shape=inner_left", JState.model("ctft:block/" + id + "_stairs_inner").y(90).uvlock())
+//                    .put("facing=west,half=bottom,shape=inner_right", JState.model("ctft:block/" + id + "_stairs_inner").y(180).uvlock())
+//                    .put("facing=west,half=bottom,shape=outer_left", JState.model("ctft:block/" + id + "_stairs_outer").y(90).uvlock())
+//                    .put("facing=west,half=bottom,shape=outer_right", JState.model("ctft:block/" + id + "_stairs_outer").y(180).uvlock())
+//                    .put("facing=west,half=bottom,shape=straight", JState.model("ctft:item/" + id + "_stairs").y(180).uvlock())
+//                    .put("facing=west,half=top,shape=inner_left", JState.model("ctft:block/" + id + "_stairs_inner").x(180).y(180).uvlock())
+//                    .put("facing=west,half=top,shape=inner_right", JState.model("ctft:block/" + id + "_stairs_inner").x(180).y(270).uvlock())
+//                    .put("facing=west,half=top,shape=outer_left", JState.model("ctft:block/" + id + "_stairs_outer").x(180).y(180).uvlock())
+//                    .put("facing=west,half=top,shape=outer_right", JState.model("ctft:block/" + id + "_stairs_outer").x(180).y(270).uvlock())
+//                    .put("facing=west,half=top,shape=straight", JState.model("ctft:item/" + id + "_stairs").x(180).y(180).uvlock())
+//            ), new Identifier("ctft:" + id + "_stairs"));
+//            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_stairs_from_crafting"), JRecipe.shaped(JPattern.pattern().row1("0  ").row2("00 ").row3("000"), JKeys.keys().key("0", ingredient), JResult.stackedResult("ctft:" + id + "_stairs", 4)));
+//            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_stairs_from_stonecutter"), JRecipe.stonecutting(block, JResult.stackedResult("ctft:" + id + "_stairs", 1)));
+//            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_stairs"), JLootTable
+//                    .loot("block")
+//                    .pool(JLootTable
+//                            .pool()
+//                            .rolls(1)
+//                            .entry(JLootTable
+//                                    .entry()
+//                                    .type("minecraft:item")
+//                                    .name("ctft:" + id + "_stairs"))));
+//            TagInjector.injectItems(new Identifier("ctft", "ctft_stairs"), Registry.ITEM.get(new Identifier("ctft", id + "_stairs")));
+//            if (piglin_loved.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_stairs")));
+//            }
+//            if (freeze_immune_wearables.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_stairs")));
+//            }
+//            if (piglin_repellents.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_stairs")));
+//            }
+//        }
+//        if (Ctft.CONFIG.tools_config.slabsEnabled) {
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/slab").textures((JModel.textures().var("bottom", namespace).var("top", namespace).var("side", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_slab"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/slab_top").textures((JModel.textures().var("bottom", namespace).var("top", namespace).var("side", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_slab_top"));
+//            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
+//                    .put("type=bottom", JState.model("ctft:item/" + id + "_slab"))
+//                    .put("type=double", JState.model("ctft:item/" + id + "_block"))
+//                    .put("type=top", JState.model("ctft:block/" + id + "_slab_top"))
+//            ), new Identifier("ctft:" + id + "_slab"));
+//            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_slab_from_crafting"), JRecipe.shaped(JPattern.pattern().row3("000"), JKeys.keys().key("0", block), JResult.stackedResult("ctft:" + id + "_slab", 6)));
+//            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_slab_from_stonecutter"), JRecipe.stonecutting(block, JResult.stackedResult("ctft:" + id + "_slab", 2)));
+//            var doubleslab = new JsonObject();
+//            doubleslab.addProperty("type", "double");
+//            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_slab"), JLootTable
+//                    .loot("block")
+//                    .pool(JLootTable
+//                            .pool()
+//                            .rolls(1)
+//                            .entry(JLootTable.entry()
+//                                    .type("minecraft:item")
+//                                    .function(JLootTable
+//                                            .function("minecraft:set_count")
+//                                            .condition(JLootTable
+//                                                    .condition("minecraft:block_state_property")
+//                                                    .parameter("block", "ctft:" + id + "_slab")
+//                                                    .parameter("properties", doubleslab)
+//                                            ).parameter("count", 2)
+//                                            .parameter("add", false)
+//                                    )
+//                                    .name("ctft:" + id + "_slab")
+//                                    .function(JLootTable
+//                                            .function("minecraft:explosion_decay")
+//                                    )
+//                            )
+//                    )
+//            );
+//            TagInjector.injectItems(new Identifier("ctft", "ctft_slabs"), Registry.ITEM.get(new Identifier("ctft", id + "_slab")));
+//            if (piglin_loved.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_slab")));
+//            }
+//            if (freeze_immune_wearables.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_slab")));
+//            }
+//            if (piglin_repellents.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_slab")));
+//            }
+//        }
+//        if (Ctft.CONFIG.tools_config.glassEnabled) {
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/cube_all").textures((JModel.textures().var("all", "ctft:blocks/" + texture + "_glass").particle("ctft:blocks/" + texture + "_glass"))), new Identifier("ctft", "item/" + id + "_glass"));
+//            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
+//                    .put("", JState.model("ctft:item/" + id + "_glass"))
+//            ), new Identifier("ctft:" + id + "_glass"));
+//            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_glass_from_smelting"), JRecipe.smelting(block, JResult.result("ctft:" + id + "_glass")).cookingTime(200).experience(0.1f));
+//            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_glass"), JLootTable
+//                    .loot("block")
+//                    .pool(JLootTable.pool()
+//                            .rolls(1)
+//                            .entry(JLootTable
+//                                    .entry()
+//                                    .type("minecraft:item")
+//                                    .name("ctft:" + id + "_glass"))));
+//            TagInjector.injectItems(new Identifier("ctft", "ctft_glass"), Registry.ITEM.get(new Identifier("ctft", id + "_glass")));
+//            if (piglin_loved.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_glass")));
+//            }
+//            if (freeze_immune_wearables.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_glass")));
+//            }
+//            if (piglin_repellents.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_glass")));
+//            }
+//        }
+//        if (Ctft.CONFIG.tools_config.glassPanesEnabled) {
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:item/generated").textures(JModel.textures().layer0("ctft:blocks/" + texture + "_glass").particle("ctft:blocks/" + texture + "_glass")), new Identifier("ctft", "item/" + id + "_glass_pane"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/template_glass_pane_noside").textures((JModel.textures().var("pane", "ctft:blocks/" + texture + "_glass").particle("ctft:blocks/" + texture + "_glass"))), new Identifier("ctft", "block/" + id + "_glass_pane_noside"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/template_glass_pane_noside_alt").textures((JModel.textures().var("pane", "ctft:blocks/" + texture + "_glass").particle("ctft:blocks/" + texture + "_glass"))), new Identifier("ctft", "block/" + id + "_glass_pane_noside_alt"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/template_glass_pane_post").textures((JModel.textures().var("pane", "ctft:blocks/" + texture + "_glass").var("edge", namespace).particle("ctft:blocks/" + texture + "_glass"))), new Identifier("ctft", "block/" + id + "_glass_pane_post"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/template_glass_pane_side").textures((JModel.textures().var("pane", "ctft:blocks/" + texture + "_glass").var("edge", namespace).particle("ctft:blocks/" + texture + "_glass"))), new Identifier("ctft", "block/" + id + "_glass_pane_side"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/template_glass_pane_side_alt").textures((JModel.textures().var("pane", "ctft:blocks/" + texture + "_glass").var("edge", namespace).particle("ctft:blocks/" + texture + "_glass"))), new Identifier("ctft", "block/" + id + "_glass_pane_side_alt"));
+//            Ctft.CTFT_RESOURCES.addBlockState(JState.state()
+//                            .add(JState.multipart(JState.model("ctft:block/" + id + "_glass_pane_post")))
+//                            .add(JState.multipart(JState.model("ctft:block/" + id + "_glass_pane_side")).when(JState.when().add("north", "true")))
+//                            .add(JState.multipart(JState.model("ctft:block/" + id + "_glass_pane_side").y(90)).when(JState.when().add("east", "true")))
+//                            .add(JState.multipart(JState.model("ctft:block/" + id + "_glass_pane_side_alt")).when(JState.when().add("south", "true")))
+//                            .add(JState.multipart(JState.model("ctft:block/" + id + "_glass_pane_side_alt").y(90)).when(JState.when().add("west", "true")))
+//                            .add(JState.multipart(JState.model("ctft:block/" + id + "_glass_pane_noside")).when(JState.when().add("north", "false")))
+//                            .add(JState.multipart(JState.model("ctft:block/" + id + "_glass_pane_noside_alt")).when(JState.when().add("east", "false")))
+//                            .add(JState.multipart(JState.model("ctft:block/" + id + "_glass_pane_noside_alt").y(90)).when(JState.when().add("south", "false")))
+//                            .add(JState.multipart(JState.model("ctft:block/" + id + "_glass_pane_noside").y(270)).when(JState.when().add("west", "false")))
+//                    , new Identifier("ctft:" + id + "_glass_pane"));
+//            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_glass_pane_from_crafting"), JRecipe.shaped(JPattern.pattern().row2("000").row3("000"), JKeys.keys().key("0", glass), JResult.stackedResult("ctft:" + id + "_glass_pane", 16)));
+//            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_glass_pane"), JLootTable
+//                    .loot("block")
+//                    .pool(JLootTable
+//                            .pool()
+//                            .rolls(1)
+//                            .entry(JLootTable
+//                                    .entry()
+//                                    .type("minecraft:item")
+//                                    .name("ctft:" + id + "_glass_pane"))));
+//            TagInjector.injectItems(new Identifier("ctft", "ctft_glass_panes"), Registry.ITEM.get(new Identifier("ctft", id + "_glass_pane")));
+//            if (piglin_loved.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_glass_pane")));
+//            }
+//            if (freeze_immune_wearables.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_glass_pane")));
+//            }
+//            if (piglin_repellents.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_glass_pane")));
+//            }
+//        }
+//        if (Ctft.CONFIG.tools_config.panesEnabled) {
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:item/generated").textures(JModel.textures().layer0(namespace).particle(namespace)), new Identifier("ctft", "item/" + id + "_pane"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/template_glass_pane_noside").textures((JModel.textures().var("pane", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_pane_noside"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/template_glass_pane_noside_alt").textures((JModel.textures().var("pane", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_pane_noside_alt"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/template_glass_pane_post").textures((JModel.textures().var("pane", namespace).var("edge", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_pane_post"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/template_glass_pane_side").textures((JModel.textures().var("pane", namespace).var("edge", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_pane_side"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/template_glass_pane_side_alt").textures((JModel.textures().var("pane", namespace).var("edge", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_pane_side_alt"));
+//            Ctft.CTFT_RESOURCES.addBlockState(JState.state()
+//                            .add(JState.multipart(JState.model("ctft:block/" + id + "_pane_post")))
+//                            .add(JState.multipart(JState.model("ctft:block/" + id + "_pane_side")).when(JState.when().add("north", "true")))
+//                            .add(JState.multipart(JState.model("ctft:block/" + id + "_pane_side").y(90)).when(JState.when().add("east", "true")))
+//                            .add(JState.multipart(JState.model("ctft:block/" + id + "_pane_side_alt")).when(JState.when().add("south", "true")))
+//                            .add(JState.multipart(JState.model("ctft:block/" + id + "_pane_side_alt").y(90)).when(JState.when().add("west", "true")))
+//                            .add(JState.multipart(JState.model("ctft:block/" + id + "_pane_noside")).when(JState.when().add("north", "false")))
+//                            .add(JState.multipart(JState.model("ctft:block/" + id + "_pane_noside_alt")).when(JState.when().add("east", "false")))
+//                            .add(JState.multipart(JState.model("ctft:block/" + id + "_pane_noside_alt").y(90)).when(JState.when().add("south", "false")))
+//                            .add(JState.multipart(JState.model("ctft:block/" + id + "_pane_noside").y(270)).when(JState.when().add("west", "false")))
+//                    , new Identifier("ctft:" + id + "_pane"));
+//            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_pane_from_crafting"), JRecipe.shaped(JPattern.pattern().row2("000").row3("000"), JKeys.keys().key("0", block), JResult.stackedResult("ctft:" + id + "_pane", 16)));
+//            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_pane"), JLootTable
+//                    .loot("block")
+//                    .pool(JLootTable
+//                            .pool()
+//                            .rolls(1)
+//                            .entry(JLootTable
+//                                    .entry()
+//                                    .type("minecraft:item")
+//                                    .name("ctft:" + id + "_pane"))));
+//            TagInjector.injectItems(new Identifier("ctft", "ctft_panes"), Registry.ITEM.get(new Identifier("ctft", id + "_pane")));
+//            if (piglin_loved.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_pane")));
+//            }
+//            if (freeze_immune_wearables.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_pane")));
+//            }
+//            if (piglin_repellents.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_pane")));
+//            }
+//        }
+//        if (Ctft.CONFIG.tools_config.layersEnabled) {
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/snow_height2").textures((JModel.textures().var("texture", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_layer"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/snow_height4").textures((JModel.textures().var("texture", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_layer_height4"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/snow_height6").textures((JModel.textures().var("texture", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_layer_height6"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/snow_height8").textures((JModel.textures().var("texture", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_layer_height8"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/snow_height10").textures((JModel.textures().var("texture", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_layer_height10"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/snow_height12").textures((JModel.textures().var("texture", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_layer_height12"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/snow_height14").textures((JModel.textures().var("texture", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_layer_height14"));
+//            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
+//                    .put("layers=1", JState.model("ctft:item/" + id + "_layer"))
+//                    .put("layers=2", JState.model("ctft:block/" + id + "_layer_height4"))
+//                    .put("layers=3", JState.model("ctft:block/" + id + "_layer_height6"))
+//                    .put("layers=4", JState.model("ctft:block/" + id + "_layer_height8"))
+//                    .put("layers=5", JState.model("ctft:block/" + id + "_layer_height10"))
+//                    .put("layers=6", JState.model("ctft:block/" + id + "_layer_height12"))
+//                    .put("layers=7", JState.model("ctft:block/" + id + "_layer_height14"))
+//                    .put("layers=8", JState.model("ctft:item/" + id + "_block"))
+//            ), new Identifier("ctft:" + id + "_layer"));
+//            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_layer_from_crafting"), JRecipe.shaped(JPattern.pattern().row3("000"), JKeys.keys().key("0", slab), JResult.stackedResult("ctft:" + id + "_layer", 12)));
+//            var layer2 = new JsonObject();
+//            var layer3 = new JsonObject();
+//            var layer4 = new JsonObject();
+//            var layer5 = new JsonObject();
+//            var layer6 = new JsonObject();
+//            var layer7 = new JsonObject();
+//            var layer8 = new JsonObject();
+//            layer2.addProperty("layers", "2");
+//            layer3.addProperty("layers", "3");
+//            layer4.addProperty("layers", "4");
+//            layer5.addProperty("layers", "5");
+//            layer6.addProperty("layers", "6");
+//            layer7.addProperty("layers", "7");
+//            layer8.addProperty("layers", "8");
+//            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_layer"), JLootTable
+//                    .loot("block")
+//                    .pool(JLootTable
+//                            .pool()
+//                            .rolls(1)
+//                            .entry(JLootTable.entry()
+//                                    .type("minecraft:item")
+//                                    .function(JLootTable
+//                                            .function("minecraft:set_count")
+//                                            .condition(JLootTable
+//                                                    .condition("minecraft:block_state_property")
+//                                                    .parameter("block", "ctft:" + id + "_layer")
+//                                                    .parameter("properties", layer2)
+//                                            ).parameter("count", 2)
+//                                            .parameter("add", false)
+//                                    )
+//                                    .function(JLootTable
+//                                            .function("minecraft:set_count")
+//                                            .condition(JLootTable
+//                                                    .condition("minecraft:block_state_property")
+//                                                    .parameter("block", "ctft:" + id + "_layer")
+//                                                    .parameter("properties", layer3)
+//                                            ).parameter("count", 3)
+//                                            .parameter("add", false)
+//                                    )
+//                                    .function(JLootTable
+//                                            .function("minecraft:set_count")
+//                                            .condition(JLootTable
+//                                                    .condition("minecraft:block_state_property")
+//                                                    .parameter("block", "ctft:" + id + "_layer")
+//                                                    .parameter("properties", layer4)
+//                                            ).parameter("count", 4)
+//                                            .parameter("add", false)
+//                                    )
+//                                    .function(JLootTable
+//                                            .function("minecraft:set_count")
+//                                            .condition(JLootTable
+//                                                    .condition("minecraft:block_state_property")
+//                                                    .parameter("block", "ctft:" + id + "_layer")
+//                                                    .parameter("properties", layer5)
+//                                            ).parameter("count", 5)
+//                                            .parameter("add", false)
+//                                    )
+//                                    .function(JLootTable
+//                                            .function("minecraft:set_count")
+//                                            .condition(JLootTable
+//                                                    .condition("minecraft:block_state_property")
+//                                                    .parameter("block", "ctft:" + id + "_layer")
+//                                                    .parameter("properties", layer6)
+//                                            ).parameter("count", 6)
+//                                            .parameter("add", false)
+//                                    )
+//                                    .function(JLootTable
+//                                            .function("minecraft:set_count")
+//                                            .condition(JLootTable
+//                                                    .condition("minecraft:block_state_property")
+//                                                    .parameter("block", "ctft:" + id + "_layer")
+//                                                    .parameter("properties", layer7)
+//                                            ).parameter("count", 7)
+//                                            .parameter("add", false)
+//                                    )
+//                                    .function(JLootTable
+//                                            .function("minecraft:set_count")
+//                                            .condition(JLootTable
+//                                                    .condition("minecraft:block_state_property")
+//                                                    .parameter("block", "ctft:" + id + "_layer")
+//                                                    .parameter("properties", layer8)
+//                                            ).parameter("count", 8)
+//                                            .parameter("add", false)
+//                                    )
+//                                    .name("ctft:" + id + "_layer")
+//                                    .function(JLootTable
+//                                            .function("minecraft:explosion_decay")
+//                                    )
+//                            )
+//                    )
+//            );
+//            if (Ctft.CONFIG.tools_config.slabsEnabled) {
+//                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_slab_from_layer"), JRecipe.shaped(JPattern.pattern().row2(" 00").row3(" 00"), JKeys.keys().key("0", layer), JResult.stackedResult("ctft:" + id + "_slab", 1)));
+//            }
+//            TagInjector.injectItems(new Identifier("ctft", "ctft_layers"), Registry.ITEM.get(new Identifier("ctft", id + "_layer")));
+//            if (piglin_loved.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_layer")));
+//            }
+//            if (freeze_immune_wearables.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_layer")));
+//            }
+//            if (piglin_repellents.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_layer")));
+//            }
+//        }
+//        if (Ctft.CONFIG.tools_config.fencesEnabled) {
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/fence_inventory").textures((JModel.textures().var("texture", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_fence"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/fence_post").textures((JModel.textures().var("texture", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_fence_post"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/fence_side").textures((JModel.textures().var("texture", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_fence_side"));
+//            Ctft.CTFT_RESOURCES.addBlockState(JState.state()
+//                            .add(JState.multipart(JState.model("ctft:block/" + id + "_fence_post")))
+//                            .add(JState.multipart(JState.model("ctft:block/" + id + "_fence_side")).when(JState.when().add("north", "true")))
+//                            .add(JState.multipart(JState.model("ctft:block/" + id + "_fence_side").y(90)).when(JState.when().add("east", "true")))
+//                            .add(JState.multipart(JState.model("ctft:block/" + id + "_fence_side").y(180)).when(JState.when().add("south", "true")))
+//                            .add(JState.multipart(JState.model("ctft:block/" + id + "_fence_side").y(270)).when(JState.when().add("west", "true")))
+//                    , new Identifier("ctft:" + id + "_fence"));
+//            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_fence_from_crafting"), JRecipe.shaped(JPattern.pattern().row2("010").row3("010"), JKeys.keys().key("0", ingredient).key("1", stick), JResult.stackedResult("ctft:" + id + "_fence", 3)));
+//            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_fence"), JLootTable
+//                    .loot("block")
+//                    .pool(JLootTable
+//                            .pool()
+//                            .rolls(1)
+//                            .entry(JLootTable
+//                                    .entry()
+//                                    .type("minecraft:item")
+//                                    .name("ctft:" + id + "_fence"))));
+//            TagInjector.injectBlocks(new Identifier("minecraft", "fences"), Registry.BLOCK.get(new Identifier("ctft", id + "_fence")));
+//            TagInjector.injectItems(new Identifier("ctft", "ctft_fences"), Registry.ITEM.get(new Identifier("ctft", id + "_fence")));
+//            if (piglin_loved.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_fence")));
+//            }
+//            if (freeze_immune_wearables.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_fence")));
+//            }
+//            if (piglin_repellents.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_fence")));
+//            }
+//        }
+//        if (Ctft.CONFIG.tools_config.fenceGatesEnabled) {
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/template_fence_gate").textures((JModel.textures().var("texture", namespace))), new Identifier("ctft", "item/" + id + "_fence_gate"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/template_fence_gate_open").textures((JModel.textures().var("texture", namespace))), new Identifier("ctft", "block/" + id + "_fence_gate_open"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/template_fence_gate_wall").textures((JModel.textures().var("texture", namespace))), new Identifier("ctft", "block/" + id + "_fence_gate_wall_close"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/template_fence_gate_wall_open").textures((JModel.textures().var("texture", namespace))), new Identifier("ctft", "block/" + id + "_fence_gate_wall_open"));
+//            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
+//                    .put("facing=east,in_wall=false,open=false", JState.model("ctft:item/" + id + "_fence_gate").uvlock().y(270))
+//                    .put("facing=east,in_wall=false,open=true", JState.model("ctft:block/" + id + "_fence_gate_open").uvlock().y(270))
+//                    .put("facing=east,in_wall=true,open=false", JState.model("ctft:block/" + id + "_fence_gate_wall_close").uvlock().y(270))
+//                    .put("facing=east,in_wall=true,open=true", JState.model("ctft:block/" + id + "_fence_gate_wall_open").uvlock().y(270))
+//                    .put("facing=north,in_wall=false,open=false", JState.model("ctft:item/" + id + "_fence_gate").uvlock().y(180))
+//                    .put("facing=north,in_wall=false,open=true", JState.model("ctft:block/" + id + "_fence_gate_open").uvlock().y(180))
+//                    .put("facing=north,in_wall=true,open=false", JState.model("ctft:block/" + id + "_fence_gate_wall_close").uvlock().y(180))
+//                    .put("facing=north,in_wall=true,open=true", JState.model("ctft:block/" + id + "_fence_gate_wall_open").uvlock().y(180))
+//                    .put("facing=south,in_wall=false,open=false", JState.model("ctft:item/" + id + "_fence_gate").uvlock())
+//                    .put("facing=south,in_wall=false,open=true", JState.model("ctft:block/" + id + "_fence_gate_open").uvlock())
+//                    .put("facing=south,in_wall=true,open=false", JState.model("ctft:block/" + id + "_fence_gate_wall_close").uvlock())
+//                    .put("facing=south,in_wall=true,open=true", JState.model("ctft:block/" + id + "_fence_gate_wall_open").uvlock())
+//                    .put("facing=west,in_wall=false,open=false", JState.model("ctft:item/" + id + "_fence_gate").uvlock().y(90))
+//                    .put("facing=west,in_wall=false,open=true", JState.model("ctft:block/" + id + "_fence_gate_open").uvlock().y(90))
+//                    .put("facing=west,in_wall=true,open=false", JState.model("ctft:block/" + id + "_fence_gate_wall_close").uvlock().y(90))
+//                    .put("facing=west,in_wall=true,open=true", JState.model("ctft:block/" + id + "_fence_gate_wall_open").uvlock().y(90))
+//            ), new Identifier("ctft:" + id + "_fence_gate"));
+//            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_fence_gate_from_crafting"), JRecipe.shaped(JPattern.pattern().row2("101").row3("101"), JKeys.keys().key("0", ingredient).key("1", stick), JResult.result("ctft:" + id + "_fence_gate")));
+//            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_fence_gate"), JLootTable
+//                    .loot("block")
+//                    .pool(JLootTable.pool()
+//                            .rolls(1)
+//                            .entry(JLootTable
+//                                    .entry()
+//                                    .type("minecraft:item")
+//                                    .name("ctft:" + id + "_fence_gate"))));
+//            TagInjector.injectItems(new Identifier("ctft", "ctft_fence_gates"), Registry.ITEM.get(new Identifier("ctft", id + "_fence_gate")));
+//            if (piglin_loved.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_fence_gate")));
+//            }
+//            if (freeze_immune_wearables.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_fence_gate")));
+//            }
+//            if (piglin_repellents.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_fence_gate")));
+//            }
+//        }
+//        if (Ctft.CONFIG.tools_config.wallsEnabled) {
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/wall_inventory").textures((JModel.textures().var("wall", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_wall"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/template_wall_post").textures((JModel.textures().var("wall", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_wall_post"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/template_wall_side").textures((JModel.textures().var("wall", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_wall_side"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/template_wall_side_tall").textures((JModel.textures().var("wall", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_wall_side_tall"));
+//            Ctft.CTFT_RESOURCES.addBlockState(JState.state()
+//                            .add(JState.multipart(JState.model("ctft:block/" + id + "_wall_post")).when(JState.when().add("up", "true")))
+//                            .add(JState.multipart(JState.model("ctft:block/" + id + "_wall_side").uvlock()).when(JState.when().add("north", "low")))
+//                            .add(JState.multipart(JState.model("ctft:block/" + id + "_wall_side").y(90).uvlock()).when(JState.when().add("east", "low")))
+//                            .add(JState.multipart(JState.model("ctft:block/" + id + "_wall_side").y(180).uvlock()).when(JState.when().add("south", "low")))
+//                            .add(JState.multipart(JState.model("ctft:block/" + id + "_wall_side").y(270).uvlock()).when(JState.when().add("west", "low")))
+//                            .add(JState.multipart(JState.model("ctft:block/" + id + "_wall_side_tall").uvlock()).when(JState.when().add("north", "tall")))
+//                            .add(JState.multipart(JState.model("ctft:block/" + id + "_wall_side_tall").y(90).uvlock()).when(JState.when().add("east", "tall")))
+//                            .add(JState.multipart(JState.model("ctft:block/" + id + "_wall_side_tall").y(180).uvlock()).when(JState.when().add("south", "tall")))
+//                            .add(JState.multipart(JState.model("ctft:block/" + id + "_wall_side_tall").y(270).uvlock()).when(JState.when().add("west", "tall")))
+//                    , new Identifier("ctft:" + id + "_wall"));
+//            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_wall_from_stonecutter"), JRecipe.stonecutting(ingredient, JResult.stackedResult("ctft:" + id + "_wall", 1)));
+//            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_wall"), JLootTable
+//                    .loot("block")
+//                    .pool(JLootTable
+//                            .pool()
+//                            .rolls(1)
+//                            .entry(JLootTable
+//                                    .entry()
+//                                    .type("minecraft:item")
+//                                    .name("ctft:" + id + "_wall"))));
+//            TagInjector.injectBlocks(new Identifier("minecraft", "walls"), Registry.BLOCK.get(new Identifier("ctft", id + "_wall")));
+//            TagInjector.injectItems(new Identifier("ctft", "ctft_walls"), Registry.ITEM.get(new Identifier("ctft", id + "_wall")));
+//            if (piglin_loved.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_wall")));
+//            }
+//            if (freeze_immune_wearables.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_wall")));
+//            }
+//            if (piglin_repellents.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_wall")));
+//            }
+//        }
+//        if (Ctft.CONFIG.tools_config.doorsEnabled) {
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/door").textures((JModel.textures().var("0", "minecraft:item/oak_door").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_door"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/door_bottom").textures((JModel.textures().var("top", "ctft:blocks/" + texture + "_door_top").var("bottom", "ctft:blocks/" + texture + "_door_bottom").particle(namespace))), new Identifier("ctft", "block/" + id + "_door_bottom"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/door_bottom_rh").textures((JModel.textures().var("top", "ctft:blocks/" + texture + "_door_top").var("bottom", "ctft:blocks/" + texture + "_door_bottom").particle(namespace))), new Identifier("ctft", "block/" + id + "_door_bottom_hinge"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/door_top").textures((JModel.textures().var("top", "ctft:blocks/" + texture + "_door_top").var("bottom", "ctft:blocks/" + texture + "_door_bottom").particle(namespace))), new Identifier("ctft", "block/" + id + "_door_top"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/door_top_rh").textures((JModel.textures().var("top", "ctft:blocks/" + texture + "_door_top").var("bottom", "ctft:blocks/" + texture + "_door_bottom").particle(namespace))), new Identifier("ctft", "block/" + id + "_door_top_hinge"));
+//            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
+//                    .put("facing=east,half=lower,hinge=left,open=false", JState.model("ctft:block/" + id + "_door_bottom"))
+//                    .put("facing=east,half=lower,hinge=left,open=true", JState.model("ctft:block/" + id + "_door_bottom_hinge").y(90))
+//                    .put("facing=east,half=lower,hinge=right,open=false", JState.model("ctft:block/" + id + "_door_bottom_hinge"))
+//                    .put("facing=east,half=lower,hinge=right,open=true", JState.model("ctft:block/" + id + "_door_bottom").y(270))
+//                    .put("facing=east,half=upper,hinge=left,open=false", JState.model("ctft:block/" + id + "_door_top"))
+//                    .put("facing=east,half=upper,hinge=left,open=true", JState.model("ctft:block/" + id + "_door_top_hinge").y(90))
+//                    .put("facing=east,half=upper,hinge=right,open=false", JState.model("ctft:block/" + id + "_door_top_hinge"))
+//                    .put("facing=east,half=upper,hinge=right,open=true", JState.model("ctft:block/" + id + "_door_top").y(270))
+//                    .put("facing=north,half=lower,hinge=left,open=false", JState.model("ctft:block/" + id + "_door_bottom").y(270))
+//                    .put("facing=north,half=lower,hinge=left,open=true", JState.model("ctft:block/" + id + "_door_bottom_hinge"))
+//                    .put("facing=north,half=lower,hinge=right,open=false", JState.model("ctft:block/" + id + "_door_bottom_hinge").y(270))
+//                    .put("facing=north,half=lower,hinge=right,open=true", JState.model("ctft:block/" + id + "_door_bottom").y(180))
+//                    .put("facing=north,half=upper,hinge=left,open=false", JState.model("ctft:block/" + id + "_door_top").y(270))
+//                    .put("facing=north,half=upper,hinge=left,open=true", JState.model("ctft:block/" + id + "_door_top_hinge"))
+//                    .put("facing=north,half=upper,hinge=right,open=false", JState.model("ctft:block/" + id + "_door_top_hinge").y(270))
+//                    .put("facing=north,half=upper,hinge=right,open=true", JState.model("ctft:block/" + id + "_door_top").y(180))
+//                    .put("facing=south,half=lower,hinge=left,open=false", JState.model("ctft:block/" + id + "_door_bottom").y(90))
+//                    .put("facing=south,half=lower,hinge=left,open=true", JState.model("ctft:block/" + id + "_door_bottom_hinge").y(180))
+//                    .put("facing=south,half=lower,hinge=right,open=false", JState.model("ctft:block/" + id + "_door_bottom_hinge").y(90))
+//                    .put("facing=south,half=lower,hinge=right,open=true", JState.model("ctft:block/" + id + "_door_bottom"))
+//                    .put("facing=south,half=upper,hinge=left,open=false", JState.model("ctft:block/" + id + "_door_top").y(90))
+//                    .put("facing=south,half=upper,hinge=left,open=true", JState.model("ctft:block/" + id + "_door_top_hinge").y(180))
+//                    .put("facing=south,half=upper,hinge=right,open=false", JState.model("ctft:block/" + id + "_door_top_hinge").y(90))
+//                    .put("facing=south,half=upper,hinge=right,open=true", JState.model("ctft:block/" + id + "_door_top"))
+//                    .put("facing=west,half=lower,hinge=left,open=false", JState.model("ctft:block/" + id + "_door_bottom").y(180))
+//                    .put("facing=west,half=lower,hinge=left,open=true", JState.model("ctft:block/" + id + "_door_bottom_hinge").y(270))
+//                    .put("facing=west,half=lower,hinge=right,open=false", JState.model("ctft:block/" + id + "_door_bottom_hinge").y(180))
+//                    .put("facing=west,half=lower,hinge=right,open=true", JState.model("ctft:block/" + id + "_door_bottom").y(90))
+//                    .put("facing=west,half=upper,hinge=left,open=false", JState.model("ctft:block/" + id + "_door_top").y(180))
+//                    .put("facing=west,half=upper,hinge=left,open=true", JState.model("ctft:block/" + id + "_door_top_hinge").y(270))
+//                    .put("facing=west,half=upper,hinge=right,open=false", JState.model("ctft:block/" + id + "_door_top_hinge").y(180))
+//                    .put("facing=west,half=upper,hinge=right,open=true", JState.model("ctft:block/" + id + "_door_top").y(90))
+//            ), new Identifier("ctft:" + id + "_door"));
+//            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_door_from_crafting"), JRecipe.shaped(JPattern.pattern().row1("00 ").row2("00 ").row3("00 "), JKeys.keys().key("0", ingredient), JResult.stackedResult("ctft:" + id + "_door", 3)));
+//            var upperdoor = new JsonObject();
+//            upperdoor.addProperty("half", "upper");
+//            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_door"), JLootTable
+//                    .loot("block")
+//                    .pool(JLootTable
+//                            .pool()
+//                            .rolls(1)
+//                            .entry(JLootTable.entry()
+//                                    .type("minecraft:item")
+//                                    .function(JLootTable
+//                                            .function("minecraft:set_count")
+//                                            .condition(JLootTable
+//                                                    .condition("minecraft:block_state_property")
+//                                                    .parameter("block", "ctft:" + id + "_door")
+//                                                    .parameter("properties", upperdoor)
+//                                            ).parameter("count", 0)
+//                                            .parameter("add", false)
+//                                    )
+//                                    .name("ctft:" + id + "_door")
+//                                    .function(JLootTable
+//                                            .function("minecraft:explosion_decay")
+//                                    )
+//                            )
+//                    )
+//            );
+//            TagInjector.injectItems(new Identifier("ctft", "ctft_doors"), Registry.ITEM.get(new Identifier("ctft", id + "_door")));
+//            if (piglin_loved.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_door")));
+//            }
+//            if (freeze_immune_wearables.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_door")));
+//            }
+//            if (piglin_repellents.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_door")));
+//            }
+//        }
+//        if (Ctft.CONFIG.tools_config.trapDoorsEnabled) {
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/template_trapdoor_bottom").textures((JModel.textures().var("texture", "ctft:blocks/" + texture + "_trapdoor").particle(namespace))), new Identifier("ctft", "item/" + id + "_trapdoor"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/template_trapdoor_open").textures((JModel.textures().var("texture", "ctft:blocks/" + texture + "_trapdoor").particle(namespace))), new Identifier("ctft", "block/" + id + "_trapdoor_open"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/template_trapdoor_top").textures((JModel.textures().var("texture", "ctft:blocks/" + texture + "_trapdoor").particle(namespace))), new Identifier("ctft", "block/" + id + "_trapdoor_top"));
+//            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
+//                    .put("facing=east,half=bottom,open=false", JState.model("ctft:item/" + id + "_trapdoor").y(90))
+//                    .put("facing=east,half=bottom,open=true", JState.model("ctft:block/" + id + "_trapdoor_open").y(90))
+//                    .put("facing=east,half=top,open=false", JState.model("ctft:block/" + id + "_trapdoor_top").y(90))
+//                    .put("facing=east,half=top,open=true", JState.model("ctft:block/" + id + "_trapdoor_open").x(180).y(270))
+//                    .put("facing=north,half=bottom,open=false", JState.model("ctft:item/" + id + "_trapdoor"))
+//                    .put("facing=north,half=bottom,open=true", JState.model("ctft:block/" + id + "_trapdoor_open"))
+//                    .put("facing=north,half=top,open=false", JState.model("ctft:block/" + id + "_trapdoor_top"))
+//                    .put("facing=north,half=top,open=true", JState.model("ctft:block/" + id + "_trapdoor_open").x(180).y(180))
+//                    .put("facing=south,half=bottom,open=false", JState.model("ctft:item/" + id + "_trapdoor").y(180))
+//                    .put("facing=south,half=bottom,open=true", JState.model("ctft:block/" + id + "_trapdoor_open").y(180))
+//                    .put("facing=south,half=top,open=false", JState.model("ctft:block/" + id + "_trapdoor_top").y(180))
+//                    .put("facing=south,half=top,open=true", JState.model("ctft:block/" + id + "_trapdoor_open").x(180))
+//                    .put("facing=west,half=bottom,open=false", JState.model("ctft:item/" + id + "_trapdoor").y(270))
+//                    .put("facing=west,half=bottom,open=true", JState.model("ctft:block/" + id + "_trapdoor_open").y(270))
+//                    .put("facing=west,half=top,open=false", JState.model("ctft:block/" + id + "_trapdoor_top").y(270))
+//                    .put("facing=west,half=top,open=true", JState.model("ctft:block/" + id + "_trapdoor_open").x(180).y(90))
+//            ), new Identifier("ctft:" + id + "_trapdoor"));
+//            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_trapdoor_from_crafting"), JRecipe.shaped(JPattern.pattern().row2("000").row3("000"), JKeys.keys().key("0", ingredient), JResult.stackedResult("ctft:" + id + "_trapdoor", 2)));
+//            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_trapdoor"), JLootTable
+//                    .loot("block")
+//                    .pool(JLootTable.pool()
+//                            .rolls(1)
+//                            .entry(JLootTable
+//                                    .entry()
+//                                    .type("minecraft:item")
+//                                    .name("ctft:" + id + "_trapdoor"))));
+//            TagInjector.injectItems(new Identifier("ctft", "ctft_trapdoors"), Registry.ITEM.get(new Identifier("ctft", id + "_trapdoor")));
+//            if (piglin_loved.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_trapdoor")));
+//            }
+//            if (freeze_immune_wearables.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_trapdoor")));
+//            }
+//            if (piglin_repellents.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_trapdoor")));
+//            }
+//        }
+//        if (Ctft.CONFIG.tools_config.leversEnabled) {
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/lever").textures(JModel.textures().var("0", "minecraft:block/lever").var("1", namespace).particle(namespace)), new Identifier("ctft", "item/" + id + "_lever"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/lever").textures((JModel.textures().var("lever", "minecraft:block/lever").var("base", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_lever_off"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/lever_on").textures((JModel.textures().var("lever", "minecraft:block/lever").var("base", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_lever_on"));
+//            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
+//                    .put("face=ceiling,facing=east,powered=false", JState.model("ctft:block/" + id + "_lever_off").x(180).y(270))
+//                    .put("face=ceiling,facing=east,powered=true", JState.model("ctft:block/" + id + "_lever_on").x(180).y(270))
+//                    .put("face=ceiling,facing=north,powered=false", JState.model("ctft:block/" + id + "_lever_off").x(180).y(180))
+//                    .put("face=ceiling,facing=north,powered=true", JState.model("ctft:block/" + id + "_lever_on").x(180).y(180))
+//                    .put("face=ceiling,facing=south,powered=false", JState.model("ctft:block/" + id + "_lever_off").x(180))
+//                    .put("face=ceiling,facing=south,powered=true", JState.model("ctft:block/" + id + "_lever_on").x(180))
+//                    .put("face=ceiling,facing=west,powered=false", JState.model("ctft:block/" + id + "_lever_off").x(180).y(90))
+//                    .put("face=ceiling,facing=west,powered=true", JState.model("ctft:block/" + id + "_lever_on").x(180).y(90))
+//                    .put("face=floor,facing=east,powered=false", JState.model("ctft:block/" + id + "_lever_off").y(90))
+//                    .put("face=floor,facing=east,powered=true", JState.model("ctft:block/" + id + "_lever_on").y(90))
+//                    .put("face=floor,facing=north,powered=false", JState.model("ctft:block/" + id + "_lever_off"))
+//                    .put("face=floor,facing=north,powered=true", JState.model("ctft:block/" + id + "_lever_on"))
+//                    .put("face=floor,facing=south,powered=false", JState.model("ctft:block/" + id + "_lever_off").y(180))
+//                    .put("face=floor,facing=south,powered=true", JState.model("ctft:block/" + id + "_lever_on").y(180))
+//                    .put("face=floor,facing=west,powered=false", JState.model("ctft:block/" + id + "_lever_off").y(270))
+//                    .put("face=floor,facing=west,powered=true", JState.model("ctft:block/" + id + "_lever_on").y(270))
+//                    .put("face=wall,facing=east,powered=false", JState.model("ctft:block/" + id + "_lever_off").x(90).y(90))
+//                    .put("face=wall,facing=east,powered=true", JState.model("ctft:block/" + id + "_lever_on").x(90).y(90))
+//                    .put("face=wall,facing=north,powered=false", JState.model("ctft:block/" + id + "_lever_off").x(90))
+//                    .put("face=wall,facing=north,powered=true", JState.model("ctft:block/" + id + "_lever_on").x(90))
+//                    .put("face=wall,facing=south,powered=false", JState.model("ctft:block/" + id + "_lever_off").x(90).y(180))
+//                    .put("face=wall,facing=south,powered=true", JState.model("ctft:block/" + id + "_lever_on").x(90).y(180))
+//                    .put("face=wall,facing=west,powered=false", JState.model("ctft:block/" + id + "_lever_off").x(90).y(270))
+//                    .put("face=wall,facing=west,powered=true", JState.model("ctft:block/" + id + "_lever_on").x(90).y(270))
+//            ), new Identifier("ctft:" + id + "_lever"));
+//            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_lever_from_crafting"), JRecipe.shaped(JPattern.pattern().row2(" 0 ").row3(" 1 "), JKeys.keys().key("0", stick).key("1", ingredient), JResult.result("ctft:" + id + "_lever")));
+//            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_lever"), JLootTable
+//                    .loot("block")
+//                    .pool(JLootTable.pool()
+//                            .rolls(1)
+//                            .entry(JLootTable
+//                                    .entry()
+//                                    .type("minecraft:item")
+//                                    .name("ctft:" + id + "_lever"))));
+//            TagInjector.injectItems(new Identifier("ctft", "ctft_levers"), Registry.ITEM.get(new Identifier("ctft", id + "_lever")));
+//            if (piglin_loved.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_lever")));
+//            }
+//            if (freeze_immune_wearables.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_lever")));
+//            }
+//            if (piglin_repellents.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_lever")));
+//            }
+//        }
+//        if (Ctft.CONFIG.tools_config.buttonsEnabled) {
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/button_inventory").textures((JModel.textures().var("texture", namespace))), new Identifier("ctft", "item/" + id + "_button"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/button").textures((JModel.textures().var("texture", namespace))), new Identifier("ctft", "block/" + id + "_button_off"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/button_pressed").textures((JModel.textures().var("texture", namespace))), new Identifier("ctft", "block/" + id + "_button_on"));
+//            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
+//                    .put("face=ceiling,facing=east,powered=false", JState.model("ctft:block/" + id + "_button_off").x(180).y(270))
+//                    .put("face=ceiling,facing=east,powered=true", JState.model("ctft:block/" + id + "_button_on").x(180).y(270))
+//                    .put("face=ceiling,facing=north,powered=false", JState.model("ctft:block/" + id + "_button_off").x(180).y(180))
+//                    .put("face=ceiling,facing=north,powered=true", JState.model("ctft:block/" + id + "_button_on").x(180).y(180))
+//                    .put("face=ceiling,facing=south,powered=false", JState.model("ctft:block/" + id + "_button_off").x(180))
+//                    .put("face=ceiling,facing=south,powered=true", JState.model("ctft:block/" + id + "_button_on").x(180))
+//                    .put("face=ceiling,facing=west,powered=false", JState.model("ctft:block/" + id + "_button_off").x(180).y(90))
+//                    .put("face=ceiling,facing=west,powered=true", JState.model("ctft:block/" + id + "_button_on").x(180).y(90))
+//                    .put("face=floor,facing=east,powered=false", JState.model("ctft:block/" + id + "_button_off").y(90))
+//                    .put("face=floor,facing=east,powered=true", JState.model("ctft:block/" + id + "_button_on").y(90))
+//                    .put("face=floor,facing=north,powered=false", JState.model("ctft:block/" + id + "_button_off"))
+//                    .put("face=floor,facing=north,powered=true", JState.model("ctft:block/" + id + "_button_on"))
+//                    .put("face=floor,facing=south,powered=false", JState.model("ctft:block/" + id + "_button_off").y(180))
+//                    .put("face=floor,facing=south,powered=true", JState.model("ctft:block/" + id + "_button_on").y(180))
+//                    .put("face=floor,facing=west,powered=false", JState.model("ctft:block/" + id + "_button_off").y(270))
+//                    .put("face=floor,facing=west,powered=true", JState.model("ctft:block/" + id + "_button_on").y(270))
+//                    .put("face=wall,facing=east,powered=false", JState.model("ctft:block/" + id + "_button_off").x(90).y(90))
+//                    .put("face=wall,facing=east,powered=true", JState.model("ctft:block/" + id + "_button_on").x(90).y(90))
+//                    .put("face=wall,facing=north,powered=false", JState.model("ctft:block/" + id + "_button_off").x(90))
+//                    .put("face=wall,facing=north,powered=true", JState.model("ctft:block/" + id + "_button_on").x(90))
+//                    .put("face=wall,facing=south,powered=false", JState.model("ctft:block/" + id + "_button_off").x(90).y(180))
+//                    .put("face=wall,facing=south,powered=true", JState.model("ctft:block/" + id + "_button_on").x(90).y(180))
+//                    .put("face=wall,facing=west,powered=false", JState.model("ctft:block/" + id + "_button_off").x(90).y(270))
+//                    .put("face=wall,facing=west,powered=true", JState.model("ctft:block/" + id + "_button_on").x(90).y(270))
+//            ), new Identifier("ctft:" + id + "_button"));
+//            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_button_from_stonecutter"), JRecipe.stonecutting(ingredient, JResult.stackedResult("ctft:" + id + "_button", 1)));
+//            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_button"), JLootTable
+//                    .loot("block")
+//                    .pool(JLootTable.pool()
+//                            .rolls(1)
+//                            .entry(JLootTable
+//                                    .entry()
+//                                    .type("minecraft:item")
+//                                    .name("ctft:" + id + "_button"))));
+//            TagInjector.injectItems(new Identifier("ctft", "ctft_buttons"), Registry.ITEM.get(new Identifier("ctft", id + "_button")));
+//            if (piglin_loved.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_button")));
+//            }
+//            if (freeze_immune_wearables.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_button")));
+//            }
+//            if (piglin_repellents.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_button")));
+//            }
+//        }
+//        if (Ctft.CONFIG.tools_config.pressurePlatesEnabled) {
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/pressure_plate_up").textures((JModel.textures().var("texture", namespace))), new Identifier("ctft", "item/" + id + "_pressure_plate"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/pressure_plate_down").textures((JModel.textures().var("texture", namespace))), new Identifier("ctft", "block/" + id + "_pressure_plate_on"));
+//            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
+//                    .put("powered=false", JState.model("ctft:item/" + id + "_pressure_plate"))
+//                    .put("powered=true", JState.model("ctft:block/" + id + "_pressure_plate_on"))
+//            ), new Identifier("ctft:" + id + "_pressure_plate"));
+//            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_pressure_plate_from_crafting"), JRecipe.shaped(JPattern.pattern().row3("00 "), JKeys.keys().key("0", ingredient), JResult.result("ctft:" + id + "_pressure_plate")));
+//            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_pressure_plate"), JLootTable
+//                    .loot("block")
+//                    .pool(JLootTable.pool()
+//                            .rolls(1)
+//                            .entry(JLootTable
+//                                    .entry()
+//                                    .type("minecraft:item")
+//                                    .name("ctft:" + id + "_pressure_plate"))));
+//            TagInjector.injectItems(new Identifier("ctft", "ctft_pressure_plates"), Registry.ITEM.get(new Identifier("ctft", id + "_pressure_plate")));
+//            if (piglin_loved.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_pressure_plate")));
+//            }
+//        }
+//        if (Ctft.CONFIG.tools_config.torchesEnabled) {
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/torch").textures((JModel.textures().var("0", "minecraft:block/torch").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_torch"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:block/template_torch").textures((JModel.textures().var("0", "minecraft:block/torch").var("1", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_torch"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:block/template_torch_wall").textures((JModel.textures().var("1", "minecraft:block/torch").var("2", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_torch_wall"));
+//            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
+//                    .put("", JState.model("ctft:block/" + id + "_torch"))
+//            ), new Identifier("ctft:" + id + "_torch"));
+//            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
+//                    .put("facing=east", JState.model("ctft:block/" + id + "_torch_wall"))
+//                    .put("facing=north", JState.model("ctft:block/" + id + "_torch_wall").y(270))
+//                    .put("facing=south", JState.model("ctft:block/" + id + "_torch_wall").y(90))
+//                    .put("facing=west", JState.model("ctft:block/" + id + "_torch_wall").y(180))
+//            ), new Identifier("ctft:" + id + "_walltorch"));
+//            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_torch_from_crafting"), JRecipe.shaped(JPattern.pattern().row1(" 1 ").row2(" 0 "), JKeys.keys().key("0", ingredient).key("1", coal), JResult.stackedResult("ctft:" + id + "_torch", 4)));
+//            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_torch"), JLootTable
+//                    .loot("block")
+//                    .pool(JLootTable.pool()
+//                            .rolls(1)
+//                            .entry(JLootTable
+//                                    .entry()
+//                                    .type("minecraft:item")
+//                                    .name("ctft:" + id + "_torch"))));
+//            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_walltorch"), JLootTable
+//                    .loot("block")
+//                    .pool(JLootTable.pool()
+//                            .rolls(1)
+//                            .entry(JLootTable
+//                                    .entry()
+//                                    .type("minecraft:item")
+//                                    .name("ctft:" + id + "_torch"))));
+//            TagInjector.injectItems(new Identifier("ctft", "ctft_torches"), Registry.ITEM.get(new Identifier("ctft", id + "_torch")));
+//            if (piglin_loved.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_torch")));
+//            }
+//            if (freeze_immune_wearables.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_torch")));
+//            }
+//            if (piglin_repellents.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_torch")));
+//            }
+//        }
+//        if (Ctft.CONFIG.tools_config.lanternsEnabled) {
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/lantern").textures((JModel.textures().var("0", "minecraft:item/lantern").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_lantern"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:block/template_lantern").textures((JModel.textures().var("2", "minecraft:block/lantern").var("1", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_lantern"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:block/template_hanging_lantern").textures((JModel.textures().var("1", "minecraft:block/lantern").var("2", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_lantern_hanging"));
+//            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
+//                    .put("hanging=false", JState.model("ctft:block/" + id + "_lantern"))
+//                    .put("hanging=true", JState.model("ctft:block/" + id + "_lantern_hanging"))
+//            ), new Identifier("ctft:" + id + "_lantern"));
+//            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_lantern_from_crafting"), JRecipe.shaped(JPattern.pattern().row1("000").row2("010").row3("000"), JKeys.keys().key("1", torch).key("0", ingredient), JResult.result("ctft:" + id + "_lantern")));
+//            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_lantern"), JLootTable
+//                    .loot("block")
+//                    .pool(JLootTable.pool()
+//                            .rolls(1)
+//                            .entry(JLootTable
+//                                    .entry()
+//                                    .type("minecraft:item")
+//                                    .name("ctft:" + id + "_lantern"))));
+//            TagInjector.injectItems(new Identifier("ctft", "ctft_lanterns"), Registry.ITEM.get(new Identifier("ctft", id + "_lantern")));
+//            if (piglin_loved.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_lantern")));
+//            }
+//            if (freeze_immune_wearables.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_lantern")));
+//            }
+//            if (piglin_repellents.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_lantern")));
+//            }
+//        }
+//        if (Ctft.CONFIG.tools_config.endRodsEnabled) {
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/end_rod").textures((JModel.textures().var("end_rod", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_end_rod"));
+//            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
+//                    .put("facing=down", JState.model("ctft:item/" + id + "_end_rod").x(180))
+//                    .put("facing=east", JState.model("ctft:item/" + id + "_end_rod").x(90).y(90))
+//                    .put("facing=north", JState.model("ctft:item/" + id + "_end_rod").x(90))
+//                    .put("facing=south", JState.model("ctft:item/" + id + "_end_rod").x(90).y(180))
+//                    .put("facing=up", JState.model("ctft:item/" + id + "_end_rod"))
+//                    .put("facing=west", JState.model("ctft:item/" + id + "_end_rod").x(90).y(270))
+//            ), new Identifier("ctft:" + id + "_end_rod"));
+//            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_end_rod_from_stonecutter"), JRecipe.stonecutting(ingredient, JResult.stackedResult("ctft:" + id + "_end_rod", 1)));
+//            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_end_rod"), JLootTable
+//                    .loot("block")
+//                    .pool(JLootTable.pool()
+//                            .rolls(1)
+//                            .entry(JLootTable
+//                                    .entry()
+//                                    .type("minecraft:item")
+//                                    .name("ctft:" + id + "_end_rod"))));
+//            TagInjector.injectItems(new Identifier("ctft", "ctft_end_rods"), Registry.ITEM.get(new Identifier("ctft", id + "_end_rod")));
+//            if (piglin_loved.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_end_rod")));
+//            }
+//            if (freeze_immune_wearables.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_end_rod")));
+//            }
+//            if (piglin_repellents.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_end_rod")));
+//            }
+//        }
+//        if (Ctft.CONFIG.tools_config.signsEnabled) {
+//            SignTypeInvoker.ctft$invokeRegister(SignTypeInvoker.ctft$invokeNew(id));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/sign").textures((JModel.textures().var("0", "minecraft:item/oak_sign").var("1", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_sign"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().textures((JModel.textures().var("texture", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_sign"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().textures((JModel.textures().var("texture", namespace).particle(namespace))), new Identifier("ctft", "block/" + id + "_wallsign"));
+//            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
+//                    .put("", JState.model("ctft:block/" + id + "_sign"))
+//            ), new Identifier("ctft:" + id + "_sign"));
+//            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
+//                    .put("", JState.model("ctft:block/" + id + "_wallsign"))
+//            ), new Identifier("ctft:" + id + "_wallsign"));
+//            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_sign_from_crafting"), JRecipe.shaped(JPattern.pattern().row1("000").row2("000").row3(" 1 "), JKeys.keys().key("0", ingredient).key("1", stick), JResult.stackedResult("ctft:" + id + "_sign", 3)));
+//            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_sign"), JLootTable
+//                    .loot("block")
+//                    .pool(JLootTable.pool()
+//                            .rolls(1)
+//                            .entry(JLootTable
+//                                    .entry()
+//                                    .type("minecraft:item")
+//                                    .name("ctft:" + id + "_sign"))));
+//            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_wallsign"), JLootTable
+//                    .loot("block")
+//                    .pool(JLootTable.pool()
+//                            .rolls(1)
+//                            .entry(JLootTable
+//                                    .entry()
+//                                    .type("minecraft:item")
+//                                    .name("ctft:" + id + "_sign"))));
+//            TagInjector.injectItems(new Identifier("ctft", "ctft_signs"), Registry.ITEM.get(new Identifier("ctft", id + "_sign")));
+//            if (piglin_loved.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_sign")));
+//            }
+//            if (freeze_immune_wearables.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_sign")));
+//            }
+//            if (piglin_repellents.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_sign")));
+//            }
+//        }
+//        if (Ctft.CONFIG.tools_config.laddersEnabled) {
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:item/generated").textures(JModel.textures().layer0("ctft:blocks/" + texture + "_ladder").particle("ctft:blocks/" + texture + "_ladder")), new Identifier("ctft", "item/" + id + "_ladder"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/ladder").textures(JModel.textures().var("texture", "ctft:blocks/" + texture + "_ladder").particle("ctft:blocks/" + texture + "_ladder")), new Identifier("ctft", "block/" + id + "_ladder"));
+//            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
+//                    .put("facing=east", JState.model("ctft:block/" + id + "_ladder").y(90))
+//                    .put("facing=north", JState.model("ctft:block/" + id + "_ladder"))
+//                    .put("facing=south", JState.model("ctft:block/" + id + "_ladder").y(180))
+//                    .put("facing=west", JState.model("ctft:block/" + id + "_ladder").y(270))
+//            ), new Identifier("ctft:" + id + "_ladder"));
+//            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_ladder_from_crafting"), JRecipe.shaped(JPattern.pattern().row1("0 0").row2("000").row3("0 0"), JKeys.keys().key("0", ingredient), JResult.stackedResult("ctft:" + id + "_ladder", 3)));
+//            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_ladder"), JLootTable
+//                    .loot("block")
+//                    .pool(JLootTable.pool()
+//                            .rolls(1)
+//                            .entry(JLootTable
+//                                    .entry()
+//                                    .type("minecraft:item")
+//                                    .name("ctft:" + id + "_ladder"))));
+//            TagInjector.injectBlocks(new Identifier("minecraft", "climbable"), Registry.BLOCK.get(new Identifier("ctft", id + "_ladder")));
+//            TagInjector.injectItems(new Identifier("ctft", "ctft_ladders"), Registry.ITEM.get(new Identifier("ctft", id + "_ladder")));
+//            if (piglin_loved.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_ladder")));
+//            }
+//            if (freeze_immune_wearables.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_ladder")));
+//            }
+//            if (piglin_repellents.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_ladder")));
+//            }
+//        }
+//        if (Ctft.CONFIG.tools_config.chainsEnabled) {
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/chain").textures(JModel.textures().var("1", namespace).particle(namespace)), new Identifier("ctft", "item/" + id + "_chain"));
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:block/chain").textures(JModel.textures().var("1", namespace).particle(namespace)), new Identifier("ctft", "block/" + id + "_chain"));
+//            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
+//                    .put("axis=x", JState.model("ctft:block/" + id + "_chain").x(90).y(90))
+//                    .put("axis=y", JState.model("ctft:block/" + id + "_chain"))
+//                    .put("axis=z", JState.model("ctft:block/" + id + "_chain").x(90))
+//            ), new Identifier("ctft:" + id + "_chain"));
+//            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_chain_from_stonecutter"), JRecipe.stonecutting(ingredient, JResult.stackedResult("ctft:" + id + "_chain", 1)));
+//            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_chain"), JLootTable
+//                    .loot("block")
+//                    .pool(JLootTable.pool()
+//                            .rolls(1)
+//                            .entry(JLootTable
+//                                    .entry()
+//                                    .type("minecraft:item")
+//                                    .name("ctft:" + id + "_chain"))));
+//            TagInjector.injectItems(new Identifier("ctft", "ctft_chains"), Registry.ITEM.get(new Identifier("ctft", id + "_chain")));
+//            if (piglin_loved.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_chain")));
+//            }
+//            if (freeze_immune_wearables.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_chain")));
+//            }
+//            if (piglin_repellents.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_chain")));
+//            }
+//        }
+//        if (Ctft.CONFIG.tools_config.compressionLevel >= 1) {
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compressed1").textures((JModel.textures().var("0", "ctft:blocks/" + texture + "_compressed").particle("ctft:blocks/" + texture + "_compressed"))), new Identifier("ctft", "item/" + id + "_compressed1"));
+//            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
+//                    .put("", JState.model("ctft:item/" + id + "_compressed1"))
+//            ), new Identifier("ctft:" + id + "_compressed1"));
+//            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed1_from_block"), JRecipe.shaped(JPattern.pattern().row1("000").row2("000").row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("ctft:" + id + "_block")), JResult.result("ctft:" + id + "_compressed1")));
+//            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_block_from_compressed1"), JRecipe.shapeless(JIngredients.ingredients().add(JIngredient.ingredient().item("ctft:" + id + "_compressed1")), JResult.stackedResult("ctft:" + id + "_block", 9)));
+//            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_compressed1"), JLootTable
+//                    .loot("block")
+//                    .pool(JLootTable.pool()
+//                            .rolls(1)
+//                            .entry(JLootTable
+//                                    .entry()
+//                                    .type("minecraft:item")
+//                                    .name("ctft:" + id + "_compressed1"))));
+//            TagInjector.injectItems(new Identifier("ctft", "ctft_compressed1"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed1")));
+//            if (piglin_loved.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed1")));
+//            }
+//            if (freeze_immune_wearables.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed1")));
+//            }
+//            if (piglin_repellents.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed1")));
+//            }
+//        }
+//        if (Ctft.CONFIG.tools_config.compressionLevel >= 2) {
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compressed2").textures((JModel.textures().var("0", "ctft:blocks/" + texture + "_compressed").particle("ctft:blocks/" + texture + "_compressed"))), new Identifier("ctft", "item/" + id + "_compressed2"));
+//            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
+//                    .put("", JState.model("ctft:item/" + id + "_compressed2"))
+//            ), new Identifier("ctft:" + id + "_compressed2"));
+//            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed2_from_compressed1"), JRecipe.shaped(JPattern.pattern().row1("000").row2("000").row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("ctft:" + id + "_compressed1")), JResult.result("ctft:" + id + "_compressed2")));
+//            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed1_from_compressed2"), JRecipe.shapeless(JIngredients.ingredients().add(JIngredient.ingredient().item("ctft:" + id + "_compressed2")), JResult.stackedResult("ctft:" + id + "_compressed1", 9)));
+//            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_compressed2"), JLootTable
+//                    .loot("block")
+//                    .pool(JLootTable.pool()
+//                            .rolls(1)
+//                            .entry(JLootTable
+//                                    .entry()
+//                                    .type("minecraft:item")
+//                                    .name("ctft:" + id + "_compressed2"))));
+//            TagInjector.injectItems(new Identifier("ctft", "ctft_compressed2"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed2")));
+//            if (piglin_loved.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed2")));
+//            }
+//            if (freeze_immune_wearables.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed2")));
+//            }
+//            if (piglin_repellents.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed2")));
+//            }
+//        }
+//        if (Ctft.CONFIG.tools_config.compressionLevel >= 3) {
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compressed3").textures((JModel.textures().var("0", "ctft:blocks/" + texture + "_compressed").particle("ctft:blocks/" + texture + "_compressed"))), new Identifier("ctft", "item/" + id + "_compressed3"));
+//            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
+//                    .put("", JState.model("ctft:item/" + id + "_compressed3"))
+//            ), new Identifier("ctft:" + id + "_compressed3"));
+//            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed3_from_compressed2"), JRecipe.shaped(JPattern.pattern().row1("000").row2("000").row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("ctft:" + id + "_compressed2")), JResult.result("ctft:" + id + "_compressed3")));
+//            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed2_from_compressed3"), JRecipe.shapeless(JIngredients.ingredients().add(JIngredient.ingredient().item("ctft:" + id + "_compressed3")), JResult.stackedResult("ctft:" + id + "_compressed2", 9)));
+//            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_compressed3"), JLootTable
+//                    .loot("block")
+//                    .pool(JLootTable.pool()
+//                            .rolls(1)
+//                            .entry(JLootTable
+//                                    .entry()
+//                                    .type("minecraft:item")
+//                                    .name("ctft:" + id + "_compressed3"))));
+//            TagInjector.injectItems(new Identifier("ctft", "ctft_compressed3"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed3")));
+//            if (piglin_loved.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed3")));
+//            }
+//            if (freeze_immune_wearables.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed3")));
+//            }
+//            if (piglin_repellents.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed3")));
+//            }
+//        }
+//        if (Ctft.CONFIG.tools_config.compressionLevel >= 4) {
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compressed4").textures((JModel.textures().var("0", "ctft:blocks/" + texture + "_compressed").particle("ctft:blocks/" + texture + "_compressed"))), new Identifier("ctft", "item/" + id + "_compressed4"));
+//            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
+//                    .put("", JState.model("ctft:item/" + id + "_compressed4"))
+//            ), new Identifier("ctft:" + id + "_compressed4"));
+//            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed4_from_compressed3"), JRecipe.shaped(JPattern.pattern().row1("000").row2("000").row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("ctft:" + id + "_compressed3")), JResult.result("ctft:" + id + "_compressed4")));
+//            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed3_from_compressed4"), JRecipe.shapeless(JIngredients.ingredients().add(JIngredient.ingredient().item("ctft:" + id + "_compressed4")), JResult.stackedResult("ctft:" + id + "_compressed3", 9)));
+//            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_compressed4"), JLootTable
+//                    .loot("block")
+//                    .pool(JLootTable.pool()
+//                            .rolls(1)
+//                            .entry(JLootTable
+//                                    .entry()
+//                                    .type("minecraft:item")
+//                                    .name("ctft:" + id + "_compressed4"))));
+//            TagInjector.injectItems(new Identifier("ctft", "ctft_compressed4"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed4")));
+//            if (piglin_loved.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed4")));
+//            }
+//            if (freeze_immune_wearables.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed4")));
+//            }
+//            if (piglin_repellents.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed4")));
+//            }
+//        }
+//        if (Ctft.CONFIG.tools_config.compressionLevel >= 5) {
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compressed5").textures((JModel.textures().var("0", "ctft:blocks/" + texture + "_compressed").particle("ctft:blocks/" + texture + "_compressed"))), new Identifier("ctft", "item/" + id + "_compressed5"));
+//            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
+//                    .put("", JState.model("ctft:item/" + id + "_compressed5"))
+//            ), new Identifier("ctft:" + id + "_compressed5"));
+//            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed5_from_compressed4"), JRecipe.shaped(JPattern.pattern().row1("000").row2("000").row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("ctft:" + id + "_compressed4")), JResult.result("ctft:" + id + "_compressed5")));
+//            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed4_from_compressed5"), JRecipe.shapeless(JIngredients.ingredients().add(JIngredient.ingredient().item("ctft:" + id + "_compressed5")), JResult.stackedResult("ctft:" + id + "_compressed4", 9)));
+//            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_compressed5"), JLootTable
+//                    .loot("block")
+//                    .pool(JLootTable.pool()
+//                            .rolls(1)
+//                            .entry(JLootTable
+//                                    .entry()
+//                                    .type("minecraft:item")
+//                                    .name("ctft:" + id + "_compressed5"))));
+//            TagInjector.injectItems(new Identifier("ctft", "ctft_compressed5"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed5")));
+//            if (piglin_loved.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed5")));
+//            }
+//            if (freeze_immune_wearables.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed5")));
+//            }
+//            if (piglin_repellents.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed5")));
+//            }
+//        }
+//        if (Ctft.CONFIG.tools_config.compressionLevel >= 6) {
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compressed6").textures((JModel.textures().var("0", "ctft:blocks/" + texture + "_compressed").particle("ctft:blocks/" + texture + "_compressed"))), new Identifier("ctft", "item/" + id + "_compressed6"));
+//            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
+//                    .put("", JState.model("ctft:item/" + id + "_compressed6"))
+//            ), new Identifier("ctft:" + id + "_compressed6"));
+//            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed6_from_compressed5"), JRecipe.shaped(JPattern.pattern().row1("000").row2("000").row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("ctft:" + id + "_compressed5")), JResult.result("ctft:" + id + "_compressed6")));
+//            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed5_from_compressed6"), JRecipe.shapeless(JIngredients.ingredients().add(JIngredient.ingredient().item("ctft:" + id + "_compressed6")), JResult.stackedResult("ctft:" + id + "_compressed5", 9)));
+//            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_compressed6"), JLootTable
+//                    .loot("block")
+//                    .pool(JLootTable.pool()
+//                            .rolls(1)
+//                            .entry(JLootTable
+//                                    .entry()
+//                                    .type("minecraft:item")
+//                                    .name("ctft:" + id + "_compressed6"))));
+//            TagInjector.injectItems(new Identifier("ctft", "ctft_compressed6"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed6")));
+//            if (piglin_loved.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed6")));
+//            }
+//            if (freeze_immune_wearables.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed6")));
+//            }
+//            if (piglin_repellents.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed6")));
+//            }
+//        }
+//        if (Ctft.CONFIG.tools_config.compressionLevel >= 7) {
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compressed7").textures((JModel.textures().var("0", "ctft:blocks/" + texture + "_compressed").particle("ctft:blocks/" + texture + "_compressed"))), new Identifier("ctft", "item/" + id + "_compressed7"));
+//            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
+//                    .put("", JState.model("ctft:item/" + id + "_compressed7"))
+//            ), new Identifier("ctft:" + id + "_compressed7"));
+//            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed7_from_compressed6"), JRecipe.shaped(JPattern.pattern().row1("000").row2("000").row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("ctft:" + id + "_compressed6")), JResult.result("ctft:" + id + "_compressed7")));
+//            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed6_from_compressed7"), JRecipe.shapeless(JIngredients.ingredients().add(JIngredient.ingredient().item("ctft:" + id + "_compressed7")), JResult.stackedResult("ctft:" + id + "_compressed6", 9)));
+//            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_compressed7"), JLootTable
+//                    .loot("block")
+//                    .pool(JLootTable.pool()
+//                            .rolls(1)
+//                            .entry(JLootTable
+//                                    .entry()
+//                                    .type("minecraft:item")
+//                                    .name("ctft:" + id + "_compressed7"))));
+//            TagInjector.injectItems(new Identifier("ctft", "ctft_compressed7"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed7")));
+//            if (piglin_loved.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed7")));
+//            }
+//            if (freeze_immune_wearables.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed7")));
+//            }
+//            if (piglin_repellents.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed7")));
+//            }
+//        }
+//        if (Ctft.CONFIG.tools_config.compressionLevel >= 8) {
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compressed8").textures((JModel.textures().var("0", "ctft:blocks/" + texture + "_compressed").particle("ctft:blocks/" + texture + "_compressed"))), new Identifier("ctft", "item/" + id + "_compressed8"));
+//            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
+//                    .put("", JState.model("ctft:item/" + id + "_compressed8"))
+//            ), new Identifier("ctft:" + id + "_compressed8"));
+//            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed8_from_compressed7"), JRecipe.shaped(JPattern.pattern().row1("000").row2("000").row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("ctft:" + id + "_compressed7")), JResult.result("ctft:" + id + "_compressed8")));
+//            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed7_from_compressed8"), JRecipe.shapeless(JIngredients.ingredients().add(JIngredient.ingredient().item("ctft:" + id + "_compressed8")), JResult.stackedResult("ctft:" + id + "_compressed7", 9)));
+//            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_compressed8"), JLootTable
+//                    .loot("block")
+//                    .pool(JLootTable.pool()
+//                            .rolls(1)
+//                            .entry(JLootTable
+//                                    .entry()
+//                                    .type("minecraft:item")
+//                                    .name("ctft:" + id + "_compressed8"))));
+//            TagInjector.injectItems(new Identifier("ctft", "ctft_compressed8"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed8")));
+//            if (piglin_loved.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed8")));
+//            }
+//            if (freeze_immune_wearables.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed8")));
+//            }
+//            if (piglin_repellents.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed8")));
+//            }
+//        }
+//        if (Ctft.CONFIG.tools_config.compressionLevel >= 9) {
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compressed9").textures((JModel.textures().var("0", "ctft:blocks/" + texture + "_compressed").particle("ctft:blocks/" + texture + "_compressed"))), new Identifier("ctft", "item/" + id + "_compressed9"));
+//            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
+//                    .put("", JState.model("ctft:item/" + id + "_compressed9"))
+//            ), new Identifier("ctft:" + id + "_compressed9"));
+//            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed9_from_compressed8"), JRecipe.shaped(JPattern.pattern().row1("000").row2("000").row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("ctft:" + id + "_compressed8")), JResult.result("ctft:" + id + "_compressed9")));
+//            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed8_from_compressed9"), JRecipe.shapeless(JIngredients.ingredients().add(JIngredient.ingredient().item("ctft:" + id + "_compressed9")), JResult.stackedResult("ctft:" + id + "_compressed8", 9)));
+//            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_compressed9"), JLootTable
+//                    .loot("block")
+//                    .pool(JLootTable.pool()
+//                            .rolls(1)
+//                            .entry(JLootTable
+//                                    .entry()
+//                                    .type("minecraft:item")
+//                                    .name("ctft:" + id + "_compressed9"))));
+//            TagInjector.injectItems(new Identifier("ctft", "ctft_compressed9"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed9")));
+//            if (piglin_loved.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed9")));
+//            }
+//            if (freeze_immune_wearables.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed9")));
+//            }
+//            if (piglin_repellents.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed9")));
+//            }
+//        }
+//        if (Ctft.CONFIG.tools_config.compressionLevel >= 10) {
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compressed10").textures((JModel.textures().var("0", "ctft:blocks/" + texture + "_compressed").particle("ctft:blocks/" + texture + "_compressed"))), new Identifier("ctft", "item/" + id + "_compressed10"));
+//            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
+//                    .put("", JState.model("ctft:item/" + id + "_compressed10"))
+//            ), new Identifier("ctft:" + id + "_compressed10"));
+//            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed10_from_compressed9"), JRecipe.shaped(JPattern.pattern().row1("000").row2("000").row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("ctft:" + id + "_compressed9")), JResult.result("ctft:" + id + "_compressed10")));
+//            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed9_from_compressed10"), JRecipe.shapeless(JIngredients.ingredients().add(JIngredient.ingredient().item("ctft:" + id + "_compressed10")), JResult.stackedResult("ctft:" + id + "_compressed9", 9)));
+//            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_compressed10"), JLootTable
+//                    .loot("block")
+//                    .pool(JLootTable.pool()
+//                            .rolls(1)
+//                            .entry(JLootTable
+//                                    .entry()
+//                                    .type("minecraft:item")
+//                                    .name("ctft:" + id + "_compressed10"))));
+//            TagInjector.injectItems(new Identifier("ctft", "ctft_compressed10"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed10")));
+//            if (piglin_loved.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed10")));
+//            }
+//            if (freeze_immune_wearables.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed10")));
+//            }
+//            if (piglin_repellents.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed10")));
+//            }
+//        }
+//        if (Ctft.CONFIG.tools_config.compressionLevel >= 11) {
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compressed11").textures((JModel.textures().var("0", "ctft:blocks/" + texture + "_compressed").particle("ctft:blocks/" + texture + "_compressed"))), new Identifier("ctft", "item/" + id + "_compressed11"));
+//            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
+//                    .put("", JState.model("ctft:item/" + id + "_compressed11"))
+//            ), new Identifier("ctft:" + id + "_compressed11"));
+//            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed11_from_compressed10"), JRecipe.shaped(JPattern.pattern().row1("000").row2("000").row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("ctft:" + id + "_compressed10")), JResult.result("ctft:" + id + "_compressed11")));
+//            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed10_from_compressed11"), JRecipe.shapeless(JIngredients.ingredients().add(JIngredient.ingredient().item("ctft:" + id + "_compressed11")), JResult.stackedResult("ctft:" + id + "_compressed10", 9)));
+//            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_compressed11"), JLootTable
+//                    .loot("block")
+//                    .pool(JLootTable.pool()
+//                            .rolls(1)
+//                            .entry(JLootTable
+//                                    .entry()
+//                                    .type("minecraft:item")
+//                                    .name("ctft:" + id + "_compressed11"))));
+//
+//            TagInjector.injectItems(new Identifier("ctft", "ctft_compressed11"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed11")));
+//            if (piglin_loved.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed11")));
+//            }
+//            if (freeze_immune_wearables.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed11")));
+//            }
+//            if (piglin_repellents.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed11")));
+//            }
+//        }
+//        if (Ctft.CONFIG.tools_config.compressionLevel >= 12) {
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compressed12").textures((JModel.textures().var("0", "ctft:blocks/" + texture + "_compressed").particle("ctft:blocks/" + texture + "_compressed"))), new Identifier("ctft", "item/" + id + "_compressed12"));
+//            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
+//                    .put("", JState.model("ctft:item/" + id + "_compressed12"))
+//            ), new Identifier("ctft:" + id + "_compressed12"));
+//            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed12_from_compressed11"), JRecipe.shaped(JPattern.pattern().row1("000").row2("000").row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("ctft:" + id + "_compressed11")), JResult.result("ctft:" + id + "_compressed12")));
+//            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed11_from_compressed12"), JRecipe.shapeless(JIngredients.ingredients().add(JIngredient.ingredient().item("ctft:" + id + "_compressed12")), JResult.stackedResult("ctft:" + id + "_compressed11", 9)));
+//            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_compressed12"), JLootTable
+//                    .loot("block")
+//                    .pool(JLootTable.pool()
+//                            .rolls(1)
+//                            .entry(JLootTable
+//                                    .entry()
+//                                    .type("minecraft:item")
+//                                    .name("ctft:" + id + "_compressed12"))));
+//            TagInjector.injectItems(new Identifier("ctft", "ctft_compressed12"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed12")));
+//            if (piglin_loved.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed12")));
+//            }
+//            if (freeze_immune_wearables.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed12")));
+//            }
+//            if (piglin_repellents.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed12")));
+//            }
+//        }
+//        if (Ctft.CONFIG.tools_config.compressionLevel >= 13) {
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compressed13").textures((JModel.textures().var("0", "ctft:blocks/" + texture + "_compressed").particle("ctft:blocks/" + texture + "_compressed"))), new Identifier("ctft", "item/" + id + "_compressed13"));
+//            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
+//                    .put("", JState.model("ctft:item/" + id + "_compressed13"))
+//            ), new Identifier("ctft:" + id + "_compressed13"));
+//            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed13_from_compressed12"), JRecipe.shaped(JPattern.pattern().row1("000").row2("000").row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("ctft:" + id + "_compressed12")), JResult.result("ctft:" + id + "_compressed13")));
+//            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed12_from_compressed13"), JRecipe.shapeless(JIngredients.ingredients().add(JIngredient.ingredient().item("ctft:" + id + "_compressed13")), JResult.stackedResult("ctft:" + id + "_compressed12", 9)));
+//            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_compressed13"), JLootTable
+//                    .loot("block")
+//                    .pool(JLootTable.pool()
+//                            .rolls(1)
+//                            .entry(JLootTable
+//                                    .entry()
+//                                    .type("minecraft:item")
+//                                    .name("ctft:" + id + "_compressed13"))));
+//            TagInjector.injectItems(new Identifier("ctft", "ctft_compressed13"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed13")));
+//            if (piglin_loved.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed13")));
+//            }
+//            if (freeze_immune_wearables.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed13")));
+//            }
+//            if (piglin_repellents.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed13")));
+//            }
+//        }
+//        if (Ctft.CONFIG.tools_config.compressionLevel >= 14) {
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compressed14").textures((JModel.textures().var("0", "ctft:blocks/" + texture + "_compressed").particle("ctft:blocks/" + texture + "_compressed"))), new Identifier("ctft", "item/" + id + "_compressed14"));
+//            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
+//                    .put("", JState.model("ctft:item/" + id + "_compressed14"))
+//            ), new Identifier("ctft:" + id + "_compressed14"));
+//            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed14_from_compressed13"), JRecipe.shaped(JPattern.pattern().row1("000").row2("000").row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("ctft:" + id + "_compressed13")), JResult.result("ctft:" + id + "_compressed14")));
+//            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed13_from_compressed14"), JRecipe.shapeless(JIngredients.ingredients().add(JIngredient.ingredient().item("ctft:" + id + "_compressed14")), JResult.stackedResult("ctft:" + id + "_compressed13", 9)));
+//            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_compressed14"), JLootTable
+//                    .loot("block")
+//                    .pool(JLootTable.pool()
+//                            .rolls(1)
+//                            .entry(JLootTable
+//                                    .entry()
+//                                    .type("minecraft:item")
+//                                    .name("ctft:" + id + "_compressed14"))));
+//            TagInjector.injectItems(new Identifier("ctft", "ctft_compressed14"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed14")));
+//            if (piglin_loved.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed14")));
+//            }
+//            if (freeze_immune_wearables.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed14")));
+//            }
+//            if (piglin_repellents.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed14")));
+//            }
+//        }
+//        if (Ctft.CONFIG.tools_config.compressionLevel >= 15) {
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compressed15").textures((JModel.textures().var("0", "ctft:blocks/" + texture + "_compressed").particle("ctft:blocks/" + texture + "_compressed"))), new Identifier("ctft", "item/" + id + "_compressed15"));
+//            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
+//                    .put("", JState.model("ctft:item/" + id + "_compressed15"))
+//            ), new Identifier("ctft:" + id + "_compressed15"));
+//            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed15_from_compressed14"), JRecipe.shaped(JPattern.pattern().row1("000").row2("000").row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("ctft:" + id + "_compressed14")), JResult.result("ctft:" + id + "_compressed15")));
+//            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compressed15_from_compressed15"), JRecipe.shapeless(JIngredients.ingredients().add(JIngredient.ingredient().item("ctft:" + id + "_compressed15")), JResult.stackedResult("ctft:" + id + "_compressed14", 9)));
+//            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_compressed15"), JLootTable
+//                    .loot("block")
+//                    .pool(JLootTable.pool()
+//                            .rolls(1)
+//                            .entry(JLootTable
+//                                    .entry()
+//                                    .type("minecraft:item")
+//                                    .name("ctft:" + id + "_compressed15"))));
+//            if (piglin_loved.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed15")));
+//            }
+//            if (freeze_immune_wearables.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed15")));
+//            }
+//            if (piglin_repellents.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_compressed15")));
+//            }
+//        }
+//        if (Ctft.CONFIG.tools_config.kcolbsEnabled) {
+//            Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/kcolb").textures((JModel.textures().var("0", namespace).particle(namespace))), new Identifier("ctft", "item/" + id + "_kcolb"));
+//            Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
+//                    .put("", JState.model("ctft:item/" + id + "_kcolb"))
+//            ), new Identifier("ctft:" + id + "_kcolb"));
+//            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_kcolb_from_stonecutter"), JRecipe.stonecutting(block, JResult.stackedResult("ctft:" + id + "_kcolb", 1)));
+//            Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_block_from_kcolb"), JRecipe.shapeless(JIngredients.ingredients().add(JIngredient.ingredient().item("ctft:" + id + "_kcolb")), JResult.stackedResult("ctft:" + id + "_block", 1)));
+//            Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_kcolb"), JLootTable
+//                    .loot("block")
+//                    .pool(JLootTable.pool()
+//                            .rolls(1)
+//                            .entry(JLootTable
+//                                    .entry()
+//                                    .type("minecraft:item")
+//                                    .name("ctft:" + id + "_kcolb"))));
+//            TagInjector.injectItems(new Identifier("ctft", "ctft_kcolbs"), Registry.ITEM.get(new Identifier("ctft", id + "_kcolb")));
+//            if (piglin_loved.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_loved"), Registry.ITEM.get(new Identifier("ctft", id + "_kcolb")));
+//            }
+//            if (freeze_immune_wearables.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "freeze_immune_wearables"), Registry.ITEM.get(new Identifier("ctft", id + "_kcolb")));
+//            }
+//            if (piglin_repellents.contains(id)) {
+//                TagInjector.injectItems(new Identifier("minecraft", "piglin_repellents"), Registry.ITEM.get(new Identifier("ctft", id + "_kcolb")));
+//            }
+//        }
+//    }
     }
 }

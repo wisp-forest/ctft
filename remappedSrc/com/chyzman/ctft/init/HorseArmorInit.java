@@ -1,4 +1,4 @@
-package com.chyzman.ctft.Items;
+package com.chyzman.ctft.items;
 
 import com.chyzman.ctft.Ctft;
 import net.minecraft.world.item.HorseArmorItem;

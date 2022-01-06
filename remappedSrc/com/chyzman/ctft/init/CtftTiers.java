@@ -1,4 +1,4 @@
-package com.chyzman.ctft.Items;
+package com.chyzman.ctft.items;
     
 import net.minecraft.item.ToolMaterials;
 import net.minecraft.tags.ItemTags;

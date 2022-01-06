@@ -1,4 +1,4 @@
-package com.chyzman.ctft.Items;
+package com.chyzman.ctft.items;
 
 import com.chyzman.ctft.Ctft;
 import net.minecraft.world.food.Foods;
@@ -8,7 +8,7 @@ import net.minecraft.world.item.Tier;
 import net.minecraftforge.fmllegacy.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
-import com.chyzman.ctft.Items.CtftTiers;
+import com.chyzman.ctft.items.CtftTiers;
 
 public class ShovelInit {
     public static final DeferredRegister<Item> SHOVELS = DeferredRegister.create(ForgeRegistries.ITEMS, Ctft.modid);

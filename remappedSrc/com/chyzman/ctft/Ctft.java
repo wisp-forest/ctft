@@ -8,7 +8,7 @@ import net.minecraft.item.Items;
 import net.minecraft.util.Identifier;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import com.chyzman.ctft.Items.*;
+import com.chyzman.ctft.items.*;
 
 public class Ctft implements ModInitializer {
     private static final Logger LOGGER = LogManager.getLogger(Ctft.class);

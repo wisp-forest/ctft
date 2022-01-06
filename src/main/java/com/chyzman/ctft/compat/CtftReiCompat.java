@@ -1,6 +1,6 @@
 package com.chyzman.ctft.compat;
 
-import com.chyzman.ctft.Items.MiscInit;
+import com.chyzman.ctft.items.MiscInit;
 import me.shedaniel.rei.api.client.plugins.REIClientPlugin;
 import me.shedaniel.rei.api.client.registry.entry.EntryRegistry;
 import me.shedaniel.rei.api.common.util.EntryStacks;

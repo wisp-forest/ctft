@@ -1,4 +1,4 @@
-package com.chyzman.ctft.Items;
+package com.chyzman.ctft.items;
 
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;

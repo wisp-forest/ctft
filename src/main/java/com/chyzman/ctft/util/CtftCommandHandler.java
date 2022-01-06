@@ -2,7 +2,9 @@ package com.chyzman.ctft.util;
 
 import com.mojang.brigadier.CommandDispatcher;
 import com.mojang.brigadier.arguments.StringArgumentType;
+import com.mojang.brigadier.suggestion.SuggestionProvider;
 import net.minecraft.command.argument.EntityArgumentType;
+import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.item.ItemStack;
 import net.minecraft.server.command.ServerCommandSource;
 import net.minecraft.server.network.ServerPlayerEntity;
@@ -16,29 +18,24 @@ import static net.minecraft.server.command.CommandManager.literal;
 
 public class CtftCommandHandler {
 
+    private static final SuggestionProvider<ServerCommandSource> MINECRAFT_ITEMS = (serverCommandSourceCommandContext, suggestionsBuilder) -> {
+        Registry.ITEM
+                .getIds()
+                .stream()
+                .filter(id -> id.getNamespace().equals("minecraft"))
+                .map(Identifier::getPath)
+                .forEach(suggestionsBuilder::suggest);
+        return suggestionsBuilder.buildFuture();
+    };
+
     public static void register(CommandDispatcher<ServerCommandSource> dispatcher, boolean dedicated) {
         dispatcher.register(literal("set")
                 .requires(source -> source.hasPermissionLevel(1))
-                .then(
-                        argument("targets", EntityArgumentType.players())
-                                .then(argument("item", StringArgumentType.string())
-                                        .suggests((serverCommandSourceCommandContext, suggestionsBuilder) -> {
-                                            Registry.ITEM
-                                                    .getIds()
-                                                    .stream()
-                                                    .filter(id -> id
-                                                            .getNamespace()
-                                                            .equals("minecraft"))
-                                                    .map(Identifier::getPath)
-                                                    .forEach(suggestionsBuilder::suggest);
-                                            return suggestionsBuilder.buildFuture();
-                                        }).executes(context -> execute(
-                                                EntityArgumentType.getPlayers(context, "targets"),
-                                                StringArgumentType.getString(context, "item"))
-                                        )
-                                )
-                )
-        );
+                .then(argument("targets", EntityArgumentType.players())
+                        .then(argument("item", StringArgumentType.string())
+                                .suggests(MINECRAFT_ITEMS).executes(context -> execute(
+                                        EntityArgumentType.getPlayers(context, "targets"),
+                                        StringArgumentType.getString(context, "item"))))));
     }
 
     private static int execute(Collection<ServerPlayerEntity> targets, String item) {

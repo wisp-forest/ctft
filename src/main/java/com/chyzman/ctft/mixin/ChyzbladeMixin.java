@@ -1,6 +1,6 @@
 package com.chyzman.ctft.mixin;
 
-import com.chyzman.ctft.Items.MiscInit;
+import com.chyzman.ctft.items.MiscInit;
 import com.chyzman.ctft.util.ChyzbladeDamageSource;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityType;

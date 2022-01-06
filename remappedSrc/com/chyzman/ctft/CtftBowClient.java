@@ -1,6 +1,6 @@
 package com.chyzman.ctft;
 
-import com.chyzman.ctft.Items.BowInit;
+import com.chyzman.ctft.items.BowInit;
 import net.minecraft.client.renderer.item.ItemProperties;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.api.distmarker.Dist;

@@ -1,7 +1,7 @@
 package com.chyzman.ctft;
 
 import com.chyzman.ctft.classes.CompassRender;
-import com.chyzman.ctft.Items.CompassInit;
+import com.chyzman.ctft.items.CompassInit;
 import net.minecraft.client.renderer.item.ItemProperties;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.api.distmarker.Dist;
