@@ -8,6 +8,7 @@
     "DebugWorldMixin",
     "FishingBobberEntityRendererMixin",
     "FishingBobberFix",
+    //"LivingEntityMixin",
     "PillagerCrossbowMixin",
     "SheepShearingMixin",
     "SkeletonBowMixin",

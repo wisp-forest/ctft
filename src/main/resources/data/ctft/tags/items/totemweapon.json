@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "ctft:totem_of_undying_sword",
+    "ctft:totem_of_undying_pickaxe",
+    "ctft:totem_of_undying_axe",
+    "ctft:totem_of_undying_shovel",
+    "ctft:totem_of_undying_hoe",
+    "ctft:totem_of_undying_bow",
+    "ctft:totem_of_undying_crossbow",
+    "ctft:totem_of_undying_shield",
+    "ctft:totem_of_undying_fishing_rod",
+    "ctft:totem_of_undying_shears"
+  ]
+}

@@ -4,6 +4,7 @@ import io.wispforest.owo.ops.WorldOps;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.client.item.TooltipContext;
+import net.minecraft.entity.Entity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.ai.brain.task.WorkStationCompetitionTask;
 import net.minecraft.entity.player.PlayerEntity;
@@ -42,7 +43,7 @@ public class ChyzbladeItem extends MiningToolItem {
     @Override
     public ActionResult useOnBlock(ItemUsageContext context) {
         WorldOps.breakBlockWithItem(context.getWorld(), context.getBlockPos(), context.getStack());
-        return super.useOnBlock(context);
+        return ActionResult.SUCCESS;
     }
     @Override
     public boolean postHit(ItemStack stack, LivingEntity target, LivingEntity attacker) {
@@ -64,4 +65,9 @@ public class ChyzbladeItem extends MiningToolItem {
         return true;
     }
 
+    @Override
+    public ActionResult useOnEntity(ItemStack stack, PlayerEntity user, LivingEntity entity, Hand hand) {
+        entity.remove(Entity.RemovalReason.KILLED);
+        return ActionResult.SUCCESS;
+    }
 }

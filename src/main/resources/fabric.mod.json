@@ -7,6 +7,13 @@
   "authors": [
     "chyzman"
   ],
+  "contributors": [
+    "GrimMidnight",
+    "Skuill",
+    "glisco",
+    "RangerSeventy7",
+    "torrtoisse"
+  ],
   "contact": {
     "website": "https://www.curseforge.com/minecraft/mc-mods/ctft",
     "repo": "https://github.com/chyzman/ctft"
@@ -35,7 +42,7 @@
     "fabricloader": "*",
     "fabric": "*",
     "minecraft": ">=1.18",
-    "owo": ">=0.2.0",
-    "advanced_runtime_resource_pack": ">=0.5.4"
+    "owo": "*",
+    "advanced_runtime_resource_pack": "*"
   }
 }

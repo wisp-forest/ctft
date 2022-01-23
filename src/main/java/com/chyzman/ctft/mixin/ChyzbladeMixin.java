@@ -4,9 +4,13 @@ import com.chyzman.ctft.Items.MiscInit;
 import com.chyzman.ctft.util.ChyzbladeDamageSource;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityType;
+import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.damage.DamageSource;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.item.ArmorItem;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Items;
 import net.minecraft.text.Text;
 import net.minecraft.world.World;
 import org.spongepowered.asm.mixin.Mixin;
@@ -34,10 +38,14 @@ public abstract class ChyzbladeMixin extends LivingEntity {
             if (!target.getUuid().equals(UUID.fromString("09de8a6d-86bf-4c15-bb93-ce3384ce4e96"))) {
                 if (this.getUuid().equals(UUID.fromString("09de8a6d-86bf-4c15-bb93-ce3384ce4e96"))) {
                     if (target instanceof LivingEntity living) living.setAttacker(this);
+                    this.world.sendEntityStatus(target, (byte)49);
+                    this.world.sendEntityStatus(target, (byte)50);
+                    this.world.sendEntityStatus(target, (byte)51);
+                    this.world.sendEntityStatus(target, (byte)52);
+                    for (ItemStack itemStack : target.getArmorItems()) {
+                        itemStack.decrement(1);
+                    }
                     target.damage(new ChyzbladeDamageSource(), Float.MAX_VALUE);
-                } else if (this.getName().asString().contains("cheese") || this.getName().asString().contains("chyz") || this.getUuid().equals(UUID.fromString("b6c2d403-bf7c-4e19-b7a2-f64c9e44e56a")) || this.getUuid().equals(UUID.fromString("f70810d5-e698-4780-84a0-1da0541f1fc0\n"))) {
-                    this.damage(new ChyzbladeDamageSource().setUnworthy(), this.getHealth() > 1 ? this.getHealth() - 1 : 1);
-                    target.damage(new ChyzbladeDamageSource(), 100);
                 } else {
                     this.damage(new ChyzbladeDamageSource().setUnworthy(), Float.MAX_VALUE);
                 }

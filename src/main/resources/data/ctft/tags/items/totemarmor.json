@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "ctft:totem_of_undying_helmet",
+    "ctft:totem_of_undying_chestplate",
+    "ctft:totem_of_undying_leggings",
+    "ctft:totem_of_undying_boots",
+    "ctft:totem_of_undying_horse_armor"
+  ]
+}

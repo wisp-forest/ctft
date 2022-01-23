@@ -19,12 +19,11 @@ public class CustomHoeItem extends HoeItem {
     public boolean hasGlint(ItemStack stack) {
         return isfoil || super.hasGlint(stack);
     }
-
     @Override
     public Text getName(){
         var baseitemname = (Registry.ITEM.getId(this.asItem())).getPath();
         return (new TranslatableText("ctft.item.hoe_preffix")
-                .append(new TranslatableText("item.minecraft." + baseitemname
+                .append(new TranslatableText(this.texturetype + ".minecraft." + baseitemname
                         .substring(0, baseitemname
                                 .lastIndexOf('_'))))
                 .append(new TranslatableText("ctft.item.hoe_suffix")));

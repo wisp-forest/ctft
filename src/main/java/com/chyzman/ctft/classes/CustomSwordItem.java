@@ -24,7 +24,7 @@ public class CustomSwordItem extends SwordItem {
     public Text getName(){
         var baseitemname = (Registry.ITEM.getId(this.asItem())).getPath();
         return (new TranslatableText("ctft.item.sword_preffix")
-                .append(new TranslatableText(this.texturetype + ".minecraft." + baseitemname
+                .append(new TranslatableText( texturetype + ".minecraft." + baseitemname
                         .substring(0, baseitemname
                                 .lastIndexOf('_'))))
                 .append(new TranslatableText("ctft.item.sword_suffix")));
