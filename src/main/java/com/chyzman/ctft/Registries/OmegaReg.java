@@ -869,7 +869,7 @@ public class OmegaReg {
                         .put("", JState.model("ctft:item/" + id + "_block"))
                 ), new Identifier("ctft:" + id + "_block"));
                 Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_block_from_material"), JRecipe.shaped(JPattern.pattern().row1("000").row2("000").row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("minecraft:" + id)), JResult.result("ctft:" + id + "_block")));
-                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_material_from_block"), JRecipe.shapeless(JIngredients.ingredients().add(JIngredient.ingredient().item("minecraft:" + id + "_block")), JResult.stackedResult("minecraft:" + id, 9)));
+                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_material_from_block"), JRecipe.shapeless(JIngredients.ingredients().add(JIngredient.ingredient().item("ctft:" + id + "_block")), JResult.stackedResult("minecraft:" + id, 9)));
                 Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_block"), JLootTable
                         .loot("block")
                         .pool(JLootTable.pool()
