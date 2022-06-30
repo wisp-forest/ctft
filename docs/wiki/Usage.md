@@ -1,20 +1,30 @@
 # Requirements
 ## Mods
-**1. Fabric API** ([curseforge](https://www.curseforge.com/minecraft/mc-mods/fabric-api), [modrinth](https://modrinth.com/mod/fabric-api))
+### Required
+These mods are required to launch the game
 
-**2. owo lib** ([curseforge](https://www.curseforge.com/minecraft/mc-mods/owo-lib), [modrinth](https://modrinth.com/mod/owo-lib))
+**Fabric API** ([curseforge](https://www.curseforge.com/minecraft/mc-mods/fabric-api), [modrinth](https://modrinth.com/mod/fabric-api))
 
-**3. ARRP** ([curseforge](https://www.curseforge.com/minecraft/mc-mods/ctft/relations/dependencies), [modrinth](https://modrinth.com/mod/arrp))
+**owo lib** ([curseforge](https://www.curseforge.com/minecraft/mc-mods/owo-lib), [modrinth](https://modrinth.com/mod/owo-lib))
 
-**4. Cloth config** ([curseforge](https://www.curseforge.com/minecraft/mc-mods/cloth-config-legacy), [modrinth](https://modrinth.com/mod/cloth-config))
+**ARRP** ([curseforge](https://www.curseforge.com/minecraft/mc-mods/ctft/relations/dependencies), [modrinth](https://modrinth.com/mod/arrp))
 
-**5. FerriteCore** ([curseforge](https://www.curseforge.com/minecraft/mc-mods/ferritecore-fabric), [modrinth](https://modrinth.com/mod/ferrite-core))
+**Cloth config** ([curseforge](https://www.curseforge.com/minecraft/mc-mods/cloth-config-legacy), [modrinth](https://modrinth.com/mod/cloth-config))
 
-**6. PigLib** ([curseforge](https://www.curseforge.com/minecraft/mc-mods/piglib), [modrinth](https://modrinth.com/mod/piglib))
+### Recommended
+These mods are technically optional but they make the game actually playable.
 
-**7. XL Packets** ([curseforge](https://www.curseforge.com/minecraft/mc-mods/xl-packets-fabric))
+**FerriteCore** ([curseforge](https://www.curseforge.com/minecraft/mc-mods/ferritecore-fabric), [modrinth](https://modrinth.com/mod/ferrite-core))
 
-**8. REI** ([curseforge](https://www.curseforge.com/minecraft/mc-mods/roughly-enough-items), [modrinth](https://modrinth.com/mod/roughly-enough-items))
+**XL Packets** ([curseforge](https://www.curseforge.com/minecraft/mc-mods/xl-packets-fabric)
+
+### Compatible
+These mods are supported
+
+**REI** ([curseforge](https://www.curseforge.com/minecraft/mc-mods/roughly-enough-items), [modrinth](https://modrinth.com/mod/roughly-enough-items))
+
+
+**PigLib** ([curseforge](https://www.curseforge.com/minecraft/mc-mods/piglib), [modrinth](https://modrinth.com/mod/piglib))
 
 
 ## System

@@ -1,7 +1,7 @@
 # ;TLDR
 
 ## Requirements
-Requirements are located [here](https://github.com/leabastien/ctft-french/wiki)
+Requirements are located [here](https://github.com/leabastien/ctft-french/wiki/Usage#requirements)
 
 ## RAM
 Minimal amount `5120mb`
