@@ -12,11 +12,13 @@ import net.minecraft.world.World;
 public class CustomFishingRodItem extends FishingRodItem {
     public boolean isfoil;
     public String texturetype;
+
     public CustomFishingRodItem(boolean isFoil, String textureType, Settings settings) {
         super(settings);
         isfoil = isFoil;
         texturetype = textureType;
     }
+
     @Override
     public boolean hasGlint(ItemStack stack) {
         return isfoil || super.hasGlint(stack);
@@ -35,8 +37,9 @@ public class CustomFishingRodItem extends FishingRodItem {
         }
         return super.use(world, user, hand);
     }
+
     @Override
-    public Text getName(){
+    public Text getName() {
         var baseitemname = (Registry.ITEM.getId(this.asItem())).getPath();
         return (Text.translatable("ctft.item.fishing_rod_prefix")
                 .append(Text.translatable(this.texturetype + ".minecraft." + baseitemname
@@ -47,6 +50,7 @@ public class CustomFishingRodItem extends FishingRodItem {
                                 .lastIndexOf('_'))))
                 .append(Text.translatable("ctft.item.fishing_rod_suffix")));
     }
+
     @Override
     public Text getName(ItemStack stack) {
         return this.getName();

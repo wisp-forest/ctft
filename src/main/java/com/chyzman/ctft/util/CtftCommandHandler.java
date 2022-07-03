@@ -22,26 +22,27 @@ public class CtftCommandHandler {
                 .then(
                         argument("targets", EntityArgumentType.players())
                                 .then(argument("item", StringArgumentType.string())
-                                        .suggests((serverCommandSourceCommandContext, suggestionsBuilder) -> { Registry.ITEM
-                                                .getIds()
-                                                .stream()
-                                                .filter(id -> id
-                                                        .getNamespace()
-                                                        .equals("minecraft"))
-                                                .map(Identifier::getPath)
-                                                .forEach(suggestionsBuilder::suggest);
+                                        .suggests((serverCommandSourceCommandContext, suggestionsBuilder) -> {
+                                            Registry.ITEM
+                                                    .getIds()
+                                                    .stream()
+                                                    .filter(id -> id
+                                                            .getNamespace()
+                                                            .equals("minecraft"))
+                                                    .map(Identifier::getPath)
+                                                    .forEach(suggestionsBuilder::suggest);
                                             return suggestionsBuilder.buildFuture();
                                         }).executes(context -> execute(
                                                 EntityArgumentType.getPlayers(context, "targets"),
-                                                StringArgumentType.getString(context,"item"))
+                                                StringArgumentType.getString(context, "item"))
                                         )
                                 )
                 )
         );
     }
 
-    private static int execute( Collection<ServerPlayerEntity> targets, String item){
-        for(ServerPlayerEntity serverPlayerEntity : targets) {
+    private static int execute(Collection<ServerPlayerEntity> targets, String item) {
+        for (ServerPlayerEntity serverPlayerEntity : targets) {
             serverPlayerEntity.getInventory().offerOrDrop(new ItemStack(Registry.ITEM.get(new Identifier("ctft", item + "_sword"))));
             serverPlayerEntity.getInventory().offerOrDrop(new ItemStack(Registry.ITEM.get(new Identifier("ctft", item + "_pickaxe"))));
             serverPlayerEntity.getInventory().offerOrDrop(new ItemStack(Registry.ITEM.get(new Identifier("ctft", item + "_axe"))));

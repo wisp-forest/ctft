@@ -1,7 +1,5 @@
 package com.chyzman.ctft.classes;
 
-import java.util.Optional;
-
 import com.chyzman.ctft.mixin.accessor.LodestonePosAccessor;
 import net.minecraft.block.Blocks;
 import net.minecraft.entity.Entity;
@@ -20,10 +18,11 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.registry.Registry;
 import net.minecraft.util.registry.RegistryKey;
 import net.minecraft.world.World;
-import net.minecraft.world.poi.PointOfInterestType;
 import net.minecraft.world.poi.PointOfInterestTypes;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
+import java.util.Optional;
 
 public class CustomCompassItem extends Item implements Vanishable {
     private static final Logger LOGGER = LogManager.getLogger();
@@ -32,6 +31,7 @@ public class CustomCompassItem extends Item implements Vanishable {
     public static final String LODESTONE_TRACKED_KEY = "LodestoneTracked";
     public boolean isfoil;
     public String texturetype;
+
     public CustomCompassItem(boolean isFoil, String textureType, Item.Settings settings) {
         super(settings);
         isfoil = isFoil;
@@ -64,7 +64,7 @@ public class CustomCompassItem extends Item implements Vanishable {
                 return;
             }
             Optional<RegistryKey<World>> optional = LodestonePosAccessor.getLodestoneDimension(nbtCompound);
-            if (optional.isPresent() && optional.get() == world.getRegistryKey() && nbtCompound.contains(LODESTONE_POS_KEY) && (!world.isInBuildLimit(blockPos = NbtHelper.toBlockPos(nbtCompound.getCompound(LODESTONE_POS_KEY))) || !((ServerWorld)world).getPointOfInterestStorage().hasTypeAt(PointOfInterestTypes.LODESTONE, blockPos))) {
+            if (optional.isPresent() && optional.get() == world.getRegistryKey() && nbtCompound.contains(LODESTONE_POS_KEY) && (!world.isInBuildLimit(blockPos = NbtHelper.toBlockPos(nbtCompound.getCompound(LODESTONE_POS_KEY))) || !((ServerWorld) world).getPointOfInterestStorage().hasTypeAt(PointOfInterestTypes.LODESTONE, blockPos))) {
                 nbtCompound.remove(LODESTONE_POS_KEY);
             }
         }
@@ -101,12 +101,12 @@ public class CustomCompassItem extends Item implements Vanishable {
 
     private void writeNbt(RegistryKey<World> worldKey, BlockPos pos, NbtCompound nbt) {
         nbt.put(LODESTONE_POS_KEY, NbtHelper.fromBlockPos(pos));
-        World.CODEC.encodeStart(NbtOps.INSTANCE, worldKey).resultOrPartial(LOGGER::error).ifPresent(nbtElement -> nbt.put(LODESTONE_DIMENSION_KEY, (NbtElement)nbtElement));
+        World.CODEC.encodeStart(NbtOps.INSTANCE, worldKey).resultOrPartial(LOGGER::error).ifPresent(nbtElement -> nbt.put(LODESTONE_DIMENSION_KEY, (NbtElement) nbtElement));
         nbt.putBoolean(LODESTONE_TRACKED_KEY, true);
     }
 
     @Override
-    public Text getName(){
+    public Text getName() {
         var baseitemname = (Registry.ITEM.getId(this.asItem())).getPath();
         return (Text.translatable("ctft.item.compass_prefix")
                 .append(Text.translatable(this.texturetype + ".minecraft." + baseitemname
@@ -114,16 +114,16 @@ public class CustomCompassItem extends Item implements Vanishable {
                                 .lastIndexOf('_'))))
                 .append(Text.translatable("ctft.item.compass_suffix")));
     }
+
     @Override
     public Text getName(ItemStack stack) {
         var baseitemname = (Registry.ITEM.getId(this.asItem())).getPath();
-        if(CompassItem.hasLodestone(stack)) {
+        if (CompassItem.hasLodestone(stack)) {
             return (Text.translatable("ctft.item.lodestone_compass_prefix")
                     .append(Text.translatable(this.texturetype + ".minecraft." + baseitemname
                             .substring(0, baseitemname
                                     .lastIndexOf('_'))))
                     .append(Text.translatable("ctft.item.lodestone_compass_suffix")));
-        }
-        else return this.getName();
+        } else return this.getName();
     }
 }

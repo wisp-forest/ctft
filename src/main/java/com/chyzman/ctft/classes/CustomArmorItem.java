@@ -2,7 +2,9 @@ package com.chyzman.ctft.classes;
 
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.item.*;
+import net.minecraft.item.ArmorItem;
+import net.minecraft.item.ArmorMaterial;
+import net.minecraft.item.ItemStack;
 import net.minecraft.text.Text;
 import net.minecraft.util.Hand;
 import net.minecraft.util.TypedActionResult;
@@ -12,11 +14,13 @@ import net.minecraft.world.World;
 public class CustomArmorItem extends ArmorItem {
     public boolean isfoil;
     public String texturetype;
+
     public CustomArmorItem(ArmorMaterial material, EquipmentSlot slot, boolean isFoil, String textureType, Settings settings) {
         super(material, slot, settings);
         isfoil = isFoil;
         texturetype = textureType;
     }
+
     @Override
     public boolean hasGlint(ItemStack stack) {
         return isfoil || super.hasGlint(stack);
@@ -37,35 +41,32 @@ public class CustomArmorItem extends ArmorItem {
     }
 
     @Override
-    public Text getName(){
+    public Text getName() {
         var baseitemname = (Registry.ITEM.getId(this.asItem())).getPath();
         String baseitem = this.texturetype + ".minecraft." + baseitemname
                 .substring(0, baseitemname
                         .lastIndexOf('_'));
-        if(this.slot.equals(EquipmentSlot.HEAD)){
+        if (this.slot.equals(EquipmentSlot.HEAD)) {
             return (Text.translatable("ctft.item.helmet_prefix")
                     .append(Text.translatable(baseitem))
                     .append(Text.translatable("ctft.item.helmet_suffix")));
-        }
-        else if(this.slot.equals(EquipmentSlot.CHEST)){
+        } else if (this.slot.equals(EquipmentSlot.CHEST)) {
             return (Text.translatable("ctft.item.chestplate_prefix")
                     .append(Text.translatable(baseitem))
                     .append(Text.translatable("ctft.item.chestplate_suffix")));
-        }
-        else if(this.slot.equals(EquipmentSlot.LEGS)){
+        } else if (this.slot.equals(EquipmentSlot.LEGS)) {
             return (Text.translatable("ctft.item.leggings_prefix")
                     .append(Text.translatable(baseitem))
                     .append(Text.translatable("ctft.item.leggings_suffix")));
-        }
-        else if(this.slot.equals(EquipmentSlot.FEET)){
+        } else if (this.slot.equals(EquipmentSlot.FEET)) {
             return (Text.translatable("ctft.item.boots_prefix")
                     .append(Text.translatable(baseitem))
                     .append(Text.translatable("ctft.item.boots_suffix")));
-        }
-        else {
+        } else {
             return Text.literal("how tf did u make an armor piece thats not a helmet, chestplate, leggings or boots?");
         }
     }
+
     @Override
     public Text getName(ItemStack stack) {
         return this.getName();

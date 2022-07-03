@@ -1,6 +1,5 @@
 package com.chyzman.ctft.mixin;
 
-import com.chyzman.ctft.classes.CustomFishingRodItem;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.projectile.FishingBobberEntity;
 import net.minecraft.item.FishingRodItem;
@@ -13,7 +12,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 import org.spongepowered.asm.mixin.injection.callback.LocalCapture;
 
 @Mixin(FishingBobberEntity.class)
-public class FishingBobberFix{
+public class FishingBobberFix {
 
     private ItemStack ctft$leftStack = null;
     private ItemStack ctft$rightStack = null;

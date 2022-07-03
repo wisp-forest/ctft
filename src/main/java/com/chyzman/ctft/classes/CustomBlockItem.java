@@ -25,36 +25,40 @@ public class CustomBlockItem extends BlockItem {
         type = Type;
         texturetype = textureType;
     }
+
     @Override
     public boolean hasGlint(ItemStack stack) {
         return isfoil || super.hasGlint(stack);
     }
+
     @Override
-    public Text getName(){
+    public Text getName() {
         var baseitemname = (Registry.ITEM.getId(this.asItem())).getPath();
-        return (Text.translatable("ctft.item."+ this.type +"_prefix")
-                .append(Text.translatable( this.texturetype + ".minecraft." + baseitemname
+        return (Text.translatable("ctft.item." + this.type + "_prefix")
+                .append(Text.translatable(this.texturetype + ".minecraft." + baseitemname
                         .substring(0, baseitemname
                                 .lastIndexOf('_' + this.type))))
-                .append(Text.translatable("ctft.item."+ this.type +"_suffix")));
+                .append(Text.translatable("ctft.item." + this.type + "_suffix")));
     }
+
     @Override
     public Text getName(ItemStack stack) {
         return this.getName();
     }
+
     @Override
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
-        if(type.equals("block")) {
+        if (type.equals("block")) {
             var baseitemname = (Registry.ITEM.getId(this.asItem())).getPath();
             tooltip.add(Text.literal("9 x ")
-                    .append(Text.translatable( this.texturetype + ".minecraft." + baseitemname
+                    .append(Text.translatable(this.texturetype + ".minecraft." + baseitemname
                             .substring(0, baseitemname
                                     .lastIndexOf('_' + this.type)))).formatted(Formatting.GRAY));
         }
-        if(type.startsWith("compressed")) {
+        if (type.startsWith("compressed")) {
             var baseitemname = (Registry.ITEM.getId(this.asItem())).getPath();
             tooltip.add(Text.literal(nines.get(Integer.parseInt(type.substring(10))) + " x ")
-                    .append(Text.translatable( this.texturetype + ".minecraft." + baseitemname
+                    .append(Text.translatable(this.texturetype + ".minecraft." + baseitemname
                             .substring(0, baseitemname
                                     .lastIndexOf('_' + this.type)))).formatted(Formatting.GRAY));
         }

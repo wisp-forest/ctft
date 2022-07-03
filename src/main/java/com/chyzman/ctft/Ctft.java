@@ -9,7 +9,6 @@ import com.chyzman.ctft.mixin.accessor.BlockEntityTypeAccessor;
 import com.chyzman.ctft.util.CtftAoeDig;
 import com.chyzman.ctft.util.CtftCommandHandler;
 import com.chyzman.ctft.util.CtftConfig;
-import com.chyzman.ctft.util.CtftRegistryHelper;
 import io.wispforest.owo.itemgroup.OwoItemGroup;
 import me.shedaniel.autoconfig.AutoConfig;
 import me.shedaniel.autoconfig.serializer.JanksonConfigSerializer;

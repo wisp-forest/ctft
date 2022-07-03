@@ -1,6 +1,5 @@
 package com.chyzman.ctft.classes;
 
-import net.minecraft.block.TorchBlock;
 import net.minecraft.block.WallTorchBlock;
 import net.minecraft.particle.ParticleEffect;
 

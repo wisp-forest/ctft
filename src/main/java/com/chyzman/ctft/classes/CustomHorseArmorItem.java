@@ -8,6 +8,7 @@ import net.minecraft.util.registry.Registry;
 public class CustomHorseArmorItem extends HorseArmorItem {
     public boolean isfoil;
     public String texturetype;
+
     public CustomHorseArmorItem(int bonus, String name, boolean isFoil, String textureType, Settings settings) {
         super(bonus, name, settings);
         isfoil = isFoil;
@@ -20,7 +21,7 @@ public class CustomHorseArmorItem extends HorseArmorItem {
     }
 
     @Override
-    public Text getName(){
+    public Text getName() {
         var baseitemname = (Registry.ITEM.getId(this.asItem())).getPath();
         return (Text.translatable("ctft.item.horse_armor_prefix")
                 .append(Text.translatable(this.texturetype + ".minecraft." + baseitemname
@@ -31,6 +32,7 @@ public class CustomHorseArmorItem extends HorseArmorItem {
                                 .lastIndexOf('_'))))
                 .append(Text.translatable("ctft.item.horse_armor_suffix")));
     }
+
     @Override
     public Text getName(ItemStack stack) {
         return this.getName();

@@ -12,9 +12,11 @@ import java.util.TreeMap;
 
 public class CtftStats {
     public static final SortedMap<String, CtftMaterial> MATERIALS = new TreeMap<>();
+
     static {
         ModDataLoader.load(new StatsLoader());
     }
+
     private static class StatsLoader implements ModDataConsumer {
         private static final Gson GSON = new Gson();
 

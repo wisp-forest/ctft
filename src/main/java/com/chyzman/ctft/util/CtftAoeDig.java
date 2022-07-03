@@ -15,6 +15,7 @@ import java.util.List;
 
 public class CtftAoeDig {
     static int scopeLevel = 3;
+
     public static void registerCommonEvents() {
         PlayerBlockBreakEvents.BEFORE.register((world, playerEntity, blockPos, blockState, blockEntity) -> {
 

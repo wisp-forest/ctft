@@ -12,11 +12,13 @@ import net.minecraft.world.World;
 public class CustomShieldItem extends ShieldItem {
     public boolean isfoil;
     public String texturetype;
+
     public CustomShieldItem(boolean isFoil, String textureType, Settings settings) {
         super(settings);
         isfoil = isFoil;
         texturetype = textureType;
     }
+
     @Override
     public boolean hasGlint(ItemStack stack) {
         return isfoil || super.hasGlint(stack);
@@ -37,7 +39,7 @@ public class CustomShieldItem extends ShieldItem {
     }
 
     @Override
-    public Text getName(){
+    public Text getName() {
         var baseitemname = (Registry.ITEM.getId(this.asItem())).getPath();
         return (Text.translatable("ctft.item.shield_prefix")
                 .append(Text.translatable(this.texturetype + ".minecraft." + baseitemname
@@ -45,6 +47,7 @@ public class CustomShieldItem extends ShieldItem {
                                 .lastIndexOf('_'))))
                 .append(Text.translatable("ctft.item.shield_suffix")));
     }
+
     @Override
     public Text getName(ItemStack stack) {
         return this.getName();
