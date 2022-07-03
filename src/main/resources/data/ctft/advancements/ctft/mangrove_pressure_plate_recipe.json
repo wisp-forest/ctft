@@ -1,0 +1,124 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mangrove_pressure_plate"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:mangrove_pressure_plate_sword_from_crafting",
+			"ctft:mangrove_pressure_plate_pickaxe_from_crafting",
+			"ctft:mangrove_pressure_plate_axe_from_crafting",
+			"ctft:mangrove_pressure_plate_shovel_from_crafting",
+			"ctft:mangrove_pressure_plate_hoe_from_crafting",
+			"ctft:mangrove_pressure_plate_shield_from_crafting",
+			"ctft:mangrove_pressure_plate_fishing_rod_from_crafting",
+			"ctft:mangrove_pressure_plate_compass_from_crafting",
+			"ctft:mangrove_pressure_plate_clock_from_crafting",
+			"ctft:mangrove_pressure_plate_helmet_from_crafting",
+			"ctft:mangrove_pressure_plate_chestplate_from_crafting",
+			"ctft:mangrove_pressure_plate_leggings_from_crafting",
+			"ctft:mangrove_pressure_plate_boots_from_crafting",
+			"ctft:mangrove_pressure_plate_shears_from_crafting",
+			"ctft:mangrove_pressure_plate_horse_armor_from_crafting",
+			"ctft:mangrove_pressure_plate_bow_from_crafting",
+			"ctft:mangrove_pressure_plate_crossbow_from_crafting",
+			"ctft:mangrove_pressure_plate_block_from_material",
+			"ctft:mangrove_pressure_plate_material_from_block",
+			"ctft:mangrove_pressure_plate_stairs_from_crafting",
+			"ctft:mangrove_pressure_plate_slab_from_crafting",
+			"ctft:mangrove_pressure_plate_glass_pane_from_crafting",
+			"ctft:mangrove_pressure_plate_pane_from_crafting",
+			"ctft:mangrove_pressure_plate_glass_from_smelting",
+			"ctft:mangrove_pressure_plate_stairs_from_stonecutter",
+			"ctft:mangrove_pressure_plate_slab_from_stonecutter",
+			"ctft:mangrove_pressure_plate_wall_from_stonecutter",
+			"ctft:mangrove_pressure_plate_lever_from_crafting",
+			"ctft:mangrove_pressure_plate_button_from_crafting",
+			"ctft:mangrove_pressure_plate_pressure_plate_from_crafting",
+			"ctft:mangrove_pressure_plate_fence_gate_from_crafting",
+			"ctft:mangrove_pressure_plate_chain_from_stonecutter",
+			"ctft:mangrove_pressure_plate_compressed1_from_block",
+			"ctft:mangrove_pressure_plate_block_from_compressed1",
+			"ctft:mangrove_pressure_plate_compressed1_from_block",
+			"ctft:mangrove_pressure_plate_compressed2_from_compressed1",
+			"ctft:mangrove_pressure_plate_compressed3_from_compressed2",
+			"ctft:mangrove_pressure_plate_compressed4_from_compressed3",
+			"ctft:mangrove_pressure_plate_compressed5_from_compressed4",
+			"ctft:mangrove_pressure_plate_compressed6_from_compressed5",
+			"ctft:mangrove_pressure_plate_compressed7_from_compressed6",
+			"ctft:mangrove_pressure_plate_compressed8_from_compressed7",
+			"ctft:mangrove_pressure_plate_compressed9_from_compressed8",
+			"ctft:mangrove_pressure_plate_compressed10_from_compressed9",
+			"ctft:mangrove_pressure_plate_compressed11_from_compressed10",
+			"ctft:mangrove_pressure_plate_compressed12_from_compressed11",
+			"ctft:mangrove_pressure_plate_compressed13_from_compressed12",
+			"ctft:mangrove_pressure_plate_compressed14_from_compressed13",
+			"ctft:mangrove_pressure_plate_compressed15_from_compressed14",
+			"ctft:mangrove_pressure_plate_compressed16_from_compressed15",
+            "ctft:mangrove_pressure_plate_compressed17_from_compressed16",
+            "ctft:mangrove_pressure_plate_compressed18_from_compressed17",
+            "ctft:mangrove_pressure_plate_compressed19_from_compressed18",
+            "ctft:mangrove_pressure_plate_compressed20_from_compressed19",
+            "ctft:mangrove_pressure_plate_compressed21_from_compressed20",
+            "ctft:mangrove_pressure_plate_compressed22_from_compressed21",
+            "ctft:mangrove_pressure_plate_compressed23_from_compressed22",
+            "ctft:mangrove_pressure_plate_compressed24_from_compressed23",
+            "ctft:mangrove_pressure_plate_compressed25_from_compressed24",
+            "ctft:mangrove_pressure_plate_compressed26_from_compressed25",
+            "ctft:mangrove_pressure_plate_compressed27_from_compressed26",
+            "ctft:mangrove_pressure_plate_compressed28_from_compressed27",
+            "ctft:mangrove_pressure_plate_compressed29_from_compressed28",
+            "ctft:mangrove_pressure_plate_compressed30_from_compressed29",
+            "ctft:mangrove_pressure_plate_compressed31_from_compressed30",
+			"ctft:mangrove_pressure_plate_block_from_compressed1",
+			"ctft:mangrove_pressure_plate_compressed1_from_compressed2",
+			"ctft:mangrove_pressure_plate_compressed2_from_compressed3",
+			"ctft:mangrove_pressure_plate_compressed3_from_compressed4",
+			"ctft:mangrove_pressure_plate_compressed4_from_compressed5",
+			"ctft:mangrove_pressure_plate_compressed5_from_compressed6",
+			"ctft:mangrove_pressure_plate_compressed6_from_compressed7",
+			"ctft:mangrove_pressure_plate_compressed7_from_compressed8",
+			"ctft:mangrove_pressure_plate_compressed8_from_compressed9",
+			"ctft:mangrove_pressure_plate_compressed9_from_compressed10",
+			"ctft:mangrove_pressure_plate_compressed10_from_compressed11",
+			"ctft:mangrove_pressure_plate_compressed11_from_compressed12",
+			"ctft:mangrove_pressure_plate_compressed12_from_compressed13",
+			"ctft:mangrove_pressure_plate_compressed13_from_compressed14",
+			"ctft:mangrove_pressure_plate_compressed14_from_compressed15",
+			"ctft:mangrove_pressure_plate_compressed14_from_compressed15",
+            "ctft:mangrove_pressure_plate_compressed16_from_compressed17",
+            "ctft:mangrove_pressure_plate_compressed17_from_compressed18",
+            "ctft:mangrove_pressure_plate_compressed18_from_compressed19",
+            "ctft:mangrove_pressure_plate_compressed19_from_compressed20",
+            "ctft:mangrove_pressure_plate_compressed20_from_compressed21",
+            "ctft:mangrove_pressure_plate_compressed21_from_compressed22",
+            "ctft:mangrove_pressure_plate_compressed22_from_compressed23",
+            "ctft:mangrove_pressure_plate_compressed23_from_compressed24",
+            "ctft:mangrove_pressure_plate_compressed24_from_compressed25",
+            "ctft:mangrove_pressure_plate_compressed25_from_compressed26",
+            "ctft:mangrove_pressure_plate_compressed26_from_compressed27",
+            "ctft:mangrove_pressure_plate_compressed27_from_compressed28",
+            "ctft:mangrove_pressure_plate_compressed28_from_compressed29",
+            "ctft:mangrove_pressure_plate_compressed29_from_compressed30",
+            "ctft:mangrove_pressure_plate_compressed30_from_compressed31",
+			"ctft:mangrove_pressure_plate_kcolb_from_stonecutter",
+			"ctft:mangrove_pressure_plate_block_from_kcolb"
+		]
+	}
+}

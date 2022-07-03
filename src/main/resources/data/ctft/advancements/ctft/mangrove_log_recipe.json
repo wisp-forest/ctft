@@ -1,0 +1,124 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mangrove_log"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:mangrove_log_sword_from_crafting",
+			"ctft:mangrove_log_pickaxe_from_crafting",
+			"ctft:mangrove_log_axe_from_crafting",
+			"ctft:mangrove_log_shovel_from_crafting",
+			"ctft:mangrove_log_hoe_from_crafting",
+			"ctft:mangrove_log_shield_from_crafting",
+			"ctft:mangrove_log_fishing_rod_from_crafting",
+			"ctft:mangrove_log_compass_from_crafting",
+			"ctft:mangrove_log_clock_from_crafting",
+			"ctft:mangrove_log_helmet_from_crafting",
+			"ctft:mangrove_log_chestplate_from_crafting",
+			"ctft:mangrove_log_leggings_from_crafting",
+			"ctft:mangrove_log_boots_from_crafting",
+			"ctft:mangrove_log_shears_from_crafting",
+			"ctft:mangrove_log_horse_armor_from_crafting",
+			"ctft:mangrove_log_bow_from_crafting",
+			"ctft:mangrove_log_crossbow_from_crafting",
+			"ctft:mangrove_log_block_from_material",
+			"ctft:mangrove_log_material_from_block",
+			"ctft:mangrove_log_stairs_from_crafting",
+			"ctft:mangrove_log_slab_from_crafting",
+			"ctft:mangrove_log_glass_pane_from_crafting",
+			"ctft:mangrove_log_pane_from_crafting",
+			"ctft:mangrove_log_glass_from_smelting",
+			"ctft:mangrove_log_stairs_from_stonecutter",
+			"ctft:mangrove_log_slab_from_stonecutter",
+			"ctft:mangrove_log_wall_from_stonecutter",
+			"ctft:mangrove_log_lever_from_crafting",
+			"ctft:mangrove_log_button_from_crafting",
+			"ctft:mangrove_log_pressure_plate_from_crafting",
+			"ctft:mangrove_log_fence_gate_from_crafting",
+			"ctft:mangrove_log_chain_from_stonecutter",
+			"ctft:mangrove_log_compressed1_from_block",
+			"ctft:mangrove_log_block_from_compressed1",
+			"ctft:mangrove_log_compressed1_from_block",
+			"ctft:mangrove_log_compressed2_from_compressed1",
+			"ctft:mangrove_log_compressed3_from_compressed2",
+			"ctft:mangrove_log_compressed4_from_compressed3",
+			"ctft:mangrove_log_compressed5_from_compressed4",
+			"ctft:mangrove_log_compressed6_from_compressed5",
+			"ctft:mangrove_log_compressed7_from_compressed6",
+			"ctft:mangrove_log_compressed8_from_compressed7",
+			"ctft:mangrove_log_compressed9_from_compressed8",
+			"ctft:mangrove_log_compressed10_from_compressed9",
+			"ctft:mangrove_log_compressed11_from_compressed10",
+			"ctft:mangrove_log_compressed12_from_compressed11",
+			"ctft:mangrove_log_compressed13_from_compressed12",
+			"ctft:mangrove_log_compressed14_from_compressed13",
+			"ctft:mangrove_log_compressed15_from_compressed14",
+			"ctft:mangrove_log_compressed16_from_compressed15",
+            "ctft:mangrove_log_compressed17_from_compressed16",
+            "ctft:mangrove_log_compressed18_from_compressed17",
+            "ctft:mangrove_log_compressed19_from_compressed18",
+            "ctft:mangrove_log_compressed20_from_compressed19",
+            "ctft:mangrove_log_compressed21_from_compressed20",
+            "ctft:mangrove_log_compressed22_from_compressed21",
+            "ctft:mangrove_log_compressed23_from_compressed22",
+            "ctft:mangrove_log_compressed24_from_compressed23",
+            "ctft:mangrove_log_compressed25_from_compressed24",
+            "ctft:mangrove_log_compressed26_from_compressed25",
+            "ctft:mangrove_log_compressed27_from_compressed26",
+            "ctft:mangrove_log_compressed28_from_compressed27",
+            "ctft:mangrove_log_compressed29_from_compressed28",
+            "ctft:mangrove_log_compressed30_from_compressed29",
+            "ctft:mangrove_log_compressed31_from_compressed30",
+			"ctft:mangrove_log_block_from_compressed1",
+			"ctft:mangrove_log_compressed1_from_compressed2",
+			"ctft:mangrove_log_compressed2_from_compressed3",
+			"ctft:mangrove_log_compressed3_from_compressed4",
+			"ctft:mangrove_log_compressed4_from_compressed5",
+			"ctft:mangrove_log_compressed5_from_compressed6",
+			"ctft:mangrove_log_compressed6_from_compressed7",
+			"ctft:mangrove_log_compressed7_from_compressed8",
+			"ctft:mangrove_log_compressed8_from_compressed9",
+			"ctft:mangrove_log_compressed9_from_compressed10",
+			"ctft:mangrove_log_compressed10_from_compressed11",
+			"ctft:mangrove_log_compressed11_from_compressed12",
+			"ctft:mangrove_log_compressed12_from_compressed13",
+			"ctft:mangrove_log_compressed13_from_compressed14",
+			"ctft:mangrove_log_compressed14_from_compressed15",
+			"ctft:mangrove_log_compressed14_from_compressed15",
+            "ctft:mangrove_log_compressed16_from_compressed17",
+            "ctft:mangrove_log_compressed17_from_compressed18",
+            "ctft:mangrove_log_compressed18_from_compressed19",
+            "ctft:mangrove_log_compressed19_from_compressed20",
+            "ctft:mangrove_log_compressed20_from_compressed21",
+            "ctft:mangrove_log_compressed21_from_compressed22",
+            "ctft:mangrove_log_compressed22_from_compressed23",
+            "ctft:mangrove_log_compressed23_from_compressed24",
+            "ctft:mangrove_log_compressed24_from_compressed25",
+            "ctft:mangrove_log_compressed25_from_compressed26",
+            "ctft:mangrove_log_compressed26_from_compressed27",
+            "ctft:mangrove_log_compressed27_from_compressed28",
+            "ctft:mangrove_log_compressed28_from_compressed29",
+            "ctft:mangrove_log_compressed29_from_compressed30",
+            "ctft:mangrove_log_compressed30_from_compressed31",
+			"ctft:mangrove_log_kcolb_from_stonecutter",
+			"ctft:mangrove_log_block_from_kcolb"
+		]
+	}
+}

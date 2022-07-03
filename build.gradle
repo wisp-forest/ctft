@@ -1,6 +1,6 @@
 plugins {
-    id 'fabric-loom' version '0.10-SNAPSHOT'
-    id 'io.github.juuxel.loom-quiltflower-mini' version '1.2.1'
+    id 'fabric-loom' version '0.11-SNAPSHOT'
+    id 'io.github.juuxel.loom-quiltflower' version '1.7.1'
     id 'maven-publish'
 }
 
@@ -22,23 +22,22 @@ dependencies {
 
     modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
-    modImplementation include("io.wispforest:owo-lib:${project.owo_version}")
+    modImplementation ("io.wispforest:owo-lib:${project.owo_version}")
 
     modCompileOnly "me.shedaniel:RoughlyEnoughItems-api-fabric:${project.rei_version}"
     modRuntimeOnly "me.shedaniel:RoughlyEnoughItems-fabric:${project.rei_version}"
 
-    modImplementation include("curse.maven:xl-packets-fabric-390168:3527187")
+    modImplementation ("curse.maven:xl-packets-fabric-390168:3527187")
 
-    modImplementation include("curse.maven:ferritecore-fabric-459857:3550048")
+    modImplementation ("curse.maven:ferritecore-fabric-459857:3550048")
 
     modRuntimeOnly "com.terraformersmc:modmenu:${project.modmenu_version}"
 
-    modImplementation include("net.devtech:arrp:0.5.4")
+    modImplementation ("net.devtech:arrp:0.5.4")
 
-    modImplementation include("me.shedaniel.cloth:cloth-config-fabric:6.1.48")
+    modImplementation ("me.shedaniel.cloth:cloth-config-fabric:6.1.48")
 
     modApi "com.shnupbups:Piglib:1.1.1+fabric-mc1.18"
-    include "com.shnupbups:Piglib:1.1.1+fabric-mc1.18"
 }
 
 processResources {

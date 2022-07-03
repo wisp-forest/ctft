@@ -1,11 +1,9 @@
 package com.chyzman.ctft.classes;
 
-import net.minecraft.item.HoeItem;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ShovelItem;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.text.Text;
-import net.minecraft.text.TranslatableText;
 import net.minecraft.util.registry.Registry;
 
 public class CustomShovelItem extends ShovelItem {
@@ -24,11 +22,11 @@ public class CustomShovelItem extends ShovelItem {
     @Override
     public Text getName(){
         var baseitemname = (Registry.ITEM.getId(this.asItem())).getPath();
-        return (new TranslatableText("ctft.item.shovel_preffix")
-                .append(new TranslatableText(this.texturetype + ".minecraft." + baseitemname
+        return (Text.translatable("ctft.item.shovel_prefix")
+                .append(Text.translatable(this.texturetype + ".minecraft." + baseitemname
                         .substring(0, baseitemname
                                 .lastIndexOf('_'))))
-                .append(new TranslatableText("ctft.item.shovel_suffix")));
+                .append(Text.translatable("ctft.item.shovel_suffix")));
     }
     @Override
     public Text getName(ItemStack stack) {

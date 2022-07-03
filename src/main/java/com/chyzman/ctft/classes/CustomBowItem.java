@@ -11,7 +11,6 @@ import net.minecraft.sound.SoundCategory;
 import net.minecraft.sound.SoundEvents;
 import net.minecraft.stat.Stats;
 import net.minecraft.text.Text;
-import net.minecraft.text.TranslatableText;
 import net.minecraft.util.Hand;
 import net.minecraft.util.TypedActionResult;
 import net.minecraft.util.UseAction;
@@ -143,11 +142,11 @@ public class CustomBowItem extends BowItem implements Vanishable {
     @Override
     public Text getName(){
         var baseitemname = (Registry.ITEM.getId(this.asItem())).getPath();
-        return (new TranslatableText("ctft.item.bow_preffix")
-                .append(new TranslatableText(this.texturetype + ".minecraft." + baseitemname
+        return (Text.translatable("ctft.item.bow_prefix")
+                .append(Text.translatable(this.texturetype + ".minecraft." + baseitemname
                         .substring(0, baseitemname
                                 .lastIndexOf('_'))))
-                .append(new TranslatableText("ctft.item.bow_suffix")));
+                .append(Text.translatable("ctft.item.bow_suffix")));
     }
     @Override
     public Text getName(ItemStack stack) {

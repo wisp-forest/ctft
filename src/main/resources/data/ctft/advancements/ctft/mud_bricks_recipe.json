@@ -1,0 +1,124 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mud_bricks"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:mud_bricks_sword_from_crafting",
+			"ctft:mud_bricks_pickaxe_from_crafting",
+			"ctft:mud_bricks_axe_from_crafting",
+			"ctft:mud_bricks_shovel_from_crafting",
+			"ctft:mud_bricks_hoe_from_crafting",
+			"ctft:mud_bricks_shield_from_crafting",
+			"ctft:mud_bricks_fishing_rod_from_crafting",
+			"ctft:mud_bricks_compass_from_crafting",
+			"ctft:mud_bricks_clock_from_crafting",
+			"ctft:mud_bricks_helmet_from_crafting",
+			"ctft:mud_bricks_chestplate_from_crafting",
+			"ctft:mud_bricks_leggings_from_crafting",
+			"ctft:mud_bricks_boots_from_crafting",
+			"ctft:mud_bricks_shears_from_crafting",
+			"ctft:mud_bricks_horse_armor_from_crafting",
+			"ctft:mud_bricks_bow_from_crafting",
+			"ctft:mud_bricks_crossbow_from_crafting",
+			"ctft:mud_bricks_block_from_material",
+			"ctft:mud_bricks_material_from_block",
+			"ctft:mud_bricks_stairs_from_crafting",
+			"ctft:mud_bricks_slab_from_crafting",
+			"ctft:mud_bricks_glass_pane_from_crafting",
+			"ctft:mud_bricks_pane_from_crafting",
+			"ctft:mud_bricks_glass_from_smelting",
+			"ctft:mud_bricks_stairs_from_stonecutter",
+			"ctft:mud_bricks_slab_from_stonecutter",
+			"ctft:mud_bricks_wall_from_stonecutter",
+			"ctft:mud_bricks_lever_from_crafting",
+			"ctft:mud_bricks_button_from_crafting",
+			"ctft:mud_bricks_pressure_plate_from_crafting",
+			"ctft:mud_bricks_fence_gate_from_crafting",
+			"ctft:mud_bricks_chain_from_stonecutter",
+			"ctft:mud_bricks_compressed1_from_block",
+			"ctft:mud_bricks_block_from_compressed1",
+			"ctft:mud_bricks_compressed1_from_block",
+			"ctft:mud_bricks_compressed2_from_compressed1",
+			"ctft:mud_bricks_compressed3_from_compressed2",
+			"ctft:mud_bricks_compressed4_from_compressed3",
+			"ctft:mud_bricks_compressed5_from_compressed4",
+			"ctft:mud_bricks_compressed6_from_compressed5",
+			"ctft:mud_bricks_compressed7_from_compressed6",
+			"ctft:mud_bricks_compressed8_from_compressed7",
+			"ctft:mud_bricks_compressed9_from_compressed8",
+			"ctft:mud_bricks_compressed10_from_compressed9",
+			"ctft:mud_bricks_compressed11_from_compressed10",
+			"ctft:mud_bricks_compressed12_from_compressed11",
+			"ctft:mud_bricks_compressed13_from_compressed12",
+			"ctft:mud_bricks_compressed14_from_compressed13",
+			"ctft:mud_bricks_compressed15_from_compressed14",
+			"ctft:mud_bricks_compressed16_from_compressed15",
+            "ctft:mud_bricks_compressed17_from_compressed16",
+            "ctft:mud_bricks_compressed18_from_compressed17",
+            "ctft:mud_bricks_compressed19_from_compressed18",
+            "ctft:mud_bricks_compressed20_from_compressed19",
+            "ctft:mud_bricks_compressed21_from_compressed20",
+            "ctft:mud_bricks_compressed22_from_compressed21",
+            "ctft:mud_bricks_compressed23_from_compressed22",
+            "ctft:mud_bricks_compressed24_from_compressed23",
+            "ctft:mud_bricks_compressed25_from_compressed24",
+            "ctft:mud_bricks_compressed26_from_compressed25",
+            "ctft:mud_bricks_compressed27_from_compressed26",
+            "ctft:mud_bricks_compressed28_from_compressed27",
+            "ctft:mud_bricks_compressed29_from_compressed28",
+            "ctft:mud_bricks_compressed30_from_compressed29",
+            "ctft:mud_bricks_compressed31_from_compressed30",
+			"ctft:mud_bricks_block_from_compressed1",
+			"ctft:mud_bricks_compressed1_from_compressed2",
+			"ctft:mud_bricks_compressed2_from_compressed3",
+			"ctft:mud_bricks_compressed3_from_compressed4",
+			"ctft:mud_bricks_compressed4_from_compressed5",
+			"ctft:mud_bricks_compressed5_from_compressed6",
+			"ctft:mud_bricks_compressed6_from_compressed7",
+			"ctft:mud_bricks_compressed7_from_compressed8",
+			"ctft:mud_bricks_compressed8_from_compressed9",
+			"ctft:mud_bricks_compressed9_from_compressed10",
+			"ctft:mud_bricks_compressed10_from_compressed11",
+			"ctft:mud_bricks_compressed11_from_compressed12",
+			"ctft:mud_bricks_compressed12_from_compressed13",
+			"ctft:mud_bricks_compressed13_from_compressed14",
+			"ctft:mud_bricks_compressed14_from_compressed15",
+			"ctft:mud_bricks_compressed14_from_compressed15",
+            "ctft:mud_bricks_compressed16_from_compressed17",
+            "ctft:mud_bricks_compressed17_from_compressed18",
+            "ctft:mud_bricks_compressed18_from_compressed19",
+            "ctft:mud_bricks_compressed19_from_compressed20",
+            "ctft:mud_bricks_compressed20_from_compressed21",
+            "ctft:mud_bricks_compressed21_from_compressed22",
+            "ctft:mud_bricks_compressed22_from_compressed23",
+            "ctft:mud_bricks_compressed23_from_compressed24",
+            "ctft:mud_bricks_compressed24_from_compressed25",
+            "ctft:mud_bricks_compressed25_from_compressed26",
+            "ctft:mud_bricks_compressed26_from_compressed27",
+            "ctft:mud_bricks_compressed27_from_compressed28",
+            "ctft:mud_bricks_compressed28_from_compressed29",
+            "ctft:mud_bricks_compressed29_from_compressed30",
+            "ctft:mud_bricks_compressed30_from_compressed31",
+			"ctft:mud_bricks_kcolb_from_stonecutter",
+			"ctft:mud_bricks_block_from_kcolb"
+		]
+	}
+}

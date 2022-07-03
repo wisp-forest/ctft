@@ -1,5 +1,6 @@
 package com.chyzman.ctft.client;
 
+import com.chyzman.ctft.Ctft;
 import com.chyzman.ctft.classes.*;
 import com.chyzman.ctft.mixin.WorldRendererInvoker;
 import com.chyzman.ctft.util.CtftAoeDig;
@@ -9,9 +10,12 @@ import net.fabricmc.api.Environment;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.client.rendering.v1.WorldRenderEvents;
 import net.fabricmc.fabric.api.object.builder.v1.client.model.FabricModelPredicateProviderRegistry;
+import net.fabricmc.fabric.api.resource.ResourceManagerHelper;
+import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.block.*;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.render.RenderLayer;
+import net.minecraft.client.render.WorldRenderer;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.FishingRodItem;
 import net.minecraft.item.Items;
@@ -33,7 +37,7 @@ public class CtftClient implements ClientModInitializer {
             for (BlockPos pos : CtftAoeDig.getBlocksToDig(client.player)) {
                 blockState = client.world.getBlockState(pos);
                 if (!blockState.isAir()) {
-                    WorldRendererInvoker.ctft_drawShapeOutline(worldRenderContext.matrixStack(), worldRenderContext.consumers().getBuffer(RenderLayer.getLines()), blockState.getOutlineShape(client.world, pos, ShapeContext.of(blockOutlineContext.entity())), (double) pos.getX() - blockOutlineContext.cameraX(), (double) pos.getY() - blockOutlineContext.cameraY(), (double) pos.getZ() - blockOutlineContext.cameraZ(), 0.0F, 0.0F, 0.0F, 0.4F);
+                    WorldRenderer.drawShapeOutline(worldRenderContext.matrixStack(), worldRenderContext.consumers().getBuffer(RenderLayer.getLines()), blockState.getOutlineShape(client.world, pos, ShapeContext.of(blockOutlineContext.entity())), (double) pos.getX() - blockOutlineContext.cameraX(), (double) pos.getY() - blockOutlineContext.cameraY(), (double) pos.getZ() - blockOutlineContext.cameraZ(), 0.0F, 0.0F, 0.0F, 0.4F);
                 }
             }
             return true;
@@ -73,6 +77,9 @@ public class CtftClient implements ClientModInitializer {
             if (Registry.BLOCK.getId(block).getNamespace().equals("ctft")) {
                 BlockRenderLayerMap.INSTANCE.putBlock(block, RenderLayer.getCutout());
             }
+        });
+        FabricLoader.getInstance().getModContainer(Ctft.MODID).ifPresent(modContainer -> {
+            ResourceManagerHelper.registerBuiltinResourcePack(new Identifier(Ctft.MODID, "ctft_of_ctft_of_ctft"), "resourcepacks/ctft of ctft of ctft", modContainer, false);
         });
     }
 }

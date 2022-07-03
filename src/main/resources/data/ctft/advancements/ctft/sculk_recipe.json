@@ -1,0 +1,124 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:sculk"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:sculk_sword_from_crafting",
+			"ctft:sculk_pickaxe_from_crafting",
+			"ctft:sculk_axe_from_crafting",
+			"ctft:sculk_shovel_from_crafting",
+			"ctft:sculk_hoe_from_crafting",
+			"ctft:sculk_shield_from_crafting",
+			"ctft:sculk_fishing_rod_from_crafting",
+			"ctft:sculk_compass_from_crafting",
+			"ctft:sculk_clock_from_crafting",
+			"ctft:sculk_helmet_from_crafting",
+			"ctft:sculk_chestplate_from_crafting",
+			"ctft:sculk_leggings_from_crafting",
+			"ctft:sculk_boots_from_crafting",
+			"ctft:sculk_shears_from_crafting",
+			"ctft:sculk_horse_armor_from_crafting",
+			"ctft:sculk_bow_from_crafting",
+			"ctft:sculk_crossbow_from_crafting",
+			"ctft:sculk_block_from_material",
+			"ctft:sculk_material_from_block",
+			"ctft:sculk_stairs_from_crafting",
+			"ctft:sculk_slab_from_crafting",
+			"ctft:sculk_glass_pane_from_crafting",
+			"ctft:sculk_pane_from_crafting",
+			"ctft:sculk_glass_from_smelting",
+			"ctft:sculk_stairs_from_stonecutter",
+			"ctft:sculk_slab_from_stonecutter",
+			"ctft:sculk_wall_from_stonecutter",
+			"ctft:sculk_lever_from_crafting",
+			"ctft:sculk_button_from_crafting",
+			"ctft:sculk_pressure_plate_from_crafting",
+			"ctft:sculk_fence_gate_from_crafting",
+			"ctft:sculk_chain_from_stonecutter",
+			"ctft:sculk_compressed1_from_block",
+			"ctft:sculk_block_from_compressed1",
+			"ctft:sculk_compressed1_from_block",
+			"ctft:sculk_compressed2_from_compressed1",
+			"ctft:sculk_compressed3_from_compressed2",
+			"ctft:sculk_compressed4_from_compressed3",
+			"ctft:sculk_compressed5_from_compressed4",
+			"ctft:sculk_compressed6_from_compressed5",
+			"ctft:sculk_compressed7_from_compressed6",
+			"ctft:sculk_compressed8_from_compressed7",
+			"ctft:sculk_compressed9_from_compressed8",
+			"ctft:sculk_compressed10_from_compressed9",
+			"ctft:sculk_compressed11_from_compressed10",
+			"ctft:sculk_compressed12_from_compressed11",
+			"ctft:sculk_compressed13_from_compressed12",
+			"ctft:sculk_compressed14_from_compressed13",
+			"ctft:sculk_compressed15_from_compressed14",
+			"ctft:sculk_compressed16_from_compressed15",
+            "ctft:sculk_compressed17_from_compressed16",
+            "ctft:sculk_compressed18_from_compressed17",
+            "ctft:sculk_compressed19_from_compressed18",
+            "ctft:sculk_compressed20_from_compressed19",
+            "ctft:sculk_compressed21_from_compressed20",
+            "ctft:sculk_compressed22_from_compressed21",
+            "ctft:sculk_compressed23_from_compressed22",
+            "ctft:sculk_compressed24_from_compressed23",
+            "ctft:sculk_compressed25_from_compressed24",
+            "ctft:sculk_compressed26_from_compressed25",
+            "ctft:sculk_compressed27_from_compressed26",
+            "ctft:sculk_compressed28_from_compressed27",
+            "ctft:sculk_compressed29_from_compressed28",
+            "ctft:sculk_compressed30_from_compressed29",
+            "ctft:sculk_compressed31_from_compressed30",
+			"ctft:sculk_block_from_compressed1",
+			"ctft:sculk_compressed1_from_compressed2",
+			"ctft:sculk_compressed2_from_compressed3",
+			"ctft:sculk_compressed3_from_compressed4",
+			"ctft:sculk_compressed4_from_compressed5",
+			"ctft:sculk_compressed5_from_compressed6",
+			"ctft:sculk_compressed6_from_compressed7",
+			"ctft:sculk_compressed7_from_compressed8",
+			"ctft:sculk_compressed8_from_compressed9",
+			"ctft:sculk_compressed9_from_compressed10",
+			"ctft:sculk_compressed10_from_compressed11",
+			"ctft:sculk_compressed11_from_compressed12",
+			"ctft:sculk_compressed12_from_compressed13",
+			"ctft:sculk_compressed13_from_compressed14",
+			"ctft:sculk_compressed14_from_compressed15",
+			"ctft:sculk_compressed14_from_compressed15",
+            "ctft:sculk_compressed16_from_compressed17",
+            "ctft:sculk_compressed17_from_compressed18",
+            "ctft:sculk_compressed18_from_compressed19",
+            "ctft:sculk_compressed19_from_compressed20",
+            "ctft:sculk_compressed20_from_compressed21",
+            "ctft:sculk_compressed21_from_compressed22",
+            "ctft:sculk_compressed22_from_compressed23",
+            "ctft:sculk_compressed23_from_compressed24",
+            "ctft:sculk_compressed24_from_compressed25",
+            "ctft:sculk_compressed25_from_compressed26",
+            "ctft:sculk_compressed26_from_compressed27",
+            "ctft:sculk_compressed27_from_compressed28",
+            "ctft:sculk_compressed28_from_compressed29",
+            "ctft:sculk_compressed29_from_compressed30",
+            "ctft:sculk_compressed30_from_compressed31",
+			"ctft:sculk_kcolb_from_stonecutter",
+			"ctft:sculk_block_from_kcolb"
+		]
+	}
+}

@@ -4,9 +4,6 @@ import me.shedaniel.autoconfig.ConfigData;
 import me.shedaniel.autoconfig.annotation.Config;
 import me.shedaniel.autoconfig.annotation.ConfigEntry;
 import me.shedaniel.cloth.clothconfig.shadowed.blue.endless.jankson.Comment;
-import me.shedaniel.clothconfig2.api.ConfigBuilder;
-import me.shedaniel.clothconfig2.api.ConfigCategory;
-import net.minecraft.text.TranslatableText;
 
 @Config(name = "ctft")
 @Config.Gui.Background("ctft:textures/items/ctft.png")
@@ -212,7 +209,7 @@ public class CtftConfig implements ConfigData {
 
     @ConfigEntry.Category("toggletools")
     @ConfigEntry.Gui.RequiresRestart
-    @ConfigEntry.BoundedDiscrete(min = 0, max = 15)
+    @ConfigEntry.BoundedDiscrete(min = 0, max = 63)
     @Comment("How Many Layers Of Compression Should Ctft Make?")
-    public int compressionLevel = 15;
+    public int compressionLevel = 63;
 }

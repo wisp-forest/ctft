@@ -4,7 +4,6 @@ import net.minecraft.block.Block;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.SignItem;
 import net.minecraft.text.Text;
-import net.minecraft.text.TranslatableText;
 import net.minecraft.util.registry.Registry;
 
 public class CustomSignItem extends SignItem {
@@ -23,11 +22,11 @@ public class CustomSignItem extends SignItem {
     @Override
     public Text getName(){
         var baseitemname = (Registry.ITEM.getId(this.asItem())).getPath();
-        return (new TranslatableText("ctft.item.sign_preffix")
-                .append(new TranslatableText( this.texturetype + ".minecraft." + baseitemname
+        return (Text.translatable("ctft.item.sign_prefix")
+                .append(Text.translatable( this.texturetype + ".minecraft." + baseitemname
                         .substring(0, baseitemname
                                 .lastIndexOf('_'))))
-                .append(new TranslatableText("ctft.item.sign_suffix")));
+                .append(Text.translatable("ctft.item.sign_suffix")));
     }
     @Override
     public Text getName(ItemStack stack) {

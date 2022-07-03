@@ -1,9 +1,9 @@
 package com.chyzman.ctft.client;
 
-import com.chyzman.ctft.client.CtftClient;
+import com.chyzman.ctft.mixin.accessor.LodestonePosAccessor;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
-import net.minecraft.client.item.ModelPredicateProviderRegistry;
+import net.fabricmc.fabric.mixin.networking.accessor.MinecraftClientAccessor;
 import net.minecraft.client.item.UnclampedModelPredicateProvider;
 import net.minecraft.client.world.ClientWorld;
 import net.minecraft.entity.Entity;
@@ -79,7 +79,7 @@ public class CompassPredicate implements UnclampedModelPredicateProvider {
 
     @Nullable
     private BlockPos getSpawnPos(ClientWorld world) {
-        return world.getDimension().isNatural() ? world.getSpawnPos() : null;
+        return world.getDimension().natural() ? world.getSpawnPos() : null;
     }
 
     @Nullable
@@ -87,7 +87,7 @@ public class CompassPredicate implements UnclampedModelPredicateProvider {
         Optional<RegistryKey<World>> optional;
         boolean bl = nbt.contains("LodestonePos");
         boolean bl2 = nbt.contains("LodestoneDimension");
-        if (bl && bl2 && (optional = CompassItem.getLodestoneDimension(nbt)).isPresent() && world.getRegistryKey() == optional.get()) {
+        if (bl && bl2 && (optional = LodestonePosAccessor.getLodestoneDimension(nbt)).isPresent() && world.getRegistryKey() == optional.get()) {
             return NbtHelper.toBlockPos(nbt.getCompound("LodestonePos"));
         }
         return null;

@@ -3,7 +3,6 @@ package com.chyzman.ctft.util;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.damage.DamageSource;
 import net.minecraft.text.Text;
-import net.minecraft.text.TranslatableText;
 
 public class ChyzbladeDamageSource extends DamageSource {
     private boolean isWorthy = true;
@@ -21,8 +20,8 @@ public class ChyzbladeDamageSource extends DamageSource {
         String baseKey = "death.attack.chyzblade";
         String unworthyKey = baseKey + ".unworthy";
         return isWorthy
-                ? new TranslatableText(baseKey, entity.getDisplayName(), livingEntity.getDisplayName())
-                : new TranslatableText(unworthyKey, entity.getDisplayName());
+                ? Text.translatable(baseKey, entity.getDisplayName(), livingEntity.getDisplayName())
+                : Text.translatable(unworthyKey, entity.getDisplayName());
     }
 
     @Override

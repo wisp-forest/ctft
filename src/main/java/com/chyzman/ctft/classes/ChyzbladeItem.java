@@ -1,31 +1,26 @@
 package com.chyzman.ctft.classes;
 
 import io.wispforest.owo.ops.WorldOps;
-import net.minecraft.block.Block;
+import blue.endless.jankson.annotation.Nullable;
 import net.minecraft.block.BlockState;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.LivingEntity;
-import net.minecraft.entity.ai.brain.task.WorkStationCompetitionTask;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemUsageContext;
 import net.minecraft.item.MiningToolItem;
 import net.minecraft.item.ToolMaterial;
-import net.minecraft.tag.Tag;
-import net.minecraft.text.LiteralText;
+import net.minecraft.tag.TagKey;
 import net.minecraft.text.Text;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.Hand;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
-import org.jetbrains.annotations.Nullable;
-
 import java.util.List;
-import java.util.UUID;
 
 public class ChyzbladeItem extends MiningToolItem {
-    public ChyzbladeItem(float attackDamage, float attackSpeed, ToolMaterial material, Tag<Block> effectiveBlocks, Settings settings) {
+    public ChyzbladeItem(float attackDamage, float attackSpeed, ToolMaterial material, TagKey effectiveBlocks, Settings settings) {
         super(attackDamage, attackSpeed, material, effectiveBlocks, settings);
     }
     @Override
@@ -51,7 +46,7 @@ public class ChyzbladeItem extends MiningToolItem {
     }
     @Override
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
-        tooltip.add(new LiteralText("Only The Worthy May Wield the Power Of True Chyz"));
+        tooltip.add(Text.literal("Only The Worthy May Wield the Power Of True Chyz"));
         super.appendTooltip(stack, world, tooltip, context);
     }
 

@@ -3,9 +3,7 @@ package com.chyzman.ctft.classes;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.*;
-import net.minecraft.text.LiteralText;
 import net.minecraft.text.Text;
-import net.minecraft.text.TranslatableText;
 import net.minecraft.util.Hand;
 import net.minecraft.util.TypedActionResult;
 import net.minecraft.util.registry.Registry;
@@ -45,27 +43,27 @@ public class CustomArmorItem extends ArmorItem {
                 .substring(0, baseitemname
                         .lastIndexOf('_'));
         if(this.slot.equals(EquipmentSlot.HEAD)){
-            return (new TranslatableText("ctft.item.helmet_preffix")
-                    .append(new TranslatableText(baseitem))
-                    .append(new TranslatableText("ctft.item.helmet_suffix")));
+            return (Text.translatable("ctft.item.helmet_prefix")
+                    .append(Text.translatable(baseitem))
+                    .append(Text.translatable("ctft.item.helmet_suffix")));
         }
         else if(this.slot.equals(EquipmentSlot.CHEST)){
-            return (new TranslatableText("ctft.item.chestplate_preffix")
-                    .append(new TranslatableText(baseitem))
-                    .append(new TranslatableText("ctft.item.chestplate_suffix")));
+            return (Text.translatable("ctft.item.chestplate_prefix")
+                    .append(Text.translatable(baseitem))
+                    .append(Text.translatable("ctft.item.chestplate_suffix")));
         }
         else if(this.slot.equals(EquipmentSlot.LEGS)){
-            return (new TranslatableText("ctft.item.leggings_preffix")
-                    .append(new TranslatableText(baseitem))
-                    .append(new TranslatableText("ctft.item.leggings_suffix")));
+            return (Text.translatable("ctft.item.leggings_prefix")
+                    .append(Text.translatable(baseitem))
+                    .append(Text.translatable("ctft.item.leggings_suffix")));
         }
         else if(this.slot.equals(EquipmentSlot.FEET)){
-            return (new TranslatableText("ctft.item.boots_preffix")
-                    .append(new TranslatableText(baseitem))
-                    .append(new TranslatableText("ctft.item.boots_suffix")));
+            return (Text.translatable("ctft.item.boots_prefix")
+                    .append(Text.translatable(baseitem))
+                    .append(Text.translatable("ctft.item.boots_suffix")));
         }
         else {
-            return new LiteralText("how tf did u make an armor piece thats not a helmet, chestplate, leggings or boots?");
+            return Text.literal("how tf did u make an armor piece thats not a helmet, chestplate, leggings or boots?");
         }
     }
     @Override

@@ -28,7 +28,7 @@
     "main": [
       "com.chyzman.ctft.Ctft"
     ],
-    "rei_plugins": [
+    "rei_common": [
       "com.chyzman.ctft.compat.CtftReiCompat"
     ],
     "modmenu": [

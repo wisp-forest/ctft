@@ -2,13 +2,9 @@ package com.chyzman.ctft.Items;
 
 import com.chyzman.ctft.classes.ChyzbladeItem;
 import com.chyzman.ctft.classes.CtftIconItem;
-import net.fabricmc.fabric.api.tag.TagFactory;
-import net.minecraft.block.Block;
 import net.minecraft.item.*;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.tag.BlockTags;
-import net.minecraft.tag.Tag;
-import net.minecraft.util.Identifier;
 import net.minecraft.util.Rarity;
 import net.minecraft.util.registry.Registry;
 

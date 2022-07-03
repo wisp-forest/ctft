@@ -4,7 +4,6 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.FishingRodItem;
 import net.minecraft.item.ItemStack;
 import net.minecraft.text.Text;
-import net.minecraft.text.TranslatableText;
 import net.minecraft.util.Hand;
 import net.minecraft.util.TypedActionResult;
 import net.minecraft.util.registry.Registry;
@@ -39,14 +38,14 @@ public class CustomFishingRodItem extends FishingRodItem {
     @Override
     public Text getName(){
         var baseitemname = (Registry.ITEM.getId(this.asItem())).getPath();
-        return (new TranslatableText("ctft.item.fishing_rod_preffix")
-                .append(new TranslatableText(this.texturetype + ".minecraft." + baseitemname
+        return (Text.translatable("ctft.item.fishing_rod_prefix")
+                .append(Text.translatable(this.texturetype + ".minecraft." + baseitemname
                         .substring(0, baseitemname
                                 .lastIndexOf('_')).substring(0, baseitemname
                                 .substring(0, baseitemname
                                         .lastIndexOf('_'))
                                 .lastIndexOf('_'))))
-                .append(new TranslatableText("ctft.item.fishing_rod_suffix")));
+                .append(Text.translatable("ctft.item.fishing_rod_suffix")));
     }
     @Override
     public Text getName(ItemStack stack) {

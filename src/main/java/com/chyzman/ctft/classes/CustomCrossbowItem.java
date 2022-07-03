@@ -1,9 +1,9 @@
 package com.chyzman.ctft.classes;
 
+import blue.endless.jankson.annotation.Nullable;
 import com.google.common.collect.Lists;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
 import java.util.function.Predicate;
 import net.minecraft.advancement.criterion.Criteria;
 import net.minecraft.client.item.TooltipContext;
@@ -21,9 +21,7 @@ import net.minecraft.sound.SoundCategory;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.sound.SoundEvents;
 import net.minecraft.stat.Stats;
-import net.minecraft.text.LiteralText;
 import net.minecraft.text.Text;
-import net.minecraft.text.TranslatableText;
 import net.minecraft.util.Formatting;
 import net.minecraft.util.Hand;
 import net.minecraft.util.TypedActionResult;
@@ -32,8 +30,8 @@ import net.minecraft.util.math.Quaternion;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.util.math.Vec3f;
 import net.minecraft.util.registry.Registry;
+import net.minecraft.util.math.random.Random;
 import net.minecraft.world.World;
-import org.jetbrains.annotations.Nullable;
 
 public class CustomCrossbowItem extends CrossbowItem implements Vanishable {
     private static final String CHARGED_KEY = "Charged";
@@ -383,13 +381,13 @@ public class CustomCrossbowItem extends CrossbowItem implements Vanishable {
             return;
         }
         ItemStack itemStack = list.get(0);
-        tooltip.add(new TranslatableText("item.minecraft.crossbow.projectile").append(" ").append(itemStack.toHoverableText()));
+        tooltip.add(Text.translatable("item.minecraft.crossbow.projectile").append(" ").append(itemStack.toHoverableText()));
         if (context.isAdvanced() && itemStack.isOf(Items.FIREWORK_ROCKET)) {
             ArrayList<Text> list2 = Lists.newArrayList();
             Items.FIREWORK_ROCKET.appendTooltip(itemStack, world, list2, context);
             if (!list2.isEmpty()) {
                 for (int i = 0; i < list2.size(); ++i) {
-                    list2.set(i, new LiteralText("  ").append((Text)list2.get(i)).formatted(Formatting.GRAY));
+                    list2.set(i, Text.literal("  ").append((Text)list2.get(i)).formatted(Formatting.GRAY));
                 }
                 tooltip.addAll(list2);
             }
@@ -409,11 +407,11 @@ public class CustomCrossbowItem extends CrossbowItem implements Vanishable {
     @Override
     public Text getName(){
         var baseitemname = (Registry.ITEM.getId(this.asItem())).getPath();
-        return (new TranslatableText("ctft.item.crossbow_preffix")
-                .append(new TranslatableText(this.texturetype + ".minecraft." + baseitemname
+        return (Text.translatable("ctft.item.crossbow_prefix")
+                .append(Text.translatable(this.texturetype + ".minecraft." + baseitemname
                         .substring(0, baseitemname
                                 .lastIndexOf('_'))))
-                .append(new TranslatableText("ctft.item.crossbow_suffix")));
+                .append(Text.translatable("ctft.item.crossbow_suffix")));
     }
     @Override
     public Text getName(ItemStack stack) {

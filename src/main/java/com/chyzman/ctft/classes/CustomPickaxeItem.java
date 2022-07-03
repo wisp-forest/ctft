@@ -4,7 +4,6 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.PickaxeItem;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.text.Text;
-import net.minecraft.text.TranslatableText;
 import net.minecraft.util.registry.Registry;
 
 public class CustomPickaxeItem extends PickaxeItem {
@@ -23,11 +22,11 @@ public class CustomPickaxeItem extends PickaxeItem {
     @Override
     public Text getName(){
         var baseitemname = (Registry.ITEM.getId(this.asItem())).getPath();
-        return (new TranslatableText("ctft.item.pickaxe_preffix")
-                .append(new TranslatableText(this.texturetype + ".minecraft." + baseitemname
+        return (Text.translatable("ctft.item.pickaxe_prefix")
+                .append(Text.translatable(this.texturetype + ".minecraft." + baseitemname
                         .substring(0, baseitemname
                                 .lastIndexOf('_'))))
-                .append(new TranslatableText("ctft.item.pickaxe_suffix")));
+                .append(Text.translatable("ctft.item.pickaxe_suffix")));
     }
     @Override
     public Text getName(ItemStack stack) {

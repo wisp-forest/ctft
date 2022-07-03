@@ -5,15 +5,14 @@
   "compatibilityLevel": "JAVA_17",
   "mixins": [
     "ChyzbladeMixin",
-    "DebugWorldMixin",
     "FishingBobberEntityRendererMixin",
     "FishingBobberFix",
-    //"LivingEntityMixin",
     "PillagerCrossbowMixin",
     "SheepShearingMixin",
     "SkeletonBowMixin",
     "WorldRendererInvoker",
     "accessor.BlockEntityTypeAccessor",
+    "accessor.LodestonePosAccessor",
     "accessor.SignTypeInvoker"
   ],
   "client": [

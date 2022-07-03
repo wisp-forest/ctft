@@ -1,6 +1,7 @@
 package com.chyzman.ctft.mixin;
 
 import net.minecraft.block.BlockState;
+import net.minecraft.structure.StructureSet;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.registry.Registry;
 import net.minecraft.world.biome.Biome;
@@ -23,7 +24,7 @@ public class DebugWorldMixin
     @Mutable @Shadow @Final private static int Z_SIDE_LENGTH;
 
     @Inject(method = "<init>", at = @At("TAIL"))
-    public void changedebugworld(Registry<Biome> biomeRegistry, CallbackInfo info)
+    public void changedebugworld(Registry<StructureSet> structureSetRegistry, Registry<Biome> biomeRegistry, CallbackInfo ci)
     {
         BLOCK_STATES.clear();
         BLOCK_STATES.addAll(StreamSupport.stream(Registry.BLOCK.spliterator(), false)

@@ -1,0 +1,124 @@
+
+    {
+	"criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mud_brick_stairs"
+            ]
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ctft:mud_brick_stairs_sword_from_crafting",
+			"ctft:mud_brick_stairs_pickaxe_from_crafting",
+			"ctft:mud_brick_stairs_axe_from_crafting",
+			"ctft:mud_brick_stairs_shovel_from_crafting",
+			"ctft:mud_brick_stairs_hoe_from_crafting",
+			"ctft:mud_brick_stairs_shield_from_crafting",
+			"ctft:mud_brick_stairs_fishing_rod_from_crafting",
+			"ctft:mud_brick_stairs_compass_from_crafting",
+			"ctft:mud_brick_stairs_clock_from_crafting",
+			"ctft:mud_brick_stairs_helmet_from_crafting",
+			"ctft:mud_brick_stairs_chestplate_from_crafting",
+			"ctft:mud_brick_stairs_leggings_from_crafting",
+			"ctft:mud_brick_stairs_boots_from_crafting",
+			"ctft:mud_brick_stairs_shears_from_crafting",
+			"ctft:mud_brick_stairs_horse_armor_from_crafting",
+			"ctft:mud_brick_stairs_bow_from_crafting",
+			"ctft:mud_brick_stairs_crossbow_from_crafting",
+			"ctft:mud_brick_stairs_block_from_material",
+			"ctft:mud_brick_stairs_material_from_block",
+			"ctft:mud_brick_stairs_stairs_from_crafting",
+			"ctft:mud_brick_stairs_slab_from_crafting",
+			"ctft:mud_brick_stairs_glass_pane_from_crafting",
+			"ctft:mud_brick_stairs_pane_from_crafting",
+			"ctft:mud_brick_stairs_glass_from_smelting",
+			"ctft:mud_brick_stairs_stairs_from_stonecutter",
+			"ctft:mud_brick_stairs_slab_from_stonecutter",
+			"ctft:mud_brick_stairs_wall_from_stonecutter",
+			"ctft:mud_brick_stairs_lever_from_crafting",
+			"ctft:mud_brick_stairs_button_from_crafting",
+			"ctft:mud_brick_stairs_pressure_plate_from_crafting",
+			"ctft:mud_brick_stairs_fence_gate_from_crafting",
+			"ctft:mud_brick_stairs_chain_from_stonecutter",
+			"ctft:mud_brick_stairs_compressed1_from_block",
+			"ctft:mud_brick_stairs_block_from_compressed1",
+			"ctft:mud_brick_stairs_compressed1_from_block",
+			"ctft:mud_brick_stairs_compressed2_from_compressed1",
+			"ctft:mud_brick_stairs_compressed3_from_compressed2",
+			"ctft:mud_brick_stairs_compressed4_from_compressed3",
+			"ctft:mud_brick_stairs_compressed5_from_compressed4",
+			"ctft:mud_brick_stairs_compressed6_from_compressed5",
+			"ctft:mud_brick_stairs_compressed7_from_compressed6",
+			"ctft:mud_brick_stairs_compressed8_from_compressed7",
+			"ctft:mud_brick_stairs_compressed9_from_compressed8",
+			"ctft:mud_brick_stairs_compressed10_from_compressed9",
+			"ctft:mud_brick_stairs_compressed11_from_compressed10",
+			"ctft:mud_brick_stairs_compressed12_from_compressed11",
+			"ctft:mud_brick_stairs_compressed13_from_compressed12",
+			"ctft:mud_brick_stairs_compressed14_from_compressed13",
+			"ctft:mud_brick_stairs_compressed15_from_compressed14",
+			"ctft:mud_brick_stairs_compressed16_from_compressed15",
+            "ctft:mud_brick_stairs_compressed17_from_compressed16",
+            "ctft:mud_brick_stairs_compressed18_from_compressed17",
+            "ctft:mud_brick_stairs_compressed19_from_compressed18",
+            "ctft:mud_brick_stairs_compressed20_from_compressed19",
+            "ctft:mud_brick_stairs_compressed21_from_compressed20",
+            "ctft:mud_brick_stairs_compressed22_from_compressed21",
+            "ctft:mud_brick_stairs_compressed23_from_compressed22",
+            "ctft:mud_brick_stairs_compressed24_from_compressed23",
+            "ctft:mud_brick_stairs_compressed25_from_compressed24",
+            "ctft:mud_brick_stairs_compressed26_from_compressed25",
+            "ctft:mud_brick_stairs_compressed27_from_compressed26",
+            "ctft:mud_brick_stairs_compressed28_from_compressed27",
+            "ctft:mud_brick_stairs_compressed29_from_compressed28",
+            "ctft:mud_brick_stairs_compressed30_from_compressed29",
+            "ctft:mud_brick_stairs_compressed31_from_compressed30",
+			"ctft:mud_brick_stairs_block_from_compressed1",
+			"ctft:mud_brick_stairs_compressed1_from_compressed2",
+			"ctft:mud_brick_stairs_compressed2_from_compressed3",
+			"ctft:mud_brick_stairs_compressed3_from_compressed4",
+			"ctft:mud_brick_stairs_compressed4_from_compressed5",
+			"ctft:mud_brick_stairs_compressed5_from_compressed6",
+			"ctft:mud_brick_stairs_compressed6_from_compressed7",
+			"ctft:mud_brick_stairs_compressed7_from_compressed8",
+			"ctft:mud_brick_stairs_compressed8_from_compressed9",
+			"ctft:mud_brick_stairs_compressed9_from_compressed10",
+			"ctft:mud_brick_stairs_compressed10_from_compressed11",
+			"ctft:mud_brick_stairs_compressed11_from_compressed12",
+			"ctft:mud_brick_stairs_compressed12_from_compressed13",
+			"ctft:mud_brick_stairs_compressed13_from_compressed14",
+			"ctft:mud_brick_stairs_compressed14_from_compressed15",
+			"ctft:mud_brick_stairs_compressed14_from_compressed15",
+            "ctft:mud_brick_stairs_compressed16_from_compressed17",
+            "ctft:mud_brick_stairs_compressed17_from_compressed18",
+            "ctft:mud_brick_stairs_compressed18_from_compressed19",
+            "ctft:mud_brick_stairs_compressed19_from_compressed20",
+            "ctft:mud_brick_stairs_compressed20_from_compressed21",
+            "ctft:mud_brick_stairs_compressed21_from_compressed22",
+            "ctft:mud_brick_stairs_compressed22_from_compressed23",
+            "ctft:mud_brick_stairs_compressed23_from_compressed24",
+            "ctft:mud_brick_stairs_compressed24_from_compressed25",
+            "ctft:mud_brick_stairs_compressed25_from_compressed26",
+            "ctft:mud_brick_stairs_compressed26_from_compressed27",
+            "ctft:mud_brick_stairs_compressed27_from_compressed28",
+            "ctft:mud_brick_stairs_compressed28_from_compressed29",
+            "ctft:mud_brick_stairs_compressed29_from_compressed30",
+            "ctft:mud_brick_stairs_compressed30_from_compressed31",
+			"ctft:mud_brick_stairs_kcolb_from_stonecutter",
+			"ctft:mud_brick_stairs_block_from_kcolb"
+		]
+	}
+}

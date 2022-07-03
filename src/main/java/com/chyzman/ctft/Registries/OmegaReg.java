@@ -50,6 +50,7 @@ public class OmegaReg {
             Item.Settings settings = new Item.Settings().group(ItemGroup.SEARCH).rarity(Rarity.valueOf(ctftMaterial.rarity));
             ToolMaterial toolMaterial = new ConfiguredToolMaterial(ctftMaterial.durability,ctftMaterial.efficiency,ctftMaterial.base_damage,ctftMaterial.tier,ctftMaterial.enchant,Ingredient.ofItems(Registry.ITEM.get(new Identifier(ctftMaterial.recipe_ingredient.toLowerCase()))));
             ArmorMaterial armorMaterial = new ConfiguredArmorMaterial(ctftMaterial.durability,ctftMaterial.helmet_protection, ctftMaterial.chestplate_protection, ctftMaterial.leggings_protection, ctftMaterial.boots_protection, ctftMaterial.enchant, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, "ctft/" + ctftMaterial.texture_name, ctftMaterial.armor_toughness, ctftMaterial.armor_knockback_resistance, Ingredient.ofItems(Registry.ITEM.get(new Identifier(ctftMaterial.recipe_ingredient.toLowerCase()))));
+            settings.maxCount(1);
             if (Ctft.CONFIG.swordsEnabled) {
                 int multiplier = 2;
                 if (ctftMaterial.is_food) {
@@ -76,11 +77,11 @@ public class OmegaReg {
                 Item item = register(ctftMaterial.recipe_ingredient.toLowerCase() + "_sword", new CustomSwordItem(toolMaterial, ctftMaterial.sword_damage, ctftMaterial.sword_attack_speed, ctftMaterial.foil, ctftMaterial.lang_key, settings));
                 var id = ctftMaterial.recipe_ingredient.toLowerCase();
                 Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/sword").textures((JModel.textures().var("0", "ctft:items/iron_sword").var("1", ctftMaterial.namespace).particle(ctftMaterial.namespace))), new Identifier("ctft", "item/" + id + "_sword"));
-                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_sword_from_crafting"), JRecipe.shaped(JPattern.pattern().row1(" 0 ").row2(" 0 ").row3(" 1 "), JKeys.keys().key("0", JIngredient.ingredient().item("minecraft:" + id)).key("1", JIngredient.ingredient().item("minecraft:stick")), JResult.result("ctft:" + id + "_sword")));
-                TagInjector.injectItems(new Identifier("ctft","ctft_swords"), item);
-                if(piglin_loved.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), item);}
-                if(freeze_immune_wearables.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","freeze_immune_wearables"), item);}
-                if(piglin_repellents.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_repellents"), item);}
+//                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_sword_from_crafting"), JRecipe.shaped(JPattern.pattern().row1(" 0 ").row2(" 0 ").row3(" 1 "), JKeys.keys().key("0", JIngredient.ingredient().item("minecraft:" + id)).key("1", JIngredient.ingredient().item("minecraft:stick")), JResult.result("ctft:" + id + "_sword")));
+                TagInjector.inject(Registry.ITEM, new Identifier("ctft","ctft_swords"), item);
+                if(piglin_loved.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_loved"));}
+                if(freeze_immune_wearables.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","freeze_immune_wearables"));}
+                if(piglin_repellents.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_repellents"));}
                 if(ctftMaterial.combustion > 0) FuelRegistry.INSTANCE.add(item, ctftMaterial.combustion*multiplier);
             }
             if (Ctft.CONFIG.pickaxesEnabled) {
@@ -109,12 +110,12 @@ public class OmegaReg {
                 Item item = register(ctftMaterial.recipe_ingredient.toLowerCase() + "_pickaxe", new CustomPickaxeItem(toolMaterial, ctftMaterial.pickaxe_damage, ctftMaterial.pickaxe_attack_speed, ctftMaterial.foil, ctftMaterial.lang_key, settings));
                 var id = ctftMaterial.recipe_ingredient.toLowerCase();
                 Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/pickaxe").textures((JModel.textures().var("0", "ctft:items/iron_pickaxe").var("1", ctftMaterial.namespace).particle(ctftMaterial.namespace))), new Identifier("ctft", "item/" + id + "_pickaxe"));
-                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_pickaxe_from_crafting"), JRecipe.shaped(JPattern.pattern().row1("000").row2(" 1 ").row3(" 1 "), JKeys.keys().key("0", JIngredient.ingredient().item("minecraft:" + id)).key("1", JIngredient.ingredient().item("minecraft:stick")), JResult.result("ctft:" + id + "_pickaxe")));
-                TagInjector.injectItems(new Identifier("minecraft","cluster_max_harvestables"), item);
-                TagInjector.injectItems(new Identifier("ctft","ctft_pickaxes"), item);
-                if(piglin_loved.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), item);}
-                if(freeze_immune_wearables.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","freeze_immune_wearables"), item);}
-                if(piglin_repellents.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_repellents"), item);}
+//                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_pickaxe_from_crafting"), JRecipe.shaped(JPattern.pattern().row1("000").row2(" 1 ").row3(" 1 "), JKeys.keys().key("0", JIngredient.ingredient().item("minecraft:" + id)).key("1", JIngredient.ingredient().item("minecraft:stick")), JResult.result("ctft:" + id + "_pickaxe")));
+                TagInjector.inject(Registry.ITEM, new Identifier("minecraft","cluster_max_harvestables"), item);
+                TagInjector.inject(Registry.ITEM, new Identifier("ctft","ctft_pickaxes"), item);
+                if(piglin_loved.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_loved"));}
+                if(freeze_immune_wearables.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","freeze_immune_wearables"));}
+                if(piglin_repellents.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_repellents"));}
                 if(ctftMaterial.combustion > 0) FuelRegistry.INSTANCE.add(item, ctftMaterial.combustion*multiplier);
             }
             if (Ctft.CONFIG.axesEnabled) {
@@ -143,11 +144,11 @@ public class OmegaReg {
                 Item item = register(ctftMaterial.recipe_ingredient.toLowerCase() + "_axe", new CustomAxeItem(toolMaterial, ctftMaterial.axe_damage, ctftMaterial.axe_attack_speed, ctftMaterial.foil, ctftMaterial.lang_key, settings));
                 var id = ctftMaterial.recipe_ingredient.toLowerCase();
                 Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/axe").textures((JModel.textures().var("0", "ctft:items/iron_axe").var("1", ctftMaterial.namespace).particle(ctftMaterial.namespace))), new Identifier("ctft", "item/" + id + "_axe"));
-                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_axe_from_crafting"), JRecipe.shaped(JPattern.pattern().row1("00 ").row2("01 ").row3(" 1 "), JKeys.keys().key("0", JIngredient.ingredient().item("minecraft:" + id)).key("1", JIngredient.ingredient().item("minecraft:stick")), JResult.result("ctft:" + id + "_axe")));
-                TagInjector.injectItems(new Identifier("ctft","ctft_axes"), item);
-                if(piglin_loved.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), item);}
-                if(freeze_immune_wearables.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","freeze_immune_wearables"), item);}
-                if(piglin_repellents.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_repellents"), item);}
+//                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_axe_from_crafting"), JRecipe.shaped(JPattern.pattern().row1("00 ").row2("01 ").row3(" 1 "), JKeys.keys().key("0", JIngredient.ingredient().item("minecraft:" + id)).key("1", JIngredient.ingredient().item("minecraft:stick")), JResult.result("ctft:" + id + "_axe")));
+                TagInjector.inject(Registry.ITEM, new Identifier("ctft","ctft_axes"), item);
+                if(piglin_loved.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_loved"));}
+                if(freeze_immune_wearables.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","freeze_immune_wearables"));}
+                if(piglin_repellents.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_repellents"));}
                 if(ctftMaterial.combustion > 0) FuelRegistry.INSTANCE.add(item, ctftMaterial.combustion*multiplier);
             }
             if (Ctft.CONFIG.shovelsEnabled) {
@@ -176,11 +177,11 @@ public class OmegaReg {
                 Item item = register(ctftMaterial.recipe_ingredient.toLowerCase() + "_shovel", new CustomShovelItem(toolMaterial, ctftMaterial.shovel_damage, ctftMaterial.shovel_attack_speed, ctftMaterial.foil, ctftMaterial.lang_key, settings));
                 var id = ctftMaterial.recipe_ingredient.toLowerCase();
                 Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/shovel").textures((JModel.textures().var("0", "ctft:items/iron_shovel").var("1", ctftMaterial.namespace).particle(ctftMaterial.namespace))), new Identifier("ctft", "item/" + id + "_shovel"));
-                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_shovel_from_crafting"), JRecipe.shaped(JPattern.pattern().row1(" 0 ").row2(" 1 ").row3(" 1 "), JKeys.keys().key("0", JIngredient.ingredient().item("minecraft:" + id)).key("1", JIngredient.ingredient().item("minecraft:stick")), JResult.result("ctft:" + id + "_shovel")));
-                TagInjector.injectItems(new Identifier("ctft","ctft_shovels"), item);
-                if(piglin_loved.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), item);}
-                if(freeze_immune_wearables.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","freeze_immune_wearables"), item);}
-                if(piglin_repellents.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_repellents"), item);}
+//                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_shovel_from_crafting"), JRecipe.shaped(JPattern.pattern().row1(" 0 ").row2(" 1 ").row3(" 1 "), JKeys.keys().key("0", JIngredient.ingredient().item("minecraft:" + id)).key("1", JIngredient.ingredient().item("minecraft:stick")), JResult.result("ctft:" + id + "_shovel")));
+                TagInjector.inject(Registry.ITEM, new Identifier("ctft","ctft_shovels"), item);
+                if(piglin_loved.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_loved"));}
+                if(freeze_immune_wearables.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","freeze_immune_wearables"));}
+                if(piglin_repellents.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_repellents"));}
                 if(ctftMaterial.combustion > 0) FuelRegistry.INSTANCE.add(item, ctftMaterial.combustion*multiplier);
             }
             if (Ctft.CONFIG.hoesEnabled) {
@@ -209,11 +210,11 @@ public class OmegaReg {
                 Item item = register(ctftMaterial.recipe_ingredient.toLowerCase() + "_hoe", new CustomHoeItem(toolMaterial, ctftMaterial.hoe_damage, ctftMaterial.hoe_attack_speed, ctftMaterial.foil, ctftMaterial.lang_key, settings));
                 var id = ctftMaterial.recipe_ingredient.toLowerCase();
                 Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/hoe").textures((JModel.textures().var("0", "ctft:items/iron_hoe").var("1", ctftMaterial.namespace).particle(ctftMaterial.namespace))), new Identifier("ctft", "item/" + id + "_hoe"));
-                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_hoe_from_crafting"), JRecipe.shaped(JPattern.pattern().row1("00 ").row2(" 1 ").row3(" 1 "), JKeys.keys().key("0", JIngredient.ingredient().item("minecraft:" + id)).key("1", JIngredient.ingredient().item("minecraft:stick")), JResult.result("ctft:" + id + "_hoe")));
-                TagInjector.injectItems(new Identifier("ctft","ctft_hoes"), item);
-                if(piglin_loved.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), item);}
-                if(freeze_immune_wearables.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","freeze_immune_wearables"), item);}
-                if(piglin_repellents.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_repellents"), item);}
+//                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_hoe_from_crafting"), JRecipe.shaped(JPattern.pattern().row1("00 ").row2(" 1 ").row3(" 1 "), JKeys.keys().key("0", JIngredient.ingredient().item("minecraft:" + id)).key("1", JIngredient.ingredient().item("minecraft:stick")), JResult.result("ctft:" + id + "_hoe")));
+                TagInjector.inject(Registry.ITEM, new Identifier("ctft","ctft_hoes"), item);
+                if(piglin_loved.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_loved"));}
+                if(freeze_immune_wearables.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","freeze_immune_wearables"));}
+                if(piglin_repellents.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_repellents"));}
                 if(ctftMaterial.combustion > 0) FuelRegistry.INSTANCE.add(item, ctftMaterial.combustion*multiplier);
             }
             if (Ctft.CONFIG.helmetsEnabled) {
@@ -242,11 +243,11 @@ public class OmegaReg {
                 Item item = register(ctftMaterial.recipe_ingredient.toLowerCase() + "_helmet", new CustomArmorItem(armorMaterial, EquipmentSlot.HEAD, ctftMaterial.foil, ctftMaterial.lang_key, settings));
                 var id = ctftMaterial.recipe_ingredient.toLowerCase();
                 Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/helmet").textures((JModel.textures().var("0", "ctft:items/iron_helmet").var("1", ctftMaterial.namespace).particle(ctftMaterial.namespace))), new Identifier("ctft", "item/" + id + "_helmet"));
-                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_helmet_from_crafting"), JRecipe.shaped(JPattern.pattern().row2("000").row3("0 0"), JKeys.keys().key("0", JIngredient.ingredient().item("minecraft:" + id)), JResult.result("ctft:" + id + "_helmet")));
-                TagInjector.injectItems(new Identifier("ctft","ctft_helmets"), item);
-                if(piglin_loved.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), item);}
-                if(freeze_immune_wearables.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","freeze_immune_wearables"), item);}
-                if(piglin_repellents.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_repellents"), item);}
+//                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_helmet_from_crafting"), JRecipe.shaped(JPattern.pattern().row2("000").row3("0 0"), JKeys.keys().key("0", JIngredient.ingredient().item("minecraft:" + id)), JResult.result("ctft:" + id + "_helmet")));
+                TagInjector.inject(Registry.ITEM, new Identifier("ctft","ctft_helmets"), item);
+                if(piglin_loved.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_loved"));}
+                if(freeze_immune_wearables.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","freeze_immune_wearables"));}
+                if(piglin_repellents.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_repellents"));}
                 if(ctftMaterial.combustion > 0) FuelRegistry.INSTANCE.add(item, ctftMaterial.combustion*multiplier);
             }
             if (Ctft.CONFIG.chestplatesEnabled) {
@@ -275,11 +276,11 @@ public class OmegaReg {
                 Item item = register(ctftMaterial.recipe_ingredient.toLowerCase() + "_chestplate", new CustomArmorItem(armorMaterial, EquipmentSlot.CHEST, ctftMaterial.foil, ctftMaterial.lang_key, settings));
                 var id = ctftMaterial.recipe_ingredient.toLowerCase();
                 Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/chestplate").textures((JModel.textures().var("0", "ctft:items/iron_chestplate").var("1", ctftMaterial.namespace).particle(ctftMaterial.namespace))), new Identifier("ctft", "item/" + id + "_chestplate"));
-                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_chestplate_from_crafting"), JRecipe.shaped(JPattern.pattern().row1("0 0").row2("000").row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("minecraft:" + id)), JResult.result("ctft:" + id + "_chestplate")));
-                TagInjector.injectItems(new Identifier("ctft","ctft_chestplates"), item);
-                if(piglin_loved.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), item);}
-                if(freeze_immune_wearables.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","freeze_immune_wearables"), item);}
-                if(piglin_repellents.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_repellents"), item);}
+//                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_chestplate_from_crafting"), JRecipe.shaped(JPattern.pattern().row1("0 0").row2("000").row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("minecraft:" + id)), JResult.result("ctft:" + id + "_chestplate")));
+                TagInjector.inject(Registry.ITEM, new Identifier("ctft","ctft_chestplates"), item);
+                if(piglin_loved.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_loved"));}
+                if(freeze_immune_wearables.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","freeze_immune_wearables"));}
+                if(piglin_repellents.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_repellents"));}
                 if(ctftMaterial.combustion > 0) FuelRegistry.INSTANCE.add(item, ctftMaterial.combustion*multiplier);
             }
             if (Ctft.CONFIG.leggingsEnabled) {
@@ -308,11 +309,11 @@ public class OmegaReg {
                 Item item = register(ctftMaterial.recipe_ingredient.toLowerCase() + "_leggings", new CustomArmorItem(armorMaterial, EquipmentSlot.LEGS, ctftMaterial.foil, ctftMaterial.lang_key, settings));
                 var id = ctftMaterial.recipe_ingredient.toLowerCase();
                 Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/leggings").textures((JModel.textures().var("0", "ctft:items/iron_leggings").var("1", ctftMaterial.namespace).particle(ctftMaterial.namespace))), new Identifier("ctft", "item/" + id + "_leggings"));
-                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_leggings_from_crafting"), JRecipe.shaped(JPattern.pattern().row1("000").row2("0 0").row3("0 0"), JKeys.keys().key("0", JIngredient.ingredient().item("minecraft:" + id)), JResult.result("ctft:" + id + "_leggings")));
-                TagInjector.injectItems(new Identifier("ctft","ctft_leggings"), item);
-                if(piglin_loved.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), item);}
-                if(freeze_immune_wearables.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","freeze_immune_wearables"), item);}
-                if(piglin_repellents.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_repellents"), item);}
+//                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_leggings_from_crafting"), JRecipe.shaped(JPattern.pattern().row1("000").row2("0 0").row3("0 0"), JKeys.keys().key("0", JIngredient.ingredient().item("minecraft:" + id)), JResult.result("ctft:" + id + "_leggings")));
+                TagInjector.inject(Registry.ITEM, new Identifier("ctft","ctft_leggings"), item);
+                if(piglin_loved.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_loved"));}
+                if(freeze_immune_wearables.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","freeze_immune_wearables"));}
+                if(piglin_repellents.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_repellents"));}
                 if(ctftMaterial.combustion > 0) FuelRegistry.INSTANCE.add(item, ctftMaterial.combustion*multiplier);
             }
             if (Ctft.CONFIG.bootsEnabled) {
@@ -341,11 +342,11 @@ public class OmegaReg {
                 Item item = register(ctftMaterial.recipe_ingredient.toLowerCase() + "_boots", new CustomArmorItem(armorMaterial, EquipmentSlot.FEET, ctftMaterial.foil, ctftMaterial.lang_key, settings));
                 var id = ctftMaterial.recipe_ingredient.toLowerCase();
                 Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/boots").textures((JModel.textures().var("0", "ctft:items/iron_boots").var("1", ctftMaterial.namespace).particle(ctftMaterial.namespace))), new Identifier("ctft", "item/" + id + "_boots"));
-                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_boots_from_crafting"), JRecipe.shaped(JPattern.pattern().row2("0 0").row3("0 0"), JKeys.keys().key("0", JIngredient.ingredient().item("minecraft:" + id)), JResult.result("ctft:" + id + "_boots")));
-                TagInjector.injectItems(new Identifier("ctft","ctft_boots"), item);
-                if(piglin_loved.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), item);}
-                if(freeze_immune_wearables.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","freeze_immune_wearables"), item);}
-                if(piglin_repellents.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_repellents"), item);}
+//                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_boots_from_crafting"), JRecipe.shaped(JPattern.pattern().row2("0 0").row3("0 0"), JKeys.keys().key("0", JIngredient.ingredient().item("minecraft:" + id)), JResult.result("ctft:" + id + "_boots")));
+                TagInjector.inject(Registry.ITEM, new Identifier("ctft","ctft_boots"), item);
+                if(piglin_loved.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_loved"));}
+                if(freeze_immune_wearables.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","freeze_immune_wearables"));}
+                if(piglin_repellents.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_repellents"));}
                 if(ctftMaterial.combustion > 0) FuelRegistry.INSTANCE.add(item, ctftMaterial.combustion*multiplier);
             }
             if (Ctft.CONFIG.bowsEnabled) {
@@ -380,11 +381,11 @@ public class OmegaReg {
                 Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/bow_pulling_0").textures((JModel.textures().var("0", "ctft:items/bow_pulling_0").var("1", ctftMaterial.namespace).particle(ctftMaterial.namespace))), new Identifier("ctft", "item/" + id + "_bow_pulling_0"));
                 Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/bow_pulling_1").textures((JModel.textures().var("0", "ctft:items/bow_pulling_1").var("1", ctftMaterial.namespace).particle(ctftMaterial.namespace))), new Identifier("ctft", "item/" + id + "_bow_pulling_1"));
                 Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/bow_pulling_2").textures((JModel.textures().var("0", "ctft:items/bow_pulling_2").var("1", ctftMaterial.namespace).particle(ctftMaterial.namespace))), new Identifier("ctft", "item/" + id + "_bow_pulling_2"));
-                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_bow_from_crafting"), JRecipe.shaped(JPattern.pattern().row1(" 01").row2("0 1").row3(" 01"), JKeys.keys().key("0", JIngredient.ingredient().item("minecraft:" + id)).key("1", JIngredient.ingredient().item("minecraft:string")), JResult.result("ctft:" + id + "_bow")));
-                TagInjector.injectItems(new Identifier("ctft","ctft_bows"), Registry.ITEM.get(new Identifier("ctft", id + "_bow")));
-                if(piglin_loved.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), item);}
-                if(freeze_immune_wearables.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","freeze_immune_wearables"), item);}
-                if(piglin_repellents.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_repellents"), item);}
+//                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_bow_from_crafting"), JRecipe.shaped(JPattern.pattern().row1(" 01").row2("0 1").row3(" 01"), JKeys.keys().key("0", JIngredient.ingredient().item("minecraft:" + id)).key("1", JIngredient.ingredient().item("minecraft:string")), JResult.result("ctft:" + id + "_bow")));
+                TagInjector.inject(Registry.ITEM, new Identifier("ctft","ctft_bows"), Registry.ITEM.get(new Identifier("ctft", id + "_bow")));
+                if(piglin_loved.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_loved"));}
+                if(freeze_immune_wearables.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","freeze_immune_wearables"));}
+                if(piglin_repellents.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_repellents"));}
                 if(ctftMaterial.combustion > 0) FuelRegistry.INSTANCE.add(item, ctftMaterial.combustion*multiplier);
             }
             if (Ctft.CONFIG.crossbowsEnabled) {
@@ -437,11 +438,11 @@ public class OmegaReg {
                 Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/crossbow_egg").textures((JModel.textures().var("0", "ctft:items/crossbow_egg").var("1", ctftMaterial.namespace).particle(ctftMaterial.namespace))), new Identifier("ctft", "item/" + id + "_crossbow_egg"));
                 Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/crossbow_snowball").textures((JModel.textures().var("0", "ctft:items/crossbow_snowball").var("1", ctftMaterial.namespace).particle(ctftMaterial.namespace))), new Identifier("ctft", "item/" + id + "_crossbow_snowball"));
                 Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/crossbow_fire_charge").textures((JModel.textures().var("0", "ctft:items/crossbow_fire_charge").var("1", ctftMaterial.namespace).particle(ctftMaterial.namespace))), new Identifier("ctft", "item/" + id + "_crossbow_fire_charge"));
-                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_crossbow_from_crafting"), JRecipe.shaped(JPattern.pattern().row1("020").row2("131").row3(" 0 "), JKeys.keys().key("0", JIngredient.ingredient().item("minecraft:" + id)).key("1", JIngredient.ingredient().item("minecraft:string")).key("2", JIngredient.ingredient().item("minecraft:iron_ingot")).key("3", JIngredient.ingredient().item("minecraft:tripwire_hook")), JResult.result("ctft:" + id + "_crossbow")));
-                TagInjector.injectItems(new Identifier("ctft","ctft_crossbows"), Registry.ITEM.get(new Identifier("ctft", id + "_crossbow")));
-                if(piglin_loved.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), item);}
-                if(freeze_immune_wearables.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","freeze_immune_wearables"), item);}
-                if(piglin_repellents.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_repellents"), item);}
+//                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_crossbow_from_crafting"), JRecipe.shaped(JPattern.pattern().row1("020").row2("131").row3(" 0 "), JKeys.keys().key("0", JIngredient.ingredient().item("minecraft:" + id)).key("1", JIngredient.ingredient().item("minecraft:string")).key("2", JIngredient.ingredient().item("minecraft:iron_ingot")).key("3", JIngredient.ingredient().item("minecraft:tripwire_hook")), JResult.result("ctft:" + id + "_crossbow")));
+                TagInjector.inject(Registry.ITEM, new Identifier("ctft","ctft_crossbows"), Registry.ITEM.get(new Identifier("ctft", id + "_crossbow")));
+                if(piglin_loved.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_loved"));}
+                if(freeze_immune_wearables.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","freeze_immune_wearables"));}
+                if(piglin_repellents.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_repellents"));}
                 if(ctftMaterial.combustion > 0) FuelRegistry.INSTANCE.add(item, ctftMaterial.combustion*multiplier);
             }
             if (Ctft.CONFIG.shieldsEnabled) {
@@ -471,11 +472,11 @@ public class OmegaReg {
                 var id = ctftMaterial.recipe_ingredient.toLowerCase();
                 Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/shield").textures((JModel.textures().var("0", "ctft:items/shield_base").var("1", ctftMaterial.namespace).particle(ctftMaterial.namespace))).addOverride(JModel.override(JModel.condition().parameter("blocking", 1.0), new Identifier("ctft", "item/" + id + "_shield_blocking"))), new Identifier("ctft", "item/" + id + "_shield"));
                 Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/shield_blocking").textures((JModel.textures().var("0", "ctft:items/shield_base").var("1", ctftMaterial.namespace).particle(ctftMaterial.namespace))), new Identifier("ctft", "item/" + id + "_shield_blocking"));
-                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_shield_from_crafting"), JRecipe.shaped(JPattern.pattern().row1("010").row2("000").row3(" 0 "), JKeys.keys().key("0", JIngredient.ingredient().item("minecraft:" + id)).key("1", JIngredient.ingredient().item("minecraft:iron_ingot")), JResult.result("ctft:" + id + "_shield")));
-                TagInjector.injectItems(new Identifier("ctft","ctft_shields"), Registry.ITEM.get(new Identifier("ctft", id + "_shield")));
-                if(piglin_loved.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), item);}
-                if(freeze_immune_wearables.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","freeze_immune_wearables"), item);}
-                if(piglin_repellents.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_repellents"), item);}
+//                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_shield_from_crafting"), JRecipe.shaped(JPattern.pattern().row1("010").row2("000").row3(" 0 "), JKeys.keys().key("0", JIngredient.ingredient().item("minecraft:" + id)).key("1", JIngredient.ingredient().item("minecraft:iron_ingot")), JResult.result("ctft:" + id + "_shield")));
+                TagInjector.inject(Registry.ITEM, new Identifier("ctft","ctft_shields"), Registry.ITEM.get(new Identifier("ctft", id + "_shield")));
+                if(piglin_loved.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_loved"));}
+                if(freeze_immune_wearables.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","freeze_immune_wearables"));}
+                if(piglin_repellents.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_repellents"));}
                 if(ctftMaterial.combustion > 0) FuelRegistry.INSTANCE.add(item, ctftMaterial.combustion*multiplier);
             }
             if (Ctft.CONFIG.shearsEnabled) {
@@ -504,11 +505,11 @@ public class OmegaReg {
                 Item item = register(ctftMaterial.recipe_ingredient.toLowerCase() + "_shears", new CustomShearsItem(ctftMaterial.foil, ctftMaterial.lang_key, settings));
                 var id = ctftMaterial.recipe_ingredient.toLowerCase();
                 Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/shears").textures((JModel.textures().var("0", "ctft:items/shears").var("1", ctftMaterial.namespace).particle(ctftMaterial.namespace))), new Identifier("ctft", "item/" + id + "_shears"));
-                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_shears_from_crafting"), JRecipe.shaped(JPattern.pattern().row1(" 0 ").row2("0  "), JKeys.keys().key("0", JIngredient.ingredient().item("minecraft:" + id)), JResult.result("ctft:" + id + "_shears")));
-                TagInjector.injectItems(new Identifier("ctft","ctft_shears"), Registry.ITEM.get(new Identifier("ctft", id + "_shears")));
-                if(piglin_loved.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), item);}
-                if(freeze_immune_wearables.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","freeze_immune_wearables"), item);}
-                if(piglin_repellents.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_repellents"), item);}
+//                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_shears_from_crafting"), JRecipe.shaped(JPattern.pattern().row1(" 0 ").row2("0  "), JKeys.keys().key("0", JIngredient.ingredient().item("minecraft:" + id)), JResult.result("ctft:" + id + "_shears")));
+                TagInjector.inject(Registry.ITEM, new Identifier("ctft","ctft_shears"), Registry.ITEM.get(new Identifier("ctft", id + "_shears")));
+                if(piglin_loved.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_loved"));}
+                if(freeze_immune_wearables.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","freeze_immune_wearables"));}
+                if(piglin_repellents.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_repellents"));}
                 if(ctftMaterial.combustion > 0) FuelRegistry.INSTANCE.add(item, ctftMaterial.combustion*multiplier);
             }
             if (Ctft.CONFIG.fishingRodsEnabled) {
@@ -538,14 +539,15 @@ public class OmegaReg {
                 var id = ctftMaterial.recipe_ingredient.toLowerCase();
                 Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/fishing_rod").textures((JModel.textures().var("0", "ctft:items/fishing_rod").var("1", ctftMaterial.namespace).particle(ctftMaterial.namespace))).addOverride(JModel.override(JModel.condition().parameter("cast", 1.0), new Identifier("ctft", "item/" + id + "_fishing_rod_cast"))), new Identifier("ctft", "item/" + id + "_fishing_rod"));
                 Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/fishing_rod_casting").textures((JModel.textures().var("0", "ctft:items/fishing_rod").var("1", ctftMaterial.namespace).particle(ctftMaterial.namespace))), new Identifier("ctft", "item/" + id + "_fishing_rod_cast"));
-                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_fishing_rod_from_crafting"), JRecipe.shaped(JPattern.pattern().row1("  0").row2(" 01").row3("0 1"), JKeys.keys().key("0", JIngredient.ingredient().item("minecraft:" + id)).key("1", JIngredient.ingredient().item("minecraft:string")), JResult.result("ctft:" + id + "_fishing_rod")));
-                TagInjector.injectItems(new Identifier("ctft","ctft_fishing_rods"), item);
-                if(piglin_loved.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), item);}
-                if(freeze_immune_wearables.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","freeze_immune_wearables"), item);}
-                if(piglin_repellents.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_repellents"), item);}
+//                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_fishing_rod_from_crafting"), JRecipe.shaped(JPattern.pattern().row1("  0").row2(" 01").row3("0 1"), JKeys.keys().key("0", JIngredient.ingredient().item("minecraft:" + id)).key("1", JIngredient.ingredient().item("minecraft:string")), JResult.result("ctft:" + id + "_fishing_rod")));
+                TagInjector.inject(Registry.ITEM, new Identifier("ctft","ctft_fishing_rods"), item);
+                if(piglin_loved.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_loved"));}
+                if(freeze_immune_wearables.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","freeze_immune_wearables"));}
+                if(piglin_repellents.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_repellents"));}
                 if(ctftMaterial.combustion > 0) FuelRegistry.INSTANCE.add(item, ctftMaterial.combustion*multiplier);
             }
             settings.maxDamage(0);
+            settings.maxCount(64);
             if (Ctft.CONFIG.clocksEnabled) {
                 int multiplier = 4;
                 if (ctftMaterial.is_food) {
@@ -701,11 +703,11 @@ public class OmegaReg {
                 Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_61").var("1", ctftMaterial.namespace).particle(ctftMaterial.namespace))), new Identifier("ctft", "item/" + id + "_clock_61"));
                 Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_62").var("1", ctftMaterial.namespace).particle(ctftMaterial.namespace))), new Identifier("ctft", "item/" + id + "_clock_62"));
                 Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/clock").textures((JModel.textures().var("0", "ctft:items/clock_63").var("1", ctftMaterial.namespace).particle(ctftMaterial.namespace))), new Identifier("ctft", "item/" + id + "_clock_63"));
-                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_clock_from_crafting"), JRecipe.shaped(JPattern.pattern().row1(" 0 ").row2("010").row3(" 0 "), JKeys.keys().key("0", JIngredient.ingredient().item("minecraft:" + id)).key("1", JIngredient.ingredient().item("minecraft:gold_ingot")), JResult.result("ctft:" + id + "_clock")));
-                TagInjector.injectItems(new Identifier("ctft","ctft_clocks"), item);
-                if(piglin_loved.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), item);}
-                if(freeze_immune_wearables.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","freeze_immune_wearables"), item);}
-                if(piglin_repellents.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_repellents"), item);}
+//                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_clock_from_crafting"), JRecipe.shaped(JPattern.pattern().row1(" 0 ").row2("010").row3(" 0 "), JKeys.keys().key("0", JIngredient.ingredient().item("minecraft:" + id)).key("1", JIngredient.ingredient().item("minecraft:gold_ingot")), JResult.result("ctft:" + id + "_clock")));
+                TagInjector.inject(Registry.ITEM, new Identifier("ctft","ctft_clocks"), item);
+                if(piglin_loved.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_loved"));}
+                if(freeze_immune_wearables.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","freeze_immune_wearables"));}
+                if(piglin_repellents.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_repellents"));}
                 if(ctftMaterial.combustion > 0) FuelRegistry.INSTANCE.add(item, ctftMaterial.combustion*multiplier);
             }
             if (Ctft.CONFIG.compassesEnabled) {
@@ -799,13 +801,14 @@ public class OmegaReg {
                 Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compass").textures((JModel.textures().var("0", "ctft:items/compass_29").var("1", ctftMaterial.namespace).particle(ctftMaterial.namespace))), new Identifier("ctft", "item/" + id + "_compass_29"));
                 Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compass").textures((JModel.textures().var("0", "ctft:items/compass_30").var("1", ctftMaterial.namespace).particle(ctftMaterial.namespace))), new Identifier("ctft", "item/" + id + "_compass_30"));
                 Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/compass").textures((JModel.textures().var("0", "ctft:items/compass_31").var("1", ctftMaterial.namespace).particle(ctftMaterial.namespace))), new Identifier("ctft", "item/" + id + "_compass_31"));
-                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compass_from_crafting"), JRecipe.shaped(JPattern.pattern().row1(" 0 ").row2("010").row3(" 0 "), JKeys.keys().key("0", JIngredient.ingredient().item("minecraft:" + id)).key("1", JIngredient.ingredient().item("minecraft:iron_ingot")), JResult.result("ctft:" + id + "_compass")));
-                TagInjector.injectItems(new Identifier("ctft","ctft_compasses"), item);
-                if(piglin_loved.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), item);}
-                if(freeze_immune_wearables.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","freeze_immune_wearables"), item);}
-                if(piglin_repellents.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_repellents"), item);}
+//                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_compass_from_crafting"), JRecipe.shaped(JPattern.pattern().row1(" 0 ").row2("010").row3(" 0 "), JKeys.keys().key("0", JIngredient.ingredient().item("minecraft:" + id)).key("1", JIngredient.ingredient().item("minecraft:iron_ingot")), JResult.result("ctft:" + id + "_compass")));
+                TagInjector.inject(Registry.ITEM, new Identifier("ctft","ctft_compasses"), item);
+                if(piglin_loved.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_loved"));}
+                if(freeze_immune_wearables.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","freeze_immune_wearables"));}
+                if(piglin_repellents.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_repellents"));}
                 if(ctftMaterial.combustion > 0) FuelRegistry.INSTANCE.add(item, ctftMaterial.combustion*multiplier);
             }
+            settings.maxCount(1);
             if (Ctft.CONFIG.horseArmorEnabled) {
                 int multiplier = 6;
                 if (ctftMaterial.is_food) {
@@ -832,13 +835,14 @@ public class OmegaReg {
                 Item item = register(ctftMaterial.recipe_ingredient.toLowerCase() + "_horse_armor", new CustomHorseArmorItem((ctftMaterial.helmet_protection + ctftMaterial.chestplate_protection + ctftMaterial.leggings_protection + ctftMaterial.boots_protection)/4, "ctft_" + ctftMaterial.texture_name, ctftMaterial.foil, ctftMaterial.lang_key, settings));
                 var id = ctftMaterial.recipe_ingredient.toLowerCase();
                 Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/horse_armor").textures((JModel.textures().var("0", "ctft:items/horse_armor").var("1", ctftMaterial.namespace).particle(ctftMaterial.namespace))), new Identifier("ctft", "item/" + id + "_horse_armor"));
-                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_horse_armor_from_crafting"), JRecipe.shaped(JPattern.pattern().row1("  0").row2("000").row3("0 0"), JKeys.keys().key("0", JIngredient.ingredient().item("minecraft:" + id)), JResult.result("ctft:" + id + "_horse_armor")));
-                TagInjector.injectItems(new Identifier("ctft","ctft_horse_armor"), Registry.ITEM.get(new Identifier("ctft", id + "_horse_armor")));
-                if(piglin_loved.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), item);}
-                if(freeze_immune_wearables.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","freeze_immune_wearables"), item);}
-                if(piglin_repellents.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_repellents"), item);}
+//                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_horse_armor_from_crafting"), JRecipe.shaped(JPattern.pattern().row1("  0").row2("000").row3("0 0"), JKeys.keys().key("0", JIngredient.ingredient().item("minecraft:" + id)), JResult.result("ctft:" + id + "_horse_armor")));
+                TagInjector.inject(Registry.ITEM, new Identifier("ctft","ctft_horse_armor"), Registry.ITEM.get(new Identifier("ctft", id + "_horse_armor")));
+                if(piglin_loved.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_loved"));}
+                if(freeze_immune_wearables.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","freeze_immune_wearables"));}
+                if(piglin_repellents.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_repellents"));}
                 if(ctftMaterial.combustion > 0) FuelRegistry.INSTANCE.add(item, ctftMaterial.combustion*multiplier);
             }
+            settings.maxCount(64);
             if (Ctft.CONFIG.blocksEnabled) {
                 int multiplier = 9;
                 if (ctftMaterial.is_food) {
@@ -868,8 +872,8 @@ public class OmegaReg {
                 Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
                         .put("", JState.model("ctft:item/" + id + "_block"))
                 ), new Identifier("ctft:" + id + "_block"));
-                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_block_from_material"), JRecipe.shaped(JPattern.pattern().row1("000").row2("000").row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("minecraft:" + id)), JResult.result("ctft:" + id + "_block")));
-                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_material_from_block"), JRecipe.shapeless(JIngredients.ingredients().add(JIngredient.ingredient().item("ctft:" + id + "_block")), JResult.stackedResult("minecraft:" + id, 9)));
+//                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_block_from_material"), JRecipe.shaped(JPattern.pattern().row1("000").row2("000").row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("minecraft:" + id)), JResult.result("ctft:" + id + "_block")));
+//                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_material_from_block"), JRecipe.shapeless(JIngredients.ingredients().add(JIngredient.ingredient().item("ctft:" + id + "_block")), JResult.stackedResult("minecraft:" + id, 9)));
                 Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_block"), JLootTable
                         .loot("block")
                         .pool(JLootTable.pool()
@@ -878,10 +882,10 @@ public class OmegaReg {
                                         .entry()
                                         .type("minecraft:item")
                                         .name("ctft:" + id + "_block"))));
-                TagInjector.injectItems(new Identifier("ctft","ctft_blocks"), Registry.ITEM.get(new Identifier("ctft", id + "_block")));
-                if(piglin_loved.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), item);}
-                if(freeze_immune_wearables.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","freeze_immune_wearables"), item);}
-                if(piglin_repellents.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_repellents"), item);}
+                TagInjector.inject(Registry.ITEM, new Identifier("ctft","ctft_blocks"), Registry.ITEM.get(new Identifier("ctft", id + "_block")));
+                if(piglin_loved.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_loved"));}
+                if(freeze_immune_wearables.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","freeze_immune_wearables"));}
+                if(piglin_repellents.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_repellents"));}
                 if(ctftMaterial.combustion > 0) FuelRegistry.INSTANCE.add(item, ctftMaterial.combustion*multiplier);
             }
             if (Ctft.CONFIG.stairsEnabled) {
@@ -955,8 +959,8 @@ public class OmegaReg {
                         .put("facing=west,half=top,shape=outer_right", JState.model("ctft:block/" + id + "_stairs_outer").x(180).y(270).uvlock())
                         .put("facing=west,half=top,shape=straight", JState.model("ctft:item/" + id + "_stairs").x(180).y(180).uvlock())
                 ), new Identifier("ctft:" + id + "_stairs"));
-                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_stairs_from_crafting"), JRecipe.shaped(JPattern.pattern().row1("0  ").row2("00 ").row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("minecraft:" + id)), JResult.stackedResult("ctft:" + id + "_stairs", 4)));
-                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_stairs_from_stonecutter"), JRecipe.stonecutting(JIngredient.ingredient().item("ctft:" + id + "_block"), JResult.stackedResult("ctft:" + id + "_stairs", 1)));
+//                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_stairs_from_crafting"), JRecipe.shaped(JPattern.pattern().row1("0  ").row2("00 ").row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("minecraft:" + id)), JResult.stackedResult("ctft:" + id + "_stairs", 4)));
+//                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_stairs_from_stonecutter"), JRecipe.stonecutting(JIngredient.ingredient().item("ctft:" + id + "_block"), JResult.stackedResult("ctft:" + id + "_stairs", 1)));
                 Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_stairs"), JLootTable
                         .loot("block")
                         .pool(JLootTable
@@ -966,10 +970,10 @@ public class OmegaReg {
                                         .entry()
                                         .type("minecraft:item")
                                         .name("ctft:" + id + "_stairs"))));
-                TagInjector.injectItems(new Identifier("ctft","ctft_stairs"), Registry.ITEM.get(new Identifier("ctft", id + "_stairs")));
-                if(piglin_loved.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), item);}
-                if(freeze_immune_wearables.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","freeze_immune_wearables"), item);}
-                if(piglin_repellents.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_repellents"), item);}
+                TagInjector.inject(Registry.ITEM, new Identifier("ctft","ctft_stairs"), Registry.ITEM.get(new Identifier("ctft", id + "_stairs")));
+                if(piglin_loved.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_loved"));}
+                if(freeze_immune_wearables.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","freeze_immune_wearables"));}
+                if(piglin_repellents.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_repellents"));}
                 if(ctftMaterial.combustion > 0) FuelRegistry.INSTANCE.add(item, ctftMaterial.combustion*multiplier);
             }
             if (Ctft.CONFIG.slabsEnabled) {
@@ -1005,8 +1009,8 @@ public class OmegaReg {
                         .put("type=double", JState.model("ctft:item/" + id + "_block"))
                         .put("type=top", JState.model("ctft:block/" + id + "_slab_top"))
                 ), new Identifier("ctft:" + id + "_slab"));
-                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_slab_from_crafting"), JRecipe.shaped(JPattern.pattern().row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("ctft:" + id + "_block")), JResult.stackedResult("ctft:" + id + "_slab", 6)));
-                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_slab_from_stonecutter"), JRecipe.stonecutting(JIngredient.ingredient().item("minecraft:" + id), JResult.stackedResult("ctft:" + id + "_slab", 2)));
+//                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_slab_from_crafting"), JRecipe.shaped(JPattern.pattern().row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("ctft:" + id + "_block")), JResult.stackedResult("ctft:" + id + "_slab", 6)));
+//                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_slab_from_stonecutter"), JRecipe.stonecutting(JIngredient.ingredient().item("minecraft:" + id), JResult.stackedResult("ctft:" + id + "_slab", 2)));
                 var doubleslab = new JsonObject();
                 doubleslab.addProperty("type", "double");
                 Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_slab"), JLootTable
@@ -1032,10 +1036,10 @@ public class OmegaReg {
                                 )
                         )
                 );
-                TagInjector.injectItems(new Identifier("ctft","ctft_slabs"), Registry.ITEM.get(new Identifier("ctft", id + "_slab")));
-                if(piglin_loved.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), item);}
-                if(freeze_immune_wearables.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","freeze_immune_wearables"), item);}
-                if(piglin_repellents.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_repellents"), item);}
+                TagInjector.inject(Registry.ITEM, new Identifier("ctft","ctft_slabs"), Registry.ITEM.get(new Identifier("ctft", id + "_slab")));
+                if(piglin_loved.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_loved"));}
+                if(freeze_immune_wearables.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","freeze_immune_wearables"));}
+                if(piglin_repellents.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_repellents"));}
                 if(ctftMaterial.combustion > 0) FuelRegistry.INSTANCE.add(item, ctftMaterial.combustion*multiplier);
             }
             if (Ctft.CONFIG.glassEnabled) {
@@ -1068,7 +1072,7 @@ public class OmegaReg {
                 Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
                         .put("", JState.model("ctft:item/" + id + "_glass"))
                 ), new Identifier("ctft:" + id + "_glass"));
-                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_glass_from_smelting"), JRecipe.smelting(JIngredient.ingredient().item("ctft:" + id + "_block"), JResult.result("ctft:" + id + "_glass")).cookingTime(200).experience(0.1f));
+//                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_glass_from_smelting"), JRecipe.smelting(JIngredient.ingredient().item("ctft:" + id + "_block"), JResult.result("ctft:" + id + "_glass")).cookingTime(200).experience(0.1f));
                 Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_glass"), JLootTable
                         .loot("block")
                         .pool(JLootTable.pool()
@@ -1077,10 +1081,10 @@ public class OmegaReg {
                                         .entry()
                                         .type("minecraft:item")
                                         .name("ctft:" + id + "_glass"))));
-                TagInjector.injectItems(new Identifier("ctft","ctft_glass"), Registry.ITEM.get(new Identifier("ctft", id + "_glass")));
-                if(piglin_loved.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), item);}
-                if(freeze_immune_wearables.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","freeze_immune_wearables"), item);}
-                if(piglin_repellents.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_repellents"), item);}
+                TagInjector.inject(Registry.ITEM, new Identifier("ctft","ctft_glass"), Registry.ITEM.get(new Identifier("ctft", id + "_glass")));
+                if(piglin_loved.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_loved"));}
+                if(freeze_immune_wearables.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","freeze_immune_wearables"));}
+                if(piglin_repellents.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_repellents"));}
                 if(ctftMaterial.combustion > 0) FuelRegistry.INSTANCE.add(item, ctftMaterial.combustion*multiplier);
             }
             if (Ctft.CONFIG.glassPanesEnabled) {
@@ -1126,7 +1130,7 @@ public class OmegaReg {
                                 .add(JState.multipart(JState.model("ctft:block/" + id + "_glass_pane_noside_alt").y(90)).when(JState.when().add("south", "false")))
                                 .add(JState.multipart(JState.model("ctft:block/" + id + "_glass_pane_noside").y(270)).when(JState.when().add("west", "false")))
                         , new Identifier("ctft:" + id + "_glass_pane"));
-                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_glass_pane_from_crafting"), JRecipe.shaped(JPattern.pattern().row2("000").row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("ctft:" + id + "_glass")), JResult.stackedResult("ctft:" + id + "_glass_pane", 16)));
+//                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_glass_pane_from_crafting"), JRecipe.shaped(JPattern.pattern().row2("000").row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("ctft:" + id + "_glass")), JResult.stackedResult("ctft:" + id + "_glass_pane", 16)));
                 Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_glass_pane"), JLootTable
                         .loot("block")
                         .pool(JLootTable
@@ -1136,10 +1140,10 @@ public class OmegaReg {
                                         .entry()
                                         .type("minecraft:item")
                                         .name("ctft:" + id + "_glass_pane"))));
-                TagInjector.injectItems(new Identifier("ctft","ctft_glass_panes"), Registry.ITEM.get(new Identifier("ctft", id + "_glass_pane")));
-                if(piglin_loved.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), item);}
-                if(freeze_immune_wearables.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","freeze_immune_wearables"), item);}
-                if(piglin_repellents.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_repellents"), item);}
+                TagInjector.inject(Registry.ITEM, new Identifier("ctft","ctft_glass_panes"), Registry.ITEM.get(new Identifier("ctft", id + "_glass_pane")));
+                if(piglin_loved.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_loved"));}
+                if(freeze_immune_wearables.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","freeze_immune_wearables"));}
+                if(piglin_repellents.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_repellents"));}
                 if(ctftMaterial.combustion > 0) FuelRegistry.INSTANCE.add(item, ctftMaterial.combustion*multiplier);
             }
             if (Ctft.CONFIG.panesEnabled) {
@@ -1185,7 +1189,7 @@ public class OmegaReg {
                                 .add(JState.multipart(JState.model("ctft:block/" + id + "_pane_noside_alt").y(90)).when(JState.when().add("south", "false")))
                                 .add(JState.multipart(JState.model("ctft:block/" + id + "_pane_noside").y(270)).when(JState.when().add("west", "false")))
                         , new Identifier("ctft:" + id + "_pane"));
-                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_pane_from_crafting"), JRecipe.shaped(JPattern.pattern().row2("000").row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("ctft:" + id + "_block")), JResult.stackedResult("ctft:" + id + "_pane", 16)));
+//                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_pane_from_crafting"), JRecipe.shaped(JPattern.pattern().row2("000").row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("ctft:" + id + "_block")), JResult.stackedResult("ctft:" + id + "_pane", 16)));
                 Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_pane"), JLootTable
                         .loot("block")
                         .pool(JLootTable
@@ -1195,10 +1199,10 @@ public class OmegaReg {
                                         .entry()
                                         .type("minecraft:item")
                                         .name("ctft:" + id + "_pane"))));
-                TagInjector.injectItems(new Identifier("ctft","ctft_panes"), Registry.ITEM.get(new Identifier("ctft", id + "_pane")));
-                if(piglin_loved.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), item);}
-                if(freeze_immune_wearables.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","freeze_immune_wearables"), item);}
-                if(piglin_repellents.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_repellents"), item);}
+                TagInjector.inject(Registry.ITEM, new Identifier("ctft","ctft_panes"), Registry.ITEM.get(new Identifier("ctft", id + "_pane")));
+                if(piglin_loved.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_loved"));}
+                if(freeze_immune_wearables.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","freeze_immune_wearables"));}
+                if(piglin_repellents.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_repellents"));}
                 if(ctftMaterial.combustion > 0) FuelRegistry.INSTANCE.add(item, ctftMaterial.combustion*multiplier);
             }
             if (Ctft.CONFIG.layersEnabled) {
@@ -1244,7 +1248,7 @@ public class OmegaReg {
                         .put("layers=7", JState.model("ctft:block/" + id + "_layer_height14"))
                         .put("layers=8", JState.model("ctft:item/" + id + "_block"))
                 ), new Identifier("ctft:" + id + "_layer"));
-                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_layer_from_crafting"), JRecipe.shaped(JPattern.pattern().row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("ctft:" + id + "_slab")), JResult.stackedResult("ctft:" + id + "_layer", 12)));
+//                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_layer_from_crafting"), JRecipe.shaped(JPattern.pattern().row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("ctft:" + id + "_slab")), JResult.stackedResult("ctft:" + id + "_layer", 12)));
                 var layer2 = new JsonObject();
                 var layer3 = new JsonObject();
                 var layer4 = new JsonObject();
@@ -1337,12 +1341,12 @@ public class OmegaReg {
                         )
                 );
                 if (Ctft.CONFIG.slabsEnabled) {
-                    Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_slab_from_layer"), JRecipe.shaped(JPattern.pattern().row2(" 00").row3(" 00"), JKeys.keys().key("0", JIngredient.ingredient().item("ctft:" + id + "_layer")), JResult.stackedResult("ctft:" + id + "_slab", 1)));
+//                    Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_slab_from_layer"), JRecipe.shaped(JPattern.pattern().row2(" 00").row3(" 00"), JKeys.keys().key("0", JIngredient.ingredient().item("ctft:" + id + "_layer")), JResult.stackedResult("ctft:" + id + "_slab", 1)));
                 }
-                TagInjector.injectItems(new Identifier("ctft","ctft_layers"), Registry.ITEM.get(new Identifier("ctft", id + "_layer")));
-                if(piglin_loved.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), item);}
-                if(freeze_immune_wearables.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","freeze_immune_wearables"), item);}
-                if(piglin_repellents.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_repellents"), item);}
+                TagInjector.inject(Registry.ITEM, new Identifier("ctft","ctft_layers"), Registry.ITEM.get(new Identifier("ctft", id + "_layer")));
+                if(piglin_loved.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_loved"));}
+                if(freeze_immune_wearables.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","freeze_immune_wearables"));}
+                if(piglin_repellents.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_repellents"));}
                 if(ctftMaterial.combustion > 0) FuelRegistry.INSTANCE.add(item, ctftMaterial.combustion*multiplier);
             }
             if (Ctft.CONFIG.fencesEnabled) {
@@ -1381,7 +1385,7 @@ public class OmegaReg {
                                 .add(JState.multipart(JState.model("ctft:block/" + id + "_fence_side").y(180)).when(JState.when().add("south", "true")))
                                 .add(JState.multipart(JState.model("ctft:block/" + id + "_fence_side").y(270)).when(JState.when().add("west", "true")))
                         , new Identifier("ctft:" + id + "_fence"));
-                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_fence_from_crafting"), JRecipe.shaped(JPattern.pattern().row2("010").row3("010"), JKeys.keys().key("0", JIngredient.ingredient().item("minecraft:" + id)).key("1", JIngredient.ingredient().item("minecraft:stick")), JResult.stackedResult("ctft:" + id + "_fence", 3)));
+//                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_fence_from_crafting"), JRecipe.shaped(JPattern.pattern().row2("010").row3("010"), JKeys.keys().key("0", JIngredient.ingredient().item("minecraft:" + id)).key("1", JIngredient.ingredient().item("minecraft:stick")), JResult.stackedResult("ctft:" + id + "_fence", 3)));
                 Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_fence"), JLootTable
                         .loot("block")
                         .pool(JLootTable
@@ -1391,11 +1395,11 @@ public class OmegaReg {
                                         .entry()
                                         .type("minecraft:item")
                                         .name("ctft:" + id + "_fence"))));
-                TagInjector.injectBlocks(new Identifier("minecraft","fences"), Registry.BLOCK.get(new Identifier("ctft", id + "_fence")));
-                TagInjector.injectItems(new Identifier("ctft","ctft_fences"), Registry.ITEM.get(new Identifier("ctft", id + "_fence")));
-                if(piglin_loved.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), item);}
-                if(freeze_immune_wearables.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","freeze_immune_wearables"), item);}
-                if(piglin_repellents.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_repellents"), item);}
+                TagInjector.inject(Registry.BLOCK, new Identifier("minecraft","fences"), Registry.BLOCK.get(new Identifier("ctft", id + "_fence")));
+                TagInjector.inject(Registry.ITEM, new Identifier("ctft","ctft_fences"), Registry.ITEM.get(new Identifier("ctft", id + "_fence")));
+                if(piglin_loved.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_loved"));}
+                if(freeze_immune_wearables.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","freeze_immune_wearables"));}
+                if(piglin_repellents.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_repellents"));}
                 if(ctftMaterial.combustion > 0) FuelRegistry.INSTANCE.add(item, ctftMaterial.combustion*multiplier);
             }
             if (Ctft.CONFIG.fenceGatesEnabled) {
@@ -1446,7 +1450,7 @@ public class OmegaReg {
                         .put("facing=west,in_wall=true,open=false", JState.model("ctft:block/" + id + "_fence_gate_wall_close").uvlock().y(90))
                         .put("facing=west,in_wall=true,open=true", JState.model("ctft:block/" + id + "_fence_gate_wall_open").uvlock().y(90))
                 ), new Identifier("ctft:" + id + "_fence_gate"));
-                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_fence_gate_from_crafting"), JRecipe.shaped(JPattern.pattern().row2("101").row3("101"), JKeys.keys().key("0", JIngredient.ingredient().item("minecraft:" + id)).key("1", JIngredient.ingredient().item("minecraft:stick")), JResult.result("ctft:" + id + "_fence_gate")));
+//                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_fence_gate_from_crafting"), JRecipe.shaped(JPattern.pattern().row2("101").row3("101"), JKeys.keys().key("0", JIngredient.ingredient().item("minecraft:" + id)).key("1", JIngredient.ingredient().item("minecraft:stick")), JResult.result("ctft:" + id + "_fence_gate")));
                 Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_fence_gate"), JLootTable
                         .loot("block")
                         .pool(JLootTable.pool()
@@ -1455,10 +1459,10 @@ public class OmegaReg {
                                         .entry()
                                         .type("minecraft:item")
                                         .name("ctft:" + id + "_fence_gate"))));
-                TagInjector.injectItems(new Identifier("ctft","ctft_fence_gates"), Registry.ITEM.get(new Identifier("ctft", id + "_fence_gate")));
-                if(piglin_loved.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), item);}
-                if(freeze_immune_wearables.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","freeze_immune_wearables"), item);}
-                if(piglin_repellents.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_repellents"), item);}
+                TagInjector.inject(Registry.ITEM, new Identifier("ctft","ctft_fence_gates"), Registry.ITEM.get(new Identifier("ctft", id + "_fence_gate")));
+                if(piglin_loved.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_loved"));}
+                if(freeze_immune_wearables.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","freeze_immune_wearables"));}
+                if(piglin_repellents.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_repellents"));}
                 if(ctftMaterial.combustion > 0) FuelRegistry.INSTANCE.add(item, ctftMaterial.combustion*multiplier);
             }
             if (Ctft.CONFIG.wallsEnabled) {
@@ -1502,7 +1506,7 @@ public class OmegaReg {
                                 .add(JState.multipart(JState.model("ctft:block/" + id + "_wall_side_tall").y(180).uvlock()).when(JState.when().add("south", "tall")))
                                 .add(JState.multipart(JState.model("ctft:block/" + id + "_wall_side_tall").y(270).uvlock()).when(JState.when().add("west", "tall")))
                         , new Identifier("ctft:" + id + "_wall"));
-                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_wall_from_stonecutter"), JRecipe.stonecutting(JIngredient.ingredient().item("minecraft:" + id), JResult.stackedResult("ctft:" + id + "_wall", 1)));
+//                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_wall_from_stonecutter"), JRecipe.stonecutting(JIngredient.ingredient().item("minecraft:" + id), JResult.stackedResult("ctft:" + id + "_wall", 1)));
                 Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_wall"), JLootTable
                         .loot("block")
                         .pool(JLootTable
@@ -1512,11 +1516,11 @@ public class OmegaReg {
                                         .entry()
                                         .type("minecraft:item")
                                         .name("ctft:" + id + "_wall"))));
-                TagInjector.injectBlocks(new Identifier("minecraft","walls"), Registry.BLOCK.get(new Identifier("ctft", id + "_wall")));
-                TagInjector.injectItems(new Identifier("ctft","ctft_walls"), Registry.ITEM.get(new Identifier("ctft", id + "_wall")));
-                if(piglin_loved.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), item);}
-                if(freeze_immune_wearables.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","freeze_immune_wearables"), item);}
-                if(piglin_repellents.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_repellents"), item);}
+                TagInjector.inject(Registry.BLOCK, new Identifier("minecraft","walls"), Registry.BLOCK.get(new Identifier("ctft", id + "_wall")));
+                TagInjector.inject(Registry.ITEM, new Identifier("ctft","ctft_walls"), Registry.ITEM.get(new Identifier("ctft", id + "_wall")));
+                if(piglin_loved.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_loved"));}
+                if(freeze_immune_wearables.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","freeze_immune_wearables"));}
+                if(piglin_repellents.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_repellents"));}
                 if(ctftMaterial.combustion > 0) FuelRegistry.INSTANCE.add(item, ctftMaterial.combustion*multiplier);
             }
             if (Ctft.CONFIG.doorsEnabled) {
@@ -1546,45 +1550,49 @@ public class OmegaReg {
                 Item item = register(ctftMaterial.recipe_ingredient.toLowerCase() + "_door", new CustomBlockItem(block, ctftMaterial.foil, "door", ctftMaterial.lang_key, settings));
                 var id = ctftMaterial.recipe_ingredient.toLowerCase();
                 Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/door").textures((JModel.textures().var("0", "minecraft:item/oak_door").var("1", ctftMaterial.namespace).particle(ctftMaterial.namespace))), new Identifier("ctft", "item/" + id + "_door"));
-                Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/door_bottom").textures((JModel.textures().var("top", "ctft:blocks/" + ctftMaterial.texture_name + "_door_top").var("bottom", "ctft:blocks/" + ctftMaterial.texture_name + "_door_bottom").particle(ctftMaterial.namespace))), new Identifier("ctft", "block/" + id + "_door_bottom"));
-                Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/door_bottom_rh").textures((JModel.textures().var("top", "ctft:blocks/" + ctftMaterial.texture_name + "_door_top").var("bottom", "ctft:blocks/" + ctftMaterial.texture_name + "_door_bottom").particle(ctftMaterial.namespace))), new Identifier("ctft", "block/" + id + "_door_bottom_hinge"));
-                Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/door_top").textures((JModel.textures().var("top", "ctft:blocks/" + ctftMaterial.texture_name + "_door_top").var("bottom", "ctft:blocks/" + ctftMaterial.texture_name + "_door_bottom").particle(ctftMaterial.namespace))), new Identifier("ctft", "block/" + id + "_door_top"));
-                Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/door_top_rh").textures((JModel.textures().var("top", "ctft:blocks/" + ctftMaterial.texture_name + "_door_top").var("bottom", "ctft:blocks/" + ctftMaterial.texture_name + "_door_bottom").particle(ctftMaterial.namespace))), new Identifier("ctft", "block/" + id + "_door_top_hinge"));
+                Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/door_bottom_left").textures((JModel.textures().var("bottom", "ctft:blocks/" + ctftMaterial.texture_name + "_door_bottom").particle(ctftMaterial.namespace))), new Identifier("ctft", "block/" + id + "_door_bottom_left"));
+                Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/door_bottom_right").textures((JModel.textures().var("bottom", "ctft:blocks/" + ctftMaterial.texture_name + "_door_bottom").particle(ctftMaterial.namespace))), new Identifier("ctft", "block/" + id + "_door_bottom_right"));
+                Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/door_bottom_left_open").textures((JModel.textures().var("bottom", "ctft:blocks/" + ctftMaterial.texture_name + "_door_bottom").particle(ctftMaterial.namespace))), new Identifier("ctft", "block/" + id + "_door_bottom_left_open"));
+                Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/door_bottom_right_open").textures((JModel.textures().var("bottom", "ctft:blocks/" + ctftMaterial.texture_name + "_door_bottom").particle(ctftMaterial.namespace))), new Identifier("ctft", "block/" + id + "_door_bottom_right_open"));
+                Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/door_top_left").textures((JModel.textures().var("top", "ctft:blocks/" + ctftMaterial.texture_name + "_door_top").particle(ctftMaterial.namespace))), new Identifier("ctft", "block/" + id + "_door_top_left"));
+                Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/door_top_right").textures((JModel.textures().var("top", "ctft:blocks/" + ctftMaterial.texture_name + "_door_top").particle(ctftMaterial.namespace))), new Identifier("ctft", "block/" + id + "_door_top_right"));
+                Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/door_top_left_open").textures((JModel.textures().var("top", "ctft:blocks/" + ctftMaterial.texture_name + "_door_top").particle(ctftMaterial.namespace))), new Identifier("ctft", "block/" + id + "_door_top_left_open"));
+                Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("minecraft:block/door_top_right_open").textures((JModel.textures().var("top", "ctft:blocks/" + ctftMaterial.texture_name + "_door_top").particle(ctftMaterial.namespace))), new Identifier("ctft", "block/" + id + "_door_top_right_open"));
                 Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
-                        .put("facing=east,half=lower,hinge=left,open=false", JState.model("ctft:block/" + id + "_door_bottom"))
-                        .put("facing=east,half=lower,hinge=left,open=true", JState.model("ctft:block/" + id + "_door_bottom_hinge").y(90))
-                        .put("facing=east,half=lower,hinge=right,open=false", JState.model("ctft:block/" + id + "_door_bottom_hinge"))
-                        .put("facing=east,half=lower,hinge=right,open=true", JState.model("ctft:block/" + id + "_door_bottom").y(270))
-                        .put("facing=east,half=upper,hinge=left,open=false", JState.model("ctft:block/" + id + "_door_top"))
-                        .put("facing=east,half=upper,hinge=left,open=true", JState.model("ctft:block/" + id + "_door_top_hinge").y(90))
-                        .put("facing=east,half=upper,hinge=right,open=false", JState.model("ctft:block/" + id + "_door_top_hinge"))
-                        .put("facing=east,half=upper,hinge=right,open=true", JState.model("ctft:block/" + id + "_door_top").y(270))
-                        .put("facing=north,half=lower,hinge=left,open=false", JState.model("ctft:block/" + id + "_door_bottom").y(270))
-                        .put("facing=north,half=lower,hinge=left,open=true", JState.model("ctft:block/" + id + "_door_bottom_hinge"))
-                        .put("facing=north,half=lower,hinge=right,open=false", JState.model("ctft:block/" + id + "_door_bottom_hinge").y(270))
-                        .put("facing=north,half=lower,hinge=right,open=true", JState.model("ctft:block/" + id + "_door_bottom").y(180))
-                        .put("facing=north,half=upper,hinge=left,open=false", JState.model("ctft:block/" + id + "_door_top").y(270))
-                        .put("facing=north,half=upper,hinge=left,open=true", JState.model("ctft:block/" + id + "_door_top_hinge"))
-                        .put("facing=north,half=upper,hinge=right,open=false", JState.model("ctft:block/" + id + "_door_top_hinge").y(270))
-                        .put("facing=north,half=upper,hinge=right,open=true", JState.model("ctft:block/" + id + "_door_top").y(180))
-                        .put("facing=south,half=lower,hinge=left,open=false", JState.model("ctft:block/" + id + "_door_bottom").y(90))
-                        .put("facing=south,half=lower,hinge=left,open=true", JState.model("ctft:block/" + id + "_door_bottom_hinge").y(180))
-                        .put("facing=south,half=lower,hinge=right,open=false", JState.model("ctft:block/" + id + "_door_bottom_hinge").y(90))
-                        .put("facing=south,half=lower,hinge=right,open=true", JState.model("ctft:block/" + id + "_door_bottom"))
-                        .put("facing=south,half=upper,hinge=left,open=false", JState.model("ctft:block/" + id + "_door_top").y(90))
-                        .put("facing=south,half=upper,hinge=left,open=true", JState.model("ctft:block/" + id + "_door_top_hinge").y(180))
-                        .put("facing=south,half=upper,hinge=right,open=false", JState.model("ctft:block/" + id + "_door_top_hinge").y(90))
-                        .put("facing=south,half=upper,hinge=right,open=true", JState.model("ctft:block/" + id + "_door_top"))
-                        .put("facing=west,half=lower,hinge=left,open=false", JState.model("ctft:block/" + id + "_door_bottom").y(180))
-                        .put("facing=west,half=lower,hinge=left,open=true", JState.model("ctft:block/" + id + "_door_bottom_hinge").y(270))
-                        .put("facing=west,half=lower,hinge=right,open=false", JState.model("ctft:block/" + id + "_door_bottom_hinge").y(180))
-                        .put("facing=west,half=lower,hinge=right,open=true", JState.model("ctft:block/" + id + "_door_bottom").y(90))
-                        .put("facing=west,half=upper,hinge=left,open=false", JState.model("ctft:block/" + id + "_door_top").y(180))
-                        .put("facing=west,half=upper,hinge=left,open=true", JState.model("ctft:block/" + id + "_door_top_hinge").y(270))
-                        .put("facing=west,half=upper,hinge=right,open=false", JState.model("ctft:block/" + id + "_door_top_hinge").y(180))
-                        .put("facing=west,half=upper,hinge=right,open=true", JState.model("ctft:block/" + id + "_door_top").y(90))
+                        .put("facing=east,half=lower,hinge=left,open=false", JState.model("ctft:block/" + id + "_door_bottom_left"))
+                        .put("facing=east,half=lower,hinge=left,open=true", JState.model("ctft:block/" + id + "_door_bottom_left_open").y(90))
+                        .put("facing=east,half=lower,hinge=right,open=false", JState.model("ctft:block/" + id + "_door_bottom_right"))
+                        .put("facing=east,half=lower,hinge=right,open=true", JState.model("ctft:block/" + id + "_door_bottom_right_open").y(270))
+                        .put("facing=east,half=upper,hinge=left,open=false", JState.model("ctft:block/" + id + "_door_top_left"))
+                        .put("facing=east,half=upper,hinge=left,open=true", JState.model("ctft:block/" + id + "_door_top_left_open").y(90))
+                        .put("facing=east,half=upper,hinge=right,open=false", JState.model("ctft:block/" + id + "_door_top_right"))
+                        .put("facing=east,half=upper,hinge=right,open=true", JState.model("ctft:block/" + id + "_door_top_right_open").y(270))
+                        .put("facing=north,half=lower,hinge=left,open=false", JState.model("ctft:block/" + id + "_door_bottom_left").y(270))
+                        .put("facing=north,half=lower,hinge=left,open=true", JState.model("ctft:block/" + id + "_door_bottom_left_open"))
+                        .put("facing=north,half=lower,hinge=right,open=false", JState.model("ctft:block/" + id + "_door_bottom_right").y(270))
+                        .put("facing=north,half=lower,hinge=right,open=true", JState.model("ctft:block/" + id + "_door_bottom_right_open").y(180))
+                        .put("facing=north,half=upper,hinge=left,open=false", JState.model("ctft:block/" + id + "_door_top_left").y(270))
+                        .put("facing=north,half=upper,hinge=left,open=true", JState.model("ctft:block/" + id + "_door_top_left_open"))
+                        .put("facing=north,half=upper,hinge=right,open=false", JState.model("ctft:block/" + id + "_door_top_right").y(270))
+                        .put("facing=north,half=upper,hinge=right,open=true", JState.model("ctft:block/" + id + "_door_top_right_open").y(180))
+                        .put("facing=south,half=lower,hinge=left,open=false", JState.model("ctft:block/" + id + "_door_bottom_left").y(90))
+                        .put("facing=south,half=lower,hinge=left,open=true", JState.model("ctft:block/" + id + "_door_bottom_left_open").y(180))
+                        .put("facing=south,half=lower,hinge=right,open=false", JState.model("ctft:block/" + id + "_door_bottom_right").y(90))
+                        .put("facing=south,half=lower,hinge=right,open=true", JState.model("ctft:block/" + id + "_door_bottom_right_open"))
+                        .put("facing=south,half=upper,hinge=left,open=false", JState.model("ctft:block/" + id + "_door_top_left").y(90))
+                        .put("facing=south,half=upper,hinge=left,open=true", JState.model("ctft:block/" + id + "_door_top_left_open").y(180))
+                        .put("facing=south,half=upper,hinge=right,open=false", JState.model("ctft:block/" + id + "_door_top_right").y(90))
+                        .put("facing=south,half=upper,hinge=right,open=true", JState.model("ctft:block/" + id + "_door_top_right_open"))
+                        .put("facing=west,half=lower,hinge=left,open=false", JState.model("ctft:block/" + id + "_door_bottom_left").y(180))
+                        .put("facing=west,half=lower,hinge=left,open=true", JState.model("ctft:block/" + id + "_door_bottom_left_open").y(270))
+                        .put("facing=west,half=lower,hinge=right,open=false", JState.model("ctft:block/" + id + "_door_bottom_right").y(180))
+                        .put("facing=west,half=lower,hinge=right,open=true", JState.model("ctft:block/" + id + "_door_bottom_right_open").y(90))
+                        .put("facing=west,half=upper,hinge=left,open=false", JState.model("ctft:block/" + id + "_door_top_left").y(180))
+                        .put("facing=west,half=upper,hinge=left,open=true", JState.model("ctft:block/" + id + "_door_top_left_open").y(270))
+                        .put("facing=west,half=upper,hinge=right,open=false", JState.model("ctft:block/" + id + "_door_top_right").y(180))
+                        .put("facing=west,half=upper,hinge=right,open=true", JState.model("ctft:block/" + id + "_door_top_right_open").y(90))
                 ), new Identifier("ctft:" + id + "_door"));
-                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_door_from_crafting"), JRecipe.shaped(JPattern.pattern().row1("00 ").row2("00 ").row3("00 "), JKeys.keys().key("0", JIngredient.ingredient().item("minecraft:" + id)), JResult.stackedResult("ctft:" + id + "_door", 3)));
+//                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_door_from_crafting"), JRecipe.shaped(JPattern.pattern().row1("00 ").row2("00 ").row3("00 "), JKeys.keys().key("0", JIngredient.ingredient().item("minecraft:" + id)), JResult.stackedResult("ctft:" + id + "_door", 3)));
                 var upperdoor = new JsonObject();
                 upperdoor.addProperty("half", "upper");
                 Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_door"), JLootTable
@@ -1610,10 +1618,10 @@ public class OmegaReg {
                                 )
                         )
                 );
-                TagInjector.injectItems(new Identifier("ctft","ctft_doors"), Registry.ITEM.get(new Identifier("ctft", id + "_door")));
-                if(piglin_loved.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), item);}
-                if(freeze_immune_wearables.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","freeze_immune_wearables"), item);}
-                if(piglin_repellents.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_repellents"), item);}
+                TagInjector.inject(Registry.ITEM, new Identifier("ctft","ctft_doors"), Registry.ITEM.get(new Identifier("ctft", id + "_door")));
+                if(piglin_loved.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_loved"));}
+                if(freeze_immune_wearables.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","freeze_immune_wearables"));}
+                if(piglin_repellents.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_repellents"));}
                 if(ctftMaterial.combustion > 0) FuelRegistry.INSTANCE.add(item, ctftMaterial.combustion*multiplier);
             }
             if (Ctft.CONFIG.trapDoorsEnabled) {
@@ -1663,7 +1671,7 @@ public class OmegaReg {
                         .put("facing=west,half=top,open=false", JState.model("ctft:block/" + id + "_trapdoor_top").y(270))
                         .put("facing=west,half=top,open=true", JState.model("ctft:block/" + id + "_trapdoor_open").x(180).y(90))
                 ), new Identifier("ctft:" + id + "_trapdoor"));
-                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_trapdoor_from_crafting"), JRecipe.shaped(JPattern.pattern().row2("000").row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("minecraft:" + id)), JResult.stackedResult("ctft:" + id + "_trapdoor", 2)));
+//                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_trapdoor_from_crafting"), JRecipe.shaped(JPattern.pattern().row2("000").row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("minecraft:" + id)), JResult.stackedResult("ctft:" + id + "_trapdoor", 2)));
                 Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_trapdoor"), JLootTable
                         .loot("block")
                         .pool(JLootTable.pool()
@@ -1672,10 +1680,10 @@ public class OmegaReg {
                                         .entry()
                                         .type("minecraft:item")
                                         .name("ctft:" + id + "_trapdoor"))));
-                TagInjector.injectItems(new Identifier("ctft","ctft_trapdoors"), Registry.ITEM.get(new Identifier("ctft", id + "_trapdoor")));
-                if(piglin_loved.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), item);}
-                if(freeze_immune_wearables.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","freeze_immune_wearables"), item);}
-                if(piglin_repellents.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_repellents"), item);}
+                TagInjector.inject(Registry.ITEM, new Identifier("ctft","ctft_trapdoors"), Registry.ITEM.get(new Identifier("ctft", id + "_trapdoor")));
+                if(piglin_loved.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_loved"));}
+                if(freeze_immune_wearables.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","freeze_immune_wearables"));}
+                if(piglin_repellents.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_repellents"));}
                 if(ctftMaterial.combustion > 0) FuelRegistry.INSTANCE.add(item, ctftMaterial.combustion*multiplier);
             }
             if (Ctft.CONFIG.leversEnabled) {
@@ -1733,7 +1741,7 @@ public class OmegaReg {
                         .put("face=wall,facing=west,powered=true", JState.model("ctft:block/" + id + "_lever_off").x(90).y(270))
                         .put("face=wall,facing=west,powered=false", JState.model("ctft:block/" + id + "_lever_on").x(90).y(270))
                 ), new Identifier("ctft:" + id + "_lever"));
-                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_lever_from_crafting"), JRecipe.shaped(JPattern.pattern().row2(" 0 ").row3(" 1 "), JKeys.keys().key("0", JIngredient.ingredient().item("minecraft:stick")).key("1", JIngredient.ingredient().item("minecraft:" + id)), JResult.result("ctft:" + id + "_lever")));
+//                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_lever_from_crafting"), JRecipe.shaped(JPattern.pattern().row2(" 0 ").row3(" 1 "), JKeys.keys().key("0", JIngredient.ingredient().item("minecraft:stick")).key("1", JIngredient.ingredient().item("minecraft:" + id)), JResult.result("ctft:" + id + "_lever")));
                 Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_lever"), JLootTable
                         .loot("block")
                         .pool(JLootTable.pool()
@@ -1742,10 +1750,10 @@ public class OmegaReg {
                                         .entry()
                                         .type("minecraft:item")
                                         .name("ctft:" + id + "_lever"))));
-                TagInjector.injectItems(new Identifier("ctft","ctft_levers"), Registry.ITEM.get(new Identifier("ctft", id + "_lever")));
-                if(piglin_loved.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), item);}
-                if(freeze_immune_wearables.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","freeze_immune_wearables"), item);}
-                if(piglin_repellents.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_repellents"), item);}
+                TagInjector.inject(Registry.ITEM, new Identifier("ctft","ctft_levers"), Registry.ITEM.get(new Identifier("ctft", id + "_lever")));
+                if(piglin_loved.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_loved"));}
+                if(freeze_immune_wearables.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","freeze_immune_wearables"));}
+                if(piglin_repellents.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_repellents"));}
                 if(ctftMaterial.combustion > 0) FuelRegistry.INSTANCE.add(item, ctftMaterial.combustion*multiplier);
             }
             if (Ctft.CONFIG.buttonsEnabled) {
@@ -1803,7 +1811,7 @@ public class OmegaReg {
                         .put("face=wall,facing=west,powered=false", JState.model("ctft:block/" + id + "_button_off").x(90).y(270))
                         .put("face=wall,facing=west,powered=true", JState.model("ctft:block/" + id + "_button_on").x(90).y(270))
                 ), new Identifier("ctft:" + id + "_button"));
-                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_button_from_stonecutter"), JRecipe.stonecutting(JIngredient.ingredient().item("minecraft:" + id), JResult.stackedResult("ctft:" + id + "_button", 1)));
+//                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_button_from_stonecutter"), JRecipe.stonecutting(JIngredient.ingredient().item("minecraft:" + id), JResult.stackedResult("ctft:" + id + "_button", 1)));
                 Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_button"), JLootTable
                         .loot("block")
                         .pool(JLootTable.pool()
@@ -1812,10 +1820,10 @@ public class OmegaReg {
                                         .entry()
                                         .type("minecraft:item")
                                         .name("ctft:" + id + "_button"))));
-                TagInjector.injectItems(new Identifier("ctft","ctft_buttons"), Registry.ITEM.get(new Identifier("ctft", id + "_button")));
-                if(piglin_loved.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), item);}
-                if(freeze_immune_wearables.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","freeze_immune_wearables"), item);}
-                if(piglin_repellents.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_repellents"), item);}
+                TagInjector.inject(Registry.ITEM, new Identifier("ctft","ctft_buttons"), Registry.ITEM.get(new Identifier("ctft", id + "_button")));
+                if(piglin_loved.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_loved"));}
+                if(freeze_immune_wearables.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","freeze_immune_wearables"));}
+                if(piglin_repellents.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_repellents"));}
                 if(ctftMaterial.combustion > 0) FuelRegistry.INSTANCE.add(item, ctftMaterial.combustion*multiplier);
             }
             if (Ctft.CONFIG.pressurePlatesEnabled) {
@@ -1850,7 +1858,7 @@ public class OmegaReg {
                         .put("powered=false", JState.model("ctft:item/" + id + "_pressure_plate"))
                         .put("powered=true", JState.model("ctft:block/" + id + "_pressure_plate_on"))
                 ), new Identifier("ctft:" + id + "_pressure_plate"));
-                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_pressure_plate_from_crafting"), JRecipe.shaped(JPattern.pattern().row3("00 "), JKeys.keys().key("0", JIngredient.ingredient().item("minecraft:" + id)), JResult.result("ctft:" + id + "_pressure_plate")));
+//                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_pressure_plate_from_crafting"), JRecipe.shaped(JPattern.pattern().row3("00 "), JKeys.keys().key("0", JIngredient.ingredient().item("minecraft:" + id)), JResult.result("ctft:" + id + "_pressure_plate")));
                 Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_pressure_plate"), JLootTable
                         .loot("block")
                         .pool(JLootTable.pool()
@@ -1859,10 +1867,10 @@ public class OmegaReg {
                                         .entry()
                                         .type("minecraft:item")
                                         .name("ctft:" + id + "_pressure_plate"))));
-                TagInjector.injectItems(new Identifier("ctft","ctft_pressure_plates"), Registry.ITEM.get(new Identifier("ctft", id + "_pressure_plate")));
-                if(piglin_loved.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), item);}
-                if(freeze_immune_wearables.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","freeze_immune_wearables"), item);}
-                if(piglin_repellents.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_repellents"), item);}
+                TagInjector.inject(Registry.ITEM, new Identifier("ctft","ctft_pressure_plates"), Registry.ITEM.get(new Identifier("ctft", id + "_pressure_plate")));
+                if(piglin_loved.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_loved"));}
+                if(freeze_immune_wearables.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","freeze_immune_wearables"));}
+                if(piglin_repellents.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_repellents"));}
                 if(ctftMaterial.combustion > 0) FuelRegistry.INSTANCE.add(item, ctftMaterial.combustion*multiplier);
             }
             if (Ctft.CONFIG.torchesEnabled) {
@@ -1904,7 +1912,7 @@ public class OmegaReg {
                         .put("facing=south", JState.model("ctft:block/" + id + "_torch_wall").y(90))
                         .put("facing=west", JState.model("ctft:block/" + id + "_torch_wall").y(180))
                 ), new Identifier("ctft:" + id + "_walltorch"));
-                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_torch_from_crafting"), JRecipe.shaped(JPattern.pattern().row1(" 1 ").row2(" 0 "), JKeys.keys().key("0", JIngredient.ingredient().item("minecraft:" + id)).key("1", JIngredient.ingredient().item("minecraft:coal")), JResult.stackedResult("ctft:" + id + "_torch", 4)));
+//                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_torch_from_crafting"), JRecipe.shaped(JPattern.pattern().row1(" 1 ").row2(" 0 "), JKeys.keys().key("0", JIngredient.ingredient().item("minecraft:" + id)).key("1", JIngredient.ingredient().item("minecraft:coal")), JResult.stackedResult("ctft:" + id + "_torch", 4)));
                 Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_torch"), JLootTable
                         .loot("block")
                         .pool(JLootTable.pool()
@@ -1921,10 +1929,10 @@ public class OmegaReg {
                                         .entry()
                                         .type("minecraft:item")
                                         .name("ctft:" + id + "_torch"))));
-                TagInjector.injectItems(new Identifier("ctft","ctft_torches"), Registry.ITEM.get(new Identifier("ctft", id + "_torch")));
-                if(piglin_loved.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), item);}
-                if(freeze_immune_wearables.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","freeze_immune_wearables"), item);}
-                if(piglin_repellents.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_repellents"), item);}
+                TagInjector.inject(Registry.ITEM, new Identifier("ctft","ctft_torches"), Registry.ITEM.get(new Identifier("ctft", id + "_torch")));
+                if(piglin_loved.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_loved"));}
+                if(freeze_immune_wearables.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","freeze_immune_wearables"));}
+                if(piglin_repellents.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_repellents"));}
                 if(ctftMaterial.combustion > 0) FuelRegistry.INSTANCE.add(item, ctftMaterial.combustion*multiplier);
             }
             if (Ctft.CONFIG.lanternsEnabled) {
@@ -1960,7 +1968,7 @@ public class OmegaReg {
                         .put("hanging=false", JState.model("ctft:block/" + id + "_lantern"))
                         .put("hanging=true", JState.model("ctft:block/" + id + "_lantern_hanging"))
                 ), new Identifier("ctft:" + id + "_lantern"));
-                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_lantern_from_crafting"), JRecipe.shaped(JPattern.pattern().row1("000").row2("010").row3("000"), JKeys.keys().key("1", JIngredient.ingredient().item("ctft:" + id + "_torch")).key("0", JIngredient.ingredient().item("minecraft:" + id)), JResult.result("ctft:" + id + "_lantern")));
+//                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_lantern_from_crafting"), JRecipe.shaped(JPattern.pattern().row1("000").row2("010").row3("000"), JKeys.keys().key("1", JIngredient.ingredient().item("ctft:" + id + "_torch")).key("0", JIngredient.ingredient().item("minecraft:" + id)), JResult.result("ctft:" + id + "_lantern")));
                 Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_lantern"), JLootTable
                         .loot("block")
                         .pool(JLootTable.pool()
@@ -1969,10 +1977,10 @@ public class OmegaReg {
                                         .entry()
                                         .type("minecraft:item")
                                         .name("ctft:" + id + "_lantern"))));
-                TagInjector.injectItems(new Identifier("ctft","ctft_lanterns"), Registry.ITEM.get(new Identifier("ctft", id + "_lantern")));
-                if(piglin_loved.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), item);}
-                if(freeze_immune_wearables.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","freeze_immune_wearables"), item);}
-                if(piglin_repellents.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_repellents"), item);}
+                TagInjector.inject(Registry.ITEM, new Identifier("ctft","ctft_lanterns"), Registry.ITEM.get(new Identifier("ctft", id + "_lantern")));
+                if(piglin_loved.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_loved"));}
+                if(freeze_immune_wearables.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","freeze_immune_wearables"));}
+                if(piglin_repellents.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_repellents"));}
                 if(ctftMaterial.combustion > 0) FuelRegistry.INSTANCE.add(item, ctftMaterial.combustion*multiplier);
             }
             if (Ctft.CONFIG.endRodsEnabled) {
@@ -2010,7 +2018,7 @@ public class OmegaReg {
                         .put("facing=up", JState.model("ctft:item/" + id + "_end_rod"))
                         .put("facing=west", JState.model("ctft:item/" + id + "_end_rod").x(90).y(270))
                 ), new Identifier("ctft:" + id + "_end_rod"));
-                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_end_rod_from_stonecutter"), JRecipe.stonecutting(JIngredient.ingredient().item("minecraft:" + id), JResult.stackedResult("ctft:" + id + "_end_rod", 1)));
+//                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_end_rod_from_stonecutter"), JRecipe.stonecutting(JIngredient.ingredient().item("minecraft:" + id), JResult.stackedResult("ctft:" + id + "_end_rod", 1)));
                 Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_end_rod"), JLootTable
                         .loot("block")
                         .pool(JLootTable.pool()
@@ -2019,12 +2027,13 @@ public class OmegaReg {
                                         .entry()
                                         .type("minecraft:item")
                                         .name("ctft:" + id + "_end_rod"))));
-                TagInjector.injectItems(new Identifier("ctft","ctft_end_rods"), Registry.ITEM.get(new Identifier("ctft", id + "_end_rod")));
-                if(piglin_loved.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), item);}
-                if(freeze_immune_wearables.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","freeze_immune_wearables"), item);}
-                if(piglin_repellents.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_repellents"), item);}
+                TagInjector.inject(Registry.ITEM, new Identifier("ctft","ctft_end_rods"), Registry.ITEM.get(new Identifier("ctft", id + "_end_rod")));
+                if(piglin_loved.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_loved"));}
+                if(freeze_immune_wearables.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","freeze_immune_wearables"));}
+                if(piglin_repellents.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_repellents"));}
                 if(ctftMaterial.combustion > 0) FuelRegistry.INSTANCE.add(item, ctftMaterial.combustion*multiplier);
             }
+            settings.maxCount(16);
             if (Ctft.CONFIG.signsEnabled) {
                 int multiplier = 2;
                 if (ctftMaterial.is_food) {
@@ -2062,7 +2071,7 @@ public class OmegaReg {
                 Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
                         .put("", JState.model("ctft:block/" + id + "_wallsign"))
                 ), new Identifier("ctft:" + id + "_wallsign"));
-                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_sign_from_crafting"), JRecipe.shaped(JPattern.pattern().row1("000").row2("000").row3(" 1 "), JKeys.keys().key("0", JIngredient.ingredient().item("minecraft:" + id)).key("1", JIngredient.ingredient().item("minecraft:stick")), JResult.stackedResult("ctft:" + id + "_sign", 3)));
+//                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_sign_from_crafting"), JRecipe.shaped(JPattern.pattern().row1("000").row2("000").row3(" 1 "), JKeys.keys().key("0", JIngredient.ingredient().item("minecraft:" + id)).key("1", JIngredient.ingredient().item("minecraft:stick")), JResult.stackedResult("ctft:" + id + "_sign", 3)));
                 Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_sign"), JLootTable
                         .loot("block")
                         .pool(JLootTable.pool()
@@ -2079,12 +2088,13 @@ public class OmegaReg {
                                         .entry()
                                         .type("minecraft:item")
                                         .name("ctft:" + id + "_sign"))));
-                TagInjector.injectItems(new Identifier("ctft","ctft_signs"), Registry.ITEM.get(new Identifier("ctft", id + "_sign")));
-                if(piglin_loved.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), item);}
-                if(freeze_immune_wearables.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","freeze_immune_wearables"), item);}
-                if(piglin_repellents.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_repellents"), item);}
+                TagInjector.inject(Registry.ITEM, new Identifier("ctft","ctft_signs"), Registry.ITEM.get(new Identifier("ctft", id + "_sign")));
+                if(piglin_loved.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_loved"));}
+                if(freeze_immune_wearables.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","freeze_immune_wearables"));}
+                if(piglin_repellents.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_repellents"));}
                 if(ctftMaterial.combustion > 0) FuelRegistry.INSTANCE.add(item, ctftMaterial.combustion*multiplier);
             }
+            settings.maxCount(64);
             if (Ctft.CONFIG.laddersEnabled) {
                 int multiplier = 3;
                 if (ctftMaterial.is_food) {
@@ -2119,7 +2129,7 @@ public class OmegaReg {
                         .put("facing=south", JState.model("ctft:block/" + id + "_ladder").y(180))
                         .put("facing=west", JState.model("ctft:block/" + id + "_ladder").y(270))
                 ), new Identifier("ctft:" + id + "_ladder"));
-                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_ladder_from_crafting"), JRecipe.shaped(JPattern.pattern().row1("0 0").row2("000").row3("0 0"), JKeys.keys().key("0", JIngredient.ingredient().item("minecraft:" + id)), JResult.stackedResult("ctft:" + id + "_ladder", 3)));
+//                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_ladder_from_crafting"), JRecipe.shaped(JPattern.pattern().row1("0 0").row2("000").row3("0 0"), JKeys.keys().key("0", JIngredient.ingredient().item("minecraft:" + id)), JResult.stackedResult("ctft:" + id + "_ladder", 3)));
                 Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_ladder"), JLootTable
                         .loot("block")
                         .pool(JLootTable.pool()
@@ -2128,11 +2138,11 @@ public class OmegaReg {
                                         .entry()
                                         .type("minecraft:item")
                                         .name("ctft:" + id + "_ladder"))));
-                TagInjector.injectBlocks(new Identifier("minecraft","climbable"), Registry.BLOCK.get(new Identifier("ctft", id + "_ladder")));
-                TagInjector.injectItems(new Identifier("ctft","ctft_ladders"), Registry.ITEM.get(new Identifier("ctft", id + "_ladder")));
-                if(piglin_loved.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), item);}
-                if(freeze_immune_wearables.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","freeze_immune_wearables"), item);}
-                if(piglin_repellents.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_repellents"), item);}
+                TagInjector.inject(Registry.BLOCK, new Identifier("minecraft","climbable"), Registry.BLOCK.get(new Identifier("ctft", id + "_ladder")));
+                TagInjector.inject(Registry.ITEM, new Identifier("ctft","ctft_ladders"), Registry.ITEM.get(new Identifier("ctft", id + "_ladder")));
+                if(piglin_loved.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_loved"));}
+                if(freeze_immune_wearables.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","freeze_immune_wearables"));}
+                if(piglin_repellents.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_repellents"));}
                 if(ctftMaterial.combustion > 0) FuelRegistry.INSTANCE.add(item, ctftMaterial.combustion*multiplier);
             }
             if (Ctft.CONFIG.chainsEnabled) {
@@ -2168,7 +2178,7 @@ public class OmegaReg {
                         .put("axis=y", JState.model("ctft:block/" + id + "_chain"))
                         .put("axis=z", JState.model("ctft:block/" + id + "_chain").x(90))
                 ), new Identifier("ctft:" + id + "_chain"));
-                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_chain_from_stonecutter"), JRecipe.stonecutting(JIngredient.ingredient().item("minecraft:" + id), JResult.stackedResult("ctft:" + id + "_chain", 1)));
+//                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_chain_from_stonecutter"), JRecipe.stonecutting(JIngredient.ingredient().item("minecraft:" + id), JResult.stackedResult("ctft:" + id + "_chain", 1)));
                 Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_chain"), JLootTable
                         .loot("block")
                         .pool(JLootTable.pool()
@@ -2177,10 +2187,10 @@ public class OmegaReg {
                                         .entry()
                                         .type("minecraft:item")
                                         .name("ctft:" + id + "_chain"))));
-                TagInjector.injectItems(new Identifier("ctft","ctft_chains"), Registry.ITEM.get(new Identifier("ctft", id + "_chain")));
-                if(piglin_loved.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), item);}
-                if(freeze_immune_wearables.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","freeze_immune_wearables"), item);}
-                if(piglin_repellents.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_repellents"), item);}
+                TagInjector.inject(Registry.ITEM, new Identifier("ctft","ctft_chains"), Registry.ITEM.get(new Identifier("ctft", id + "_chain")));
+                if(piglin_loved.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_loved"));}
+                if(freeze_immune_wearables.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","freeze_immune_wearables"));}
+                if(piglin_repellents.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_repellents"));}
                 if(ctftMaterial.combustion > 0) FuelRegistry.INSTANCE.add(item, ctftMaterial.combustion*multiplier);
             }
             if (Ctft.CONFIG.compressionLevel >= 1) {
@@ -2215,8 +2225,8 @@ public class OmegaReg {
                 Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
                         .put("", JState.model("ctft:item/" + id + "_" + upper))
                 ), new Identifier("ctft:" + id + "_" + upper));
-                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_" + upper + "_from" + "_" + lower), JRecipe.shaped(JPattern.pattern().row1("000").row2("000").row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("ctft:" + id + "_" + lower)), JResult.result("ctft:" + id + "_" + upper)));
-                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_" + lower + "_from" + "_" + upper), JRecipe.shapeless(JIngredients.ingredients().add(JIngredient.ingredient().item("ctft:" + id + "_" + upper)), JResult.stackedResult("ctft:" + id + "_" + lower, 9)));
+//                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_" + upper + "_from" + "_" + lower), JRecipe.shaped(JPattern.pattern().row1("000").row2("000").row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("ctft:" + id + "_" + lower)), JResult.result("ctft:" + id + "_" + upper)));
+//                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_" + lower + "_from" + "_" + upper), JRecipe.shapeless(JIngredients.ingredients().add(JIngredient.ingredient().item("ctft:" + id + "_" + upper)), JResult.stackedResult("ctft:" + id + "_" + lower, 9)));
                 Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_" + upper), JLootTable
                         .loot("block")
                         .pool(JLootTable.pool()
@@ -2225,683 +2235,61 @@ public class OmegaReg {
                                         .entry()
                                         .type("minecraft:item")
                                         .name("ctft:" + id + "_" + upper))));
-                TagInjector.injectItems(new Identifier("ctft","ctft_" + upper), Registry.ITEM.get(new Identifier("ctft", id + "_" + upper)));
-                if(piglin_loved.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), item);}
-                if(freeze_immune_wearables.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","freeze_immune_wearables"), item);}
-                if(piglin_repellents.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_repellents"), item);}
+                TagInjector.inject(Registry.ITEM, new Identifier("ctft","ctft_" + upper), Registry.ITEM.get(new Identifier("ctft", id + "_" + upper)));
+                if(piglin_loved.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_loved"));}
+                if(freeze_immune_wearables.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","freeze_immune_wearables"));}
+                if(piglin_repellents.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_repellents"));}
                 if(ctftMaterial.combustion > 0) FuelRegistry.INSTANCE.add(item, ctftMaterial.combustion*multiplier);
             }
-            if (Ctft.CONFIG.compressionLevel >= 2) {
-                int multiplier = 9;
-                String lower = "compressed1";
-                String upper = "compressed2";
-                if (ctftMaterial.is_food) {
-                    final FoodComponent.Builder foodComponent = (new FoodComponent.Builder()).hunger(ctftMaterial.nutrition * multiplier).saturationModifier(ctftMaterial.saturation / multiplier);
-                    if (ctftMaterial.is_meat) {
-                        foodComponent.meat();
-                    }
-                    if (ctftMaterial.is_fast) {
-                        foodComponent.snack();
-                    }
-                    if (ctftMaterial.can_always_eat) {
-                        foodComponent.alwaysEdible();
-                    }
-                    if (ctftMaterial.food_effects) {
-                        for (Pair<StatusEffectInstance, Float> statusEffect : Registry.ITEM.get(new Identifier(ctftMaterial.recipe_ingredient.toLowerCase())).getFoodComponent().getStatusEffects()) {
-                            foodComponent.statusEffect(statusEffect.getFirst(),statusEffect.getSecond());
+            for(int i = 2; i < 64; i++) {
+                if (Ctft.CONFIG.compressionLevel >= i) {
+                    int multiplier = 9;
+                    String lower = "compressed" + (i-1);
+                    String upper = "compressed" + (i);
+                    if (ctftMaterial.is_food) {
+                        final FoodComponent.Builder foodComponent = (new FoodComponent.Builder()).hunger(ctftMaterial.nutrition * multiplier).saturationModifier(ctftMaterial.saturation / multiplier);
+                        if (ctftMaterial.is_meat) {
+                            foodComponent.meat();
                         }
-                    }
-                    settings.food(foodComponent.build());
-                }
-                if (ctftMaterial.fire_immune) {
-                    settings.fireproof();
-                }
-                Block block = register(ctftMaterial.recipe_ingredient.toLowerCase() + "_" + upper, new Block(AbstractBlock.Settings.of(material)));
-                Item item = register(ctftMaterial.recipe_ingredient.toLowerCase() + "_" + upper, new CustomBlockItem(block, ctftMaterial.foil, upper, ctftMaterial.lang_key, settings));
-                var id = ctftMaterial.recipe_ingredient.toLowerCase();
-                Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/" + upper).textures((JModel.textures().var("0", "ctft:blocks/" + ctftMaterial.texture_name  + "_compressed").particle("ctft:blocks/" + ctftMaterial.texture_name  + "_compressed"))), new Identifier("ctft", "item/" + id + "_" + upper));
-                Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
-                        .put("", JState.model("ctft:item/" + id + "_" + upper))
-                ), new Identifier("ctft:" + id + "_" + upper));
-                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_" + upper + "_from" + "_" + lower), JRecipe.shaped(JPattern.pattern().row1("000").row2("000").row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("ctft:" + id + "_" + lower)), JResult.result("ctft:" + id + "_" + upper)));
-                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_" + lower + "_from" + "_" + upper), JRecipe.shapeless(JIngredients.ingredients().add(JIngredient.ingredient().item("ctft:" + id + "_" + upper)), JResult.stackedResult("ctft:" + id + "_" + lower, 9)));
-                Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_" + upper), JLootTable
-                        .loot("block")
-                        .pool(JLootTable.pool()
-                                .rolls(1)
-                                .entry(JLootTable
-                                        .entry()
-                                        .type("minecraft:item")
-                                        .name("ctft:" + id + "_" + upper))));
-                TagInjector.injectItems(new Identifier("ctft","ctft_" + upper), Registry.ITEM.get(new Identifier("ctft", id + "_" + upper)));
-                if(piglin_loved.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), item);}
-                if(freeze_immune_wearables.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","freeze_immune_wearables"), item);}
-                if(piglin_repellents.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_repellents"), item);}
-                if(ctftMaterial.combustion > 0) FuelRegistry.INSTANCE.add(item, ctftMaterial.combustion*multiplier);
-            }
-            if (Ctft.CONFIG.compressionLevel >= 3) {
-                int multiplier = 9;
-                String lower = "compressed2";
-                String upper = "compressed3";
-                if (ctftMaterial.is_food) {
-                    final FoodComponent.Builder foodComponent = (new FoodComponent.Builder()).hunger(ctftMaterial.nutrition * multiplier).saturationModifier(ctftMaterial.saturation / multiplier);
-                    if (ctftMaterial.is_meat) {
-                        foodComponent.meat();
-                    }
-                    if (ctftMaterial.is_fast) {
-                        foodComponent.snack();
-                    }
-                    if (ctftMaterial.can_always_eat) {
-                        foodComponent.alwaysEdible();
-                    }
-                    if (ctftMaterial.food_effects) {
-                        for (Pair<StatusEffectInstance, Float> statusEffect : Registry.ITEM.get(new Identifier(ctftMaterial.recipe_ingredient.toLowerCase())).getFoodComponent().getStatusEffects()) {
-                            foodComponent.statusEffect(statusEffect.getFirst(),statusEffect.getSecond());
+                        if (ctftMaterial.is_fast) {
+                            foodComponent.snack();
                         }
-                    }
-                    settings.food(foodComponent.build());
-                }
-                if (ctftMaterial.fire_immune) {
-                    settings.fireproof();
-                }
-                Block block = register(ctftMaterial.recipe_ingredient.toLowerCase() + "_" + upper, new Block(AbstractBlock.Settings.of(material)));
-                Item item = register(ctftMaterial.recipe_ingredient.toLowerCase() + "_" + upper, new CustomBlockItem(block, ctftMaterial.foil, upper, ctftMaterial.lang_key, settings));
-                var id = ctftMaterial.recipe_ingredient.toLowerCase();
-                Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/" + upper).textures((JModel.textures().var("0", "ctft:blocks/" + ctftMaterial.texture_name  + "_compressed").particle("ctft:blocks/" + ctftMaterial.texture_name  + "_compressed"))), new Identifier("ctft", "item/" + id + "_" + upper));
-                Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
-                        .put("", JState.model("ctft:item/" + id + "_" + upper))
-                ), new Identifier("ctft:" + id + "_" + upper));
-                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_" + upper + "_from" + "_" + lower), JRecipe.shaped(JPattern.pattern().row1("000").row2("000").row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("ctft:" + id + "_" + lower)), JResult.result("ctft:" + id + "_" + upper)));
-                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_" + lower + "_from" + "_" + upper), JRecipe.shapeless(JIngredients.ingredients().add(JIngredient.ingredient().item("ctft:" + id + "_" + upper)), JResult.stackedResult("ctft:" + id + "_" + lower, 9)));
-                Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_" + upper), JLootTable
-                        .loot("block")
-                        .pool(JLootTable.pool()
-                                .rolls(1)
-                                .entry(JLootTable
-                                        .entry()
-                                        .type("minecraft:item")
-                                        .name("ctft:" + id + "_" + upper))));
-                TagInjector.injectItems(new Identifier("ctft","ctft_" + upper), Registry.ITEM.get(new Identifier("ctft", id + "_" + upper)));
-                if(piglin_loved.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), item);}
-                if(freeze_immune_wearables.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","freeze_immune_wearables"), item);}
-                if(piglin_repellents.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_repellents"), item);}
-                if(ctftMaterial.combustion > 0) FuelRegistry.INSTANCE.add(item, ctftMaterial.combustion*multiplier);
-            }
-            if (Ctft.CONFIG.compressionLevel >= 4) {
-                int multiplier = 9;
-                String lower = "compressed3";
-                String upper = "compressed4";
-                if (ctftMaterial.is_food) {
-                    final FoodComponent.Builder foodComponent = (new FoodComponent.Builder()).hunger(ctftMaterial.nutrition * multiplier).saturationModifier(ctftMaterial.saturation / multiplier);
-                    if (ctftMaterial.is_meat) {
-                        foodComponent.meat();
-                    }
-                    if (ctftMaterial.is_fast) {
-                        foodComponent.snack();
-                    }
-                    if (ctftMaterial.can_always_eat) {
-                        foodComponent.alwaysEdible();
-                    }
-                    if (ctftMaterial.food_effects) {
-                        for (Pair<StatusEffectInstance, Float> statusEffect : Registry.ITEM.get(new Identifier(ctftMaterial.recipe_ingredient.toLowerCase())).getFoodComponent().getStatusEffects()) {
-                            foodComponent.statusEffect(statusEffect.getFirst(),statusEffect.getSecond());
+                        if (ctftMaterial.can_always_eat) {
+                            foodComponent.alwaysEdible();
                         }
-                    }
-                    settings.food(foodComponent.build());
-                }
-                if (ctftMaterial.fire_immune) {
-                    settings.fireproof();
-                }
-                Block block = register(ctftMaterial.recipe_ingredient.toLowerCase() + "_" + upper, new Block(AbstractBlock.Settings.of(material)));
-                Item item = register(ctftMaterial.recipe_ingredient.toLowerCase() + "_" + upper, new CustomBlockItem(block, ctftMaterial.foil, upper, ctftMaterial.lang_key, settings));
-                var id = ctftMaterial.recipe_ingredient.toLowerCase();
-                Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/" + upper).textures((JModel.textures().var("0", "ctft:blocks/" + ctftMaterial.texture_name  + "_compressed").particle("ctft:blocks/" + ctftMaterial.texture_name  + "_compressed"))), new Identifier("ctft", "item/" + id + "_" + upper));
-                Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
-                        .put("", JState.model("ctft:item/" + id + "_" + upper))
-                ), new Identifier("ctft:" + id + "_" + upper));
-                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_" + upper + "_from" + "_" + lower), JRecipe.shaped(JPattern.pattern().row1("000").row2("000").row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("ctft:" + id + "_" + lower)), JResult.result("ctft:" + id + "_" + upper)));
-                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_" + lower + "_from" + "_" + upper), JRecipe.shapeless(JIngredients.ingredients().add(JIngredient.ingredient().item("ctft:" + id + "_" + upper)), JResult.stackedResult("ctft:" + id + "_" + lower, 9)));
-                Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_" + upper), JLootTable
-                        .loot("block")
-                        .pool(JLootTable.pool()
-                                .rolls(1)
-                                .entry(JLootTable
-                                        .entry()
-                                        .type("minecraft:item")
-                                        .name("ctft:" + id + "_" + upper))));
-                TagInjector.injectItems(new Identifier("ctft","ctft_" + upper), Registry.ITEM.get(new Identifier("ctft", id + "_" + upper)));
-                if(piglin_loved.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), item);}
-                if(freeze_immune_wearables.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","freeze_immune_wearables"), item);}
-                if(piglin_repellents.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_repellents"), item);}
-                if(ctftMaterial.combustion > 0) FuelRegistry.INSTANCE.add(item, ctftMaterial.combustion*multiplier);
-            }
-            if (Ctft.CONFIG.compressionLevel >= 5) {
-                int multiplier = 9;
-                String lower = "compressed4";
-                String upper = "compressed5";
-                if (ctftMaterial.is_food) {
-                    final FoodComponent.Builder foodComponent = (new FoodComponent.Builder()).hunger(ctftMaterial.nutrition * multiplier).saturationModifier(ctftMaterial.saturation / multiplier);
-                    if (ctftMaterial.is_meat) {
-                        foodComponent.meat();
-                    }
-                    if (ctftMaterial.is_fast) {
-                        foodComponent.snack();
-                    }
-                    if (ctftMaterial.can_always_eat) {
-                        foodComponent.alwaysEdible();
-                    }
-                    if (ctftMaterial.food_effects) {
-                        for (Pair<StatusEffectInstance, Float> statusEffect : Registry.ITEM.get(new Identifier(ctftMaterial.recipe_ingredient.toLowerCase())).getFoodComponent().getStatusEffects()) {
-                            foodComponent.statusEffect(statusEffect.getFirst(),statusEffect.getSecond());
+                        if (ctftMaterial.food_effects) {
+                            for (Pair<StatusEffectInstance, Float> statusEffect : Registry.ITEM.get(new Identifier(ctftMaterial.recipe_ingredient.toLowerCase())).getFoodComponent().getStatusEffects()) {
+                                foodComponent.statusEffect(statusEffect.getFirst(),statusEffect.getSecond());
+                            }
                         }
+                        settings.food(foodComponent.build());
                     }
-                    settings.food(foodComponent.build());
+                    if (ctftMaterial.fire_immune) {
+                        settings.fireproof();
+                    }
+                    Block block = register(ctftMaterial.recipe_ingredient.toLowerCase() + "_" + upper, new Block(AbstractBlock.Settings.of(material)));
+                    Item item = register(ctftMaterial.recipe_ingredient.toLowerCase() + "_" + upper, new CustomBlockItem(block, ctftMaterial.foil, upper, ctftMaterial.lang_key, settings));
+                    var id = ctftMaterial.recipe_ingredient.toLowerCase();
+                    Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/" + upper).textures((JModel.textures().var("0", "ctft:blocks/" + ctftMaterial.texture_name  + "_compressed").particle("ctft:blocks/" + ctftMaterial.texture_name  + "_compressed"))), new Identifier("ctft", "item/" + id + "_" + upper));
+                    Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
+                            .put("", JState.model("ctft:item/" + id + "_" + upper))
+                    ), new Identifier("ctft:" + id + "_" + upper));
+//                    Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_" + upper + "_from" + "_" + lower), JRecipe.shaped(JPattern.pattern().row1("000").row2("000").row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("ctft:" + id + "_" + lower)), JResult.result("ctft:" + id + "_" + upper)));
+//                    Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_" + lower + "_from" + "_" + upper), JRecipe.shapeless(JIngredients.ingredients().add(JIngredient.ingredient().item("ctft:" + id + "_" + upper)), JResult.stackedResult("ctft:" + id + "_" + lower, 9)));
+                    Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_" + upper), JLootTable
+                            .loot("block")
+                            .pool(JLootTable.pool()
+                                    .rolls(1)
+                                    .entry(JLootTable
+                                            .entry()
+                                            .type("minecraft:item")
+                                            .name("ctft:" + id + "_" + upper))));
+                    TagInjector.inject(Registry.ITEM, new Identifier("ctft","ctft_" + upper), Registry.ITEM.get(new Identifier("ctft", id + "_" + upper)));
+                    if(piglin_loved.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_loved"));}
+                    if(freeze_immune_wearables.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","freeze_immune_wearables"));}
+                    if(piglin_repellents.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_repellents"));}
+                    if(ctftMaterial.combustion > 0) FuelRegistry.INSTANCE.add(item, ctftMaterial.combustion*multiplier);
                 }
-                if (ctftMaterial.fire_immune) {
-                    settings.fireproof();
-                }
-                Block block = register(ctftMaterial.recipe_ingredient.toLowerCase() + "_" + upper, new Block(AbstractBlock.Settings.of(material)));
-                Item item = register(ctftMaterial.recipe_ingredient.toLowerCase() + "_" + upper, new CustomBlockItem(block, ctftMaterial.foil, upper, ctftMaterial.lang_key, settings));
-                var id = ctftMaterial.recipe_ingredient.toLowerCase();
-                Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/" + upper).textures((JModel.textures().var("0", "ctft:blocks/" + ctftMaterial.texture_name  + "_compressed").particle("ctft:blocks/" + ctftMaterial.texture_name  + "_compressed"))), new Identifier("ctft", "item/" + id + "_" + upper));
-                Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
-                        .put("", JState.model("ctft:item/" + id + "_" + upper))
-                ), new Identifier("ctft:" + id + "_" + upper));
-                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_" + upper + "_from" + "_" + lower), JRecipe.shaped(JPattern.pattern().row1("000").row2("000").row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("ctft:" + id + "_" + lower)), JResult.result("ctft:" + id + "_" + upper)));
-                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_" + lower + "_from" + "_" + upper), JRecipe.shapeless(JIngredients.ingredients().add(JIngredient.ingredient().item("ctft:" + id + "_" + upper)), JResult.stackedResult("ctft:" + id + "_" + lower, 9)));
-                Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_" + upper), JLootTable
-                        .loot("block")
-                        .pool(JLootTable.pool()
-                                .rolls(1)
-                                .entry(JLootTable
-                                        .entry()
-                                        .type("minecraft:item")
-                                        .name("ctft:" + id + "_" + upper))));
-                TagInjector.injectItems(new Identifier("ctft","ctft_" + upper), Registry.ITEM.get(new Identifier("ctft", id + "_" + upper)));
-                if(piglin_loved.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), item);}
-                if(freeze_immune_wearables.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","freeze_immune_wearables"), item);}
-                if(piglin_repellents.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_repellents"), item);}
-                if(ctftMaterial.combustion > 0) FuelRegistry.INSTANCE.add(item, ctftMaterial.combustion*multiplier);
-            }
-            if (Ctft.CONFIG.compressionLevel >= 6) {
-                int multiplier = 9;
-                String lower = "compressed5";
-                String upper = "compressed6";
-                if (ctftMaterial.is_food) {
-                    final FoodComponent.Builder foodComponent = (new FoodComponent.Builder()).hunger(ctftMaterial.nutrition * multiplier).saturationModifier(ctftMaterial.saturation / multiplier);
-                    if (ctftMaterial.is_meat) {
-                        foodComponent.meat();
-                    }
-                    if (ctftMaterial.is_fast) {
-                        foodComponent.snack();
-                    }
-                    if (ctftMaterial.can_always_eat) {
-                        foodComponent.alwaysEdible();
-                    }
-                    if (ctftMaterial.food_effects) {
-                        for (Pair<StatusEffectInstance, Float> statusEffect : Registry.ITEM.get(new Identifier(ctftMaterial.recipe_ingredient.toLowerCase())).getFoodComponent().getStatusEffects()) {
-                            foodComponent.statusEffect(statusEffect.getFirst(),statusEffect.getSecond());
-                        }
-                    }
-                    settings.food(foodComponent.build());
-                }
-                if (ctftMaterial.fire_immune) {
-                    settings.fireproof();
-                }
-                Block block = register(ctftMaterial.recipe_ingredient.toLowerCase() + "_" + upper, new Block(AbstractBlock.Settings.of(material)));
-                Item item = register(ctftMaterial.recipe_ingredient.toLowerCase() + "_" + upper, new CustomBlockItem(block, ctftMaterial.foil, upper, ctftMaterial.lang_key, settings));
-                var id = ctftMaterial.recipe_ingredient.toLowerCase();
-                Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/" + upper).textures((JModel.textures().var("0", "ctft:blocks/" + ctftMaterial.texture_name  + "_compressed").particle("ctft:blocks/" + ctftMaterial.texture_name  + "_compressed"))), new Identifier("ctft", "item/" + id + "_" + upper));
-                Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
-                        .put("", JState.model("ctft:item/" + id + "_" + upper))
-                ), new Identifier("ctft:" + id + "_" + upper));
-                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_" + upper + "_from" + "_" + lower), JRecipe.shaped(JPattern.pattern().row1("000").row2("000").row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("ctft:" + id + "_" + lower)), JResult.result("ctft:" + id + "_" + upper)));
-                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_" + lower + "_from" + "_" + upper), JRecipe.shapeless(JIngredients.ingredients().add(JIngredient.ingredient().item("ctft:" + id + "_" + upper)), JResult.stackedResult("ctft:" + id + "_" + lower, 9)));
-                Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_" + upper), JLootTable
-                        .loot("block")
-                        .pool(JLootTable.pool()
-                                .rolls(1)
-                                .entry(JLootTable
-                                        .entry()
-                                        .type("minecraft:item")
-                                        .name("ctft:" + id + "_" + upper))));
-                TagInjector.injectItems(new Identifier("ctft","ctft_" + upper), Registry.ITEM.get(new Identifier("ctft", id + "_" + upper)));
-                if(piglin_loved.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), item);}
-                if(freeze_immune_wearables.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","freeze_immune_wearables"), item);}
-                if(piglin_repellents.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_repellents"), item);}
-                if(ctftMaterial.combustion > 0) FuelRegistry.INSTANCE.add(item, ctftMaterial.combustion*multiplier);
-            }
-            if (Ctft.CONFIG.compressionLevel >= 7) {
-                int multiplier = 9;
-                String lower = "compressed6";
-                String upper = "compressed7";
-                if (ctftMaterial.is_food) {
-                    final FoodComponent.Builder foodComponent = (new FoodComponent.Builder()).hunger(ctftMaterial.nutrition * multiplier).saturationModifier(ctftMaterial.saturation / multiplier);
-                    if (ctftMaterial.is_meat) {
-                        foodComponent.meat();
-                    }
-                    if (ctftMaterial.is_fast) {
-                        foodComponent.snack();
-                    }
-                    if (ctftMaterial.can_always_eat) {
-                        foodComponent.alwaysEdible();
-                    }
-                    if (ctftMaterial.food_effects) {
-                        for (Pair<StatusEffectInstance, Float> statusEffect : Registry.ITEM.get(new Identifier(ctftMaterial.recipe_ingredient.toLowerCase())).getFoodComponent().getStatusEffects()) {
-                            foodComponent.statusEffect(statusEffect.getFirst(),statusEffect.getSecond());
-                        }
-                    }
-                    settings.food(foodComponent.build());
-                }
-                if (ctftMaterial.fire_immune) {
-                    settings.fireproof();
-                }
-                Block block = register(ctftMaterial.recipe_ingredient.toLowerCase() + "_" + upper, new Block(AbstractBlock.Settings.of(material)));
-                Item item = register(ctftMaterial.recipe_ingredient.toLowerCase() + "_" + upper, new CustomBlockItem(block, ctftMaterial.foil, upper, ctftMaterial.lang_key, settings));
-                var id = ctftMaterial.recipe_ingredient.toLowerCase();
-                Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/" + upper).textures((JModel.textures().var("0", "ctft:blocks/" + ctftMaterial.texture_name  + "_compressed").particle("ctft:blocks/" + ctftMaterial.texture_name  + "_compressed"))), new Identifier("ctft", "item/" + id + "_" + upper));
-                Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
-                        .put("", JState.model("ctft:item/" + id + "_" + upper))
-                ), new Identifier("ctft:" + id + "_" + upper));
-                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_" + upper + "_from" + "_" + lower), JRecipe.shaped(JPattern.pattern().row1("000").row2("000").row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("ctft:" + id + "_" + lower)), JResult.result("ctft:" + id + "_" + upper)));
-                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_" + lower + "_from" + "_" + upper), JRecipe.shapeless(JIngredients.ingredients().add(JIngredient.ingredient().item("ctft:" + id + "_" + upper)), JResult.stackedResult("ctft:" + id + "_" + lower, 9)));
-                Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_" + upper), JLootTable
-                        .loot("block")
-                        .pool(JLootTable.pool()
-                                .rolls(1)
-                                .entry(JLootTable
-                                        .entry()
-                                        .type("minecraft:item")
-                                        .name("ctft:" + id + "_" + upper))));
-                TagInjector.injectItems(new Identifier("ctft","ctft_" + upper), Registry.ITEM.get(new Identifier("ctft", id + "_" + upper)));
-                if(piglin_loved.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), item);}
-                if(freeze_immune_wearables.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","freeze_immune_wearables"), item);}
-                if(piglin_repellents.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_repellents"), item);}
-                if(ctftMaterial.combustion > 0) FuelRegistry.INSTANCE.add(item, ctftMaterial.combustion*multiplier);
-            }
-            if (Ctft.CONFIG.compressionLevel >= 8) {
-                int multiplier = 9;
-                String lower = "compressed7";
-                String upper = "compressed8";
-                if (ctftMaterial.is_food) {
-                    final FoodComponent.Builder foodComponent = (new FoodComponent.Builder()).hunger(ctftMaterial.nutrition * multiplier).saturationModifier(ctftMaterial.saturation / multiplier);
-                    if (ctftMaterial.is_meat) {
-                        foodComponent.meat();
-                    }
-                    if (ctftMaterial.is_fast) {
-                        foodComponent.snack();
-                    }
-                    if (ctftMaterial.can_always_eat) {
-                        foodComponent.alwaysEdible();
-                    }
-                    if (ctftMaterial.food_effects) {
-                        for (Pair<StatusEffectInstance, Float> statusEffect : Registry.ITEM.get(new Identifier(ctftMaterial.recipe_ingredient.toLowerCase())).getFoodComponent().getStatusEffects()) {
-                            foodComponent.statusEffect(statusEffect.getFirst(),statusEffect.getSecond());
-                        }
-                    }
-                    settings.food(foodComponent.build());
-                }
-                if (ctftMaterial.fire_immune) {
-                    settings.fireproof();
-                }
-                Block block = register(ctftMaterial.recipe_ingredient.toLowerCase() + "_" + upper, new Block(AbstractBlock.Settings.of(material)));
-                Item item = register(ctftMaterial.recipe_ingredient.toLowerCase() + "_" + upper, new CustomBlockItem(block, ctftMaterial.foil, upper, ctftMaterial.lang_key, settings));
-                var id = ctftMaterial.recipe_ingredient.toLowerCase();
-                Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/" + upper).textures((JModel.textures().var("0", "ctft:blocks/" + ctftMaterial.texture_name  + "_compressed").particle("ctft:blocks/" + ctftMaterial.texture_name  + "_compressed"))), new Identifier("ctft", "item/" + id + "_" + upper));
-                Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
-                        .put("", JState.model("ctft:item/" + id + "_" + upper))
-                ), new Identifier("ctft:" + id + "_" + upper));
-                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_" + upper + "_from" + "_" + lower), JRecipe.shaped(JPattern.pattern().row1("000").row2("000").row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("ctft:" + id + "_" + lower)), JResult.result("ctft:" + id + "_" + upper)));
-                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_" + lower + "_from" + "_" + upper), JRecipe.shapeless(JIngredients.ingredients().add(JIngredient.ingredient().item("ctft:" + id + "_" + upper)), JResult.stackedResult("ctft:" + id + "_" + lower, 9)));
-                Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_" + upper), JLootTable
-                        .loot("block")
-                        .pool(JLootTable.pool()
-                                .rolls(1)
-                                .entry(JLootTable
-                                        .entry()
-                                        .type("minecraft:item")
-                                        .name("ctft:" + id + "_" + upper))));
-                TagInjector.injectItems(new Identifier("ctft","ctft_" + upper), Registry.ITEM.get(new Identifier("ctft", id + "_" + upper)));
-                if(piglin_loved.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), item);}
-                if(freeze_immune_wearables.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","freeze_immune_wearables"), item);}
-                if(piglin_repellents.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_repellents"), item);}
-                if(ctftMaterial.combustion > 0) FuelRegistry.INSTANCE.add(item, ctftMaterial.combustion*multiplier);
-            }
-            if (Ctft.CONFIG.compressionLevel >= 9) {
-                int multiplier = 9;
-                String lower = "compressed8";
-                String upper = "compressed9";
-                if (ctftMaterial.is_food) {
-                    final FoodComponent.Builder foodComponent = (new FoodComponent.Builder()).hunger(ctftMaterial.nutrition * multiplier).saturationModifier(ctftMaterial.saturation / multiplier);
-                    if (ctftMaterial.is_meat) {
-                        foodComponent.meat();
-                    }
-                    if (ctftMaterial.is_fast) {
-                        foodComponent.snack();
-                    }
-                    if (ctftMaterial.can_always_eat) {
-                        foodComponent.alwaysEdible();
-                    }
-                    if (ctftMaterial.food_effects) {
-                        for (Pair<StatusEffectInstance, Float> statusEffect : Registry.ITEM.get(new Identifier(ctftMaterial.recipe_ingredient.toLowerCase())).getFoodComponent().getStatusEffects()) {
-                            foodComponent.statusEffect(statusEffect.getFirst(),statusEffect.getSecond());
-                        }
-                    }
-                    settings.food(foodComponent.build());
-                }
-                if (ctftMaterial.fire_immune) {
-                    settings.fireproof();
-                }
-                Block block = register(ctftMaterial.recipe_ingredient.toLowerCase() + "_" + upper, new Block(AbstractBlock.Settings.of(material)));
-                Item item = register(ctftMaterial.recipe_ingredient.toLowerCase() + "_" + upper, new CustomBlockItem(block, ctftMaterial.foil, upper, ctftMaterial.lang_key, settings));
-                var id = ctftMaterial.recipe_ingredient.toLowerCase();
-                Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/" + upper).textures((JModel.textures().var("0", "ctft:blocks/" + ctftMaterial.texture_name  + "_compressed").particle("ctft:blocks/" + ctftMaterial.texture_name  + "_compressed"))), new Identifier("ctft", "item/" + id + "_" + upper));
-                Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
-                        .put("", JState.model("ctft:item/" + id + "_" + upper))
-                ), new Identifier("ctft:" + id + "_" + upper));
-                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_" + upper + "_from" + "_" + lower), JRecipe.shaped(JPattern.pattern().row1("000").row2("000").row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("ctft:" + id + "_" + lower)), JResult.result("ctft:" + id + "_" + upper)));
-                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_" + lower + "_from" + "_" + upper), JRecipe.shapeless(JIngredients.ingredients().add(JIngredient.ingredient().item("ctft:" + id + "_" + upper)), JResult.stackedResult("ctft:" + id + "_" + lower, 9)));
-                Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_" + upper), JLootTable
-                        .loot("block")
-                        .pool(JLootTable.pool()
-                                .rolls(1)
-                                .entry(JLootTable
-                                        .entry()
-                                        .type("minecraft:item")
-                                        .name("ctft:" + id + "_" + upper))));
-                TagInjector.injectItems(new Identifier("ctft","ctft_" + upper), Registry.ITEM.get(new Identifier("ctft", id + "_" + upper)));
-                if(piglin_loved.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), item);}
-                if(freeze_immune_wearables.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","freeze_immune_wearables"), item);}
-                if(piglin_repellents.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_repellents"), item);}
-                if(ctftMaterial.combustion > 0) FuelRegistry.INSTANCE.add(item, ctftMaterial.combustion*multiplier);
-            }
-            if (Ctft.CONFIG.compressionLevel >= 10) {
-                int multiplier = 9;
-                String lower = "compressed9";
-                String upper = "compressed10";
-                if (ctftMaterial.is_food) {
-                    final FoodComponent.Builder foodComponent = (new FoodComponent.Builder()).hunger(ctftMaterial.nutrition * multiplier).saturationModifier(ctftMaterial.saturation / multiplier);
-                    if (ctftMaterial.is_meat) {
-                        foodComponent.meat();
-                    }
-                    if (ctftMaterial.is_fast) {
-                        foodComponent.snack();
-                    }
-                    if (ctftMaterial.can_always_eat) {
-                        foodComponent.alwaysEdible();
-                    }
-                    if (ctftMaterial.food_effects) {
-                        for (Pair<StatusEffectInstance, Float> statusEffect : Registry.ITEM.get(new Identifier(ctftMaterial.recipe_ingredient.toLowerCase())).getFoodComponent().getStatusEffects()) {
-                            foodComponent.statusEffect(statusEffect.getFirst(),statusEffect.getSecond());
-                        }
-                    }
-                    settings.food(foodComponent.build());
-                }
-                if (ctftMaterial.fire_immune) {
-                    settings.fireproof();
-                }
-                Block block = register(ctftMaterial.recipe_ingredient.toLowerCase() + "_" + upper, new Block(AbstractBlock.Settings.of(material)));
-                Item item = register(ctftMaterial.recipe_ingredient.toLowerCase() + "_" + upper, new CustomBlockItem(block, ctftMaterial.foil, upper, ctftMaterial.lang_key, settings));
-                var id = ctftMaterial.recipe_ingredient.toLowerCase();
-                Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/" + upper).textures((JModel.textures().var("0", "ctft:blocks/" + ctftMaterial.texture_name  + "_compressed").particle("ctft:blocks/" + ctftMaterial.texture_name  + "_compressed"))), new Identifier("ctft", "item/" + id + "_" + upper));
-                Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
-                        .put("", JState.model("ctft:item/" + id + "_" + upper))
-                ), new Identifier("ctft:" + id + "_" + upper));
-                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_" + upper + "_from" + "_" + lower), JRecipe.shaped(JPattern.pattern().row1("000").row2("000").row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("ctft:" + id + "_" + lower)), JResult.result("ctft:" + id + "_" + upper)));
-                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_" + lower + "_from" + "_" + upper), JRecipe.shapeless(JIngredients.ingredients().add(JIngredient.ingredient().item("ctft:" + id + "_" + upper)), JResult.stackedResult("ctft:" + id + "_" + lower, 9)));
-                Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_" + upper), JLootTable
-                        .loot("block")
-                        .pool(JLootTable.pool()
-                                .rolls(1)
-                                .entry(JLootTable
-                                        .entry()
-                                        .type("minecraft:item")
-                                        .name("ctft:" + id + "_" + upper))));
-                TagInjector.injectItems(new Identifier("ctft","ctft_" + upper), Registry.ITEM.get(new Identifier("ctft", id + "_" + upper)));
-                if(piglin_loved.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), item);}
-                if(freeze_immune_wearables.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","freeze_immune_wearables"), item);}
-                if(piglin_repellents.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_repellents"), item);}
-                if(ctftMaterial.combustion > 0) FuelRegistry.INSTANCE.add(item, ctftMaterial.combustion*multiplier);
-            }
-            if (Ctft.CONFIG.compressionLevel >= 11) {
-                int multiplier = 9;
-                String lower = "compressed10";
-                String upper = "compressed11";
-                if (ctftMaterial.is_food) {
-                    final FoodComponent.Builder foodComponent = (new FoodComponent.Builder()).hunger(ctftMaterial.nutrition * multiplier).saturationModifier(ctftMaterial.saturation / multiplier);
-                    if (ctftMaterial.is_meat) {
-                        foodComponent.meat();
-                    }
-                    if (ctftMaterial.is_fast) {
-                        foodComponent.snack();
-                    }
-                    if (ctftMaterial.can_always_eat) {
-                        foodComponent.alwaysEdible();
-                    }
-                    if (ctftMaterial.food_effects) {
-                        for (Pair<StatusEffectInstance, Float> statusEffect : Registry.ITEM.get(new Identifier(ctftMaterial.recipe_ingredient.toLowerCase())).getFoodComponent().getStatusEffects()) {
-                            foodComponent.statusEffect(statusEffect.getFirst(),statusEffect.getSecond());
-                        }
-                    }
-                    settings.food(foodComponent.build());
-                }
-                if (ctftMaterial.fire_immune) {
-                    settings.fireproof();
-                }
-                Block block = register(ctftMaterial.recipe_ingredient.toLowerCase() + "_" + upper, new Block(AbstractBlock.Settings.of(material)));
-                Item item = register(ctftMaterial.recipe_ingredient.toLowerCase() + "_" + upper, new CustomBlockItem(block, ctftMaterial.foil, upper, ctftMaterial.lang_key, settings));
-                var id = ctftMaterial.recipe_ingredient.toLowerCase();
-                Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/" + upper).textures((JModel.textures().var("0", "ctft:blocks/" + ctftMaterial.texture_name  + "_compressed").particle("ctft:blocks/" + ctftMaterial.texture_name  + "_compressed"))), new Identifier("ctft", "item/" + id + "_" + upper));
-                Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
-                        .put("", JState.model("ctft:item/" + id + "_" + upper))
-                ), new Identifier("ctft:" + id + "_" + upper));
-                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_" + upper + "_from" + "_" + lower), JRecipe.shaped(JPattern.pattern().row1("000").row2("000").row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("ctft:" + id + "_" + lower)), JResult.result("ctft:" + id + "_" + upper)));
-                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_" + lower + "_from" + "_" + upper), JRecipe.shapeless(JIngredients.ingredients().add(JIngredient.ingredient().item("ctft:" + id + "_" + upper)), JResult.stackedResult("ctft:" + id + "_" + lower, 9)));
-                Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_" + upper), JLootTable
-                        .loot("block")
-                        .pool(JLootTable.pool()
-                                .rolls(1)
-                                .entry(JLootTable
-                                        .entry()
-                                        .type("minecraft:item")
-                                        .name("ctft:" + id + "_" + upper))));
-                TagInjector.injectItems(new Identifier("ctft","ctft_" + upper), Registry.ITEM.get(new Identifier("ctft", id + "_" + upper)));
-                if(piglin_loved.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), item);}
-                if(freeze_immune_wearables.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","freeze_immune_wearables"), item);}
-                if(piglin_repellents.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_repellents"), item);}
-                if(ctftMaterial.combustion > 0) FuelRegistry.INSTANCE.add(item, ctftMaterial.combustion*multiplier);
-            }
-            if (Ctft.CONFIG.compressionLevel >= 12) {
-                int multiplier = 9;
-                String lower = "compressed11";
-                String upper = "compressed12";
-                if (ctftMaterial.is_food) {
-                    final FoodComponent.Builder foodComponent = (new FoodComponent.Builder()).hunger(ctftMaterial.nutrition * multiplier).saturationModifier(ctftMaterial.saturation / multiplier);
-                    if (ctftMaterial.is_meat) {
-                        foodComponent.meat();
-                    }
-                    if (ctftMaterial.is_fast) {
-                        foodComponent.snack();
-                    }
-                    if (ctftMaterial.can_always_eat) {
-                        foodComponent.alwaysEdible();
-                    }
-                    if (ctftMaterial.food_effects) {
-                        for (Pair<StatusEffectInstance, Float> statusEffect : Registry.ITEM.get(new Identifier(ctftMaterial.recipe_ingredient.toLowerCase())).getFoodComponent().getStatusEffects()) {
-                            foodComponent.statusEffect(statusEffect.getFirst(),statusEffect.getSecond());
-                        }
-                    }
-                    settings.food(foodComponent.build());
-                }
-                if (ctftMaterial.fire_immune) {
-                    settings.fireproof();
-                }
-                Block block = register(ctftMaterial.recipe_ingredient.toLowerCase() + "_" + upper, new Block(AbstractBlock.Settings.of(material)));
-                Item item = register(ctftMaterial.recipe_ingredient.toLowerCase() + "_" + upper, new CustomBlockItem(block, ctftMaterial.foil, upper, ctftMaterial.lang_key, settings));
-                var id = ctftMaterial.recipe_ingredient.toLowerCase();
-                Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/" + upper).textures((JModel.textures().var("0", "ctft:blocks/" + ctftMaterial.texture_name  + "_compressed").particle("ctft:blocks/" + ctftMaterial.texture_name  + "_compressed"))), new Identifier("ctft", "item/" + id + "_" + upper));
-                Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
-                        .put("", JState.model("ctft:item/" + id + "_" + upper))
-                ), new Identifier("ctft:" + id + "_" + upper));
-                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_" + upper + "_from" + "_" + lower), JRecipe.shaped(JPattern.pattern().row1("000").row2("000").row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("ctft:" + id + "_" + lower)), JResult.result("ctft:" + id + "_" + upper)));
-                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_" + lower + "_from" + "_" + upper), JRecipe.shapeless(JIngredients.ingredients().add(JIngredient.ingredient().item("ctft:" + id + "_" + upper)), JResult.stackedResult("ctft:" + id + "_" + lower, 9)));
-                Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_" + upper), JLootTable
-                        .loot("block")
-                        .pool(JLootTable.pool()
-                                .rolls(1)
-                                .entry(JLootTable
-                                        .entry()
-                                        .type("minecraft:item")
-                                        .name("ctft:" + id + "_" + upper))));
-                TagInjector.injectItems(new Identifier("ctft","ctft_" + upper), Registry.ITEM.get(new Identifier("ctft", id + "_" + upper)));
-                if(piglin_loved.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), item);}
-                if(freeze_immune_wearables.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","freeze_immune_wearables"), item);}
-                if(piglin_repellents.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_repellents"), item);}
-                if(ctftMaterial.combustion > 0) FuelRegistry.INSTANCE.add(item, ctftMaterial.combustion*multiplier);
-            }
-            if (Ctft.CONFIG.compressionLevel >= 13) {
-                int multiplier = 9;
-                String lower = "compressed12";
-                String upper = "compressed13";
-                if (ctftMaterial.is_food) {
-                    final FoodComponent.Builder foodComponent = (new FoodComponent.Builder()).hunger(ctftMaterial.nutrition * multiplier).saturationModifier(ctftMaterial.saturation / multiplier);
-                    if (ctftMaterial.is_meat) {
-                        foodComponent.meat();
-                    }
-                    if (ctftMaterial.is_fast) {
-                        foodComponent.snack();
-                    }
-                    if (ctftMaterial.can_always_eat) {
-                        foodComponent.alwaysEdible();
-                    }
-                    if (ctftMaterial.food_effects) {
-                        for (Pair<StatusEffectInstance, Float> statusEffect : Registry.ITEM.get(new Identifier(ctftMaterial.recipe_ingredient.toLowerCase())).getFoodComponent().getStatusEffects()) {
-                            foodComponent.statusEffect(statusEffect.getFirst(),statusEffect.getSecond());
-                        }
-                    }
-                    settings.food(foodComponent.build());
-                }
-                if (ctftMaterial.fire_immune) {
-                    settings.fireproof();
-                }
-                Block block = register(ctftMaterial.recipe_ingredient.toLowerCase() + "_" + upper, new Block(AbstractBlock.Settings.of(material)));
-                Item item = register(ctftMaterial.recipe_ingredient.toLowerCase() + "_" + upper, new CustomBlockItem(block, ctftMaterial.foil, upper, ctftMaterial.lang_key, settings));
-                var id = ctftMaterial.recipe_ingredient.toLowerCase();
-                Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/" + upper).textures((JModel.textures().var("0", "ctft:blocks/" + ctftMaterial.texture_name  + "_compressed").particle("ctft:blocks/" + ctftMaterial.texture_name  + "_compressed"))), new Identifier("ctft", "item/" + id + "_" + upper));
-                Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
-                        .put("", JState.model("ctft:item/" + id + "_" + upper))
-                ), new Identifier("ctft:" + id + "_" + upper));
-                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_" + upper + "_from" + "_" + lower), JRecipe.shaped(JPattern.pattern().row1("000").row2("000").row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("ctft:" + id + "_" + lower)), JResult.result("ctft:" + id + "_" + upper)));
-                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_" + lower + "_from" + "_" + upper), JRecipe.shapeless(JIngredients.ingredients().add(JIngredient.ingredient().item("ctft:" + id + "_" + upper)), JResult.stackedResult("ctft:" + id + "_" + lower, 9)));
-                Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_" + upper), JLootTable
-                        .loot("block")
-                        .pool(JLootTable.pool()
-                                .rolls(1)
-                                .entry(JLootTable
-                                        .entry()
-                                        .type("minecraft:item")
-                                        .name("ctft:" + id + "_" + upper))));
-                TagInjector.injectItems(new Identifier("ctft","ctft_" + upper), Registry.ITEM.get(new Identifier("ctft", id + "_" + upper)));
-                if(piglin_loved.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), item);}
-                if(freeze_immune_wearables.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","freeze_immune_wearables"), item);}
-                if(piglin_repellents.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_repellents"), item);}
-                if(ctftMaterial.combustion > 0) FuelRegistry.INSTANCE.add(item, ctftMaterial.combustion*multiplier);
-            }
-            if (Ctft.CONFIG.compressionLevel >= 14) {
-                int multiplier = 9;
-                String lower = "compressed13";
-                String upper = "compressed14";
-                if (ctftMaterial.is_food) {
-                    final FoodComponent.Builder foodComponent = (new FoodComponent.Builder()).hunger(ctftMaterial.nutrition * multiplier).saturationModifier(ctftMaterial.saturation / multiplier);
-                    if (ctftMaterial.is_meat) {
-                        foodComponent.meat();
-                    }
-                    if (ctftMaterial.is_fast) {
-                        foodComponent.snack();
-                    }
-                    if (ctftMaterial.can_always_eat) {
-                        foodComponent.alwaysEdible();
-                    }
-                    if (ctftMaterial.food_effects) {
-                        for (Pair<StatusEffectInstance, Float> statusEffect : Registry.ITEM.get(new Identifier(ctftMaterial.recipe_ingredient.toLowerCase())).getFoodComponent().getStatusEffects()) {
-                            foodComponent.statusEffect(statusEffect.getFirst(),statusEffect.getSecond());
-                        }
-                    }
-                    settings.food(foodComponent.build());
-                }
-                if (ctftMaterial.fire_immune) {
-                    settings.fireproof();
-                }
-                Block block = register(ctftMaterial.recipe_ingredient.toLowerCase() + "_" + upper, new Block(AbstractBlock.Settings.of(material)));
-                Item item = register(ctftMaterial.recipe_ingredient.toLowerCase() + "_" + upper, new CustomBlockItem(block, ctftMaterial.foil, upper, ctftMaterial.lang_key, settings));
-                var id = ctftMaterial.recipe_ingredient.toLowerCase();
-                Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/" + upper).textures((JModel.textures().var("0", "ctft:blocks/" + ctftMaterial.texture_name  + "_compressed").particle("ctft:blocks/" + ctftMaterial.texture_name  + "_compressed"))), new Identifier("ctft", "item/" + id + "_" + upper));
-                Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
-                        .put("", JState.model("ctft:item/" + id + "_" + upper))
-                ), new Identifier("ctft:" + id + "_" + upper));
-                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_" + upper + "_from" + "_" + lower), JRecipe.shaped(JPattern.pattern().row1("000").row2("000").row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("ctft:" + id + "_" + lower)), JResult.result("ctft:" + id + "_" + upper)));
-                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_" + lower + "_from" + "_" + upper), JRecipe.shapeless(JIngredients.ingredients().add(JIngredient.ingredient().item("ctft:" + id + "_" + upper)), JResult.stackedResult("ctft:" + id + "_" + lower, 9)));
-                Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_" + upper), JLootTable
-                        .loot("block")
-                        .pool(JLootTable.pool()
-                                .rolls(1)
-                                .entry(JLootTable
-                                        .entry()
-                                        .type("minecraft:item")
-                                        .name("ctft:" + id + "_" + upper))));
-                TagInjector.injectItems(new Identifier("ctft","ctft_" + upper), Registry.ITEM.get(new Identifier("ctft", id + "_" + upper)));
-                if(piglin_loved.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), item);}
-                if(freeze_immune_wearables.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","freeze_immune_wearables"), item);}
-                if(piglin_repellents.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_repellents"), item);}
-                if(ctftMaterial.combustion > 0) FuelRegistry.INSTANCE.add(item, ctftMaterial.combustion*multiplier);
-            }
-            if (Ctft.CONFIG.compressionLevel >= 15) {
-                int multiplier = 9;
-                String lower = "compressed14";
-                String upper = "compressed15";
-                if (ctftMaterial.is_food) {
-                    final FoodComponent.Builder foodComponent = (new FoodComponent.Builder()).hunger(ctftMaterial.nutrition * multiplier).saturationModifier(ctftMaterial.saturation / multiplier);
-                    if (ctftMaterial.is_meat) {
-                        foodComponent.meat();
-                    }
-                    if (ctftMaterial.is_fast) {
-                        foodComponent.snack();
-                    }
-                    if (ctftMaterial.can_always_eat) {
-                        foodComponent.alwaysEdible();
-                    }
-                    if (ctftMaterial.food_effects) {
-                        for (Pair<StatusEffectInstance, Float> statusEffect : Registry.ITEM.get(new Identifier(ctftMaterial.recipe_ingredient.toLowerCase())).getFoodComponent().getStatusEffects()) {
-                            foodComponent.statusEffect(statusEffect.getFirst(),statusEffect.getSecond());
-                        }
-                    }
-                    settings.food(foodComponent.build());
-                }
-                if (ctftMaterial.fire_immune) {
-                    settings.fireproof();
-                }
-                Block block = register(ctftMaterial.recipe_ingredient.toLowerCase() + "_" + upper, new Block(AbstractBlock.Settings.of(material)));
-                Item item = register(ctftMaterial.recipe_ingredient.toLowerCase() + "_" + upper, new CustomBlockItem(block, ctftMaterial.foil, upper, ctftMaterial.lang_key, settings));
-                var id = ctftMaterial.recipe_ingredient.toLowerCase();
-                Ctft.CTFT_RESOURCES.addModel(JModel.model().parent("ctft:item/" + upper).textures((JModel.textures().var("0", "ctft:blocks/" + ctftMaterial.texture_name  + "_compressed").particle("ctft:blocks/" + ctftMaterial.texture_name  + "_compressed"))), new Identifier("ctft", "item/" + id + "_" + upper));
-                Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
-                        .put("", JState.model("ctft:item/" + id + "_" + upper))
-                ), new Identifier("ctft:" + id + "_" + upper));
-                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_" + upper + "_from" + "_" + lower), JRecipe.shaped(JPattern.pattern().row1("000").row2("000").row3("000"), JKeys.keys().key("0", JIngredient.ingredient().item("ctft:" + id + "_" + lower)), JResult.result("ctft:" + id + "_" + upper)));
-                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_" + lower + "_from" + "_" + upper), JRecipe.shapeless(JIngredients.ingredients().add(JIngredient.ingredient().item("ctft:" + id + "_" + upper)), JResult.stackedResult("ctft:" + id + "_" + lower, 9)));
-                Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_" + upper), JLootTable
-                        .loot("block")
-                        .pool(JLootTable.pool()
-                                .rolls(1)
-                                .entry(JLootTable
-                                        .entry()
-                                        .type("minecraft:item")
-                                        .name("ctft:" + id + "_" + upper))));
-                TagInjector.injectItems(new Identifier("ctft","ctft_" + upper), Registry.ITEM.get(new Identifier("ctft", id + "_" + upper)));
-                if(piglin_loved.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), item);}
-                if(freeze_immune_wearables.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","freeze_immune_wearables"), item);}
-                if(piglin_repellents.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_repellents"), item);}
-                if(ctftMaterial.combustion > 0) FuelRegistry.INSTANCE.add(item, ctftMaterial.combustion*multiplier);
             }
             if (Ctft.CONFIG.kcolbsEnabled) {
                 int multiplier = 9;
@@ -2933,8 +2321,8 @@ public class OmegaReg {
                 Ctft.CTFT_RESOURCES.addBlockState(JState.state().add(JState.variant()
                         .put("", JState.model("ctft:item/" + id + "_kcolb"))
                 ), new Identifier("ctft:" + id + "_kcolb"));
-                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_kcolb_from_stonecutter"), JRecipe.stonecutting(JIngredient.ingredient().item("ctft:" + id + "_block"), JResult.stackedResult("ctft:" + id + "_kcolb", 1)));
-                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_block_from_kcolb"), JRecipe.shapeless(JIngredients.ingredients().add(JIngredient.ingredient().item("ctft:" + id + "_kcolb")), JResult.stackedResult("ctft:" + id + "_block", 1)));
+//                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_kcolb_from_stonecutter"), JRecipe.stonecutting(JIngredient.ingredient().item("ctft:" + id + "_block"), JResult.stackedResult("ctft:" + id + "_kcolb", 1)));
+//                Ctft.CTFT_RESOURCES.addRecipe(new Identifier("ctft:" + id + "_block_from_kcolb"), JRecipe.shapeless(JIngredients.ingredients().add(JIngredient.ingredient().item("ctft:" + id + "_kcolb")), JResult.stackedResult("ctft:" + id + "_block", 1)));
                 Ctft.CTFT_RESOURCES.addLootTable(new Identifier("ctft", "blocks/" + id + "_kcolb"), JLootTable
                         .loot("block")
                         .pool(JLootTable.pool()
@@ -2943,10 +2331,10 @@ public class OmegaReg {
                                         .entry()
                                         .type("minecraft:item")
                                         .name("ctft:" + id + "_kcolb"))));
-                TagInjector.injectItems(new Identifier("ctft","ctft_kcolbs"), Registry.ITEM.get(new Identifier("ctft", id + "_kcolb")));
-                if(piglin_loved.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_loved"), item);}
-                if(freeze_immune_wearables.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","freeze_immune_wearables"), item);}
-                if(piglin_repellents.contains(id)) {TagInjector.injectItems(new Identifier("minecraft","piglin_repellents"), item);}
+                TagInjector.inject(Registry.ITEM, new Identifier("ctft","ctft_kcolbs"), Registry.ITEM.get(new Identifier("ctft", id + "_kcolb")));
+                if(piglin_loved.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_loved"));}
+                if(freeze_immune_wearables.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","freeze_immune_wearables"));}
+                if(piglin_repellents.contains(id)) {TagInjector.inject(Registry.ITEM, new Identifier("minecraft","piglin_repellents"));}
                 if(ctftMaterial.combustion > 0) FuelRegistry.INSTANCE.add(item, ctftMaterial.combustion*multiplier);
             }
         });
