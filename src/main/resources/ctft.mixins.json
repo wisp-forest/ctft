@@ -4,9 +4,11 @@
   "package": "com.chyzman.ctft.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "CameraAccessor",
     "ItemAccessor",
     "ItemEntityMixin",
-    "ItemStackMixin", "ParticleManagerAccessor"
+    "ItemStackMixin",
+    "ParticleManagerAccessor"
   ],
   "client": [
   ],

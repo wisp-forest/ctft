@@ -1,10 +1,11 @@
 package com.chyzman.ctft.renderer;
 
+import com.chyzman.ctft.client.TransformingVertexConsumer;
+import com.chyzman.ctft.mixin.CameraAccessor;
 import com.chyzman.ctft.mixin.ParticleManagerAccessor;
 import com.mojang.blaze3d.systems.RenderSystem;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
-import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.client.model.BakedModelManagerHelper;
 import net.fabricmc.fabric.api.client.rendering.v1.BuiltinItemRendererRegistry;
 import net.minecraft.block.BlockEntityProvider;
@@ -17,9 +18,9 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.SpawnEggItem;
 import net.minecraft.particle.DefaultParticleType;
 import net.minecraft.registry.Registries;
-import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
-import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.Vec3d;
+import org.joml.Quaternionf;
 
 import static com.chyzman.ctft.client.CtftClient.CTFTESSELLATOR;
 
@@ -100,15 +101,26 @@ public class CtftItemRenderer implements BuiltinItemRendererRegistry.DynamicItem
 
                         Tessellator tessellator = CTFTESSELLATOR;
                         BufferBuilder bufferBuilder = tessellator.getBuffer();
-                        var camera = MinecraftClient.getInstance().gameRenderer.getCamera();
                         bufferBuilder.begin(VertexFormat.DrawMode.QUADS, VertexFormats.POSITION_TEXTURE_COLOR_LIGHT);
+
+                        var camera = MinecraftClient.getInstance().gameRenderer.getCamera();
+                        var cameraRotation = camera.getRotation();
+                        var cameraPos = camera.getPos();
+
+                        ((CameraAccessor) camera).ctft$setRotation(new Quaternionf().rotationY((float) Math.PI));
+                        ((CameraAccessor) camera).ctft$setPos(Vec3d.ZERO);
+
+                        var consumer = new TransformingVertexConsumer(bufferBuilder, matrices.peek());
 
                         piece = () -> {
                             var particle = ((ParticleManagerAccessor) MinecraftClient.getInstance().particleManager).ctft$CreateParticle(defaultParticleType.getType(), 0, 0, 0, 0, 0, 0);
-                            particle.buildGeometry(bufferBuilder, camera, 0);
+                            particle.buildGeometry(consumer, camera, 0);
                         };
-                        tessellator.draw();
                         renderMaterial(matrices, piece);
+                        tessellator.draw();
+
+                        ((CameraAccessor) camera).ctft$setRotation(cameraRotation);
+                        ((CameraAccessor) camera).ctft$setPos(cameraPos);
                     }
                 }
             }
