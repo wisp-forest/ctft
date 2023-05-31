@@ -12,5 +12,7 @@
   "itemGroup.ctft.ctft_group.tab.ctft_hoes" : "Hoes",
   "itemGroup.ctft.ctft_group.button.github" : "Chyzman on Github",
   "itemGroup.ctft.ctft_group.button.curseforge" : "Chyzman on Curseforge",
-  "itemGroup.ctft.ctft_group.button.modrinth" : "Chyzman on Modrinth"
+  "itemGroup.ctft.ctft_group.button.modrinth" : "Chyzman on Modrinth",
+  "commands.ctftitem.success.single": "Gave %s to %s",
+  "commands.ctftitem.fail.wrong": "%s is not a CTFT item"
 }

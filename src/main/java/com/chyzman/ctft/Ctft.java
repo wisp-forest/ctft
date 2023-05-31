@@ -1,5 +1,6 @@
 package com.chyzman.ctft;
 
+import com.chyzman.ctft.command.CtftItemCommand;
 import com.chyzman.ctft.registries.CtftRecipeSerializers;
 import com.chyzman.ctft.registries.CtftRegistry;
 import com.chyzman.ctft.registries.CtftStats;
@@ -69,5 +70,6 @@ public class Ctft implements ModInitializer {
         CtftStats.Init();
         ServerEventListeners.init();
         CTFT_GROUP.initialize();
+        CtftItemCommand.register();
     }
 }

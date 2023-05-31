@@ -4,6 +4,8 @@ import com.chyzman.ctft.client.TransformingVertexConsumer;
 import com.chyzman.ctft.mixin.CameraAccessor;
 import com.chyzman.ctft.mixin.ParticleManagerAccessor;
 import com.mojang.blaze3d.systems.RenderSystem;
+import com.mojang.brigadier.StringReader;
+import com.mojang.brigadier.exceptions.CommandSyntaxException;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.fabricmc.fabric.api.client.model.BakedModelManagerHelper;
@@ -14,9 +16,11 @@ import net.minecraft.client.render.*;
 import net.minecraft.client.render.model.json.ModelTransformationMode;
 import net.minecraft.client.texture.SpriteAtlasTexture;
 import net.minecraft.client.util.math.MatrixStack;
+import net.minecraft.command.argument.ParticleEffectArgumentType;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.SpawnEggItem;
 import net.minecraft.particle.DefaultParticleType;
+import net.minecraft.particle.ParticleEffect;
 import net.minecraft.registry.Registries;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.Vec3d;
@@ -90,9 +94,13 @@ public class CtftItemRenderer implements BuiltinItemRendererRegistry.DynamicItem
                     };
                     renderMaterial(matrices, piece);
                 } else if (Registries.PARTICLE_TYPE.containsId(id)) {
-                    var particleType = Registries.PARTICLE_TYPE.get(id);
-                    if (particleType instanceof DefaultParticleType defaultParticleType) {
-
+                    ParticleEffect particleEffect;
+                    try {
+                        particleEffect = ParticleEffectArgumentType.readParameters(new StringReader(id.toString()), Registries.PARTICLE_TYPE.getReadOnlyWrapper());
+                    } catch (CommandSyntaxException e) {
+                        throw new RuntimeException(e);
+                    }
+                    Registries.PARTICLE_TYPE.get(id);
                         RenderSystem.enableBlend();
                         RenderSystem.defaultBlendFunc();
                         RenderSystem.depthMask(true);
@@ -113,15 +121,16 @@ public class CtftItemRenderer implements BuiltinItemRendererRegistry.DynamicItem
                         var consumer = new TransformingVertexConsumer(bufferBuilder, matrices.peek());
 
                         piece = () -> {
-                            var particle = ((ParticleManagerAccessor) MinecraftClient.getInstance().particleManager).ctft$CreateParticle(defaultParticleType.getType(), 0, 0, 0, 0, 0, 0);
+                            matrices.scale(16,16,16);
+                            var particle = ((ParticleManagerAccessor) MinecraftClient.getInstance().particleManager).ctft$CreateParticle(particleEffect, 0, 0, 0, 0, 0, 0);
                             particle.buildGeometry(consumer, camera, 0);
+                            matrices.scale(1/16f,1/16f,1/16f);
                         };
                         renderMaterial(matrices, piece);
                         tessellator.draw();
 
                         ((CameraAccessor) camera).ctft$setRotation(cameraRotation);
                         ((CameraAccessor) camera).ctft$setPos(cameraPos);
-                    }
                 }
             }
         }
