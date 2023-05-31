@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.chyzman.ctft.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "ItemAccessor",
+    "ItemEntityMixin",
+    "ItemStackMixin", "ParticleManagerAccessor"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

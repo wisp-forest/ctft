@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "ctft",
+  "version": "${version}",
+  "name": "ctft",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": ""
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/ctft/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.chyzman.ctft.client.CtftClient"
+    ],
+    "main": [
+      "com.chyzman.ctft.Ctft"
+    ]
+  },
+  "mixins": [
+    "ctft.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  },
+  "accessWidener" : "ctft.accesswidener"
+}
