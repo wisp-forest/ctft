@@ -15,7 +15,10 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.ShovelItem;
 import net.minecraft.registry.Registries;
 import net.minecraft.text.Text;
+import net.minecraft.util.Formatting;
 import net.minecraft.util.Identifier;
+
+import java.util.Random;
 
 import static com.chyzman.ctft.registries.CtftStats.MATERIALS;
 
@@ -29,19 +32,22 @@ public class CtftShovelItem extends ShovelItem {
 
     @Override
     public Text getName(ItemStack stack) {
-        if (stack.getNbt() != null && stack.getNbt().getString("material") != null) {
-            var id = Identifier.tryParse(stack.getNbt().getString("material"));
-            if (id != null) {
-                return (Text.translatable("item.ctft.shovel", Registries.ITEM.containsId(id) ? Registries.ITEM.get(id).getName() : Registries.BLOCK.containsId(id) ? Registries.BLOCK.get(id).getName() : Registries.ENTITY_TYPE.containsId(id) ? Registries.ENTITY_TYPE.get(id).getName() : "???"));
-            }
-        }
-        return super.getName(stack);
+        return CtftOverrideHelper.getName(stack, "item.ctft.shovel", stack1 -> super.getName(stack));
     }
 
     @Override
     public Multimap<EntityAttribute, EntityAttributeModifier> getAttributeModifiers(ItemStack stack, EquipmentSlot slot) {
         var attribute_modifiers = HashMultimap.create(super.getAttributeModifiers(stack, slot));
         if (stack.getNbt() != null && stack.getNbt().getString("material") != null) {
+            if (stack.getNbt().getString("material").equals("random")) {
+                if (slot.equals(EquipmentSlot.MAINHAND)) {
+                    attribute_modifiers.clear();
+                    attribute_modifiers.put(EntityAttributes.GENERIC_ATTACK_DAMAGE, new EntityAttributeModifier(ItemAccessor.ctft$ATTACK_DAMAGE_MODIFIER_ID(), "damage", new Random().nextDouble(0,20), EntityAttributeModifier.Operation.ADDITION));
+                    attribute_modifiers.put(EntityAttributes.GENERIC_ATTACK_SPEED, new EntityAttributeModifier(ItemAccessor.ctft$ATTACK_SPEED_MODIFIER_ID(), "speed", new Random().nextDouble(0,5), EntityAttributeModifier.Operation.ADDITION));
+                    attribute_modifiers.putAll(super.getAttributeModifiers(stack, slot));
+                    return attribute_modifiers;
+                }
+            }
             var id = Identifier.tryParse(stack.getNbt().getString("material"));
             if (id == null) return attribute_modifiers;
             var material = MATERIALS.get(id);

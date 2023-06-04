@@ -13,6 +13,8 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
 
+import java.util.regex.Pattern;
+
 import static com.chyzman.ctft.util.CtftRegistryHelper.id;
 
 public class Ctft implements ModInitializer {
@@ -51,6 +53,13 @@ public class Ctft implements ModInitializer {
                 group.addCustomTab(Icon.of(CtftRegistry.CTFT_HOE), "ctft_hoes", (context, entries) -> {
                     Registries.ITEM.forEach(item -> {
                         ItemStack stack = new ItemStack(CtftRegistry.CTFT_HOE);
+                        stack.getOrCreateNbt().putString("material", Registries.ITEM.getId(item).toString());
+                        entries.add(stack);
+                    });
+                }, false);
+                group.addCustomTab(Icon.of(CtftRegistry.CTFT_SHEARS), "ctft_shears", (context, entries) -> {
+                    Registries.ITEM.forEach(item -> {
+                        ItemStack stack = new ItemStack(CtftRegistry.CTFT_SHEARS);
                         stack.getOrCreateNbt().putString("material", Registries.ITEM.getId(item).toString());
                         entries.add(stack);
                     });

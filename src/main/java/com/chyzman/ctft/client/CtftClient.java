@@ -23,5 +23,7 @@ public class CtftClient implements ClientModInitializer {
         ModelLoadingRegistry.INSTANCE.registerModelProvider((manager, out) -> out.accept(id("item/base/shovel_base")));
         BuiltinItemRendererRegistry.INSTANCE.register(CtftRegistry.CTFT_HOE, new CtftHoeItemRenderer(id("item/base/hoe_base")));
         ModelLoadingRegistry.INSTANCE.registerModelProvider((manager, out) -> out.accept(id("item/base/hoe_base")));
+        BuiltinItemRendererRegistry.INSTANCE.register(CtftRegistry.CTFT_SHEARS, new CtftShearsItemRenderer(id("item/base/shears_base")));
+        ModelLoadingRegistry.INSTANCE.registerModelProvider((manager, out) -> out.accept(id("item/base/shears_base")));
     }
 }

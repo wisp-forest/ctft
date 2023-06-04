@@ -14,6 +14,7 @@ import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.text.MutableText;
 import net.minecraft.text.Text;
+import net.minecraft.util.Formatting;
 import net.minecraft.util.Identifier;
 
 import static com.chyzman.ctft.registries.CtftStats.MATERIALS;
@@ -28,13 +29,7 @@ public class CtftPickaxeItem extends PickaxeItem {
 
     @Override
     public Text getName(ItemStack stack) {
-        if (stack.getNbt() != null && stack.getNbt().getString("material") != null) {
-            var id = Identifier.tryParse(stack.getNbt().getString("material"));
-            if (id != null) {
-                return (Text.translatable("item.ctft.pickaxe", Registries.ITEM.containsId(id) ? Registries.ITEM.get(id).getName() : Registries.BLOCK.containsId(id) ? Registries.BLOCK.get(id).getName() : Registries.ENTITY_TYPE.containsId(id) ? Registries.ENTITY_TYPE.get(id).getName() : "???"));
-            }
-        }
-        return super.getName(stack);
+        return CtftOverrideHelper.getName(stack, "item.ctft.pickaxe", stack1 -> super.getName(stack));
     }
 
     @Override

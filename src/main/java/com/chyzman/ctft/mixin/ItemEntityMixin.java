@@ -17,6 +17,8 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
+import java.util.Random;
+
 import static com.chyzman.ctft.Ctft.MODID;
 import static com.chyzman.ctft.registries.CtftStats.MATERIALS;
 
@@ -28,6 +30,9 @@ public abstract class ItemEntityMixin {
     public void noBurny(CallbackInfoReturnable<Boolean> cir) {
         if (!Registries.ITEM.getId(getStack().getItem()).getNamespace().equals(MODID)) cir.cancel();
         if (getStack().getNbt() != null && getStack().getNbt().getString("material") != null) {
+            if (getStack().getNbt().getString("material").equals("random")) {
+                cir.setReturnValue(new Random().nextBoolean());
+            }
             var id = Identifier.tryParse(getStack().getNbt().getString("material"));
             if (id == null) return;
             var material = MATERIALS.get(id);
