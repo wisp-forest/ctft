@@ -1,5 +1,7 @@
 package com.chyzman.ctft.util;
 
+import net.minecraft.item.ItemStack;
+
 public class CtftMaterial {
     public String name;
     public String texture_name;
@@ -48,4 +50,8 @@ public class CtftMaterial {
     public float velocity;
     public float use_duration;
     public float accuracy_modifier;
+
+//    public static CtftMaterial fromStack(ItemStack stack) {
+//
+//    }
 }
