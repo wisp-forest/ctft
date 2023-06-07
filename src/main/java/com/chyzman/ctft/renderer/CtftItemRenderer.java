@@ -256,6 +256,7 @@ public class CtftItemRenderer implements BuiltinItemRendererRegistry.DynamicItem
                             RenderSystem.enableDepthTest();
                             RenderSystem.enableBlend();
                             RenderSystem.defaultBlendFunc();
+                            MinecraftClient.getInstance().gameRenderer.getLightmapTextureManager().enable();
                             renderMaterial(matrices, piece);
                             tessellator.draw();
                             RenderSystem.disableDepthTest();
