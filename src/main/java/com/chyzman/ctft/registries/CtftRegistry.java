@@ -23,7 +23,8 @@ public class CtftRegistry {
     public static final Item CTFT_AXE = registerItem("axe", new CtftAxeItem(new FabricItemSettings()));
     public static final Item CTFT_SHOVEL = registerItem("shovel", new CtftShovelItem(new FabricItemSettings()));
     public static final Item CTFT_HOE = registerItem("hoe", new CtftHoeItem(new FabricItemSettings()));
-    public static final Item CTFT_SHEARS= registerItem("shears", new CtftShearsItem(new FabricItemSettings()));
+    public static final Item CTFT_SHEARS = registerItem("shears", new CtftShearsItem(new FabricItemSettings()));
+    public static final Item CTFT_BRUSH = registerItem("brush", new CtftBrushItem(new FabricItemSettings()));
 
 
     public static void Init() {

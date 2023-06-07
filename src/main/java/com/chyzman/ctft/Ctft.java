@@ -9,11 +9,8 @@ import io.wispforest.owo.itemgroup.Icon;
 import io.wispforest.owo.itemgroup.OwoItemGroup;
 import io.wispforest.owo.itemgroup.gui.ItemGroupButton;
 import net.fabricmc.api.ModInitializer;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
-
-import java.util.regex.Pattern;
 
 import static com.chyzman.ctft.util.CtftRegistryHelper.id;
 

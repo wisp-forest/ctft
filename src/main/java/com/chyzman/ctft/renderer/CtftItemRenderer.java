@@ -8,7 +8,6 @@ import com.google.common.base.Suppliers;
 import com.mojang.blaze3d.systems.RenderSystem;
 import com.mojang.brigadier.StringReader;
 import com.mojang.brigadier.exceptions.CommandSyntaxException;
-import io.wispforest.owo.ui.util.Drawer;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.fabricmc.fabric.api.client.model.BakedModelManagerHelper;
@@ -34,6 +33,7 @@ import net.minecraft.particle.DefaultParticleType;
 import net.minecraft.particle.ParticleEffect;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.RegistryWrapper;
+import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.RotationAxis;
 import net.minecraft.util.math.Vec3d;
@@ -42,6 +42,7 @@ import org.joml.Quaternionf;
 import org.joml.Random;
 
 import static com.chyzman.ctft.client.CtftClient.CTFTESSELLATOR;
+import static com.chyzman.ctft.client.CtftClient.recursions;
 import static com.chyzman.ctft.util.CtftOverrideHelper.identifier;
 
 @Environment(EnvType.CLIENT)
@@ -60,8 +61,14 @@ public class CtftItemRenderer implements BuiltinItemRendererRegistry.DynamicItem
 
     @Override
     public void render(ItemStack itemStack, ModelTransformationMode mode, MatrixStack matrices, VertexConsumerProvider vertexConsumers, int light, int overlay) {
+        if (recursions > 1) {
+//            recursions = 0;
+            return;
+        }
+        recursions++;
         var player = MinecraftClient.getInstance().player;
         var world = player.getWorld();
+        var nbt = itemStack.getNbt();
         matrices.push();
         matrices.translate(0.5, 0.5, 0.5);
         var lefthanded = mode.getIndex() == 1 || mode.getIndex() == 3;
@@ -69,7 +76,6 @@ public class CtftItemRenderer implements BuiltinItemRendererRegistry.DynamicItem
         if (base_model != null) {
             MinecraftClient.getInstance().getItemRenderer().renderItem(itemStack, mode, lefthanded, matrices, vertexConsumers, light, overlay, base_model);
         }
-        var nbt = itemStack.getNbt();
         Runnable piece;
         if (nbt != null && nbt.getString("material") != null) {
             var material = nbt.getString("material");
@@ -89,9 +95,9 @@ public class CtftItemRenderer implements BuiltinItemRendererRegistry.DynamicItem
             }
             if (!type.isEmpty()) {
                 switch (type) {
-                    case "item": {
+                    case "item" -> {
                         if (material.equals("random")) {
-                            Random random = new Random(world.getTime());
+                            Random random = new Random(world.getTime() + itemStack.hashCode());
                             piece = () -> {
                                 ItemStack stack = new ItemStack(Registries.ITEM.get(random.nextInt(Registries.ITEM.size())));
                                 MinecraftClient.getInstance().getItemRenderer().renderItem(player, stack, ModelTransformationMode.NONE, lefthanded, matrices, vertexConsumers, world, light, overlay, world.random.nextInt());
@@ -113,42 +119,43 @@ public class CtftItemRenderer implements BuiltinItemRendererRegistry.DynamicItem
                                     matrices.scale(1 / scale, 1 / scale, 1 / scale);
                                 };
                             } else {
-                                MinecraftClient.getInstance().getBufferBuilders().getEntityVertexConsumers().draw();
-                                matrices.push();
-                                matrices.loadIdentity();
-                                var viewStack = RenderSystem.getModelViewStack();
-                                viewStack.push();
-                                viewStack.loadIdentity();
-                                viewStack.scale(2, 2, 2);
-                                RenderSystem.backupProjectionMatrix();
-                                Matrix4f projectionMatrix = new Matrix4f().setOrtho(-1, 1, -1, 1, -1000, 3000);
-                                RenderSystem.setProjectionMatrix(projectionMatrix);
-                                RenderSystem.applyModelViewMatrix();
-                                var framebuffer = FRAMEBUFFER.get();
-                                framebuffer.clear(MinecraftClient.IS_SYSTEM_MAC);
-                                framebuffer.beginWrite(false);
-                                MinecraftClient.getInstance().getItemRenderer().renderItem(player, stack, ModelTransformationMode.NONE, lefthanded, matrices, vertexConsumers, world, light, overlay, world.random.nextInt());
-                                MinecraftClient.getInstance().getBufferBuilders().getEntityVertexConsumers().draw();
-                                matrices.pop();
-                                viewStack.pop();
-                                RenderSystem.restoreProjectionMatrix();
-                                RenderSystem.applyModelViewMatrix();
-                                MinecraftClient.getInstance().getFramebuffer().beginWrite(true);
+//                                MinecraftClient.getInstance().getBufferBuilders().getEntityVertexConsumers().draw();
+//                                matrices.push();
+//                                matrices.loadIdentity();
+//                                var viewStack = RenderSystem.getModelViewStack();
+//                                viewStack.push();
+//                                viewStack.loadIdentity();
+//                                viewStack.scale(2, 2, 2);
+//                                RenderSystem.backupProjectionMatrix();
+//                                Matrix4f projectionMatrix = new Matrix4f().setOrtho(-1, 1, -1, 1, -1000, 3000);
+//                                RenderSystem.setProjectionMatrix(projectionMatrix);
+//                                RenderSystem.applyModelViewMatrix();
+//                                var framebuffer = FRAMEBUFFER.get();
+//                                framebuffer.clear(MinecraftClient.IS_SYSTEM_MAC);
+//                                framebuffer.beginWrite(false);
+//                                MinecraftClient.getInstance().getItemRenderer().renderItem(player, stack, ModelTransformationMode.NONE, lefthanded, matrices, vertexConsumers, world, light, overlay, world.random.nextInt());
+//                                MinecraftClient.getInstance().getBufferBuilders().getEntityVertexConsumers().draw();
+//                                matrices.pop();
+//                                viewStack.pop();
+//                                RenderSystem.restoreProjectionMatrix();
+//                                RenderSystem.applyModelViewMatrix();
+//                                MinecraftClient.getInstance().getFramebuffer().beginWrite(true);
                                 piece = () -> {
-                                    RenderSystem.enableDepthTest();
-                                    RenderSystem.setShaderTexture(0, framebuffer.getColorAttachment());
-                                    matrices.translate(-0.5, -0.5, 0);
-                                    Drawer.drawTexture(matrices, 0, 1, 1, -1, 0, framebuffer.textureHeight, framebuffer.textureWidth, -framebuffer.textureHeight, framebuffer.textureWidth, framebuffer.textureHeight);
-                                    matrices.translate(0.5, 0.5, 0);
+                                    MinecraftClient.getInstance().getItemRenderer().renderItem(player, stack, ModelTransformationMode.NONE, lefthanded, matrices, vertexConsumers, world, light, overlay, world.random.nextInt());
+//                                    RenderSystem.enableDepthTest();
+//                                    RenderSystem.setShaderTexture(0, framebuffer.getColorAttachment());
+//                                    matrices.translate(-0.5, -0.5, 0);
+//                                    Drawer.drawTexture(matrices, 0, 1, 1, -1, 0, framebuffer.textureHeight, framebuffer.textureWidth, -framebuffer.textureHeight, framebuffer.textureWidth, framebuffer.textureHeight);
+//                                    matrices.translate(0.5, 0.5, 0);
                                 };
                             }
                             renderMaterial(matrices, piece);
                         } catch (CommandSyntaxException ignored) {
                         }
                     }
-                    case "block": {
+                    case "block" -> {
                         if (material.equals("random")) {
-                            Random random = new Random(world.getTime());
+                            Random random = new Random(world.getTime() + itemStack.hashCode());
                             piece = () -> {
                                 matrices.translate(-0.5, -0.5, -0.5);
                                 BlockState state = Registries.BLOCK.get(random.nextInt(Registries.BLOCK.size())).getDefaultState();
@@ -174,9 +181,9 @@ public class CtftItemRenderer implements BuiltinItemRendererRegistry.DynamicItem
                         } catch (CommandSyntaxException ignored) {
                         }
                     }
-                    case "entity": {
+                    case "entity" -> {
                         if (material.equals("random")) {
-                            Random random = new Random(world.getTime());
+                            Random random = new Random(world.getTime() + itemStack.hashCode());
                             piece = () -> {
                                 Entity entity = Registries.ENTITY_TYPE.stream().filter(EntityType::isSummonable).toList().get(random.nextInt(Registries.ENTITY_TYPE.stream().filter(EntityType::isSummonable).toList().size())).create(MinecraftClient.getInstance().world);
                                 var scale = Math.min(1, 0.5f / Math.min(entity.getWidth(), entity.getHeight()));
@@ -213,7 +220,7 @@ public class CtftItemRenderer implements BuiltinItemRendererRegistry.DynamicItem
                         } catch (CommandSyntaxException ignored) {
                         }
                     }
-                    case "particle": {
+                    case "particle" -> {
                         ParticleEffect particleEffect;
                         try {
                             particleEffect = ParticleEffectArgumentType.readParameters(new StringReader(itemStack.getNbt().getString("material")), Registries.PARTICLE_TYPE.getReadOnlyWrapper());
@@ -260,6 +267,7 @@ public class CtftItemRenderer implements BuiltinItemRendererRegistry.DynamicItem
             }
         }
         matrices.pop();
+        recursions--;
     }
 
     public void renderMaterial(MatrixStack matrices, Runnable piece) {

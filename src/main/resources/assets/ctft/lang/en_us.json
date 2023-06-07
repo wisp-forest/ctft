@@ -5,6 +5,7 @@
   "item.ctft.shovel": "%s Shovel",
   "item.ctft.hoe": "%s Hoe",
   "item.ctft.shears": "%s Shears",
+  "item.ctft.brush": "%s Brush",
   "itemGroup.ctft.ctft_group" : "Craft This From That",
   "itemGroup.ctft.ctft_group.tab.ctft_swords" : "Swords",
   "itemGroup.ctft.ctft_group.tab.ctft_pickaxes" : "Pickaxes",

@@ -1,0 +1,15 @@
+{
+  "type": "ctft:crafting_shaped",
+  "pattern": [
+    " X",
+    "X "
+  ],
+  "key": {
+    "X": {
+      "fabric:type": "ctft:ctft"
+    }
+  },
+  "result": {
+    "item": "ctft:shears"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "ctft:crafting_shaped",
+  "pattern": [
+    "X",
+    "c",
+    "s"
+  ],
+  "key": {
+    "c": {
+      "item": "minecraft:copper_ingot"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "fabric:type": "ctft:ctft"
+    }
+  },
+  "result": {
+    "item": "ctft:brush"
+  }
+}

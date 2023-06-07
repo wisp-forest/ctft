@@ -1,0 +1,19 @@
+{
+  "type": "ctft:crafting_shaped",
+  "pattern": [
+    "XX",
+    " #",
+    " #"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "fabric:type": "ctft:ctft"
+    }
+  },
+  "result": {
+    "item": "ctft:hoe"
+  }
+}

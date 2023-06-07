@@ -9,6 +9,7 @@ group = project.maven_group
 
 repositories {
     maven { url 'https://maven.wispforest.io' }
+    maven { url "https://maven.shedaniel.me" }
 }
 
 dependencies {
@@ -17,6 +18,10 @@ dependencies {
     modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 
     modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+
+    modCompileOnly "me.shedaniel:RoughlyEnoughItems-api-fabric:${project.rei_version}"
+    modRuntimeOnly "me.shedaniel:RoughlyEnoughItems-fabric:${project.rei_version}"
+    modCompileOnly "me.shedaniel:RoughlyEnoughItems-default-plugin-fabric:${project.rei_version}"
 
     annotationProcessor modImplementation("io.wispforest:owo-lib:${project.owo_version}") {
         exclude group: "net.fabricmc.fabric-api"
