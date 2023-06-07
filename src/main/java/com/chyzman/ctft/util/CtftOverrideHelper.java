@@ -102,30 +102,34 @@ public class CtftOverrideHelper {
 
     public static void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
         ItemStringReader.ItemResult result;
-        try {
-            result = ItemStringReader.item(Registries.ITEM.getReadOnlyWrapper(), new StringReader(stack.getNbt().getString("material")));
-            ItemStack material_stack = new ItemStack(result.item());
-            material_stack.setNbt(result.nbt());
-            material_stack.addHideFlag(ItemStack.TooltipSection.MODIFIERS);
-            var material_tooltip = material_stack.getTooltip(MinecraftClient.getInstance().player, TooltipContext.BASIC);
-            if (material_tooltip.size() > 1) {
+        if (stack.getNbt() != null) {
+            try {
+                result = ItemStringReader.item(Registries.ITEM.getReadOnlyWrapper(), new StringReader(stack.getNbt().getString("material")));
+                ItemStack material_stack = new ItemStack(result.item());
+                material_stack.setNbt(result.nbt());
+                material_stack.addHideFlag(ItemStack.TooltipSection.MODIFIERS);
+                var material_tooltip = material_stack.getTooltip(MinecraftClient.getInstance().player, TooltipContext.BASIC);
+                if (material_tooltip.size() > 1) {
 //                tooltip.add(Text.literal("Material:"));
 //                tooltip.add(Text.literal("> ").append(material_tooltip.get(0)));
-                material_tooltip.remove(0);
-                tooltip.addAll(material_tooltip);
+                    material_tooltip.remove(0);
+                    tooltip.addAll(material_tooltip);
+                }
+            } catch (CommandSyntaxException ignored) {
             }
-        } catch (CommandSyntaxException ignored) {
         }
     }
 
     public static Optional<TooltipData> getTooltipData(ItemStack stack) {
         ItemStringReader.ItemResult result;
-        try {
-            result = ItemStringReader.item(Registries.ITEM.getReadOnlyWrapper(), new StringReader(stack.getNbt().getString("material")));
-            ItemStack material_stack = new ItemStack(result.item());
-            material_stack.setNbt(result.nbt());
-            return material_stack.getTooltipData();
-        } catch (CommandSyntaxException ignored) {
+        if (stack.getNbt() != null) {
+            try {
+                result = ItemStringReader.item(Registries.ITEM.getReadOnlyWrapper(), new StringReader(stack.getNbt().getString("material")));
+                ItemStack material_stack = new ItemStack(result.item());
+                material_stack.setNbt(result.nbt());
+                return material_stack.getTooltipData();
+            } catch (CommandSyntaxException ignored) {
+            }
         }
         return Optional.empty();
     }

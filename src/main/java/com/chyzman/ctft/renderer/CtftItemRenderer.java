@@ -254,6 +254,8 @@ public class CtftItemRenderer implements BuiltinItemRendererRegistry.DynamicItem
                                 matrices.scale(1 / 16f, 1 / 16f, 1 / 16f);
                             };
                             RenderSystem.enableDepthTest();
+                            RenderSystem.enableBlend();
+                            RenderSystem.defaultBlendFunc();
                             renderMaterial(matrices, piece);
                             tessellator.draw();
                             RenderSystem.disableDepthTest();
